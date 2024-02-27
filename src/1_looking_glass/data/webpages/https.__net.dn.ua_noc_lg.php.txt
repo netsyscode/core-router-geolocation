@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>NetHolding - Network Operatrions Center: whois 164.70.99.9</title>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Igor (Dicr) Tarasov"/>
+    <link rel="author" href="https://dicr.org"/>
+    <meta name="copyright" content="NetHolding"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/><!-- For MSIE -->
+    <link rel="icon" href="/favicon.png" type="image/png"/><!-- Standard -->
+    <meta name="alexaVerifyID" content="y8xYVKcDTfvnABKUFlIb2IWlhtQ"/>
+    <meta name="msvalidate.01" content="73AF6CE9B5D25AD3052D39417ADC46FC"/>
+    <meta name="yandex-verification" content="3c23820a93f30ba0"/>
+    <meta name="google-site-verification" content="JSFVLPEf2v_IdL30VvtWyy1qPS_TsfmP_JKbVWl_lt8"/>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css"/><link rel="stylesheet" type="text/css" href="/css/style.site.css"/><link rel="stylesheet" type="text/css" href="/css/style.white.css"/><script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>        <meta name="keywords" content="noc, whois, ping, trceroute, bgp, looking glass, 164.70.99.9"/>
+        <meta name="description" content="NOC - центр сетевых операций (whois, ping, traceroute, nslookup, mtr, bgp): 164.70.99.9"/>
+        <link rel="stylesheet" type="text/css" href="//net.dn.ua/lib/siteheader/siteheader.css"/><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.sitefooter, .sitefooter a {
+    font-weight: normal;
+    font-family: "Tahma", "Arial", sans-serif;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sitefooter .counters {
+    margin: 10px auto 0 auto;
+}
+
+.sitefooter img {
+    border: none;
+    display: inline;
+    vertical-align: top;
+}
+
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.columnspage {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.columnspage > tbody > tr {
+    vertical-align: top;
+}
+
+.columnspage #center_column {
+    width: 100%;
+}
+
+
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.boxpanel {
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxpanel > .panelhead {
+    margin: 0;
+    padding: 4px 10px;
+    white-space: nowrap;
+    text-indent: 0;
+    overflow: hidden;
+    text-shadow: -1px -1px 1px rgba(99%, 99%, 99%, 0.5);
+}
+
+.boxpanel > .icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.boxpanel > .panelbody {
+    padding: 5px;
+    overflow: auto;
+}
+
+.boxpanel .separator {
+    clear: both;
+    border: dashed #ccc;
+    border-width: 1px 0 0 0;
+    margin: 5px 0;
+}
+</style><script type="text/javascript">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+$(function () {
+    $(".boxpanel .panelhead").click(function () {
+        $(this).closest(".boxpanel").find(".panelbody").slideToggle("fast");
+    });
+});
+</script><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.panelmenu {
+    overflow: hidden;
+}
+
+.panelmenu > a {
+    display: block;
+    white-space: nowrap;
+    padding: 3px 5px;
+    font-family: "Tahoma", "Arial", sans-serif;
+    text-shadow: 1px 1px 2px rgba(30%, 30%, 30%, 0.2);
+    font-size: 14px;
+}
+
+.panelmenu > a:hover {
+    color: rgb(0%, 0%, 100%);
+    background-color: rgb(90%, 90%, 90%);
+    text-decoration: none;
+}
+
+.panelmenu > a > img {
+    border: none;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.panelmenu > a > strong, .panelmenu a:active {
+    color: rgb(80%, 10%, 10%);
+    font-weight: bold;
+}
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.weatherpanel {
+    width: 100%;
+    cursor: pointer;
+}
+
+.weatherpanel tr:hover {
+    background-color: #eee;
+}
+
+.weatherpanel th {
+    font: normal 14px "Arial", sans-serif;
+    white-space: nowrap;
+    text-align: left;
+    padding: 1px 10px 1px 1px;
+    color: #555;
+}
+
+.weatherpanel td {
+    font: normal 14px "Arial", sans-serif;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 1px 1px 1px 5px;
+    color: #444;
+}
+
+.weatherpanel img {
+    vertical-align: middle;
+    display: inline;
+    border: none;
+}
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.moneypanel {
+    cursor: pointer;
+}
+
+.moneypanel tr:hover {
+    background-color: #eee;
+}
+
+.moneypanel th {
+    font: normal 12px "Arial", sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 1px 10px 1px 1px;
+}
+
+.moneypanel td {
+    font: normal 14px "Arial", sans-serif;
+    color: #555;
+    padding: 1px 3px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.moneypanel a {
+    text-decoration: none;
+}
+
+.moneypanel img {
+    border: none;
+    display: inline;
+    margin: 1px 5px 1px 1px;
+    vertical-align: middle;
+}
+</style><script type="text/javascript" src="/time/ntpclock.js"></script><style type="text/css">        .ntppanel {            text-align: center;        }        .ntppanel #ntpclock {            font: bold 36px "Arial",sans-serif;            color: #aa8;            text-align: center;            text-shadow: 1px 1px 0 rgba(0,0,0,0.6);        }        .ntppanel #ntpdate {            font: bold 12px "Arial",sans-serif;            color: #444444;            text-align: center;        }
+        </style><link rel="stylesheet" type="text/css" href="/scode/panel.css"/><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+/**********************************************************************************/
+.terminalpanel {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.1em;
+    background-color: rgb(15%, 15%, 15%);
+    color: rgb(30%, 100%, 30%);
+    padding: 10px;
+    border: 1px solid rgb(80%, 80%, 80%);
+}
+
+</style>
+</head>
+<body>
+    <!-- ?php require_once(__DIR__.'/ny/block.newyear.php')?-->
+    <header class="siteheader" title="Network Operatrions Center: whois 164.70.99.9"><div class="links" title="Провайдер Интернет в Донецке"><a  href="//net.dn.ua/" title="Интернет-провайдер NetHolding">Главная</a><a  href="//net.dn.ua/services/" title="Подключение Интернет, хостинг файлов, регистрация доменов в Донецке">Услуги</a><a  href="//net.dn.ua/clients/" title="Настройка параметров и ресурсы сети для клиентов в Донецке">Клиентам</a><a  href="//net.dn.ua/contacts/" title="Отправить сообщение в службу поддержки абонентов в Донецке">Контакты</a></div>        <div class="infoblock">
+            <a href="//net.dn.ua/noc/" title="Ваш IP-адрес (Whois)"><img src="//net.dn.ua/img/ihostname.png"
+                        alt="IP address"/>164.70.99.9</a>
+                            <a href="//net.dn.ua/profile/" title="Войти на сайт под своим логином и паролем"><img
+                            src="//net.dn.ua/profile/img/login.png" alt="login"/>войти на сайт</a>
+                    </div>
+        </header>        <table class="columnspage">
+            <tr>
+                <td id="left_column"><div class="boxpanel"><div class="panelhead">Проекты</div><img class="icon" src="/img/icon.png" alt="icon"/><div class="panelbody"><div class="panelmenu"><a href="/weather/" title="Точный прогноз и архив погоды в Донецке"><img src="/weather/img/icon.png" alt="Точный прогноз и архив погоды в Донецке"/>Прогноз погоды</a><a href="/money/" title="Курсы валют в Украине, графики, архивы курса валют НБУ, калькулятор валют"><img src="/money/img/icon.png" alt="Курсы валют в Украине, графики, архивы курса валют НБУ, калькулятор валют"/>Курсы валют</a><a href="/time/" title="NTP-сервер точного времени в Донецке (Украина)"><img src="/time/img/icon.png" alt="NTP-сервер точного времени в Донецке (Украина)"/>Точное время</a><a href="/search/" title="Поиск сайтов, музыки, картиок"><img src="/search/img/icon.png" alt="Поиск сайтов, музыки, картиок"/>Поиск в Интернет</a><a href="/noc/" title="Центр сетевых операций (NOC), измерение скорости Интернета (SpeedTest)"><img src="/noc/img/icon.png" alt="Центр сетевых операций (NOC), измерение скорости Интернета (SpeedTest)"/><strong>Инструменты сети</strong></a><a href="http://mail.net.dn.ua" title="Бесплатная Веб-почта для работы по IMAP с E-Mail от NetHolding, GMail, MailRU, Yandex и др."><img src="/mail/img/icon.png" alt="Бесплатная Веб-почта для работы по IMAP с E-Mail от NetHolding, GMail, MailRU, Yandex и др."/>Веб-почта</a></div></div></div><div class="boxpanel"><div class="panelhead">Инструменты</div><img class="icon" src="img/icon.png" alt="icon"/><div class="panelbody"><div class="panelmenu"><a href="lg.php" title="Сетевые инструменты: whois, ping, traceroute, bgp"><img src="/img/menu_item.png" alt="Сетевые инструменты: whois, ping, traceroute, bgp"/><strong>Инструменты сети</strong></a></div></div></div></td>
+                <td id="center_column"><div class="boxpanel"><h1 class="panelhead">Network Operatrions Center: whois 164.70.99.9</h1><img class="icon" src="/noc/img/icon.png" alt="icon"/><div class="panelbody">    <article>
+        <fieldset class="edit">
+            <legend>Параметры запроса</legend>
+
+            <form action='' method="get">
+                Команда: <select name="cmd">
+                                            <option value="whois" selected="selected" >whois</option>
+                                            <option value="nslookup"  >nslookup</option>
+                                            <option value="ping"  >ping</option>
+                                            <option value="traceroute"  >traceroute</option>
+                                            <option value="mtr"  >mtr</option>
+                                            <option value="bgp"  >bgp</option>
+                                    </select> <input type="text" name="query" value="164.70.99.9"/>
+                <input type="submit" value="Выполнить"/>
+            </form>
+        </fieldset>
+
+        <pre class="terminalpanel">
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       164.69.0.0 - 164.71.255.255
+CIDR:           164.69.0.0/16, 164.70.0.0/15
+NetName:        APNIC-ERX-164-69-0-0
+NetHandle:      NET-164-69-0-0-1
+Parent:         NET164 (NET-164-0-0-0-0)
+NetType:        Early Registrations, Transferred to APNIC
+OriginAS:       
+Organization:   Asia Pacific Network Information Centre (APNIC)
+RegDate:        2003-07-23
+Updated:        2009-10-08
+Comment:        This IP address range is not registered in the ARIN database.
+Comment:        This range was transferred to the APNIC Whois Database as
+Comment:        part of the ERX (Early Registration Transfer) project.
+Comment:        For details, refer to the APNIC Whois Database via
+Comment:        WHOIS.APNIC.NET or http://wq.apnic.net/apnic-bin/whois.pl
+Comment:        
+Comment:        ** IMPORTANT NOTE: APNIC is the Regional Internet Registry
+Comment:        for the Asia Pacific region.  APNIC does not operate networks
+Comment:        using this IP address range and is not able to investigate
+Comment:        spam or abuse reports relating to these addresses.  For more
+Comment:        help, refer to http://www.apnic.net/apnic-info/whois_search2/abuse-and-spamming
+Ref:            https://rdap.arin.net/registry/ip/164.69.0.0
+
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+ResourceLink:  whois.apnic.net
+
+
+OrgName:        Asia Pacific Network Information Centre
+OrgId:          APNIC
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+PostalCode:     4101
+Country:        AU
+RegDate:        
+Updated:        2012-01-24
+Ref:            https://rdap.arin.net/registry/entity/APNIC
+
+ReferralServer:  whois://whois.apnic.net
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+
+OrgTechHandle: AWC12-ARIN
+OrgTechName:   APNIC Whois Contact
+OrgTechPhone:  +61 7 3858 3188 
+OrgTechEmail:  search-apnic-not-arin@apnic.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+OrgAbuseHandle: AWC12-ARIN
+OrgAbuseName:   APNIC Whois Contact
+OrgAbusePhone:  +61 7 3858 3188 
+OrgAbuseEmail:  search-apnic-not-arin@apnic.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Найдено перенаправление на whois.apnic.net.
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to &#039;164.70.64.0 - 164.70.127.255&#039;
+
+% Abuse contact for &#039;164.70.64.0 - 164.70.127.255&#039; is &#039;hostmaster@nic.ad.jp&#039;
+
+inetnum:        164.70.64.0 - 164.70.127.255
+netname:        InfoSphere
+descr:          NTT PC Communications,Inc.
+descr:          2-14-11, NishiShinbashi,Minato-ku, Tokyo 105-0003, Japan
+country:        JP
+admin-c:        JNIC1-AP
+tech-c:         JNIC1-AP
+status:         ALLOCATED PORTABLE
+remarks:        Email address for spam or abuse complaints : abuse@nttpc.co.jp
+mnt-by:         MAINT-JPNIC
+mnt-irt:        IRT-JPNIC-JP
+mnt-lower:      MAINT-JPNIC
+last-modified:  2021-06-13T07:00:09Z
+source:         APNIC
+
+irt:            IRT-JPNIC-JP
+address:        Uchikanda OS Bldg 4F, 2-12-6 Uchi-Kanda
+address:        Chiyoda-ku, Tokyo 101-0047, Japan
+e-mail:         hostmaster@nic.ad.jp
+abuse-mailbox:  hostmaster@nic.ad.jp
+phone:          +81-3-5297-2311
+fax-no:         +81-3-5297-2312
+admin-c:        JNIC1-AP
+tech-c:         JNIC1-AP
+auth:           # Filtered
+remarks:        hostmaster@nic.ad.jp was validated on 2020-07-23
+mnt-by:         MAINT-JPNIC
+last-modified:  2022-06-14T04:26:58Z
+source:         APNIC
+
+role:           Japan Network Information Center
+address:        Uchikanda OS Bldg 4F, 2-12-6 Uchi-Kanda
+address:        Chiyoda-ku, Tokyo 101-0047, Japan
+country:        JP
+phone:          +81-3-5297-2311
+fax-no:         +81-3-5297-2312
+e-mail:         hostmaster@nic.ad.jp
+admin-c:        JI13-AP
+tech-c:         JE53-AP
+nic-hdl:        JNIC1-AP
+mnt-by:         MAINT-JPNIC
+last-modified:  2022-01-05T03:04:02Z
+source:         APNIC
+
+% Information related to &#039;164.70.99.0 - 164.70.99.255&#039;
+
+inetnum:        164.70.99.0 - 164.70.99.255
+netname:        SIMPLEIA-NET
+descr:          Server Hosting Service (NTTPCCommunications,Inc.)
+country:        JP
+admin-c:        JP00010938
+tech-c:         JP00010938
+remarks:        This information has been partially mirrored by APNIC from
+remarks:        JPNIC. To obtain more specific information, please use the
+remarks:        JPNIC WHOIS Gateway at
+remarks:        http://www.nic.ad.jp/en/db/whois/en-gateway.html or
+remarks:        whois.nic.ad.jp for WHOIS client. (The WHOIS client
+remarks:        defaults to Japanese output, use the /e switch for English
+remarks:        output)
+last-modified:  2020-11-25T02:44:09Z
+source:         JPNIC
+
+% This query was served by the APNIC Whois Service version 1.88.25 (WHOIS-UK3)
+
+
+</pre>        <br/>
+    </article>
+</div></div></td>
+                <td id="right_column"><div class="boxpanel"><div class="panelhead"><a href="/money/">Валюта</a></div><img class="icon" src="/money/img/icon.png" alt="icon"/><div class="panelbody"><table class="moneypanel" onclick="self.location.href='/money/'" title="Курсы валют в Донецке"><tr><th><a href="/money/stat.php?valute=12"><img src="/img/flag_usd.png" alt="USD" title="usd"/>usd</a></th><td>23,26</td><td>(-0,93853)</td></tr><tr><th><a href="/money/stat.php?valute=22"><img src="/img/flag_rub.png" alt="RUB" title="rub"/>rub</a></th><td>0,37</td><td>(-0,00489)</td></tr><tr><th><a href="/money/stat.php?valute=33"><img src="/img/flag_eur.png" alt="EUR" title="eur"/>eur</a></th><td>25,77</td><td>(-1,06651)</td></tr></table></div></div><div class="boxpanel"><div class="panelhead"><a href="/time/">Точное время</a></div><img class="icon" src="/time/img/icon.png" alt="icon"/><div class="panelbody">        <div class="ntppanel">
+            <div id="ntpclock"></div>
+            <div id="ntpdate">Пн. 18 Декабрь 2023</div>
+        </div>
+        <script type="text/javascript">NTPClock.setup('ntpclock');</script>
+        </div></div><div class="boxpanel"><div class="panelhead"><a href="/payments/">Пополнение счета</a></div><img class="icon" src="/img/icon.png" alt="icon"/><div class="panelbody">        <table class="scodepanel" id="f340f1b1f65b6df5b5e3f94d95b11daf">
+            <tbody>
+                            <tr>
+                    <th>Логин:</th>
+                    <td><input class="slogin" id="slogin" type="text" name="slogin" value="" size="20"/></td>
+                </tr>
+                        <tr>
+                <th>Код:</th>
+                <td style="white-space: nowrap"><input class="si" type="text" name="s1" id="s1" size="4" maxlength="4"/>-<input
+                            class="si" type="text" name="s2" id="s2" size="4" maxlength="4"/>-<input class="si"
+                            type="text" name="s3" id="s3" size="4" maxlength="4"/>-<input class="si" type="text"
+                            name="s4" id="s4" size="4" maxlength="4"/></td>
+            </tr>
+            </tbody>
+                            <tfoot>
+                <tr>
+                    <th>&nbsp;</th>
+                    <td><input class="button submit" type="submit"
+                                value="Пополнить счет"/></td>
+                </tr>
+                </tfoot>
+                    </table>
+        <script>
+            $(function () {
+                $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s1').keypress(function (event) {
+                    if ($(this).val().length >= 3) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s2').focus();
+                    }
+                });
+
+                $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s2').keypress(function (event) {
+                    if ($(this).val().length >= 3) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s3').focus();
+                    }
+                }).keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s1').focus();
+                    }
+                });
+
+                $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s3').keypress(function (event) {
+                    if ($(this).val() != null && $(this).val().length >= 3) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s4').focus();
+                    }
+                }).keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s2').focus();
+                    }
+                });
+
+                $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s4').keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf #s3').focus();
+                    }
+                });
+
+                $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf .submit').click(function (event) {
+                    var $errfocus = null;
+                    $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf .slogin').each(function () {
+                        if ($(this).val() != null && $(this).val().length > 0) {
+                            $(this).css('border-color', '#eeeeee');
+                        } else {
+                            $(this).css('border-color', '#ff0000');
+                            $errfocus = $(this);
+                        }
+                    });
+                    $('.scodepanel#f340f1b1f65b6df5b5e3f94d95b11daf .si').each(function () {
+                        if ($(this).val() != null && $(this).val().match(/^\d{4}$/)) {
+                            $(this).css('border-color', '#eeeeee');
+                        } else {
+                            $(this).css('border-color', '#ff0000');
+                            if ($errfocus == null) {
+                                $errfocus = $(this);
+                            }
+                        }
+                    });
+                    if ($errfocus != null) {
+                        alert("Проверьте ввод !!!");
+                        event.preventDefault();
+                        $errfocus.focus();
+                    }
+                });
+            });
+        </script>
+        </div></div><div class="boxpanel"><div class="panelhead">Реклама</div><img class="icon" src="/reklam/img/icon.png" alt="icon"/><div class="panelbody"></div></div></td>
+            </tr>
+        </table>
+                <footer class="sitefooter">
+            <div class="copy">&copy; by <a rel="nofollow" href="/counter/go.php?id=7"
+                        title="Web-разработчик, Java-программист, Linux-администратор">Dicr</a>, <a href="/services/"
+                        title="Интернет-провайдер, подключение к интернет-сети в Донецке">Интернет-провайдер
+                    NetHolding</a>, 1999-2023.
+            </div>
+            <div class="counters">
+                <br/>
+                <!-- NetHolding -->
+                <script src="/counter/banner.js?id=1"></script>
+            </div>
+        </footer>        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript"> (function (d, w, c) {
+                (w[c] = w[c] || []).push(function () {
+                    try {
+                        w.yaCounter12980653 = new Ya.Metrika({
+                            id: 12980653,
+                            clickmap: true,
+                            trackLinks: true,
+                            accurateTrackBounce: true,
+                            webvisor: true,
+                            ecommerce: "dataLayer"
+                        });
+                    } catch (e) {
+                    }
+                });
+                var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else {
+                    f();
+                }
+            })(document, window, "yandex_metrika_callbacks"); </script>
+        <noscript>
+            <div><img src="https://mc.yandex.ru/watch/12980653" style="position:absolute; left:-9999px;" alt=""/></div>
+        </noscript> <!-- /Yandex.Metrika counter -->
+        
+</body>
+</html>

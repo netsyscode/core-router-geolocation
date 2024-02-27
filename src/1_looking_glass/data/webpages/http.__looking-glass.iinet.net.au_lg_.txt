@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<style type="text/css">
+html, body, p, table, td, th, h1, h2, h3, h4, a {
+        font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+}
+a,
+a:link,
+a:visited {
+	color: #444444;
+	text-decoration: none;
+	}
+a:hover,
+a:active {
+	color: #EE5400;
+	}
+h1,h2,h3,h4,h5,h6 {
+ color: #FF6600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+        }
+hr { display: none; }
+th  { background-color: #F59400; font-weight:bold; color: #FFFFFF; }
+.lgtable td { background-color: #F5F5F5; }
+ pre code a { font-family: monospace} 
+body,html { background-color: #F3F3F3; } 
+</style>
+<TITLE>iiNet (AS4802/AS4739) Looking Glass</TITLE>
+<meta charset="UTF-8" name="copyright" content="iiNet Ltd"> <meta name="keywords" content="internode, 4739, as4739, asn4739, iinet, as4802, asn4802, 4802, looking, glass, bgp, router, peer, transit, as, path, trace, traceroute, route, ping, ipv4, ipv6, ip"> <meta name="classification" content="Internet Services"> <meta name="description" content="BGP summary, routing, traceroute and ping for Internode's International IPv4 and IPv6 networks - AS4739."> <meta name="robots" content="all">
+<LINK REL="icon" HREF="/favicon.gif" type="image/gif">
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<HEAD>
+<script type="text/javascript">
+function makeDisable(){
+document.getElementsByName('router')[0].disabled=true
+}
+function makeEnable(){
+document.getElementsByName('router')[0].disabled=false
+}
+</script>
+</HEAD>
+<br><br><br>
+<div style="border: 1px solid #EE5400; margin-left: auto; margin-right: auto; width:80%; padding: 30px; background-color: #FFFFFF;">
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.iinet.net.au/"><IMG SRC="/iinet_logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>iiNet (AS4739) Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/lg.cgi">
+<CENTER>
+<TABLE BORDER=0 class="lgtable"><TR><TD class="lgtable">
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 class="lgtable">
+<TR>
+<TH BGCOLOR="#000000" NOWRAP>Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP>Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP>Node</FONT></TH></TR>
+<TR><TD class="lgtable">
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 class="lgtable">
+<TR><TD class="lgtable"><INPUT TYPE="radio" NAME="query" VALUE="bgp" onClick="makeDisable()" </TD><TD class="lgtable">&nbsp;bgp</TD></TR>
+<TR><TD class="lgtable"><INPUT TYPE="radio" NAME="query" VALUE="summary" onClick="makeDisable()"></TD><TD class="lgtable">&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD class="lgtable"><INPUT TYPE="radio" NAME="query" VALUE="ping" onClick="makeEnable()"></TD><TD class="lgtable">&nbsp;ping</TD></TR>
+<TR><TD class="lgtable"><INPUT TYPE="radio" NAME="query" VALUE="trace"  onClick="makeEnable()"></TD><TD class="lgtable">&nbsp;trace</TD></TR>
+<TR><TD class="lgtable"></TD><TD class="lgtable"><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD class="lgtable" ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD class="lgtable" ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router" disabled="true" >
+<OPTGROUP LABEL="BGP Queries">
+<OPTION VALUE="AS4739 view"> AS4739 view
+</OPTGROUP>
+<OPTGROUP LABEL="AS4739 Ping/Traceroute">
+<OPTION VALUE="AS4739 - Adelaide, AU"> AS4739 - Adelaide, AU
+<OPTION VALUE="AS4739 - Brisbane, AU"> AS4739 - Brisbane, AU
+<OPTION VALUE="AS4739 - Darwin, AU"> AS4739 - Darwin, AU
+<OPTION VALUE="AS4739 - Hobart, AU"> AS4739 - Hobart, AU
+<OPTION VALUE="AS4739 - Melbourne, AU"> AS4739 - Melbourne, AU
+<OPTION VALUE="AS4739 - Perth, AU"> AS4739 - Perth, AU
+<OPTION VALUE="AS4739 - Sydney, AU"> AS4739 - Sydney, AU
+</OPTGROUP>
+<OPTGROUP LABEL="Coffee">
+<OPTION VALUE="AS4739 Coffee Cam"> AS4739 Coffee Cam *
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
+</TR>
+<TR><TD class="lgtable" ALIGN="CENTER" COLSPAN=3>
+<INPUT TYPE="SUBMIT" onClick="makeEnable()" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><FONT SIZE ="-3">You are connected using <font color="red"><b>IPv4</b></font> from 164.70.99.9.</p>
+</FONT></CENTER><CENTER><FONT SIZE ="-3">Disclaimer: Looking Glass is not to be used with ANY automated scripts. Ignoring this policy will result in being banned. All transactions are logged. Contact route-views@ii.net with any questions or feedback.
+</FONT></CENTER>
+<P>
+<CENTER>
+<P>
+</CENTER>
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try{
+        var pageTracker = _gat._getTracker("UA-9015291-2"); pageTracker._setDomainName(".internode.on.net");
+        pageTracker._setAllowLinker(true);
+        pageTracker._setAllowHash(false);
+        pageTracker._trackPageview();
+        } catch(err) {}
+        </script>
+
+</BODY>
+</HTML>

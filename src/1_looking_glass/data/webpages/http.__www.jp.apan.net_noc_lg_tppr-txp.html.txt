@@ -1,0 +1,80 @@
+<html>
+<HEAD>
+<title>Looking Glass</title>
+<meta http-equiv="refresh" CONTENT="0;URL=http://tools.jp.apan.net/rp/">
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" text="#000000" link="#808040" vlink="#800000" alink="#FF0000">
+
+<center>
+<img src="http://www.jp.apan.net/apan-logo.jpg">
+<h2>tppr-txp Looking Glass</h2>
+</center>
+
+
+<p>
+<hr size=2 width=85%>
+<p>
+
+<!--- start page content --->
+
+<form method="POST" action="http://tools.jp.apan.net/cgi-bin/lg/tppr-txp.pl">
+
+<dl>
+<dt> <b>Query:</b>
+   <dd>
+   <input type="radio" name="query" value="regexp"> bgp regexp
+   <dd>
+   <input type="radio" name="query" value="bgp"> bgp
+   <dd>
+   <input type="radio" name="query" value="summary"> bgp summary
+   <dd>
+   <input type="radio" name="query" value="bgp dampened-paths"> dampened-paths 
+   <dd>
+   <input type="radio" name="query" value="environmental"> environmental
+   <dd>
+   <input type="radio" name="query" value="bgp flap-statistics"> flap-statistics
+   <dd>
+   <input type="radio" name="query" value="mroute summary"> mroute summary
+   <dd>
+   <input type="radio" name="query" value="ping"> ping
+   <dd>
+   <input type="radio" name="query" value="trace"> trace
+   <dd>
+   <dd>
+
+
+<p>
+
+<dt> <b>Address:</b>  <input name="addr" size=20>
+</dl>
+
+<p>
+
+<input type="submit" value="Submit"> | 
+<input type="reset" value="Reset"> 
+</form>
+
+<!--- end page content --->
+
+</body>
+
+<p>
+<hr size=2 width=85%>
+<p>
+
+
+</body>
+
+<tail>
+<center>
+<i>
+  Please email questions/comments or things you would like added to
+Email: <img src=../../ops.png><br>
+
+</i>
+</center>
+</tail>
+</html DIGEX_LAST_MODIFIED="Thu May 27 1998">
+
+

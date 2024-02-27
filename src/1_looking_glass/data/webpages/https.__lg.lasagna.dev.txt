@@ -1,0 +1,147 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="encoding" content="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasagna Ltd Looking Glass</title>
+    <style>
+        html {
+            line-height: 1.25;
+            background-color: black;
+            color: white;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            min-height: 100%;
+            width: 100%;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: "Fira Sans", sans-serif;
+        }
+
+        footer {
+            align-self: flex-end;
+            width: 100%;
+            background-color: #0f0f0f;
+            text-align: center;
+        }
+
+        a,
+        a:visited {
+            color: #50f148;
+        }
+
+        main {
+            flex: 1;
+            margin: 0 auto;
+            width: 80vw;
+            max-width: 850px;
+            box-sizing: border-box;
+        }
+
+        .output {
+            font-family: monospace;
+            font-size: 96%;
+            text-align: left;
+            position: relative;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+<main>
+<br>
+<h1>Lasagna Ltd Looking Glass</h1>
+
+<h3>Network Information</h3>
+
+<p style="line-height: 1.5">
+<b>ASN:</b> <a href="https://bgp.tools/as/208590">AS208590</a><br><b>Location:</b> Fremont, California, USA<br><b>Test IPv4:</b> 79.110.170.38<br><b>Test IPv6:</b> 2a0d:1a43:c010:123::<br><b>Test files:</b> <a href="/testfiles/25MB.test">25MB</a> <a href="/testfiles/50MB.test">50MB</a> <a href="/testfiles/100MB.test">100MB</a>
+</p>
+
+<h3>Network Tests</h3>
+
+<form id="form" onsubmit="event.preventDefault(); doRequest()">
+    <p></p>
+    
+    <div>
+        <input type="radio" id="show bgp" name="command" value="show bgp" checked>
+        <label for="show bgp">show bgp</label>
+    </div>
+    
+    <div>
+        <input type="radio" id="mtr" name="command" value="mtr" >
+        <label for="mtr">mtr</label>
+    </div>
+    
+    <div>
+        <input type="radio" id="traceroute" name="command" value="traceroute" >
+        <label for="traceroute">traceroute</label>
+    </div>
+    
+    <div>
+        <input type="radio" id="ping" name="command" value="ping" >
+        <label for="ping">ping</label>
+    </div>
+    
+    <br>
+    <input type="text" id="ip" name="ip" placeholder="Your IP goes here" value="164.70.99.9"\>
+    <br>
+    <br>
+    <div>
+        <input type="submit" value="Submit"\>
+    </div>
+</form>
+
+<div style="text-align: center;">
+<pre id="output" name="output" class="output"><noscript>Please enable javascript to use this tool, or use the API if you don't want to use javascript.</noscript></pre>
+</div>
+
+<script type="text/javascript">
+const output = document.getElementById("output");
+const form = document.getElementById("form");
+
+async function doRequest() {
+    const formData = Object.fromEntries(new FormData(form));
+    output.textContent = "Please wait...";
+
+    if (window.history.pushState) {
+        window.history.pushState({}, null, `?ip=${formData.ip}&cmd=${formData.command}`);
+    }
+
+    try {
+        const resp = await fetch(`/.well-known/looking-glass/v1/${formData.command.replace(/ /g, "/")}/${formData.ip}`);
+
+        const jsonResponse = await resp.json();
+
+        if ((jsonResponse.status === "success") || (jsonResponse.status === "failed")) {
+            output.textContent = jsonResponse.data.output.join("\n");
+        } else if (jsonResponse.status === "error") {
+            output.textContent = "ERROR: " + jsonResponse.message;
+        } else {
+            output.textContent = JSON.stringify(jsonResponse, null, 2);
+        }
+    } catch (e) {
+        output.textContent = "API request failed.";
+    }
+}
+</script>
+</main>
+<footer>
+    <p>This Looking Glass runs on <a href="https://gitlab.com/a/TinyTracer">TinyTracer</a>, an AGPLv3 software that is (mostly) <a href="https://tools.ietf.org/html/rfc8522">RFC8522</a> compliant.</p>
+</footer>
+</body>
+</html>

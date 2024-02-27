@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.inx.net.za/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            INX Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="kvhgKTc5QhSRtAqKSvmNp5QapI1k9gjDUDwWX1My">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.inx.net.za/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.inx.net.za/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.inx.net.za">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.inx.net.za/images/ixp-manager-white.png">
+    INX Portal</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.inx.net.za/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.inx.net.za/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.inx.net.za/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/statistics/vlan">
+                            VLAN / Per-Protocol Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.inx.net.za/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                            <div class="dropdown-divider"></div>
+
+                                                    <a class="dropdown-item 1" href="https://portal.inx.net.za/weather-map/1">Weathermap - CINX</a>
+                                                    <a class="dropdown-item 1" href="https://portal.inx.net.za/weather-map/2">Weathermap - DINX</a>
+                                                    <a class="dropdown-item 1" href="https://portal.inx.net.za/weather-map/3">Weathermap - JINX</a>
+                                                            </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.inx.net.za/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.inx.net.za/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Route Server #2 - DINX - IPv4</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.inx.net.za/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Route Server #2 - DINX - IPv4            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-cinx-ipv4">
+                            Route Server #1 - CINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-cinx-ipv6">
+                            Route Server #1 - CINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-dinx-ipv4">
+                            Route Server #1 - DINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-dinx-ipv6">
+                            Route Server #1 - DINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-jinx-ipv4">
+                            Route Server #1 - JINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-jinx-ipv6">
+                            Route Server #1 - JINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-nmbinx-ipv4">
+                            Route Server #1 - NMBINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs1-nmbinx-ipv6">
+                            Route Server #1 - NMBINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-cinx-ipv4">
+                            Route Server #2 - CINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-cinx-ipv6">
+                            Route Server #2 - CINX - IPv6                        </a>
+                                            <a class="dropdown-item active" href="https://portal.inx.net.za/lg/rs2-dinx-ipv4">
+                            Route Server #2 - DINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-dinx-ipv6">
+                            Route Server #2 - DINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-jinx-ipv4">
+                            Route Server #2 - JINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-jinx-ipv6">
+                            Route Server #2 - JINX - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-nmbinx-ipv4">
+                            Route Server #2 - NMBINX - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.inx.net.za/lg/rs2-nmbinx-ipv6">
+                            Route Server #2 - NMBINX - IPv6                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.inx.net.za/lg/rs2-dinx-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.inx.net.za/lg/rs2-dinx-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.0.8                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 196.10.52.117                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 400 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-18 05:45:19
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://portal.inx.net.za/api/v4/lg/rs2-dinx-ipv4/status">status</a>]
+                    [<a href="https://portal.inx.net.za/api/v4/lg/rs2-dinx-ipv4/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+<!--
+            IXP Manager V6.3.1            |
+--!>
+
+            
+                Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+
+            
+            |
+
+            Connect with INX 
+            <a href="https://www.inx.net.za/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+<!--            <a href="https://www.linkedin.com/groups/1853398/">
+                <i class="fa fa-linkedin fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.facebook.com/comepeerwithme/">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>
+--!>
+            <a  href="https://twitter.com/INX_ZA">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+<!--            <a  href="https://github.com/inex">
+                <i class="fa fa-github fa-inverse mx-1"></i>
+            </a>
+--!>
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.inx.net.za/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.inx.net.za/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.inx.net.za/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.inx.net.za/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["t_0260_as328049","t_0323_as327817","t_0307_as328051","t_0342_as328024","t_0315_as328483","t_0341_as328568","t_0431_as328843","t_0521_as328831","t_0496_as328748","t_0614_as212232","t_0513_as328337","t_0146_as327805","t_0334_as328471","t_0522_as328942","t_0504_as328598","t_0280_as327761","t_0163_as327987","t_0272_as328137","t_0630_as329248","t_0415_as328795","t_0579_as328829","t_0434_as327733","t_0273_as328146","t_0336_as328285","t_0372_as328631","t_0679_as327794","t_0338_as328317","master4","t_0022_as3856","master6","t_0356_as328622","t_0300_as6939","t_0543_as327996","t_0011_as32437","t_0001_as37519","t_0002_as37358","t_0010_as37497","t_0167_as2018","t_0012_as37172","t_0021_as42","t_0005_as11845","t_0006_as10474","t_roa","t_0014_as32653","t_0638_as20011","t_0572_as37302","t_0310_as63293","t_0221_as37177","t_0220_as37668","t_0222_as37181","t_0297_as37016","t_0493_as37236","t_0386_as37172","t_0412_as32437","t_0422_as37002","t_0152_as37314","t_0557_as37457","t_0303_as36994","t_0403_as37356","t_0018_as37668","t_0009_as36968","t_0219_as10803","t_0019_as36916","t_0331_as36874","t_0487_as37168","t_0234_as37457","t_0641_as20011","t_0165_as13335","t_0309_as37049","t_0264_as37315","t_0408_as30999","t_0166_as37680","t_0059_as37179","t_0347_as61092","t_0223_as112","t_0267_as328327","t_0474_as328041","t_0357_as328437","t_0259_as328365","t_0015_as328366","t_0366_as327693","t_0635_as327983","t_0653_as328691","t_0565_as328521","t_0296_as328441","t_0142_as328024","t_0205_as328262","t_0410_as328750","t_0619_as328576","t_0494_as328041","t_0547_as328674","t_0646_as329249","t_0593_as328114","t_0629_as327782","t_0510_as329039","t_0340_as328423","t_0459_as328925"].sort();
+    let protocols = ["pb_0408_as30999","pb_0166_as37680","pb_0059_as37179","pb_0347_as61092","pb_0638_as20011","pb_0572_as37302","pp_0022_as3856","pb_0015_as328366","pb_0297_as37016","pp_0300_as6939","pb_0493_as37236","pb_0386_as37172","pb_0223_as112","pp_0386_as37172","pp_0219_as10803","pb_0142_as328024","pb_0557_as37457","pb_0205_as328262","pb_0372_as328631","pb_0410_as328750","pp_0641_as20011","pp_0011_as32437","pb_0338_as328317","pp_0165_as13335","pp_0557_as37457","pp_0001_as37519","pb_0487_as37168","pb_0510_as329039","pb_0356_as328622","pb_0340_as328423","pp_0002_as37358","pp_0010_as37497","pp_0309_as37049","pp_0012_as37172","pb_0267_as328327","pb_0543_as327996","pp_0487_as37168","pp_0264_as37315","pp_0005_as11845","pp_0006_as10474","pb_0474_as328041","pb_0357_as328437","pb_0260_as328049","pb_0579_as328829","pb_0323_as327817","rpki1","pb_0307_as328051","pb_0342_as328024","rpki2","pb_0259_as328365","pp_0408_as30999","pp_0014_as32653","pb_0366_as327693","pb_0315_as328483","pp_0166_as37680","pp_0059_as37179","pp_0347_as61092","pb_0341_as328568","pb_0431_as328843","pb_0521_as328831","pb_0635_as327983","pp_0021_as42","pb_0653_as328691","pb_0614_as212232","pb_0513_as328337","pb_0679_as327794","pb_0565_as328521","pb_0296_as328441","pb_0146_as327805","pb_0334_as328471","pp_0310_as63293","pp_0638_as20011","pb_0619_as328576","pp_0572_as37302","pb_0494_as328041","pb_0547_as328674","pp_0221_as37177","pb_0522_as328942","pp_0220_as37668","pb_0504_as328598","pb_0022_as3856","pb_0646_as329249","pp_0222_as37181","pb_0280_as327761","pb_0163_as327987","pb_0272_as328137","pb_0630_as329248","pb_0593_as328114","pb_0415_as328795","pb_0629_as327782","pb_0434_as327733","pp_0412_as32437","pb_0300_as6939","pb_0273_as328146","pb_0459_as328925","pp_0422_as37002","pb_0336_as328285","pp_0152_as37314","pp_0593_as328114","pp_0303_as36994","pp_0297_as37016","pp_0403_as37356","pp_0493_as37236","pp_0629_as327782","pp_0614_as212232","pp_0018_as37668","pp_0009_as36968","pp_0459_as328925","pp_0146_as327805","pp_0019_as36916","pp_0334_as328471","pp_0331_as36874","pp_0522_as328942","pp_0234_as37457","pp_0579_as328829","pp_0280_as327761","pb_0496_as328748","pp_0272_as328137","pp_0630_as329248","pp_0415_as328795","pp_0434_as327733","pp_0273_as328146","pp_0336_as328285","pp_0496_as328748","pb_0167_as2018","pb_0011_as32437","pp_0679_as327794","pb_0001_as37519","pp_0372_as328631","pp_0338_as328317","pb_0002_as37358","pb_0010_as37497","pb_0012_as37172","pp_0356_as328622","pb_0005_as11845","pb_0006_as10474","pp_0015_as328366","pp_0267_as328327","pp_0543_as327996","pb_0014_as32653","pb_0021_as42","pp_0474_as328041","pp_0357_as328437","pp_0142_as328024","pp_0223_as112","pp_0259_as328365","pp_0205_as328262","pp_0410_as328750","device1","pp_0366_as327693","pb_0310_as63293","pp_0635_as327983","pp_0653_as328691","pb_0221_as37177","pb_0220_as37668","pp_0510_as329039","pb_0222_as37181","pp_0565_as328521","pp_0296_as328441","pp_0340_as328423","pp_0619_as328576","pp_0494_as328041","pp_0547_as328674","pb_0412_as32437","pp_0646_as329249","pp_0260_as328049","pb_0422_as37002","pp_0323_as327817","pb_0152_as37314","pp_0307_as328051","pp_0342_as328024","pp_0167_as2018","pb_0303_as36994","pb_0403_as37356","pp_0315_as328483","pp_0341_as328568","pb_0018_as37668","pp_0431_as328843","pp_0521_as328831","pb_0009_as36968","pb_0219_as10803","pb_0019_as36916","pb_0331_as36874","pp_0513_as328337","pb_0234_as37457","pb_0641_as20011","pb_0165_as13335","pp_0504_as328598","pp_0163_as327987","pb_0309_as37049","pb_0264_as37315"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://portal.inx.net.za/lg/rs2-dinx-ipv4/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv4');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv4' );
+    });
+</script>
+            </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Rascom Looking glass (lg.rascom.ru)</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<SCRIPT language="javascript">
+function lockoutSubmit(button) {
+    var oldValue = button.value;
+
+    button.setAttribute('disabled', true);
+    button.value = '...processing...';
+
+    setTimeout(function(){
+        button.value = oldValue;
+        button.removeAttribute('disabled');
+    }, 3000)
+    document.lgform.submit();
+}
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="https://www.rascom.ru/"><IMG SRC="https://lg.rascom.ru/logo2.jpg" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM NAME="lgform" METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="neighbors"></TD><TD>&nbsp;bgp&nbsp;neighbor</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;neighbor&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="received-routes"></TD><TD>&nbsp;bgp&nbsp;neighbor&nbsp;received-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="routes"></TD><TD>&nbsp;bgp&nbsp;neighbor&nbsp;routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping" CHECKED></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD>Protocol:<SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="Moscow">
+<OPTION VALUE="msk-bor7-cr1"> msk-bor7-cr1.rascom.ru(DataLine)
+<OPTION VALUE="msk-dtl-cr1"> msk-dtl-cr1.rascom.ru(DataLine)
+<OPTION VALUE="msk-m9-cr1"> msk-m9-cr1.rascom.ru(M9)
+<OPTION VALUE="msk-m9-cr3"> msk-m9-cr3.rascom.ru(M9)
+<OPTION VALUE="msk-m9-cr4"> msk-m9-cr4.rascom.ru(M9)
+<OPTION VALUE="msk-m9-cr5"> msk-m9-cr5.rascom.ru(M9)
+<OPTION VALUE="msk-m9-cr6"> msk-m9-cr6.rascom.ru(M9)
+<OPTION VALUE="msk-3v-cr1" SELECTED> msk-3v-cr1.rascom.ru(3V)
+</OPTGROUP>
+<OPTGROUP LABEL="Klin">
+<OPTION VALUE="klin-ds-cr2"> klin-ds-cr2.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="Tver">
+<OPTION VALUE="tver-ds-cr2"> tver-ds-cr2.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="Bologoe">
+<OPTION VALUE="bol-dc-cr2"> bol-dc-cr2.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="Chudovo">
+<OPTION VALUE="chu-ds-cr2"> chu-ds-cr2.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="Saint-Petersburg">
+<OPTION VALUE="spb-bm18-cr1"> spb-bm18-cr1.rascom.ru(BM18)
+<OPTION VALUE="spb-imq-cr1"> spb-imq-cr1.rascom.ru(Imaqliq)
+<OPTION VALUE="spb-ivc-cr2"> spb-ivc-cr2.rascom.ru(B57)
+<OPTION VALUE="spb-ivc-cr3"> spb-ivc-cr3.rascom.ru(B57)
+<OPTION VALUE="spb-linx-cr1"> spb-linx-cr1.rascom.ru(Linx)
+<OPTION VALUE="spb-mir-cr1"> spb-mir-cr1.rascom.ru(Miran)
+<OPTION VALUE="spb-r2-cr1"> spb-r2-cr1.rascom.ru(R2)
+<OPTION VALUE="spb-sel-cr1"> spb-sel-cr1.rascom.ru(Selectel/Cvt 21)
+<OPTION VALUE="spb-sel-cr2"> spb-sel-cr2.rascom.ru(Selectel/Cvt 19)
+</OPTGROUP>
+<OPTGROUP LABEL="Vyborg">
+<OPTION VALUE="busl-abk-cr2"> busl-abk-cr2.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="---">
+</OPTGROUP>
+<OPTGROUP LABEL="Tbilisi">
+<OPTION VALUE="tbs-cl9-cr1.rascom.ru"> tbs-cl9-cr1.rascom.ru
+</OPTGROUP>
+<OPTGROUP LABEL="Helsinki">
+<OPTION VALUE="hel-rk5-cr1.rascom.ru"> hel-rk5-cr1.rascom.ru(Uutiskatu 5)
+<OPTION VALUE="hel-rk5-cr2.rascom.ru"> hel-rk5-cr2.rascom.ru(Uutiskatu 5)
+</OPTGROUP>
+<OPTGROUP LABEL="Stockholm">
+<OPTION VALUE="stk-ixn-cr2.rascom.ru"> stk-ixn-cr2.rascom.ru(Interxion)
+<OPTION VALUE="stk-tct-cr1.rascom.ru"> stk-tct-cr1.rascom.ru(SK1/Telecity)
+<OPTION VALUE="stk-tct-cr2.rascom.ru"> stk-tct-cr2.rascom.ru(SK1/Telecity)
+<OPTION VALUE="stk-tct-cr3.rascom.ru"> stk-tct-cr3.rascom.ru(SK1/Telecity)
+</OPTGROUP>
+<OPTGROUP LABEL="Frankfurt-on-Main">
+<OPTION VALUE="frm-nt-cr2"> frm-nt-cr2.rascom.ru(Itenos)
+<OPTION VALUE="frm-nt-cr3"> frm-nt-cr3.rascom.ru(Itenos)
+</OPTGROUP>
+<OPTGROUP LABEL="Amsterdam">
+<OPTION VALUE="ams-equ-cr1"> ams-equ-cr1.rascom.ru(AM2/Equinix)
+<OPTION VALUE="ams-equ-cr3"> ams-equ-cr3.rascom.ru(AM2/Equinix)
+<OPTION VALUE="ams-am3-cr1"> ams-am3-cr1.rascom.ru(AM3/Equinix)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<INPUT TYPE="hidden" NAME="26977a4976cb2cc51ce9f32f3ef09441" VALUE="5e12baaa6936104c0e84dff46333f816">
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit" onclick="lockoutSubmit(this)"> |
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<P> 
+<A HREF='https://noc.rascom.ru/communities.html'>BGP communities of RASCOM network &#64;noc.rascom.ru</A> <BR/>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@rascom.ru">noc@rascom.ru</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

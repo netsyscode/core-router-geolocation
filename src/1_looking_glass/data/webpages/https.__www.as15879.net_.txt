@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AS15879 - KPN Internedservices Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="https://www.as15879.net">AS15879 - KPN Internedservices Looking Glass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Amsterdam, Equinix AM8</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 213.133.37.99</p>
+                <p>Test IPv6: 2001:09a0::f</p>
+                <p>Test files: <a href="100MB.test" id="testfile">100MB</a> <a href="250MB.test" id="testfile">250MB</a> <a href="1GB.test" id="testfile">1GB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by <a href="https://github.com/telephone/LookingGlass" target=_blank>LookingGlass</a><br>Hosted at <a href="https://www.internedservices.nl" target=_blank>Internedservices</a></p>
+        <p>&nbsp;</p>
+        <p>See also our <a href="https://www.peeringdb.com/asn/15879" target=_blank>PeeringDB record</a></p>
+        <p>Or login through the <a href="https://ring.nlnog.net/">NLNOG Ring</a> project on our node: kis01</p>
+
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

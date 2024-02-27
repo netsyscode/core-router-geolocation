@@ -1,0 +1,296 @@
+<div class="modal fade" id="route-modal" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bird's Eye - Looking Glass</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/r-2.1.0/datatables.min.css">
+
+    <style>
+        /* Custom page footer */
+        .footer {
+          padding-top: 19px;
+          margin-top: 30px;
+          color: #777;
+          border-top: 1px solid #e5e5e5;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.inex.ie/rc1-cork-ipv6/lg/ ">Bird's Eye :: API
+                              and Looking Glass
+                        </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+                            <li><a href="https://www.inex.ie/rc1-cork-ipv6/lg">Looking Glass</a></li>
+                <li><a href="https://www.inex.ie/rc1-cork-ipv6/lg/route">Route Lookup</a></li>
+                        <li><a href="https://www.inex.ie/rc1-cork-ipv6/">API Overview</a></li>
+            <li><a href="https://github.com/inex/birdseye/">GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <br><br><br>
+      
+                <div class="starter-template">
+            <h1>
+                                    INEX Cork - Route Collector - IPv6
+                            </h1>
+            <div class="well">
+                Bird 2.0.9&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                    Router ID: 185.1.69.126&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                Uptime: 557 days &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                Last Reconfigure: 2023-12-18 05:31:03
+                            </div>
+          </div>
+      
+      
+<h2>Routing Table Lookup</h2>
+
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="net" class="col-sm-2 control-label">IP Address/Prefix</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="net" placeholder="192.0.2.0/24  |  2001:db8:7:2::/64">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <label class="radio-inline" class="control-label">
+                    <input type="radio" name="sourceSelector" id="sourceSelector-table"    value="table" checked="checked"> Lookup table
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <label class="radio-inline" class="col-sm-10 col-sm-offset-2 control-label">
+                    <input type="radio" name="sourceSelector" id="sourceSelector-protocol" value="protocol"> Lookup protocol
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="source" class="col-sm-2 control-label">Source</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="source">
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button id="submit" type="button" class="btn btn-default">Submit</button>
+            </div>
+        </div>
+    </form>
+
+
+
+
+        <footer class="footer">
+            <p>
+                &copy; 2016 - 2023 Internet Neutral Exchange Association Limited by Guarantee
+                (<a href="https://www.inex.ie/">INEX</a>).
+                <a href="https://github.com/inex/birdseye/blob/master/LICENSE.md">MIT License</a>.<br>
+                A simple secure PHP micro service to provide some Bird protocol / routing information via a HTTP API as JSON.
+                This was the winning project from <a href="https://atlas.ripe.net/hackathon/ixp-tools/">the RIPE IXP Tools Hackaton</a>
+                just prior to <a href="https://ripe73.ripe.net/">RIPE73</a> in Madrid, Spain. Find the code on
+                <a href="https://github.com/inex/birdseye">GitHub</a>.
+            </p>
+        </footer>
+    </div><!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/r-2.1.0/datatables.min.js"></script>
+
+    <script type="text/javascript">
+
+        jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+            "ip-address-pre": function ( a ) {
+                var i, item;
+                var m = a.split("."),
+                    n = a.split(":"),
+                    x = "",
+                    xa = "";
+
+                if (m.length == 4) {
+                    // IPV4
+                    for(i = 0; i < m.length; i++) {
+                        item = m[i];
+
+                        if(item.length == 1) {
+                            x += "00" + item;
+                        }
+                        else if(item.length == 2) {
+                            x += "0" + item;
+                        }
+                        else {
+                            x += item;
+                        }
+                    }
+                }
+                else if (n.length > 0) {
+                    // IPV6
+                    var count = 0;
+                    for(i = 0; i < n.length; i++) {
+                        item = n[i];
+
+                        if (i > 0) {
+                            xa += ":";
+                        }
+
+                        if(item.length === 0) {
+                            count += 0;
+                        }
+                        else if(item.length == 1) {
+                            xa += "000" + item;
+                            count += 4;
+                        }
+                        else if(item.length == 2) {
+                            xa += "00" + item;
+                            count += 4;
+                        }
+                        else if(item.length == 3) {
+                            xa += "0" + item;
+                            count += 4;
+                        }
+                        else {
+                            xa += item;
+                            count += 4;
+                        }
+                    }
+
+                    // Padding the ::
+                    n = xa.split(":");
+                    var paddDone = 0;
+
+                    for (i = 0; i < n.length; i++) {
+                        item = n[i];
+
+                        if (item.length === 0 && paddDone === 0) {
+                            for (var padding = 0 ; padding < (32-count) ; padding++) {
+                                x += "0";
+                                paddDone = 1;
+                            }
+                        }
+                        else {
+                            x += item;
+                        }
+                    }
+                }
+
+                return x;
+            },
+
+            "ip-address-asc": function ( a, b ) {
+                return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+            },
+
+            "ip-address-desc": function ( a, b ) {
+                return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+            }
+        });
+        
+        
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+        var tables    = ["master4","master6","t_roa"].sort();
+        var protocols = ["pb_as13335_vli369_ipv6","pb_as20940_vli245_ipv6","pb_as25152_vli262_ipv6","pb_as43760_vli226_ipv6","pb_as43760_vli227_ipv6","rpki1","rpki2","pb_as31122_vli220_ipv6","pb_as47720_vli228_ipv6","pb_as39122_vli470_ipv6","pb_as112_vli249_ipv6","device1","pb_as1213_vli222_ipv6"].sort();
+        var source    = 'table';
+
+        $("#submit").on( 'click', function(){
+            if( $("#net").val().trim() == "" ) {
+                return;
+            }
+            $("#submit").prop('disabled', true);
+
+            $.get('https://www.inex.ie/rc1-cork-ipv6/lg/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                    source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+                $('#route-modal .modal-content').html(html);
+                $('#route-modal').modal('show', {backdrop: 'static'});
+             });
+
+            $("#submit").prop('disabled', false);
+        });
+
+        $('input:radio[name="sourceSelector"]').change( function(){
+            if( $(this).is(':checked') ) {
+                if( $(this).val() == "table" ) {
+                    source = 'table'
+                    $("#source").html("");
+                    tables.forEach( function(e){
+                        $("#source").append( $("<option></option>")
+                            .attr("value",e)
+                            .text(e)
+                        );
+                    });
+                    $("#source").val('master');
+                } else {
+                    source = 'protocol'
+                    $("#source").html("");
+                    protocols.forEach( function(e){
+                        $("#source").append( $("<option></option>")
+                            .attr("value",e)
+                            .text(e)
+                        );
+                    });
+                }
+            }
+        });
+
+        $(document).ready(function() {
+
+            tables.forEach( function(e){
+                $("#source").append( $("<option></option>")
+                    .attr("value",e)
+                    .text(e)
+                );
+            });
+            $("#source").val('master');
+        });
+    </script>
+
+
+  </body>
+</html>

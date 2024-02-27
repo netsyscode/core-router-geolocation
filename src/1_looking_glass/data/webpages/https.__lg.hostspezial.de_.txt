@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="LookingGlass - Open source looking glass" />
+		
+		<title>LookingGlass - HostSpezial GmbH</title>
+
+		<script> 
+		<!-- Browser-Update.org -->
+		var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,api:2018.09 }; 
+		
+		function $buo_f(){ 
+			var e = document.createElement("script"); 
+			e.src = "//browser-update.org/update.min.js"; 
+			document.body.appendChild(e);
+		};
+
+		try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+		catch(e){window.attachEvent("onload", $buo_f)}
+		
+		<!-- Translation for JavaScript -->
+		RunTest = "Run Test"
+		Loading = "Loading"
+		</script>
+		
+		<!-- Styles -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<style> pre {background-color: #fff;font-family:courier;border: none;} </style>
+
+
+	</head>
+  
+	<body>
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Header -->
+			<div class="row" id="header">
+				<div class="col-xs-12">
+					<div class="page-header">
+<img src="https://mirror.nec.hostspezial.cloud/marketing/logo/logohostspezial.svg" />
+					
+	<h4><a id="title" href="?lang=en_US.UTF-8">LookingGlass - HostSpezial GmbH</a></h4>
+					</div>
+
+
+				</div>
+			</div>
+
+			<!-- Network Information -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Network information ( <a href="?lang=en_US.UTF-8">DualStack</a> | 
+								        <a href="https://lg.ipv4.hostspezial.de?lang=en_US.UTF-8">Only IPv4</a> |
+										<a href="https://lg.ipv6.hostspezial.de?lang=en_US.UTF-8">Only IPv6</a> )							
+						</div>
+						<div class="panel-body">
+							<p>Server Location: <strong>Neustadt b. Coburg</strong></p>
+							<p>IPv4 Address: 185.133.106.198</p>
+							<p>IPv6 Address: 2a03:89c0:f000:100::11</p>							<p>Your IP Address: <strong><a href="#tests" id="userip">164.70.99.9</a></strong></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network Test Files</div>
+						<div class="panel-body">
+							<h4>IPv4 Download Test</h4>
+							<a href="https://lg.ipv4.hostspezial.de/25MB.bin" class="btn btn-xs btn-default">25MB</a> <a href="https://lg.ipv4.hostspezial.de/50MB.bin" class="btn btn-xs btn-default">50MB</a> <a href="https://lg.ipv4.hostspezial.de/100MB.bin" class="btn btn-xs btn-default">100MB</a> <a href="https://lg.ipv4.hostspezial.de/1000MB.bin" class="btn btn-xs btn-default">1000MB</a> 							<h4>IPv6 Download Test</h4><a href="https://lg.ipv6.hostspezial.de/25MB.bin" class="btn btn-xs btn-default">25MB</a> <a href="https://lg.ipv6.hostspezial.de/50MB.bin" class="btn btn-xs btn-default">50MB</a> <a href="https://lg.ipv6.hostspezial.de/100MB.bin" class="btn btn-xs btn-default">100MB</a> <a href="https://lg.ipv6.hostspezial.de/1000MB.bin" class="btn btn-xs btn-default">1000MB</a> 						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Network Tests -->
+		  
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network tests</div>
+						<div class="panel-body">
+							<form class="form-inline" id="networktest" action="#results" method="post">
+							
+								<div id="hosterror" class="form-group">
+									<div class="controls">
+										<input id="host" name="host" type="text" class="form-control" placeholder="Host or IP address" />
+									</div>
+								</div>
+								<div class="form-group">
+									<select name="cmd" class="form-control">
+										<option value="host">host</option><option value="host6">host6</option><option value="dig">dig</option><option value="whois">whois</option><option value="mtr">mtr</option><option value="mtr6">mtr6</option><option value="ping" selected="selected">ping</option><option value="ping6">ping6</option><option value="traceroute">traceroute</option><option value="traceroute6">traceroute6</option>									</select>
+								</div>
+								<input type="hidden" name="csrf" value="96f5cef2bf787a0492a30b0705e6a6f03e3a0e9a46800b70106dccf6e48e258f" />
+								<button type="submit" id="submit" name="submit" class="btn btn-success">Run Test</button>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- Results -->
+			<div class="row" id="results" style="display:none">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Results</div>
+						<div class="panel-body">
+							<pre id="response" style="display:none"></pre>					
+</div>
+</div>
+</div>
+</div>
+
+ <div class="row" id="speedtest"">
+                                <div class="col-xs-12">
+                                        <div class="panel panel-default">
+                                                <div class="panel-heading">Speedtest</div>
+<embed style="margin-top:65px;" src="speedtest" width="100%" height="200">
+</div></div></div>
+
+			<footer class="footer">
+				<p class="pull-right">
+					<a href="#">Back to top</a>
+				</p>
+				<p>
+				Hinweise: <a target="_blank" href="https://hostspezial.de/impressum">Impressum / Datenschutz</a> 
+				</p>
+			</footer>
+
+		</div>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.lg.hostspezial.de"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.hostspezial.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://stats.hostspezial.de/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+		
+		<script src="assets/js/jquery-1.12.4.min.js"></script>
+		<script src="assets/js/LookingGlass.js"></script>
+		<script src="assets/js/XMLHttpRequest.min.js"></script>
+	</body>
+</html>

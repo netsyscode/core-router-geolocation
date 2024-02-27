@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>gaertner datensysteme - noc - looking glass</title>
+<meta name="keywords" content="internet, providing, hosting, housing, server, schulung, coaching, beratung, dienstleistungen, service, netzwerk, sicherheit, open_source, linux, blogs, typo3, wordpress, energieeffizienz, braunschweig, green it">
+<link rel="stylesheet" type="text/css" href="https://www.gaertner.de/fileadmin/HTML/css/gds.css" media="All">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+<script type="text/javascript" src="https://www.gaertner.de/fileadmin/HTML/js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="https://www.gaertner.de/fileadmin/HTML/js/jquery-ui.js"></script>
+<script type="text/javascript" src="https://www.gaertner.de/fileadmin/HTML/js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="https://www.gaertner.de/fileadmin/HTML/js/main.js"></script>
+<link href='https://www.gaertner.de/fonts/OfficinaSans-Book.css' rel='stylesheet' type='text/css' />
+<style>
+input[type="submit"] {
+	width: 120px !important;
+	height: 30px !important;	
+}
+</style>
+</head>
+<body class="backend_layout_noc layout0 backend_layout_1 language0 type0 pid19 ">
+
+<div id="header" class="bgblau clearfix">
+	<!-- <div id="hmbicon"><img src="/hhicon.png" style="top:19px; position: relative;"/></div> -->
+ 	<div class="gdslogo vertical-align"><a href="https://www.gaertner.de/"><img src="https://www.gaertner.de/fileadmin/images/home/gaertner_weiss_340.png"/></a></div>
+<!--
+ 	<div id="topnavi" class="vertical-align">
+		<ul class="css3menu">
+			<li class="first"><a href="https://www.gaertner.de/ueber_uns.html">&Uuml;ber uns</a>
+				<ul class="nav-ebene-zwei">
+					<li class="first"><a href="https://www.gaertner.de/ueber_uns/team.html">Team</a></li>
+					<li><a href="https://www.gaertner.de/ueber-uns/zeittafel-geschichte.html">Zeittafel - Geschichte</a></li>
+					<li><a href="https://www.gaertner.de/ueber-uns/rechenzentrum.html">Rechenzentrum</a></li>
+					<li class="last"><a href="https://www.gaertner.de/ueber_uns/komposthaufen.html">Komposthaufen</a></li>
+				</ul>
+			</li>
+			<li><a href="https://www.gaertner.de/kompetenzen.html">Kompetenzen</a>
+				<ul class="nav-ebene-zwei">
+					<li class="first"><a href="https://www.gaertner.de/kompetenzen/internetzugang.html">Internetzugang</a></li>
+					<li><a href="https://www.gaertner.de/kompetenzen/hosting_rz.html">Hosting / RZ</a></li>
+					<li class="last"><a href="https://www.gaertner.de/kompetenzen/softwareentwicklung.html">Softwareentwicklung</a></li>
+				</ul>
+			</li>
+			<li><a href="https://www.gaertner.de/referenzen.html">Referenzen</a></li>
+			<li class="topact last"><a href="https://www.gaertner.de/kundenservice.html">Kundenservice</a></li>
+		</ul>
+	</div>
+-->
+</div>
+
+<div id="maindiv">
+<!--
+	<div id="mobilenavi">
+		<div id="mbnavhead">
+			<a href="/">G&auml;rtner Datensysteme<br />
+			GmbH & Co. KG</a>
+		</div>
+    <ul class="css3menu">
+			<li class="first clearfix">
+				<div class="arrow-right"> </div>
+				<a href="https://www.gaertner.de/ueber_uns.html">&Uuml;ber uns</a>
+					<ul class="nav-ebene-zwei">
+						<li class="first"><a href="https://www.gaertner.de/ueber_uns/team.html">Team</a></li>
+						<li><a href="https://www.gaertner.de/ueber-uns/zeittafel-geschichte.html">Zeittafel - Geschichte</a></li>
+						<li><a href="https://www.gaertner.de/ueber-uns/rechenzentrum.html">Rechenzentrum</a></li>
+						<li><a href="https://www.gaertner.de/ueber_uns/komposthaufen.html">Komposthaufen</a></li>
+					</ul>
+			</li>
+			<li class="clearfix">
+				<div class="arrow-right"> </div>
+				<a href="https://www.gaertner.de/kompetenzen.html">Kompetenzen</a>
+					<ul class="nav-ebene-zwei">
+						<li class="first"><a href="https://www.gaertner.de/kompetenzen/internetzugang.html">Internetzugang</a></li>
+						<li><a href="https://www.gaertner.de/kompetenzen/hosting_rz.html">Hosting / RZ</a></li>
+						<li><a href="https://www.gaertner.de/kompetenzen/softwareentwicklung.html">Softwareentwicklung</a></li>
+					</ul>
+			</li>
+			<li><a href="https://www.gaertner.de/referenzen.html">Referenzen</a></li>
+			<li class="topact clearfix"><a href="https://www.gaertner.de/kundenservice.html">Kundenservice</a></li>
+		</ul>
+    <ul class="css3menu foot">
+			<li class="first"><a href="https://www.gaertner.de/kontakt.html">Kontakt</a></li>
+			<li><a href="https://www.gaertner.de/impressum.html">Impressum</a></li>
+			<li><a href="https://www.gaertner.de/datenschutz.html">Datenschutz</a></li>
+		</ul>  
+  </div>
+-->
+  <div class="clearfix"> </div>
+
+  <div id="maininner" style="padding: 30px 0 20px 60px; min-height: 500px;">
+
+<b>looking glass</b>
+<p>
+Hier k&ouml;nnen Sie ein <b><tt>ping</tt></b>, 
+<b><tt>traceroute</tt></b> oder <b><tt>tracepath</tt></b> von
+unserer Maschine <b><tt>noc.gaertner.de</tt></b> starten.  
+Bitte beachten Sie, da&szlig; ein traceroute bis zu 300 Sekunden 
+dauern kann.  Ist ein Rechner nicht via ping/traceroute/tracepath erreichbar, 
+kann eine Firewall die Ursache sein.
+<P>
+Sollten Sie Probleme in der Erreichbarkeit von Hosts haben, wenden
+Sie sich bitte an 
+<A HREF="mailto:support@gaertner.de">support@gaertner.de</A>
+<P>
+<form method="POST" enctype="application/x-www-form-urlencoded"
+   action="/cgi-bin/looking-glass.cgi">
+<table border=0 cellspacing=0 cellpadding=0 width="100%">
+<tr>
+   <td>
+   <table border=0 cellspacing=0 cellpadding=0 width="100%">
+      <tr><td>Query type:&nbsp;</td>
+	  <td><input type="radio" name="type" value="ping" checked>ping &nbsp;
+	      <input type="radio" name="type" value="ping6" >ping6 &nbsp;
+	      <input type="radio" name="type" value="traceroute" 
+		   >traceroute &nbsp;
+	      <input type="radio" name="type" value="traceroute6" 
+		   >traceroute6 &nbsp;
+	      <input type="radio" name="type" value="tracepath" 
+		   >tracepath &nbsp;
+	      <input type="radio" name="type" value="tracepath6" 
+		   >tracepath6 &nbsp;
+	  </td>
+      </tr>
+      <tr><td>Destination:&nbsp;</td>
+	  <td><input type="text" name="dest" size=30 value="164.70.99.9"></td>
+      </tr>
+      <tr><td>dns lookups:&nbsp;</td>
+	  <td><input type="checkbox"  name="dns" value="y"></td>
+      </tr>
+      <tr>
+	 <td valign=top><input type="submit" name="Action" value="Go!"></td>
+	 <td>&nbsp;</td>
+      </tr>
+   </table>
+   <td align=right><img 
+       src="https://www.gaertner.de/images/ncc-member-logo-150x48.png"></td>
+</table>
+</form>
+
+		<p><a href="https://www.gaertner.de/noc.html"><< Noc</a> | <a href="javascript:history.back()">zur&uuml;ck</a></p>
+		</div> <!-- content_inner end -->
+	</div> <!-- maininner end -->
+</div> <!-- maindiv end -->
+
+
+<div id="footer" class="bgblau">
+	<div class="gdslogo vertical-align">
+		<a href="https://www.gaertner.de"><img id="footer-logo-image" src="https://www.gaertner.de/fileadmin/images/home/gaertner_weiss_340.png"></a>
+	</div>
+  <div id="footer-navi" class="vertical-align">
+		<ul class="css3menu">
+			<li class="first"><a href="https://www.gaertner.de/kontakt.html">Kontakt</a></li>
+			<li><a href="https://www.gaertner.de/impressum.html">Impressum</a></li>
+			<li><a href="https://www.gaertner.de/datenschutz.html">Datenschutz</a></li>
+		</ul>
+	</div>
+  <div id="footer-copy" class="vertical-align">&copy; G&auml;rtner Datensysteme GmbH &amp; Co. KG &middot; 2017</div>
+</div>
+
+</body>
+</html>
+</BODY>
+</HTML>

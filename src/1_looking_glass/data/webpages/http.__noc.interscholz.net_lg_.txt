@@ -1,0 +1,66 @@
+
+<html>
+<head>
+<title>MRLG - www.interscholz.net - Multi-Router Looking Glass</title>
+<!-- DO NOT REMOVE: MRLG-version 5.1.1 (IPv6+SSH) -->
+<!-- DO NOT REMOVE: Written by and © 2000-2005, John Fraizer - EnterZone, Inc -->
+
+</head>
+
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+
+<font color=blue face=arial size=3>
+www.interscholz.net - Looking Glass</font><br>
+<font color=blue face=arial size=2>
+A service of <A HREF="http://www.interscholz.net/">interscholz Internet Services GmbH & Co. KG</A>.</font><br>
+<font color=red face=arial size=1>
+Note: ALL access to this interface is logged.<hr>
+</font></font>
+
+<font face=arial color=black>
+<form METHOD="POST" action="http://noc.interscholz.net/lg/">
+<B>Router auswaehlen:</B>  <SELECT Name="router" Size=1>
+<OPTION  SELECTED Value="interscholz Stuttgart 1 (DE)">interscholz Stuttgart 1 (DE)
+<OPTION  Value="interscholz Frankfurt 1 (DE)">interscholz Frankfurt 1 (DE)
+<OPTION  Value="interscholz Leonberg 1 (DE)">interscholz Leonberg 1 (DE)
+
+</select>
+
+<br><br>
+
+
+
+<br><br>
+<B>Abfrage</B>:
+<br>
+
+			<input type=radio name=query value=1>show ip bgp<br>
+			<input type=radio name=query value=2>show ip bgp summary<br>
+			
+			<input type=radio name=query value=13>show bgp ipv6<br>
+			<input type=radio name=query value=14>show bgp ipv6 summary<br>
+			
+			<input type=radio name=query value=16>show ipv6 route<br>
+			
+			<input type=radio name=query value=7>trace<br>
+			<input type=radio name=query value=8>ping<br>
+			
+<br>
+<B>Parameter/IP-Adresse:</B> <input type=text name=arg length=20 maxlength=60 value=""> 
+(o.g. Befehle benötigen entweder die IP-Adresse oder den hostnamen (ping/trace)) <br> <br>
+<input type=submit value=Abfragen></form></font></font>
+<br>
+<code>http://noc.interscholz.net/lg/</code>
+<font color=blue face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass version 5.1.1 (IPv6+SSH)<br>
+
+&copy; 2000-2005, John Fraizer  -
+<a href="http://www.enterzone.net/">EnterZone, Inc</a><br>
+modifiziert 2005, Andre Scholz - interscholz <br>
+Source code: <a href="ftp://ftp.enterzone.net/looking-glass/CURRENT/">ftp://ftp.enterzone.net/looking-glass/CURRENT/</a>
+<br>
+</body>
+</html>

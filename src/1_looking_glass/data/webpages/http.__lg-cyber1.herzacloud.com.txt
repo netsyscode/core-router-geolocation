@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Herza.ID - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <!--<link href="assets/css/cerulean.min.css" rel="stylesheet">-->
+    <link href="https://lg-cyber1.herzacloud.com/assets/css/cerulean.min.css" rel="stylesheet">
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e6e5409eec7650c3320252f/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+                        <img src="/assets/Logo-WebHosting-Datacenter-250px.png" alt="Herza Logo">
+            <!--<h1><a id="title" href="https://lg-cyber1.herzacloud.com">Herza.ID</a></h1>-->
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span8">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <div style="margin-left: 10px;">
+              <p>Server Location: <b>Gedung Cyber1</b></p>
+
+                <p >Other Location:
+    <select id="lokasiSelect" onchange="directHalaman()" style="margin: 0px; font-size: 12px; width: 150px; height: 30px;">
+        <option value="" disabled selected>Pilih Lokasi:</option>
+        <option value="https://lg-kalibata.herzacloud.com">Datahall, Kalibata</option>
+        <option value="https://lg-tifa.herzacloud.com">Gedung Tifa</option>
+        <option value="https://lg-ncix.herzacloud.com">Neucentrix, Jakarta</option>
+        <option value="https://lg-sub1.herzacloud.com">Neucentrix, Surabaya</option>
+        <option value="https://lg-sg.herza.cloud/">Equinix SG1, Singapore</option>
+    </select></p>
+    <p>ASN: 140443</p>
+    <p>Test IPv4: 103.152.118.76</p>
+                <p></p>
+                <p>Test files: <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+                <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+
+              </div>
+            </div>
+          </div>
+         <div class="span4">
+            <div class="well">
+              <span id="legend">Product Information</span><!-- IE/Safari dislike <legend> out of context -->
+              <a href="https://www.herza.id/vps-murah" target="_blank"><p>VPS Linux Murah</p></a>
+              <a href="https://www.herza.id/vps-windows-murah" target="_blank"><p>VPS Windows RDP Murah</p></a>
+              <a href="https://www.herza.id/vps-mikrotik" target="_blank"><p>VPS Mikrotik CHR</p></a>
+              <a href="https://www.herza.id/dedicated-server-indonesia/" target="_blank"><p>Dedicated Server</p></a>
+              <a href="https://www.herza.id/colocation" target="_blank"><p>Colocation Server</p></a>
+              <a href="https://www.herza.id/sewa-rack-colocation" target="_blank"><p>Sewa Rack Murah</p></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="row">
+        <div class="span12">
+          <a href="https://herza.id/cloud-dedicated-hosting/" target="_blank"><img src="https://herza.id/wp-content/uploads/2021/12/RGR-TY-018-Cloud-Hosting-Banners-728x90-1.jpg" width="200%" alt="Cloud Hosting Dedicated"></a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            Info: <a href="https://stat.ripe.net/AS140443" target="_blank">RIPE</a> <a href="https://asrank.caida.org/asns?asn=140443" target="_blank">ASRank</a> <a href="https://radar.qrator.net/as140443" target="_blank">RADAR</a> <a href="https://www.peeringdb.com/net/23703" target="_blank">PeeringDB.com</a> <a href="https://bgp.he.net/AS140443" target="_blank">he.net</a>
+        </p>
+        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+        <script>
+        function directHalaman() {
+            var selectedLink = document.getElementById("lokasiSelect").value;
+            if (selectedLink) {
+                window.location.href = selectedLink;
+            }
+        }
+    </script>
+  </body>
+</html>

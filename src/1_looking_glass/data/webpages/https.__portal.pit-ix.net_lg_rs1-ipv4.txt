@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.pit-ix.net/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            PIT-IX Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="toQPuwDfqyAPxoyib57ypaNOgT3wlTQ6IBsH766o">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.pit-ix.net/css/ixp-pack.css?id=54139ef7ceae44bc30b3" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.pit-ix.net/favicon.ico.dist" />
+
+                
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.pit-ix.net">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.pit-ix.net/images/ixp-manager-white.png">
+    PIT-IX Portal</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.pit-ix.net/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.pit-ix.net/customer/associates">
+                            Associate Members                        </a>
+
+                        
+                    </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.pit-ix.net/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.pit-ix.net/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.pit-ix.net/login">
+                        Login
+                    </a>
+                
+            </li>
+        </ul>
+
+    </div>
+</nav>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h3>
+                                                                    Looking Glass
+            <small class="text-muted" style="font-size: 16px;">rs1-ipv4.pit-ix.net</small>
+                                </h3>
+                            <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                    <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.pit-ix.net/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                rs1-ipv4.pit-ix.net            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                    
+                        <a class="dropdown-item active" href="https://portal.pit-ix.net/lg/rs1-ipv4">
+                            rs1-ipv4.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs1-ipv6">
+                            rs1-ipv6.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs2-ipv4">
+                            rs2-ipv4.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs2-ipv6">
+                            rs2-ipv6.pit-ix.net                        </a>
+
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.pit-ix.net/lg/rs1-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.pit-ix.net/lg/rs1-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                
+                                    <div class="alert alert-light" role="alert">
+        <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+    </div>
+
+
+    <div class="card mb-4">
+        <div class="card-body bg-light d-flex">
+            <div class="mr-auto">
+            
+                Bird v2                2.0.7
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                API: 1.2.2                
+                                    &nbsp;&nbsp;|&nbsp;&nbsp; 
+                    Router ID: 206.71.141.2                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Uptime: 1384 days.
+                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Last Reconfigure: 2023-12-18 07:01:18                
+                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                JSON:
+                [<a href="https://portal.pit-ix.net/api/v4/lg/rs1-ipv4/status">status</a>]
+                [<a href="https://portal.pit-ix.net/api/v4/lg/rs1-ipv4/bgp-summary">bgp</a>]
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<table class="table table-striped table-sm text-monospace" style="font-size: 14px;width: 100%;" id="bgpsummary">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Neighbor
+            </th>
+            <th>
+                Description
+            </th>
+            <th class="text-right">
+                ASN&nbsp;
+            </th>
+            <th>
+                Table
+            </th>
+            <th class="text-right">
+                PfxLimit&nbsp;
+            </th>
+            <th class="text-right">
+                State/PfxRcd&nbsp;
+            </th>
+            <th class="text-right">
+                PfxExp&nbsp;
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.22                    </td>
+                    <td class="pr-4">
+                        AS122 - UPMC                    </td>
+                    <td class="text-right pr-4" data-order="122">
+                        122                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0017_as122">
+                            t_0017_as122                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="50">
+                            <span
+                                                            >
+                                11/50                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="11">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0017_as122">
+                                                        11                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103700">
+                                                                                103700                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0017_as122"
+                            data-protocol="pb_0017_as122" title="AS122 - UPMC">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.50                    </td>
+                    <td class="pr-4">
+                        AS5050 - 3ROX (Three Rivers Optical Exchange)                    </td>
+                    <td class="text-right pr-4" data-order="5050">
+                        5050                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0005_as5050">
+                            t_0005_as5050                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="1000">
+                            <span
+                                                            >
+                                60/1000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="60">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0005_as5050">
+                                                        60                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103651">
+                                                                                103651                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0005_as5050"
+                            data-protocol="pb_0005_as5050" title="AS5050 - 3ROX (Three Rivers Optical Exchange)">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.19                    </td>
+                    <td class="pr-4">
+                        AS6536 - Citynet                    </td>
+                    <td class="text-right pr-4" data-order="6536">
+                        6536                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0015_as6536">
+                            t_0015_as6536                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="100">
+                            <span
+                                                            >
+                                6/100                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="6">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0015_as6536">
+                                                        6                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103705">
+                                                                                103705                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0015_as6536"
+                            data-protocol="pb_0015_as6536" title="AS6536 - Citynet">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.23                    </td>
+                    <td class="pr-4">
+                        AS6939 - Hurricane Electric                    </td>
+                    <td class="text-right pr-4" data-order="6939">
+                        6939                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0020_as6939">
+                            t_0020_as6939                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="202800">
+                            <span
+                                                            >
+                                106358/202800                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="106358">
+                                                                                106358                                                                        </td>
+                    <td class="text-right pr-4" data-order="513">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/export/pb_0020_as6939">
+                                                        513                                                            </a>
+                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0020_as6939"
+                            data-protocol="pb_0020_as6939" title="AS6939 - Hurricane Electric">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.24                    </td>
+                    <td class="pr-4">
+                        AS7341 - Velocity Network, Inc.                    </td>
+                    <td class="text-right pr-4" data-order="7341">
+                        7341                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0041_as7341">
+                            t_0041_as7341                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="250">
+                            <span
+                                                            >
+                                11/250                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="11">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0041_as7341">
+                                                        11                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103701">
+                                                                                103701                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0041_as7341"
+                            data-protocol="pb_0041_as7341" title="AS7341 - Velocity Network, Inc.">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.17                    </td>
+                    <td class="pr-4">
+                        AS12087 - Salsgiver                    </td>
+                    <td class="text-right pr-4" data-order="12087">
+                        12087                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0032_as12087">
+                            t_0032_as12087                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="200">
+                            <span
+                                                            >
+                                23/200                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="23">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0032_as12087">
+                                                        23                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103693">
+                                                                                103693                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0032_as12087"
+                            data-protocol="pb_0032_as12087" title="AS12087 - Salsgiver">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.21                    </td>
+                    <td class="pr-4">
+                        AS13333 - Consolidated Communications - PA                    </td>
+                    <td class="text-right pr-4" data-order="13333">
+                        13333                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0016_as13333">
+                            t_0016_as13333                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="2500">
+                            <span
+                                                            >
+                                35/2500                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="35">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0016_as13333">
+                                                        35                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103678">
+                                                                                103678                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0016_as13333"
+                            data-protocol="pb_0016_as13333" title="AS13333 - Consolidated Communications - PA">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.11                    </td>
+                    <td class="pr-4">
+                        AS13335 - CloudFlare                    </td>
+                    <td class="text-right pr-4" data-order="13335">
+                        13335                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0001_as13335">
+                            t_0001_as13335                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10000">
+                            <span
+                                                            >
+                                2/10000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="2">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0001_as13335">
+                                                        2                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="2445">
+                                                                                2445                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0001_as13335"
+                            data-protocol="pb_0001_as13335" title="AS13335 - CloudFlare">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.27                    </td>
+                    <td class="pr-4">
+                        AS13767 - DataBank                    </td>
+                    <td class="text-right pr-4" data-order="13767">
+                        13767                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0025_as13767">
+                            t_0025_as13767                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="600">
+                            <span
+                                                            >
+                                3/600                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="3">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0025_as13767">
+                                                        3                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103708">
+                                                                                103708                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0025_as13767"
+                            data-protocol="pb_0025_as13767" title="AS13767 - DataBank">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.37                    </td>
+                    <td class="pr-4">
+                        AS14230 - Involta                    </td>
+                    <td class="text-right pr-4" data-order="14230">
+                        14230                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0037_as14230">
+                            t_0037_as14230                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="1000">
+                            <span
+                                                            >
+                                7/1000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="7">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0037_as14230">
+                                                        7                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103705">
+                                                                                103705                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0037_as14230"
+                            data-protocol="pb_0037_as14230" title="AS14230 - Involta">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.41                    </td>
+                    <td class="pr-4">
+                        AS14740 - Magna5                    </td>
+                    <td class="text-right pr-4" data-order="14740">
+                        14740                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0049_as14740">
+                            t_0049_as14740                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                1/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0049_as14740">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103709">
+                                                                                103709                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0049_as14740"
+                            data-protocol="pb_0049_as14740" title="AS14740 - Magna5">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.42                    </td>
+                    <td class="pr-4">
+                        AS14740 - Magna5                    </td>
+                    <td class="text-right pr-4" data-order="14740">
+                        14740                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0050_as14740">
+                            t_0050_as14740                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                1/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0050_as14740">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103712">
+                                                                                103712                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0050_as14740"
+                            data-protocol="pb_0050_as14740" title="AS14740 - Magna5">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.26                    </td>
+                    <td class="pr-4">
+                        AS15133 - Edgio (Edgecast)                    </td>
+                    <td class="text-right pr-4" data-order="15133">
+                        15133                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0026_as15133">
+                            t_0026_as15133                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="6000">
+                            <span
+                                                            >
+                                3/6000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="3">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0026_as15133">
+                                                        3                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="2445">
+                                                                                2445                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0026_as15133"
+                            data-protocol="pb_0026_as15133" title="AS15133 - Edgio (Edgecast)">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.12                    </td>
+                    <td class="pr-4">
+                        AS17054 - Expedient Inc.                    </td>
+                    <td class="text-right pr-4" data-order="17054">
+                        17054                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0003_as17054">
+                            t_0003_as17054                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="500">
+                            <span
+                                                            >
+                                157/500                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="157">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0003_as17054">
+                                                        157                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103562">
+                                                                                103562                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0003_as17054"
+                            data-protocol="pb_0003_as17054" title="AS17054 - Expedient Inc.">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.35                    </td>
+                    <td class="pr-4">
+                        AS17172 - Fifth Judicial District of Pennsylvania                    </td>
+                    <td class="text-right pr-4" data-order="17172">
+                        17172                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0035_as17172">
+                            t_0035_as17172                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="6">
+                            <span
+                                                            >
+                                1/6                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0035_as17172">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103710">
+                                                                                103710                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0035_as17172"
+                            data-protocol="pb_0035_as17172" title="AS17172 - Fifth Judicial District of Pennsylvania">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.31                    </td>
+                    <td class="pr-4">
+                        AS19261 - aspStation                    </td>
+                    <td class="text-right pr-4" data-order="19261">
+                        19261                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0030_as19261">
+                            t_0030_as19261                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                4/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="4">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0030_as19261">
+                                                        4                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103707">
+                                                                                103707                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0030_as19261"
+                            data-protocol="pb_0030_as19261" title="AS19261 - aspStation">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.10                    </td>
+                    <td class="pr-4">
+                        AS20326 - TeraSwitch, Inc.                    </td>
+                    <td class="text-right pr-4" data-order="20326">
+                        20326                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0002_as20326">
+                            t_0002_as20326                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="100">
+                            <span
+                                                            >
+                                50/100                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="50">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0002_as20326">
+                                                        50                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103681">
+                                                                                103681                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0002_as20326"
+                            data-protocol="pb_0002_as20326" title="AS20326 - TeraSwitch, Inc.">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.30                    </td>
+                    <td class="pr-4">
+                        AS20940 - Akamai Technologies                    </td>
+                    <td class="text-right pr-4" data-order="20940">
+                        20940                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0029_as20940">
+                            t_0029_as20940                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="11000">
+                            <span
+                                                            >
+                                92/11000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="92">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0029_as20940">
+                                                        92                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="2355">
+                                                                                2355                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0029_as20940"
+                            data-protocol="pb_0029_as20940" title="AS20940 - Akamai Technologies">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.32                    </td>
+                    <td class="pr-4">
+                        AS20940 - Akamai Technologies                    </td>
+                    <td class="text-right pr-4" data-order="20940">
+                        20940                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0031_as20940">
+                            t_0031_as20940                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10800">
+                            <span
+                                                            >
+                                93/10800                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="93">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0031_as20940">
+                                                        93                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="2436">
+                                                                                2436                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0031_as20940"
+                            data-protocol="pb_0031_as20940" title="AS20940 - Akamai Technologies">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        206.71.141.33                    </td>
+                    <td class="pr-4">
+                        AS26873 - QCOL                    </td>
+                    <td class="text-right pr-4" data-order="26873">
+                        26873                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0033_as26873">
+                            t_0033_as26873                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0033_as26873"
+                            data-protocol="pb_0033_as26873" title="AS26873 - QCOL">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.15                    </td>
+                    <td class="pr-4">
+                        AS27364 - Armstrong Cable Services                    </td>
+                    <td class="text-right pr-4" data-order="27364">
+                        27364                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0012_as27364">
+                            t_0012_as27364                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="500">
+                            <span
+                                                            >
+                                83/500                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="83">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0012_as27364">
+                                                        83                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103656">
+                                                                                103656                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0012_as27364"
+                            data-protocol="pb_0012_as27364" title="AS27364 - Armstrong Cable Services">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.40                    </td>
+                    <td class="pr-4">
+                        AS33154 - DQE Communications                    </td>
+                    <td class="text-right pr-4" data-order="33154">
+                        33154                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0046_as33154">
+                            t_0046_as33154                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="360">
+                            <span
+                                                            >
+                                19/360                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="19">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0046_as33154">
+                                                        19                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103701">
+                                                                                103701                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0046_as33154"
+                            data-protocol="pb_0046_as33154" title="AS33154 - DQE Communications">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.25                    </td>
+                    <td class="pr-4">
+                        AS36040 - Google LLC AS36040                    </td>
+                    <td class="text-right pr-4" data-order="36040">
+                        36040                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0023_as36040">
+                            t_0023_as36040                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                2/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="2">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0023_as36040">
+                                                        2                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103700">
+                                                                                103700                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0023_as36040"
+                            data-protocol="pb_0023_as36040" title="AS36040 - Google LLC AS36040">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.43                    </td>
+                    <td class="pr-4">
+                        AS137409 - Global Secure Layer                    </td>
+                    <td class="text-right pr-4" data-order="137409">
+                        137409                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0055_as137409">
+                            t_0055_as137409                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10000">
+                            <span
+                                                            >
+                                2025/10000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="2025">
+                                                                                2025                                                                        </td>
+                    <td class="text-right pr-4" data-order="101833">
+                                                                                101833                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0055_as137409"
+                            data-protocol="pb_0055_as137409" title="AS137409 - Global Secure Layer">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.9                    </td>
+                    <td class="pr-4">
+                        AS212232 - BGP.Tools Route Collector                    </td>
+                    <td class="text-right pr-4" data-order="212232">
+                        212232                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0056_as212232">
+                            t_0056_as212232                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="1">
+                            <span
+                                                            >
+                                0/1                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="0">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0056_as212232">
+                                                        0                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103729">
+                                                                                103729                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0056_as212232"
+                            data-protocol="pb_0056_as212232" title="AS212232 - BGP.Tools Route Collector">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        206.71.141.34                    </td>
+                    <td class="pr-4">
+                        AS396317 - Vitalink, LLC.                    </td>
+                    <td class="text-right pr-4" data-order="396317">
+                        396317                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0034_as396317">
+                            t_0034_as396317                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0034_as396317"
+                            data-protocol="pb_0034_as396317" title="AS396317 - Vitalink, LLC.">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.29                    </td>
+                    <td class="pr-4">
+                        AS398223 - Pomona Consulting                    </td>
+                    <td class="text-right pr-4" data-order="398223">
+                        398223                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0028_as398223">
+                            t_0028_as398223                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="100">
+                            <span
+                                                            >
+                                1/100                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0028_as398223">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103728">
+                                                                                103728                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0028_as398223"
+                            data-protocol="pb_0028_as398223" title="AS398223 - Pomona Consulting">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.6                    </td>
+                    <td class="pr-4">
+                        AS400798 - Pittsburgh Internet Exchange Services                    </td>
+                    <td class="text-right pr-4" data-order="400798">
+                        400798                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0039_as400798">
+                            t_0039_as400798                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                2/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="2">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0039_as400798">
+                                                        2                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103728">
+                                                                                103728                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0039_as400798"
+                            data-protocol="pb_0039_as400798" title="AS400798 - Pittsburgh Internet Exchange Services">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        206.71.141.7                    </td>
+                    <td class="pr-4">
+                        AS400798 - Pittsburgh Internet Exchange Services                    </td>
+                    <td class="text-right pr-4" data-order="400798">
+                        400798                    </td>
+                    <td>
+                        <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/table/t_0040_as400798">
+                            t_0040_as400798                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                2/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="2">
+                                                                                    <a href="https://portal.pit-ix.net/lg/rs1-ipv4/routes/protocol/pb_0040_as400798">
+                                                        2                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="103729">
+                                                                                103729                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0040_as400798"
+                            data-protocol="pb_0040_as400798" title="AS400798 - Pittsburgh Internet Exchange Services">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+                    
+    </tbody>
+</table>
+
+<div class="modal fade" id="protocol-info-modal" role="dialog">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">
+                Protocol Details for <code><span id="title_p_name"></span></code>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <pre>
+<span id="p_name"></span>    <span id="p_bird_protocol"></span>    <span="p_table"></span> <span id="p_state"></span>     <span id="p_state_changed"></span>  <span id="p_connection"></span>
+  Description:    <span id="p_description"></span>
+  Preference:     <span id="p_preference"></span>
+  Input filter:   <span id="p_input_filter"></span>
+  Output filter:  <span id="p_output_filter"></span><span id="p_o_import_limit">
+  Import limit:   <span id="p_import_limit"></span>
+    Action:       <span id="p_limit_action"></span></span>
+  Routes:         <span id="p_routes_imported"></span> imported, <span id="p_routes_exported"></span> exported, <span id="p_routes_preferred"></span> preferred
+  Route change stats:     received   rejected   filtered    ignored   accepted
+    Import updates:     <span id="p_import_updates_received"></span> <span id="p_import_updates_rejected"></span> <span id="p_import_updates_filtered"></span> <span id="p_import_updates_ignored"></span> <span id="p_import_updates_accepted"></span>
+    Import withdraws:   <span id="p_import_withdraws_received"></span> <span id="p_import_withdraws_rejected"></span>        --- <span id="p_import_withdraws_ignored"></span> <span id="p_import_withdraws_accepted"></span>
+    Export updates:     <span id="p_export_updates_received"></span> <span id="p_export_updates_rejected"></span> <span id="p_export_updates_filtered"></span>        --- <span id="p_export_updates_accepted"></span>
+    Export withdraws:   <span id="p_export_withdraws_received"></span>        ---        ---        --- <span id="p_export_withdraws_accepted"></span>
+  BGP state:          <span id="p_bgp_state"></span>
+    Neighbor address: <span id="p_neighbor_address"></span>
+    Neighbor AS:      <span id="p_neighbor_as"></span>
+    Neighbor ID:      <span id="p_neighbor_id"></span>
+    Neighbor caps:    <span id="p_neighbor_capabilities"></span>
+    Session:          <span id="p_bgp_session"></span>
+    Source address:   <span id="p_source_address"></span><span id="p_o_route_limit_at">
+    Route limit:      <span id="p_route_limit_at"></span>/<span id="p_import_limit2"></span></span>
+    Hold timer:       <span id="p_hold_timer"></span>
+    Keepalive timer:  <span id="p_keepalive"></span>
+</pre>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+                            </div>
+
+                        </div>
+
+
+                    </main>
+
+            </div> <!-- </div class="row"> -->
+
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+
+            IXP Manager V5.8.0
+            |
+
+            
+                Copyright &copy; 2017 - 2023 Pittsburgh Internet Exchange
+
+            
+            |
+
+            Discover PIT-IX at:
+            <a href="https://pit-ix.net/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/groups/8913222/">
+                <i class="fa fa-linkedin fa-inverse mx-1"></i>
+            </a>
+
+            <!--<a href="https://www.facebook.com/comepeerwithme/">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>-->
+
+            <a  href="https://twitter.com/pit_ix">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.pit-ix.net/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.pit-ix.net/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.pit-ix.net/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.pit-ix.net/js/ixp-pack.js?id=281c037ceef60adcb738"></script>
+
+        <script>
+
+            $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            
+
+        </script>
+
+
+                
+<script type="text/javascript">
+
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+    "ip-address-pre": function ( a ) {
+        var i, item;
+        var m = a.split("."),
+            n = a.split(":"),
+            x = "",
+            xa = "";
+        if (m.length == 4) {
+            // IPV4
+            for(i = 0; i < m.length; i++) {
+                item = m[i];
+                if(item.length == 1) {
+                    x += "00" + item;
+                }
+                else if(item.length == 2) {
+                    x += "0" + item;
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        else if (n.length > 0) {
+            // IPV6
+            var count = 0;
+            for(i = 0; i < n.length; i++) {
+                item = n[i];
+                if (i > 0) {
+                    xa += ":";
+                }
+                if(item.length === 0) {
+                    count += 0;
+                }
+                else if(item.length == 1) {
+                    xa += "000" + item;
+                    count += 4;
+                }
+                else if(item.length == 2) {
+                    xa += "00" + item;
+                    count += 4;
+                }
+                else if(item.length == 3) {
+                    xa += "0" + item;
+                    count += 4;
+                }
+                else {
+                    xa += item;
+                    count += 4;
+                }
+            }
+            // Padding the ::
+            n = xa.split(":");
+            var paddDone = 0;
+            for (i = 0; i < n.length; i++) {
+                item = n[i];
+                if (item.length === 0 && paddDone === 0) {
+                    for (var padding = 0 ; padding < (32-count) ; padding++) {
+                        x += "0";
+                        paddDone = 1;
+                    }
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        return x;
+    },
+    "ip-address-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+    },
+    "ip-address-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+</script>
+
+
+<script type="text/javascript">
+
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+
+    let protocols = {"pb_0017_as122":{"protocol":"pb_0017_as122","bird_protocol":"BGP","table":"t_0017_as122","state":"up","state_changed":"2023-09-18T21:02:56+00:00","connection":"  Established   ","description":"AS122 - UPMC","bgp_state":"Established","neighbor_address":"206.71.141.22","neighbor_as":122,"neighbor_id":"10.11.0.29","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":47,"keepalive":30,"keepalive_now":2,"preference":100,"input_filter":"f_import_as122","output_filter":"f_export_as122","import_limit":50,"limit_action":"restart","routes":{"imported":11,"exported":103700,"preferred":0},"route_changes":{"import_updates":{"received":48,"rejected":0,"filtered":0,"ignored":1,"accepted":47},"import_withdraws":{"received":11,"rejected":0,"ignored":0,"accepted":11},"export_updates":{"received":10680865,"rejected":47,"filtered":0,"accepted":10680818},"export_withdraws":{"received":1976056,"accepted":1976045}},"route_limit_at":11},"pb_0005_as5050":{"protocol":"pb_0005_as5050","bird_protocol":"BGP","table":"t_0005_as5050","state":"up","state_changed":"2023-12-12T11:23:44+00:00","connection":"  Established   ","description":"AS5050 - 3ROX (Three Rivers Optical Exchange)","bgp_state":"Established","neighbor_address":"206.71.141.50","neighbor_as":5050,"neighbor_id":"147.73.15.226","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":67,"keepalive":30,"keepalive_now":3,"preference":100,"input_filter":"f_import_as5050","output_filter":"f_export_as5050","import_limit":1000,"limit_action":"restart","routes":{"imported":60,"exported":103651,"preferred":0},"route_changes":{"import_updates":{"received":66,"rejected":0,"filtered":0,"ignored":0,"accepted":66},"import_withdraws":{"received":6,"rejected":0,"ignored":0,"accepted":6},"export_updates":{"received":417836,"rejected":66,"filtered":0,"accepted":417770},"export_withdraws":{"received":127576,"accepted":127572}},"route_limit_at":60},"pb_0015_as6536":{"protocol":"pb_0015_as6536","bird_protocol":"BGP","table":"t_0015_as6536","state":"up","state_changed":"2023-05-25T12:00:10+00:00","connection":"  Established   ","description":"AS6536 - Citynet","bgp_state":"Established","neighbor_address":"206.71.141.19","neighbor_as":6536,"neighbor_id":"64.135.224.3","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":110,"keepalive":60,"keepalive_now":44,"preference":100,"input_filter":"f_import_as6536","output_filter":"f_export_as6536","import_limit":100,"limit_action":"restart","routes":{"imported":6,"exported":103705,"preferred":0},"route_changes":{"import_updates":{"received":67,"rejected":0,"filtered":0,"ignored":10,"accepted":57},"import_withdraws":{"received":3,"rejected":0,"ignored":0,"accepted":3},"export_updates":{"received":24555296,"rejected":57,"filtered":0,"accepted":24555239},"export_withdraws":{"received":5464658,"accepted":5464655}},"route_limit_at":6},"pb_0020_as6939":{"protocol":"pb_0020_as6939","bird_protocol":"BGP","table":"t_0020_as6939","state":"up","state_changed":"2022-01-25T06:37:36+00:00","connection":"  Established   ","description":"AS6939 - Hurricane Electric","bgp_state":"Established","neighbor_address":"206.71.141.23","neighbor_as":6939,"neighbor_id":"216.218.252.75","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":133,"keepalive":60,"keepalive_now":9,"preference":100,"input_filter":"f_import_as6939","output_filter":"f_export_as6939","import_limit":202800,"limit_action":"restart","routes":{"imported":106358,"exported":513,"preferred":0},"route_changes":{"import_updates":{"received":369802993,"rejected":0,"filtered":0,"ignored":286910084,"accepted":82892909},"import_withdraws":{"received":17673065,"rejected":0,"ignored":0,"accepted":17673065},"export_updates":{"received":105683654,"rejected":105565071,"filtered":0,"accepted":118583},"export_withdraws":{"received":17686243,"accepted":22693724}},"route_limit_at":106358},"pb_0041_as7341":{"protocol":"pb_0041_as7341","bird_protocol":"BGP","table":"t_0041_as7341","state":"up","state_changed":"2023-09-18T21:03:03+00:00","connection":"  Established   ","description":"AS7341 - Velocity Network, Inc.","bgp_state":"Established","neighbor_address":"206.71.141.24","neighbor_as":7341,"neighbor_id":"66.211.211.1","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":60,"hold_timer_now":37,"keepalive":20,"keepalive_now":11,"preference":100,"input_filter":"f_import_as7341","output_filter":"f_export_as7341","import_limit":250,"limit_action":"restart","routes":{"imported":11,"exported":103701,"preferred":0},"route_changes":{"import_updates":{"received":65,"rejected":0,"filtered":0,"ignored":24,"accepted":41},"import_withdraws":{"received":4,"rejected":0,"ignored":0,"accepted":4},"export_updates":{"received":10680865,"rejected":41,"filtered":0,"accepted":10680824},"export_withdraws":{"received":1976050,"accepted":1976062}},"route_limit_at":11},"pb_0032_as12087":{"protocol":"pb_0032_as12087","bird_protocol":"BGP","table":"t_0032_as12087","state":"up","state_changed":"2023-04-18T17:55:21+00:00","connection":"  Established   ","description":"AS12087 - Salsgiver","bgp_state":"Established","neighbor_address":"206.71.141.17","neighbor_as":12087,"neighbor_id":"216.221.14.100","bgp_session":["external","route-server"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":121,"keepalive":60,"keepalive_now":27,"preference":100,"input_filter":"f_import_as12087","output_filter":"f_export_as12087","import_limit":200,"limit_action":"restart","routes":{"imported":23,"exported":103693,"preferred":0},"route_changes":{"import_updates":{"received":189,"rejected":0,"filtered":0,"ignored":123,"accepted":66},"import_withdraws":{"received":29,"rejected":0,"ignored":0,"accepted":29},"export_updates":{"received":27867651,"rejected":66,"filtered":0,"accepted":27867585},"export_withdraws":{"received":6589849,"accepted":6589820}},"route_limit_at":23},"pb_0016_as13333":{"protocol":"pb_0016_as13333","bird_protocol":"BGP","table":"t_0016_as13333","state":"up","state_changed":"2023-05-17T09:44:08+00:00","connection":"  Established   ","description":"AS13333 - Consolidated Communications - PA","bgp_state":"Established","neighbor_address":"206.71.141.21","neighbor_as":13333,"neighbor_id":"192.168.204.48","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":132,"keepalive":60,"keepalive_now":42,"preference":100,"input_filter":"f_import_as13333","output_filter":"f_export_as13333","import_limit":2500,"limit_action":"restart","routes":{"imported":35,"exported":103678,"preferred":0},"route_changes":{"import_updates":{"received":64,"rejected":0,"filtered":0,"ignored":8,"accepted":56},"import_withdraws":{"received":21,"rejected":0,"ignored":0,"accepted":21},"export_updates":{"received":25492452,"rejected":56,"filtered":0,"accepted":25492396},"export_withdraws":{"received":5761545,"accepted":5761524}},"route_limit_at":35},"pb_0001_as13335":{"protocol":"pb_0001_as13335","bird_protocol":"BGP","table":"t_0001_as13335","state":"up","state_changed":"2023-06-14T21:44:37+00:00","connection":"  Established   ","description":"AS13335 - CloudFlare","bgp_state":"Established","neighbor_address":"206.71.141.11","neighbor_as":13335,"neighbor_id":"172.69.48.1","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":107,"keepalive":60,"keepalive_now":43,"preference":100,"input_filter":"f_import_as13335","output_filter":"f_export_as13335","import_limit":10000,"limit_action":"restart","routes":{"imported":2,"exported":2445,"preferred":0},"route_changes":{"import_updates":{"received":992,"rejected":0,"filtered":0,"ignored":990,"accepted":2},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":298944,"rejected":2,"filtered":0,"accepted":298942},"export_withdraws":{"received":102089,"accepted":102089}},"route_limit_at":2},"pb_0025_as13767":{"protocol":"pb_0025_as13767","bird_protocol":"BGP","table":"t_0025_as13767","state":"up","state_changed":"2023-10-18T04:46:12+00:00","connection":"  Established   ","description":"AS13767 - DataBank","bgp_state":"Established","neighbor_address":"206.71.141.27","neighbor_as":13767,"neighbor_id":"208.53.32.2","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":77,"keepalive":30,"keepalive_now":25,"preference":100,"input_filter":"f_import_as13767","output_filter":"f_export_as13767","import_limit":600,"limit_action":"restart","routes":{"imported":3,"exported":103708,"preferred":0},"route_changes":{"import_updates":{"received":81,"rejected":0,"filtered":0,"ignored":78,"accepted":3},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":7320877,"rejected":6,"filtered":0,"accepted":7320871},"export_withdraws":{"received":1280896,"accepted":1280896}},"route_limit_at":3},"pb_0037_as14230":{"protocol":"pb_0037_as14230","bird_protocol":"BGP","table":"t_0037_as14230","state":"up","state_changed":"2023-09-18T21:02:07+00:00","connection":"  Established   ","description":"AS14230 - Involta","bgp_state":"Established","neighbor_address":"206.71.141.37","neighbor_as":14230,"neighbor_id":"100.100.221.62","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":15,"hold_timer_now":9,"keepalive":5,"keepalive_now":4,"preference":100,"input_filter":"f_import_as14230","output_filter":"f_export_as14230","import_limit":1000,"limit_action":"restart","routes":{"imported":7,"exported":103705,"preferred":0},"route_changes":{"import_updates":{"received":92,"rejected":0,"filtered":0,"ignored":76,"accepted":16},"import_withdraws":{"received":6,"rejected":0,"ignored":0,"accepted":6},"export_updates":{"received":10682467,"rejected":16,"filtered":0,"accepted":10682451},"export_withdraws":{"received":1977529,"accepted":1977523}},"route_limit_at":7},"pb_0049_as14740":{"protocol":"pb_0049_as14740","bird_protocol":"BGP","table":"t_0049_as14740","state":"up","state_changed":"2023-09-24T13:47:36+00:00","connection":"  Established   ","description":"AS14740 - Magna5","bgp_state":"Established","neighbor_address":"206.71.141.41","neighbor_as":14740,"neighbor_id":"206.71.141.41","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":102,"keepalive":60,"keepalive_now":39,"preference":100,"input_filter":"f_import_as14740","output_filter":"f_export_as14740","import_limit":10,"limit_action":"restart","routes":{"imported":1,"exported":103709,"preferred":0},"route_changes":{"import_updates":{"received":1,"rejected":0,"filtered":0,"ignored":0,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":10026534,"rejected":2,"filtered":0,"accepted":10026532},"export_withdraws":{"received":1793947,"accepted":1793948}},"route_limit_at":1},"pb_0050_as14740":{"protocol":"pb_0050_as14740","bird_protocol":"BGP","table":"t_0050_as14740","state":"up","state_changed":"2023-09-24T13:12:32+00:00","connection":"  Established   ","description":"AS14740 - Magna5","bgp_state":"Established","neighbor_address":"206.71.141.42","neighbor_as":14740,"neighbor_id":"206.71.141.42","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":135,"keepalive":60,"keepalive_now":26,"preference":100,"input_filter":"f_import_as14740","output_filter":"f_export_as14740","import_limit":10,"limit_action":"restart","routes":{"imported":1,"exported":103712,"preferred":0},"route_changes":{"import_updates":{"received":1,"rejected":0,"filtered":0,"ignored":0,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":10028500,"rejected":1,"filtered":0,"accepted":10028499},"export_withdraws":{"received":1795176,"accepted":1795177}},"route_limit_at":1},"pb_0026_as15133":{"protocol":"pb_0026_as15133","bird_protocol":"BGP","table":"t_0026_as15133","state":"up","state_changed":"2023-09-18T21:02:10+00:00","connection":"  Established   ","description":"AS15133 - Edgio (Edgecast)","bgp_state":"Established","neighbor_address":"206.71.141.26","neighbor_as":15133,"neighbor_id":"192.16.14.0","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":21,"hold_timer_now":15,"keepalive":7,"keepalive_now":4,"preference":100,"input_filter":"f_import_as15133","output_filter":"f_export_as15133","import_limit":6000,"limit_action":"restart","routes":{"imported":3,"exported":2445,"preferred":0},"route_changes":{"import_updates":{"received":159,"rejected":0,"filtered":0,"ignored":156,"accepted":3},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":232863,"rejected":3,"filtered":0,"accepted":232860},"export_withdraws":{"received":69870,"accepted":69870}},"route_limit_at":3},"pb_0003_as17054":{"protocol":"pb_0003_as17054","bird_protocol":"BGP","table":"t_0003_as17054","state":"up","state_changed":"2023-09-18T21:03:13+00:00","connection":"  Established   ","description":"AS17054 - Expedient Inc.","bgp_state":"Established","neighbor_address":"206.71.141.12","neighbor_as":17054,"neighbor_id":"209.166.144.3","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":74,"keepalive":30,"keepalive_now":17,"preference":100,"input_filter":"f_import_as17054","output_filter":"f_export_as17054","import_limit":500,"limit_action":"restart","routes":{"imported":157,"exported":103562,"preferred":0},"route_changes":{"import_updates":{"received":3985,"rejected":0,"filtered":0,"ignored":2834,"accepted":1151},"import_withdraws":{"received":938,"rejected":0,"ignored":0,"accepted":938},"export_updates":{"received":10681572,"rejected":1151,"filtered":0,"accepted":10680421},"export_withdraws":{"received":1976737,"accepted":1975799}},"route_limit_at":157},"pb_0035_as17172":{"protocol":"pb_0035_as17172","bird_protocol":"BGP","table":"t_0035_as17172","state":"up","state_changed":"2023-11-07T02:25:01+00:00","connection":"  Established   ","description":"AS17172 - Fifth Judicial District of Pennsylvania","bgp_state":"Established","neighbor_address":"206.71.141.35","neighbor_as":17172,"neighbor_id":"199.224.21.4","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":111,"keepalive":60,"keepalive_now":33,"preference":100,"input_filter":"f_import_as17172","output_filter":"f_export_as17172","import_limit":6,"limit_action":"restart","routes":{"imported":1,"exported":103710,"preferred":0},"route_changes":{"import_updates":{"received":1,"rejected":0,"filtered":0,"ignored":0,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":5158840,"rejected":1,"filtered":0,"accepted":5158839},"export_withdraws":{"received":903697,"accepted":903698}},"route_limit_at":1},"pb_0030_as19261":{"protocol":"pb_0030_as19261","bird_protocol":"BGP","table":"t_0030_as19261","state":"up","state_changed":"2022-12-16T05:50:33+00:00","connection":"  Established   ","description":"AS19261 - aspStation","bgp_state":"Established","neighbor_address":"206.71.141.31","neighbor_as":19261,"neighbor_id":"192.168.1.5","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":144,"keepalive":60,"keepalive_now":1,"preference":100,"input_filter":"f_import_as19261","output_filter":"f_export_as19261","import_limit":10,"limit_action":"restart","routes":{"imported":4,"exported":103707,"preferred":0},"route_changes":{"import_updates":{"received":11,"rejected":0,"filtered":0,"ignored":0,"accepted":11},"import_withdraws":{"received":3,"rejected":0,"ignored":0,"accepted":3},"export_updates":{"received":39148221,"rejected":11,"filtered":0,"accepted":39148210},"export_withdraws":{"received":8833014,"accepted":8833015}},"route_limit_at":4},"pb_0002_as20326":{"protocol":"pb_0002_as20326","bird_protocol":"BGP","table":"t_0002_as20326","state":"up","state_changed":"2023-12-15T06:14:03+00:00","connection":"  Established   ","description":"AS20326 - TeraSwitch, Inc.","bgp_state":"Established","neighbor_address":"206.71.141.10","neighbor_as":20326,"neighbor_id":"100.100.1.101","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":55,"keepalive":30,"keepalive_now":16,"preference":100,"input_filter":"f_import_as20326","output_filter":"f_export_as20326","import_limit":100,"limit_action":"restart","routes":{"imported":50,"exported":103681,"preferred":0},"route_changes":{"import_updates":{"received":500,"rejected":0,"filtered":0,"ignored":450,"accepted":50},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":239098,"rejected":30,"filtered":0,"accepted":239068},"export_withdraws":{"received":68802,"accepted":68831}},"route_limit_at":50},"pb_0029_as20940":{"protocol":"pb_0029_as20940","bird_protocol":"BGP","table":"t_0029_as20940","state":"up","state_changed":"2023-09-18T21:03:09+00:00","connection":"  Established   ","description":"AS20940 - Akamai Technologies","bgp_state":"Established","neighbor_address":"206.71.141.30","neighbor_as":20940,"neighbor_id":"104.75.163.254","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":54,"keepalive":30,"keepalive_now":2,"preference":100,"input_filter":"f_import_as20940","output_filter":"f_export_as20940","import_limit":11000,"limit_action":"restart","routes":{"imported":92,"exported":2355,"preferred":0},"route_changes":{"import_updates":{"received":9380,"rejected":0,"filtered":0,"ignored":9157,"accepted":223},"import_withdraws":{"received":131,"rejected":0,"ignored":0,"accepted":131},"export_updates":{"received":230938,"rejected":224,"filtered":0,"accepted":230714},"export_withdraws":{"received":68229,"accepted":68221}},"route_limit_at":92},"pb_0031_as20940":{"protocol":"pb_0031_as20940","bird_protocol":"BGP","table":"t_0031_as20940","state":"up","state_changed":"2023-09-18T21:03:11+00:00","connection":"  Established   ","description":"AS20940 - Akamai Technologies","bgp_state":"Established","neighbor_address":"206.71.141.32","neighbor_as":20940,"neighbor_id":"104.76.214.254","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":50,"keepalive":30,"keepalive_now":0,"preference":100,"input_filter":"f_import_as20940","output_filter":"f_export_as20940","import_limit":10800,"limit_action":"restart","routes":{"imported":93,"exported":2436,"preferred":0},"route_changes":{"import_updates":{"received":9526,"rejected":0,"filtered":0,"ignored":9302,"accepted":224},"import_withdraws":{"received":131,"rejected":0,"ignored":0,"accepted":131},"export_updates":{"received":230937,"rejected":134,"filtered":0,"accepted":230803},"export_withdraws":{"received":68229,"accepted":68229}},"route_limit_at":93},"pb_0033_as26873":{"protocol":"pb_0033_as26873","bird_protocol":"BGP","table":"t_0033_as26873","state":"start","state_changed":"2023-01-11T13:21:33+00:00","connection":"  Active        Socket: Connection refused","description":"AS26873 - QCOL","bgp_state":"Active","neighbor_address":"206.71.141.33","neighbor_as":26873,"preference":100,"input_filter":"f_import_as26873","output_filter":"f_export_as26873","import_limit":50,"limit_action":"restart"},"pb_0012_as27364":{"protocol":"pb_0012_as27364","bird_protocol":"BGP","table":"t_0012_as27364","state":"up","state_changed":"2023-11-27T16:28:21+00:00","connection":"  Established   ","description":"AS27364 - Armstrong Cable Services","bgp_state":"Established","neighbor_address":"206.71.141.15","neighbor_as":27364,"neighbor_id":"72.23.7.29","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":90,"keepalive":60,"keepalive_now":20,"preference":100,"input_filter":"f_import_as27364","output_filter":"f_export_as27364","import_limit":500,"limit_action":"restart","routes":{"imported":83,"exported":103656,"preferred":0},"route_changes":{"import_updates":{"received":503,"rejected":0,"filtered":0,"ignored":166,"accepted":337},"import_withdraws":{"received":3,"rejected":0,"ignored":0,"accepted":252},"export_updates":{"received":4616928,"rejected":322,"filtered":0,"accepted":4616606},"export_withdraws":{"received":741941,"accepted":741865}},"route_limit_at":83},"pb_0046_as33154":{"protocol":"pb_0046_as33154","bird_protocol":"BGP","table":"t_0046_as33154","state":"up","state_changed":"2023-10-23T21:22:46+00:00","connection":"  Established   ","description":"AS33154 - DQE Communications","bgp_state":"Established","neighbor_address":"206.71.141.40","neighbor_as":33154,"neighbor_id":"64.58.254.71","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":90,"hold_timer_now":40,"keepalive":30,"keepalive_now":18,"preference":100,"input_filter":"f_import_as33154","output_filter":"f_export_as33154","import_limit":360,"limit_action":"restart","routes":{"imported":19,"exported":103701,"preferred":0},"route_changes":{"import_updates":{"received":126,"rejected":0,"filtered":0,"ignored":55,"accepted":71},"import_withdraws":{"received":25,"rejected":0,"ignored":0,"accepted":25},"export_updates":{"received":6804676,"rejected":71,"filtered":0,"accepted":6804605},"export_withdraws":{"received":1174361,"accepted":1174336}},"route_limit_at":19},"pb_0023_as36040":{"protocol":"pb_0023_as36040","bird_protocol":"BGP","table":"t_0023_as36040","state":"up","state_changed":"2023-06-14T21:13:15+00:00","connection":"  Established   ","description":"AS36040 - Google LLC AS36040","bgp_state":"Established","neighbor_address":"206.71.141.25","neighbor_as":36040,"neighbor_id":"208.76.215.1","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":127,"keepalive":60,"keepalive_now":2,"preference":100,"input_filter":"f_import_as36040","output_filter":"f_export_as36040","import_limit":10,"limit_action":"restart","routes":{"imported":2,"exported":103700,"preferred":0},"route_changes":{"import_updates":{"received":12,"rejected":0,"filtered":0,"ignored":10,"accepted":2},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":22947848,"rejected":2,"filtered":0,"accepted":22947846},"export_withdraws":{"received":4984186,"accepted":4984187}},"route_limit_at":2},"pb_0055_as137409":{"protocol":"pb_0055_as137409","bird_protocol":"BGP","table":"t_0055_as137409","state":"up","state_changed":"2023-09-18T21:04:10+00:00","connection":"  Established   ","description":"AS137409 - Global Secure Layer","bgp_state":"Established","neighbor_address":"206.71.141.43","neighbor_as":137409,"neighbor_id":"206.71.141.43","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":147,"keepalive":60,"keepalive_now":16,"preference":100,"input_filter":"f_import_as137409","output_filter":"f_export_as137409","import_limit":10000,"limit_action":"restart","routes":{"imported":2025,"exported":101833,"preferred":0},"route_changes":{"import_updates":{"received":937036,"rejected":0,"filtered":0,"ignored":690565,"accepted":246471},"import_withdraws":{"received":68710,"rejected":0,"ignored":93,"accepted":68617},"export_updates":{"received":10699697,"rejected":243713,"filtered":0,"accepted":10455984},"export_withdraws":{"received":1978673,"accepted":1913371}},"route_limit_at":2025},"pb_0056_as212232":{"protocol":"pb_0056_as212232","bird_protocol":"BGP","table":"t_0056_as212232","state":"up","state_changed":"2023-12-09T16:50:29+00:00","connection":"  Established   ","description":"AS212232 - BGP.Tools Route Collector","bgp_state":"Established","neighbor_address":"206.71.141.9","neighbor_as":212232,"neighbor_id":"185.230.223.124","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":240,"hold_timer_now":137,"keepalive":80,"keepalive_now":11,"preference":100,"input_filter":"f_import_as212232","output_filter":"f_export_as212232","import_limit":1,"limit_action":"restart","routes":{"imported":0,"exported":103729,"preferred":0},"route_changes":{"import_updates":{"received":0,"rejected":0,"filtered":0,"ignored":0,"accepted":0},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":582958,"rejected":0,"filtered":0,"accepted":582958},"export_withdraws":{"received":183175,"accepted":183175}},"route_limit_at":0},"pb_0034_as396317":{"protocol":"pb_0034_as396317","bird_protocol":"BGP","table":"t_0034_as396317","state":"start","state_changed":"2023-01-11T15:49:40+00:00","connection":"  Active        Socket: Connection refused","description":"AS396317 - Vitalink, LLC.","bgp_state":"Active","neighbor_address":"206.71.141.34","neighbor_as":396317,"preference":100,"input_filter":"f_import_as396317","output_filter":"f_export_as396317","import_limit":50,"limit_action":"restart"},"pb_0028_as398223":{"protocol":"pb_0028_as398223","bird_protocol":"BGP","table":"t_0028_as398223","state":"up","state_changed":"2023-04-12T15:20:23+00:00","connection":"  Established   ","description":"AS398223 - Pomona Consulting","bgp_state":"Established","neighbor_address":"206.71.141.29","neighbor_as":398223,"neighbor_id":"23.149.16.1","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":240,"hold_timer_now":157,"keepalive":80,"keepalive_now":42,"preference":100,"input_filter":"f_import_as398223","output_filter":"f_export_as398223","import_limit":100,"limit_action":"restart","routes":{"imported":1,"exported":103728,"preferred":0},"route_changes":{"import_updates":{"received":2841,"rejected":0,"filtered":0,"ignored":2,"accepted":2839},"import_withdraws":{"received":1813344,"rejected":0,"ignored":1810506,"accepted":2838},"export_updates":{"received":29366540,"rejected":2841,"filtered":0,"accepted":29363699},"export_withdraws":{"received":6763600,"accepted":6760765}},"route_limit_at":1},"pb_0039_as400798":{"protocol":"pb_0039_as400798","bird_protocol":"BGP","table":"t_0039_as400798","state":"up","state_changed":"2023-08-08T14:53:18+00:00","connection":"  Established   ","description":"AS400798 - Pittsburgh Internet Exchange Services","bgp_state":"Established","neighbor_address":"206.71.141.6","neighbor_as":400798,"neighbor_id":"10.6.6.11","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":145,"keepalive":60,"keepalive_now":5,"preference":100,"input_filter":"f_import_as400798","output_filter":"f_export_as400798","import_limit":10,"limit_action":"restart","routes":{"imported":2,"exported":103728,"preferred":0},"route_changes":{"import_updates":{"received":7,"rejected":0,"filtered":0,"ignored":1,"accepted":6},"import_withdraws":{"received":2,"rejected":0,"ignored":0,"accepted":2},"export_updates":{"received":16340872,"rejected":1,"filtered":0,"accepted":16340871},"export_withdraws":{"received":3969974,"accepted":3969974}},"route_limit_at":2},"pb_0040_as400798":{"protocol":"pb_0040_as400798","bird_protocol":"BGP","table":"t_0040_as400798","state":"up","state_changed":"2023-08-08T14:53:22+00:00","connection":"  Established   ","description":"AS400798 - Pittsburgh Internet Exchange Services","bgp_state":"Established","neighbor_address":"206.71.141.7","neighbor_as":400798,"neighbor_id":"10.6.6.12","bgp_session":["external","route-server","AS4"],"source_address":"206.71.141.2","hold_timer":180,"hold_timer_now":125,"keepalive":60,"keepalive_now":32,"preference":100,"input_filter":"f_import_as400798","output_filter":"f_export_as400798","import_limit":10,"limit_action":"restart","routes":{"imported":2,"exported":103729,"preferred":0},"route_changes":{"import_updates":{"received":6,"rejected":0,"filtered":0,"ignored":1,"accepted":5},"import_withdraws":{"received":2,"rejected":0,"ignored":0,"accepted":2},"export_updates":{"received":16340872,"rejected":0,"filtered":0,"accepted":16340872},"export_withdraws":{"received":3969974,"accepted":3969974}},"route_limit_at":2}};
+    function spacifyNumber( n, s ) {
+        return "" + ' '.repeat( s - n.length ) + "" + String(n);
+    }
+    $('#bgpsummary').removeClass( 'display' ).addClass('table');
+
+    $(document).ready(function() {
+
+        $('#bgpsummary').DataTable({
+            stateSave: true,
+            stateDuration : DATATABLE_STATE_DURATION,
+            responsive: true,
+            paging: false,
+            order: [[ 2, "asc" ]],
+            columnDefs: [
+                { type: 'ip-address', targets: [ 0 ] },
+                { type: 'string', targets: [ 1 ] },
+                { type: 'num', targets: [ 2 ] },
+                { type: 'string', targets: [ 3 ], "orderable": false },
+                { type: 'num', targets: [ 4 ] },
+                { type: 'num', targets: [ 5 ] },
+                { type: 'num', targets: [ 6 ] }
+            ]
+        });
+    });
+
+    $('a[id|="sourceSelector"]').on( 'click', function(){
+        if( $("#net").val().trim() == "" ) {
+            return;
+        }
+        $("#submit").prop('disabled', true);
+        $.get('https://portal.pit-ix.net/lg/rs1-ipv4/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+            $('#route-modal .modal-content').html(html);
+            $('#route-modal').modal('show', {backdrop: 'static'});
+         });
+        $("#submit").prop('disabled', false);
+    });
+
+    $('a[id|="protocol_details"]').on( 'click', function(){
+        let pname = $(this).attr('data-protocol');
+        let p = protocols[pname];
+        $('#title_p_name'   ).html( pname );
+        $('#p_name'         ).html( pname );
+        $('#p_bird_protocol').html( p.bird_protocol );
+        $('#p_table'        ).html( p.table );
+        $('#p_state '       ).html( p.state );
+        $('#p_state_changed').html( p.state_changed );
+        $('#p_connection'   ).html( p.connection );
+        $('#p_description'  ).html( p.description );
+        $('#p_preference'   ).html( p.preference );
+        $('#p_input_filter' ).html( p.input_filter );
+        $('#p_output_filter').html( p.output_filter );
+        if( p.import_limit ) {
+            $('#p_import_limit').html(p.import_limit);
+        } else {
+            $('#p_o_import_limit').hide();
+            $('#p_o_route_limit_at').hide();
+        }
+        $('#p_limit_action' ).html( p.limit_action );
+        $('#p_routes_imported'  ).html( p.routes ? ( p.routes.imported ?? 0 ) : 0 );
+        $('#p_routes_exported'  ).html( p.routes ? ( p.routes.exported ?? 0 ) : 0 );
+        $('#p_routes_preferred' ).html( p.routes ? ( p.routes.preferred ?? 0 ) : 0 );
+        $('#p_import_updates_received'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.received ?? 0) : 0, 10 ) );
+        $('#p_import_updates_rejected'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.rejected ?? 0) : 0, 10 ) );
+        $('#p_import_updates_filtered'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.filtered ?? 0) : 0, 10 ) );
+        $('#p_import_updates_ignored'   ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.ignored ?? 0) : 0, 10 ) );
+        $('#p_import_updates_accepted'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.accepted ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_received').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.received ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_rejected').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.rejected ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_ignored' ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.ignored ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_accepted').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.accepted ?? 0) : 0, 10 ) );
+        $('#p_export_updates_received'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.received ?? 0) : 0, 10 ) );
+        $('#p_export_updates_rejected'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.rejected ?? 0) : 0, 10 ) );
+        $('#p_export_updates_filtered'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.filtered ?? 0) : 0, 10 ) );
+        $('#p_export_updates_accepted'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.accepted ?? 0) : 0, 10 ) );
+        $('#p_export_withdraws_received').html( spacifyNumber( p.route_changes ? (p.route_changes.export_withdraws.received ?? 0) : 0, 10 ) );
+        $('#p_export_withdraws_accepted').html( spacifyNumber( p.route_changes ? (p.route_changes.export_withdraws.accepted ?? 0) : 0, 10 ) );
+        $('#p_bgp_state'            ).html( p.bgp_state );
+        $('#p_neighbor_address'     ).html( p.neighbor_address );
+        $('#p_neighbor_as'          ).html( p.neighbor_as );
+        $('#p_neighbor_id'          ).html( p.neighbor_id );
+        if( p.neighbor_capabilities instanceof Array && p.neighbor_capabilities.length ) {
+            $('#p_neighbor_capabilities').html( p.neighbor_capabilities.join(' ') );
+        } else {
+            $('#p_neighbor_capabilities').html( 'n/a' );
+        }
+        if( p.bgp_session instanceof Array && p.bgp_session.length ) {
+            $('#p_bgp_session').html( p.bgp_session.join(' ') );
+        } else {
+            $('#p_bgp_session').html( 'n/a' );
+        }
+        $('#p_source_address'   ).html( p.source_address );
+        $('#p_route_limit_at'   ).html( p.route_limit_at );
+        $('#p_import_limit2'    ).html( p.import_limit );
+        $('#p_hold_timer'       ).html( p.hold_timer );
+        $('#p_keepalive'        ).html( p.keepalive );
+        $('#protocol-info-modal').modal('show', {backdrop: 'static'});
+    });
+</script>
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			=================================================
+			Powered by HSDN PHP Looking Glass
+			- https://git.dev.hsdn.org/pub/lg
+			- https://github.com/hsdn/lg
+			=================================================
+		-->
+		<title>AS59279 Looking Glass</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon.ico">
+		<style type="text/css"> 
+		<!--
+			body { font: 14px normal Arial, Helvetica, sans-serif; margin: 30px 10%; color: #000; background: #fff; }
+			h2 { font-size: 24px; font-weight: normal; }
+			form { margin: 0; padding: 0 0 15px 0; }
+			p, object { margin: 0; padding: 0 0 15px 0; }
+			hr { margin: 0 0 15px 0; border: none; color: #000; background-color: #000; height: 1px; }
+			a:link, a:visited { color: #E48559; }
+			a:hover { color: #ccc; }
+			table { border: 0; }
+			table th { background: #E48559; color: #fff; white-space: nowrap; font-size: 14px; text-align: center; }
+			.form { margin: auto; text-align: left; background: #efefef; border: 5px solid #efefef; }
+			.center { text-align: center; }
+			.error { color: red; font-weight: bold; }
+			.warning { color: blue; font-weight: bold; }
+			.legend { font-size: 12px; margin: auto; }
+		//-->
+		</style>
+		<script type="text/javascript">
+		<!--
+			function load() {
+				var loading = document.getElementById('loading');
+				if (loading !== null) {
+					loading.style.display = 'none';
+				}
+			}
+		//-->
+		</script>
+	</head>
+	<body onload="load();">
+		<div class="center"><a href="https://www.rajamitra.co.id"><img src="logo.png" border="0" alt="lg"></a></div>
+		<div class="center"><h2>AS59279 Looking Glass</h2></div>
+		<hr>
+		<form method="get" action="">
+		<div class="center">
+			<table class="form" cellpadding="2" cellspacing="2">
+				<tr><th>Type of Query</th><th>Additional parameters</th><th>Node</th></tr>
+				<tr><td>
+				<table border="0" cellpadding="2" cellspacing="2">
+					<tr><td><input type="radio" name="command" id="trace" value="trace"></td><td><label for="trace">traceroute</label></td></tr>
+					<tr><td><input type="radio" name="command" id="ping" value="ping"></td><td><label for="ping">ping</label></td></tr>
+					<tr><td></td><td style="padding-top:10px">
+					<select name="protocol">
+						<option value="ipv4">IPv4</option>
+						<option value="ipv6">IPv6</option>
+					</select></td></tr>
+				</table></td>
+				<td align="center"><input name="query" size="30"></td>
+				<td align="right">
+				<select name="router" style="min-width: 180px">
+					<optgroup label="AS59279">
+					<option value="example1">Jakarta-IDC3D</option>
+					</optgroup>
+				</select></td></tr>
+				<tr><td align="center" colspan="3"><p><input type="submit" value="Submit"> | <input type="reset" value="Reset"></p></td></tr>
+			</table>
+		</div>
+		</form>
+		<hr>
+		<div class="center">
+			<p><small>Information: <a href="http://bgp.he.net/AS59279" target="_blank">he.net</a> <a href="http://www.peeringdb.com/view.php?asn=59279" target="_blank">PeeringDB</a></small></p>
+			<p>Copyright &copy; 2023 RajaMitra Cloud</p>
+		</div>
+	</body>
+</html>

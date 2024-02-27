@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.gr-ix.gr/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            GR-IX Members' Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="nyp85iKq1Inf7T8dinW8x5TaS6lN3d1juaBh8pAi">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.gr-ix.gr/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.gr-ix.gr/images/grnet-favicon.png" />
+
+                
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.gr-ix.gr">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.gr-ix.gr/images/grix-logo.png">
+    <!-- GR-IX Members' Portal -->
+</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/core-bundle/7">
+                                Inter-Switch / PoP Graphs
+                            </a>
+                                            
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                            <div class="dropdown-divider"></div>
+
+                                                    <a class="dropdown-item 1" href="https://portal.gr-ix.gr/weather-map/1">Weathermap - Athens</a>
+                                                    <a class="dropdown-item 1" href="https://portal.gr-ix.gr/weather-map/2">Weathermap - Thessaloniki</a>
+                                                            </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.gr-ix.gr/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.gr-ix.gr/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+                                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h3>
+                                                                    Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Thessaloniki RSX (IPv6)</small>
+                                </h3>
+                            <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                    <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.gr-ix.gr/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Thessaloniki RSX (IPv6)            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-thess-vlan400-ipv4">
+                            Thessaloniki RS0 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-thess-vlan400-ipv6">
+                            Thessaloniki RS0 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-vlan505-ipv4">
+                            Athens RS0 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-vlan505-ipv6">
+                            Athens RS0 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-thess-vlan400-ipv4">
+                            Thessaloniki RS1 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-thess-vlan400-ipv6">
+                            Thessaloniki RS1 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-vlan505-ipv4">
+                            Athens RS1 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-vlan505-ipv6">
+                            Athens RS1 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs2-vlan505-ipv4">
+                            Athens RS2 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs2-vlan505-ipv6">
+                            Athens RS2 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv4">
+                            Thessaloniki RSX (IPv4)                        </a>
+                                            <a class="dropdown-item active" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6">
+                            Thessaloniki RSX (IPv6)                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                
+                                                <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v1                    2.0.7                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.1
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 185.1.123.122                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 219 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-05-12 15:25:02
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://portal.gr-ix.gr/api/v4/lg/rsx-thess-vlan400-ipv6/status">status</a>]
+                    [<a href="https://portal.gr-ix.gr/api/v4/lg/rsx-thess-vlan400-ipv6/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                            </div>
+
+                        </div>
+
+
+                    </main>
+
+            </div> <!-- </div class="row"> -->
+
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+
+            <small>
+            Greek Internet Exchange
+            IXP Manager V6.3.1
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+                Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            Discover IXP Manager at:
+
+            <a href="https://www.ixpmanager.org/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.facebook.com/ixpmanager">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>
+
+            <a  href="https://twitter.com/ixpmanager">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://github.com/inex/IXP-Manager">
+                <i class="fa fa-github fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://docs.ixpmanager.org/">
+                <i class="fa fa-book fa-inverse mx-1"></i>
+            </a>
+
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.gr-ix.gr/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.gr-ix.gr/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.gr-ix.gr/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.gr-ix.gr/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script>
+
+        <script>
+
+            $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            
+
+        </script>
+
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["master","t_as112","master4","master6","t_vodafone179","t_Vestitel144","t_synapsecom138","t_grtld232","t_roa","t_vivacom228","t_hcn141","t_s3company192","t_intertelecom140","t_grnet137","t_ipacctltd197","t_cloudflare164","t_dataways145","t_dataways139","t_metadosis142","t_otenet203","t_wind176","t_bulgartel244","t_telehouse242","t_greecetelecom155"].sort();
+    let protocols = ["b_greecetelecom155","b_telehouse242","b_ipacctltd197","b_as112","b_metadosis142","b_vivacom228","pipe1","pipe2","pipe3","pipe4","pipe5","pipe6","pipe7","pipe8","pipe9","rpki1","b_Vestitel144","rpki2","b_wind176","b_bulgartel244","pipe10","b_hcn141","pipe11","pipe20","pipe12","pipe13","pipe14","pipe15","pipe16","pipe17","pipe18","pipe19","b_cloudflare164","b_intertelecom140","b_vodafone179","b_dataways145","b_dataways139","device1","b_otenet203","direct1","b_synapsecom138","b_s3company192","rs_bfd","b_grnet137","b_grtld232"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv6');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv6' );
+    });
+</script>
+        
+    </body>
+</html>

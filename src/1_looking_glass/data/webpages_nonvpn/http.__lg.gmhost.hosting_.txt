@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>GMhost.hosting - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - GMhost.hosting">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <style>
+.logo {
+    background: url(https://gmhost.com.ua/image/logo2.svg) no-repeat scroll 0 0;
+    background-size: 100% 100%;
+    font-size: 22px;
+    display: block;
+    margin-top: 22px;
+    text-indent: -9999px;
+    width: 215px;
+    height: 65px;
+}
+.location .select { font-weight: 500; color: #2fa4e7;  }
+.location a { color: #9e9e9e;  }
+    </style>
+  </head>
+  <body>
+
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" class="logo" href="https://gmhost.hosting/?utm_nooverride=1">GMhost.hosting</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+
+          <div class="span12">
+            <!-- <div class="well"> -->
+              <span id="legend">Network information</span>
+            <!-- </div> -->
+          </div>
+          <div class="span12">
+            <div class="well">
+              <span id="legend"><b>Ukraine</b></span><!-- IE/Safari dislike <legend> out of context -->
+              
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 185.86.76.5</p>
+                <p>Test IPv6: 2a03:7720::14</p>
+                <p>Test files: <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+              </div>
+            </div>
+          </div>  
+          <div class="span12">
+            <div class="well">
+              <span id="legend"><b>Estonia</b></span><!-- IE/Safari dislike <legend> out of context -->
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 45.129.96.253</p>
+                <p>Test IPv6: 2a02:2d8:0:b000:232a::1</p>
+                <p>Test files: <a href="//45.129.96.253/50MB.test" id="testfile">50MB</a> <a href="//45.129.96.253/100MB.test" id="testfile">100MB</a> <a href="//45.129.96.253/500MB.test" id="testfile">500MB</a> <a href="//45.129.96.253/1000MB.test" id="testfile">1000MB</a> </p>
+              </div>
+            </div>
+          </div>  
+          <div class="span12">
+            <div class="well">
+              <span id="legend"><b>Germany</b></span><!-- IE/Safari dislike <legend> out of context -->
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 5.154.181.250</p>
+                <p></p>
+                <p>Test files: <a href="//5.154.181.250/50MB.test" >50MB</a> <a href="//5.154.181.250/100MB.test" >100MB</a> <a href="//5.154.181.250/500MB.test" >500MB</a> <a href="//5.154.181.250/1000MB.test" >1000MB</a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post" 
+       
+       href="//lg.gmhost.hosting/"       
+              >
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+                <p class="location">
+                  Location test: 
+                  <a href="/#tests"   class="select" >Ukraine</a> &nbsp; | &nbsp;
+                  <a href="/ee#tests" >Estonia</a> &nbsp; | &nbsp;
+                  <a href="/de#tests" >Germany</a> 
+               </p>
+
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a> &nbsp; | &nbsp;
+            <a href="//gmhost.hosting">Back to site</a>
+        </p>
+        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+<!--
+<pre>
+</pre> 
+-->
+</html>

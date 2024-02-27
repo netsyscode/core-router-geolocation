@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<title>MRLG - lg.evio.pl - Multi-Router Looking Glass</title>
+<!-- PLEASE DO NOT REMOVE: MRLG-version 5.5.0 (IPv6+SSH) -->
+<!-- PLEASE DO NOT REMOVE: Written by and (c) 2000-2014, John Fraizer -->
+<!-- PLEASE DO NOT REMOVE: #BingaWonga #BingaWonga #BingaWonga #BingaWonga -->
+<!-- PLEASE DO NOT REMOVE: #MRLG-5.5.0 #Sat-Sep-27-03:16:28-UTC-2014 -->
+
+</head>
+
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+
+<font color=black face=arial size=3>
+lg.evio.pl - Looking Glass</font><br>
+<font color=black face=arial size=2>
+<!--Running MRLG Version 5.5.0 (IPv6+SSH)</font></br>-->
+A service of <A HREF="http://www.evio.pl/">EVIO Polska Sp. z o.o.</A>.<br>
+<font color=red face=arial size=1>
+Note: ALL access to this interface is logged.<hr>
+</font></font>
+
+<font face=arial color=black>
+<form METHOD="POST" action="http://lg.evio.pl/">
+<B>Router:</B>  <SELECT Name="router" Size=1>
+<OPTION  SELECTED Value="AS57665">AS57665 - Evio
+
+</select>
+
+
+<br><br>
+<B>Query</B>:
+<br>
+
+			<input type=radio name=query value=1>show ip bgp<br>
+			<!--<input type=radio name=query value=2>show ip bgp summary<br>-->
+			
+			<!--<input type=radio name=query value=11>show ip protocols<br>-->
+			
+			<!--<input type=radio name=query value=9>show version<br>-->
+			
+			<input type=radio name=query value=7>trace<br>
+			<input type=radio name=query value=8>ping<br>
+			
+<br>
+<B>Argument:</B> <input type=text name=arg length=20 maxlength=60 value=""> 
+(require an IP address as argument) 
+<input type=submit value=Execute></form></font></font>
+<br>
+<code>http://lg.evio.pl/</code>
+<font color=black face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass<br>
+
+&copy; 2000-2014, John Fraizer  -
+<a href=http://www.op-sec.us/>OP-SEC.US</a><br>
+Source code: <a href=http://mrlg.op-sec.us/>http://mrlg.op-sec.us/</a>.	
+<br>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<meta name=description content="Looking Glass">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="https://www.atlex.ru/"><IMG SRC="https://www.atlex.ru/lg/logo-221-60.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD=POST ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=advertised-routes></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=summary></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="ATLEX.RU DATAPRO">
+<OPTION VALUE="msd-rp-core" SELECTED> Okay-Telecom (AS 199669)
+<OPTION VALUE="msd-rp-core IPv6"> Okay-Telecom IPv6 (AS 199669)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:noc@atlex.ru">noc@atlex.ru</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache"/>
+	<META HTTP-EQUIV="Expires" CONTENT="-1"/>
+	<title>Looking Glass Networx-BG</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		pre {
+			white-space: pre-wrap;       /* Since CSS 2.1 */
+			white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+			white-space: -pre-wrap;      /* Opera 4-6 */
+			white-space: -o-pre-wrap;    /* Opera 7 */
+			word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		}
+	</style>
+</head>
+<body class="container col-md-offset-1 col-md-10" onload="">
+	<br><br><br>
+	<img src="img/logo.png" class="center-block img-responsive" />
+	<form class="form-horizontal" method="POST" action="">
+		<fieldset>
+			<legend class="text-center">Looking glass</legend>
+			<br>
+			<div class="form-group">
+				<label class="col-md-4 control-label" for="check">Check</label>
+				<div class="col-md-4">
+					<div class="input-group">
+						<input id="check" name="host" class="form-control" placeholder="some host" required="" type="text" value="">
+						<!-- Button -->
+						<div class="input-group-btn">
+							<button id="submit" name="submit" value="check" class="btn btn-primary">Check</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-4 control-label" for="methods">Method</label>
+				<div class="col-md-4"> 
+					<label class="radio-inline" for="methods-0">
+						<input name="method" id="methods-0" value="bgp" checked="checked"  type="radio">
+						bgp
+					</label> 
+					<label class="radio-inline" for="methods-1">
+						<input name="method" id="methods-1" value="ping"  type="radio">
+						ping
+					</label> 
+					<label class="radio-inline" for="methods-2">
+						<input name="method" id="methods-2" value="trace"  type="radio">
+						trace
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-4 control-label" for="routers">Router</label>
+				<div class="col-md-8"> 
+					<label class="radio-inline" for="routers-201">
+						<input name="router" id="routers-201" value="201" checked="checked"  type="radio">
+						Ruse-201 / BG
+					</label> 
+					<label class="radio-inline" for="routers-250">
+						<input name="router" id="routers-250" value="250"  type="radio">
+						Ruse-250 / BG
+					</label> 
+					<label class="radio-inline" for="routers-248">
+						<input name="router" id="routers-248" value="248"  type="radio">
+						Sofia-248 / BG
+					</label>
+					<label class="radio-inline" for="routers-254">
+						<input name="router" id="routers-254" value="254"  type="radio">
+						Sofia-254 / BG
+					</label>
+				</div>
+			</div>
+
+		</fieldset>
+	</form>
+
+	<hr>
+
+	
+	<footer class="footer container-fluid navbar-fixed-bottom center-block text-center">
+		<p>Dev by <a href="http://spont4e.com" target="_blank">spont4e</a></p>
+	</footer>
+</body>
+</html>

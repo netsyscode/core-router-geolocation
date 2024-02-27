@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=990">
+<title>Looking Glass Point</title>
+<link href="/style.css?v=3" rel="stylesheet">
+<script type="text/javascript" src="/js.js?v=9"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script type="text/javascript">
+$(document).ready(function() {
+	$("[data-tooltip='tooltip']").tooltip();
+	$("[data-popover='popover']").popover();
+	
+	$(window).on("scroll", function() {
+		if ($(document).width() >= 1080)
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				if ($("#back-to-top").data("visible") !== true)
+				{
+					$("#back-to-top").data("visible", true).stop(true, true).fadeIn();
+				}
+			}
+			else
+			{
+				if ($("#back-to-top").data("visible"))
+				{
+					$("#back-to-top").data("visible", false).stop(true, true).fadeOut();					
+				}
+			}
+		}
+		else
+		{
+			$("#back-to-top").hide();	
+		}
+	}).scroll().on("resize", function() {
+		if ($(document).width() < 1080)
+		{
+			$("#back-to-top").hide();
+		}
+		else
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				$("#back-to-top").show();
+			}
+		}
+	});
+});
+</script>
+
+</head>
+<body>	
+	<div id="back-to-top" data-visible="false" style="display:none; z-index:10; position:fixed; left:0; top:0; margin:0px; padding:25px; bottom:0px; width:24px; height:auto; cursor:pointer; background:url('/images/top.png') no-repeat; background-position:center center;" onclick="$('body:not(:animated),html:not(:animated)').animate({scrollTop: 0}, 400);"></div>
+
+	
+	
+	<h2 class="text-center" style="margin-top:0px; margin-bottom:20px;">Looking Glass Point in Estonia, J

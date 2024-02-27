@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |            *****************************
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>WIKIHOST - HongKong - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+    <meta name="author" content="samlm0">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/united.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="http://lg.hongkong-cn2.hkg.50network.com">WIKIHOST - HongKong</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">网络信息 (Network information)</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>服务器地点 (Server Location): <b>Shatin, Hong Kong S.A.R</b> <a href="https://idc.wiki/aff.php?id=1&gid=34" target="_blank">购买同样的VPS</a></p>
+              <div style="margin-left: 10px;">
+                <p>测试 IPv4 (Test IPv4): 202.79.170.116</p>
+                <p></p>
+                <p>测试文件 (Test files): <a href="1M.test" id="testfile">1M</a> <a href="10M.test" id="testfile">10M</a> <a href="100MB.test" id="testfile">100MB</a> <a href="1GB.test" id="testfile">1GB</a> </p>
+              </div>
+              <p>您当前的IP地址 (Your IP Address): <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Information -->
+      <section id="speedtest">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">网络测速 (Speed test)</span>
+              <p>服务器端口 (Server port): <b>30 Mbps</b></p>
+              <div class="col-xs-6 col-md-3">
+                <p>下行 (Download): <span id="dlText">等待测试...</span></p>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <p>上行 (Upload): <span id="ulText">等待测试...</span></p>
+              </div>
+              <p>测试数值仅供参考</p>
+              <p>Test values are for reference only</p>
+              <button id="startStopBtn" class="btn btn-primary" onclick="startStop()">开始测试 (Start)</button>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">网络测试 (Network test)</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">执行测试 (Start test)</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a> + <a href="https://github.com/adolfintel/speedtest">SpeedTest</a></p>
+        <p>Moded by <a href="http://idc.wiki">WIKIHOST</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <script type="text/javascript">
+    function I(id){return document.getElementById(id);}
+
+    var w=null; //speedtest worker
+    function startStop(){
+      if(w!=null){
+        //speedtest is running, abort
+        w.postMessage('abort');
+        w=null;
+        initUI();
+      }else{
+        I("dlText").textContent="等待测试...";
+        I("ulText").textContent="等待测试...";        
+        //test is not running, begin
+        w=new Worker('speedtest_worker.min.js');
+        w.postMessage('start'); //Add optional parameters as a JSON object to this command
+        w.onmessage=function(e){
+          var data=JSON.parse(e.data);
+          var status=data.testState;
+          I("startStopBtn").textContent="停止测试 (Stop)";
+          if(status>=4){
+            //test completed
+            I("startStopBtn").textContent="开始测试 (Start)";
+            w=null;
+          }
+          if ( status==1 && data.dlStatus==0){
+            I("dlText").textContent = '...'
+          } else {
+            if (data.dlStatus){
+              I("dlText").textContent = data.dlStatus + ' Mbps'
+            }
+          }
+
+          if ( status==1 && data.ulStatus==0){
+            I("ulText").textContent = '...'
+          } else {
+            if (data.ulStatus){
+              I("ulText").textContent = data.ulStatus + ' Mbps'
+            }
+          }
+        };
+      }
+    }
+    //poll the status from the worker every 200ms (this will also update the UI)
+    setInterval(function(){
+      if(w) w.postMessage('status');
+    },200);
+    //function to (re)initialize UI
+    function initUI(){
+      I("dlText").textContent="等待测试...";
+      I("ulText").textContent="等待测试...";
+      I("startStopBtn").textContent="开始测试 (Start)";
+    }
+
+    </script>    
+  </body>
+</html>

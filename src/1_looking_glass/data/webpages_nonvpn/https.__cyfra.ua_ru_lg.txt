@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<base href="/">
+<meta charset="utf-8">
+<meta name="theme-color" content="#d63127"/>
+<meta name="_csrf" content="c0450f4e-d0c0-4a57-9805-cfec2d0556c9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1, shrink-to-fit=no">
+<meta name="keywords" content="§Ú§ß§ä§Ö§â§ß§Ö§ä §Ü§Ú§Ö§Ó, §Ú§ß§ä§Ö§â§ß§Ö§ä §Õ§Ý§ñ §à§æ§Ú§ã§Ñ, §à§á§ä§à§Ó§à§Ý§à§Ü§à§ß§ß§í§Û §Ú§ß§ä§Ö§â§ß§Ö§ä, §á§â§à§Ó§Ñ§Û§Õ§Ö§â§í §Ü§Ú§Ö§Ó§Ñ, §á§à§Õ§Ü§Ý§ð§é§Ú§ä§î §Ú§ß§ä§Ö§â§ß§Ö§ä §¬§Ú§Ö§Ó, §ã§Ñ§Þ§í§Û §Ò§í§ã§ä§â§í§Û §Ú§ß§ä§Ö§â§ß§Ö§ä §¬§Ú§Ö§Ó, §Ó§í§ã§à§Ü§à§ã§Ü§à§â§à§ã§ä§ß§à§Û §Ú§ß§ä§Ö§â§ß§Ö§ä, §Ú§ß§ä§Ö§â§ß§Ö§ä §á§â§à§Ó§Ñ§Û§Õ§Ö§â§í">
+<meta name="description" content="Looking Glass">
+<title>Looking Glass | §ª§ß§ä§Ö§â§ß§Ö§ä-§á§â§à§Ó§Ñ§Û§Õ§Ö§â §¸§ª§¶§²§¡</title>
+<link rel="apple-touch-icon" href="favicon.png"/>
+<link rel="icon" href="favicon.png" type="image/x-png"/>
+<link rel="shortcut icon" href="favicon.png" type="image/x-png"/>
+<link rel="alternate" href="https://cyfra.ua/ru/lg" hreflang="ru"/>
+<link rel="alternate" href="https://cyfra.ua/lg" hreflang="uk"/>
+<link rel="canonical" href="https://cyfra.ua/ru/lg/"/>
+<link rel="alternate" type="application/rss+xml" title="§¯§à§Ó§à§ã§ä§Ú" href="/ru/rss/news"/>
+<link rel="alternate" type="application/rss+xml" title="§£§Ñ§Ü§Ñ§ß§ã§Ú§Ú" href="/ru/rss/vacancy"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,700&amp;subset=cyrillic">
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<script src="/js/script.js"></script>
+<script src="/js/angular/i18n/angular-locale_ru.min.js"></script>
+<meta name="google-site-verification" content="Oj8WMRTYdp2qTJ3KEahmhYDbZog-3K9la36PBC4ikNs" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7VNGS4');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body ng-app="app" ng-controller="MainPage">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7VNGS4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<noscript>
+<div class="modal fade in" role="dialog" tabindex="-1" style="display: block">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">JavaScript</h5>
+</div>
+<div class="modal-body">
+<p>§¥§Ý§ñ §á§â§Ñ§Ó§Ú§Ý§î§ß§à§Û §â§Ñ§Ò§à§ä§í §ã§Ñ§Û§ä§Ñ §Ó§Ü§Ý§ð§é§Ú§ä§Ö JavaScript</p>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-backdrop fade in"></div>
+</noscript>
+<nav id="header" class="navbar navbar-static-top" role="navigation">
+<div class="container">
+<ul id="main-nav-left" class="navbar-left">
+<li class="phone">
+<i class="icon icon-phone" aria-hidden="true"></i>
+<a href="tel:+380442067733"><sub>044</sub>206-77-33</a>
+</li>
+<li class="email">
+<i class="icon icon-plane" aria-hidden="true"></i>
+<a href="mailto:sales@cyfra.ua">sales@cyfra.ua</a>
+</li>
+<li class="lang lang-mobile">
+<div class="btn-group" uib-dropdown dropdown-append-to-body>
+<button class="btn btn-sm" uib-dropdown-toggle type="button" aria-haspopup="true" aria-expanded="false">
+<span>§²§µ§³</span>
+</button>
+<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+<li role="menuitem"><a target="_self" href="/lg">§µ§¬§²</a></li>
+<li role="menuitem"><a target="_self" href="/ru/lg">§²§µ§³</a></li>
+</ul>
+</div>
+</li>
+</ul>
+<ul id="main-nav-right" class="navbar-right only-descktop-show">
+<li class="lang ">
+<div class="btn-group" uib-dropdown dropdown-append-to-body>
+<button class="btn btn-sm" uib-dropdown-toggle type="button" aria-haspopup="true" aria-expanded="false">
+<span>§²§µ§³</span>
+</button>
+<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+<li role="menuitem"><a target="_self" href="/lg">§µ§¬§²</a></li>
+<li role="menuitem"><a target="_self" href="/ru/lg">§²§µ§³</a></li>
+</ul>
+</div>
+</li>
+<li class="account">
+<i class="fa fa-sign-in" aria-hidden="true"></i>
+<a target="_self" href="/ru/account/">§­§Ú§é§ß§í§Û §Ü§Ñ§Ò§Ú§ß§Ö§ä</a>
+</li>
+</ul>
+</div>
+</nav>
+<div id="main">
+<div class="container">
+<div class="row">
+<nav id="nav-default" class="navbar navbar-default" role="navigation" ng-controller="MainNavigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" ng-click="toggle()">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a target="_self" class="logo" href="/ru/">
+<img src="img/logo.png" alt="§¸§ª§¶§²§¡">
+</a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" uib-collapse="isNavCollapsed()">
+<ul class="nav navbar-nav navbar-right">
+<li class="icon icon-comp-menu ">
+<a target="_self" href="/ru/internet/">
+<span>§ª§ß§ä§Ö§â§ß§Ö§ä</span>
+</a>
+</li>
+<li class="icon icon-pbx-menu ">
+<a target="_self" href="/ru/virtual-pbx/">
+<span>§£§Ú§â§ä§å§Ñ§Ý§î§ß§Ñ§ñ §¡§´§³</span>
+</a>
+</li>
+<li class="icon icon-chanel-menu ">
+<a target="_self" href="/ru/ethernet/">
+<span>§¬§Ñ§ß§Ñ§Ý§í</span>
+</a>
+</li>
+<li class="icon icon-fiber-menu ">
+<a target="_self" href="/ru/fiber/">
+<span>§®§à§ß§ä§Ñ§Ø §£§°§­§³</span>
+</a>
+</li>
+<li class="icon icon-autsors-menu ">
+<a target="_self" href="/ru/it-outsourcing/">
+<span>

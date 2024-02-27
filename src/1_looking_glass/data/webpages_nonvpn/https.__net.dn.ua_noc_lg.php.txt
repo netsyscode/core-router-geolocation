@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>NetHolding - Network Operatrions Center: whois 166.111.68.233</title>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Igor (Dicr) Tarasov"/>
+    <link rel="author" href="https://dicr.org"/>
+    <meta name="copyright" content="NetHolding"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/><!-- For MSIE -->
+    <link rel="icon" href="/favicon.png" type="image/png"/><!-- Standard -->
+    <meta name="alexaVerifyID" content="y8xYVKcDTfvnABKUFlIb2IWlhtQ"/>
+    <meta name="msvalidate.01" content="73AF6CE9B5D25AD3052D39417ADC46FC"/>
+    <meta name="yandex-verification" content="3c23820a93f30ba0"/>
+    <meta name="google-site-verification" content="JSFVLPEf2v_IdL30VvtWyy1qPS_TsfmP_JKbVWl_lt8"/>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css"/><link rel="stylesheet" type="text/css" href="/css/style.site.css"/><link rel="stylesheet" type="text/css" href="/css/style.white.css"/><script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>        <meta name="keywords" content="noc, whois, ping, trceroute, bgp, looking glass, 166.111.68.233"/>
+        <meta name="description" content="NOC - §è§Ö§ß§ä§â §ã§Ö§ä§Ö§Ó§í§ç §à§á§Ö§â§Ñ§è§Ú§Û (whois, ping, traceroute, nslookup, mtr, bgp): 166.111.68.233"/>
+        <link rel="stylesheet" type="text/css" href="//net.dn.ua/lib/siteheader/siteheader.css"/><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.sitefooter, .sitefooter a {
+    font-weight: normal;
+    font-family: "Tahma", "Arial", sans-serif;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sitefooter .counters {
+    margin: 10px auto 0 auto;
+}
+
+.sitefooter img {
+    border: none;
+    display: inline;
+    vertical-align: top;
+}
+
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.columnspage {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.columnspage > tbody > tr {
+    vertical-align: top;
+}
+
+.columnspage #center_column {
+    width: 100%;
+}
+
+
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.boxpanel {
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxpanel > .panelhead {
+    margin: 0;
+    padding: 4px 10px;
+    white-space: nowrap;
+    text-indent: 0;
+    overflow: hidden;
+    text-shadow: -1px -1px 1px rgba(99%, 99%, 99%, 0.5);
+}
+
+.boxpanel > .icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.boxpanel > .panelbody {
+    padding: 5px;
+    overflow: auto;
+}
+
+.boxpanel .separator {
+    clear: both;
+    border: dashed #ccc;
+    border-width: 1px 0 0 0;
+    margin: 5px 0;
+}
+</style><script type="text/javascript">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+$(function () {
+    $(".boxpanel .panelhead").click(function () {
+        $(this).closest(".boxpanel").find(".panelbody").slideToggle("fast");
+    });
+});
+</script><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.panelmenu {
+    overflow: hidden;
+}
+
+.panelmenu > a {
+    display: block;
+    white-space: nowrap;
+    padding: 3px 5px;
+    font-family: "Tahoma", "Arial", sans-serif;
+    text-shadow: 1px 1px 2px rgba(30%, 30%, 30%, 0.2);
+    font-size: 14px;
+}
+
+.panelmenu > a:hover {
+    color: rgb(0%, 0%, 100%);
+    background-color: rgb(90%, 90%, 90%);
+    text-decoration: none;
+}
+
+.panelmenu > a > img {
+    border: none;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.panelmenu > a > strong, .panelmenu a:active {
+    color: rgb(80%, 10%, 10%);
+    font-weight: bold;
+}
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+.weatherpanel {
+    width: 100%;
+    cursor: pointer;
+}
+
+.weatherpanel tr:hover {
+    background-color: #eee;
+}
+
+.weatherpanel th {
+    font: normal 14px "Arial", sans-serif;
+    white-space: nowrap;
+    text-align: left;
+    padding: 1px 10px 1px 1px;
+    color: #555;
+}
+
+.weatherpanel td {
+    font: normal 14px "Arial", sans-serif;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 1px 1px 1px 5px;
+    color: #444;
+}
+
+.weatherpanel img {
+    vertical-align: middle;
+    display: inline;
+    border: none;
+}
+</style><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:09
+ */
+
+.moneypanel {
+    cursor: pointer;
+}
+
+.moneypanel tr:hover {
+    background-color: #eee;
+}
+
+.moneypanel th {
+    font: normal 12px "Arial", sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 1px 10px 1px 1px;
+}
+
+.moneypanel td {
+    font: normal 14px "Arial", sans-serif;
+    color: #555;
+    padding: 1px 3px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.moneypanel a {
+    text-decoration: none;
+}
+
+.moneypanel img {
+    border: none;
+    display: inline;
+    margin: 1px 5px 1px 1px;
+    vertical-align: middle;
+}
+</style><script type="text/javascript" src="/time/ntpclock.js"></script><style type="text/css">        .ntppanel {            text-align: center;        }        .ntppanel #ntpclock {            font: bold 36px "Arial",sans-serif;            color: #aa8;            text-align: center;            text-shadow: 1px 1px 0 rgba(0,0,0,0.6);        }        .ntppanel #ntpdate {            font: bold 12px "Arial",sans-serif;            color: #444444;            text-align: center;        }
+        </style><link rel="stylesheet" type="text/css" href="/scode/panel.css"/><style type="text/css">/*
+ * @copyright 2019-2019 Dicr http://dicr.org
+ * @author Igor A Tarasov <develop@dicr.org>
+ * @license proprietary
+ * @version 10.07.17 05:46:10
+ */
+
+/**********************************************************************************/
+.terminalpanel {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.1em;
+    background-color: rgb(15%, 15%, 15%);
+    color: rgb(30%, 100%, 30%);
+    padding: 10px;
+    border: 1px solid rgb(80%, 80%, 80%);
+}
+
+</style>
+</head>
+<body>
+    <!-- ?php require_once(__DIR__.'/ny/block.newyear.php')?-->
+    <header class="siteheader" title="Network Operatrions Center: whois 166.111.68.233"><div class="links" title="§±§â§à§Ó§Ñ§Û§Õ§Ö§â §ª§ß§ä§Ö§â§ß§Ö§ä §Ó §¥§à§ß§Ö§è§Ü§Ö"><a  href="//net.dn.ua/" title="§ª§ß§ä§Ö§â§ß§Ö§ä-§á§â§à§Ó§Ñ§Û§Õ§Ö§â NetHolding">§¤§Ý§Ñ§Ó§ß§Ñ§ñ</a><a  href="//net.dn.ua/services/" title="§±§à§Õ§Ü§Ý§ð§é§Ö§ß§Ú§Ö §ª§ß§ä§Ö§â§ß§Ö§ä, §ç§à§ã§ä§Ú§ß§Ô §æ§Ñ§Û§Ý§à§Ó, §â§Ö§Ô§Ú§ã§ä§â§Ñ§è§Ú§ñ §Õ§à§Þ§Ö§ß§à§Ó §Ó §¥§à§ß§Ö§è§Ü§Ö">§µ§ã§Ý§å§Ô§Ú</a><a  href="//net.dn.ua/clients/" title="§¯§Ñ§ã§ä§â§à§Û§Ü§Ñ §á§Ñ§â§Ñ§Þ§Ö§ä§â§à§Ó §Ú §â§Ö§ã§å§â§ã§í §ã§Ö§ä§Ú §Õ§Ý§ñ §Ü§Ý§Ú§Ö§ß§ä§à§Ó §Ó §¥§à§ß§Ö§è§Ü§Ö">§¬§Ý§Ú§Ö§ß§ä§Ñ§Þ</a><a  href="//net.dn.ua/contacts/" title="§°§ä§á§â§Ñ§Ó§Ú§ä§î §ã§à§à§Ò§ë§Ö§ß§Ú§Ö §Ó §ã§Ý§å§Ø§Ò§å §á§à§Õ§Õ§Ö§â§Ø§Ü§Ú §Ñ§Ò§à§ß§Ö§ß§ä§à§Ó §Ó §¥§à§ß§Ö§è§Ü§Ö">§¬§à§ß§ä§Ñ§Ü§ä§í</a></div>        <div class="infoblock">
+            <a href="//net.dn.ua/noc/" title="§£§Ñ§ê IP-§Ñ§Õ§â§Ö§ã (Whois)"><img src="//net.dn.ua/img/ihostname.png"
+                        alt="IP address"/>166.111.68.233</a>
+                            <a href="//net.dn.ua/profile/" title="§£§à§Û§ä§Ú §ß§Ñ §ã§Ñ§Û§ä §á§à§Õ §ã§Ó§à§Ú§Þ §Ý§à§Ô§Ú§ß§à§Þ §Ú §á§Ñ§â§à§Ý§Ö§Þ"><img
+                            src="//net.dn.ua/profile/img/login.png" alt="login"/>§Ó§à§Û§ä§Ú §ß§Ñ §ã§Ñ§Û§ä</a>
+                    </div>
+        </header>        <table class="columnspage">
+            <tr>
+                <td id="left_column"><div class="boxpanel"><div class="panelhead">§±§â§à§Ö§Ü§ä§í</div><img class="icon" src="/img/icon.png" alt="icon"/><div class="panelbody"><div class="panelmenu"><a href="/weather/" title="§´§à§é§ß§í§Û §á§â§à§Ô§ß§à§Ù §Ú §Ñ§â§ç§Ú§Ó §á§à§Ô§à§Õ§í §Ó §¥§à§ß§Ö§è§Ü§Ö"><img src="/weather/img/icon.png" alt="§´§à§é§ß§í§Û §á§â§à§Ô§ß§à§Ù §Ú §Ñ§â§ç§Ú§Ó §á§à§Ô§à§Õ§í §Ó §¥§à§ß§Ö§è§Ü§Ö"/>§±§â§à§Ô§ß§à§Ù §á§à§Ô§à§Õ§í</a><a href="/money/" title="§¬§å§â§ã§í §Ó§Ñ§Ý§ð§ä §Ó §µ§Ü§â§Ñ§Ú§ß§Ö, §Ô§â§Ñ§æ§Ú§Ü§Ú, §Ñ§â§ç§Ú§Ó§í §Ü§å§â§ã§Ñ §Ó§Ñ§Ý§ð§ä §¯§¢§µ, §Ü§Ñ§Ý§î§Ü§å§Ý§ñ§ä§à§â §Ó§Ñ§Ý§ð§ä"><img src="/money/img/icon.png" alt="§¬§å§â§ã§í §Ó§Ñ§Ý§ð§ä §Ó §µ§Ü§â§Ñ§Ú§ß§Ö, §Ô§â§Ñ§æ§Ú§Ü§Ú, §Ñ§â§ç§Ú§Ó§í §Ü§å§â§ã§Ñ §Ó§Ñ§Ý§ð§ä §¯§¢§µ, §Ü§Ñ§Ý§î§Ü§å§Ý§ñ§ä§à§â §Ó§Ñ§Ý§ð§ä"/>§¬§å§â§ã§í §Ó§Ñ§Ý§ð§ä</a><a href="/time/" title="NTP-§ã§Ö§â§Ó§Ö§â §ä§à§é§ß§à§Ô§à §Ó§â§Ö§Þ§Ö§ß§Ú §Ó §¥§à§ß§Ö§è§Ü§Ö (§µ§Ü§â§Ñ§Ú§ß§Ñ)"><img src="/time/img/icon.png" alt="NTP-§ã§Ö§â§Ó§Ö§â §ä§à§é§ß§à§Ô§à §Ó§â§Ö§Þ§Ö§ß§Ú §Ó §¥§à§ß§Ö§è§Ü§Ö (§µ§Ü§â§Ñ§Ú§ß§Ñ)"/>§´§à§é§ß§à§Ö §Ó§â§Ö§Þ§ñ</a><a href="/search/" title="§±§à§Ú§ã§Ü §ã§Ñ§Û§ä§à§Ó, §Þ§å§Ù§í§Ü§Ú, §Ü§Ñ§â§ä§Ú§à§Ü"><img src="/search/img/icon.png" alt="§±§à§Ú§ã§Ü §ã§Ñ§Û§ä§à§Ó, §Þ§å§Ù§í§Ü§Ú, §Ü§Ñ§â§ä§Ú§à§Ü"/>§±§à§Ú§ã§Ü §Ó §ª§ß§ä§Ö§â§ß§Ö§ä</a><a href="/noc/" title="§¸§Ö§ß§ä§â §ã§Ö§ä§Ö§Ó§í§ç §à§á§Ö§â§Ñ§è§Ú§Û (NOC), §Ú§Ù§Þ§Ö§â§Ö§ß§Ú§Ö §ã§Ü§à§â§à§ã§ä§Ú §ª§ß§ä§Ö§â§ß§Ö§ä§Ñ (SpeedTest)"><img src="/noc/img/icon.png" alt="§¸§Ö§ß§ä§â §ã§Ö§ä§Ö§Ó§í§ç §à§á§Ö§â§Ñ§è§Ú§Û (NOC), §Ú§Ù§Þ§Ö§â§Ö§ß§Ú§Ö §ã§Ü§à§â§à§ã§ä§Ú §ª§ß§ä§Ö§â§ß§Ö§ä§Ñ (SpeedTest)"/><strong>§ª§ß§ã§ä§â§å§Þ§Ö§ß§ä§í §ã§Ö§ä§Ú</strong></a><a href="http://mail.net.dn.ua" title="§¢§Ö§ã§á§Ý§Ñ§ä§ß§Ñ§ñ §£§Ö§Ò-§á§à§é§ä§Ñ §Õ§Ý§ñ §â§Ñ§Ò§à§ä§í §á§à IMAP §ã E-Mail §à§ä NetHolding, GMail, MailRU, Yandex §Ú §Õ§â."><img src="/mail/img/icon.png" alt="§¢§Ö§ã§á§Ý§Ñ§ä§ß§Ñ§ñ §£§Ö§Ò-§á§à§é§ä§Ñ §Õ§Ý§ñ §â§Ñ§Ò§à§ä§í §á§à IMAP §ã E-Mail §à§ä NetHolding, GMail, MailRU, Yandex §Ú §Õ§â."/>§£§Ö§Ò-§á§à§é§ä§Ñ</a></div></div></div><div class="boxpanel"><div class="panelhead">§ª§ß§ã§ä§â§å§Þ§Ö§ß§ä§í</div><img class="icon" src="img/icon.png" alt="icon"/><div class="panelbody"><div class="panelmenu"><a href="lg.php" title="§³§Ö§ä§Ö§Ó§í§Ö §Ú§ß§ã§ä§â§å§Þ§Ö§ß§ä§í: whois, ping, traceroute, bgp"><img src="/img/menu_item.png" alt="§³§Ö§ä§Ö§Ó§í§Ö §Ú§ß§ã§ä§â§å§Þ§Ö§ß§ä§í: whois, ping, traceroute, bgp"/><strong>§ª§ß§ã§ä§â§å§Þ§Ö§ß§ä§í §ã§Ö§ä§Ú</strong></a></div></div></div></td>
+                <td id="center_column"><div class="boxpanel"><h1 class="panelhead">Network Operatrions Center: whois 166.111.68.233</h1><img class="icon" src="/noc/img/icon.png" alt="icon"/><div class="panelbody">    <article>
+        <fieldset class="edit">
+            <legend>§±§Ñ§â§Ñ§Þ§Ö§ä§â§í §Ù§Ñ§á§â§à§ã§Ñ</legend>
+
+            <form action='' method="get">
+                §¬§à§Þ§Ñ§ß§Õ§Ñ: <select name="cmd">
+                                            <option value="whois" selected="selected" >whois</option>
+                                            <option value="nslookup"  >nslookup</option>
+                                            <option value="ping"  >ping</option>
+                                            <option value="traceroute"  >traceroute</option>
+                                            <option value="mtr"  >mtr</option>
+                                            <option value="bgp"  >bgp</option>
+                                    </select> <input type="text" name="query" value="166.111.68.233"/>
+                <input type="submit" value="§£§í§á§à§Ý§ß§Ú§ä§î"/>
+            </form>
+        </fieldset>
+
+        <pre class="terminalpanel">
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       166.111.0.0 - 166.111.255.255
+CIDR:           166.111.0.0/16
+NetName:        APNIC-ERX-166-111-0-0
+NetHandle:      NET-166-111-0-0-1
+Parent:         NET166 (NET-166-0-0-0-0)
+NetType:        Early Registrations, Transferred to APNIC
+OriginAS:       
+Organization:   Asia Pacific Network Information Centre (APNIC)
+RegDate:        2003-08-06
+Updated:        2009-10-08
+Comment:        This IP address range is not registered in the ARIN database.
+Comment:        This range was transferred to the APNIC Whois Database as
+Comment:        part of the ERX (Early Registration Transfer) project.
+Comment:        For details, refer to the APNIC Whois Database via
+Comment:        WHOIS.APNIC.NET or http://wq.apnic.net/apnic-bin/whois.pl
+Comment:        
+Comment:        ** IMPORTANT NOTE: APNIC is the Regional Internet Registry
+Comment:        for the Asia Pacific region.  APNIC does not operate networks
+Comment:        using this IP address range and is not able to investigate
+Comment:        spam or abuse reports relating to these addresses.  For more
+Comment:        help, refer to http://www.apnic.net/apnic-info/whois_search2/abuse-and-spamming
+Ref:            https://rdap.arin.net/registry/ip/166.111.0.0
+
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+ResourceLink:  whois.apnic.net
+
+
+OrgName:        Asia Pacific Network Information Centre
+OrgId:          APNIC
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+PostalCode:     4101
+Country:        AU
+RegDate:        
+Updated:        2012-01-24
+Ref:            https://rdap.arin.net/registry/entity/APNIC
+
+ReferralServer:  whois://whois.apnic.net
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+
+OrgTechHandle: AWC12-ARIN
+OrgTechName:   APNIC Whois Contact
+OrgTechPhone:  +61 7 3858 3188 
+OrgTechEmail:  search-apnic-not-arin@apnic.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+OrgAbuseHandle: AWC12-ARIN
+OrgAbuseName:   APNIC Whois Contact
+OrgAbusePhone:  +61 7 3858 3188 
+OrgAbuseEmail:  search-apnic-not-arin@apnic.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+§¯§Ñ§Û§Õ§Ö§ß§à §á§Ö§â§Ö§ß§Ñ§á§â§Ñ§Ó§Ý§Ö§ß§Ú§Ö §ß§Ñ whois.apnic.net.
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to &#039;166.111.0.0 - 166.111.255.255&#039;
+
+% Abuse contact for &#039;166.111.0.0 - 166.111.255.255&#039; is &#039;abuse@cernet.edu.cn&#039;
+
+inetnum:        166.111.0.0 - 166.111.255.255
+netname:        TSINGHUA-CN
+descr:          Tsinghua University
+country:        CN
+org:            ORG-CEAR1-AP
+admin-c:        CER-AP
+tech-c:         CER-AP
+abuse-c:        AC1685-AP
+status:         ALLOCATED PORTABLE
+mnt-by:         APNIC-HM
+mnt-lower:      MAINT-TSINGHUA-CERNET
+mnt-routes:     MAINT-TSINGHUA-CERNET
+mnt-irt:        IRT-CERNET-AP
+last-modified:  2023-09-06T06:09:18Z
+source:         APNIC
+
+irt:            IRT-CERNET-AP
+address:        Network Research Center,
+address:        Main Bldg, Tsinghua Univ
+address:        Beijing 100084, China
+phone:          +86-10-62784301
+fax-no:         +86-10-62785933
+e-mail:         abuse@cernet.edu.cn
+abuse-mailbox:  abuse@cernet.edu.cn
+admin-c:        CER-AP
+tech-c:         CER-AP
+auth:           # Filtered
+remarks:        timezone GMT+8
+remarks:        http://www.ccert.edu.cn
+remarks:        abuse@cernet.edu.cn was validated on 2023-12-14
+mnt-by:         MAINT-CERNET-AP
+last-modified:  2023-12-14T03:44:39Z
+source:         APNIC
+
+organisation:   ORG-CEAR1-AP
+org-name:       China Education and Research Network (CERNET)
+country:        CN
+address:        FIT 3-220,
+address:        Tsinghua University
+phone:          +86-10-62785983
+fax-no:         +86-10-62785933
+e-mail:         hostmaster@cernic.net
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2018-09-13T12:56:34Z
+source:         APNIC
+
+role:           ABUSE CERNETAP
+address:        Network Research Center,
+address:        Main Bldg, Tsinghua Univ
+address:        Beijing 100084, China
+country:        ZZ
+phone:          +86-10-62784301
+e-mail:         abuse@cernet.edu.cn
+admin-c:        CER-AP
+tech-c:         CER-AP
+nic-hdl:        AC1685-AP
+remarks:        Generated from irt object IRT-CERNET-AP
+remarks:        abuse@cernet.edu.cn was validated on 2023-12-14
+abuse-mailbox:  abuse@cernet.edu.cn
+mnt-by:         APNIC-ABUSE
+last-modified:  2023-12-14T03:44:51Z
+source:         APNIC
+
+role:           CERNET Helpdesk
+address:        CERNET Center
+address:        Beijing 100084, China
+country:        CN
+phone:          +86-10-6278-4049
+fax-no:         +86-10-6278-5933
+e-mail:         helpdesk@cernet.edu.cn
+remarks:        abuse@cernet.edu.cn
+admin-c:        XL1-CN
+tech-c:         SZ2-AP
+nic-hdl:        CER-AP
+mnt-by:         MAINT-CERNET-AP
+last-modified:  2020-09-03T09:14:12Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.25 (WHOIS-UK3)
+
+
+</pre>        <br/>
+    </article>
+</div></div></td>
+                <td id="right_column"><div class="boxpanel"><div class="panelhead"><a href="/money/">§£§Ñ§Ý§ð§ä§Ñ</a></div><img class="icon" src="/money/img/icon.png" alt="icon"/><div class="panelbody"><table class="moneypanel" onclick="self.location.href='/money/'" title="§¬§å§â§ã§í §Ó§Ñ§Ý§ð§ä §Ó §¥§à§ß§Ö§è§Ü§Ö"><tr><th><a href="/money/stat.php?valute=12"><img src="/img/flag_usd.png" alt="USD" title="usd"/>usd</a></th><td>23,26</td><td>(-0,93853)</td></tr><tr><th><a href="/money/stat.php?valute=22"><img src="/img/flag_rub.png" alt="RUB" title="rub"/>rub</a></th><td>0,37</td><td>(-0,00489)</td></tr><tr><th><a href="/money/stat.php?valute=33"><img src="/img/flag_eur.png" alt="EUR" title="eur"/>eur</a></th><td>25,77</td><td>(-1,06651)</td></tr></table></div></div><div class="boxpanel"><div class="panelhead"><a href="/time/">§´§à§é§ß§à§Ö §Ó§â§Ö§Þ§ñ</a></div><img class="icon" src="/time/img/icon.png" alt="icon"/><div class="panelbody">        <div class="ntppanel">
+            <div id="ntpclock"></div>
+            <div id="ntpdate">§±§ß. 18 §¥§Ö§Ü§Ñ§Ò§â§î 2023</div>
+        </div>
+        <script type="text/javascript">NTPClock.setup('ntpclock');</script>
+        </div></div><div class="boxpanel"><div class="panelhead"><a href="/payments/">§±§à§á§à§Ý§ß§Ö§ß§Ú§Ö §ã§é§Ö§ä§Ñ</a></div><img class="icon" src="/img/icon.png" alt="icon"/><div class="panelbody">        <table class="scodepanel" id="a8abb4bb284b5b27aa7cb790dc20f80b">
+            <tbody>
+                            <tr>
+                    <th>§­§à§Ô§Ú§ß:</th>
+                    <td><input class="slogin" id="slogin" type="text" name="slogin" value="" size="20"/></td>
+                </tr>
+                        <tr>
+                <th>§¬§à§Õ:</th>
+                <td style="white-space: nowrap"><input class="si" type="text" name="s1" id="s1" size="4" maxlength="4"/>-<input
+                            class="si" type="text" name="s2" id="s2" size="4" maxlength="4"/>-<input class="si"
+                            type="text" name="s3" id="s3" size="4" maxlength="4"/>-<input class="si" type="text"
+                            name="s4" id="s4" size="4" maxlength="4"/></td>
+            </tr>
+            </tbody>
+                            <tfoot>
+                <tr>
+                    <th>&nbsp;</th>
+                    <td><input class="button submit" type="submit"
+                                value="§±§à§á§à§Ý§ß§Ú§ä§î §ã§é§Ö§ä"/></td>
+                </tr>
+                </tfoot>
+                    </table>
+        <script>
+            $(function () {
+                $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s1').keypress(function (event) {
+                    if ($(this).val().length >= 3) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s2').focus();
+                    }
+                });
+
+                $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s2').keypress(function (event) {
+                    if ($(this).val().length >= 3) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s3').focus();
+                    }
+                }).keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s1').focus();
+                    }
+                });
+
+                $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s3').keypress(function (event) {
+                    if ($(this).val() != null && $(this).val().length >= 3) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s4').focus();
+                    }
+                }).keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s2').focus();
+                    }
+                });
+
+                $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s4').keyup(function (event) {
+                    if (event.which == 8 && $(this).val().length == 0) {
+                        $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b #s3').focus();
+                    }
+                });
+
+                $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b .submit').click(function (event) {
+                    var $errfocus = null;
+                    $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b .slogin').each(function () {
+                        if ($(this).val() != null && $(this).val().length > 0) {
+                            $(this).css('border-color', '#eeeeee');
+                        } else {
+                            $(this).css('border-color', '#ff0000');
+                            $errfocus = $(this);
+                        }
+                    });
+                    $('.scodepanel#a8abb4bb284b5b27aa7cb790dc20f80b .si').each(function () {
+                        if ($(this).val() != null && $(this).val().match(/^\d{4}$/)) {
+                            $(this).css('border-color', '#eeeeee');
+                        } else {
+                            $(this).css('border-color', '#ff0000');
+                            if ($errfocus == null) {
+                                $errfocus = $(this);
+                            }
+                        }
+                    });
+                    if ($errfocus != null) {
+                        alert("§±§â§à§Ó§Ö§â§î§ä§Ö §Ó§Ó§à§Õ !!!");
+                        event.preventDefault();
+                        $errfocus.focus();
+                    }
+                });
+            });
+        </script>
+        </div></div><div class="boxpanel"><div class="panelhead">§²§Ö§Ü§Ý§Ñ§Þ§Ñ</div><img class="icon" src="/reklam/img/icon.png" alt="icon"/><div class="panelbody"></div></div></td>
+            </tr>
+        </table>
+                <footer class="sitefooter">
+            <div class="copy">&copy; by <a rel="nofollow" href="/counter/go.php?id=7"
+                        title="Web-§â§Ñ§Ù§â§Ñ§Ò§à§ä§é§Ú§Ü, Java-§á§â§à§Ô§â§Ñ§Þ§Þ§Ú§ã§ä, Linux-§Ñ§Õ§Þ§Ú§ß§Ú§ã§ä§â§Ñ§ä§à§â">Dicr</a>, <a href="/services/"
+                        title="§ª§ß§ä§Ö§â§ß§Ö§ä-§á§â§à§Ó§Ñ§Û§Õ§Ö§â, §á§à§Õ§Ü§Ý§ð§é§Ö§ß§Ú§Ö §Ü §Ú§ß§ä§Ö§â§ß§Ö§ä-§ã§Ö§ä§Ú §Ó §¥§à§ß§Ö§è§Ü§Ö">§ª§ß§ä§Ö§â§ß§Ö§ä-§á§â§à§Ó§Ñ§Û§Õ§Ö§â
+                    NetHolding</a>, 1999-2023.
+            </div>
+            <div class="counters">
+                <br/>
+                <!-- NetHolding -->
+                <script src="/counter/banner.js?id=1"></script>
+            </div>
+        </footer>        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript"> (function (d, w, c) {
+                (w[c] = w[c] || []).push(function () {
+                    try {
+                        w.yaCounter12980653 = new Ya.Metrika({
+                            id: 12980653,
+                            clickmap: true,
+                            trackLinks: true,
+                            accurateTrackBounce: true,
+                            webvisor: true,
+                            ecommerce: "dataLayer"
+                        });
+                    } catch (e) {
+                    }
+                });
+                var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else {
+                    f();
+                }
+            })(document, window, "yandex_metrika_callbacks"); </script>
+        <noscript>
+            <div><img src="https://mc.yandex.ru/watch/12980653" style="position:absolute; left:-9999px;" alt=""/></div>
+        </noscript> <!-- /Yandex.Metrika counter -->
+        
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    EDIS Global Looking Glass 
+  </title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Network Tools provided by EDIS Global | Looking Glass Server and VPS Hosting in Israel, Tel Aviv and in many other locations worldwide. Check it out!">
+  <meta name="author" content="EDIS Global">
+
+  <!-- IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- Styles -->
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  <link href="assets/css/edis.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img src="assets/img/Edis_logo_dark.png" alt="Edis_logo" />
+      </div>
+      <ul>
+        <li class="menuItem"><a href="https://www.edisglobal.com/blog/looking-glass">Looking Glass</a></li>
+        <!-- <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/france-paris">VPS Hosting France</a></li> -->
+        <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >VPS Hosting Israel</a></li>
+        <li class="menuItem"><a href="https://www.edisglobal.com">Cheap VPS Hosting</a></li>
+        <li class="menuItem"><a href="https://status.edis.global/">EDIS Global Statuspage</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navMobile">
+      <div class="logoMobile">
+        <img src="assets/img/Edis_logo_dark.png" alt="Edis_logo" />
+      </div>
+      <div>
+        <ul class="navListMobile">
+          <li class="menuItem"><a href="https://www.edisglobal.com/blog/looking-glass">Looking Glass</a></li>
+          <!-- <li class="menuItem" id="serverLocationLink"><a href="https://www.edisglobal.com/vps-server/france-paris">VPS Hosting France</a></li> -->
+
+          <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >VPS Hosting Israel</a></li>
+          <li class="menuItem"><a href="https://www.edisglobal.com">Cheap VPS Hosting</a></li>
+          <li class="menuItem"><a href="https://status.edis.global/">EDIS Global Statuspage</a></li>
+        </ul>
+        <div class="hamburgerMenuButton" id="toggleNavButton">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <!-- <button id="toggleNavButton">
+          menu
+        </button> -->
+      </div>
+    </nav>
+  </header>
+
+  <section class="heroSection">
+    <img class="heroImage" src="assets/img/lookingGlassGrayBg.png" alt="Looking Glass hero image" />
+  </section>
+
+  <div class="floatingFooter">
+    <div class="remoteIpWrapper">
+      <p>Your IP Address: <b id="userIp">166.111.68.233</b></p>
+      <button class="primaryButtonOutline copyToClipboardBtn" data-clipboard-target="#userIp"
+        data-clipboard-action="copy">
+        <img src="assets/img/copy_icon_primary.png" alt="copy icon" />
+      </button>
+    </div>
+
+    <div class="orderButtonWrapper">
+      <button class="primaryButton"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >Buy Israel VPS</a></button>
+    </div>
+  </div>
+
+
+  <!-- Container -->
+  <div class="customContainer">
+
+    <div class="heroTextWrapper">
+
+      <h1>Looking Glass Server Israel, Tel Aviv</h1>
+
+      <p class="addReadMore showlesscontent">VPS Israel: EDIS Global's Israel VPS hosting platform is physically located in Petah Tikva (

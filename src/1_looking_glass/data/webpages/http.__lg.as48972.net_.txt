@@ -1,0 +1,80 @@
+
+<html>
+<HEAD>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>AS48972 Lookingglass</title>
+    <style><!--
+        body {font-family: arial,sans-serif;
+              color: #25559F
+              }
+    //-->
+    </style>
+<body text=#000000 bgcolor=#ffffff>
+<table border="0" cellpadding="3" cellspacing="10" width="100%">
+    <tr>
+        <td>
+          <img src="https://www.betterbe.com/wp-content/themes/betterbe/img/logo-diap.svg" alt="Better.be">
+        </td>
+    </tr>
+    <tr>
+        <td><img alt="" width="1" height="20"></td>
+    </tr>
+    <tr>
+        <td bgcolor="#25559F"><font color="#ffffff"><b>AS48972 Lookingglass</b></font></td>
+    </tr>
+</table>
+<LINK REL="shortcut icon" HREF="/favicon.ico" TYPE="image/x-icon">
+</HEAD>
+
+</head>
+
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+
+<font color=red face=arial size=1>
+Note: ALL access to this interface is logged.<hr>
+</font></font>
+
+<font face=arial color=black>
+<form METHOD="POST" action="http://lg.as48972.net/">
+<B>Router:</B>  <SELECT Name="router" Size=1>
+<OPTION  Value="AS48972 BGP01">AS48972 BGP01 - Primary BGP router
+<OPTION  Value="AS48972 BGP02">AS48972 BGP02 - Secondary BGP router
+<OPTION  Value="AS48972 BGP03">AS48972 BGP03 - Third BGP router
+<OPTION  SELECTED Value="AS48972 RC">AS48972 RC - AS48972 RouteCollector
+
+</select>
+<br><br>
+<B>Query</B>:
+<br>
+
+			<input type=radio name=query value=1>show ip bgp<br>
+			<input type=radio name=query value=2>show ip bgp summary<br>
+			
+			<input type=radio name=query value=17>show ip bgp regexp<br>
+			
+			<input type=radio name=query value=13>show bgp ipv6<br>
+			<input type=radio name=query value=14>show bgp ipv6 summary<br>
+			
+			<input type=radio name=query value=18>show bgp ipv6 regexp<br>
+			
+			<input type=radio name=query value=7>trace<br>
+			<input type=radio name=query value=8>ping<br>
+			<input type=radio name=query value=19>ping6<br>
+			
+<br>
+<B>Argument:</B> <input type=text name=arg length=20 maxlength=60 value=""> 
+<input type=submit value=Execute></form></font></font>
+<br>
+<code>http://lg.as48972.net/</code>
+<font color=blue face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass version 5.4.1 Beta (IPv6+SSH)<br>
+
+&copy; 2000-2007, John Fraizer  -
+OP-SEC.US<br>
+Source code: <a href=https://www.op-sec.us/>https://www.op-sec.us/</a>.	
+<br>
+</body>
+</html>

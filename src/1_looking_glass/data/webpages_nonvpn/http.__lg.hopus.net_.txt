@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="http://www.hopus.net/favicon.ico">
+<meta name=description content="Looking Glass">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.hopus.net/"><IMG SRC="http://www.hopus.net/img/hopus-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD=POST ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE=radio NAME=query ID='1' VALUE=summary checked></TD>	<TD><label for='1'>&nbsp;bgp&nbsp;summary</label></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query ID='2' VALUE=bgp></TD>		<TD><label for='2'>&nbsp;bgp</label></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query ID='3' VALUE=regexp></TD>		<TD><label for='3'>&nbsp;regexp</label></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query ID='4' VALUE=community></TD>	<TD><label for='4'>&nbsp;community</label></TD></TR>
+<!-- <TR><TD><INPUT TYPE=radio NAME=query VALUE=advertised-routes></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR> -->
+<TR><TD><INPUT TYPE=radio NAME=query ID='6' VALUE=ping></TD>		<TD><label for='6'>&nbsp;ping</label></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query ID='7' VALUE=trace></TD>		<TD><label for='7'>&nbsp;traceroute</label></TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="HOPUS Project (AS44530)">
+<OPTION VALUE="th2-1"> th2-1.rt.hopus.net - Paris TeleHouse 2
+<OPTION VALUE="pa3-1"> pa3-1.rt.hopus.net -  Paris Equinix PA3
+<OPTION VALUE="dc3-2"> dc3-2.rt.hopus.net - Paris Iliad Vitry DC3@OP2
+<OPTION VALUE="cbv-1"> cbv-1.rt.hopus.net - Paris SFR Courbevoie
+<OPTION VALUE="ly1-1"> ly1-1.rt.hopus.net - Lyon SFR
+<OPTION VALUE="mrs1-1"> mrs1-1.rt.hopus.net - Marseille InterXion MRS1
+<OPTION VALUE="mrs1-2"> mrs1-2.rt.hopus.net - Marseille InterXion MRS1
+<OPTION VALUE="gv1-1"> gv1-1.rt.hopus.net - Geneva Equinix GV1
+<OPTION VALUE="zh2-1"> zh2-1.rt.hopus.net - Zurich Equinix ZH2
+<OPTION VALUE="nik-1"> nik-1.rt.hopus.net - Amsterdam Nikhef
+<OPTION VALUE="nik-2"> nik-2.rt.hopus.net - Amsterdam Nikhef
+<OPTION VALUE="evo-1"> evo-1.rt.hopus.net - Amsterdam EvoSwitch
+<OPTION VALUE="fra3-1"> fra3-1.rt.hopus.net - Frankfurt Interxion FRA3
+<OPTION VALUE="fra3-2"> fra3-2.rt.hopus.net - Frankfurt Interxion FRA3
+</OPTGROUP>
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to tech_hopus.net</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

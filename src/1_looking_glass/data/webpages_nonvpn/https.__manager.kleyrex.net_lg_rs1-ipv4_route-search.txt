@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://manager.kleyrex.net/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            KleyReX IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="kRyItpRslJYUrFlyAzpuLgcDUUBYqhSVbFPy7HNA">
+
+        <link rel="stylesheet" type="text/css" href="https://manager.kleyrex.net/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://manager.kleyrex.net/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://manager.kleyrex.net">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://manager.kleyrex.net/images/ixp-manager-white.png">
+    KleyReX IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://manager.kleyrex.net/customer/details">
+                            Customer Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://manager.kleyrex.net/customer/associates">
+                            Associate Customers                        </a>
+
+                                            </div>
+                </li>
+            
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://manager.kleyrex.net/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://manager.kleyrex.net/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://manager.kleyrex.net/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://manager.kleyrex.net/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://manager.kleyrex.net/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://manager.kleyrex.net/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Route Server 1 - IPv4</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://manager.kleyrex.net/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Route Server 1 - IPv4            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item active" href="https://manager.kleyrex.net/lg/rs1-ipv4">
+                            Route Server 1 - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs1-ipv6">
+                            Route Server 1 - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs2-ipv4">
+                            Route Server 2 - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs2-ipv6">
+                            Route Server 2 - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs3-ipv4">
+                            Route Server 3 - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs3-ipv6">
+                            Route Server 3 - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs4-dev-ipv4">
+                            Route Server 4 - IPv4 - DEV                        </a>
+                                            <a class="dropdown-item " href="https://manager.kleyrex.net/lg/rs4-dev-ipv6">
+                            Route Server 4 - IPv6 - DEV                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://manager.kleyrex.net/lg/rs1-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://manager.kleyrex.net/lg/rs1-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.0.10                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 193.189.82.251                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 89 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-18 06:00:16
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://manager.kleyrex.net/api/v4/lg/rs1-ipv4/status">status</a>]
+                    [<a href="https://manager.kleyrex.net/api/v4/lg/rs1-ipv4/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.3.1
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://manager.kleyrex.net/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://manager.kleyrex.net/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://manager.kleyrex.net/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://manager.kleyrex.net/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["t_0270_as209022","t_0406_as203900","t_0512_as207292","t_0341_as209185","t_0487_as208814","t_0531_as212520","t_0530_as211738","t_0422_as207960","t_0569_as212744","t_0587_as210833","t_0298_as139299","t_0514_as212044","t_0136_as204883","t_0307_as209209","t_0687_as210023","t_0423_as213189","t_0424_as213171","t_0504_as211954","t_0333_as204982","t_0630_as210076","t_0431_as206947","t_0489_as212292","t_0316_as208059","t_0720_as200461","t_0229_as200303","t_0299_as208498","t_0093_as204003","t_0054_as196624","t_0440_as212995","t_0324_as207963","t_0128_as205388","t_0234_as209864","t_0701_as213396","t_0603_as147041","t_0252_as209538","t_0684_as134993","t_0416_as213127","t_0181_as203729","t_0631_as210502","t_0620_as147039","t_0237_as210283","t_0604_as211715","t_0351_as207468","t_0621_as210667","t_0173_as204625","t_0588_as210951","t_0165_as202418","t_0505_as211972","t_0282_as210311","t_0434_as213064","t_0318_as208122","t_0262_as141694","t_0417_as213151","t_0191_as204526","t_0532_as211638","t_0597_as210872","t_0540_as207268","t_0704_as211411","t_0560_as212200","t_0605_as210732","t_0613_as142641","t_0442_as212864","t_0506_as141634","t_0523_as211696","t_0695_as205648","t_0550_as211484","t_0328_as203440","t_0679_as211275","t_0542_as211704","t_0453_as204310","t_0499_as212934","t_0370_as206477","t_0632_as210337","t_0418_as213124","t_0515_as208702","t_0615_as210522","t_0149_as203146","t_0427_as213042","t_0524_as211684","t_0470_as213236","t_0048_as197071","t_0614_as210577","t_0255_as134563","t_0678_as207908","t_0263_as209833","t_0723_as211301","t_0516_as212635","t_0380_as213376","t_0354_as207424","t_0362_as207654","t_0612_as148971","t_0329_as203440","t_0623_as142419","t_0371_as207537","t_0096_as201213","t_0534_as211635","t_0624_as210481","t_0238_as134098","t_0409_as213188","t_0345_as207491","t_0454_as213204","t_0355_as207401","t_0258_as210025","t_0533_as212983","t_0641_as209401","t_0443_as212987","t_0543_as141712","t_0444_as131675","t_0337_as207803","t_0461_as208563","t_0425_as209859","t_0705_as205094","t_0088_as201222","t_0689_as210890","t_0381_as213377","t_0526_as211671","t_0669_as199163","t_0372_as206628","t_0159_as200639","t_0686_as924","t_0364_as132294","t_0428_as140731","t_0264_as137936","t_0319_as139742","t_0602_as399866","t_0519_as212112","t_0437_as213092","t_0640_as209669","t_0616_as211449","t_0177_as206313","t_0168_as207036","t_0374_as140244","t_0606_as212799","t_0346_as208709","t_0463_as212546","t_0607_as142582","t_0480_as212793","t_0562_as211581","t_0617_as210529","t_0419_as209650","t_0518_as206740","t_0563_as211244","t_0020_as8495","t_0553_as211398","t_0490_as213248","t_0544_as211688","t_0464_as212518","t_0338_as208907","t_0609_as210633","master4","t_0713_as8298","t_0339_as207910","t_0527_as208434","master6","t_0517_as208884","t_0482_as212372","t_0627_as211129","t_0634_as210969","t_0536_as211776","t_0618_as210537","t_0456_as212705","t_0284_as208753","t_0546_as211544","t_0555_as211337","t_0473_as212568","t_0561_as139648","t_0643_as208529","t_0078_as8793","t_0439_as212921","t_0554_as212596","t_0348_as207469","t_0528_as211876","t_0438_as135395","t_0590_as210916","t_0448_as202592","t_0016_as6774","t_0001_as51058","t_0021_as13101","t_0027_as6735","t_0656_as6939","t_0344_as3280","t_0023_as25220","t_0552_as57401","t_0249_as60802","t_0012_as56382","t_roa","t_0383_as12817","t_0265_as4842","t_0472_as60735","t_0022_as34549","t_0002_as49697","t_0545_as38230","t_0642_as39282","t_0300_as34924","t_0661_as24482","t_0400_as41255","t_0670_as60900","t_0373_as42994","t_0481_as29551","t_0087_as29394","t_0248_as49933","t_0722_as47689","t_0275_as44794","t_0626_as38308","t_0570_as59417","t_0625_as64199","t_0474_as51184","t_0105_as51391","t_0195_as39192","t_0645_as60326","t_0051_as61430","t_0079_as57821","t_0509_as51999","t_0212_as42198","t_0268_as35619","t_0203_as49134","t_0655_as13335","t_0277_as51861","t_0365_as59813","t_0310_as60767","t_0043_as34154","t_0717_as37721","t_0718_as12586","t_0458_as38041","t_0050_as64475","t_0241_as21158","t_0131_as51699","t_0330_as34800","t_0429_as57848","t_0637_as41666","t_0583_as50391","t_0628_as58133","t_0304_as44326","t_0466_as39526","t_0108_as60271","t_0465_as39792","t_0664_as15844","t_0662_as29686","t_0052_as34764","t_0060_as39912","t_0692_as44103","t_0510_as31396","t_0187_as46997","t_0221_as57782","t_0494_as60391","t_0018_as20886","t_0070_as35366","t_0297_as61438","t_0548_as62269","t_0667_as31025","t_0331_as18254","t_0302_as58299","t_0566_as26457","t_0044_as47138","t_0594_as24603","t_0430_as64114","t_0396_as35661","t_0693_as44024","t_0053_as47194","t_0414_as41047","t_0557_as47753","t_0074_as12502","t_0665_as29551","t_0657_as50629","t_0028_as29404","t_0675_as12586","t_0026_as49296","t_0063_as25394","t_0379_as34854","t_0144_as62184","t_0629_as56758","t_0080_as57407","t_0586_as60345","t_0261_as24239","t_0049_as31103","t_0420_as47937","t_0433_as41051","t_0648_as47536","t_0395_as57883","t_0323_as56381","t_0243_as60474","t_0478_as39083","t_0502_as57266","t_0676_as12586","t_0601_as39810","t_0055_as25486","t_0110_as136620","t_0677_as12586","t_0398_as36198","t_0479_as57164","t_0496_as57257","t_0314_as59808","t_0182_as62230","t_0138_as61361","t_0360_as50892","t_0639_as48987","t_0271_as53356","t_0201_as135028","t_0068_as21263","t_0112_as205413","t_0209_as49904","t_0083_as57433","t_0057_as42596","t_0145_as49836","t_0202_as202265","t_0139_as12759","t_0599_as41225","t_0596_as56662","t_0059_as31572","t_0245_as48292","t_0211_as202365","t_0004_as205777","t_0336_as51745","t_0436_as41255","t_0076_as41399","t_0246_as58057","t_0352_as49459","t_0650_as15169","t_0551_as38136","t_0714_as25091","t_0184_as44337","t_0363_as48126","t_0709_as210320","t_0326_as48981","t_0498_as56894","t_0220_as202479","t_0005_as206479","t_0309_as59760","t_0353_as59570","t_0196_as205148","t_0589_as44992","t_0291_as34927","t_0130_as204893","t_0368_as210072","t_0538_as213045","t_0654_as200275","t_0349_as207613","t_0452_as48646","t_0426_as59238","t_0508_as47272","t_0094_as34966","t_0301_as208464","t_0653_as12360","t_0619_as213163","t_0183_as49745","t_0574_as211042","t_0635_as209552","t_0564_as211367","t_0188_as135134","t_0573_as211168","t_0571_as24381","t_0696_as59790","t_0392_as208567","t_0366_as139328","t_0446_as51089","t_0179_as205590","t_0721_as59592","t_0449_as213252","t_0547_as212509","t_0652_as15169","t_0410_as213219","t_0106_as207080","t_0099_as206423","t_0278_as209026","t_0681_as210168","t_0367_as209533","t_0114_as206924","t_0529_as211679","t_0376_as207921","t_0401_as208505","t_0719_as202351","t_0476_as212415","t_0411_as213234","t_0593_as211013","t_0638_as204028","t_0467_as212508","t_0287_as203478","t_0581_as209771","t_0359_as138153","t_0295_as209188","t_0485_as212425","t_0584_as213015","t_0198_as204662","t_0647_as211184","t_0205_as206813","t_0230_as136782","t_0213_as205597","t_0591_as210887","t_0724_as197477","t_0115_as133846","t_0484_as207590","t_0708_as208985","t_0646_as208445","t_0320_as207955","t_0152_as204035","t_0151_as204571","t_0592_as210881","t_0636_as209768","t_0412_as213170","t_0556_as208727","t_0199_as205603","t_0402_as131668","t_0576_as212034","t_0565_as140984","t_0469_as205112","t_0369_as208183","t_0600_as210916","t_0214_as137490","t_0468_as212592","t_0500_as136918","t_0161_as204254","t_0315_as212123","t_0486_as212349","t_0403_as136451","t_0549_as211498","t_0521_as212120","t_0109_as202562","t_0568_as211083","t_0296_as209778","t_0313_as209555","t_0421_as131657","t_0575_as137509","t_0303_as139589","t_0227_as210020","t_0511_as211960","t_0610_as210563","t_0305_as135383","t_0047_as203123","t_0572_as398826","t_0672_as199163","t_0520_as211819","t_0682_as209199","t_0404_as213279","t_0260_as204438","t_0559_as211486","t_0700_as212427","t_0224_as204994","t_0216_as205908","t_0595_as210903","t_0558_as209870","t_0683_as212895","t_0322_as207968","t_0685_as131171","t_0399_as200273","t_0082_as205036","t_0611_as203380","t_0567_as209449","t_0350_as207622","t_0497_as212129","t_0413_as207278","t_0244_as202329","t_0334_as201811"].sort();
+    let protocols = ["pb_0650_as15169","pb_0551_as38136","pb_0714_as25091","pb_0184_as44337","pb_0201_as135028","pb_0363_as48126","pb_0326_as48981","pb_0112_as205413","pb_0309_as59760","pb_0353_as59570","pb_0202_as202265","pb_0291_as34927","pb_0552_as57401","pb_0452_as48646","pb_0426_as59238","pb_0508_as47272","pb_0249_as60802","pb_0094_as34966","pb_0211_as202365","pb_0653_as12360","pb_0183_as49745","pb_0383_as12817","pb_0004_as205777","pb_0571_as24381","pb_0446_as51089","pb_0721_as59592","pb_0472_as60735","pb_0652_as15169","pb_0545_as38230","pb_0642_as39282","pb_0661_as24482","pb_0670_as60900","pb_0373_as42994","pb_0220_as202479","pb_0005_as206479","pp_0656_as6939","pb_0481_as29551","pb_0087_as29394","pb_0248_as49933","pb_0722_as47689","pb_0275_as44794","pb_0626_as38308","pb_0570_as59417","pb_0130_as204893","pb_0625_as64199","pb_0474_as51184","pb_0195_as39192","pb_0645_as60326","pp_0020_as8495","pb_0301_as208464","pb_0079_as57821","pb_0509_as51999","pb_0268_as35619","pb_0655_as13335","pb_0277_as51861","pb_0365_as59813","pb_0410_as213219","pb_0106_as207080","pb_0717_as37721","pb_0718_as12586","pb_0458_as38041","pb_0114_as206924","pb_0401_as208505","pb_0429_as57848","pb_0637_as41666","pb_0583_as50391","pb_0628_as58133","pb_0411_as213234","pb_0466_as39526","pb_0465_as39792","pb_0664_as15844","pb_0205_as206813","pb_0662_as29686","pb_0230_as136782","pb_0213_as205597","pb_0692_as44103","pb_0187_as46997","pb_0115_as133846","pb_0494_as60391","pb_0687_as210023","pb_0297_as61438","pb_0548_as62269","pb_0320_as207955","pb_0152_as204035","pb_0151_as204571","pb_0667_as31025","pb_0412_as213170","pb_0566_as26457","pb_0402_as131668","pp_0021_as13101","pp_0049_as31103","pp_0016_as6774","pb_0594_as24603","pp_0433_as41051","pb_0396_as35661","pp_0465_as39792","pp_0664_as15844","pb_0600_as210916","pb_0607_as142582","pb_0214_as137490","pb_0480_as212793","pb_0500_as136918","pb_0693_as44024","pp_0692_as44103","pp_0677_as12586","pb_0161_as204254","pb_0557_as47753","pb_0315_as212123","pp_0494_as60391","pb_0665_as29551","pb_0657_as50629","pb_0562_as211581","pb_0675_as12586","pp_0297_as61438","pb_0588_as210951","pb_0419_as209650","pb_0518_as206740","pp_0667_as31025","pb_0403_as136451","pb_0521_as212120","pb_0563_as211244","pb_0109_as202562","pb_0553_as211398","pb_0379_as34854","pp_0566_as26457","pb_0490_as213248","pb_0544_as211688","pb_0464_as212518","pb_0629_as56758","pb_0338_as208907","pp_0027_as6735","pb_0609_as210633","pp_0594_as24603","pb_0586_as60345","pb_0339_as207910","pb_0597_as210872","pb_0313_as209555","pb_0421_as131657","pp_0396_as35661","pb_0527_as208434","pp_0182_as62230","pb_0303_as139589","pb_0227_as210020","pb_0511_as211960","pb_0610_as210563","pb_0648_as47536","pb_0395_as57883","pb_0517_as208884","pb_0305_as135383","pb_0482_as212372","pb_0478_as39083","pp_0138_as61361","pb_0047_as203123","pb_0676_as12586","pb_0627_as211129","pb_0634_as210969","pb_0686_as924","pp_0693_as44024","pb_0536_as211776","pp_0557_as47753","pb_0618_as210537","pp_0665_as29551","pb_0456_as212705","pp_0360_as50892","pp_0657_as50629","pb_0520_as211819","pb_0404_as213279","pp_0675_as12586","pb_0709_as210320","pb_0284_as208753","pb_0260_as204438","pb_0679_as211275","pp_0271_as53356","pb_0700_as212427","pb_0546_as211544","pb_0499_as212934","pb_0224_as204994","pp_0379_as34854","pb_0555_as211337","pb_0473_as212568","pp_0599_as41225","pb_0216_as205908","pp_0068_as21263","pb_0196_as205148","pp_0596_as56662","pb_0561_as139648","pp_0629_as56758","pb_0643_as208529","pp_0586_as60345","pb_0368_as210072","pb_0322_as207968","pb_0538_as213045","pb_0654_as200275","pb_0677_as12586","pb_0439_as212921","pb_0554_as212596","pb_0348_as207469","pb_0349_as207613","pp_0083_as57433","pb_0082_as205036","pb_0398_as36198","pb_0611_as203380","pp_0057_as42596","pb_0350_as207622","pp_0648_as47536","pp_0395_as57883","pp_0139_as12759","pp_0478_as39083","pb_0528_as211876","pb_0678_as207908","pp_0676_as12586","pb_0413_as207278","pb_0438_as135395","pb_0244_as202329","pb_0334_as201811","pb_0590_as210916","pb_0619_as213163","pb_0574_as211042","pb_0448_as202592","pb_0635_as209552","pb_0270_as209022","pp_0059_as31572","pb_0564_as211367","pb_0188_as135134","pb_0573_as211168","pp_0023_as25220","pb_0406_as203900","pp_0245_as48292","pb_0512_as207292","pb_0341_as209185","pb_0531_as212520","pb_0639_as48987","pb_0392_as208567","pb_0366_as139328","pb_0530_as211738","pb_0179_as205590","pp_0336_as51745","pb_0422_as207960","pb_0449_as213252","pb_0547_as212509","pb_0514_as212044","pb_0136_as204883","pb_0307_as209209","pb_0423_as213189","pb_0424_as213171","pp_0012_as56382","pp_0436_as41255","pp_0076_as41399","pp_0498_as56894","pb_0504_as211954","pp_0398_as36198","rpki1","pb_0099_as206423","pb_0278_as209026","pp_0479_as57164","pp_0496_as57257","pb_0681_as210168","pb_0367_as209533","pb_0529_as211679","pp_0246_as58057","rpki2","pp_0352_as49459","pb_0333_as204982","pb_0630_as210076","pb_0431_as206947","pb_0316_as208059","pp_0650_as15169","pb_0720_as200461","pp_0589_as44992","pb_0229_as200303","pp_0551_as38136","pb_0376_as207921","pp_0714_as25091","pb_0093_as204003","pp_0184_as44337","pb_0054_as196624","pb_0689_as210890","pb_0440_as212995","pb_0324_as207963","pb_0719_as202351","pb_0128_as205388","pb_0234_as209864","pp_0363_as48126","pb_0669_as199163","pp_0022_as34549","pb_0701_as213396","pb_0603_as147041","pb_0252_as209538","pp_0326_as48981","pb_0476_as212415","pp_0002_as49697","pb_0593_as211013","pp_0639_as48987","pb_0638_as204028","pb_0467_as212508","pb_0287_as203478","pp_0309_as59760","pb_0416_as213127","pb_0181_as203729","pp_0300_as34924","pb_0581_as209771","pb_0631_as210502","pb_0359_as138153","pp_0353_as59570","pb_0620_as147039","pb_0237_as210283","pp_0400_as41255","pb_0295_as209188","pb_0604_as211715","pb_0351_as207468","pp_0291_as34927","pb_0485_as212425","pb_0621_as210667","pb_0584_as213015","pb_0173_as204625","pp_0552_as57401","pb_0198_as204662","pb_0647_as211184","pb_0165_as202418","pp_0696_as59790","pb_0505_as211972","pp_0452_as48646","pp_0426_as59238","pp_0508_as47272","pp_0249_as60802","pp_0094_as34966","pb_0591_as210887","pb_0724_as197477","pb_0282_as210311","pb_0434_as213064","pb_0318_as208122","pb_0262_as141694","pp_0653_as12360","pp_0183_as49745","pb_0484_as207590","pb_0417_as213151","pb_0708_as208985","pp_0383_as12817","pb_0646_as208445","pp_0105_as51391","pb_0191_as204526","pb_0532_as211638","pb_0636_as209768","pb_0592_as210881","pb_0199_as205603","pb_0556_as208727","pb_0540_as207268","pb_0704_as211411","pb_0560_as212200","pp_0051_as61430","pb_0605_as210732","pp_0571_as24381","pb_0576_as212034","pb_0565_as140984","pb_0613_as142641","pb_0442_as212864","pb_0506_as141634","pp_0212_as42198","pp_0446_as51089","pp_0721_as59592","pb_0469_as205112","pp_0472_as60735","pb_0523_as211696","pp_0652_as15169","pp_0203_as49134","pb_0369_as208183","pp_0545_as38230","pb_0550_as211484","pp_0642_as39282","pb_0328_as203440","pb_0542_as211704","pp_0310_as60767","pb_0453_as204310","pp_0043_as34154","pp_0661_as24482","pb_0468_as212592","pp_0670_as60900","pb_0020_as8495","pp_0373_as42994","pb_0370_as206477","pb_0632_as210337","pb_0418_as213124","pb_0515_as208702","pb_0615_as210522","pp_0481_as29551","pb_0149_as203146","pb_0427_as213042","pb_0486_as212349","pb_0524_as211684","pp_0087_as29394","pb_0470_as213236","pb_0549_as211498","pp_0248_as49933","pp_0050_as64475","pp_0722_as47689","pp_0241_as21158","pb_0048_as197071","pb_0614_as210577","pp_0275_as44794","pp_0626_as38308","pp_0687_as210023","pp_0570_as59417","pb_0568_as211083","pb_0255_as134563","pp_0131_as51699","pb_0263_as209833","pp_0330_as34800","pb_0296_as209778","pb_0723_as211301","pp_0625_as64199","pp_0474_as51184","pb_0516_as212635","pb_0380_as213376","pp_0195_as39192","pb_0354_as207424","pb_0575_as137509","pb_0362_as207654","pp_0645_as60326","pb_0612_as148971","pb_0329_as203440","pp_0079_as57821","pp_0489_as212292","pb_0623_as142419","pp_0509_as51999","pb_0371_as207537","pb_0572_as398826","pb_0096_as201213","pp_0268_as35619","pb_0534_as211635","pp_0304_as44326","pb_0624_as210481","pb_0238_as134098","pp_0655_as13335","pp_0277_as51861","pb_0409_as213188","pb_0672_as199163","pp_0514_as212044","pb_0345_as207491","pp_0365_as59813","pb_0454_as213204","pb_0355_as207401","pb_0682_as209199","pb_0258_as210025","pb_0533_as212983","pp_0424_as213171","pb_0641_as209401","pp_0108_as60271","pb_0559_as211486","pb_0443_as212987","pb_0543_as141712","pp_0052_as34764","pb_0444_as131675","pp_0060_as39912","pp_0510_as31396","pp_0221_as57782","pp_0630_as210076","pb_0337_as207803","pb_0461_as208563","pp_0717_as37721","pp_0018_as20886","pp_0070_as35366","pp_0720_as200461","pp_0229_as200303","pp_0718_as12586","pb_0595_as210903","pp_0588_as210951","pb_0425_as209859","pp_0093_as204003","pb_0558_as209870","pb_0705_as205094","pb_0683_as212895","pp_0458_as38041","pb_0088_as201222","pp_0331_as18254","pb_0685_as131171","pb_0399_as200273","pp_0302_as58299","pb_0381_as213377","pb_0526_as211671","pb_0567_as209449","pb_0372_as206628","pp_0044_as47138","pb_0159_as200639","pp_0416_as213127","pb_0497_as212129","pp_0631_as210502","pb_0364_as132294","pp_0429_as57848","pp_0430_as64114","pp_0575_as137509","pp_0637_as41666","pp_0237_as210283","pb_0428_as140731","pp_0583_as50391","pb_0264_as137936","pp_0628_as58133","pp_0597_as210872","pb_0319_as139742","pb_0602_as399866","pp_0604_as211715","pb_0519_as212112","pp_0621_as210667","pb_0437_as213092","pp_0572_as398826","pp_0173_as204625","pb_0640_as209669","pb_0487_as208814","pb_0616_as211449","pp_0001_as51058","pb_0177_as206313","pp_0165_as202418","pp_0505_as211972","pb_0168_as207036","pp_0672_as199163","pb_0374_as140244","pb_0606_as212799","pb_0346_as208709","pp_0053_as47194","pp_0282_as210311","pp_0414_as41047","pb_0463_as212546","pp_0695_as205648","pp_0074_as12502","pp_0434_as213064","pp_0466_as39526","pb_0569_as212744","pp_0028_as29404","pp_0318_as208122","pb_0587_as210833","pb_0298_as139299","pb_0016_as6774","pp_0026_as49296","pp_0417_as213151","pp_0662_as29686","pp_0679_as211275","pp_0686_as924","pp_0191_as204526","pp_0499_as212934","pp_0532_as211638","pp_0063_as25394","pp_0540_as207268","pp_0704_as211411","pp_0144_as62184","pp_0187_as46997","pp_0560_as212200","pp_0605_as210732","pp_0595_as210903","pp_0110_as136620","pb_0617_as210529","pp_0613_as142641","pp_0442_as212864","pp_0558_as209870","pp_0548_as62269","pp_0683_as212895","pp_0506_as141634","pp_0080_as57407","pb_0489_as212292","pp_0685_as131171","pp_0399_as200273","pb_0299_as208498","pp_0261_as24239","pp_0523_as211696","pp_0567_as209449","pp_0420_as47937","pp_0497_as212129","pp_0550_as211484","pp_0323_as56381","pp_0243_as60474","pp_0328_as203440","pb_0684_as134993","pp_0678_as207908","pp_0502_as57266","pp_0542_as211704","pp_0453_as204310","pp_0601_as39810","pp_0370_as206477","pp_0632_as210337","pp_0487_as208814","pb_0027_as6735","pp_0418_as213124","pp_0055_as25486","pp_0515_as208702","pp_0615_as210522","pp_0149_as203146","pp_0427_as213042","pp_0524_as211684","pp_0470_as213236","pp_0569_as212744","pp_0587_as210833","pp_0201_as135028","pp_0298_as139299","pp_0614_as210577","pp_0255_as134563","pp_0263_as209833","pp_0112_as205413","pp_0723_as211301","pp_0516_as212635","pp_0380_as213376","pp_0354_as207424","pp_0362_as207654","pp_0314_as59808","pp_0202_as202265","pp_0329_as203440","pp_0623_as142419","pp_0299_as208498","pp_0371_as207537","pp_0096_as201213","pp_0534_as211635","pp_0624_as210481","pp_0238_as134098","pp_0689_as210890","pp_0409_as213188","pp_0345_as207491","pp_0454_as213204","pp_0355_as207401","pp_0684_as134993","pp_0669_as199163","pb_0695_as205648","pp_0258_as210025","pp_0533_as212983","pp_0641_as209401","pp_0211_as202365","pp_0443_as212987","pb_0001_as51058","pb_0021_as13101","pp_0543_as141712","pp_0444_as131675","pb_0344_as3280","pp_0004_as205777","pp_0337_as207803","pp_0461_as208563","pp_0425_as209859","pp_0705_as205094","pp_0088_as201222","pp_0381_as213377","pp_0526_as211671","pp_0372_as206628","pp_0209_as49904","pp_0159_as200639","pp_0145_as49836","pp_0364_as132294","pp_0428_as140731","pp_0264_as137936","pp_0319_as139742","pp_0519_as212112","pp_0437_as213092","pp_0640_as209669","pp_0616_as211449","pp_0220_as202479","pp_0005_as206479","pp_0177_as206313","pp_0168_as207036","pp_0374_as140244","pp_0606_as212799","pp_0346_as208709","pp_0463_as212546","pp_0607_as142582","pp_0130_as204893","pp_0480_as212793","pp_0562_as211581","pp_0617_as210529","pp_0419_as209650","pp_0518_as206740","pp_0301_as208464","pp_0563_as211244","pp_0553_as211398","pp_0490_as213248","pp_0544_as211688","pp_0464_as212518","pp_0338_as208907","pp_0609_as210633","pp_0339_as207910","pp_0527_as208434","pb_0265_as4842","pp_0410_as213219","pp_0517_as208884","pp_0106_as207080","pp_0482_as212372","pp_0627_as211129","pp_0634_as210969","pp_0536_as211776","pp_0618_as210537","pp_0456_as212705","pp_0114_as206924","pb_0023_as25220","pp_0709_as210320","pp_0284_as208753","pp_0546_as211544","pp_0401_as208505","pp_0555_as211337","pp_0473_as212568","pp_0196_as205148","pp_0561_as139648","pp_0643_as208529","pp_0411_as213234","pp_0368_as210072","pb_0012_as56382","pp_0538_as213045","pp_0654_as200275","pp_0439_as212921","pp_0554_as212596","pp_0348_as207469","pp_0349_as207613","pb_0713_as8298","pp_0528_as211876","pp_0438_as135395","pp_0590_as210916","pp_0619_as213163","pp_0205_as206813","pp_0574_as211042","pp_0230_as136782","pp_0448_as202592","pp_0213_as205597","pp_0635_as209552","pp_0564_as211367","pp_0188_as135134","pp_0573_as211168","pb_0022_as34549","pp_0115_as133846","pb_0002_as49697","pp_0392_as208567","pb_0300_as34924","pp_0366_as139328","pp_0320_as207955","pp_0152_as204035","pp_0151_as204571","pp_0179_as205590","pp_0412_as213170","pp_0449_as213252","pp_0547_as212509","pp_0402_as131668","pb_0400_as41255","pp_0099_as206423","pp_0278_as209026","pp_0681_as210168","pp_0367_as209533","pb_0078_as8793","pp_0529_as211679","pp_0376_as207921","pp_0600_as210916","pp_0214_as137490","pp_0719_as202351","device1","pp_0500_as136918","pb_0105_as51391","pp_0161_as204254","pp_0476_as212415","pp_0315_as212123","pp_0593_as211013","pp_0638_as204028","pp_0467_as212508","pp_0287_as203478","pb_0051_as61430","pp_0581_as209771","pp_0359_as138153","pp_0403_as136451","pb_0212_as42198","pp_0521_as212120","pp_0109_as202562","pp_0295_as209188","pb_0203_as49134","pp_0485_as212425","pp_0584_as213015","pp_0198_as204662","pp_0647_as211184","pb_0310_as60767","pp_0313_as209555","pp_0421_as131657","pp_0591_as210887","pp_0724_as197477","pb_0043_as34154","pp_0303_as139589","pp_0227_as210020","pp_0511_as211960","pp_0610_as210563","pp_0305_as135383","pp_0047_as203123","pp_0484_as207590","pp_0708_as208985","pp_0646_as208445","pp_0636_as209768","pp_0592_as210881","pp_0199_as205603","pp_0556_as208727","pb_0050_as64475","pp_0520_as211819","pp_0404_as213279","pp_0576_as212034","pb_0241_as21158","pp_0260_as204438","pp_0565_as140984","pb_0131_as51699","pp_0700_as212427","pp_0469_as205112","pb_0330_as34800","pp_0224_as204994","pp_0369_as208183","pp_0216_as205908","pp_0322_as207968","pp_0468_as212592","pb_0304_as44326","pp_0082_as205036","pp_0611_as203380","pp_0350_as207622","pp_0413_as207278","pp_0244_as202329","pb_0108_as60271","pp_0334_as201811","pp_0486_as212349","pp_0549_as211498","pp_0270_as209022","pb_0052_as34764","pb_0060_as39912","pp_0406_as203900","pb_0479_as57164","pb_0510_as31396","pb_0221_as57782","pp_0512_as207292","pb_0496_as57257","pp_0568_as211083","pp_0341_as209185","pp_0344_as3280","pb_0018_as20886","pp_0531_as212520","pb_0070_as35366","pp_0296_as209778","pp_0530_as211738","pp_0422_as207960","pb_0331_as18254","pb_0302_as58299","pp_0136_as204883","pb_0044_as47138","pb_0656_as6939","pp_0307_as209209","pp_0423_as213189","pp_0504_as211954","pb_0430_as64114","pp_0333_as204982","pp_0682_as209199","pp_0559_as211486","pp_0431_as206947","pp_0316_as208059","pp_0054_as196624","pp_0440_as212995","pp_0324_as207963","pp_0128_as205388","pp_0234_as209864","pp_0701_as213396","pp_0603_as147041","pp_0252_as209538","pb_0053_as47194","pb_0414_as41047","pb_0074_as12502","pb_0028_as29404","pp_0181_as203729","pb_0026_as49296","pp_0620_as147039","pb_0063_as25394","pb_0599_as41225","pb_0596_as56662","pb_0144_as62184","pp_0351_as207468","pb_0080_as57407","pb_0261_as24239","pb_0049_as31103","pb_0420_as47937","pb_0433_as41051","pb_0323_as56381","pb_0243_as60474","pp_0262_as141694","pb_0502_as57266","pb_0601_as39810","pb_0055_as25486","pp_0265_as4842","pb_0498_as56894","pb_0314_as59808","pb_0182_as62230","pb_0589_as44992","pb_0138_as61361","pp_0048_as197071","pp_0713_as8298","pb_0360_as50892","pb_0271_as53356","pp_0612_as148971","pb_0068_as21263","pb_0696_as59790","pb_0209_as49904","pb_0083_as57433","pb_0057_as42596","pb_0145_as49836","pb_0139_as12759","pb_0059_as31572","pp_0078_as8793","pb_0245_as48292","pb_0110_as136620","pb_0336_as51745","pb_0436_as41255","pp_0602_as399866","pb_0076_as41399","pb_0246_as58057","pb_0352_as49459"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://manager.kleyrex.net/lg/rs1-ipv4/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv4');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv4' );
+    });
+</script>
+            </body>
+</html>

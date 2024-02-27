@@ -1,0 +1,602 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>IT'Systems | ÐÐ»Ð°Ð²Ð½Ð°Ñ</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="IT Systems, IP ÑÐµÐ»ÐµÑÐ¾Ð½Ð¸Ñ, VPN, ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·, Ð²Ð¸Ð´ÐµÐ¾Ð½Ð°Ð±Ð»ÑÐ´ÐµÐ½Ð¸Ðµ , ÐÐÐ, Ð²ÑÐ´ÐµÐ»ÐµÐ½Ð½Ð°Ñ Ð»Ð¸Ð½Ð¸Ñ, ÐÐ½ÑÐµÑÐ½ÐµÑ, Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¾Ð½Ð½ÑÐµ ÑÐµÑÐ¸, ÐºÐ°Ð½Ð°Ð» Ð¿ÐµÑÐµÐ´Ð°ÑÐ¸ Ð´Ð°Ð½Ð½ÑÑ, ÐºÐ¾Ð»Ð¾ÐºÐµÐ¹ÑÐ½, Ð¾ÑÑÐ°Ð½Ð½Ð°Ñ ÑÐ¸Ð³Ð½Ð°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ, Ð¿Ð¾Ð´ÐºÐ»ÑÑÐµÐ½Ð¸Ðµ Ðº Ð¸Ð½ÑÐµÑÐ½ÐµÑÑ, Ð¿Ð¾Ð¶Ð°ÑÐ½Ð°Ñ ÑÐ¸Ð³Ð½Ð°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ, ÑÐµÑÐ¸, Ð¡ÐÐ¡, ÑÑÐ»ÑÐ³Ð¸ ÐºÐ¾Ð»Ð»Ð¾ÐºÐ°ÑÐ¸Ð¸, ÑÐ¾ÑÑÐ¸Ð½Ð³, Ð¿Ð¾Ð´ÐºÐ»ÑÑÐµÐ½Ð¸Ðµ Ðº Ð¸Ð½ÑÐµÑÐ½ÐµÑÑ, Ð¿Ð¾ Ð²ÑÐ´ÐµÐ»ÐµÐ½Ð½Ð¾Ð¹ Ð»Ð¸Ð½Ð¸Ð¸" />
+  <meta name="description" content="ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð· (IT Systems) ÑÑÐ¾ Ð´Ð¸Ð½Ð°Ð¼Ð¸ÑÐ½Ð¾ ÑÐ°Ð·Ð²Ð¸Ð²Ð°ÑÑÐ°ÑÑÑ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Ð½Ð° ÑÑÐ½ÐºÐµ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¾Ð½Ð½ÑÑ ÑÑÐ»ÑÐ³ Ð£ÐºÑÐ°Ð¸Ð½Ñ. ÐÑÐ½Ð¾Ð²Ð½ÑÐ¼Ð¸ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸ Ð´ÐµÑÑÐµÐ»ÑÐ½Ð¾ÑÑÐ¸ ÑÐ²Ð»ÑÑÑÑÑ Ð¿ÑÐµÐ´Ð¾ÑÑÐ°Ð²Ð»ÐµÐ½Ð¸Ðµ ÑÑÐ»ÑÐ³ Ð´Ð¾ÑÑÑÐ¿Ð° Ðº ÑÐµÑÐ¸ ÐÐ½ÑÐµÑÐ½ÐµÑ Ð¿Ð¾ Ð²ÑÐ´ÐµÐ»ÐµÐ½Ð½ÑÐ¼ ÐºÐ°Ð½Ð°Ð»Ð°Ð¼ ÑÐ²ÑÐ·Ð¸ Ð¸ Ð¾Ð±ÐµÑÐ¿ÐµÑÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð»Ð½Ð¾Ð³Ð¾ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ° ÑÐ¾Ð¿ÑÑÑÑÐ²ÑÑÑÐ¸Ñ ÑÑÐ»ÑÐ³." />
+  <base href="http://itsystems.ua/"></base>
+  <link rel="stylesheet" href="assets/images/design/general.css" type="text/css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.timers-1.2.js"></script>
+  <script type="text/javascript" src="assets/js/swfobject/swfobject.js"></script>
+  <style type="text/css">
+      .content_titr_box, .content_project_box {
+          vertical-align: top;
+      }
+      .top-menu-item {white-space: nowrap; margin-right: 30px;}
+  </style>
+</head>
+
+<BODY bottomMargin=0 vLink=#0067B5 aLink=#0067B5 link=#0067B5 bgColor=#ffffff 
+leftMargin=0 topMargin=0 rightMargin=0 marginheight="0" marginwidth="0">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top">
+    <td width="4%"><DIV style="WIDTH: 20px; HEIGHT: 1px"><SPACER width="20" height="1" type="block"></SPACER></DIV></td>
+    <td>
+    <img src="assets/images/design/logo.gif" alt="IT'Systems" border="0">
+    </td>
+    <td width="10%"><DIV style="WIDTH: 34px; HEIGHT: 1px"><SPACER width="34" height="1" type="block"></SPACER></DIV></td>
+    <td width="24%">
+   <link media="screen" type="text/css" href="assets/css/top.sub.menu.css" rel="stylesheet">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    <tr>
+        <td class="menu_line_bgrd_left">
+            <div style="width: 9px; height: 1px;">
+                <spacer width="9" height="1" type="block"></spacer>
+            </div>
+        </td>
+        <td valign="top" class="menu_box">
+           
+          <table width="100%" cellspacing="0" cellpadding="0" border="0"><tr valign="top">
+                            <td><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/company.html" title="Ð ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸" class="menu">Ð ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸</a></nobr></td>
+
+      
+               
+
+<td width="2%"><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/support_center.html" title="Ð¦ÐµÐ½ÑÑ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸" class="menu">Ð¦ÐµÐ½ÑÑ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ¸</a></nobr></td>
+
+      
+               
+
+<td width="2%"><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/contacts.html" title="ÐÐ¾Ð½ÑÐ°ÐºÑÑ" class="menu">ÐÐ¾Ð½ÑÐ°ÐºÑÑ</a></nobr></td>
+
+<td><div style="width: 13px; height: 1px;"><spacer width="13" height="1" type="block"/></div></td>            
+               </tr>      
+               
+
+<tr valign="top">
+                            <td><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/vacancy.html" title="ÐÐ°ÑÑÐµÑÐ°" class="menu">ÐÐ°ÑÑÐµÑÐ°</a></nobr></td>
+
+      
+               
+
+<td width="2%"><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/users_company.html" title="ÐÐ±Ð¾Ð½ÐµÐ½ÑÐ°Ð¼" class="menu">ÐÐ±Ð¾Ð½ÐµÐ½ÑÐ°Ð¼</a></nobr></td>
+
+      
+               
+
+<td width="2%"><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/partners.html" title="ÐÐ°ÑÑÐ½ÐµÑÑ" class="menu">ÐÐ°ÑÑÐ½ÐµÑÑ</a></nobr></td>
+
+<td><div style="width: 13px; height: 1px;"><spacer width="13" height="1" type="block"/></div></td>            
+               </tr>      
+               
+
+<tr valign="top">
+                            <td><div style="width: 7px; height: 1px;"><spacer width="7" height="1" type="block"/></div></td>
+
+<td class="menu"><nobr><a href="/main/add/news.html" title="ÐÐ¾Ð²Ð¾ÑÑÐ¸" class="menu">ÐÐ¾Ð²Ð¾ÑÑÐ¸</a></nobr></td>
+
+      
+               
+
+</table>
+         
+        </td>
+        <td class="menu_line_bgrd_right">
+            <div style="width: 9px; height: 1px;">
+                <spacer width="9" height="1" type="block"></spacer>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top"><img width="9" height="5" border="0" alt="" src="assets/images/design/menu_line_left.gif"></td>
+        <td width="100%">
+            <div style="width: 1px; height: 1px;">
+                <spacer width="1" height="1" type="block"></spacer>
+            </div>
+        </td>
+        <td valign="top"><img width="9" height="5" border="0" alt="" src="assets/images/design/menu_line_right.gif"></td>
+    </tr>
+    </tbody>
+</table>
+    
+
+    </td>
+    <td width="25%"><DIV style="WIDTH: 10px; HEIGHT: 1px"><SPACER width="10" height="1" type="block"></SPACER></DIV></td>
+    <td width="34%">
+    <script type="text/javascript" src="assets/js/mini.menu.js"></script>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+      <tbody><tr valign="top">
+        <td><img width="9" height="47" border="0" alt="" src="assets/images/design/search_line.gif"/></td>
+        <td width="100%" class="search_box">
+        
+    <div class="search_form">
+    <form action="main/search.html" id="express_seach_form" method="GET" name="express_seach_form">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td valign="top"><div style="width: 100px; height: 1px;"><spacer width="100" height="1" type="block"/></div></td>
+            <td valign="top"><div style="width: 1px; height: 1px;"><spacer width="1" height="1" type="block"/></div></td>
+
+          </tr>
+          <tr>            
+            <td width="100%" valign="top" bgcolor="#e9e9e9" class="search_subbox1">
+              <input type="text" class="text" value="Ð±ÑÑÑÑÑÐ¹ Ð¿Ð¾Ð¸ÑÐº" default="Ð±ÑÑÑÑÑÐ¹ Ð¿Ð¾Ð¸ÑÐº" name="search" id="query_add"/>                          
+            </td>
+            <td valign="top" bgcolor="#e9e9e9" class="search_subbox2">
+            <input type="submit" value="" style="display:none;"/>
+            <a href="#" class="express-search-link"><img width="17" height="17" border="0" alt="Ð¸ÑÐºÐ°ÑÑ" src="assets/images/design/search_button.gif"/></a>
+            </td>
+          </tr>
+        </tbody></table>
+    </form></div>
+        
+        </td>
+
+        <td class="service_box"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td><a href="main/search.html"><img  border="0" src="assets/images/design/icon_search.gif"/></a>
+            </td>
+            <td><a href="mailto:office@itsystems.ua"><img  border="0" src="assets/images/design/icon_mail.gif"/></a></td>
+            <td>
+            <img border="0" src="assets/images/design/icon_home_hot.gif"/>
+            </td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+    </tbody></table>
+    </td>
+
+    <td width="3%"><DIV style="WIDTH: 10px; HEIGHT: 1px"><SPACER width="10" height="1" type="block"></SPACER></DIV></td>
+  </tr>
+</table>
+<script type="text/javascript">
+var slideShow = 1 == 1;
+</script>
+<script type="text/javascript" src="assets/js/jquery.timers-1.2.js"></script>
+<script type="text/javascript" src="assets/js/main.menu.js"></script>
+<link rel="stylesheet" href="assets/css/main.menu.css" type="text/css">
+<table width="100%" class="top-menu"  border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="50%"></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/inet.html" class="top-menu-item" image="assets/images/design/main_ill_internet.jpg">ÐÐ½ÑÐµÑÐ½ÐµÑ</a>
+<table class="expandable-top-item" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-left:10px;"><img src="assets/images/design/menu_top_el.png" /></td>
+                            </tr>
+<tr>
+                                        <td class="sub-item first-sub-item  "><a href="/main/inet/ip_transit_services.html">Ð£ÑÐ»ÑÐ³Ð¸ IP-ÑÑÐ°Ð½Ð·Ð¸ÑÐ°</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/inet/internet_dedicated_line.html">ÐÐ¾Ð´ÐºÐ»ÑÑÐµÐ½Ð¸Ðµ Ðº Ð¸Ð½ÑÐµÑÐ½ÐµÑÑ Ð¿Ð¾ Ð²ÑÐ´ÐµÐ»ÐµÐ½Ð½Ð¾Ð¹ Ð»Ð¸Ð½Ð¸Ð¸</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="http://mixnet.ua">ÐÐ¾Ð¼Ð°ÑÐ½Ð¸Ð¼ Ð¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÐµÐ»ÑÐ¼</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item  last-sub-item "><a href="/main/inet/Why-ITS.html">ÐÐ¾ÑÐµÐ¼Ñ ITS?</a></td>
+                                    </tr>
+                            
+</table>      
+
+
+         </div></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/datacom.html" class="top-menu-item" image="assets/images/design/main_ill_datacom.jpg">ÐÐµÑÐµÐ´Ð°ÑÐ° Ð´Ð°Ð½Ð½ÑÑ</a>
+<table class="expandable-top-item" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-left:10px;"><img src="assets/images/design/menu_top_el.png" /></td>
+                            </tr>
+<tr>
+                                        <td class="sub-item first-sub-item  "><a href="/main/datacom/VPN_network.html">VPN</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/datacom/information_network.html">ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¾Ð½Ð½ÑÐµ ÑÐµÑÐ¸</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/datacom/addition_services.html">ÐÐ¾Ð¿Ð¾Ð»Ð½Ð¸ÑÐµÐ»ÑÐ½ÑÐµ Ð¿Ð»Ð°ÑÐ½ÑÐµ ÑÑÐ»ÑÐ³Ð¸</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/datacom/594.html">ÐÐ¾ÑÐµÐ¼Ñ ITS?</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item  last-sub-item "><a href="/main/datacom/614.html">Ð¢Ð¸Ð¿Ð¾Ð²Ð¾Ð¹ Ð´Ð¾Ð³Ð¾Ð²Ð¾Ñ</a></td>
+                                    </tr>
+                            
+</table>      
+
+
+         </div></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/network.html" class="top-menu-item" image="assets/images/design/main_ill_network2.jpg">Ð¡ÐµÑÐ¸ ITS</a>
+<table class="expandable-top-item" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-left:10px;"><img src="assets/images/design/menu_top_el.png" /></td>
+                            </tr>
+<tr>
+                                        <td class="sub-item first-sub-item  "><a href="/main/network/map.html">ÐÐ°ÑÑÐ° ÑÐµÑÐ¸</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/network/point_of_presence.html">Ð¢Ð¾ÑÐºÐ¸ Ð¿ÑÐ¸ÑÑÑÑÑÐ²Ð¸Ñ</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item  last-sub-item "><a href="/main/network/why_its.html">ÐÐ¾ÑÐµÐ¼Ñ ITS?</a></td>
+                                    </tr>
+                            
+</table>      
+
+
+         </div></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/telephone.html" class="top-menu-item" image="assets/images/design/main_ill_telephone.jpg">Ð¢ÐµÐ»ÐµÑÐ¾Ð½Ð¸Ñ</a></div></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/infocomm_solutions.html" class="top-menu-item" image="assets/images/design/main_ill_infocomm.jpg">ÐÐ½ÑÐ¾ÐºÐ¾Ð¼Ð¼ÑÐ½Ð¸ÐºÐ°ÑÐ¸Ð²Ð½ÑÐµ ÑÐµÑÐµÐ½Ð¸Ñ</a>
+<table class="expandable-top-item" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-left:10px;"><img src="assets/images/design/menu_top_el.png" /></td>
+                            </tr>
+<tr>
+                                        <td class="sub-item first-sub-item  "><a href="/main/infocomm_solutions/corporate_communications.html">ÐÐ¾ÑÐ¿Ð¾ÑÐ°ÑÐ¸Ð²Ð½ÑÐµ ÐºÐ¾Ð¼Ð¼ÑÐ½Ð¸ÐºÐ°ÑÐ¸Ð¸</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item   "><a href="/main/infocomm_solutions/hosting.html">Ð£ÑÐ»ÑÐ³Ð¸ ÐºÐ¾Ð»Ð»Ð¾ÐºÐ°ÑÐ¸Ð¸ Ð¸ ÑÐ¾ÑÑÐ¸Ð½Ð³Ð°</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item  last-sub-item "><a href="/main/infocomm_solutions/Why-ITS.html"> ÐÐ¾ÑÐµÐ¼Ñ ITS?</a></td>
+                                    </tr>
+                            
+</table>      
+
+
+         </div></td>
+<td class="top.menu.level_1"><div class="menu-holder"><a href="/main/system_integration.html" class="top-menu-item" image="assets/images/design/main_ill_sysintegration.jpg">Ð¡Ð¸ÑÑÐµÐ¼Ð½Ð°Ñ Ð¸Ð½ÑÐµÐ³ÑÐ°ÑÐ¸Ñ</a>
+<table class="expandable-top-item" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-left:10px;"><img src="assets/images/design/menu_top_el.png" /></td>
+                            </tr>
+<tr>
+                                        <td class="sub-item first-sub-item  "><a href="/main/system_integration/sks.html">Ð¡ÐÐ¡</a></td>
+                                    </tr>
+                            
+      
+
+
+
+<tr>
+                                        <td class="sub-item  last-sub-item "><a href="/main/system_integration/video_alarm.html">ÐÐ¸Ð´ÐµÐ¾Ð½Ð°Ð±Ð»ÑÐ´ÐµÐ½Ð¸Ðµ, Ð¿Ð¾Ð¶Ð°ÑÐ½Ð°Ñ Ð¸ Ð¾ÑÑÐ°Ð½Ð½Ð°Ñ ÑÐ¸Ð³Ð½Ð°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ</a></td>
+                                    </tr>
+                            
+</table>      
+
+
+         </div></td>
+
+         
+<td width="50%"></td>
+    </tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table-central-image-holder">
+  <tbody><tr>
+    <td valign="top">
+        <div class="central-image-holder" style="width: 1263px;">
+            <img src="assets/images/design/ajax-loader.gif" class="central-image-loader" style="display: none; left: 611.5px;"/>
+            <img src="assets/images/design/main_ill_internet.jpg" class="central-image central-image-primary" style="left: -218.5px; display: inline;"/>
+            <img src="assets/images/design/main_ill_internet.jpg" class="central-image central-image-second" style="left: -218.5px; display: inline;"/>
+        </div>
+    </td>
+  </tr>
+</tbody></table>
+
+
+<table width="100%" class="table-etalon" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="29%" valign="top" class="bgrd_news">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr valign="top">
+                    <td><img src="assets/images/design/picto_news.gif" alt="[ÐÐ¾Ð²Ð¾ÑÑÐ¸" width="49"
+                             height="33" border="0"></td>
+                    <td width="100%" valign="bottom" class="headline">ÐÐ¾Ð²Ð¾ÑÑÐ¸</td>
+                </tr>
+            </table>
+        </td>
+        <td width="39%" valign="top" class="bgrd_projects">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <tr valign="top">
+                    <td><img src="assets/images/design/picto_projects.gif" alt="ÐÑÐ¾ÐµÐºÑÑ" width="49"
+                             height="33" border="0"></td>
+                    <td width="100%" valign="bottom" class="headline">ÐÑÐ¾ÐµÐºÑÑ</td>
+                </tr>
+            </table>
+        </td>
+        <td width="32%" valign="top" class="bgrd_map">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr valign="top">
+                    <td><img src="assets/images/design/picto_map.gif" alt="ÐÐ°ÑÑÐ°" width="49" height="33"
+                             border="0"></td>
+
+                    <td width="100%" valign="bottom" class="headline">ÐÐ°ÑÑÐ°</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" class="news_box">
+            <table width="94%" cellspacing="0" cellpadding="0" border="0"><tr valign="top">
+    <td width="7%" class="news_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td width="93%">
+        <div class="news_title"><a class="news_title" href="main/add/news/611.html">10 Ð¸ÑÐ½Ñ 2013</a>
+        </div>
+        <div class="news_descript">ÐÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ "ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·" Ð¿ÑÐ¸Ð½ÑÐ»Ð° ÑÑÐ°ÑÑÐ¸Ðµ Ð² 14-Ð¾Ð¹ ÐºÐ¾Ð½ÑÐµÑÐµÐ½ÑÐ¸Ð¸ ÐÐ½ÐÑ Ð¸ ÐÐ "Ð£ÐºÑÐ°Ð¸Ð½ÑÐºÐ°Ñ ÑÐµÑÑ Ð¾Ð±Ð¼ÐµÐ½Ð° ÑÑÐ°ÑÐ¸ÐºÐ¾Ð¼" Ð² ÑÑÐ°ÑÑÑÐµ ÑÐ¿Ð¾Ð½ÑÐ¾ÑÐ°.</div>
+    </td>
+</tr><tr valign="top">
+    <td width="7%" class="news_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td width="93%">
+        <div class="news_title"><a class="news_title" href="main/add/news/595.html">1 ÑÐµÐ½ÑÑÐ±ÑÑ 2011</a>
+        </div>
+        <div class="news_descript">Ð¡ 1 ÑÐµÐ½ÑÑÐ±ÑÑ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Â«ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·Â» Ð½Ð°ÑÐ°Ð»Ð° Ð¿ÑÐµÐ´Ð¾ÑÑÐ°Ð²Ð»ÑÑÑ Ð´Ð»Ñ ÐºÐ¾Ð¼Ð¼ÐµÑÑÐµÑÐºÐ¸Ñ ÑÑÑÑÐºÑÑÑ Ð½Ð¾Ð²ÑÑ ÑÑÐ»ÑÐ³Ñ â ÑÑÐ°Ð½ÐµÐ½Ð¸Ðµ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¾Ð½Ð½ÑÑ ÑÐµÑÑÑÑÐ¾Ð² Ð½Ð° ÑÐµÑÐ²ÐµÑÐ°Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸.</div>
+    </td>
+</tr><tr valign="top">
+    <td width="7%" class="news_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td width="93%">
+        <div class="news_title"><a class="news_title" href="main/add/news/595.html">21 Ð°Ð¿ÑÐµÐ»Ñ 2011</a>
+        </div>
+        <div class="news_descript">Â«ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·Â» Ð½Ð°ÑÐ¸Ð½Ð°ÐµÑ Ð¿ÑÐµÐ´Ð¾ÑÑÐ°Ð²Ð»ÑÑÑ ÑÑÐ»ÑÐ³Ð¸ Ð¿Ð¾ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ð¼Ñ Ð¾Ð±ÐµÑÐ¿ÐµÑÐµÐ½Ð¸Ñ ÐºÐ»Ð¸ÐµÐ½ÑÐ¾Ð² Ð´Ð¾ÑÑÑÐ¿Ð¾Ð¼ Ð² ÐÐ½ÑÐµÑÐ½ÐµÑ, ÑÐ¸ÑÑÐ¾Ð²Ð¾Ð¼Ñ ÑÐµÐ»ÐµÐ²Ð¸Ð´ÐµÐ½Ð¸Ñ Ð¸ ÑÐ¸ÑÑÐ¾Ð²Ð¾Ð¹ ÑÐµÐ»ÐµÑÐ¾Ð½Ð¸Ð¸.</div>
+    </td>
+</tr><tr valign="top">
+    <td width="7%" class="news_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td width="93%">
+        <div class="news_title"><a class="news_title" href="main/add/news/news_2010.html">15 Ð½Ð¾ÑÐ±ÑÑ 2010</a>
+        </div>
+        <div class="news_descript">Â«ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·Â» Ð¿Ð¾Ð´ÐºÐ»ÑÑÐ¸Ð»Ð°ÑÑ Ðº ÐµÐ²ÑÐ¾Ð¿ÐµÐ¹ÑÐºÐ¾Ð¹ ÑÐ¾ÑÐºÐµ Ð¾Ð±Ð¼ÐµÐ½Ð° ÐÐ½ÑÐµÑÐ½ÐµÑ-ÑÑÐ°ÑÐ¸ÐºÐ¾Ð¼ AMS-IX, ÑÐ°Ð·Ð¼ÐµÑÐµÐ½Ð½Ð¾Ð¹ Ð² ÐÐ¾Ð»Ð»Ð°Ð½Ð´Ð¸Ð¸ (ÐÐ¼ÑÑÐµÑÐ´Ð°Ð¼).</div>
+    </td>
+</tr>
+            </table>
+        </td>
+
+        <td class="projects_box" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+
+                    <td bgcolor="#d8d8d9">
+                        <DIV style="WIDTH: 1px; HEIGHT: 1px">
+                            <SPACER width="1" height="1" type="block"></SPACER>
+                        </DIV>
+                    </td>
+                    <td width="100%" valign="top">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <DIV style="WIDTH: 1px; HEIGHT: 17px">
+                                        <SPACER width="1" height="17" type="block"></SPACER>
+                                    </DIV>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="94%" cellspacing="0" cellpadding="0" border="0"><tr valign="top">
+
+    <td width="7%" class="projects_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td>
+        <a href="<?=$item['LINK']?>"><img border="0" src="assets/images/design/project2.jpg"/></a>
+    </td>
+    <td width="86%">
+        <div class="project_title"><a class="project_title"
+                                      href="main/555/556.html">ÐÐ¸Ð½Ð¸ÑÑÐµÑÑÑÐ²Ð¾ Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¸ Ð½Ð°ÑÐºÐ¸</a></div>
+        <div class="project_descript">Ð ÑÐ°Ð¼ÐºÐ°Ñ ÐÐ°ÑÐ¸Ð¾Ð½Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÐµÐºÑÐ° Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ñ Â«ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·Â» Ð¿Ð¾ÑÑÑÐ¾Ð¸Ð»Ð° Ð²ÑÐµÑÐºÑÐ°Ð¸Ð½ÑÐºÑÑ ÐºÐ¾Ð¼Ð¿ÑÑÑÐµÑÐ½ÑÑ ÑÐµÑÑ Ð¿ÐµÑÐµÐ´Ð°ÑÐ¸ Ð´Ð°Ð½Ð½ÑÑ Ð½Ð° Ð±Ð°Ð·Ðµ Ð²Ð¾Ð»Ð¾ÐºÐ¾Ð½Ð½Ð¾-Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ñ Ð½Ð°Ð·ÐµÐ¼Ð½ÑÑ ÐºÐ°Ð½Ð°Ð»Ð¾Ð². Ð­ÑÐ° ÑÐµÑÑ Ð¿Ð¾Ð·Ð²Ð¾Ð»Ð¸Ð»Ð° Ð½Ð°ÑÑÐ½ÑÐ¼ Ð¸ ÑÑÐµÐ±Ð½ÑÐ¼  Ð·Ð°Ð²ÐµÐ´ÐµÐ½Ð¸ÑÐ¼ ÐÐ¸Ð½Ð¸ÑÑÐµÑÑÑÐ²Ð° Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¸ Ð½Ð°ÑÐºÐ¸ Ð£ÐºÑÐ°Ð¸Ð½Ñ Ð¿ÑÐ¾Ð²Ð¾Ð´Ð¸ÑÑ ÑÐ¾Ð²Ð¼ÐµÑÑÐ½ÑÐµ ÑÑÐµÐ±Ð½ÑÐµ Ð¸ Ð½Ð°ÑÑÐ½ÑÐµ Ð²Ð¸Ð´ÐµÐ¾ÐºÐ¾Ð½ÑÐµÑÐµÐ½ÑÐ¸Ð¸ Ð² ÑÐµÐ¶Ð¸Ð¼Ðµ ÑÐµÐ°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð²ÑÐµÐ¼ÐµÐ½Ð¸.</div>
+    </td>
+    <td width="7%">
+        <div style="width: 10px; height: 1px;">
+            <spacer width="10" height="1" type="block"/>
+        </div>
+    </td>
+</tr>
+<tr valign="top">
+    <td colspan="4">
+        <div style="width: 1px; height: 17px;">
+            <spacer width="1" height="17" type="block"/>
+        </div>
+    </td>
+
+</tr><tr valign="top">
+
+    <td width="7%" class="projects_bgrd">
+        <div style="width: 8px; height: 1px;">
+            <spacer width="8" height="1" type="block"/>
+        </div>
+    </td>
+    <td>
+        <a href="<?=$item['LINK']?>"><img border="0" src="assets/images/design/project1.jpg"/></a>
+    </td>
+    <td width="86%">
+        <div class="project_title"><a class="project_title"
+                                      href="main/555/563.html">ÐÐ²ÐµÑÑ</a></div>
+        <div class="project_descript">Â«ÐÐ¹ Ð¢Ð¸ Ð¡Ð¸ÑÑÐµÐ¼Ð·Â» Ð¿Ð¾ÑÑÑÐ¾Ð¸Ð» Ð²ÑÐµÑÐºÑÐ°Ð¸Ð½ÑÐºÑÑ ÐºÐ¾Ð¼Ð¿ÑÑÑÐµÑÐ½ÑÑ ÑÐµÑÑ Ð¿ÐµÑÐµÐ´Ð°ÑÐ¸ Ð´Ð°Ð½Ð½ÑÑ Ð´Ð»Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸ ÐÐ²ÐµÑ-ÑÐµÑ (ÐÐ²ÐµÑÑ), ÐºÐ¾ÑÐ¾ÑÐ°Ñ Ð¾Ð±ÑÐµÐ´Ð¸Ð½Ð¸Ð»Ð° Ð¼ÐµÐ¶Ð´Ñ ÑÐ¾Ð±Ð¾Ð¹ Ð²ÑÐµ Ð¾ÑÐ¸ÑÑ Ð°Ð±Ð¾Ð½ÐµÐ½ÑÐ°, ÑÐ°Ð·Ð¼ÐµÑÐµÐ½Ð½ÑÐµ Ð² Ð¾Ð±Ð»Ð°ÑÑÐ½ÑÑ Ð¸ ÑÐ°Ð¹Ð¾Ð½Ð½ÑÑ ÑÐµÐ½ÑÑÐ°Ñ Ð£ÐºÑÐ°Ð¸Ð½Ñ.</div>
+    </td>
+    <td width="7%">
+        <div style="width: 10px; height: 1px;">
+            <spacer width="10" height="1" type="block"/>
+        </div>
+    </td>
+</tr>
+<tr valign="top">
+    <td colspan="4">
+        <div style="width: 1px; height: 17px;">
+            <spacer width="1" height="17" type="block"/>
+        </div>
+    </td>
+
+</tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2" valign="top"><img src="assets/images/design/line_end.gif" alt="" width="9"
+                                                      height="5" border="0"></td></tr>
+            </table>
+        </td>
+
+        <td valign="top">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td bgcolor="#d8d8d9">
+                        <div style="width: 1px; height: 1px;">
+                            <spacer width="1" height="1" type="block"></spacer>
+                        </div>
+                    </td>
+                    <td width="100%" valign="top">
+                        <object width="394" height="254"
+                                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+                                classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+                            <param value="assets/files/its_web_ukr_map_3.swf" name="movie">
+                            <param value="high" name="quality">
+                            <embed width="394" height="254" type="application/x-shockwave-flash"
+                                   pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high"
+                                   src="assets/files/its_web_ukr_map_3.swf">
+                        </object>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" colspan="2"><img width="9" height="5" border="0" alt="" src="assets/images/design/line_end.gif"></td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td align="right" valign="top">
+
+            <table border="0" cellspacing="0" cellpadding="0" width="80%">
+<tbody>
+<tr valign="top">
+<td class="phones_head"><span style="font-size: 100%;">ÐÑÐ¸Ñ:</span></td>
+<td class="phones_head">
+<p class="justifyleft">Ð¢ÐµÑÐ½Ð¸ÑÐµÑÐºÐ°Ñ Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ°:</p>
+</td>
+</tr>
+<tr valign="top">
+<td class="phones"><span style="font-size: 80%; color: #636363;">+38 (044) 594-10-18</span></td>
+<td class="phones grey_small"><span class="red_big" style="font-size: 80%; color: #636363;">+38 (044) 224-53-08</span></td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41496245-1', 'itsystems.ua');
+  ga('send', 'pageview');
+</script>
+
+        </td>
+    </tr>
+</table>
+
+</table>
+<table width="15%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="copy_bgrd"><DIV style="WIDTH: 100px; HEIGHT: 1px"><SPACER width="100" height="1" type="block"></SPACER></DIV></td>
+    <td align="left" valign="top"><img src="assets/images/design/copy_line.gif" alt="" width="10" height="9" border="0"></td>
+  </tr>
+  <tr>
+    <td width="100%" class="copy_text">&copy; 2013 IT'SYSTEMS</td>
+    <td></td>
+
+  </tr>
+</table>
+</BODY>
+</HTML>
+<!--MySQL: 0.0015 s, 0 Ð·Ð°Ð¿Ð¸Ñ(ÑÐ²), PHP: 0.0364 s, Ð·Ð°Ð³Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ°Ñ: 0.0379 s, Ð´Ð¾ÐºÑÐ¼ÐµÐ½Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð¸Ð¹ Ð· cache. -->

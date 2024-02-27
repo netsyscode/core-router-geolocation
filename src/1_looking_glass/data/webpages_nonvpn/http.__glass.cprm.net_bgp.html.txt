@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="ISO-8859-1" />  
+<link rel="icon" href="/images/favicon_altice.ico" />
+<link rel="stylesheet" type="text/css" href="aib.css" /> 
+<title>Looking Glass</title>
+</head>
+
+<body>
+
+<header>
+<a href="https://www.cprm.net"><img alt="logo_altice.png" src="logo_altice.png" height="60" /></a>
+&nbsp;<span class="c1 h_caps">a</span>ltice <span class="c2 h_caps">i</span>nternational <span class="c3 h_caps">b</span>ackbone <span class="c4"> | </span><span style="color: #000;"> Tools </span>
+</header>
+
+<hr />
+
+<div class="box1" style="height:120px;">
+
+<form method=post action='output.php'>
+
+<div class="box2" style="height:100px;">
+<h4>Query type</h4>
+<input type="radio" name="query" value="bgp" checked>BGP
+<input type="radio" name="query" value="ping">Ping
+<input type="radio" name="query" value="trace">Traceroute
+</div>
+
+<div class="box2" style="height:100px;">
+<h4>IP version</h4>
+<select name="ip">
+<option value="ipv4">IPv4</option>
+<option value="ipv6">IPv6</option>
+</select> 
+</div>
+
+<div class="box2" style="height:100px;">
+<h4> Hostname: <input name="addr" size="45"></h4>
+</div>
+
+<br />
+
+<input type="Submit" value="Submit" style="margin-top:5px;"> &nbsp; <input type="Reset" value="Reset">
+</form>
+</div>
+
+<br style="clear:both;" />
+
+<p class="disclaimer">
+Disclaimer: All commands will be logged for possible later analysis and statistics. If you disagree with this policy, please disconnect now!
+<br />
+Please email questions or comments to <a href="mailto:abuse@cprm.net">abuse@cprm.net</a>
+</p>
+
+<br style="clear:both;" />
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<html>
+<head>
+<base href="https://linxtelecom.com/" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<meta name="robots" content="index, follow" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<link rel="alternate" type="application/rss+xml" title="LinxTelecom RSS" href="https://linxtelecom.com/rss.xml" >
+<link rel="shortcut icon" href="/sites/all/themes/linxtelecom/favicon.ico" type="image/x-icon" >
+<meta name="description" content="test" >
+<link rel="canonical" href="https://linxtelecom.com/" >
+<meta name="revisit-after" content="1 day" >
+<title>AS3327 Looking Glass</title>
+
+<link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/hidden_captcha/hidden_captcha.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?R" >
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/linxtelecom/css/style.css?R" >
+  	<!--[if IE 6]>
+	<link href="/sites/all/themes/linxtelecom/css/ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link href="/sites/all/themes/linxtelecom/css/ie7.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<style>
+		.grecaptcha-badge { 
+			visibility: hidden;
+		}
+	</style>
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("simpleForm").submit();
+		}
+	</script>
+</head>
+<body>
+<CENTER>
+<H2>AS3327 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM ID="simpleForm" ACTION="https://lg.citictel-cpc.com/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=advertised-routes></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=summary></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="Linxtelecom (AS 3327)">
+<OPTION VALUE="r9-Tln-Linx-EE"> Tallinn, Estonia (r9-Tln-Linx-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Tln-Linx-EE"> Tallinn, Estonia (r8-Tln-Linx-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Tln-TIX-EE"> Tallinn, Estonia (r9-Tln-TIX-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Tln-GDC-EE"> Tallinn, Estonia (r9-Tln-GDC-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Trt-KJ-EE"> Tartu, Estonia (r9-Trt-KJ-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Nar-EVR-EE"> Narva, Estonia (r9-Nar-EVR-EE.bb.citictel-cpc.com)
+<OPTION VALUE="r1-Bud-Dplx-HU"> Budapest, Hungary (r1-Bud-Dplx-HU.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Fra-Anct-DE"> Frankfurt, Germany (r8-Fra-Anct-DE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Fra-Anct-DE"> Frankfurt, Germany (r9-Fra-Anct-DE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Fra-Intx-DE"> Frankfurt, Germany (r9-Fra-Intx-DE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Ams-TC-NL"> Amsterdam, Netherlands (r9-Ams-TC-NL.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Lon-THN-UK"> London, UK (r8-Lon-THN-UK.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Lon-THN-UK"> London, UK (r9-Lon-THN-UK.bb.citictel-cpc.com)
+<OPTION VALUE="r1-Iev-UIX2-UA"> Kiev, Ukraine (r1-Iev-UIX2-UA.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Mow-M9-RU"> Moscow, Russia (r8-Mow-M9-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Mow-M9-RU"> Moscow, Russia (r9-Mow-M9-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Mow-Mar8-RU"> Moscow, Russia (r8-Mow-Mar8-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r10-Mow-Mar8-RU"> Moscow, Russia (r10-Mow-Mar8-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Spb-Rep-RU"> St. Petersburg, Russia (r8-Spb-Rep-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Spb-K12-RU"> St. Petersburg, Russia (r9-Spb-K12-RU.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Rix-LVRTC-LV"> Riga, Latvia (r8-Rix-LVRTC-LV.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Rix-LVRTC-LV"> Riga, Latvia (r9-Rix-LVRTC-LV.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Sto-TC-SE"> Stockholm, Sweden (r8-Sto-TC-SE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Sto-TC-SE"> Stockholm, Sweden (r9-Sto-TC-SE.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Hel-Song-FI"> Helsinki, Finland (r9-Hel-Song-FI.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Vno-Lnrg-LT"> Vilnius, Lithuania (r8-Vno-Lnrg-LT.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Vno-Lnrg-LT"> Vilnius, Lithuania (r9-Vno-Lnrg-LT.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Waw-Linx-PL"> Warsaw, Poland (r9-Waw-Linx-PL.bb.citictel-cpc.com)
+<OPTION VALUE="r8-Waw-Lim-PL"> Warsaw, Poland (r8-Waw-Lim-PL.bb.citictel-cpc.com)
+<OPTION VALUE="r9-Waw-Lim-PL"> Warsaw, Poland (r9-Waw-Lim-PL.bb.citictel-cpc.com)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<BUTTON class="g-recaptcha" data-sitekey="6Lfn9PgfAAAAALX6uttPS8tlass7PZswSX50CmSR" data-callback="onSubmit" data-action="submit">Submit</BUTTON> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now! This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:nmc-eu@citictel-cpc.com">nmc-eu@citictel-cpc.com</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

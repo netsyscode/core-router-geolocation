@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>SWITCH Looking Glass</title>
+<meta name="description" content="SWITCH" />
+<meta name="keywords"	content="SWITCH Swiss Education Research Network National NREN Registry Registrar Domainname Domain NIC .ch .li Eduroam Pwlan Mobile PKI Grid AAA/SWITCH AAI SMS Fax Gateway" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="content-language" content="en" />
+<meta name="revisit-after" content="20 days" />
+<meta name="copyright" content="Copyright SWITCH - all rights reserved" />
+<link href="resources/css/layout_slim.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 8]>
+<link href="resources/css/custom-patch-ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link href="resources/css/custom-patch.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type='text/javascript' src='resources/js/jquery/packed/jquery.js' ></script>
+<script type='text/javascript' src='resources/js/slim.js' ></script>
+<!-- <link rel="alternate" type="application/atom+xml" title="$DIENSTNAME News" href="$FEED URL" /> -->
+</head>
+<body id="subsite">
+<div id="page_margins">
+	<div id="page">
+		<div id="header">
+			<div id="topnav">
+				<!-- Start: Skiplink-Navigation -->
+				<div id="skiplinks">
+					<a class="skip" accesskey="0" href="/" title="Go directly to the welcome page">Go directly to the welcome page</a>
+					<a class="skip" accesskey="1" href="#topnav_skip" title="Go directly to the top navigation">Go directly to the top navigation</a>
+					<a class="skip" accesskey="2" href="#navigation" title="Go directly to the navigation">Go directly to the navigation</a>
+					<a class="skip" accesskey="3" href="#content" title="Go directly to the content">Go directly to the content</a>
+					<!-- <a class="skip" accesskey="4" href="#" title="Go directly to the contact page">Go directly to the contact page</a>
+					<a class="skip" accesskey="5" href="#" title="Go directly to the site map">Go directly to the site map</a> -->
+				</div>
+				<!-- Ende: Skiplink-Navigation -->
+
+				<a id="topnav_skip" name="topnav"></a>
+				<!-- skiplink anchor: topnav -->	
+				<ul>
+					<li><a href=" http://lg.net.switch.ch">Home</a></li>
+					<li>|</li>
+					<li><a href="http://www.switch.ch/about/news/">News</a></li>
+					<li>|</li>
+					<li><a href="http://www.switch.ch/about/contact">Contact</a></li>
+					<li class="serviceplaceholder">&nbsp;</li> 
+					<li>de</li>
+					<li>|</li>
+					<li>fr</li>
+					<li>|</li>
+					<li>it</li>
+					<li>|</li>
+					<li><a href="#" class="langsel current" title="english">en</a></li>
+				</ul>
+			</div>
+
+			<div class="clearfix">
+				<div class="maintitle float_left"><h1><a href="http://lg.net.switch.ch">SWITCHlan Looking Glass</a></h1></div>
+				<div class="float_right"><a href="http://www.switch.ch" title="Go to www.switch.ch"><img src="resources/images/harmos/logo.gif" alt="SWITCH Logo" /></a></div>
+			</div>
+		</div>
+		
+		<!-- begin: main navigation #nav -->
+		<div id="nav">
+
+			<a id="navigation" name="navigation"></a>
+			<!-- skiplink anchor: navigation -->
+			
+			<div id="nav_main">
+				<ul id="submenu" class="blue">
+					<li class="right txt">&nbsp;</li>
+				</ul>
+			</div>
+			<div class="teaser">
+
+				<span class="uplink"><a href="http://www.switch.ch/network/">About SWITCHlan</a></span>
+
+				<!-- begin breadcrumb -->
+
+				<!-- end breadcrumb -->
+						
+			</div>
+		</div>
+		<!-- end: main navigation -->
+
+		<!-- begin: main content area #main -->
+		<div id="main" class="c1">
+
+			<a id="content" name="content"></a>
+			<!-- skiplink anchor: Content -->
+
+			<!-- begin: #col3 static column -->
+			<div id="col3">
+				<div id="col3_content" class="clearfix">
+
+<!-- begin: main content -->
+
+<div class="lgform">
+<form method="POST" action="./lg.cgi">
+
+<table border="0">
+<tr>
+<td><b>Query:&nbsp;&nbsp;</b>
+   <select name="router">
+     <option />swiBA3.switch.ch
+     <option />swiCE2.switch.ch
+     <option />swiCE4.switch.ch
+     <option />swiEZ3.switch.ch
+     <option />swiIX3.switch.ch
+     <option />swiKR2.switch.ch
+     <option />swiZH3.switch.ch
+   </select></td></tr><tr><td>
+   <table align="left" cellspacing="10">
+     <tr>
+       <td>
+<input type="radio" name="query" value="bgp" /> bgp<br />
+<input type="radio" name="query" value="bgp dampened-paths" /> bgp dampened-paths<br />
+<input type="radio" name="query" value="bgp flap-statistics" /> bgp flap-statistics<br />
+<input type="radio" name="query" value="bgp summary" /> bgp summary<br />
+<input type="radio" name="query" value="environmental" /> environmental<br />
+<input type="radio" name="query" value="mbgp" /> mbgp<br />
+</td>
+       <td>
+<input type="radio" name="query" value="mroute" /> mroute<br />
+<input type="radio" name="query" value="rpf" /> rpf<br />
+<input type="radio" name="query" value="mroute summary" /> mroute summary<br />
+<input type="radio" name="query" value="msdp summary" /> msdp summary<br />
+<input type="radio" name="query" value="msdp sa-cache" /> msdp sa-cache<br />
+<input type="radio" name="query" value="mtrace" /> mtrace<br />
+</td>
+       <td>
+<input type="radio" name="query" value="sdr" /> sdr<br />
+<input type="radio" name="query" value="ping" /> ping<br />
+<input type="radio" name="query" value="trace" /> trace<br />
+<input type="radio" name="query" value="location" /> location<br />
+</td>
+     </tr>
+  </table>
+</td></tr>
+
+<tr><td><b>Argument:&nbsp;</b>
+
+  <input name="arg" size="20" />
+
+</td></tr>
+<tr><td>
+
+<input type="submit" value="Submit" /> |
+<input type="reset" value="Reset" /> 
+</td></tr></table>
+</form></div>
+
+<!-- end: main content -->			
+
+				</div>
+				
+				<!-- IE Column Clearing -->
+				<div id="ie_clearing">&nbsp;</div>
+				<!-- End: IE Column Clearing -->
+				
+			</div>
+			<!-- end: #col3 -->
+			
+		</div>
+		<!-- end: #main -->
+		
+	</div>
+
+	<!-- begin border -->
+	<div id="border_bottom"></div>
+	<!-- end border -->
+	
+</div>
+
+<!-- begin: #footer -->
+<div id="footer">
+	<ul>
+		<li>&copy; 2011 <a href="http://www.switch.ch" >SWITCH</a></li>
+		<li class="last"><a href="http://www.switch.ch/about/disclaimer.html" title="Legal Notice">Legal Notice</a></li>
+
+	</ul>
+</div>
+<!-- end: #footer -->
+
+</body>
+</html>

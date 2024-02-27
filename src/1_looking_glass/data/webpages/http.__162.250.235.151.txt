@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" href="css/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="css/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+
+</head>
+<body>
+<div id="art-main">
+    <div class="cleared reset-box"></div>
+    <div class="art-header">
+        <div class="art-header-position">
+            <div class="art-header-wrapper">
+                <div class="cleared reset-box"></div>
+                <div class="art-header-inner">
+                <div class="art-headerobject"></div>
+                <div class="art-logo">
+                                 <h1 class="art-logo-name"><a href="index.php">162.250.235.151</a></h1>
+                                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="cleared reset-box"></div>
+<div class="art-bar art-nav">
+<div class="art-nav-outer">
+<div class="art-nav-wrapper">
+<div class="art-nav-inner">
+	<div class="art-nav-center">
+	<ul class="art-hmenu">
+		<li>
+            <a class="active" href="index.php" title="">Home</a>
+		</li>	
+		<li>
+			<a href="#" title="" onclick="window.open('p.php','pop','scrollbars=yes,width=500,height=600')">Privacy</a>
+		</li>	
+		<li>
+			<a href="unsubscribe.php" title="">Unsubscribe</a>
+		</li>	
+		<li>
+			<a href="contact.php" title="">Contact</a>
+		</li>	
+	</ul>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cleared reset-box"></div>
+<div class="art-box art-sheet">
+        <div class="art-box-body art-sheet-body">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="cleared"></div></div>
+                        <div class="art-layout-cell art-content">
+<div class="art-box art-post">
+    <div class="art-box-body art-post-body">
+<div class="art-post-inner art-article">
+                                <br /><h2 class="art-postheader"><center>Welcome</center></h2><br /><br />
+                           <div class="art-postcontent">
+                           <div>
+                                                
+                    You've found <b>162.250.235.151 </b>dedicated to finding the best money-saving offers 
+                    on the Web and delivering them directly to you, the consumer.<br>
+                    Business profiles contain comprehensive information on contacts, 
+                    products, services, trade experience and technology.<br>
+                    We strive to provide the highest quality and lowest prices available to our customers, 
+                    resulting in one of the best satisfaction ratings in the industry.<br><br>
+                    If you're not already receiving our money-saving offers and web-only specials,
+                    <a href="contact.php">contact us today</a>.
+
+                
+                </div>
+                </div>
+                <div class="cleared"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+                          <div class="cleared"></div>
+                        </div>
+   <div class="art-layout-cell art-sidebar2"><div class="cleared"></div></div>                      
+                    </div>
+                </div>
+            </div>
+            <div class="cleared"></div>
+            <div class="art-footer">
+                <div class="art-footer-body">
+                            <div class="art-footer-text">
+                                <p>&copy;2023 162.250.235.151. All rights reserved</p>
+                                                            </div>
+                    <div class="cleared"></div>
+                </div>
+            </div>
+    		<div class="cleared"></div>
+        </div>
+    </div>
+    <div class="cleared"></div>
+    <p class="art-page-footer"></p>
+    <div class="cleared"></div>
+</div>
+
+</body>
+</html>

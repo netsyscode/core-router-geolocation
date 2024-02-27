@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			=================================================
+			Powered by HSDN PHP Looking Glass
+			- https://git.dev.hsdn.org/pub/lg
+			- https://github.com/hsdn/lg
+			=================================================
+		-->
+		<title>AS53181 Looking Glass</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon.ico">
+		<!--<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/> -->
+		<style type="text/css"> 
+		<!--
+			body { font: 14px   Tahoma, Helvetica, sans-serif; margin: 45px 15%; color: #000; background: #e9ecef; }
+			h2 { font-size: 25px; font-weight: Tahoma; }
+			form { margin: 0; padding: 0 0 25px 0; }
+			p, object { margin: 0; padding: 0 0 15px 0; }
+			hr { margin: 0 0 20px 0; border: none; color: #000; background-color: #000; height: 2px; }
+			a:link, a:visited { color: #23238E; }
+			a:hover { color: #FF7F00; }
+			table { border: 0; }
+			table th { background: #23238E; color: #fff; white-space: nowrap; font-size: 14px; text-align: center; }
+			.form { margin: auto; text-align: left; background: #fff; border: 5px solid #efefef; }
+			.center { text-align: center; }
+			.error { color: red; font-weight: bold; }
+			.warning { color: blue; font-weight: bold; }
+			.legend { font-size: 12px; margin: auto; }
+		//-->
+		</style>
+		<script type="text/javascript">
+		<!--
+			function load() {
+				var loading = document.getElementById('loading');
+				if (loading !== null) {
+					loading.style.display = 'none';
+				}
+			}
+		//-->
+		</script>
+	</head>
+    <!-- <body onload="load();" style="background-image: url(lg_logo.png)"> -->
+	 <body onload="load();"> 
+		<div class="center"><a href="?"><img style="height:190px" src="lg_logo.png" border="0" alt="lg"></a></div>
+		 <div class="center"> <h2>IPv4 and IPv6 Looking Glass </h2></div>		
+		</br>
+		<hr>
+		<form method="get" action="">
+		<div class="center">
+			<table class="form" cellpadding="2" cellspacing="2">
+				<tr><th>Tipo de consulta</th><th>Par

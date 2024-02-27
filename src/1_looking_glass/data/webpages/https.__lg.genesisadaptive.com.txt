@@ -1,0 +1,745 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="keywords" content="Looking Glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv4, IPv6, Cisco, Juniper, Internet" /><meta name="description" content="" /><title>Looking Glass – Genesis Adaptive</title><script src="https://use.typekit.net/igc5iqs.js"></script><!--Proxima Nova--><script>try{Typekit.load({ async: true });}catch(e){}</script><!-- Loads Proxima Nova (Asynchronously)--><link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/104405/ga/style-cf.css?8ae8ju"><!-- GA Icon Font --><link href="https://www.genesisadaptive.com/css/min/main.css" rel="stylesheet" /><link href="css/style.css" rel="stylesheet" />    <!-- Favicons -->
+  	<link rel="apple-touch-icon" sizes="180x180" href="https://www.genesisadaptive.com/favicons/apple-touch-icon.png">
+  	<link rel="icon" type="image/png" href="https://www.genesisadaptive.com/favicons/favicon-32x32.png" sizes="32x32">
+  	<link rel="icon" type="image/png" href="https://www.genesisadaptive.com/favicons/favicon-16x16.png" sizes="16x16">
+  	<link rel="manifest" href="https://www.genesisadaptive.com/favicons/manifest.json">
+  	<link rel="mask-icon" href="https://www.genesisadaptive.com/favicons/safari-pinned-tab.svg" color="#41c219">
+  	<link rel="shortcut icon" href="https://www.genesisadaptive.com/favicons/favicon.ico">
+  	<meta name="msapplication-config" content="https://www.genesisadaptive.com/favicons/browserconfig.xml">
+  	<meta name="theme-color" content="#ffffff">
+    </head><body>
+     <!-- ***********  Navigation – Expanded HTML copy/pasted from the live site  *********** -->
+     <!-- ***********  Remove Login Button  *********** -->
+
+     <!-- Secondary Nav -->
+     <div class="c-secondary-nav js-menu-closed">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <ul class="c-secondary-nav__list">
+                         <li class="c-secondary-nav__list-item -phone-number"><a href="tel:1-866-829-8228"><i class="icon-phone-2 -nudge-d-1 -fz-90per"></i> 1-866-829-8228</a></li>
+
+                         <!-- Login Button-->
+                         <!-- <li class="c-secondary-nav__list-item c-nav__login-link"><a href="#"><i class="icon-sign-in -nudge-d-1"></i> Log In</a>l</li> -->
+                         <li class="c-secondary-nav__list-item"><a href="https://www.genesisadaptive.com/portal/cart.php?a=view"><i class="icon-cart -fz-90per"></i> Cart</a></li>
+                     </ul>
+                 </div><!-- END .col-12 -->
+             </div><!-- END .row -->
+         </div><!-- END .container -->
+     </div>
+
+     <!-- Main Nav -->
+     <div class="c-nav js-menu-closed">
+     <div class="container">
+     <div class="row">
+     <div class="col-12 c-nav__inner-wrapper">
+
+     <!-- Logo -->
+     <a href="https://www.genesisadaptive.com/" class="c-nav__logo">
+     <svg enable-background="new 0 0 409.8 97.7" version="1.1" viewBox="0 0 415 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+     <style type="text/css">.st0{fill:#FFFFFF;}</style><defs><filter id="a" x="0" y="0" width="200%" height="200%" filterUnits="userSpaceOnUse"><feOffset dx="1" dy="1" in="SourceGraphic" result="offOut"></feOffset><feColorMatrix in="offOut" result="matrixOut" values="0.05 0 0 0 0 0 0.05 0 0 0 0 0 0.05 0 0 0 0 0 1 0"></feColorMatrix><feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="1"></feGaussianBlur><feBlend in="SourceGraphic" in2="blurOut"></feBlend></filter></defs>
+     <path class="st0" d="m48.7 0c-2 0-4 0.1-6 0.4v56h12v-43.9c17.4 2.9 30.7 18.1 30.7 36.3 0 20.3-16.5 36.8-36.7 36.8s-36.7-16.5-36.7-36.8c0-13.8 7.6-25.8 18.7-32.1v-13.2c-18 7.2-30.7 24.8-30.7 45.3 0 26.9 21.9 48.8 48.7 48.8s48.7-21.9 48.7-48.8-21.8-48.8-48.7-48.8z" filter="url(#a)"></path> <path class="st0" d="m142.1 6c8.3 0 13.5 4 16.6 8.8l-7.1 3.8c-1.9-2.8-5.3-5-9.5-5-7.3 0-12.5 5.6-12.5 13.1s5.3 13.1 12.5 13.1c3.7 0 6.9-1.5 8.6-3.1v-4.7h-10.7v-7.3h19.1v15.3c-4.1 4.6-9.8 7.6-17 7.6-11.7 0-21.3-8.2-21.3-20.8 0-12.7 9.6-20.8 21.3-20.8z" filter="url(#a)"></path> <path class="st0" d="M174.2,6.7h28.3V14h-19.8v8.7h19.4V30h-19.4v9.3h19.8v7.4h-28.3V6.7z" filter="url(#a)"></path> <path class="st0" d="M226.1,19.8v26.9h-8.5v-40h8.8l18.5,25.9V6.7h8.5v40h-8.2L226.1,19.8z" filter="url(#a)"></path> <path class="st0" d="M269.4,6.7h28.3V14h-19.8v8.7h19.4V30h-19.4v9.3h19.8v7.4h-28.3V6.7z" filter="url(#a)"></path> <path class="st0" d="m314.4 34.6c2.8 2.9 7.2 5.4 12.7 5.4 4.7 0 7-2.2 7-4.5 0-3-3.5-4-8.1-5.1-6.5-1.5-14.9-3.3-14.9-12.2 0-6.7 5.8-12.1 15.2-12.1 6.4 0 11.6 1.9 15.6 5.6l-4.7 6.2c-3.2-3-7.6-4.4-11.5-4.4-3.8 0-5.9 1.7-5.9 4.1 0 2.7 3.4 3.5 8 4.6 6.6 1.5 15 3.5 15 12.4 0 7.3-5.2 12.8-16 12.8-7.7 0-13.2-2.6-16.9-6.4l4.5-6.4z" filter="url(#a)"></path> <path class="st0" d="m356.5 6.7h8.5v40h-8.5v-40z" filter="url(#a)"></path> <path class="st0" d="m381.5 34.6c2.8 2.9 7.2 5.4 12.7 5.4 4.7 0 7-2.2 7-4.5 0-3-3.5-4-8.1-5.1-6.5-1.5-14.9-3.3-14.9-12.2 0-6.7 5.8-12.1 15.2-12.1 6.4 0 11.6 1.9 15.6 5.6l-4.7 6.2c-3.2-3-7.6-4.4-11.5-4.4-3.8 0-5.9 1.7-5.9 4.1 0 2.7 3.4 3.5 8 4.6 6.6 1.5 15 3.5 15 12.4 0 7.3-5.2 12.8-16 12.8-7.7 0-13.2-2.6-16.9-6.4l4.5-6.4z" filter="url(#a)"></path> <path class="st0" d="m144.7 82.5h-17l-3.2 7.9h-3.1l13.1-32h3.4l13.1 32h-3.1l-3.2-7.9zm-16.1-2.5h15.3l-7.7-19-7.6 19z" filter="url(#a)"></path> <path class="st0" d="m167.3 58.3h10.2c9.9 0 16.2 7.2 16.2 16 0 8.9-6.2 16-16.2 16h-10.2v-32zm10.3 29.5c8.4 0 13.3-6 13.3-13.5s-4.8-13.5-13.3-13.5h-7.5v27h7.5z" filter="url(#a)"></path> <path class="st0" d="m229.4 82.5h-17l-3.2 7.9h-3.1l13.1-32h3.4l13.1 32h-3.1l-3.2-7.9zm-16.2-2.5h15.3l-7.7-19-7.6 19z" filter="url(#a)"></path> <path class="st0" d="m251 58.3h12c6.1 0 9.6 4.3 9.6 9.4 0 5-3.6 9.4-9.6 9.4h-9.3v13.3h-2.7v-32.1zm11.7 2.5h-9v13.7h9c4.2 0 7.1-2.8 7.1-6.9s-2.8-6.8-7.1-6.8z" filter="url(#a)"></path> <path class="st0" d="M295.9,60.8h-10.5v-2.5h23.7v2.5h-10.5v29.5h-2.8V60.8z" filter="url(#a)"></path> <path class="st0" d="m324.9 58.3h2.7v32h-2.7v-32z" filter="url(#a)"></path> <path class="st0" d="m342.9 58.3h3.2l11.6 28.9 11.7-28.9h3.2l-13.1 32h-3.5l-13.1-32z" filter="url(#a)"></path> <path class="st0" d="M386.9,58.3h20.3v2.5h-17.6v11.9h17.2v2.5h-17.2v12.7h17.6v2.5h-20.3V58.3z" filter="url(#a)"></path>
+     </svg>
+     </a>
+
+     <!-- Hamburger Button -->
+     <div id="js-menu-button" class="c-nav__menu-button hidden-lg hidden-xl"><i class="c-nav__menu-icon icon-navicon"></i></div>
+
+     <!-- Main Navigation -->
+     <nav class="c-nav__list-wrapper">
+     <ul class="c-nav__list">
+
+
+     <!-- HOSTING -->
+     <li class="c-nav__list-item js-main-link">
+     <a href="https://www.genesisadaptive.com/hosting">Hosting</a>
+
+     <!-- Hosting Dropdown -->
+     <div class="c-nav-dropdown -hosting">
+
+     <!-- Main Column  (Hosting Dropdown) -->
+     <ul class="c-nav-dropdown__main-col">
+
+
+     <!-- Dedicated Servers -->
+     <li class="c-nav-dropdown__link-wrapper">
+
+     <!-- Link -->
+     <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers">
+     <i class="icon-server"></i>
+     <span class="-ml-15"> Dedicated Servers</span>
+     <i class="icon-angle-right"></i>
+     </a>
+
+     <!-- Secondary Nav -->
+     <ul class="c-nav-dropdown__secondary-links">
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers">Overview<i class="icon-angle-right"></i></a></li>
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers#server-recommendations">Server Recommendations<i class="icon-angle-right"></i></a></li>
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers#included-with">What’s Included?<i class="icon-angle-right"></i></a></li>
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers#hardware-upgrades">Hardware Upgrades<i class="icon-angle-right"></i></a></li>
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers#customizable-options">Customizable Options<i class="icon-angle-right"></i></a></li>
+     <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/dedicated-servers#featured-servers"><strong>Browse Featured Servers</strong><i class="icon-angle-right"></i></a></li>
+    </ul>
+    </li><!-- END Dedicated Servers (.c-nav-dropdown__link-wrapper) -->
+
+
+    <!-- Cloud Servers -->
+    <li class="c-nav-dropdown__link-wrapper">
+
+      <!-- Link -->
+      <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers">
+        <i class="icon-cloud"></i>
+        <span class="-ml-15"> Cloud Servers</span>
+        <i class="icon-angle-right"></i>
+      </a>
+
+      <!-- Secondary Nav -->
+      <ul class="c-nav-dropdown__secondary-links">
+        <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers">Overview<i class="icon-angle-right"></i></a></li>
+        <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers#cloud-builder">Build a Custom Cloud Server<i class="icon-angle-right"></i></a></li>
+        <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers#included-with">What’s Included?<i class="icon-angle-right"></i></a></li>
+        <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers#benefits">Cloud Server Benefits<i class="icon-angle-right"></i></a></li>
+        <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/cloud-servers#featured-servers"><strong>Browse Featured Cloud Servers</strong><i class="icon-angle-right"></i></a></li>
+      </ul>
+    </li><!-- END Cloud Servers (.c-nav-dropdown__link-wrapper) -->
+
+
+    <!-- Hybrid Cloud Servers -->
+    <li class="c-nav-dropdown__link-wrapper">
+
+      <!-- Link -->
+      <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/hybrid-cloud">
+        <i class="icon-hybrid-cloud"></i>
+        <span class="-ml-15"> Hybrid Cloud</span>
+        <i class="icon-angle-right"></i>
+      </a>
+
+      <!-- CTA -->
+      <div class="c-nav-dropdown__cta-wrapper">
+        <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/hybrid-cloud">
+          <i class="c-nav-dropdown__cta-icon icon-hybrid-cloud"></i>
+          <h2 class="c-nav-dropdown__cta-heading">Hybrid Cloud Servers</h2>
+          <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+        </a>
+      </div>
+    </li><!-- END Hybrid Cloud Servers (.c-nav-dropdown__link-wrapper) -->
+
+
+    <!-- Colocation -->
+    <li class="c-nav-dropdown__link-wrapper">
+
+      <!-- Link -->
+      <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/colocation">
+        <i class="icon-colo"></i>
+        <span class="-ml-15">Colocation</span>
+        <i class="icon-angle-right"></i>
+      </a>
+
+      <!-- CTA -->
+      <div class="c-nav-dropdown__cta-wrapper">
+        <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/colocation">
+          <i class="c-nav-dropdown__cta-icon icon-colo"></i>
+          <h2 class="c-nav-dropdown__cta-heading">Colocation</h2>
+          <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+        </a>
+      </div>
+    </li><!-- END Colocation (.c-nav-dropdown__link-wrapper) -->
+    </ul><!-- END Hosting Dropdown Servers – Main List (.c-nav-dropdown__main-col) -->
+
+
+    <!-- Graphic Column (Hosting Dropdown) -->
+    <div class="c-nav-dropdown__graphic-col">
+      <h2>Hosting</h2>
+      <p>with Genesis Adaptive</p>
+      <a href="https://www.genesisadaptive.com/hosting" class="c-nav-dropdown__cta-button">Overview <i class="icon-angle-right -nudge-d-2"></i></a>
+    </div>
+
+    </div><!-- END Hosting Dropdown (.c-nav-dropdown) -->
+    </li><!-- END Hosting Dropdown (.c-nav__list-item) -->
+
+
+    <!-- CONSULTING -->
+    <li class="c-nav__list-item js-main-link">
+      <a href="https://www.genesisadaptive.com/consulting">Consulting</a>
+
+      <!-- Consulting Dropdown -->
+      <div class="c-nav-dropdown -consulting">
+
+        <!-- Main Column (Consulting Dropdown) -->
+        <ul class="c-nav-dropdown__main-col">
+
+
+          <!-- Infrastructure Consulting -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/consulting#infrastructure">
+              <i class="icon-infra"></i>
+              <span class="-ml-15"> Infrastructure Consulting</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/consulting#infrastructure">
+                <i class="c-nav-dropdown__cta-icon icon-infra"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Infrastructure Consulting</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Infrastructure Consulting (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Storage Consulting -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/consulting#storage">
+              <i class="icon-th"></i>
+              <span class="-ml-15"> Storage Consulting</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/consulting#storage">
+                <i class="c-nav-dropdown__cta-icon icon-th"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Storage Consulting</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Storage Consulting (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Microsoft Consulting -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/consulting#microsoft">
+              <i class="icon-windows"></i>
+              <span class="-ml-15"> Microsoft Consulting</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/consulting#microsoft">
+                <i class="c-nav-dropdown__cta-icon icon-windows"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Microsoft Consulting</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Microsoft Consulting (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Educational Consulting -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/consulting#educational">
+              <i class="icon-grad"></i>
+              <span class="-ml-15"> Educational Consulting</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/consulting#educational">
+                <i class="c-nav-dropdown__cta-icon icon-grad"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Educational Consulting</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Educational Consulting (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Security Consulting -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/consulting#security">
+              <i class="icon-lock"></i>
+              <span class="-ml-15"> Security Consulting</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/consulting#security">
+                <i class="c-nav-dropdown__cta-icon icon-lock"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Security Consulting</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Security Consulting (.c-nav-dropdown__link-wrapper) -->
+
+
+        </ul><!-- END Main Column (Consulting Dropdown) (.c-nav-dropdown__main-col) -->
+
+
+        <!-- Graphic Column (Consulting Dropdown) -->
+        <div class="c-nav-dropdown__graphic-col">
+          <h2>Consulting</h2>
+          <p>with Genesis Adaptive</p>
+          <a href="https://www.genesisadaptive.com/consulting" class="c-nav-dropdown__cta-button">Overview <i class="icon-angle-right -nudge-d-2"></i></a>
+        </div>
+
+      </div><!-- END Consulting Dropdown (.c-nav-dropdown) -->
+    </li><!-- END Consulting Dropdown (.c-nav__list-item) -->
+
+
+    <!-- SERVICES -->
+    <li class="c-nav__list-item js-main-link">
+      <a href="https://www.genesisadaptive.com/managed-services">Services</a>
+
+      <!-- Services Dropdown -->
+      <div class="c-nav-dropdown -services">
+
+        <!-- Main Column (Services Dropdown) -->
+        <ul class="c-nav-dropdown__main-col">
+
+
+          <!-- Systems Monitoring -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#systems-monitoring">
+              <i class="icon-tachometer"></i>
+              <span class="-ml-15">Systems Monitoring</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#systems-monitoring">
+                <i class="c-nav-dropdown__cta-icon icon-tachometer"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Systems Monitoring</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Systems Monitoring (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Disaster Recovery -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#disaster-recovery">
+              <i class="icon-medkit"></i>
+              <span class="-ml-15">Disaster Recovery</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#disaster-recovery">
+                <i class="c-nav-dropdown__cta-icon icon-medkit"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Disaster Recovery</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Disaster Recovery (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Systems Backup -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#systems-backup">
+              <i class="icon-backup"></i>
+              <span class="-ml-15">Systems Backup</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- Secondary Nav -->
+            <ul class="c-nav-dropdown__secondary-links">
+              <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#systems-backup">Acronis Backups<i class="icon-angle-right"></i></a></li>
+              <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#systems-backup">R1Soft Backups<i class="icon-angle-right"></i></a></li>
+              <li><a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/veeam-cloud">Veeam Cloud Backups<i class="icon-angle-right"></i></a></li>
+            </ul>
+          </li><!-- END Systems Backup (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Windows Anti-Virus -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#windows-anti-virus">
+              <i class="icon-shield"></i>
+              <span class="-ml-15">Windows Anti-Virus</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#windows-anti-virus">
+                <i class="c-nav-dropdown__cta-icon icon-shield"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Windows Anti-Virus</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Windows Anti-Virus (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Managed Security -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#managed-security">
+              <i class="icon-lock"></i>
+              <span class="-ml-15">Managed Security</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#managed-security">
+                <i class="c-nav-dropdown__cta-icon icon-lock"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Managed Security</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Managed Security (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- IP Transit -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/ip-transit">
+              <i class="icon-ip-transit"></i>
+              <span class="-ml-15">IP Transit</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/ip-transit">
+                <i class="c-nav-dropdown__cta-icon icon-ip-transit"></i>
+                <h2 class="c-nav-dropdown__cta-heading">IP Transit</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END IP Transit (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Load Balancing -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#load-balancing">
+              <i class="icon-line-chart"></i>
+              <span class="-ml-15">Load Balancing</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#load-balancing">
+                <i class="c-nav-dropdown__cta-icon icon-line-chart"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Load Balancing</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- Load Balancing (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Network Support -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#network-support">
+              <i class="icon-network"></i>
+              <span class="-ml-15">Network Support</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#network-support">
+                <i class="c-nav-dropdown__cta-icon icon-network"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Network Support</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- Network Support (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- System Administration -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/managed-services#system-administration">
+              <i class="icon-tasks"></i>
+              <span class="-ml-15">System Administration</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/managed-services#system-administration">
+                <i class="c-nav-dropdown__cta-icon icon-tasks"></i>
+                <h2 class="c-nav-dropdown__cta-heading">System Administration</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- System Administration (.c-nav-dropdown__link-wrapper) -->
+        </ul><!-- END Main Column (Services Dropdown) (.c-nav-dropdown__main-col) -->
+
+
+        <!-- Graphic Column (Services Dropdown) -->
+        <div class="c-nav-dropdown__graphic-col">
+          <h2>Services</h2>
+          <p>managed by Genesis Adaptive</p>
+          <a href="https://www.genesisadaptive.com/managed-services" class="c-nav-dropdown__cta-button">Overview <i class="icon-angle-right -nudge-d-2"></i></a>
+        </div>
+
+      </div><!-- END Services Dropdown (.c-nav-dropdown) -->
+    </li><!-- END Services Dropdown (.c-nav__list-item) -->
+
+
+    <!-- ADAPTIVE SUPPORT -->
+    <li class="c-nav__list-item js-main-link"><a href="https://www.genesisadaptive.com/adaptive-support">Adaptive Support</a></li>
+
+
+    <!-- INFRASTRUCTURE -->
+    <li class="c-nav__list-item js-main-link">
+      <a href="https://www.genesisadaptive.com/infrastructure">Infrastructure</a>
+
+      <!-- Infrastructure Dropdown -->
+      <div class="c-nav-dropdown -infrastructure">
+
+        <!-- Main Column (Infrastructure Dropdown) -->
+        <ul class="c-nav-dropdown__main-col">
+
+
+          <!-- Chicago -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/infrastructure/chicago">
+              <i class="icon-map-marker"></i>
+              <span class="-ml-15">Chicago</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper -location -chicago">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/infrastructure/chicago">
+                <i class="c-nav-dropdown__cta-icon icon-map-marker"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Chicago</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Chicago (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Atlanta -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/infrastructure/atlanta">
+              <i class="icon-map-marker"></i>
+              <span class="-ml-15">Atlanta</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper -location -atlanta">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/infrastructure/atlanta">
+                <i class="c-nav-dropdown__cta-icon icon-map-marker"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Atlanta</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Atlanta (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Miami -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/infrastructure/miami">
+              <i class="icon-map-marker"></i>
+              <span class="-ml-15">Miami</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper -location -miami">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/infrastructure/miami">
+                <i class="c-nav-dropdown__cta-icon icon-map-marker"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Miami</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Miami (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Los Angeles -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/infrastructure/los-angeles">
+              <i class="icon-map-marker"></i>
+              <span class="-ml-15">Los Angeles</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper -location -los-angeles">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/infrastructure/los-angeles">
+                <i class="c-nav-dropdown__cta-icon icon-map-marker"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Los Angeles</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Los Angeles (.c-nav-dropdown__link-wrapper) -->
+
+
+          <!-- Bucharest -->
+          <li class="c-nav-dropdown__link-wrapper">
+
+            <!-- Link -->
+            <a class="c-nav-dropdown__link" href="https://www.genesisadaptive.com/infrastructure/bucharest">
+              <i class="icon-map-marker"></i>
+              <span class="-ml-15">Bucharest</span>
+              <i class="icon-angle-right"></i>
+            </a>
+
+            <!-- CTA -->
+            <div class="c-nav-dropdown__cta-wrapper -location -bucharest">
+              <a class="c-nav-dropdown__cta" href="https://www.genesisadaptive.com/infrastructure/bucharest">
+                <i class="c-nav-dropdown__cta-icon icon-map-marker"></i>
+                <h2 class="c-nav-dropdown__cta-heading">Bucharest</h2>
+                <div class="c-nav-dropdown__cta-button">Learn More <i class="icon-angle-right -nudge-d-1"></i></div>
+              </a>
+            </div>
+          </li><!-- END Bucharest (.c-nav-dropdown__link-wrapper) -->
+        </ul><!-- END Main Column (Infrastructure Dropdown) (.c-nav-dropdown__main-col) -->
+
+
+        <!-- Graphic Column (Infrastructure Dropdown) -->
+        <div class="c-nav-dropdown__graphic-col">
+          <h2>Infrastructure</h2>
+          <p>Genesis Adaptive Data Centers</p>
+        </div>
+
+      </div><!-- END Infrastructure Dropdown (.c-nav-dropdown) -->
+    </li><!-- END Infrastructure Dropdown (.c-nav__list-item) -->
+
+
+    <!-- ABOUT -->
+    <li class="c-nav__list-item js-main-link"><a href="https://www.genesisadaptive.com/about">About</a></li>
+
+    </ul><!-- END .c-nav__list -->
+    </nav><!-- END Nav (.c-nav__list-wrapper) -->
+
+
+    </div><!-- END .cos-xs-12 -->
+    </div><!-- END .row -->
+    </div><!-- END .container -->
+    </div>
+    <div class="s-vh-adjust"><!-- Viewport Height Adjustment -->
+    <h1 class="t-section-heading -ta-center -mt-60 -mb-25">Genesis Adaptive - Looking Glass</h1>
+
+    <div class="header_bar" style="display: none;"><h1></h1><br></div><div class="container"><div class="col-12 alert alert-danger alert-dismissable" id="error"><button type="button" class="close" aria-hidden="true">&times;</button><strong>Error!</strong>&nbsp;<span id="error-text"></span></div></div><div class="container" id="command_options"><form role="form" action="execute.php" method="post" class="row"><div class="c-form__group col-lg-3"><label for="routers"><strong>Router</strong></label><select size="1" class="c-form__control -select--large" name="routers" id="routers"><option value="router1" selected="selected">Chicago, IL, USA (ORD)</option><option value="router2">Atlanta, GA, USA (ATL)</option><option value="router3">Los Angeles, CA, USA (LAX)</option></select></div><div class="c-form__group col-lg-3 -mt-20-md-max"><label for="query"><strong>Command</strong></label><select size="1" class="c-form__control -select--large" name="query" id="query"><option value="bgp" selected="selected">show route</option><option value="ping">ping</option><option value="traceroute">traceroute</option></select></div><div class="c-form__group col-lg-3 -mt-20-md-max"><label for="input-param"><strong>Parameter</strong></label><div class="input-group"><input class="c-form__control" name="parameter" id="input-param" autofocus /></div></div><div class="confirm btn-group"><div class="col-md-12 -mt-20-md-max btn-group"><button class="c-btn--aqua -medium -always-inline -mr-5" id="send" type="submit">Enter</button><button class="c-btn--border -medium -always-inline" id="clear" type="reset">Reset</button></div></div><input type="text" class="d-none" name="dontlook" placeholder="Don't look at me!" /></form></div><div class="loading"><div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div><div class="container"><div class="result o-card -p-30 -mt-30 t-body"><div id="output"></div></div></div><div class="footer_bar container"><p class="t-body -ta-center -mt-30"><strong>Your IP address:</strong> 164.70.99.9<br></p></div></div></div>    </div> <!-- END Viewport Height Adjustment .s-vh-adjust -->
+
+    <!-- Footer -->
+    <footer class="c-footer -mt-45">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="c-footer__wrap">
+
+              <!-- Hosting -->
+              <ul>
+                <li><a href="https://www.genesisadaptive.com/hosting"><strong>Hosting</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/dedicated-servers">Dedicated Servers</a></li>
+                <li><a href="https://www.genesisadaptive.com/cloud-servers">Cloud Servers</a></li>
+                <li><a href="https://www.genesisadaptive.com/hybrid-cloud">Hybrid Cloud Servers</a></li>
+                <li><a href="https://www.genesisadaptive.com/colocation">Infrastructure Colocation</a></li>
+              </ul>
+
+              <!-- Consulting -->
+              <ul>
+                <li><a href="https://www.genesisadaptive.com/consulting"><strong>IT Consulting</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/consulting#infrastructure">Infrastructure Consulting</a></li>
+                <li><a href="https://www.genesisadaptive.com/consulting#storage">Storage Consulting</a></li>
+                <li><a href="https://www.genesisadaptive.com/consulting#microsoft">Microsoft Consulting</a></li>
+                <li><a href="https://www.genesisadaptive.com/consulting#educational">Educational Consulting</a></li>
+                <li><a href="https://www.genesisadaptive.com/consulting#security">Security Consulting</a></li>
+              </ul>
+
+              <!-- Managed Services -->
+              <ul>
+                <li><a href="https://www.genesisadaptive.com/managed-services"><strong>Managed Services</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#systems-monitoring">Systems Monitoring</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#disaster-recovery">Disaster Recovery</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#systems-backup">Systems Backup</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#windows-anti-virus">Windows Anti-Virus</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#managed-security">Managed Security</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#ip-transit">IP Transit</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#load-balancing">Load Balancing</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#network-support">Network Support</a></li>
+                <li><a href="https://www.genesisadaptive.com/managed-services#system-administration">System Administration</a></li>
+              </ul>
+
+              <!-- Infrastructure -->
+              <ul>
+                <li><a href="https://www.genesisadaptive.com/infrastructure"><strong>Infrastructure</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/infrastructure/chicago">Chicago</a></li>
+                <li><a href="https://www.genesisadaptive.com/infrastructure/atlanta">Atlanta</a></li>
+                <li><a href="https://www.genesisadaptive.com/infrastructure/miami">Miami</a></li>
+                <li><a href="https://www.genesisadaptive.com/infrastructure/los-angeles">Los Angeles</a></li>
+                <li><a href="https://www.genesisadaptive.com/infrastructure/bucharest">Bucharest</a></li>
+              </ul>
+
+              <!-- Contact and Support-->
+              <div>
+                <ul class="-mb-20-md-max">
+                  <li><a href="https://www.genesisadaptive.com/contact-home"><strong>Contact</strong></a></li>
+                  <li><a href="https://www.genesisadaptive.com/contact-home">Message Us</a></li>
+                  <li><a href="javascript:void(0)" class="c-chat-cta">Chat Now</a></li>
+                  <li><a href="https://www.genesisadaptive.com/contact/quote">Get a Quote</a></li>
+                </ul>
+
+                <ul>
+                  <li class="-mt-10"><a href="https://www.genesisadaptive.com/portal/support-tickets"><strong>Support</strong></a></li>
+                  <li><a href="https://www.genesisadaptive.com/portal/submit-ticket">New Ticket</a></li>
+                  <li><a href="https://www.genesisadaptive.com/adaptive-support">Adaptive Support</a></li>
+                </ul>
+              </div>
+
+              <!-- Legal -->
+              <ul>
+                <li><a href="javascript:void(0)"><strong>Legal</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/terms">Terms of Service</a></li>
+                <li><a href="https://www.genesisadaptive.com/aup">Acceptable Use</a></li>
+                <li><a href="https://www.genesisadaptive.com/privacy-policy">Privacy </a></li>
+                <li><a href="https://www.genesisadaptive.com/dmca">DMCA </a></li>
+                <li><a href="https://www.genesisadaptive.com/sla">SLA</a></li>
+              </ul>
+
+              <!-- About -->
+              <ul>
+                <li><a href="https://www.genesisadaptive.com/about"><strong>About</strong></a></li>
+                <li><a href="https://www.genesisadaptive.com/about#story">Our Story</a></li>
+                <li><a href="https://www.genesisadaptive.com/about#leadership">Our Leadership</a></li>
+                <li><a href="https://www.genesisadaptive.com/about#customers">Our Customers</a></li>
+                <li><a href="https://www.genesisadaptive.com/about#partners">Our Partners</a></li>
+                <li class="-mt-20-md-max -mt-10"><a href="https://www.genesisadaptive.com/blog"><strong>Blog</strong></a></li>
+              </ul>
+            </div><!-- END .c-footer__main-wrap -->
+
+            <!-- Copyright and Phone -->
+            <div class="c-footer__wrap -secondary">
+              <p class="c-footer__copyright">©2006 - 2020 Genesis Adaptive Hosting, Inc.</p>
+              <a href="tel:1-866-829-8228"><i class="icon-phone-2 -nudge-d-1 -fz-90per"></i> 1-866-829-8228</a>
+            </div>
+          </div><!-- END .col-12 -->
+        </div>
+      </div><!-- END Container-->
+      </footer>
+
+    </body><script src="libs/jquery-3.4.1.min.js"></script><script src="libs/bootstrap-4.3.1/js/bootstrap.min.js"></script><script src="libs/fontawesome-5.11.2/js/all.min.js"></script><script src="js/looking-glass.js"></script><script src="https://www.genesisadaptive.com/js/src/global.js"></script></html>

@@ -1,0 +1,110 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Ikoula LookingGlass - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link href="assets/css/ikoula.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="muheader">
+<a href="https://www.ikoula.com" title="IKOULA"><img src="https://www.ikoula.com/sites/default/files/images/logo_ikoula_blanc.png" alt="IKOULA" width="auto" height="60"></a>
+<a href="https://www.ikoula.com" title="IKOULA" class="mubtn">Rejoindre IKOULA</a>
+<ul class="sitelg">
+<li>LookingGlass :</li>
+<li><a href="http://lg.ikdc1.ikoula.com/">IKDC1</a></li>
+<li><a href="http://lg.ikdc2.ikoula.com/">IKDC2</a></li>
+<li><a href="http://lg.nl.ikoula.com/">NL</a></li>
+<li><a href="http://lg.de.ikoula.com/">DE</a></li>
+<li><a href="http://lg.sg.ikoula.com/">SG</a></li>
+<li><a href="http://lg.miami2.ikoula.com/">MIAMI2</a></li>
+</ul>
+</div>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12"><div id="lang"><a href="?lang=fr"><img src="img/fr.png"></a>&nbsp;<a href="?lang=en"><img src="img/en.png"></a></div>
+
+    <h1><a id="title" href="/">Ikoula LookingGlass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+	    <div class="well">
+<img src="https://www.ikoula.com/sites/default/files/images/ndsik.png" style="float:right;width:240px">
+              <span id="legend">Information R¨¦seau</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Localisation du Serveur : <b>ikdc1</b></p>
+              <div style="margin-left: 10px;">
+		<ul>
+			<li>Test IPv4 : <b>178.170.68.42</b></li>
+                	<li>Test IPv6 : 2a00:c70:1:178:170:68:42:1</li>                	<li>Fichier de test : <b><a href="100MB.test" id="testfile">100MB</a></b></li>
+		</ul>
+              </div>
+              <p>Votre adresse IP : <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend" style="color:white">Tests R¨¦seau</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="H

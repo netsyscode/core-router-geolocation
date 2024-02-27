@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#" class="loading-site no-js">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://sharktech.net/xmlrpc.php" />
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<link rel="alternate" hreflang="zh-hans" href="https://zh-prod.sharktech.net/looking-glass/" />
+<link rel="alternate" hreflang="en" href="https://sharktech.net/looking-glass/" />
+<link rel="alternate" hreflang="x-default" href="https://sharktech.net/looking-glass/" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Looking Glass Speed Test | Sharktech</title>
+<meta name="description" content="See our connectivity speed test from Sharktech! Our looking glass tells your the rate of our download speed from Sharktech servers."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://sharktech.net/looking-glass/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Looking Glass Speed Test | Sharktech" />
+<meta property="og:description" content="See our connectivity speed test from Sharktech! Our looking glass tells your the rate of our download speed from Sharktech servers." />
+<meta property="og:url" content="https://sharktech.net/looking-glass/" />
+<meta property="og:site_name" content="Sharktech" />
+<meta property="article:author" content="https://www.facebook.com/ttimrawi" />
+<meta property="og:updated_time" content="2023-12-07T17:05:29-08:00" />
+<meta property="og:image" content="https://sharktech.net/wp-content/uploads/2023/06/sharktech-featured-image.jpg" />
+<meta property="og:image:secure_url" content="https://sharktech.net/wp-content/uploads/2023/06/sharktech-featured-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="sharktech-featured-image" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Looking Glass Speed Test | Sharktech" />
+<meta name="twitter:description" content="See our connectivity speed test from Sharktech! Our looking glass tells your the rate of our download speed from Sharktech servers." />
+<meta name="twitter:creator" content="@TimrawiTim" />
+<meta name="twitter:image" content="https://sharktech.net/wp-content/uploads/2023/06/sharktech-featured-image.jpg" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="1 minute" />
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//la.sharktech.net' />
+<link rel='dns-prefetch' href='//sharktech.net' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel='prefetch' href='https://sharktech.net/wp-content/themes/cloud-hosting/assets/js/chunk.countup.js?ver=3.16.7' />
+<link rel='prefetch' href='https://sharktech.net/wp-content/themes/cloud-hosting/assets/js/chunk.sticky-sidebar.js?ver=3.16.7' />
+<link rel='prefetch' href='https://sharktech.net/wp-content/themes/cloud-hosting/assets/js/chunk.tooltips.js?ver=3.16.7' />
+<link rel='prefetch' href='https://sharktech.net/wp-content/themes/cloud-hosting/assets/js/chunk.vendors-popups.js?ver=3.16.7' />
+<link rel='prefetch' href='https://sharktech.net/wp-content/themes/cloud-hosting/assets/js/chunk.vendors-slider.js?ver=3.16.7' />
+<link rel="alternate" type="application/rss+xml" title="Sharktech &raquo; Feed" href="https://sharktech.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sharktech &raquo; Comments Feed" href="https://sharktech.net/comments/feed/" />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://la.sharktech.net/wp-includes/css/dashicons.min.css?ver=6.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css' href='https://la.sharktech.net/wp-content/themes/cloud-hosting/assets/css/flatsome.css?ver=3.16.7' type='text/css' media='all' />
+<style id='flatsome-main-inline-css' type='text/css'>
+@font-face {
+				font-family: "fl-icons";
+				font-display: block;
+				src: url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.eot?v=3.16.7);
+				src:
+					url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.eot#iefix?v=3.16.7) format("embedded-opentype"),
+					url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.woff2?v=3.16.7) format("woff2"),
+					url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.ttf?v=3.16.7) format("truetype"),
+					url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.woff?v=3.16.7) format("woff"),
+					url(https://sharktech.net/wp-content/themes/cloud-hosting/assets/css/icons/fl-icons.svg?v=3.16.7#fl-icons) format("svg");
+			}
+</style>
+<link rel='stylesheet' id='flatsome-style-css' href='https://la.sharktech.net/wp-content/themes/cloud-hosting-child/style.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css' href='//fonts.googleapis.com/css?family=Mulish%3Aregular%2C800%2C500%2C800%2C200&#038;display=auto&#038;ver=3.9' type='text/css' media='all' />
+<script type="text/javascript" id="wpml-cookie-js-extra">
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.8" id="wpml-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-NT99PWC0S0" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["sharktech.net"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-NT99PWC0S0");
+/* ]]> */
+</script>
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" id="wpml-xdomain-data-js-extra">
+/* <![CDATA[ */
+var wpml_xdomain_data = {"css_selector":"wpml-ls-item","ajax_url":"https:\/\/sharktech.net\/wp-admin\/admin-ajax.php","current_lang":"en","_nonce":"3deafe2eaf"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js?ver=4.6.8" id="wpml-xdomain-data-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://la.sharktech.net/wp-json/" /><link rel="alternate" type="application/json" href="https://la.sharktech.net/wp-json/wp/v2/pages/43" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sharktech.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.2" />
+<link rel='shortlink' href='https://sharktech.net/?p=43' />
+<link rel="alternate" type="application/json+oembed" href="https://la.sharktech.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsharktech.net%2Flooking-glass%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://la.sharktech.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsharktech.net%2Flooking-glass%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.8 stt:59,1;" />
+<meta name="generator" content="Site Kit by Google 1.115.0" /><script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=6c429d01"></script>
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script type="text/javascript">
+/* <![CDATA[ */
+
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-WHGG5SM' );
+			
+/* ]]> */
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+			<style id="wpsp-style-frontend"></style>
+			<link rel="icon" href="https://sharktech.net/wp-content/uploads/2023/03/cropped-sharktech-siteicon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://sharktech.net/wp-content/uploads/2023/03/cropped-sharktech-siteicon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sharktech.net/wp-content/uploads/2023/03/cropped-sharktech-siteicon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://sharktech.net/wp-content/uploads/2023/03/cropped-sharktech-siteicon-270x270.jpg" />
+<style id="custom-css" type="text/css">:root {--primary-color: #006abc;}.container-width, .full-width .ubermenu-nav, .container, .row{max-width: 1330px}.row.row-collapse{max-width: 1300px}.row.row-small{max-width: 1322.5px}.row.row-large{max-width: 1360px}.header-main{height: 100px}#logo img{max-height: 100px}#logo{width:196px;}.header-bottom{min-height: 100px}.header-top{min-height: 84px}.transparent .header-main{height: 100px}.transparent #logo img{max-height: 100px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 100px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bg-color {background-color: #009bfe}.header-bottom {background-color: #009bfe}.top-bar-nav > li > a{line-height: 16px }.header-main .nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{border-radius:5px}.nav-dropdown{font-size:100%}.header-top{background-color:#000000!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #006abc;}/* Color !important */[data-text-color="primary"]{color: #006abc!important;}/* Background Color */[data-text-bg="primary"]{background-color: #006abc;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .header-vertical-menu__opener ,.is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #006abc;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #006abc}.nav-tabs > li.active > a{border-top-color: #006abc}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #006abc }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #006abc }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #006abc;}/* Focus */.primary:focus-visible, .submit-button:focus-visible, button[type="submit"]:focus-visible { outline-color: #006abc!important; }/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#009bfe; }[data-text-bg="secondary"]{background-color: #009bfe;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #009bfe}/* Color !important */[data-text-color="secondary"]{color: #009bfe!important;}/* Border */.secondary.is-outline:hover{border-color:#009bfe}/* Focus */.secondary:focus-visible, .alt:focus-visible { outline-color: #009bfe!important; }.success.is-underline:hover,.success.is-outline:hover,.success{background-color: #6716cd}.success-color, .success.is-link, .success.is-outline{color: #6716cd;}.success-border{border-color: #6716cd!important;}/* Color !important */[data-text-color="success"]{color: #6716cd!important;}/* Background Color */[data-text-bg="success"]{background-color: #6716cd;}body{color: #262626}h1,h2,h3,h4,h5,h6,.heading-font{color: #1c1c1c;}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 110%;}}body{font-family: Mulish, sans-serif;}body {font-weight: 500;font-style: normal;}.nav > li > a {font-family: Mulish, sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family: Mulish, sans-serif;}.nav > li > a,.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 800;font-style: normal;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: Mulish, sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2 {font-weight: 800;font-style: normal;}.alt-font{font-family: Mulish, sans-serif;}.alt-font {font-weight: 200!important;font-style: normal!important;}.header:not(.transparent) .top-bar-nav > li > a {color: #0a0a0a;}.header:not(.transparent) .top-bar-nav.nav > li > a:hover,.header:not(.transparent) .top-bar-nav.nav > li.active > a,.header:not(.transparent) .top-bar-nav.nav > li.current > a,.header:not(.transparent) .top-bar-nav.nav > li > a.active,.header:not(.transparent) .top-bar-nav.nav > li > a.current{color: #0a0a0a;}.top-bar-nav.nav-line-bottom > li > a:before,.top-bar-nav.nav-line-grow > li > a:before,.top-bar-nav.nav-line > li > a:before,.top-bar-nav.nav-box > li > a:hover,.top-bar-nav.nav-box > li.active > a,.top-bar-nav.nav-pills > li > a:hover,.top-bar-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #0a0a0a;}.header:not(.transparent) .header-nav-main.nav > li > a {color: #ffffff;}a{color: #006abc;}.absolute-footer, html{background-color: #006abc}.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
+			.computing body {
+   background-color: #000;
+}
+.computing svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.computing .path {
+  animation: draw 6.5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes draw {
+  0% {
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+.ygrad {
+	background-image: linear-gradient(to right bottom, rgba(26, 66, 243, 0.95), rgba(58, 59, 247, 0.95), rgba(81, 49, 251, 0.95), rgba(101, 34, 253, 0.95), rgba(120, 0, 255, 0.95))
+,url('https://sharktech.net/wp-content/uploads/2023/08/circuit-board.jpg');background-size: cover;border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+.ygrad:hover {
+	background-image: linear-gradient(to right bottom, rgba(17, 44, 155, 0.95), rgba(38, 39, 159, 0.95), rgba(56, 36, 163, 0.95), rgba(72, 30, 165, 0.95), rgba(86, 0, 167, 0.95))
+,url('https://sharktech.net/wp-content/uploads/2023/08/circuit-board.jpg');background-size: cover;border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+.pointer {cursor: pointer;}		</style>
+		</head>
+
+<body class="page-template-default page page-id-43 wp-schema-pro-2.7.11 full-width header-shadow lightbox mobile-submenu-toggle page-template-blank page-template-blank-php">
+
+		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHGG5SM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="masthead" class="header-main nav-dark">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            
+<!-- Header logo -->
+<a href="https://sharktech.net/" title="Sharktech - Cloud Hosting, Gaming, and Dedicated Server Provider" rel="home">
+		<img width="431" height="170" src="https://sharktech.net/wp-content/uploads/2023/09/sharktech-intenet-services-logo.png" class="header_logo header-logo" alt="Sharktech"/><img  width="431" height="170" src="https://sharktech.net/wp-content/uploads/2023/09/sharktech-intenet-services-logo.png" class="header-logo-dark" alt="Sharktech"/></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="center" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+
+		  <i class="icon-menu" ></i>
+		  		</a>
+	</li>
+            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-size-large nav-spacing-xlarge nav-prompts-overlay" >
+              <li id="menu-item-487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-487 menu-item-design-custom-size menu-item-has-block has-dropdown nav-dropdown-toggle"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Bare Metal Services<i class="icon-angle-down" ></i></a><div class="sub-menu nav-dropdown">	<section class="section mega-menu-st" id="section_202543084">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-equal align-center"  id="row-1270918794">
+
+
+	<div id="col-1334224159" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/dedicated-servers/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Sharktech-Dedicated-Servers.svg" class="attachment-medium size-medium" alt="Sharktech Dedicated Servers" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Dedicated Servers</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-505809261" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/colocation/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Sharktech-Colocation.svg" class="attachment-medium size-medium" alt="Sharktech Colocation" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Colocation</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1757302962" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/private-cloud/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Sharktech-Private-Cloud-nav.svg" class="attachment-medium size-medium" alt="Sharktech Private Cloud-nav" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Private Cloud</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-476731676" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/vps/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/vps-nav.svg" class="attachment-medium size-medium" alt="vps-nav" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>VPS/CVS</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_202543084 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section_202543084 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_202543084 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	</div><style>#menu-item-487 > .nav-dropdown {width: 860px;}</style></li>
+<li id="menu-item-1678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1678 menu-item-design-custom-size menu-item-has-block has-dropdown nav-dropdown-toggle"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Cloud Services<i class="icon-angle-down" ></i></a><div class="sub-menu nav-dropdown">	<section class="section mega-menu-st" id="section_406473155">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-equal"  id="row-722992459">
+
+
+	<div id="col-482629608" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/public-cloud/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 120px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Public-Cloud-Services.svg" class="attachment-medium size-medium" alt="Public Cloud Services" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Public Cloud</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1792408691" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/dedicated-cloud/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 120px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Dedicated-Cloud-Services.svg" class="attachment-medium size-medium" alt="Dedicated Cloud Services" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Dedicated Cloud</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1827809905" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/kubernetes-clusters/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 120px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Sharktech-Kubernetes.svg" class="attachment-medium size-medium" alt="Sharktech Kubernetes" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Kubernetes</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-315792407" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/acronis-cyber-protection/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 87px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1001" height="1002" src="https://sharktech.net/wp-content/uploads/2023/07/Acronis-symbol.png" class="attachment-medium size-medium" alt="Acronis-symbol" decoding="async" fetchpriority="high" srcset="https://sharktech.net/wp-content/uploads/2023/07/Acronis-symbol.png 1001w, https://sharktech.net/wp-content/uploads/2023/07/Acronis-symbol-768x769.png 768w" sizes="(max-width: 1001px) 100vw, 1001px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Acronis</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-728267797" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/s3/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 120px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/S3-Object-Storage-Sharktech.svg" class="attachment-medium size-medium" alt="S3 Object Storage Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Object Storage (S3)</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1479812806" class="col colmenu medium-2 small-6 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/cdn/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 91px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/08/CDN-hosting-sharktechy.svg" class="attachment-medium size-medium" alt="CDN hosting sharktechy" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>CDN</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_406473155 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section_406473155 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_406473155 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	</div><style>#menu-item-1678 > .nav-dropdown {width: 1000px;}</style></li>
+<li id="menu-item-1679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1679 menu-item-design-custom-size menu-item-has-block has-dropdown nav-dropdown-toggle"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Network Services<i class="icon-angle-down" ></i></a><div class="sub-menu nav-dropdown">	<section class="section mega-menu-st" id="section_497214140">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-equal align-center"  id="row-1897215741">
+
+
+	<div id="col-1788963921" class="col colmenu medium-6 small-6 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/ddos-protection/remote/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 115px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Remote-DDoS-Protection-by-Sharktech.svg" class="attachment-medium size-medium" alt="Remote DDoS Protection by Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>remote ddos protection</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-667367960" class="col colmenu medium-6 small-6 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/ip-transit/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 115px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/IP-Transit-Sharktech.svg" class="attachment-medium size-medium" alt="IP Transit - Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>ip transit</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+
+<style>
+#row-1897215741 > .col > .col-inner {
+  padding: 15px 0px -30px 0px;
+}
+</style>
+</div>
+
+		</div>
+
+		
+<style>
+#section_497214140 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section_497214140 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_497214140 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	</div><style>#menu-item-1679 > .nav-dropdown {width: 430px;}</style></li>
+<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468 menu-item-design-default"><a href="https://sharktech.net/ddos-protection/" class="nav-top-link">DDOS</a></li>
+<li id="menu-item-463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-463 menu-item-design-custom-size menu-item-has-block has-dropdown nav-dropdown-toggle"><a href="https://sharktech.net/data-centers/" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Data Centers<i class="icon-angle-down" ></i></a><div class="sub-menu nav-dropdown">	<section class="section mega-menu-st" id="section_1811683034">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-bottom align-center" style="max-width:900px" id="row-1321828627">
+
+
+	<div id="col-2029964319" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/data-centers/los-angeles/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 170px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/los-angeles-data-center.svg" class="attachment-medium size-medium" alt="Los Angeles Data Center" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>los angeles, ca</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-204361858" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/data-centers/denver/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 170px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/denver-data-center.svg" class="attachment-medium size-medium" alt="Denver Data Center" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>DENVER, CO</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-982070281" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/data-centers/chicago/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 170px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/chicago-data-center.svg" class="attachment-medium size-medium" alt="Chicago Data Center" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>CHICAGO, IL</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-337118959" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/data-centers/amsterdam/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 170px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/amsterdam-data-center.svg" class="attachment-medium size-medium" alt="Amsterdam Data Center" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>AMSTERDAM, NL</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+
+<style>
+#row-1321828627 > .col > .col-inner {
+  padding: 15px 0px -30px 0px;
+}
+</style>
+</div>
+
+		</div>
+
+		
+<style>
+#section_1811683034 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section_1811683034 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_1811683034 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	</div><style>#menu-item-463 > .nav-dropdown {width: 860px;}</style></li>
+<li id="menu-item-483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-483 menu-item-design-custom-size menu-item-has-block has-dropdown nav-dropdown-toggle"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Company<i class="icon-angle-down" ></i></a><div class="sub-menu nav-dropdown">	<section class="section mega-menu-st" id="section_1051975078">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row row-small align-equal align-center"  id="row-1791892086">
+
+
+	<div id="col-499388423" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/about/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/about-us-sharktech.svg" class="attachment-medium size-medium" alt="About Us - Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>ABOUT</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1052221069" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/contact/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/contact-us-sharktech.svg" class="attachment-medium size-medium" alt="Contact Us - Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>CONTACT</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-2081417135" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/blogs/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/Knowledge-base-Sharktech.svg" class="attachment-medium size-medium" alt="Knowledge base - Sharktech" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>Blog</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-18554714" class="col colmenu medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+	<a class="plain" href="https://sharktech.net/affiliate/"  >	<div class="icon-box featured-box icon-box-center text-center is-small"  >
+					<div class="icon-box-img" style="width: 130px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/05/affiliate-program-sharktech.svg" class="attachment-medium size-medium" alt="Sharktech Affiliate Program" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+						<h6>AFFILIATE PROGRAM</h6>			
+
+
+		</div>
+	</div>
+	</a>
+	
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_1051975078 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section_1051975078 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_1051975078 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	</div><style>#menu-item-483 > .nav-dropdown {width: 860px;}</style></li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-xlarge nav-prompts-overlay">
+              <li class="html header-button-1">
+	<div class="header-button">
+	<a rel="noopener noreferrer" href="https://portal.sharktech.net/clientarea.php" target="_blank" class="button primary is-large"  style="border-radius:5px;">
+    <span>Account Login</span>
+  </a>
+	</div>
+</li>
+
+
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+                          </ul>
+          </div>
+
+      </div>
+
+      </div>
+
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+				<section class="section headd" id="section_1808471406">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+	<div class="ux-shape-divider ux-shape-divider--bottom ux-shape-divider--style-fan">
+		<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <path class="ux-shape-fill" d="M500 50L1067.25 102.5H-67.2466L500 50Z"/>
+  <path class="ux-shape-fill" opacity="0.15" d="M1011 2.70583L500 50.0001L-12 2.61328V105H1011V2.70583Z"/>
+  <path class="ux-shape-fill" opacity="0.3" d="M-13 50H1010V105H-13V50Z"/>
+</svg>
+	</div>
+
+		<div class="section-content relative">
+			
+	<div id="gap-856513655" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-856513655 {
+  padding-top: 25px;
+}
+</style>
+	</div>
+	
+<div class="row align-middle"  id="row-1658404977">
+
+	<div id="col-581759426" class="col pright medium-7 small-12 large-7"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-3371915615" class="text">
+		
+<h1>Looking Glass</h1>
+<p>Sharktech is fully transparent about the speed and optimization of our services. Test the speed of our servers. This gives users insight into the speed of our servers.</p>
+<p>Businesses that are questioning their server speed can test it for themselves! Making sure that you’re getting the best connectivity possible is our highest priority. Sharktech has on-site engineers at all our data centers to ensure your network is connected to the internet!</p>
+<p>Get in touch with Sharktech for all of our services. We have multiple data centers in Los Angeles, Denver, Chicago, and Amsterdam! </p>
+		
+<style>
+#text-3371915615 {
+  color: rgb(255, 255, 255);
+}
+#text-3371915615 > * {
+  color: rgb(255, 255, 255);
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-979611317" class="col medium-5 small-12 large-5"  >
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_20605960">
+								<div class="img-inner dark" >
+			<img decoding="async" width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/04/looking-glass-speed-test.svg" class="attachment-original size-original" alt="looking glass speed test" />						
+					</div>
+								
+<style>
+#image_20605960 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1808471406 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#section_1808471406 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_1808471406 .ux-shape-divider--bottom svg {
+  height: 97px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1114595923">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1210559290">
+
+	<div id="col-232933093" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-2329089004" class="text">
+		
+<h2>Speed Test</h2>
+<h4>Measure your connection to our networks</h4>
+		
+<style>
+#text-2329089004 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row"  id="row-733614918">
+
+	<div id="col-597228441" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<style class="wpcode-css-snippet">.fakeScreen {
+    background-color: #272727;
+    box-sizing: border-box;
+    width: 750px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+.fakeScreen p {
+    position: relative;
+    left: 25%;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.termtext {
+    font-size: 20px;
+    color: #ffffff;
+}
+.line1 {
+    font-size: 20px;
+    margin-left:-24%;
+    color: #8cee69;
+    -webkit-animation: type .5s 1s steps(20, end) forwards;
+    -moz-animation: type .5s 1s steps(20, end) forwards;
+    -o-animation: type .5s 1s steps(20, end) forwards;
+    animation: type .5s 1s steps(20, end) forwards;
+}
+
+.cursor1 {
+    -webkit-animation: blink 1s 2s 2 forwards;
+    -moz-animation: blink 1s 2s 2 forwards;
+    -o-animation: blink 1s 2s 2 forwards;
+    animation: blink 1s 2s 2 forwards;
+}
+
+.line2 {
+    font-size: 20px;
+    margin-left:-24%;
+    bottom:10%;
+    color: #8cee69;
+    -webkit-animation: type .5s 2.25s steps(20, end) forwards;
+    -moz-animation: type .5s 2.25s steps(20, end) forwards;
+    -o-animation: type .5s 2.25s steps(20, end) forwards;
+    animation: type .5s 2.25s steps(20, end) forwards;
+}
+
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    to {
+        width: 30em;
+    }
+}
+
+@-moz-keyframes type {
+    to {
+        width: 30em;
+    }
+}
+
+@-o-keyframes type {
+    to {
+        width: 30em;
+    }
+}
+
+@keyframes type {
+    to {
+        width: 30em;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px; /* Add 10px spacing between the columns */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin from the last column */
+}
+.form-control {
+    display: block;
+    margin-bottom: 1rem;
+    height: 38px;
+    width: 250px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+.button-primary:focus,
+.button-primary:active {
+    outline: none;
+    box-shadow: none;
+}
+
+#loading {
+    background-color: #FFFFFF;
+    color: #404040;
+    text-align: center;
+}
+
+span.loadCircle {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAP1BMVEUAAAB2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZyFzwnAAAAFHRSTlMAEvRFvX406baecwbf0casimhSHyiwmqgAAADpSURBVHja7dbJbQMxAENRahnN5lkc//5rDRAkDeRgHszXgACJoKiIiIiIiIiIiIiIiIiIiIj4HHspsrpAVhdVVguzrA4OWc10WcEqpwKbnBo0OU1Q5NSpsoJFTgOecrrdEag85DRgktNqfoEdTjnd7hrEHMEJvmRUYJbTYk5Agy6nau6Abp5Cm7mDBtRdPi9gyKdU7w4p1fsLvyqs8hl4z9/w3n/Hmr9WoQ65lAU4d7lMYOz//QboRR5jBZibLMZdAR6O/Vfa1PlxNr3XdS3HzK/HVPRu/KnLs8iAOh993VpRRERERMT/fAN60wwWaVyWwAAAAABJRU5ErkJggg==');
+    background-size: 2em 2em;
+    margin-right: 0.5em;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+#serverArea {
+    margin-top: 1em;
+}
+
+#server {
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+#test {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+div.testArea {
+    display: inline-block;
+    width: 12.5em;
+    height: 9.4em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+div.testName {
+    text-align: center;
+    position: absolute;
+    top: 0.1em;
+    left: 0;
+    width: 100%;
+    font-size: 1em;
+    z-index: 9;
+}
+
+div.meterText {
+    text-align: center;
+    position: absolute;
+    bottom: 1.55em;
+    left: 0;
+    width: 100%;
+    font-size: 1.8em;
+    z-index: 9;
+}
+
+div.meterText:empty:before {
+    text-align: center;
+    content: "0.00";
+}
+
+div.unit {
+    text-align: center;
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+div.testArea canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+div.testGroup {
+    display: inline-block;
+}
+
+div.visible {
+    animation: fadeIn 0.4s;
+    display: block;
+}
+
+div.hidden {
+    animation: fadeOut 0.4s;
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+    100% {
+        display: block;
+        opacity: 0;
+    }
+}
+
+@media all and (max-width: 65em) {
+    body {
+        font-size: 1.5vw;
+    }
+}
+
+@media all and (max-width: 40em) {
+    body {
+        font-size: 0.8em;
+    }
+
+    div.testGroup {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (min-width: 800px) and (max-height: 600px), not (min-device-width: 800px){
+
+}
+
+@media  (max-width: 820px) and (min-height: 1024px), not (min-device-width: 820px){
+
+}
+
+
+@media  (max-width: 700px) and (min-height: 600px), not (min-device-width: 700px){
+	.fakeScreen {
+		width: 300px;
+		height:300px;
+	}
+	.line1{
+		display:none;
+	}
+	.line2{
+		margin-left:-50%;
+		padding-left:70px;
+		font-size:15px;
+	}
+}</style>
+
+<div class="col-12">
+                <div id="loading"  classs="visible" >
+                    <p id="message"><span class="loadCircle"></span>Selecting a server...</p>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+    <div id="testWrapper" class="hidden">
+        <div id="serverArea">
+            <div class="row justify-content-center align-items-center">
+                <div class="container">
+                    <div class="column">
+                        <!-- Removed repeated options from the below select -->
+                        <select class="form-control" id="server"></select>
+                    </div>
+                    <div class="column">
+                        <button name="startStopBtn" id="startStopBtn" onclick="s.setSelectedServer(SPEEDTEST_SERVERS[document.getElementById('server').value]);startStop()" class="button-primary">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            <div class="col-12">
+                <div id="guages" class="text-center">
+                    <div class="testGroup">
+                        <div class="testArea">
+                            <div class="testName">Download</div>
+                            <canvas id="dlMeter" class="meter"></canvas>
+                            <div id="dlText" class="meterText"></div>
+                            <div class="unit">Mbps</div>
+                        </div>
+                        <div class="testArea">
+                            <div class="testName">Upload</div>
+                            <canvas id="ulMeter" class="meter"></canvas>
+                            <div id="ulText" class="meterText"></div>
+                            <div class="unit">Mbps</div>
+                        </div>
+                    </div>
+                    <div class="testGroup">
+                        <div class="testArea">
+                            <div class="testName">Ping</div>
+                            <canvas id="pingMeter" class="meter"></canvas>
+                            <div id="pingText" class="meterText"></div>
+                            <div class="unit">ms</div>
+                        </div>
+                        <div class="testArea">
+                            <div class="testName">Jitter</div>
+                            <canvas id="jitMeter" class="meter"></canvas>
+                            <div id="jitText" class="meterText"></div>
+                            <div class="unit">ms</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<script src="/wp-content/speedtest/speedtest.js"></script>
+<script src="/wp-content/speedtest/speedtest_init.js"></script>
+<script>
+initServers()
+</script>
+		</div>
+					</div>
+
+	
+</div>
+<div class="row"  id="row-1196173652">
+
+	<div id="col-1856673033" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div id="text-2184854978" class="text">
+		
+<h2>Looking Glass</h2>
+<h4>Check your connection from our servers</h4>
+		
+<style>
+#text-2184854978 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+<div class="row"  id="row-1332626440">
+
+	<div id="col-1335513812" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<style>
+  .row {
+    display: flex;
+    justify-content: flex-middle;
+  }
+
+  .col-2,
+  .col-5 {
+    text-align: left;
+  }
+.move-right {
+    margin-left: 450px;
+  }
+.hz-col {
+    display: flex;
+    justify-content: flex-start;
+  };
+</style>
+<div class="row"  id="row-472092939">
+
+
+	<div id="col-677757609" class="col small-12 large-12"  >
+				<div class="col-inner text-left"  >
+			
+			
+
+
+<div>
+    <div class="container">
+        <div class="column">
+            <select class="form-control" id="datacenter">
+                <option value="ams">Amsterdam</option>
+                <option value="chi">Chicago</option>
+                <option value="den">Denver</option>
+                <option value="lax">Los Angeles</option>
+            </select>
+        </div>
+        <div class="column">
+            <select class="form-control" id="util" name="util">
+                <option value="ping" selected>Ping</option>
+                <option value="trace">Trace</option>
+            </select>
+        </div>
+        <div class="column">
+            <input name="host" id="host" placeholder="IP Address" class="form-control">
+        </div>
+        <div class="column">
+            <button name="toolSubmit" id="toolSubmit" onclick="pingTrace(event)" class="button-primary">Start</button>                
+        </div>
+    </div>
+    <div class="fakeScreen">
+        <p class="line1" id = "changing"><t style = "color: white;">[user@sharktech ~] #</t> <span id="tool_name"><span class="termtext">Select tool</span><span 
+        class="cursor1">_</span></p>
+
+
+        <p id="lgResultScreen" class="line2"><span class="cursor2"></span></p>
+
+    </div>
+</div>
+
+
+
+		</div>
+					</div>
+
+	
+
+</div>
+<script>/**
+ * Makes API call for looking glass
+ * ping or traceroute
+ */
+function pingTrace(e) {
+    var need = document.getElementById('host').value;
+
+    if (document.getElementById('util').value === "ping") {
+        document.getElementById('changing').innerHTML = `<p class="line1" id = "changing"><t style = "color: white;">[user@sharktech ~ ] %</t> ping `+need +`<span class="cursor1">_</span></p>`;
+    } else {
+        document.getElementById('changing').innerHTML = `<p class="line1" id = "changing"><t style = "color: white;">[user@sharktech ~ ] %</t> trace `+need +`<span class="cursor1">_</span></p>`;
+
+    }
+    //  e.preventDefault();
+
+    let request = null;
+    let server_url = null;
+
+    // Document elements
+    let dc_element = document.getElementById('datacenter');
+    let tool_element = document.getElementById('util');
+    let results_element = document.getElementById('lgResultScreen');
+    let host_element = document.getElementById('host');
+    let submit_element = document.getElementById('toolSubmit');
+
+    // Build URL
+    let datacenter = dc_element.options[dc_element.selectedIndex].value;
+    let tool = tool_element.options[tool_element.selectedIndex].value;
+    let host = host_element.value;
+
+    switch(datacenter) {
+        case 'ams':
+            server_url = `https://ams.sharktech.net:8000/${tool}/${host}`
+            break;
+        case "chi":
+            server_url = `https://chi.sharktech.net:8000/${tool}/${host}`
+            break;
+        case "den":
+            server_url = `https://den.sharktech.net:8000/${tool}/${host}`
+            break;
+        case "lax":
+            server_url = `https://la.sharktech.net:8000/${tool}/${host}`
+    }
+
+    // Check host
+    if(!host) {
+        results_element.style.display = "block";
+        results_element.innerHTML = `<p class="line2" style="color: red;">*You must specify a host!</p><br/><br/>`;
+    } else {
+        // Disable submit button
+        submit_element.disabled = true;
+        let requestData = JSON.stringify({
+            host: host,
+            datacenter: datacenter,
+            tool: tool
+        });
+
+        results_element.style.display = "block";
+        results_element.innerHTML = '<p class="line2">Fetching results...</p>';
+
+
+        jQuery.ajax({
+            contentType: "application/json",
+            dataType: 'json',
+            processData: false,
+            type: 'GET',
+            url: server_url,
+            success: function(ajaxResult) {
+                let toolData = "";
+
+                if(tool === "ping") {
+                    for (let time of ajaxResult.results) {
+                        toolData = toolData + `icmp_seq=${time.seq_number} time=${time.ping_time} ms<br/>`
+                    }
+                   //toolData = toolData + `<br/>Ping statistics: Average: ${jsonData.avg} ms Minimum: ${jsonData.min} ms Deviation: ${jsonData.stddev} ms Packet Loss: ${jsonData.packetLoss} %<br/><br/>`;
+
+                    if (!ajaxResult.alive) {
+                        results_element.innerHTML = `<p class="line2" style="color: red;">*The host you specified is either down or invalid!</p><br/><br/>`
+                    } else {
+                        results_element.innerHTML = `<p class="line2">${toolData}</p>`;
+                    }
+                } else if(tool === "trace") {
+                    if(ajaxResult.hops === 'undefined') {
+                        results_element.innerHTML = `<p class="line2" style="color: red;">*The host you specified is invalid!</p><br/><br/>`;
+                    } else {
+                        for (let hop of ajaxResult.hops) {
+                            toolData += `<p class="line2">${hop}</p>`;
+                        }
+                        results_element.innerHTML = `<p class="line2">${toolData}</p>`;
+                    }
+                }
+
+                // Enable the button
+                submit_element.disabled = false;
+
+            },
+            error: function() {
+                results_element.style.display = "block";
+                results_element.innerHTML = `<p id="lgResultScreen" class="line2" style = "color: red;">The host you specified isn't valid or an error<br> has occurred.<span class="cursor2">_</span></p>`;
+
+                submit_element.disabled = false;
+            }
+        });
+
+    }
+}</script>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1114595923 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_1114595923 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_1114595923 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+
+		
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+		<section class="section foooter blbg dark" id="section_588811459">
+		<div class="bg section-bg fill bg-fill bg-loaded " >
+
+			
+			
+			
+
+		</div>
+
+			<div class="ux-shape-divider ux-shape-divider--top ux-shape-divider--style-fan">
+		<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <path class="ux-shape-fill" d="M500 50L1067.25 102.5H-67.2466L500 50Z"/>
+  <path class="ux-shape-fill" opacity="0.15" d="M1011 2.70583L500 50.0001L-12 2.61328V105H1011V2.70583Z"/>
+  <path class="ux-shape-fill" opacity="0.3" d="M-13 50H1010V105H-13V50Z"/>
+</svg>
+	</div>
+
+
+		<div class="section-content relative">
+			
+
+<div class="row row-large rowsha"  id="row-1503272967">
+
+
+	<div id="col-1652001681" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 150px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/04/contact-us-for-public-cloud-hosting.svg" class="attachment-medium size-medium" alt="contact us for public cloud hosting" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+	<div id="text-3542813863" class="text">
+		
+
+<p>If you have any questions let us know. We look forward to hearing your story and helping you take your business to where you envision it!</p>
+		
+<style>
+#text-3542813863 {
+  color: rgb(0,0,0);
+}
+#text-3542813863 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+	<div id="gap-1354900897" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1354900897 {
+  padding-top: 10px;
+}
+</style>
+	</div>
+	
+
+<a href="https://sharktech.net/contact/" target="_self" class="button primary"  style="border-radius:5px;">
+    <span>Contact our sales team</span>
+  </a>
+
+
+
+		</div>
+	</div>
+	
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-547905235" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 150px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1" height="1" src="https://sharktech.net/wp-content/uploads/2023/04/best-connectivity-ip-transit-service.svg" class="attachment-medium size-medium" alt="best connectivity ip transit service" decoding="async" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+	<div id="text-1586627517" class="text">
+		
+
+<h4>Contact us for help</h4>
+<p><span style="color: #282828;"><a style="color: #282828;" href="tel:+1 (844) 706-7383">+1 (844) 706-7383</a></span><br /><span style="color: #282828;"><a style="color: #282828;" href="mailto:sales@sharktech.net">sales@sharktech.net</a></span></p>
+		
+<style>
+#text-1586627517 {
+  color: rgb(0,0,0);
+}
+#text-1586627517 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+
+		</div>
+	</div>
+	
+	
+
+		</div>
+					</div>
+
+	
+
+</div>
+	<div id="gap-1912574795" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1912574795 {
+  padding-top: 30px;
+}
+</style>
+	</div>
+	
+
+<div class="row"  id="row-1730384045">
+
+
+	<div id="col-1493698844" class="col medium-3 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<div id="text-338461683" class="text colorlink">
+		
+
+<h5>SOLUTIONS</h5>
+<ul>
+<li><a href="https://sharktech.net/dedicated-servers/">Dedicated Servers</a></li>
+<li><a href="https://sharktech.net/public-cloud/">Public Cloud Services</a></li>
+<li><a href="https://sharktech.net/private-cloud/">Private Cloud Services</a></li>
+<li><a href="https://sharktech.net/vps/">Cloud Virtual Servers</a></li>
+<li><a href="https://sharktech.net/colocation/">Colocation</a></li>
+<li><a href="https://sharktech.net/ddos-protection/remote/">Remote DDoS Protection</a></li>
+<li><a href="https://sharktech.net/ip-transit/">IP Transit</a></li>
+<li><a href="https://sharktech.net/game-server-hosting/">Game Server Hosting</a></li>
+<li><a href="https://sharktech.net/acronis-cyber-protection/">Acronis Cyber Protection</a></li>
+</ul>
+		
+<style>
+#text-338461683 {
+  color: rgb(255,255,255);
+}
+#text-338461683 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</div>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-168484416" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+	<div id="text-1873800432" class="text colorlink">
+		
+
+<h5>COMPANY</h5>
+<ul>
+<li><a href="https://sharktech.net/about/">About</a></li>
+<li><a href="https://sharktech.net/contact/">Contact</a></li>
+<li><a href="https://sharktech.net/blogs/">Blog</a></li>
+<li><a href="https://sharktech.net/affiliate/">Affiliate Program</a></li>
+</ul>
+		
+<style>
+#text-1873800432 {
+  color: rgb(255,255,255);
+}
+#text-1873800432 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</div>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1172193096" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+	<div id="text-1338074681" class="text colorlink">
+		
+
+<h5>SUPPORT</h5>
+<ul>
+<li><a href="https://portal.sharktech.net/clientarea.php">Customer Portal</a></li>
+<li><a href="https://portal.sharktech.net/clientarea.php">FAQ / Help Center</a></li>
+<li><a href="https://sharktech.net/looking-glass/">Looking Glass</a></li>
+<li><a href="https://sharktech.net/free-consultation/">Free Consultation</a></li>
+</ul>
+
+		
+<style>
+#text-1338074681 {
+  color: rgb(255,255,255);
+}
+#text-1338074681 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</div>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1923620668" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner"  >
+			
+			
+
+	<div id="text-2753126623" class="text colorlink">
+		
+
+<h5><a href="https://sharktech.net/data-centers/">DATA CENTERS</a></h5>
+<ul>
+<li><a href="https://sharktech.net/data-centers/los-angeles/">Los Angeles</a></li>
+<li><a href="https://sharktech.net/data-centers/denver/">Denver</a></li>
+<li><a href="https://sharktech.net/data-centers/chicago/">Chicago</a></li>
+<li><a href="https://sharktech.net/data-centers/amsterdam/">Amsterdam</a></li>
+</ul>
+		
+<style>
+#text-2753126623 {
+  color: rgb(255,255,255);
+}
+#text-2753126623 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</div>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1850156098" class="col medium-3 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<div id="text-1886173077" class="text colorlink">
+		
+
+<h5>LEGAL</h5>
+<ul>
+<li><a href="https://sharktech.net/privacy-policy/">Privacy</a></li>
+<li><a href="https://sharktech.net/acceptable-use-policy/">Acceptable Use</a></li>
+<li><a href="https://sharktech.net/terms-of-service/">Terms of Service</a></li>
+<li><a href="https://sharktech.net/service-level-agreement/">Service Level Agreement</a></li>
+<li><a href="https://sharktech.net/responsible-disclosure-policy/">Responsible Disclosure Policy</a></li>
+</ul>
+		
+<style>
+#text-1886173077 {
+  color: rgb(255,255,255);
+}
+#text-1886173077 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</div>
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1442690620" class="col small-12 large-12"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+	<div id="text-2503381847" class="text">
+		
+
+<hr />
+<p>© 2023 <strong>Sharktech INC.</strong> <a href="https://goo.gl/maps/wogTBpUpVuuDLkb5A" target="_blank" rel="noopener">8560 S. Eastern Ave. Suite 210 Las Vegas, NV 89123</a></p>
+		
+<style>
+#text-2503381847 {
+  color: rgb(255, 255, 255);
+}
+#text-2503381847 > * {
+  color: rgb(255, 255, 255);
+}
+</style>
+	</div>
+	
+<div class="social-icons follow-icons" style="font-size:120%"><a href="https://www.facebook.com/sharktechinc/" target="_blank" data-label="Facebook" rel="noopener noreferrer" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="https://twitter.com/sharktechnet" target="_blank" data-label="Twitter" rel="noopener noreferrer" class="icon button circle is-outline  twitter tooltip" title="Follow on Twitter" aria-label="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="https://www.linkedin.com/company/sharktech" target="_blank" rel="noopener noreferrer" data-label="LinkedIn" class="icon button circle is-outline  linkedin tooltip" title="Follow on LinkedIn" aria-label="Follow on LinkedIn"><i class="icon-linkedin" ></i></a><a href="https://www.youtube.com/@sharktechnet9087" target="_blank" rel="noopener noreferrer" data-label="YouTube" class="icon button circle is-outline  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>
+
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_588811459 {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background-color: #009bfe;
+}
+#section_588811459 .section-bg.bg-loaded {
+  background-image: url(https://sharktech.net/wp-content/uploads/2023/03/world-map-background.png);
+}
+#section_588811459 .ux-shape-divider--top svg {
+  height: 265px;
+  --divider-top-width: 100%;
+}
+#section_588811459 .ux-shape-divider--top .ux-shape-fill {
+  fill: rgb(246, 246, 246);
+}
+#section_588811459 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+              </div>
+          </div>
+  </div>
+</div>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+
+	
+	<div class="sidebar-menu no-scrollbar text-center">
+
+		
+					<ul class="nav nav-sidebar nav-vertical nav-uppercase nav-anim" data-tab="1">
+				<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://sharktech.net/" role="search">
+		<div class="flex-row relative">
+			<div class="flex-col flex-grow">
+	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" />
+			</div>
+			<div class="flex-col">
+				<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+					<i class="icon-search" ></i>				</button>
+			</div>
+		</div>
+    <div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>
+<li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-899"><a href="https://sharktech.net/">Home</a></li>
+<li id="menu-item-922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-922"><a href="#">Bare Metal Services</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li id="menu-item-912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-912"><a href="https://sharktech.net/dedicated-servers/">Dedicated Servers</a></li>
+	<li id="menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-902"><a href="https://sharktech.net/colocation/">Colocation</a></li>
+	<li id="menu-item-916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-916"><a href="https://sharktech.net/private-cloud/">Private Cloud Hosting</a></li>
+	<li id="menu-item-919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919"><a href="https://sharktech.net/vps/">VPS/CVS</a></li>
+</ul>
+</li>
+<li id="menu-item-923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-923"><a href="#">Cloud Services</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li id="menu-item-917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917"><a href="https://sharktech.net/public-cloud/">Public Cloud</a></li>
+	<li id="menu-item-911" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911"><a href="https://sharktech.net/dedicated-cloud/">Dedicated Cloud</a></li>
+	<li id="menu-item-914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-914"><a href="https://sharktech.net/kubernetes-clusters/">Kubernetes Clusters</a></li>
+	<li id="menu-item-3225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3225"><a href="https://sharktech.net/acronis-cyber-protection/">Acronis Cyber Protection</a></li>
+	<li id="menu-item-918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-918"><a href="https://sharktech.net/s3/">S3 Object Storage</a></li>
+	<li id="menu-item-4559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4559"><a href="https://sharktech.net/cdn/">CDN</a></li>
+</ul>
+</li>
+<li id="menu-item-3226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3226"><a href="#">Network Services</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li id="menu-item-910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910"><a href="https://sharktech.net/ddos-protection/remote/">Remote DDos Protection</a></li>
+	<li id="menu-item-913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-913"><a href="https://sharktech.net/ip-transit/">IP Transit</a></li>
+</ul>
+</li>
+<li id="menu-item-909" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-909"><a href="https://sharktech.net/ddos-protection/">DDOS</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-904"><a href="https://sharktech.net/data-centers/">Data Centers</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li id="menu-item-905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="https://sharktech.net/data-centers/amsterdam/">Amsterdam</a></li>
+	<li id="menu-item-906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906"><a href="https://sharktech.net/data-centers/chicago/">Chicago</a></li>
+	<li id="menu-item-907" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-907"><a href="https://sharktech.net/data-centers/denver/">Denver</a></li>
+	<li id="menu-item-908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908"><a href="https://sharktech.net/data-centers/los-angeles/">Los Angeles</a></li>
+</ul>
+</li>
+<li id="menu-item-920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-920"><a href="#">Company</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li id="menu-item-900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-900"><a href="https://sharktech.net/about/">About Sharktech</a></li>
+	<li id="menu-item-921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-921"><a href="https://sharktech.net/blogs/">Blog</a></li>
+	<li id="menu-item-901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-901"><a href="https://sharktech.net/affiliate/">Affiliate</a></li>
+	<li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="https://sharktech.net/contact/">Contact</a></li>
+</ul>
+</li>
+<li class="html header-button-1">
+	<div class="header-button">
+	<a rel="noopener noreferrer" href="https://portal.sharktech.net/clientarea.php" target="_blank" class="button primary is-large"  style="border-radius:5px;">
+    <span>Account Login</span>
+  </a>
+	</div>
+</li>
+
+
+			</ul>
+		
+		
+	</div>
+
+	
+</div>
+<!-- site-navigation-element Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Home","url":"https:\/\/sharktech.net\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Bare Metal Services","url":"#"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Dedicated Servers","url":"https:\/\/sharktech.net\/dedicated-servers\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Colocation","url":"https:\/\/sharktech.net\/colocation\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Private Cloud Hosting","url":"https:\/\/sharktech.net\/private-cloud\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"VPS\/CVS","url":"https:\/\/sharktech.net\/vps\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Cloud Services","url":"#"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Public Cloud","url":"https:\/\/sharktech.net\/public-cloud\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Dedicated Cloud","url":"https:\/\/sharktech.net\/dedicated-cloud\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Kubernetes Clusters","url":"https:\/\/sharktech.net\/kubernetes-clusters\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Acronis Cyber Protection","url":"https:\/\/sharktech.net\/acronis-cyber-protection\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"S3 Object Storage","url":"https:\/\/sharktech.net\/s3\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"CDN","url":"https:\/\/sharktech.net\/cdn\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Network Services","url":"#"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Remote DDos Protection","url":"https:\/\/sharktech.net\/ddos-protection\/remote\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"IP Transit","url":"https:\/\/sharktech.net\/ip-transit\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"DDOS","url":"https:\/\/sharktech.net\/ddos-protection\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Data Centers","url":"https:\/\/sharktech.net\/data-centers\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Amsterdam","url":"https:\/\/sharktech.net\/data-centers\/amsterdam\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Chicago","url":"https:\/\/sharktech.net\/data-centers\/chicago\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Denver","url":"https:\/\/sharktech.net\/data-centers\/denver\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Los Angeles","url":"https:\/\/sharktech.net\/data-centers\/los-angeles\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Company","url":"#"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"About Sharktech","url":"https:\/\/sharktech.net\/about\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Blog","url":"https:\/\/sharktech.net\/blogs\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Affiliate","url":"https:\/\/sharktech.net\/affiliate\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Contact","url":"https:\/\/sharktech.net\/contact\/"}]}</script><!-- / site-navigation-element Schema optimized by Schema Pro --><!-- sitelink-search-box Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Sharktech","url":"https:\/\/sharktech.net","potentialAction":[{"@type":"SearchAction","target":"https:\/\/sharktech.net\/?s={search_term_string}","query-input":"required name=search_term_string"}]}</script><!-- / sitelink-search-box Schema optimized by Schema Pro --><!-- breadcrumb Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/sharktech.net\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/sharktech.net\/looking-glass\/","name":"Looking Glass"}}]}</script><!-- / breadcrumb Schema optimized by Schema Pro --><script>
+      // Live chat
+window.__lc = window.__lc || {};
+window.__lc.license = 8924709;
+(function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();</script><div class="ux-body-overlay"></div><style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/wp-admin\/|\/reseller\/|\/looking-glass\/|\/t1-reseller\/|\/blocks\/reseller-t1-offers\/|\/blocks\/colocation\/|\/blocks\/speedtest\/|\/blocks\/reseller-login\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/sharktech.net","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" id="flatsome-js-js-extra">
+/* <![CDATA[ */
+var flatsomeVars = {"theme":{"version":"3.16.7"},"ajaxurl":"https:\/\/sharktech.net\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","assets_url":"https:\/\/sharktech.net\/wp-content\/themes\/cloud-hosting\/assets\/js\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu","toggleButton":"Toggle"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"0"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-content/themes/cloud-hosting/assets/js/flatsome.js?ver=c8ede7f4aa030cb285ae3350d627d9fd" id="flatsome-js-js"></script>
+<script type="text/javascript" src="https://la.sharktech.net/wp-content/themes/cloud-hosting/inc/integrations/wp-rocket/flatsome-wp-rocket.js?ver=3" id="flatsome-wp-rocket-js"></script>
+<!--[if IE]>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/intersection-observer-polyfill@0.1.0/dist/IntersectionObserver.js?ver=0.1.0" id="intersection-observer-polyfill-js"></script>
+<![endif]-->
+			<script type="text/javascript" id="wpsp-script-frontend"></script>
+			
+</body>
+</html>

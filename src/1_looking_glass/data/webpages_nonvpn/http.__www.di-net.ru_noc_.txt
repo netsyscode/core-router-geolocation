@@ -1,0 +1,102 @@
+
+<!-------------inc.head.php---------------------->
+<html>
+<head>
+
+<style type="text/css"><!--
+body{margin:1px;padding:0px;}
+
+a {color:#3cb0f4; text-decoration:none;}
+a:active {color:#3cb0f4; text-decoration:underline;}
+a:visited {color:#3cb0f4; text-decoration:none;}
+a:hover {color:#3cb0f4; text-decoration:underline;}
+.description {color:#black;}
+-->
+</style> 
+
+<title>
+msm.ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<LINK href="http://msm.ru/images/msm_ico.ico" rel="SHORTCUT ICON">
+<link href="../styles/style_page3.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-------------§Ь§а§Я§Ц§и inc.head.php------------->
+<table class="top_tab" border="0" cellpadding="0" cellspacing="0" width="100%" height="70px">
+<tr bgcolor="#5dbef6">
+<td valign="top" align="left" width="240">
+<a href="../index.php"><img src="../images/subpage/msm_logo2.gif" width="240" height="70" border="0"></a>
+</td>
+<td width="440" valign="bottom" align="left" style="background-image:url(../images/subpage/title_subpage.jpg); background-position:left; background-repeat:no-repeat;">
+<div style="width:440px; text-align:justify; font-family:Arial, Verdana, Helvetica, sans-serif; font-size:17px; font-weight:bold; font-style:inherit; text-transform:uppercase; color:#FFFFFF; padding:5 5 5 8;">
+
+network operations center
+
+</div>
+
+</td>
+<td align="right"><img src="../images/subpage/top_lineimage.jpg" width="320" height="70" border="0"></td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+    	<td align="left">
+			<table border="0" cellpadding="0" cellspacing="0" width="1000" height="100%">
+				<tr>
+<!--------§Э§Ц§У§С§с §Ь§а§Э§а§Я§Ь§С---------------------------->
+					<td width="240px" valign="top">
+					<ul class="left_menu">
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+
+  <li class="left_menu_element1"><a href="index.html">Looking Glass</a></li>
+  <li class="left_menu_element1"><a href="../chanel/index.html">§Ў§в§Ц§Я§Х§С §Ь§С§Я§С§Э§а§У §г§У§с§Щ§Ъ</a></li>
+  <li class="left_menu_element1"><a href="../company/index.html">§° §Ї§С§г</a></li>
+
+
+
+
+        
+
+
+  <li class="left_menu_element1"><a href="../company/payment/index.html">§і§б§а§г§а§Т§н §а§б§Э§С§д§н</a></li>
+  <li class="left_menu_element1"><a href="../company/docs/index.html">§Ґ§а§Ф§а§У§а§в §Я§С §а§Т§г§Э§е§Ш§Ъ§У§С§Я§Ъ§Ц</a></li>
+  <li class="left_menu_element1"><a href="../company/licence/index.html">§Ї§С§к§Ъ §Э§Ъ§и§Ц§Я§Щ§Ъ§Ъ</a></li>
+  <!--<li class="left_menu_element1"><a href="/faq/">FAQ</a></li>-->
+</ul>
+<!----------- §ж§а§в§Ю§С §Э§а§Ф§Ъ§Я§С ----------------------->
+<table width="240px" cellpadding="0" cellspacing="0" border="0" bgcolor="#dededd" bordercolor="#FF0000" style="background-image:url(../images/ru/sub/separator_y_login.gif); background-position:left; background-repeat:repeat-y;">
+<form action="https://stat.msm.ru/" name="f0" method="POST">
+	<tr>
+		<td colspan="2">
+			<div class="text_login_title" style="margin:5 20 5 5;" align="right"><strong>§­§Ъ§й§Я§н§Ы §Ь§С§Т§Ъ§Я§Ц§д §С§Т§а§Я§Ц§Я§д§С</strong><br><br></div>
+		</td>
+	</tr>
+<!--
+	<tr>
+		<td align="right"><div class="text_form_1">§Э§а§Ф§Ъ§Я</div></td>
+		<td align="right"><input value="login" name="login" class="form_login" onfocus="if (this.value=='login') this.value='';" onblur="if (this.value=='') this.value='login';" type="text"></td>
+	</tr>
+	<tr>
+		<td align="right"><div class="text_form_1">§б§С§в§а§Э§о</div></td>
+		<td align="right"><input value="password" name="passwd" class="form_login" onfocus="if (this.value=='password') this.value='';" onblur="if (this.value=='') this.value='password';" type="password"></td>
+	</tr>
+
+	<tr>
+		<td align="left" colspan="2">

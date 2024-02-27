@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Looking Glass - IllyHosting</title>
+    <meta name="description" content="">
+    <link href="/img/favicon.ico" rel="shortcut icon">
+    <link href="/fonts/cloudicon/cloudicon.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/fonts/fontawesome/css/all.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/fonts/opensans/opensans.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/owl.carousel.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/swiper.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/animate.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/items.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'"/>
+  </head>
+  <body>
+
+  <header id="header"></header>
+ 
+   <div class="top-header item5 overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="wrapper">
+            <h1 class="heading">Network Looking Glass</h1>
+            <h3 class="subheading">This Looking Glass provides you with information relative to backbone routing and network efficiency, providing you with the same transparency that customers on our network receive directly.</h3>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="gocontent godown gocheck" href="/#scroll" >
+      <img class="svg" src="/fonts/svg/arrowdown.svg" height="80" alt="features">
+      <span>Features</span>
+    </a>
+  </div>
+    
+  <section style="margin: -100px 0px 80px;" class="pricing special sec-up-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+		  <p style="color: white; padding-bottom:5px; text-align: right;">Your IP Address: 3.230.119.106</p>
+          <div style="background: white; min-height: 430px; margin-top: 0px !important;" class="wrapper first text-left">
+				<div style="padding-left:50px; padding-right: 50px; padding-top:25px; padding-bottom: 30px;" class="col-sm-12 col-md-12 col-lg-12">
+					<p><strong>Server Location</strong></p>
+					<select id="serverlocation" class="inputplchpadding" style="width: 100%; border: 1px solid #c0c0c0; height: 45px;">
+						<option value="/looking-glass/pr-rks" >Prishtin

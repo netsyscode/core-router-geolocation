@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<base href="/">
+<meta charset="utf-8">
+<meta name="theme-color" content="#d63127"/>
+<meta name="_csrf" content="d1773c4e-bccb-4a4e-83c1-298a6d8d308a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1, shrink-to-fit=no">
+<meta name="keywords" content="интернет киев, интернет для офиса, оптоволоконный интернет, провайдеры киева, подключить интернет Киев, самый быстрый интернет Киев, высокоскоростной интернет, интернет провайдеры">
+<meta name="description" content="Looking Glass">
+<title>Looking Glass | Интернет-провайдер ЦИФРА</title>
+<link rel="apple-touch-icon" href="favicon.png"/>
+<link rel="icon" href="favicon.png" type="image/x-png"/>
+<link rel="shortcut icon" href="favicon.png" type="image/x-png"/>
+<link rel="alternate" href="https://cyfra.ua/ru/lg" hreflang="ru"/>
+<link rel="alternate" href="https://cyfra.ua/lg" hreflang="uk"/>
+<link rel="canonical" href="https://cyfra.ua/ru/lg/"/>
+<link rel="alternate" type="application/rss+xml" title="Новости" href="/ru/rss/news"/>
+<link rel="alternate" type="application/rss+xml" title="Вакансии" href="/ru/rss/vacancy"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,700&amp;subset=cyrillic">
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<script src="/js/script.js"></script>
+<script src="/js/angular/i18n/angular-locale_ru.min.js"></script>
+<meta name="google-site-verification" content="Oj8WMRTYdp2qTJ3KEahmhYDbZog-3K9la36PBC4ikNs" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7VNGS4');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body ng-app="app" ng-controller="MainPage">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7VNGS4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<noscript>
+<div class="modal fade in" role="dialog" tabindex="-1" style="display: block">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">JavaScript</h5>
+</div>
+<div class="modal-body">
+<p>Для правильной работы сайта включите JavaScript</p>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-backdrop fade in"></div>
+</noscript>
+<nav id="header" class="navbar navbar-static-top" role="navigation">
+<div class="container">
+<ul id="main-nav-left" class="navbar-left">
+<li class="phone">
+<i class="icon icon-phone" aria-hidden="true"></i>
+<a href="tel:+380442067733"><sub>044</sub>206-77-33</a>
+</li>
+<li class="email">
+<i class="icon icon-plane" aria-hidden="true"></i>
+<a href="mailto:sales@cyfra.ua">sales@cyfra.ua</a>
+</li>
+<li class="lang lang-mobile">
+<div class="btn-group" uib-dropdown dropdown-append-to-body>
+<button class="btn btn-sm" uib-dropdown-toggle type="button" aria-haspopup="true" aria-expanded="false">
+<span>РУС</span>
+</button>
+<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+<li role="menuitem"><a target="_self" href="/lg">УКР</a></li>
+<li role="menuitem"><a target="_self" href="/ru/lg">РУС</a></li>
+</ul>
+</div>
+</li>
+</ul>
+<ul id="main-nav-right" class="navbar-right only-descktop-show">
+<li class="lang ">
+<div class="btn-group" uib-dropdown dropdown-append-to-body>
+<button class="btn btn-sm" uib-dropdown-toggle type="button" aria-haspopup="true" aria-expanded="false">
+<span>РУС</span>
+</button>
+<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+<li role="menuitem"><a target="_self" href="/lg">УКР</a></li>
+<li role="menuitem"><a target="_self" href="/ru/lg">РУС</a></li>
+</ul>
+</div>
+</li>
+<li class="account">
+<i class="fa fa-sign-in" aria-hidden="true"></i>
+<a target="_self" href="/ru/account/">Личный кабинет</a>
+</li>
+</ul>
+</div>
+</nav>
+<div id="main">
+<div class="container">
+<div class="row">
+<nav id="nav-default" class="navbar navbar-default" role="navigation" ng-controller="MainNavigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" ng-click="toggle()">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a target="_self" class="logo" href="/ru/">
+<img src="img/logo.png" alt="ЦИФРА">
+</a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" uib-collapse="isNavCollapsed()">
+<ul class="nav navbar-nav navbar-right">
+<li class="icon icon-comp-menu ">
+<a target="_self" href="/ru/internet/">
+<span>Интернет</span>
+</a>
+</li>
+<li class="icon icon-pbx-menu ">
+<a target="_self" href="/ru/virtual-pbx/">
+<span>Виртуальная АТС</span>
+</a>
+</li>
+<li class="icon icon-chanel-menu ">
+<a target="_self" href="/ru/ethernet/">
+<span>Каналы</span>
+</a>
+</li>
+<li class="icon icon-fiber-menu ">
+<a target="_self" href="/ru/fiber/">
+<span>Монтаж ВОЛС</span>
+</a>
+</li>
+<li class="icon icon-autsors-menu ">
+<a target="_self" href="/ru/it-outsourcing/">
+<span>ІТ-аутсорсинг</span>
+</a>
+</li>
+<li class="fa fa-sign-in only-mobile-show ">
+<a target="_self" href="/ru/account/">
+<span>Личный кабинет</span>
+</a>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</nav>
+</div>
+<div class="row white-block">
+<div class="article-block">
+<div class="col-6 text-left"><h1>Looking Glass</h1></div>
+<div class="col-6 text-right">
+<nav>
+<ul>
+</ul>
+</nav>
+</div>
+</div>
+<div class="grey-line"></div>
+<div class="content_block looking_glass" ng-controller="LookingGlass">
+<form role="form" name="lookingGlass" autocomplete="on" ng-submit="check()">
+<div class="form-group">
+<label for="address">Введите IP-адрес или имя хоста и тип запроса</label>
+<input id="address" name="address" class="form-control cyfra-input" type="text" ng-model="form.address" required="true" ng-minlength="4" ng-maxlength="64">
+</div>
+<fieldset class="form-group">
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="bgp" ng-model="form.type" value="bgp"><i class="cyfra-red"></i>SHOW IP BGP
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="ukraine" ng-model="form.type" value="ukraine"><i class="cyfra-red"></i>Проверка трафика на принадлежность к Украинскому
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="ping" ng-model="form.type" value="ping"><i class="cyfra-red"></i>Ping
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="mtr" ng-model="form.type" value="mtr"><i class="cyfra-red"></i>MTR
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="traceroute" ng-model="form.type" value="traceroute"><i class="cyfra-red"></i>Trace
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="digany" ng-model="form.type" value="digany"><i class="cyfra-red"></i>Прямые DNS записи
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="digtraceany" ng-model="form.type" value="digtraceany"><i class="cyfra-red"></i>Прямые DNS записи, рекурсивно
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="digx" ng-model="form.type" value="digptr"><i class="cyfra-red"></i>Обратная DNS запись
+</label>
+</div>
+<div class="form-check">
+<label class="md-switch">
+<input type="radio" class="form-check-input" name="checktype" id="digxtrace" ng-model="form.type" value="digtraceptr"><i class="cyfra-red"></i>Обратная DNS запись, рекурсивно
+</label>
+</div>
+</fieldset>
+<button type="submit" class="btn btn-danger btn-submit-cyfra" ng-disabled="!canSave(lookingGlass) || loading">Показать</button>
+</form>
+<div id="result" slideable="" duration=".2s" style="margin-top: 30px;">
+<img ng-hide="load" style="display: block; margin: 0 auto" src="/img/loading.gif">
+<div ng-show="load" id="iframe"></div>
+</div>
+</div>
+</div>
+<!-- BEGIN RED BLOCK -->
+<div class="row">
+<div class="red-block">
+<div class="col-xs-4 text-center">
+<a href="tel:+380442067733">
+<i class="icon icon-phone"></i>
+<h3><span>044 </span>206 77 33</h3>
+</a>
+</div>
+<div class="col-xs-4 text-center">
+<a href="tel:+380442067738">
+<i class="icon icon-fax"></i>
+<h3><span>044 </span>206 77 38</h3>
+</a>
+</div>
+<div class="col-xs-4 text-center">
+<a href="mailto:sales@cyfra.ua">
+<i class="icon icon-plane"></i>
+<h3>sales@cyfra.ua</h3>
+</a>
+</div>
+</div>
+</div>
+<!-- END RED BLOCK -->
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="row">
+<div class="additional-link">
+<ul class="col-xs-3">
+<li><a target="_self" href="/ru/about/">О нас</a></li>
+<li><a target="_self" href="/ru/contact/">Контакты</a></li>
+</ul>
+<ul class="col-xs-3">
+<li><a target="_self" href="/ru/privacy-policy/">Политика конфиденциальности</a></li>
+</ul>
+<ul class="col-xs-3">
+<li><a target="_self" href="/ru/news/">Новости</a></li>
+<li><a target="_self" href="/ru/vacancy/">Вакансии</a></li>
+</ul>
+<ul class="col-xs-3">
+<li><a target="_self" href="/ru/lg/">Looking Glass</a></li>
+<li><a target="_self" href="/ru/netinfo/">Сетевые реквизиты</a></li>
+</ul>
+</div>
+<div class="logo-block">
+<ul>
+<li><a href="//cyfra.ua" class="footer-logo" target="_self"><img src="/img/logo-small.png" alt="ЦИФРА">Интернет провайдер</a></li>
+<li><p id="cr">© 1996-2023</p></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>

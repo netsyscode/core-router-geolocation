@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS8218 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<meta name=description content="AS8218 Looking Glass">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as8218.eu/"><IMG SRC="http://lg.as8218.eu/zayofr-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS8218 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD=POST ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;aspath-regex</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="as"></TD><TD>&nbsp;as</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="France Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Marseille Routers">
+<OPTION VALUE="tcr1.itx.mrs"> tcr1.itx.mrs
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Nantes Routers">
+<OPTION VALUE="ter1.hits.nts"> ter1.hits.nts
+<OPTION VALUE="ter2.hits.nts"> ter2.hits.nts
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Montpellier Routers">
+<OPTION VALUE="ter1.neodc.mpl"> ter1.neodc.mpl
+<OPTION VALUE="ter2.neodc.mpl"> ter2.neodc.mpl
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Lyon Routers">
+<OPTION VALUE="tcr1.sfr.lyn"> tcr1.sfr.lyn
+<OPTION VALUE="tcr2.sfr.lyn"> tcr2.sfr.lyn
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Paris Routers">
+<OPTION VALUE="tcr1.rb.par"> tcr1.rb.par
+<OPTION VALUE="tcr1.th2.par"> tcr1.th2.par
+<OPTION VALUE="tcr2.th2.par" SELECTED> tcr2.th2.par
+<OPTION VALUE="ter3.eqx2.par"> ter3.eqx2.par
+<OPTION VALUE="ter4.eqx2.par"> ter4.eqx2.par
+<OPTION VALUE="tcr1.gs.par"> tcr1.gs.par
+</OPTGROUP>
+<OPTGROUP LABEL="_">
+</OPTGROUP>
+<OPTGROUP LABEL="European Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Brusselles Routers">
+<OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Franckfurt Routers">
+<OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra
+<OPTION VALUE="tcr1.itx5.fra"> tcr1.itx5.fra
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Milan Routers">
+<OPTION VALUE="ter1.vcd.mil"> ter1.vcd.mil
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Luxembourg Routers">
+<OPTION VALUE="ter1.rtl.lux"> ter1.rtl.lux
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Vienna Routers">
+<OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie
+<OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Zurich Routers">
+<OPTION VALUE="tcr1.eqx2.zrh"> tcr1.eqx2.zrh
+</OPTGROUP>
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:contact@as8218.eu">contact@as8218.eu</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

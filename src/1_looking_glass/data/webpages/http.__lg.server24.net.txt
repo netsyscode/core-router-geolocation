@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Server24 Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Server24 Looking Glass">
+    <meta name="author" content="Server24">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="http://lg.server24.net/"><img src="https://www.server24.eu/s24.svg" alt="Server24"> Looking Glass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network Information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Server24 Cloud Munich</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 84.33.37.101</p>
+                <p>Test IPv6: 2001:1a38:37:0:44b:74ff:fe00:d</p>
+                <p>Test files: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network Tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="digtrace">dig (+trace)</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by <a href="https://www.server24.eu/">Server24</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

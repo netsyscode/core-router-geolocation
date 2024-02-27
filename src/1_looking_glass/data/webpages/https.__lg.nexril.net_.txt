@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nexril - Looking Glass: Dallas, Texas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexril Dallas, Texas Network Looking Glass">
+    <meta name="keywords" content="looking glass,nexril looking glass,nexril lg,dallas,texas,dallas looking glass,dallas lg,texas looking glass,texas lg,bgp looking glass,bgp route server,route server">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Container -->
+<div class="container">
+
+    <!-- Header -->
+    <header class="header nohighlight" id="overview">
+        <div class="row">
+            <div class="span12">
+                <h1>
+                    <a id="title" href="https://lg.nexril.net/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 723.1 279.1" height="75px">
+                            <defs>
+                                <style>
+                                    .cls-1 {isolation: isolate;}
+                                    .cls-2 {fill: #daedff;}
+                                    .cls-3{fill:#81b2e6;}
+                                    .cls-4{fill:#bedbf7;}
+                                    .cls-5,.cls-6,.cls-7{fill:#1873c8;}
+                                    .cls-5{opacity:0.2;}
+                                    .cls-5,.cls-6{mix-blend-mode:multiply;}
+                                    .cls-6{opacity:0.3;}
+                                    .cls-8{fill:#1056b3;}
+                                </style>
+                            </defs>
+                            <title>Nexril Logo</title>
+                            <g class="cls-1">
+                                <g id="logo" data-name="logo">
+                                    <polygon class="cls-2" points="206.81 81.55 223.92 91.44 223.92 93.02 219.05 95.01 214.55 96.85 127.29 146.87 40.03 96.85 35.53 94.25 30.67 91.44 47.33 81.81 52.19 84.62 61.72 79.12 25.98 58.49 127.32 0 228.04 58.13 192.5 78.91 201.97 84.37 206.81 81.55"/>
+                                    <polygon class="cls-3" points="254.58 103.6 254.58 220.58 245.21 226.01 162.61 273.7 153.24 279.1 153.24 255.08 158.11 252.26 158.11 241.02 153.24 243.83 153.24 238.23 127.29 253.22 127.29 146.87 214.55 96.85 219.05 94.25 223.92 91.44 223.92 121.3 254.58 103.6"/>
+                                    <polygon class="cls-4" points="0 103.59 0 220.59 9.37 226 91.97 273.69 101.34 279.11 101.34 255.07 96.47 252.25 96.47 241.01 101.34 243.84 101.34 238.22 127.29 253.22 127.29 146.87 40.03 96.84 30.67 91.44 30.66 121.3 0 103.59"/>
+                                    <polygon class="cls-5" points="219.05 94.25 219.05 200.23 158.11 235.42 153.24 238.23 127.98 252.81 127.29 253.22 101.34 238.23 96.47 235.42 35.53 200.23 35.53 94.25 52.19 84.62 61.72 79.12 66.59 76.31 127.32 41.25 187.65 76.11 192.5 78.91 201.97 84.37 218.19 93.75 219.05 94.25"/>
+                                    <polygon class="cls-5" points="4.87 217.79 4.87 112.02 96.47 164.91 96.47 270.68 4.87 217.79"/>
+                                    <polygon class="cls-6" points="40.03 197.63 91.97 227.62 91.97 167.51 40.03 137.52 40.03 197.63"/>
+                                    <polygon class="cls-6" points="162.61 167.51 162.61 227.62 214.55 197.63 214.55 137.52 162.61 167.51"/>
+                                    <polygon class="cls-6" points="75.6 76.32 127.3 106.16 178.7 76.14 127.32 46.45 75.6 76.32"/>
+                                    <polygon class="cls-5" points="35.72 58.49 127.32 5.6 218.36 58.17 127.32 111.36 35.72 58.49"/>
+                                    <polygon class="cls-5" points="249.71 112.03 249.71 217.79 158.11 270.69 158.11 164.91 219.05 129.72 249.71 112.03"/>
+                                    <path class="cls-7" d="M223.92,121.3V91.44l-17.11-9.89L202,84.37,197.49,87l16.22,9.37.84.48v29.84l-61.31,35.39v81.75l4.87-2.81,4.5-2.6,51.94-30,9.37-5.41V132.1l21.29-12.29V215.2l-82.6,47.68V249.66l-4.5,2.6-4.87,2.82v24l9.37-5.4L245.21,226l9.37-5.43v-117Zm-9.37,76.32-51.94,30V167.51l51.94-30Z"/>
+                                    <path class="cls-7" d="M40,126.69V96.85L56.7,87.23l-4.51-2.61-4.86-2.81L30.67,91.44v29.84h0L0,103.6v117L9.37,226,92,273.7l9.37,5.4v-24l-4.87-2.82-4.5-2.6v13.22L9.37,215.2V119.81l21.3,12.29V203L40,208.45l51.94,30,4.5,2.6,4.87,2.81V162.08ZM92,227.62,40,197.62v-60.1l51.94,30Z"/>
+                                    <path class="cls-7" d="M127.32,0,26,58.49,61.72,79.12,127.32,117l65.18-38.1L228,58.13ZM75.6,76.33h0l51.71-29.87L178.7,76.13l-51.4,30Zm-9.38-5.42L44.72,58.49l82.6-47.68L209.4,58.2,188,70.71,127.32,35.63Z"/>
+                                    <path class="cls-8" d="M290.81,119.59h11.34l1.89,11c6.42-8.5,17-12.85,30.23-12.85,22.11,0,36.09,11.34,36.09,35.14V216H355.8V151.9c0-14.93-9.45-21.54-24.56-21.54s-25.7,7.56-25.7,22.48V216H290.81Z"/>
+                                    <path class="cls-8" d="M473.52,186.1c-1.13,20.22-15.68,31.74-39.3,31.74-24.56,0-40.06-12.85-40.06-36.47V153.79c0-23.81,15.68-36.09,39.87-36.09,23.81,0,39.68,12.28,39.68,36.09v18.14h-65v10.39c0,14.17,9.07,22.86,25.51,22.86,15.87,0,24-7.94,24.75-19.08ZM408.7,160.22H459v-7.37c0-14.93-9.82-22.48-24.94-22.48-15.3,0-25.32,7.56-25.32,22.48Z"/>
+                                    <path class="cls-8" d="M525.85,178.73,499,216H482.58l35.14-47.8-35.14-48.56H500l26.64,37.22,26.83-37.22h16.44l-35.14,47.8L569.87,216H552.49Z"/>
+                                    <path class="cls-8" d="M586.88,119.59h11.34l2.08,12.09c8.5-11.34,24-16.06,38.55-12.66v13.23c-22.67-4.16-37.22,5.1-37.22,20.6V216H586.88Z"/>
+                                    <path class="cls-8" d="M654,79.35h14.74V100.7H654Zm0,40.25h14.74V216H654Z"/>
+                                    <path class="cls-8" d="M695.14,76.13h14.74V216H695.14Z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Network Information -->
+    <section id="information">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+                    <p>Server Location: <b>Dallas, Texas</b></p>
+                    <div style="margin-left: 10px;">
+                        <p>Test IPv4: 161.129.152.2</p>
+                        <p>Test IPv6: 2604:fbc0:1:1::</p>
+                    </div>
+                    <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Network Tests -->
+    <section id="tests">
+        <div class="row">
+            <div class="span12">
+                <form class="well form-inline" id="networktest" action="#results" method="post">
+                    <fieldset>
+                        <span id="legend">Network tests</span>
+                        <div id="hosterror" class="control-group">
+                            <div class="controls">
+                                <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                            </div>
+                        </div>
+                        <select id="cmd" name="cmd" class="input-medium" style="margin-left: 5px;" onchange="dropdownChange()">
+                            <option value="bgp" selected="selected">bgp route</option>
+                            <option value="ping">ping</option>
+                            <option value="mtr">mtr</option>
+                        </select>
+                        <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" style="display:none">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <span id="legend">Results</span>
+                    <pre id="response" style="display:none"></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+</div><!-- /container -->
+
+<!-- Javascript -->
+<script src="assets/js/jquery-1.11.2.min.js"></script>
+<script src="assets/js/LookingGlass.min.js"></script>
+<script src="assets/js/XMLHttpRequest.min.js"></script>
+
+<script>
+    function dropdownChange()
+    {
+        var cmd = $('#cmd :selected').attr('value');
+
+        if (cmd == 'bgpsummary') {
+            $('#host').attr('disabled', 'disabled');
+        } else {
+            $('#host').removeAttr('disabled');
+        }
+
+        if (cmd == 'bgp' || cmd == 'bgpsummary') {
+            $('#host').attr('placeholder', 'Prefix or IP address');
+        } else {
+            $('#host').attr('placeholder', 'Host or IP address');
+        }
+    }
+</script>
+</body>
+</html>

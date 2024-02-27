@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>TPIX (MIX2) - Looking glass</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="TPIX (MIX2) - Looking glass">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="img/cropped-logo.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+
+  <link rel="stylesheet" href="css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <div class="bootstrap-wrapper">
+    <!-- <div class="container-fluid premenu-container">
+    <div class="pre-menu col-12 position-relative d-block">
+      <div class="d-flex pre-menu-lng">
+        <a href="" class="pre-menu__link active">PL</a> <a href="" class="pre-menu__link ">EN</a></div>
+    </div>
+  </div> -->
+
+    <div class="container-fluid black-bg">
+      <div class="container menu-container">
+        <div class="row">
+          <a href="index.html" class="col-xl-2 col-12 d-flex logo-wrapper">
+            <img src="img/cropped-logo.png" alt="Orange" class="logo" />
+            <span class="slogan">TPIX<br />AS29535</span>
+          </a>
+          <div class="col-xl-9 col-12">
+            <div class="main-menu-wrapper">
+              <div class="d-flex main-menu">
+                <a href="https://www.hurt-orange.pl/2022/11/rpki-jeszcze-bezpieczniejsza-siec-orange/">RPKI</a>
+                <a href="http://tpix.pl/informacje_techniczne.html">Informacje techniczne</a>
+                <a href="serwery_lg.html">Serwery LG na Åwiecie</a>
+                <a href="https://lg.tpnet.pl/">TPNET - Lookingglass</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>
+            TPIX (MIX2) Looking Glass
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid grey-bg py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="query-header">Query</h2>
+          </div>
+        </div>
+        <div class="row" role="form">
+          <form id="lg-query-form" class="col-12 col-lg-6 lg-form" method="post" action="/cgi-bin/tpix.pl">
+
+            <div class="radios">
+              <label>
+                <input type="radio" name="query" value="bgp" checked /> Show route
+              </label>
+              <label>
+                <input type="radio" name="query" value="ping" /> Ping
+              </label>
+              <label>
+                <input type="radio" name="query" value="trace" /> Trace
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-10">
+                <input type="text" class="w-100" name="addr" />
+              </div>
+              <div class="d-none col-12 col-lg-6">
+                <div class="lg-form-control-wrap select-wrap">
+                  <select class="select w-100" name="router">
+                    <option vlaue="lodz_lg">lodz_lg</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <input type="submit" class="w-100 lg-submit" />
+              </div>
+              <div class="col-12 col-lg-5">
+                <input type="reset" class="w-100 lg-reset" />
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row submit-results">
+        <div class="col-12 col-lg-6 results" id="lg-results">
+          &nbsp;
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid dgrey-bg banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="banner-title banner-type-1__title text-white banner-type-1__title_63369a50636f8"> DoÅÄcz do&nbsp;TPIX<br>WypeÅnij formularz, 
+              a&nbsp;nasz doradca skontaktuje siÄ z&nbsp;TobÄ najszybciej, jak to&nbsp;moÅ¼liwe</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="banner-button"><a href="https://hurt-orange.pl/operatorzy-krajowi/kontakt/"
+                class="button button-large button-orange btn-sm m-0 rounded-0 text-decoration-none d-inline-block shadow-none mt-3">
+                Skontaktuj siÄ&nbsp;z nami </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid black-bg footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-menu_column col-6 col-sm-3 col-md-2 col-lg-2 mt-3 mt-lg-4 mb-4 mb-lg-5 pt-1 pt-lg-0">
+            <div class="row">
+              <div class="col-12">
+                <a href="https://www.hurt-orange.pl/operatorzy-krajowi/aktualnosci/">AktualnoÅci</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="https://biuroprasowe.orange.pl/">Dla mediÃ³w</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="https://www.hurt-orange.pl/operatorzy-krajowi/kontakt/">Kontakt</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-menu_column col-6 col-sm-3 col-md-2 col-lg-2 mt-3 mt-lg-4 mb-4 mb-lg-5 pt-1 pt-lg-0">
+            <div class="row">
+              <div class="col-12">
+                <a href="https://www.hurt-orange.pl/">Orange - oferta dla operatorÃ³w</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="https://cert.orange.pl/">CERT - zgÅoÅ niebezpieczne treÅci</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="js/lg.js"></script>
+
+</body>
+
+</html>

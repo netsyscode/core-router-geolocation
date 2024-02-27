@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dediserve looking glass and network speed test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="images/DS.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="location-page">
+
+
+<!-- Top Section
+******************************************-->
+<div class="container-fluid" id="top-wide" data-spy="affix">
+	<div id="top">
+		<div id="nav-wrap">
+			<nav id="nav" class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="http://dediserve.com/" class="navbar-brand">Dedi<span class="green">SERVE</span></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<ul class="nav-buttons">
+							<li><a href="https://manage.dediserve.com/clientarea/" class="btn btn-grey login-widget"><i class="icon-user"></i>&nbsp;Login</a></li>
+							<li><a href="https://manage.dediserve.com/cart/" class="btn btn-green"><i class="icon-power-off"></i> Start Now</a></li>
+						</ul>
+					</ul>
+				</div>
+			</nav>
+		</div><!-- /nav-wrap -->
+	</div>
+</div>
+
+<!-- Slider Section
+******************************************-->
+<div class="container-fluid" id="slider-wide">
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="images/slide-1.jpg" />
+			</li>
+		</ul>
+	</div><!-- /flexslider -->
+</div><!-- /slider-wide -->
+
+<!-- Header Section
+******************************************-->
+<div class="container-fluid" id="content-inner">
+
+	<div class="container" id="content">
+		<div class="container section" id="location-header" style="background-image: url('images/locations/c1.dal2.jpg">
+			<div class="header-overlay"></div>
+			<h1>Dallas 2, Texas, US</h1>
+		</div>
+
+		<div class="container section" id="location-title">
+			<span class="logo-dediserve"><span>Dedi</span>SERVE</span>
+			Network Looking Glass
+			<span class="location-id"><img src="images/pin-red.png" />Dallas 2, Texas, US</span>
+		</div>
+
+		<div class="container section" id="map-mask">
+			<div id="map">
+				<ul class="points">
+
+<li class="point c1-ams1">
+	<a href="http://speedtest.c1.ams1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag05.gif" />
+			<h5>Amsterdam, Netherlands, EU</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-jkt1">
+	<a href="http://speedtest.c1.jkt1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag12.gif" />
+			<h5>Jakarta, Indonesia, Asia</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-chg1">
+	<a href="http://speedtest.c1.chg1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag02.gif" />
+			<h5>Chicago, Illinois, US</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-dal1">
+	<a href="http://speedtest.c1.dal1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag02.gif" />
+			<h5>Dallas, Texas, US</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-dal2 location-active">
+	<a href="javascript: return false"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag02.gif" />
+			<h5>Dallas 2, Texas, US</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-dub3">
+	<a href="http://speedtest.c1.dub3.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag03.gif" />
+			<h5>Dublin, Ireland, EU</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-dx1">
+	<a href="http://speedtest.c1.dx1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag16.png" />
+			<h5>Dubai, United Arab Emirates</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-fra1">
+	<a href="http://speedtest.c1.fra1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag06.png" />
+			<h5>Frankfurt, Germany, EU</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-hkg1">
+	<a href="http://speedtest.c1.hkg1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag10.gif" />
+			<h5>Hong-Kong, Asia</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-jap1">
+	<a href="http://speedtest.c1.jap1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag14.png" />
+			<h5>Tokyo, Japan</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-lax1">
+	<a href="http://speedtest.c1.lax1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag02.gif" />
+			<h5>Los Angeles, California, US</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-lon2">
+	<a href="http://speedtest.c1.lon2.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag01.gif" />
+			<h5>London Docklands, United Kingdom, EU</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-lon3">
+	<a href="http://speedtest.c1.lon3.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag01.gif" />
+			<h5>London Maidenhead, United Kingdom, EU</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-mel1">
+	<a href="http://speedtest.c1.mel1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag09.gif" />
+			<h5>Melbourne, Australia</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-nyc1">
+	<a href="http://speedtest.c1.nyc1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag02.gif" />
+			<h5>Buffalo, New York, US</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-pol1">
+	<a href="http://speedtest.c1.pol1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag15.png" />
+			<h5>Warsaw, Poland, Europe</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-sin1">
+	<a href="http://speedtest.c1.sin1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag08.png" />
+			<h5>Singapore, Asia</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-syd1">
+	<a href="http://speedtest.c1.syd1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag09.gif" />
+			<h5>Sydney, Australia</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-tor1">
+	<a href="http://speedtest.c1.tor1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag13.png" />
+			<h5>Toronto, Ontario, Canada</h5>
+		</div>
+	</div>
+</li>
+
+<li class="point c1-vie1">
+	<a href="http://speedtest.c1.vie1.dediserve.com/"></a>
+	<div class="tip leftBottom">
+		<em class="icon corner i_cornerLeftBottom"></em>
+		<div class="hdTip">
+			<img src="images/flags/flag07.png" />
+			<h5>Vienna, Austria, EU</h5>
+		</div>
+	</div>
+</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="container section">
+
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Dallas 2, Texas, US</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 104.250.127.50</p>
+                <p>Test IPv6: 2602:ffb0:11::50</p>
+                <p>Test files: <a href="100MB.test" id="testfile">100MB</a> <a href="1GB.test" id="testfile">1GB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="form-control input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="form-control input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+		</div>
+
+	</div><!-- /content -->
+
+	<!-- Footer Section
+	******************************************-->
+	<div id="footer-wide" class="container-fluid">
+		<div id="footer-bottom" class="container">
+			<div class="col-sm-8">
+				<ul class="no-list">
+					<li><a href="http://dediservestatus.com">Status</a></li>
+					<li><a href="http://wiki.dediserve.com/">FAQ</a></li>
+					<li><a href="https://www.dediserve.com/blog">Blog</a></li>
+					<li><a href="https://www.dediserve.com/about">About</a></li>
+					<li><a href="https://www.dediserve.com/terms-of-service">Terms and Privacy</a></li>
+				</ul>
+				<div id="copy">
+					&copy; 2009-2017 dediserve&#153; Ltd. All Rights Reserved<br>Irish Registered Company No: 467906
+				</div>
+			</div><!-- /col-md-8 -->
+
+			<div id="footer-social" class="col-sm-4">
+				<h4>Connect with us:</h4>
+				<ul>
+					<li><a href="https://twitter.com/DediServe" title="twitter" class="icon i_twitter">twitter</a></li>
+					<li><a href="https://www.facebook.com/dediserve" title="facebook" class="icon i_facebook">facebook</a></li>
+					<li><a href="http://www.linkedin.com/company/dediserve-ltd" title="linkedin" class="icon i_linkedin">linkedin</a></li>
+				</ul>
+			</div><!-- /footer-social -->
+		</div><!-- /footer-bottom -->
+	</div><!-- /footer-wide -->
+
+</div><!-- /content-inner -->
+
+
+    <!-- Javascript -->
+    <script src="js/LookingGlass.min.js"></script>
+    <script src="js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

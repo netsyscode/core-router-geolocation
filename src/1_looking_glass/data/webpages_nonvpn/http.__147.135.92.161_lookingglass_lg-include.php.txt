@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>http://www.seflow.net - SeFlow Looking Glass - Milan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <a href="https://www.seflow.net "><img src="https://www.seflow.net/wp-content/uploads/2018/06/seflow-logo_150x44.png"></a>
+            <h1><a id="title" href="/lookingglass/lg-include.php">SeFlow - Vint Hill VA, USA</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span8">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Vint Hill , USA</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 147.135.92.161</p>
+                <p>Test IPv6: 2604:2dc0:100:a:0:10:3d:44c3</p>
+                <p>Test files: <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+
+<div class=span4>
+            <div class=well>
+              <span id=legend>
+                More Locations
+              </span>
+<p><a href="http://83.136.107.1/lookingglass/lg-include.php">Milan, IT</a></p><p><a href="http://147.135.92.161/lookingglass/lg-include.php">Vint Hill   VA, USA</a></p><p><a href="http://54.36.225.113/lookingglass/lg-include.php">London, UK</a></p><p><a href="http://95.216.56.194/lookingglass/lg-include.php">Helsinki, FIN</a></p><p><a href="http://178.63.120.115/lookingglass/lg-include.php">FrankFurt, DE</a></p><p><a href="http://149.202.238.233/lookingglass/lg-include.php">Strasbourg, FR</a></p><p><a href="http://144.217.56.172/lookingglass/lg-include.php">Montreal, CA</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+        </p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

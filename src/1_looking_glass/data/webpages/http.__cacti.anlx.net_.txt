@@ -1,0 +1,48 @@
+<br />
+<b>Warning</b>:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 192.168.1.254:23 in <b>/var/www/lg/klg_router_functions.php</b> on line <b>255</b><br />
+<HTML>
+<HEAD><TITLE>Associated Networks (UK) Ltd [AS25061] -- Looking Glass</TITLE>
+<STYLE type="text/css" rel="stylesheet">
+option.box1 {
+  background: #DDFFDD;
+}
+option.box2 {
+  background: #DDDDFF;
+}
+option.box3 {
+  background: #FFDDDD;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<form action="" method="GET">
+
+Router: <select name="server">
+<option value="Main-01" selected>Main-01</option>
+<option value="Main-02">Main-02</option>
+<option value="Main-06">Main-06</option>
+</select><br>
+Query Type: <select name="action">
+<option class="box1" value="">-- IPv4 --</option>
+<option class="box1" value="show ip bgp" selected>show ip bgp &lt;ip&gt;</option>
+<option class="box1" value="show ip bgp summary">show ip bgp summary</option>
+<option class="box1" value="show ip route">show ip route &lt;ip&gt;</option>
+<option class="box1" value="show ip bgp regexp">show ip bgp regexp &lt;expression&gt;</option>
+<option class="box2" value="">-- IPv6 --</option>
+<option class="box2" value="show bgp ipv6">show bgp ipv6 &lt;ip/prefixlen&gt;</option>
+<option class="box2" value="show bgp summary">show bgp summary</option>
+<option class="box2" value="show ipv6 route">show ipv6 route &lt;ip/prefixlen&gt;</option>
+<option class="box2" value="show bgp ipv6 regexp">show bgp ipv6 regexp &lt;expression&gt;</option>
+<option class="box3" value="">-- Non-specific --</option>
+<option class="box3" value="ping">ping &lt;ip&gt;</option>
+<option class="box3" value="traceroute">traceroute &lt;ip&gt;</option>
+</select><br>
+Arguments: <input type="text" name="args" value="164.70.99.9"><br>
+<input type="submit" value="Query">
+</form>
+<pre><font face="Courier, Fixedsys, OCR Extended A" size=2 color=black></font></pre>
+<br><font size="1">// $Id: klg.php,v 1.9 2005/07/17 17:35:37 kewlio Exp $ //<br>
+Source code available at: <a href="http://sourceforge.net/projects/klg/">http://sourceforge.net/projects/klg/</a></font><br><br>
+
+</BODY>
+</HTML>

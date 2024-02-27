@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<meta name=description content="Looking Glass">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><IMG SRC="/SUNET-logo.png" BORDER="0" ALT="LG"></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD=POST ACTION="/lg.cgi">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="Core Routers">
+<OPTION VALUE="bos-r1"> bos-r1
+<OPTION VALUE="fln4-r1"> fln4-r1
+<OPTION VALUE="sthb-r1"> sthb-r1
+<OPTION VALUE="sthb-r2"> sthb-r2
+<OPTION VALUE="fsn2-r1"> fsn2-r1
+<OPTION VALUE="gbg7-r1"> gbg7-r1
+<OPTION VALUE="gbg7-r2"> gbg7-r2
+<OPTION VALUE="hsd1-r1"> hsd1-r1
+<OPTION VALUE="jkg-r1"> jkg-r1
+<OPTION VALUE="kar1-r1"> kar1-r1
+<OPTION VALUE="kir3-r1"> kir3-r1
+<OPTION VALUE="kir3-r2"> kir3-r2
+<OPTION VALUE="kir5-r1"> kir5-r1
+<OPTION VALUE="kka8-r1"> kka8-r1
+<OPTION VALUE="klx1-r1"> klx1-r1
+<OPTION VALUE="kmr88-r1"> kmr88-r1
+<OPTION VALUE="ksd1-r1"> ksd1-r1
+<OPTION VALUE="lba-r1"> lba-r1
+<OPTION VALUE="lin3-r1"> lin3-r1
+<OPTION VALUE="lla1-r1"> lla1-r1
+<OPTION VALUE="lla1-r2"> lla1-r2
+<OPTION VALUE="lnd88-r1"> lnd88-r1
+<OPTION VALUE="mcen1-r1"> mcen1-r1
+<OPTION VALUE="nkg188-r1"> nkg188-r1
+<OPTION VALUE="sbo-r1"> sbo-r1
+<OPTION VALUE="ske109-r1"> ske109-r1
+<OPTION VALUE="sva-r1"> sva-r1
+<OPTION VALUE="trh-r1"> trh-r1
+<OPTION VALUE="tug-r1" SELECTED> tug-r1
+<OPTION VALUE="tug-r2"> tug-r2
+<OPTION VALUE="tug-r3"> tug-r3
+<OPTION VALUE="ume8-r1"> ume8-r1
+<OPTION VALUE="upa-r1"> upa-r1
+<OPTION VALUE="vxj-r1"> vxj-r1
+</OPTGROUP>
+<OPTGROUP LABEL="CPE Routers">
+<OPTION VALUE="bos-r2"> bos-r2
+<OPTION VALUE="bth-r1"> bth-r1
+<OPTION VALUE="bth-r2"> bth-r2
+<OPTION VALUE="cth-r1"> cth-r1
+<OPTION VALUE="cth-r2"> cth-r2
+<OPTION VALUE="du-r1"> du-r1
+<OPTION VALUE="du-r2"> du-r2
+<OPTION VALUE="ess-r1"> ess-r1
+<OPTION VALUE="ess-r2"> ess-r2
+<OPTION VALUE="fls-r1"> fls-r1
+<OPTION VALUE="gih-r1"> gih-r1
+<OPTION VALUE="gu-r1"> gu-r1
+<OPTION VALUE="gu-r2"> gu-r2
+<OPTION VALUE="hb-r1"> hb-r1
+<OPTION VALUE="hb-r2"> hb-r2
+<OPTION VALUE="hh-r1"> hh-r1
+<OPTION VALUE="hh-r2"> hh-r2
+<OPTION VALUE="hhs-r1"> hhs-r1
+<OPTION VALUE="hhs-r2"> hhs-r2
+<OPTION VALUE="hig-r1"> hig-r1
+<OPTION VALUE="hig-r2"> hig-r2
+<OPTION VALUE="his-r1"> his-r1
+<OPTION VALUE="his-r2"> his-r2
+<OPTION VALUE="hj-r1"> hj-r1
+<OPTION VALUE="hj-r2"> hj-r2
+<OPTION VALUE="hkr-r1"> hkr-r1
+<OPTION VALUE="hkr-r2"> hkr-r2
+<OPTION VALUE="hv-r1"> hv-r1
+<OPTION VALUE="hv-r2"> hv-r2
+<OPTION VALUE="irf-r1"> irf-r1
+<OPTION VALUE="irf-r2"> irf-r2
+<OPTION VALUE="kau-r1"> kau-r1
+<OPTION VALUE="kau-r2"> kau-r2
+<OPTION VALUE="ki-r1"> ki-r1
+<OPTION VALUE="ki-r2"> ki-r2
+<OPTION VALUE="klx1-r2"> klx1-r2
+<OPTION VALUE="kth-r1"> kth-r1
+<OPTION VALUE="kth-r2"> kth-r2
+<OPTION VALUE="kth-r3"> kth-r3
+<OPTION VALUE="kth-r4"> kth-r4
+<OPTION VALUE="liu-r1"> liu-r1
+<OPTION VALUE="liu-r2"> liu-r2
+<OPTION VALUE="lnu-r1"> lnu-r1
+<OPTION VALUE="lnu-r2"> lnu-r2
+<OPTION VALUE="lnu-r5"> lnu-r5
+<OPTION VALUE="lnu-r6"> lnu-r6
+<OPTION VALUE="ltu-r1"> ltu-r1
+<OPTION VALUE="ltu-r2"> ltu-r2
+<OPTION VALUE="lu-r1"> lu-r1
+<OPTION VALUE="lu-r2"> lu-r2
+<OPTION VALUE="mah-r1"> mah-r1
+<OPTION VALUE="mah-r2"> mah-r2
+<OPTION VALUE="mdh-r1"> mdh-r1
+<OPTION VALUE="mdh-r2"> mdh-r2
+<OPTION VALUE="miun-r1"> miun-r1
+<OPTION VALUE="miun-r2"> miun-r2
+<OPTION VALUE="onsala-r1"> onsala-r1
+<OPTION VALUE="oru-r1"> oru-r1
+<OPTION VALUE="oru-r2"> oru-r2
+<OPTION VALUE="sh-r1"> sh-r1
+<OPTION VALUE="sh-r2"> sh-r2
+<OPTION VALUE="slu-r1"> slu-r1
+<OPTION VALUE="slu-r2"> slu-r2
+<OPTION VALUE="slu-ume-r1"> slu-ume-r1
+<OPTION VALUE="slu-ume-r2"> slu-ume-r2
+<OPTION VALUE="su-r1"> su-r1
+<OPTION VALUE="su-r2"> su-r2
+<OPTION VALUE="umu-r1"> umu-r1
+<OPTION VALUE="umu-r2"> umu-r2
+<OPTION VALUE="uu-r1"> uu-r1
+<OPTION VALUE="uu-r2"> uu-r2
+<OPTION VALUE="vsby-r1"> vsby-r1
+<OPTION VALUE="vsby-r2"> vsby-r2
+</OPTGROUP>
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:noc@sunet.se">noc@sunet.se</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

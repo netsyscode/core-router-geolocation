@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta charset="UTF-8" />
+<TITLE>Looking Glass at BroadBand Tower(AS9607)</TITLE>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+/*å®è¡ãã¿ã³æ¼ä¸æã®é¢æ°*/
+function Form_Submit(){
+	document.forms["addForm"].submit();  //ï¾ï½«ï½°ï¾åå®¹ãéä¿¡ãã¾ããâ»ï½»ï¾ï¾ï¾ï¾ã®ããï½ºï¾ï¾ï¾ï½±ï½³ï¾ãã¦ãã¾ãã
+        /*ã¡ãã»ã¼ã¸ãéè¡¨ç¤ºç¶æããè¡¨ç¤ºç¶æã¸å¤æ´ãã¾ãã 
+        ãã¡ãã»ã¼ã¸ãè¡¨ç¤ºãã¦ããSubmitãè¡ãã¨GIFã¢ãã¡ãåçãããªãããã
+        ãSubmitãã¦ããã¡ãã»ã¼ã¸ãè¡¨ç¤ºãã¦ãã¾ãã*/
+	document.getElementById("Loading").style.display = "block";  //ï¾ï½¯ï½¾ï½°ï½¼ï¾ã®DIVè¦ç´ ãï½½ï¾ï½²ï¾ï½¼ï½°ï¾ã®displayï¾ï¾ï¾ï¾ï¾ï¾ï½¨ã§éè¡¨ç¤ºããè¡¨ç¤ºã¸å¤æ´ãã¾ã
+	document.getElementById("Loading").style.top = 150
+	document.getElementById("Loading").style.left = (document.body.clientWidth - 300) / 2; //ï¾ï½¯ï½¾ï½°ï½¼ï¾ã®DIVè¦ç´ ãç»é¢ä¸­å¤®ã«éç½®ãã¾ã
+}
+</script>
+</head>
+
+<BODY>
+<FORM name="addForm" ACTION="cgi-bin/lg.cgi" METHOD="POST">
+<A HREF="http://www.bbtower.co.jp/"><IMG SRC="images/logo_color.gif" WIDTH="80" ALIGN="TOP" BORDER="0" ALT="BroadBand Tower"></A>&nbsp;&nbsp;&nbsp;&nbsp;<FONT SIZE="+3">BBTower(AS9607) Looking Glass</FONT>
+
+<HR NOSHADE ALIGN=RIGHT>
+<BR>
+<UL>
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="ping" CHECKED>ping
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="traceroute">traceroute
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show ip bgp">show ip bgp (prefix is allowed as argument)
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show ip bgp regexp">show ip bgp regexp
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show ip bgp summary">show ip bgp summary
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="ping6">ping6
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="traceroute6">traceroute6
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show bgp ipv6">show bgp ipv6 (prefix is allowed as argument)
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show bgp ipv6 regexp">show bgp ipv6 regexp
+<LI><INPUT TYPE="RADIO" NAME="CMD" VALUE="show bgp ipv6 summary">show bgp ipv6 summary
+</UL>
+<H3>Argument: <INPUT TYPE="TEXT" NAME="ARG"></H3>
+<P>
+<!--<INPUT TYPE="SUBMIT" VALUE="SUBMIT">-->
+<INPUT type="button" VALUE="SUBMIT" onclick="Form_Submit()" class="hand">
+<INPUT TYPE="RESET" VALUE="RESET">
+</form>
+<!--ãã°ãããå¾ã¡ä¸ãã ã¡ãã»ã¼ã¸-->
+<div id="Loading" style="display:none;">
+        <img src="images/loading.gif" class="loadimg">
+        <p class="loadmsg">
+	Please Wait... <br /> ãã°ãããå¾ã¡ä¸ããã
+        </p>
+</div>
+</P>
+<BR>
+<p>
+</p>
+<H3>Notice</H3>
+This system is provided only for your convenience
+and isn't our product, so...
+<UL>
+<LI>changeness, temporarily or parmanent outage may occur without notification.
+<LI>no support even though you're our customer.
+</UL>
+</BODY>
+</HTML>

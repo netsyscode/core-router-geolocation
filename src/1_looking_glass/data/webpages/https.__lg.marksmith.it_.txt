@@ -1,0 +1,8 @@
+<style>
+body {background-color:#000000;}
+</style>
+<center>
+<h1 style='color:#fff;'>Oops, this is a bit embarrassing. I don't know what to do here!</h1>
+<font style='color:#fff;'>Hmm, let's trying clicking <a href=https://www.servicesforfree.com style='color:a0a0a0;'>here</a> to return to the home page...<br />
+<img src=alpaca.jpg></center>
+

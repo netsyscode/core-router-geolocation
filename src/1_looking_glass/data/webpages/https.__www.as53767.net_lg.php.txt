@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>iCastCenter Transit Network - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr><td valign="top" style="padding-top: 10px;">
+			<a href="https://as53767.net">
+			<img src="https://www.icastcenter.com/images/icastcenter-logo-shadow.jpg" border="0"></a>
+		</td><td width="20"></td><td>
+			<h1 style="margin: 0px 0px 0px 0px;"><a id="title" href="/lg.php">iCastCenter Transit Network</a></h1>
+			<b>Looking Glass</b>
+		</td></tr></table>
+
+			Reduce your costs and improve your network performance! We offer full featured and scalable wholesale IP Transit services at competitive rates. &nbsp;
+			Contact us at <a href="mailto:sales@icastcenter.com">sales@icastcenter.com</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row" style="margin-bottom: 0px;padding-bottom: 0px;">
+          <div class="span12" style="margin-bottom: 0px;padding-bottom: 0px;">
+            <div class="well" style="padding-bottom: 0px;">
+              <!-- <span id="legend">Network information</span> --> <!-- IE/Safari dislike <legend> out of context -->
+              <p>Testing Location: <b>Phoenix NAP, Phoenix, AZ, USA</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 199.180.73.26</p>
+                <p>Test IPv6: 2605:9d00:0:2::2</p>
+                <p>Test files: <a href="100MB.test" id="testfile">100MB</a> <a href="1GB.test" id="testfile">1GB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                  <option value="ping">ping</option>
+                  <option value="ping6">ping6</option>		 
+                  <option value="mtr" selected>mtr</option>
+                  <option value="mtr6">mtr6</option>		
+                  <option value="host">host</option>
+                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well" style="padding-bottom: 8px;">
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" style="margin-top: 5px;">
+        <p class="pull-right" style="margin-top: 0px;">
+            <font size="-3"><a href="#">Back to top</a></font>
+        </p>
+        <p style="margin-top: 0px;"><font size="-3">Powered by <a href="https://github.com/telephone/LookingGlass" target="_Blank">LookingGlass</a>
+ &nbsp;|&nbsp; Hosted by <a href="https://as53767.net">iCastCenter Transit Network</a> </font></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

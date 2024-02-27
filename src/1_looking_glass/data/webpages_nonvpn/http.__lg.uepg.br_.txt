@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>ASN 53046 - UEPG - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="http://177.101.22.142/">ASN 53046 - UEPG</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+                <p><a href="https://www2.uepg.br/nti/peering-policy" target="_blank">Peering policy and NOC Contact</a></p>
+                <p><a href="https://lg.uepg.br/lg" target="_blank">BGP Looking Glass</a></p>
+                <p><a href="https://lg.uepg.br/speedtest" target="_blank">Speedtest</a></p>
+                <span id="legend"></span>
+              <p>Server Location: <b>Ponta Grossa, Parana, Brasil</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 177.101.22.142</p>
+                <p>Test IPv6: 2804:1f04:c000:282::142</p>
+                <p>Test files: <a href="10MB.test" id="testfile">10MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address or ASN">
+                  </div>
+                </div>
+                <select name="cmd" class="input-large" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                    <option value="dns">DNS - IPv6 e DNSSEC</option>
+                    <!-- <option value="asn">ASN - Roteamento Seguro</option> -->
+                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+        <section id="tests">
+            <div class="row">
+                <div class="span12">
+                    <form class="well form-inline" id="networktest2" action="#results" method="post">
+                        <fieldset>
+                            <span id="legend">Routing Security</span>
+                            <div id="hosterror2" class="control-group">
+                                <div class="controls">
+                                    <input id="asn" name="asn" type="text" class="input-large" placeholder="ASN (AS Number)">
+                                </div>
+                            </div>
+                            <input type="hidden" name="cmd" value="asn">
+                            <button type="submit" id="submit2" name="submit2" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Based on <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//matomo.apps.uepg.br/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '84']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+  </body>
+</html>

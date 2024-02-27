@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="Hybula" name="author">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="1" rel="stylesheet">    </head>
+<body>
+
+<div class="col-lg-6 mx-auto p-3 py-md-5">
+
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <div class="col-8">
+                <a class="d-flex align-items-center text-dark text-decoration-none" href="https://serverhub.com" target="_blank">
+                    <img src="serverhublogoblack.png" alt="Logo">                </a>                </a>
+            </div>
+            <div class="col-4 float-end">
+                <select class="form-select" onchange="window.location = this.options[this.selectedIndex].value">
+                    <option selected>New York, USA</option>
+                                            <option value="https://lg-chicago.serverhub.com">Chicago, USA</option>
+                                            <option value="https://lg-dallas.serverhub.com">Dallas, USA</option>
+                                            <option value="https://lg-frankfurt.serverhub.com">Frankfurt, Germany</option>
+                                            <option value="https://lg-losangeles.serverhub.com">Los Angeles, USA</option>
+                                            <option value="https://lg-miami.serverhub.com">Miami, USA</option>
+                                            <option value="https://lg-phoenix.serverhub.com">Phoenix, USA</option>
+                                            <option value="https://lg-seattle.serverhub.com">Seattle, USA</option>
+                                            <option value="https://lg-warsaw.serverhub.com">Warsaw, Poland</option>
+                                    </select>
+            </div>
+    </header>
+
+    <main>
+
+                <div class="row mb-5">
+            <div class="card shadow-lg">
+                <div class="card-body p-3">
+                    <h1 class="fs-4 card-title mb-4">Network</h1>
+
+                    <div class="row mb-3">
+                        <div class="col-md-7">
+                            <label class="mb-2 text-muted">Location</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" value="New York, USA" onfocus="this.select()" readonly="">
+                                <a class="btn btn-outline-secondary" href="https://www.openstreetmap.org/search?query=New+York%2C+USA" target="_blank">Map</a>
+                                                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Locations</button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                        <li><a class="dropdown-item" href="https://lg-chicago.serverhub.com">Chicago, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-dallas.serverhub.com">Dallas, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-frankfurt.serverhub.com">Frankfurt, Germany</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-losangeles.serverhub.com">Los Angeles, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-miami.serverhub.com">Miami, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-phoenix.serverhub.com">Phoenix, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-seattle.serverhub.com">Seattle, USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://lg-warsaw.serverhub.com">Warsaw, Poland</a></li>
+                                                                    </ul>
+                                                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label class="mb-2 text-muted">Facility</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" value="Eonix Corp." onfocus="this.select()" readonly="">
+                                <a href="https://www.peeringdb.com/fac/6084" class="btn btn-outline-secondary" target="_blank">PeeringDB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label class="mb-2 text-muted">Test IPv4</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" value="23.231.85.12" onfocus="this.select()" readonly="">
+                                <button class="btn btn-outline-secondary" onclick="copyToClipboard('23.231.85.12', this)">Copy</button>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label class="mb-2 text-muted">Test IPv6</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" value="" onfocus="this.select()" readonly="">
+                                <button class="btn btn-outline-secondary" onclick="copyToClipboard('', this)">Copy</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="mb-2 text-muted">Your IP</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" value="164.70.99.9" onfocus="this.select()" readonly="">
+                                <label class="input-group-text" title="Latency between this looking glass and your connection." style="cursor: help;"><small>164 MS</small></label>                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+                <div class="row pb-5">
+            <div class="card shadow-lg">
+                <div class="card-body p-3">
+                    <h1 class="fs-4 card-title mb-4">Looking Glass</h1>
+                    <form method="POST" autocomplete="off">
+                        <input type="hidden" name="csrfToken" value="dd79273bf7a7360b10087e0f">
+
+                        <div class="row">
+                            <div class="col-md-7 mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1">Target</span>
+                                    <input type="text" class="form-control" placeholder="IP address or host..." name="targetHost" value="" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-5 mb-3">
+                                <div class="input-group">
+                                    <label class="input-group-text">Method</label>
+                                    <select class="form-select" name="backendMethod" id="backendMethod">
+                                                                                    <option value="ping">ping</option>
+                                                                                    <option value="ping6">ping6</option>
+                                                                                    <option value="mtr">mtr</option>
+                                                                                    <option value="mtr6">mtr6</option>
+                                                                                    <option value="traceroute">traceroute</option>
+                                                                                    <option value="traceroute6">traceroute6</option>
+                                                                            </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                                                        <button type="submit" class="btn btn-primary ms-auto" id="executeButton" name="submitForm">
+                                Execute
+                            </button>
+                        </div>
+
+                        
+                        <div class="card card-body bg-light mt-4" style="display: none;" id="outputCard">
+                            <pre id="outputContent" style="white-space: pre;word-wrap: normal;margin-bottom: 0;padding-bottom: 1rem;"></pre>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        
+                <div class="row pb-5">
+            <div class="card shadow-lg">
+                <div class="card-body p-3">
+                    <h1 class="fs-4 card-title mb-4">Speedtest</h1>
+
+                    
+                    <div class="row">
+                        <label class="mb-2 text-muted">Test Files</label>
+                        <div class="btn-group input-group mb-3">
+                                                            <a href="https://lg-newyork.serverhub.com/100MB.bin" class="btn btn-outline-secondary">100M</a>
+                                                            <a href="https://lg-newyork.serverhub.com/1GB.bin" class="btn btn-outline-secondary">1G</a>
+                                                            <a href="https://lg-newyork.serverhub.com/10GB.bin" class="btn btn-outline-secondary">10G</a>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--OST Widget code start--><div style="text-align:right;"><div style="min-height:360px;"><div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//lg-newyork.serverhub.com:3001"></iframe></div></div>Provided by <a href="https://eonix.net">EonixCorp</a></div><!-- OST Widget code end -->
+        
+    </main>
+    <footer class="pt-3 mt-5 my-5 text-muted border-top">
+        <a href="https://eonix.net" target="_blank" class="float-end"><img src="" alt=""></a>
+    </footer>
+</div>
+
+
+<script type="text/javascript">
+    async function copyToClipboard(text, button) {
+        if (!navigator || !navigator.clipboard || !navigator.clipboard.writeText) {
+            return Promise.reject('The Clipboard API is not available.')
+        }
+
+        button.innerHTML = 'Copied!'
+        await navigator.clipboard.writeText(text)
+        await new Promise(r => setTimeout(r, 2000))
+        button.innerHTML = 'Copy'
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

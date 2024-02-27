@@ -1,0 +1,134 @@
+<html><body>
+
+<h1>Aplitt Sp. z o.o</h1>
+
+<b>This is a technical purpose only page. Official webpage: <A HREF="https://www.aplitt.pl" target=_blank>www.aplitt.pl</A> </b>
+<BR>
+
+<BR>
+<BR>
+
+<center>
+|
+PeeringDB:
+<A HREF="http://www.peeringdb.com/view.php?asn=49420" target=_blank>AS 49420</A>
+|
+Peering Policy:
+<A HREF="http://peering.aplitt.net" target=_blank>Open</A> 
+|
+Looking Glass:
+<A HREF="http://lg.aplitt.net" target=_blank>LG</A> 
+|
+SpeedTest:
+<A HREF="http://speedtest.aplitt.net/speedtest-local" target=_blank>Native</A>,
+<A HREF="http://aplitt.fireprobe.net/" target=_blank>SpeedTest.pl</A> 
+<A HREF="http://aplitt.dualstack.speedtestcustom.com/" target=_blank>Ookla</A> 
+
+|
+K-Root DNS:
+<A HREF="https://www.ripe.net/analyse/dns/k-root/statistics?type=SINGLE&statistic=nodes" target=_blank>ns1.pl-gdy</A>
+|
+AS112 Project:
+<A HREF="http://as112.aplitt.net" target=_blank>AS112</A> 
+|
+NTP:
+<A HREF="https://www.ntppool.org/a/Aplitt" target=_blank>ntp0.pl, ntp1.pl, ntp2.pl</A> 
+|
+RIPE ATLAS:
+<A HREF="https://atlas.ripe.net/probes/22916/#!tab-builtins" target=_blank>Gdynia</A> / 
+<A HREF="https://atlas.ripe.net/probes/23212/#!tab-builtins" target=_blank>Gdansk</A> / 
+<A HREF="https://atlas.ripe.net/probes/26291/#!tab-builtins" target=_blank>Warszawa</A>
+|
+NLNOG:
+<A HREF="http://lg.ring.nlnog.net/detail/lg01/ipv4?q=TFSKOK1" target=_blank>TFSKOK1</A> 
+|
+Qradar:
+<A HREF="https://radar.qrator.net/as49420" target=_blank>Aplitt ASN</A> 
+|
+
+<BR>
+
+
+</center>
+
+
+<BR>
+<br>
+<b>We are local <A HREF="https://bip.uke.gov.pl/rpt/rejestr-przedsiebiorcow-telekomunikacyjnych/?p=2&page=1&numer=12131" target=_blank>ISP</A> and <A HREF="https://www.ripe.net/membership/indices/data/pl.aplitt.html" target=_blank>LIR</A>.</b>
+
+<br>
+
+
+
+
+
+<HR>
+
+
+
+
+
+<center>
+<table border=0 width=10% CELLPADDING=10 CELLSPACING=10>
+<script src="https://stat.ripe.net/widgets/widget_api.js"></script>
+<tr>
+<td valign=top>
+<div class="statwdgtauto"><script>ripestat.init("routing-status",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("prefix-size-distribution",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("abuse-contact-finder",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("as-overview",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("registry-browser",{"use_live_lookups":1,"include_backward_refs":0,"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("geoloc-history",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("whois",{"resource":"AS49420"},null,{"size":"small","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+</td>
+
+
+<td valign=top>
+<div class="statwdgtauto"><script>ripestat.init("routing-history",{"min_peers":0,"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("as-routing-consistency",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("reverse-dns-consistency",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("bgp-update-activity",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("asn-neighbours-history",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("prefix-count",{"resource":"AS49420","starttime":"2000-01-01T00:00:00"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("ris-first-last-seen",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("geoloc",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+
+</td>
+
+
+<td valign=top>
+<div class="statwdgtauto"><script>ripestat.init("visibility",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("as-path-length",{"sort_by":"geo","resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("asn-neighbours",{"resource":"AS49420","starttime":"2000-01-01T00:00"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("announced-prefixes",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("atlas-probes",{"resource":"AS49420"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+<div class="statwdgtauto"><script>ripestat.init("allocation-history",{"resource":"AS49420","starttime":"2000-01-01T00:00"},null,{"size":"medium","disable":["controls","data","embed-code","permalink","info"]})</script></div>
+</td>
+
+</tr>
+
+
+
+</table>
+</center>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

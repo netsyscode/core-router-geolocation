@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Virtutel AS24516 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<meta name=description content="Virtutel AS24516 Looking Glass">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.virtutel.com.au/"><IMG SRC="https://www.virtutel.com.au/wp-content/uploads/2021/05/Virtutel-RGB-lg.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Virtutel AS24516 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD=POST ACTION="/lg/lg.cgi">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp CHECKED></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME=protocol>
+<OPTION VALUE=IPv4> IPv4
+<OPTION VALUE=IPv6> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTION VALUE="Primary Route Reflector" SELECTED> Primary Route Reflector
+<OPTION VALUE="Melbourne, Vocus VDC3, AU"> Melbourne, Vocus VDC3, AU
+<OPTION VALUE="Melbourne, Equinix ME1, AU"> Melbourne, Equinix ME1, AU
+<OPTION VALUE="Melbourne, NextDC M1, AU"> Melbourne, NextDC M1, AU
+<OPTION VALUE="Sydney, Equinix SY1, AU"> Sydney, Equinix SY1, AU
+<OPTION VALUE="Sydney, NextDC S1, AU"> Sydney, NextDC S1, AU
+<OPTION VALUE="Brisbane, NextDC B1, AU"> Brisbane, NextDC B1, AU
+<OPTION VALUE="Brisbane, Equinix BR1, AU"> Brisbane, Equinix BR1, AU
+<OPTION VALUE="Canberra, NextDC C1, AU"> Canberra, NextDC C1, AU
+<OPTION VALUE="Hobart, 7HOB POI, AU"> Hobart, 7HOB POI, AU
+<OPTION VALUE="Adelaide, YourDC HAWT, AU"> Adelaide, YourDC HAWT, AU
+<OPTION VALUE="Darwin, SecureDC, AU"> Darwin, SecureDC, AU
+<OPTION VALUE="Perth, NextDC P1, AU"> Perth, NextDC P1, AU
+<OPTION VALUE="Perth, Equinix PE2, AU"> Perth, Equinix PE2, AU
+<OPTION VALUE="Auckland, 220QueenDC, NZ"> Auckland, 220QueenDC, NZ
+<OPTION VALUE="Auckland, Spark MDR, NZ"> Auckland, Spark MDR, NZ
+<OPTION VALUE="Los Angeles, Coresite LA1, US"> Los Angeles, Coresite LA1, US
+<OPTION VALUE="Singapore, Equinx SG3, SG"> Singapore, Equinx SG3, SG
+</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN=CENTER COLSPAN=3>
+<P>
+<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><DIV ALIGN="CENTER"><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></DIV></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:noc@virtutel.com.au">noc@virtutel.com.au</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

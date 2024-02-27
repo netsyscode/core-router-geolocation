@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>TPIX (MIX2) - Looking glass</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="TPIX (MIX2) - Looking glass">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="img/cropped-logo.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+
+  <link rel="stylesheet" href="css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <div class="bootstrap-wrapper">
+    <!-- <div class="container-fluid premenu-container">
+    <div class="pre-menu col-12 position-relative d-block">
+      <div class="d-flex pre-menu-lng">
+        <a href="" class="pre-menu__link active">PL</a> <a href="" class="pre-menu__link ">EN</a></div>
+    </div>
+  </div> -->
+
+    <div class="container-fluid black-bg">
+      <div class="container menu-container">
+        <div class="row">
+          <a href="index.html" class="col-xl-2 col-12 d-flex logo-wrapper">
+            <img src="img/cropped-logo.png" alt="Orange" class="logo" />
+            <span class="slogan">TPIX<br />AS29535</span>
+          </a>
+          <div class="col-xl-9 col-12">
+            <div class="main-menu-wrapper">
+              <div class="d-flex main-menu">
+                <a href="https://www.hurt-orange.pl/2022/11/rpki-jeszcze-bezpieczniejsza-siec-orange/">RPKI</a>
+                <a href="http://tpix.pl/informacje_techniczne.html">Informacje techniczne</a>
+                <a href="serwery_lg.html">Serwery LG na 

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://ix.nap.africa/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="UJMbDqRBNfgQq6y09JxExOe59mkLXzrkDHUrRA2j">
+
+        <link rel="stylesheet" type="text/css" href="https://ix.nap.africa/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://ix.nap.africa/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://ix.nap.africa">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://ix.nap.africa/images/napafrica-logo-small.png">
+    IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://ix.nap.africa/customer/details">
+                            Member List
+                        </a>
+
+                                                    <div class="dropdown-divider"></div>
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://ix.nap.africa/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://ix.nap.africa/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://ix.nap.africa/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://ix.nap.africa/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">IPv4 Route Server 1 - IX Johannesburg</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://ix.nap.africa/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                IPv4 Route Server 1 - IX Johannesburg            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item active" href="https://ix.nap.africa/lg/jb1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Johannesburg                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://ix.nap.africa/lg/jb1-rs1-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://ix.nap.africa/lg/jb1-rs1-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.0.7                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 196.60.9.3                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 257 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-13 14:52:43
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <span class="badge badge-info">
+                            Cached data. Maximum age: 5 mins.
+                        </span>
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://ix.nap.africa/api/v4/lg/jb1-rs1-ipv4/status">status</a>]
+                    [<a href="https://ix.nap.africa/api/v4/lg/jb1-rs1-ipv4/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.2.0
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://ix.nap.africa/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://ix.nap.africa/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://ix.nap.africa/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://ix.nap.africa/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["T329006x742","T328209x410","T198781x675","T328106x279","T328209x411","T328113x669","T328119x242","T198949x291","T328029x655","T6968x40","T396986x682","T396986x765","T10474x8","T22355x2","T917x396","T11845x9","T917x795","T2686x762","master4","T3856x386","T15169x20","master6","T26422x55","T37225x12","T37150x36","T6774x630","T37009x43","T6774x156","T37028x24","T37403x35","T8674x322","T44444x13","T37028x25","T37314x18","T30844x59","T37105x96","T6939x208","T37254x31","T37315x19","T37105x99","T3303x235","T37236x26","T37049x42","T37271x29","T37236x73","T37640x44","T16637x48","T37314x98","T37523x49","T37650x62","T4134x341","T37368x10","T25818x39","T37266x71","T37239x38","T37357x16","T37356x53","T36916x22","T37515x86","T37680x23","T37417x69","T37187x52","T37618x61","T37358x17","T7020x464","T4134x463","T328051x30","T37549x32","T3067x146","T58453x14","T37457x83","T37662x76","T37673x54","T37079x97","T9498x477","T37395x47","T3067x534","T37479x50","T37479x51","T26106x33","T37628x95","T36944x75","T2635x219","T37497x34","T37656x93","T22750x15","T37399x70","T20940x56","T11179x67","T2906x154","T8888x297","T37596x46","T36994x41","T2906x155","T3257x519","T37596x64","T36868x72","T6083x360","T36874x87","T328037x92","T1828x452","T36985x81","T36968x63","T37599x45","T328057x28","T11845x58","T327761x11","T327813x27","T4809x231","T8038x532","T327804x65","T8038x533","t_roa","T328517x37","T327733x82","T36898x77","T41095x120","T5583x403","T327822x94","T327751x84","T327745x80","T37105x311","T327750x88","T328366x91","T8336x255","T328529x90","T37053x112","T16800x551","T37130x722","T32653x115","T16800x552","T10310x350","T26415x145","T37302x371","T22572x365","T327737x79","T22572x707","T40627x605","T37402x440","T21388x361","T37204x354","T37412x330","T328576x74","T37035x307","T37007x535","T58868x699","T32653x308","T37054x321","T37007x536","T37403x503","T60068x710","T37009x317","T16552x531","T37016x348","T37153x240","T21739x460","T20011x770","T32708x290","T37153x241","T19711x202","T15169x462","T37204x547","T32590x238","T37204x449","T10310x349","T62044x593","T32590x239","T327892x68","T32437x298","T62044x594","T328576x89","T25139x673","T37402x439","T32934x233","T42473x182","T16637x123","T37105x497","T39120x735","T37035x196","T37412x329","T32437x479","T22386x566","T61317x278","T32934x234","T16637x124","T41564x616","T15562x592","T33781x104","T24482x490","T37333x280","T50287x247","T16637x207","T33438x725","T37154x173","T10798x338","T327698x85","T20011x769","T33438x726","T37055x167","T37254x314","T37053x485","T37317x252","T61092x388","T36236x374","T37720x340","T24429x397","T37172x281","T40676x237","T37515x215","T37157x232","T37119x741","T27471x406","T37451x432","T19551x315","T37157x126","T44356x228","T32398x425","T37652x101","T21859x274","T327988x66","T24691x480","T37168x310","T33764x800","T37622x506","T37183x262","T32934x475","T37417x164","T37519x102","T37356x230","T32934x476","T37179x100","T37172x198","T37316x584","T29606x223","T37720x339","T37239x316","T23764x684","T25818x417","T37363x631","T37276x141","T37670x131","T19551x294","T60890x420","T27471x394","T37276x142","T15022x137","T37525x158","T37721x438","T15695x335","T37441x757","T37057x648","T37670x133","T37525x159","T37342x777","T37613x754","T13150x731","T37438x332","T37363x169","T37546x107","T36924x151","T34465x686","T37266x175","T37439x125","T37049x747","T37428x444","T36916x312","T37294x217","T37650x580","T37482x171","T37235x788","T37724x523","T14115x263","T37634x166","T10474x130","T37294x218","T37542x199","T21351x172","T37186x149","T37349x253","T14115x273","T37447x309","T37731x646","T30081x470","T10361x791","T13335x105","T37168x277","T328032x214","T37680x270","T10361x792","T55256x467","T37491x516","T37447x257","T37199x213","T37564x147","T37662x345","T32035x612","T30999x522","T37329x658","T328116x78","T37186x591","T37653x428","T37731x793","T328210x372","T23889x227","T37491x717","T37457x446","T37484x328","T36692x272","T328210x284","T37675x106","T37549x344","T14988x185","T37564x296","T15133x285","T36919x181","T22355x132","T30058x732","T49362x267","T37675x530","T49362x268","T29918x500","T22355x250","T328220x295","T37468x177","T54113x300","T10099x625","T37527x797","T329222x501","T37678x113","T55195x498","T328320x381","T328038x210","T328312x434","T37678x203","T328313x333","T328125x261","T328041x663","T36951x399","T31898x677","T49544x229","T37199x582","T29918x162","T37645x785","T37497x343","T36874x346","T20473x661","T328170x502","T37358x787","T31898x678","T328045x342","T328051x662","T328036x271","T22822x323","T328400x387","T36944x764","T328315x331","T37658x419","T328422x404","T22822x324","T37002x276","T329106x550","T329035x700","T63399x363","T328172x320","T328214x366","T39386x409","T328512x127","T328262x401","T60171x423","T11744x473","T328501x643","T328423x421","T328074x150","T22355x249","T13335x776","T139341x743","T37658x359","T329202x487","T11744x474","T328501x644","T328144x264","T328323x337","T62597x368","T328512x129","T329125x720","T328137x306","T328170x427","T328156x302","T328341x721","T328032x689","T328216x283","T328145x245","T54113x139","T23058x760","T328251x373","T328156x303","T20940x763","T329042x690","T329243x600","T36994x325","T328317x118","T49902x595","T37488x378","T328350x390","T37002x586","T329042x691","T328045x269","T328137x254","T136907x431","T328510x459","T328242x286","T329032x695","T328360x370","T328064x248","T328333x355","T37002x587","T20459x178","T328145x436","T328227x407","T328270x319","T328510x639","T328317x334","T48851x575","T137922x433","T328061x685","T328434x412","T329121x796","T328312x597","T327901x128","T328333x356","T328068x221","T23058x729","T328334x712","T328524x134","T328306x376","T328126x468","T328049x226","T328523x603","T328441x418","T328068x222","T329063x713","T328306x377","T328431x448","T329303x782","T328505x623","T137922x453","T329151x727","T37697x292","T54994x353","T329240x738","T328262x561","T328505x624","T328146x258","T329151x728","T328351x491","T37599x194","T327812x191","T329063x733","T328237x524","T328270x573","T139057x674","T328560x135","T36985x466","T328391x400","T327824x122","T136907x553","T37599x195","T329064x705","T329046x724","T328334x358","T328077x225","T39892x441","T328631x541","T329126x718","T328255x327","T328361x391","T328341x398","T12654x775","T329036x737","T328164x259","T136907x554","T328802x604","T328507x711","T328039x197","T329053x693","T329038x750","T327750x450","T328471x422","T327850x116","T328173x653","T327822x451","T328335x375","T328327x454","T328444x416","T37697x780","T329053x694","T327812x608","T329038x751","T327901x188","T327850x117","T329305x783","T328173x287","T328323x698","T328346x362","T328155x781","T328417x455","T328561x513","T327732x723","T328336x357","T329305x784","T327824x144","T327733x408","T39892x570","T328335x395","T328480x540","T328730x544","T327922x163","T329047x709","T328417x456","T328820x633","T328561x514","T328164x576","T328426x392","T327716x246","T328720x557","T328446x414","T327781x111","T328437x415","T328178x305","T328633x507","T328670x510","T327754x114","T327960x211","T328526x461","T328176x256","T328720x558","T328266x336","T329166x442","T328267x351","T327808x108","T328621x488","T328461x457","T327782x110","T328287x301","T328267x352","T328536x236","T328434x790","T328356x380","T327808x109","T328337x367","T327908x212","T327950x153","T329153x794","T328347x364","T328803x618","T42x385","T327814x670","T328480x472","T328373x437","T328732x650","T329237x734","T327880x220","T328339x542","T328517x609","T328706x543","T329340x789","T327872x201","T327791x103","T327950x244","T328538x224","T328812x590","T328176x546","T328507x478","T327781x313","T328543x484","T328519x157","T328822x651","T328750x714","T328544x545","T328473x426","T328670x515","T328375x703","T138915x619","T328364x565","T327923x445","T327943x152","T328364x583","T328714x539","T328275x529","T328810x589","T328518x465","T328246x679","T328547x180","T327745x318","T328672x520","T328912x652","T328624x486","T327826x165","T328383x383","T328830x629","T328366x347","T328474x443","T328644x508","T328661x518","T328471x495","T327923x447","T328197x326","T328672x521","T328608x483","T328911x647","T328820x596","T327926x413","T328464x563","T328643x636","T327909x143","T328562x538","T328644x509","T329166x771","T327935x216","T327751x585","T328456x527","T329290x773","T328643x637","T327907x193","T37312x3","T328178x581","T328851x622","T328633x569","T327909x136","T328456x528","T327708x683","T329290x774","T328474x706","T328735x704","T328467x424","T327693x430","T327962x161","T328638x504","T329317x779","T327880x138","T329095x744","T328760x645","T328471x499","T328638x505","T328816x642","T329259x740","T329058x697","T328870x621","T329283x755","T328902x688","T328826x640","T327790x275","T328931x672","T328278x384","T328831x668","T329283x756","T328179x288","T327982x204","T327935x471","T327849x140","T327961x168","T327817x379","T328199x282","T328548x481","T329089x715","T327982x205","T328915x716","T328384x496","T328386x482","T328870x176","T328772x606","T328359x369","T328575x607","T327894x121","T328719x571","T327782x635","T328841x766","T328736x555","T2018x60","T328745x572","T328529x577","T328567x641","T328548x654","T329371x799","T328826x708","T328841x767","T327939x160","T328736x556","T327693x429","T328829x602","T328915x719","T329159x768","T328942x671","T328583x681","T328656x537","T33763x4","T328761x578","T37271x5","T328388x382","T328468x752","T328583x494","T328468x492","T327936x179","T327983x511","T329259x739","T328843x692","T327893x119","T328763x574","T328285x798","T328728x745","T328677x512","T328935x660","T7020x21","T328747x562","T327872x549","T327943x489","T327794x148","T328728x746","T328467x676","T328839x611","T328744x687","T328818x656","T327767x293","T327991x183","T328767x620","T327983x190","T327966x209","T328747x564","T328818x657","T328964x701","T327987x200","T327767x393","T327991x517","T328748x617","T329098x579","T328964x702","T328777x601","T328749x560","T329279x772","T328657x567","T328848x614","T37179x1","T199524x402","T328657x568","T328916x696","T328848x615","T327984x174","T328568x469","T328952x659","T37168x7","T328790x588","T327897x304","T328874x626","T328596x627","T328963x761","T199524x405","T328596x628","T328748x559","T37627x6","T328677x548","T328498x458","T327849x299","T328970x786","T328819x599","T328966x730","T397601x634","T329289x758","T327896x435","T328947x680","T328399x389","T328964x664","T327979x251","T329289x759","T328946x666","T328868x632","T328964x665","T327988x170","T328785x289","T328798x610","T328698x525","T328884x638","T328598x493","T327996x192","T328882x778","T328001x187","T327889x184","T328699x526","T328974x748","T328795x667","T328112x260","T328974x749","T327979x186","T328788x753","T328024x206","T328013x265","T327979x189","T3356x57","T328787x598","T208414x736","T328888x649","T328106x613","T328114x266","T328009x243"].sort();
+    let protocols = ["R328507x478","R328519x157","P328596x627","R138915x619","P328596x628","P328748x559","R328275x529","R328518x465","R328246x679","R328624x486","P328677x548","P328498x458","P327849x299","R328608x483","P328819x599","R329166x771","P329289x758","P328947x680","P328399x389","R396986x682","P329289x759","P328946x666","P328868x632","R328178x581","R327708x683","R329317x779","R396986x765","P328598x493","R329259x740","R329058x697","P327889x184","R328278x384","R6968x40","R328179x288","R327817x379","R329089x715","R328359x369","R328529x577","P10474x8","P22355x2","R329159x768","R329259x739","P917x396","P37312x3","P11845x9","R10474x8","R22355x2","P917x795","R917x396","P33763x4","P37271x5","R37312x3","R11845x9","R917x795","P37168x7","P3303x235","R6774x630","P328001x187","R8674x322","P4134x341","P328112x260","P37368x10","P328032x214","P36916x22","P328024x206","R6939x208","P37680x23","P328013x265","R37254x31","P328210x372","P37358x17","P208414x736","P7020x464","P328210x284","R3303x235","R37236x26","P4134x463","R37049x42","P37549x32","R37271x29","R37236x73","P3067x146","P58453x14","R37640x44","P37457x83","R16637x48","P328220x295","P328114x266","P37662x76","P37673x54","P328320x381","P9498x477","P37395x47","P328041x663","R37523x49","P3067x534","P37479x50","R37650x62","P37479x51","P26106x33","R4134x341","R37368x10","P37628x95","P36944x75","P328051x662","R25818x39","R37266x71","P328400x387","R37239x38","R37357x16","R37356x53","P2635x219","P37497x34","R36916x22","R37515x86","P37656x93","P22750x15","R37680x23","R37417x69","P37399x70","R37187x52","P328113x669","R37618x61","R37358x17","P20940x56","P329202x487","P11179x67","R7020x464","P2906x154","P8888x297","P328032x689","P37596x46","R4134x463","P36994x41","P2906x155","P3257x519","P37596x64","P15169x20","P36868x72","R37549x32","P6083x360","P36874x87","P329121x796","R3067x146","R58453x14","P1828x452","R37457x83","P36985x81","P36968x63","rpki1","P37599x45","R37662x76","R37673x54","R37079x97","P26422x55","rpki2","P11845x58","R9498x477","R37395x47","P37225x12","R3067x534","R37479x50","P37150x36","P37009x43","R37479x51","R26106x33","R37628x95","R36944x75","P37028x24","R2635x219","R37497x34","P37403x35","P4809x231","R37656x93","P44444x13","P37028x25","P8038x532","R22750x15","P37314x18","R37399x70","P30844x59","P8038x533","P37105x96","R20940x56","R11179x67","R2906x154","R8888x297","R37596x46","P37254x31","R36994x41","P37315x19","R2906x155","P36898x77","R3257x519","R37596x64","P37105x99","P5583x403","R15169x20","R36868x72","R6083x360","R36874x87","P37236x26","P37049x42","R327761x11","R1828x452","R36985x81","R36968x63","R37599x45","P8336x255","R26422x55","P37271x29","P37236x73","R11845x58","R37225x12","P37640x44","P16637x48","P37314x98","R37150x36","R37009x43","P2686x762","P37523x49","R37028x24","R327733x82","R37403x35","P37650x62","R4809x231","R44444x13","R37028x25","R8038x532","R37314x18","R327822x94","P25818x39","P37266x71","P327892x68","P37239x38","R30844x59","P37357x16","P37356x53","R8038x533","R37105x96","P3856x386","R327751x84","P37515x86","P37417x69","P37187x52","R327745x80","R37315x19","R327750x88","R36898x77","R328366x91","P37618x61","R37105x99","R5583x403","P6774x630","P6774x156","R8336x255","P8674x322","R37314x98","P37079x97","R2686x762","P327988x66","R327737x79","R328576x74","P6939x208","P37179x100","R3856x386","R19711x202","R327892x68","P13150x731","R328576x89","P37546x107","R16637x123","P37439x125","P36916x312","R16637x124","R33781x104","R6774x156","P14115x263","P10474x130","P21351x172","P14115x273","R16637x207","R327698x85","P30081x470","P10361x791","R37254x314","P13335x105","R37317x252","P37680x270","R37720x340","P10361x792","R37172x281","R40676x237","R37515x215","P37199x213","P37564x147","P37662x345","P32035x612","P30999x522","R37157x232","R27471x406","R37451x432","R19551x315","P328116x78","P328037x92","R37157x126","R44356x228","P23889x227","R32398x425","R37652x101","R21859x274","R328051x30","R327988x66","R24691x480","R37168x310","P37457x446","R33764x800","P37484x328","P36692x272","R37622x506","R37183x262","P328057x28","P37675x106","R37417x164","R37519x102","R37356x230","R37179x100","P327761x11","R37172x198","P37549x344","R29606x223","R37720x339","R37239x316","P14988x185","P37564x296","P15133x285","P36919x181","P327813x27","P22355x132","R25818x417","R37363x631","R37276x141","P30058x732","R37670x131","P49362x267","P37675x530","R19551x294","R60890x420","R27471x394","R37276x142","R15022x137","P49362x268","P29918x500","R37525x158","P22355x250","P327804x65","P37468x177","R37721x438","P54113x300","R15695x335","R37441x757","R37057x648","P10099x625","R37670x133","R37525x159","P37678x113","P55195x498","P328517x37","P37678x203","R37613x754","R13150x731","R37438x332","R37363x169","R37546x107","P327733x82","R36924x151","P36951x399","R34465x686","P31898x677","R37266x175","R37439x125","P49544x229","P37199x582","P29918x162","R37049x747","R37428x444","P37645x785","R36916x312","P37497x343","P36874x346","P20473x661","P37358x787","P31898x678","R37294x217","R37650x580","R37482x171","R37724x523","P41095x120","P327822x94","R14115x263","R37634x166","R10474x130","P22822x323","R37294x218","P36944x764","R37542x199","P37658x419","R21351x172","P327751x84","R37186x149","R37349x253","P22822x324","P37002x276","R14115x273","R37447x309","P63399x363","R37731x646","P39386x409","R30081x470","P327745x80","P37105x311","R10361x791","R13335x105","P327750x88","R37168x277","P328366x91","P60171x423","P11744x473","P22355x249","R37680x270","R10361x792","R55256x467","P13335x776","R37491x516","R37447x257","P37658x359","P11744x474","R37199x213","R37564x147","P328529x90","P62597x368","R37662x345","R32035x612","R30999x522","P54113x139","P23058x760","R37329x658","R328116x78","R37186x591","R37653x428","R328037x92","P20940x763","P36994x325","P49902x595","R37731x793","P37488x378","R23889x227","P37002x586","P37053x112","R37491x717","P16800x551","P37130x722","P37002x587","P20459x178","R37457x446","R37484x328","R36692x272","R328057x28","R37675x106","P48851x575","P32653x115","P16800x552","P23058x729","P26415x145","P37302x371","R37549x344","P22572x365","R14988x185","R37564x296","P37697x292","R15133x285","R36919x181","R327813x27","P327737x79","P54994x353","R22355x132","P22572x707","P40627x605","P37402x440","P21388x361","P37204x354","R30058x732","P37412x330","R49362x267","P37599x194","P328576x74","R37675x530","P37035x307","P37007x535","P36985x466","R49362x268","nap_bfd","P37599x195","P32653x308","P37054x321","R29918x500","P39892x441","R22355x250","R327804x65","P37007x536","P37403x503","R37468x177","R54113x300","R10099x625","P60068x710","P12654x775","R37527x797","P37009x317","R37678x113","P16552x531","P37016x348","R55195x498","R328517x37","R37678x203","P37153x240","P21739x460","R36951x399","P32708x290","P37697x780","P37153x241","P19711x202","R31898x677","R49544x229","R37199x582","R29918x162","P15169x462","P37204x547","P32590x238","R37645x785","R37497x343","R36874x346","R20473x661","R37358x787","R31898x678","P37204x449","R41095x120","P62044x593","P32590x239","R22822x323","P39892x570","R36944x764","P32437x298","R37658x419","P62044x594","P328576x89","R22822x324","R37002x276","P25139x673","P37402x439","P32934x233","R63399x363","P42473x182","P16637x123","P37105x497","P39120x735","P37035x196","P37412x329","P32437x479","P22386x566","R39386x409","P61317x278","R37105x311","P32934x234","P16637x124","P41564x616","R328360x370","P15562x592","R60171x423","R11744x473","P33781x104","R22355x249","P24482x490","R13335x776","R37658x359","R11744x474","R327901x128","P37333x280","P328870x621","R328529x90","R62597x368","P50287x247","P16637x207","P33438x725","P37154x173","P10798x338","P327698x85","R54113x139","R23058x760","P327982x204","P33438x726","P37055x167","P37254x314","P37053x485","P37317x252","P61092x388","R20940x763","P36236x374","P327982x205","R36994x325","P37720x340","R49902x595","P24429x397","R37488x378","R37002x586","P328870x176","P37172x281","P40676x237","P37515x215","R37053x112","P327894x121","R16800x551","R37130x722","R37002x587","R328560x135","R20459x178","P37157x232","P37119x741","R328391x400","R327824x122","P27471x406","R48851x575","P37451x432","R32653x115","P19551x315","R328631x541","R328361x391","R16800x552","R23058x729","P37157x126","R328802x604","P44356x228","P32398x425","R327750x450","P37652x101","R328471x422","P21859x274","R26415x145","R327850x116","R327822x451","R37302x371","R22572x365","P327983x511","R37697x292","P24691x480","R327901x188","P37168x310","P33764x800","R54994x353","P37622x506","R327850x117","P37183x262","P327893x119","P32934x475","R22572x707","P37417x164","R40627x605","R37402x440","R21388x361","P37519x102","R37204x354","P37356x230","R37412x330","R37599x194","P32934x476","R328561x513","R327732x723","R327824x144","R37035x307","R327733x408","R37007x535","R328480x540","R328730x544","R36985x466","R327922x163","R37599x195","R32653x308","P327991x183","R37054x321","R328820x633","P37172x198","R328561x514","R39892x441","P37316x584","P327983x190","R37007x536","R37403x503","P29606x223","P37720x339","R328720x557","P37239x316","R327781x111","R60068x710","R12654x775","R37009x317","P328964x701","P327987x200","R16552x531","R37016x348","R328633x507","R328670x510","R327754x114","R327960x211","P23764x684","P25818x417","R328720x558","P327991x517","P37363x631","R37153x240","P37276x141","P328964x702","R21739x460","P37670x131","R328461x457","R327782x110","R328287x301","R32708x290","R37697x780","P19551x294","P60890x420","P27471x394","R37153x241","P37276x142","R15169x462","R327908x212","P37525x158","R37204x547","R32590x238","P199524x402","R327950x153","R328803x618","R37204x449","P37721x438","P15695x335","R328480x472","P37441x757","P37057x648","R328373x437","R328732x650","P37670x133","R327880x220","R62044x593","P327984x174","P37525x159","R32590x239","R327872x201","R39892x570","R327791x103","P37342x777","P37613x754","R327950x244","R32437x298","R328812x590","P37438x332","R62044x594","P37363x169","P328790x588","R25139x673","P36924x151","P327897x304","P34465x686","R327781x313","R328543x484","P328874x626","R37402x439","R328822x651","P328963x761","R328750x714","R328544x545","R328473x426","P37266x175","R32934x233","R42473x182","R328670x515","R328375x703","P199524x405","R37105x497","R39120x735","R37035x196","R37412x329","P37049x747","R32437x479","R328364x565","P37428x444","R22386x566","R327923x445","R61317x278","R327943x152","P37294x217","P37650x580","P37482x171","R32934x234","R328364x583","R328714x539","P37235x788","P37724x523","R328810x589","R41564x616","R15562x592","R328547x180","R327745x318","P37634x166","R328672x520","R328912x652","R24482x490","P37294x218","R327826x165","R328383x383","R328830x629","R328366x347","P37542x199","R328474x443","R328644x508","R328661x518","R328471x495","R37333x280","P37186x149","R327923x447","R328197x326","P37349x253","R328672x521","P328970x786","R328911x647","R50287x247","R328820x596","R327926x413","R328464x563","P37447x309","R328643x636","R327909x143","P328966x730","P397601x634","R328562x538","R328644x509","R33438x725","R37154x173","P327896x435","R327935x216","R10798x338","R327751x585","P42x385","P37731x646","R328456x527","P328964x664","R329290x773","R328643x637","R327907x193","P327979x251","R33438x726","R37055x167","R37053x485","R328851x622","P37168x277","R61092x388","R328633x569","R327909x136","R328456x528","P10310x350","P328964x665","R36236x374","R329290x774","P327988x170","R328474x706","R328735x704","R328467x424","R327693x430","R24429x397","P55256x467","R327962x161","R328638x504","P328785x289","P37491x516","R327880x138","R329095x744","P328798x610","P37447x257","P328698x525","P328884x638","R328760x645","R328471x499","R328638x505","R328816x642","R37119x741","device1","P37329x658","P327996x192","P37186x591","P37653x428","P58868x699","R328870x621","P328882x778","R329283x755","R328902x688","R328826x640","R327790x275","R328931x672","P37731x793","R328831x668","R329283x756","R327982x204","R327935x471","R327849x140","P328699x526","R327961x168","P37491x717","R328199x282","R328548x481","R327982x205","R328915x716","P328974x748","R32934x475","P20011x770","R328384x496","R328386x482","R328870x176","P328795x667","R328772x606","P328974x749","R32934x476","R328575x607","P327979x186","R327894x121","R328719x571","R327782x635","R328841x766","R328736x555","P328788x753","R328745x572","P10310x349","R42x385","R328567x641","R328548x654","R37316x584","R329371x799","R328826x708","R328841x767","R327939x160","R328736x556","R327693x429","R328829x602","R328915x719","P2018x60","R328942x671","R328583x681","R328656x537","R23764x684","R328761x578","P327979x189","R328388x382","R328468x752","R328583x494","R328468x492","R327936x179","R327983x511","R328843x692","R327893x119","R328763x574","R328285x798","R328728x745","R328677x512","R328935x660","P328787x598","R328747x562","R327872x549","P37527x797","R327943x489","R327794x148","R328728x746","R328467x676","R328839x611","R37342x777","P7020x21","R328744x687","R328818x656","R327767x293","R327991x183","R328767x620","R327983x190","R327966x209","P20011x769","R328747x564","R328818x657","R328964x701","R327987x200","R327767x393","R327991x517","R328748x617","R329098x579","P328888x649","R328964x702","R328777x601","R37235x788","R328749x560","R329279x772","R328657x567","R328848x614","direct1","R199524x402","R328657x568","P328106x613","R328916x696","R328848x615","R327984x174","P37179x1","R328568x469","P328009x243","R328952x659","P329222x501","P328038x210","R328790x588","P328312x434","R10310x350","P328313x333","R327897x304","R328874x626","P328125x261","R328596x627","R328963x761","R199524x405","P328051x30","R328596x628","R2018x60","R328748x559","P328170x502","R328677x548","R328498x458","P328045x342","R58868x699","R327849x299","R328970x786","P328036x271","R328819x599","P37627x6","R33763x4","P328315x331","R328966x730","R397601x634","R37271x5","R329289x758","R327896x435","P329006x742","P328422x404","R328947x680","R328399x389","R328964x664","P329106x550","P328209x410","P329035x700","R327979x251","R329289x759","R328946x666","R328868x632","P328172x320","P198781x675","P328214x366","R7020x21","P328106x279","R328964x665","R327988x170","P328209x411","P328512x127","R20011x770","P328262x401","P328119x242","R328785x289","R328798x610","P328501x643","P328423x421","R328698x525","P328074x150","P15022x137","R328884x638","P139341x743","P328501x644","R328598x493","P328144x264","P328323x337","P328512x129","R10310x349","P329125x720","R327996x192","P328137x306","P328170x427","P328156x302","P328341x721","R328882x778","P328216x283","P328145x245","R328001x187","R327889x184","P328251x373","P328156x303","P329042x690","P329243x600","P328317x118","R37179x1","R328699x526","P328350x390","P329042x691","P328045x269","P328137x254","R328974x748","P136907x431","P328510x459","P328242x286","P329032x695","P328360x370","P328064x248","P328333x355","R328795x667","R328112x260","P328145x436","R328032x214","P328227x407","P328270x319","P328510x639","P328317x334","R328974x749","R327979x186","P137922x433","P328061x685","P328434x412","R37168x7","P328312x597","P327901x128","P328333x356","R328788x753","P328068x221","P328334x712","P328524x134","P328306x376","P328126x468","P328049x226","P328523x603","P328441x418","R20011x769","P198949x291","P328068x222","P329063x713","P328306x377","P328431x448","P329303x782","R328024x206","P328505x623","P137922x453","P329151x727","R37627x6","R328013x265","R327979x189","P329240x738","P328262x561","P328505x624","R328210x372","P328146x258","P329151x728","P328351x491","P328029x655","P327812x191","P329063x733","P328237x524","P328270x573","R328787x598","P139057x674","R208414x736","P328560x135","P328391x400","P327824x122","P136907x553","P329064x705","P3356x57","R328210x284","P329046x724","P328334x358","P328077x225","P328631x541","P329126x718","P328255x327","P328361x391","P328341x398","P329036x737","P328164x259","P136907x554","P328802x604","P328507x711","P328039x197","P329053x693","P329038x750","P327750x450","P328471x422","P327850x116","P328173x653","P327822x451","P328335x375","P328327x454","P328444x416","P329053x694","P327812x608","P329038x751","R328888x649","P327901x188","P327850x117","P329305x783","P328173x287","P328323x698","P328346x362","P328155x781","P328417x455","P328561x513","P327732x723","P328336x357","P329305x784","P327824x144","P327733x408","P328335x395","R328106x613","P328480x540","P328730x544","P327922x163","P329047x709","P328417x456","P328820x633","P328561x514","P328164x576","P328426x392","P327716x246","R328220x295","R328114x266","P328720x557","R328009x243","P328446x414","P327781x111","P328437x415","R329222x501","P328178x305","R328320x381","P328633x507","P328670x510","P327754x114","R328038x210","R328312x434","R328313x333","P327960x211","P328526x461","P328176x256","P328720x558","P328266x336","R328125x261","P329166x442","P328267x351","R328041x663","P327808x108","P328621x488","P328461x457","P327782x110","P328287x301","P328267x352","P328536x236","P328434x790","P328356x380","P327808x109","P328337x367","P327908x212","P327950x153","P329153x794","P328347x364","P328803x618","R328170x502","P327814x670","P328480x472","P328373x437","P328732x650","P329237x734","R328045x342","P327880x220","P328339x542","P328517x609","R328051x662","P328706x543","P329340x789","P327872x201","R328036x271","P327791x103","R328400x387","R328315x331","P327950x244","P328538x224","P328812x590","P328176x546","R329006x742","R328422x404","P328507x478","R329106x550","R328209x410","P327781x313","P328543x484","R329035x700","P328519x157","P328822x651","P328750x714","R3356x57","P328544x545","P328473x426","P328670x515","R328172x320","R198781x675","P328375x703","P138915x619","R328214x366","P328364x565","R328106x279","R328209x411","P327923x445","R328512x127","P327943x152","P328364x583","P328714x539","P328275x529","P328810x589","R328113x669","R328262x401","R328119x242","P328518x465","R328501x643","P328246x679","R328423x421","P328547x180","P327745x318","R328074x150","P328672x520","P328912x652","P328624x486","P327826x165","P328383x383","P328830x629","P328366x347","P328474x443","P328644x508","P328661x518","R139341x743","R329202x487","R328501x644","P328471x495","R328144x264","P327923x447","P328197x326","R328323x337","P328672x521","P328608x483","P328911x647","R328512x129","P328820x596","P327926x413","P328464x563","P328643x636","P327909x143","P328562x538","P328644x509","R329125x720","R328137x306","P329166x771","P327935x216","R328170x427","R328156x302","R328341x721","R328032x689","P327751x585","R328216x283","P328456x527","R328145x245","P329290x773","P328643x637","P327907x193","P396986x682","R328251x373","P328178x581","R328156x303","P328851x622","P328633x569","P327909x136","P328456x528","P327708x683","P329290x774","R329042x690","R329243x600","P328474x706","P328735x704","R328317x118","P328467x424","P327693x430","P327962x161","P328638x504","P329317x779","P327880x138","P329095x744","R328350x390","R329042x691","R328045x269","R328137x254","R136907x431","R328510x459","R328242x286","P396986x765","R329032x695","P328760x645","P328471x499","P328638x505","R328064x248","R328333x355","R328145x436","P328816x642","R328227x407","R328270x319","R328510x639","R328317x334","R137922x433","R328061x685","R328434x412","R329121x796","P329259x740","R328312x597","P329058x697","R328333x356","R328068x221","R328334x712","P329283x755","R328524x134","R328306x376","P328902x688","P328826x640","R328126x468","P327790x275","P328931x672","R328049x226","P328278x384","R328523x603","R328441x418","R198949x291","R328068x222","P328831x668","R329063x713","P329283x756","R328306x377","R328431x448","P328179x288","P327935x471","P327849x140","R329303x782","R328505x623","P327961x168","R137922x453","P327817x379","R329151x727","P328199x282","P328548x481","P329089x715","R329240x738","P328915x716","R328262x561","P328384x496","R328505x624","P328386x482","R328146x258","R329151x728","R328351x491","R328029x655","P328772x606","P328359x369","R327812x191","P328575x607","R329063x733","R328237x524","P328719x571","P327782x635","R328270x573","P328841x766","P328736x555","R139057x674","P328745x572","R136907x553","P328529x577","R329064x705","R329046x724","R328334x358","P328567x641","R328077x225","P328548x654","R329126x718","P329371x799","R328255x327","P328826x708","P328841x767","R328341x398","P327939x160","P328736x556","P327693x429","R329036x737","P328829x602","R328164x259","R136907x554","P328915x719","R328507x711","R328039x197","P329159x768","P328942x671","P328583x681","P328656x537","R329053x693","R329038x750","P328761x578","P328388x382","R328173x653","R328335x375","R328327x454","P328468x752","P328583x494","R328444x416","P328468x492","R329053x694","R327812x608","P327936x179","R329038x751","P329259x739","P328843x692","P328763x574","P328285x798","R329305x783","P328728x745","R328173x287","P328677x512","P328935x660","R328323x698","P328747x562","P327872x549","R328346x362","R328155x781","R328417x455","P327943x489","P327794x148","R328336x357","R329305x784","P328728x746","P328467x676","P328839x611","R328335x395","P328744x687","P328818x656","R329047x709","P327767x293","R328417x456","R328164x576","P328767x620","R328426x392","R327716x246","P327966x209","R328446x414","P328747x564","R328437x415","P328818x657","R328178x305","R328526x461","R328176x256","P327767x393","R328266x336","P328748x617","P329098x579","R329166x442","R328267x351","R327808x108","R328621x488","P328777x601","P328749x560","P329279x772","P328657x567","R328267x352","R328536x236","R328434x790","R328356x380","R327808x109","P328848x614","R328337x367","P6968x40","R329153x794","R328347x364","P328657x568","R327814x670","P328916x696","P328848x615","R329237x734","R328339x542","R328517x609","R328706x543","R329340x789","P328568x469","P328952x659","R328538x224","R328176x546"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://ix.nap.africa/lg/jb1-rs1-ipv4/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv4');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv4' );
+    });
+</script>
+            </body>
+</html>

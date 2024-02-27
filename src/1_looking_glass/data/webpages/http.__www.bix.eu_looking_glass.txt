@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<base href="https://www.bix.hu/" />
+<meta charset="utf-8" />
+<title>Budapest Internet Exchange</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic,300,300italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="/css/bs.min.css" rel="stylesheet" type="text/css" />
+<link href="/css/lbg.css" rel="stylesheet" type="text/css" />
+<link href="/css/dds-rwd.css" rel="stylesheet" type="text/css" />
+<link href="/css/site-rwd.css" rel="stylesheet" type="text/css" />
+<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/dds.js"></script>
+<script type="text/javascript" src="/js/ajax_api.js"></script>
+<script type="text/javascript" src="/js/modernizr.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-2.1.4.min.js"><\/script>')</script>
+<script type="text/javascript" src="/js/bs.min.js"></script>
+<script type="text/javascript" src="/js/site.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/js/selectivizr103b.js"></script>
+	<script type="text/javascript" src="/js/respond.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body><!-- Honlapkészítés: (c) DDS  http://www.dds.hu/ -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-77250815-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+<div id="ax_0"><div id="ax_5"><div class="fixheaddiv">
+	<div class="fixhead">
+	<div id="ax_6">	<div class="header">
+		<div class="container">
+			<div class="col-ms-12 col-xs-4 col-sm-6 col-md-6">
+				<div class="logo"><a href="/"><img src="/images/bix_logo.png" alt="ISZT - BUDAPEST INTERNET EXCHANGE" /></a></div>
+				<div class="name hidden-ms">Budapest Internet Exchange</div>
+			</div>
+			<div class="col-ms-12 col-xs-8 col-sm-6 col-md-6">
+				<div class="flags">
+					<a href="/redirect.php?url=/index.php" data-ablock="none"><span class="flaghu ht" title="magyar">magyar</span></a>
+					<a href="/redirect.php?url=/en/index.php" data-ablock="none"><span class="flagen ht" title="english">english</span></a>
+				</div>				
+				<div class="toploginbox">
+					<a href="https://ixpman.bix.hu/login" target="_blank"><span class="btn btn-info"><i class="fa fa-user"></i> Members login</span></a>
+				</div>								
+				<div class="topsocial hidden-xs hidden-sm hidden-md">
+					<a href="https://www.facebook.com/bixhungary/?fref=ts"><span class="fa fa-facebook"></span></a><a href="https://twitter.com/BIX_hu"><span class="fa fa-twitter"></span></a><a href="https://www.linkedin.com/company/budapest-internet-exchange"><span class="fa fa-linkedin-square"></span> </a>
+				</div>
+			</div>
+		</div>
+	</div></div>
+	<div id="ax_7">	<div id="ddsrespmenu">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">	
+					<div class="navbar navbar-invert" role="navigation" >
+						<div class="navbar-header">
+							<a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="javascript:void(0);">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							 </a>
+							<div class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="home"><a href="/bemutatkozas"><span>Bemutatkozás</span></a></li>
+								<li><a href="/hirek"><span>Hírek</span></a></li>
+								<li><a href="index.php?p=services"><span>Szolgáltatások</span></a></li>
+								<li><a href="index.php?p=tech"><span>Technológia</span></a></li>
+								<li><a href="/dokumentumok/peering"><span>Peering</span></a></li>
+																
+								<li><a href="/tagok"><span>Tagok</span></a></li>
+																								
+								<li><a href="/dokumentumok"><span>Dokumentumok</span></a></li>
+								<li><a href="/kapcsolat"><span>Kapcsolat</span></a></li>								
+													
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+	
+</div>
+	</div>
+</div>	
+	<div id="ax_8"><div class="" style="position:relative;">
+<div id="bannerchanger">
+
+<span class="bcicon active" id="bcicon1" onclick="changeBanner('bigbanner1');" title="Átvált"><i class="fa fa-circle"></i></span>
+
+<span class="bcicon" id="bcicon2" onclick="changeBanner('bigbanner1');" title="Átvált"><i class="fa fa-circle"></i></span>
+
+<span class="bcicon" id="bcicon3" onclick="changeBanner('bigbanner1');" title="Átvált"><i class="fa fa-circle"></i></span>
+
+</div>
+
+<div id="bigbanners">
+
+<div class="">
+<div class="backdrop" style="background-image:url('/ads/0000000015.jpg');"></div>
+<div class="banner">
+<a href="http://www.bix.hu/hirek/202307_bix_a_segito_tars"><img src="/ads/0000000015.jpg" alt="BIX, a segítő társ" width="1140" />
+<div class="title">BIX, a segítő társ</div>
+
+</a>
+</div>
+</div>
+
+<div class="">
+<div class="backdrop" style="background-image:url('/ads/0000000017.jpg');"></div>
+<div class="banner">
+<img src="/ads/0000000017.jpg" alt="NOKIA 400G" width="1140" />
+<div class="title">NOKIA 400G</div>
+
+
+</div>
+</div>
+
+<div class="">
+<div class="backdrop" style="background-image:url('/ads/0000000009.jpg');"></div>
+<div class="banner">
+<a href="http://www.bix.hu/index.php?p=services"><img src="/ads/0000000009.jpg" alt="Nézze át szolgáltatásainkat" width="1140" />
+<div class="title">Nézze át szolgáltatásainkat</div>
+
+</a>
+</div>
+</div>
+
+</div>
+<script type="text/javascript">DDS.bannerRotator.init('main',{changer:'bannerchanger', banners: 'bigbanners', auto: 15000, mode: 'fade'});</script>
+</div>
+</div>
+	
+	<div id="ax_9">	<div class="stats hidden-xs">
+		<div class="container">
+			<div class="stat first">
+				<div class="value">120</div>
+				<div class="name">hálózat</div>			
+			</div>
+			<div class="stat">
+				<div class="value">179</div>
+				<div class="name">port</div>			
+			</div>
+			<div class="stat">
+				<div class="value">687.18</div>
+				<div class="name">(Gb/s) csúcs</div>			
+			</div>
+			<div class="stat">
+				<div class="value">432.44</div>
+				<div class="name">(Gb/s) aktuáls</div>			
+			</div>	
+			<div class="stat">
+				<div class="value">5117</div>
+				<div class="name">(Gb/s) kapacitás</div>			
+			</div>		
+		</div>		
+	</div></div>
+	
+	<div class="container maincont">
+		<div class="row">
+			<div class="col-xs-12 col-md-7 col-lg-8 left">
+				<div id="ax_1"><div id="ax_10"><div id="ax_11">
+
+<div class="aoboxbody">
+	<div></div>
+	<div class="clear"></div>
+</div></div>
+<div id="ax_12"><div class="boxnyitohir">
+	<div class="boxcim">Hírek, események</div>
+	<div class="marker"></div>
+	
+	
+	<div class="row nycikk">
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<p class="nyhirboxkep noh"><a href="/hirek/202309_elso_hunog_2023_oktober_11_12"><img src="/images/hir_default_3.jpg"  class="img-responsive" title="Első HUNOG 2023. OKTÓBER 11-12." alt="Első HUNOG 2023. OKTÓBER 11-12." /></a></p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<a href="/hirek/202309_elso_hunog_2023_oktober_11_12"><h2>Első HUNOG 2023. OKTÓBER 11-12.</h2></a>
+			<p class="nyhirboxtxt">Magyarország első NOG konferenciája és networking eseménye</p>
+		</div>
+		<div class="hidden-xs col-sm-2 col-md-2 nopa">
+			<div class="nydatum">
+				<span class="icon"><i class="fa fa-calendar"></i></span>
+				<span class="month">szeptember</span>
+				<span class="day">12</span>
+			</div>
+			<div class="nyhirboxmore"><a href="/hirek/202309_elso_hunog_2023_oktober_11_12">tovább <i class="fa fa-angle-double-right"></i></a></div>
+		</div>
+	</div>
+	
+	<div class="row nycikk">
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<p class="nyhirboxkep noh"><a href="/hirek/202309_bix_forum_2023_iii"><img src="/kep/thumb1/0000000044.jpg" class="img-responsive" title="BIX Fórum 2023/III." alt="BIX Fórum 2023/III." /></a></p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<a href="/hirek/202309_bix_forum_2023_iii"><h2>BIX Fórum 2023/III.</h2></a>
+			<p class="nyhirboxtxt">2023. szeptember 12-én 15:00 órától BIX Fórumot tartunk!</p>
+		</div>
+		<div class="hidden-xs col-sm-2 col-md-2 nopa">
+			<div class="nydatum">
+				<span class="icon"><i class="fa fa-calendar"></i></span>
+				<span class="month">szeptember</span>
+				<span class="day">5</span>
+			</div>
+			<div class="nyhirboxmore"><a href="/hirek/202309_bix_forum_2023_iii">tovább <i class="fa fa-angle-double-right"></i></a></div>
+		</div>
+	</div>
+	
+		
+</div>
+
+</div></div></div>
+			</div>		
+			<div class="hidden-xs hidden-sm col-md-5 col-lg-4 right">
+				<div id="ax_13"><div class="dataflow">
+	<div class="marker"></div>
+	<h2>Aktuális adatfolyam</h2>
+	<div class="diagram"><img src="https://stats.bix.hu/graph.cgi?design=bix&portid=aggregated" alt="Aktuális adatfolyam"/></div>
+</div></div>
+				<div id="ax_14"><div class="boxcim">Tagjaink</div>
+<div class="membersbox">
+<div class="marker"></div>
+
+	<div class="item">
+		<div class="name">ANEXIA</div>
+		
+		<div class="addr"><i class="fa fa-map-marker"></i> ANEXIA Internetdienstleistugs GmbH
+Feldkirchnerstraße 140, 9020 Klagenfurt - AUSTRIA</div>
+		<div class="phone"><i class="fa fa-phone"></i> n.a.</div>
+		<div class="mail"><i class="fa  fa-envelope"></i> <a href="mailto:noc@anexia-it.com">noc@anexia-it.com</a></div>
+		<div class="www"><i class="fa  fa-globe"></i> <a href="https://www.anexia.com">https://www.anexia.com/</a></div>
+	</div>	
+
+	<div class="item">
+		<div class="name">ServerAstra</div>
+		<div class="logo"><img src="/kep/logo/thumb1/0000000165.jpg" alt="ServerAstra" /></div>
+		<div class="addr"><i class="fa fa-map-marker"></i> ServerAstra Kft
+H-1625, Budapest, Pf. 66.</div>
+		<div class="phone"><i class="fa fa-phone"></i> +36305020221</div>
+		<div class="mail"><i class="fa  fa-envelope"></i> <a href="mailto:info@serverastra.com">info@serverastra.com</a></div>
+		<div class="www"><i class="fa  fa-globe"></i> <a href="https://serverastra.com">https://serverastra.com/</a></div>
+	</div>	
+
+	<div class="item">
+		<div class="name">Orange</div>
+		<div class="logo"><img src="/kep/logo/thumb1/0000000154.png" alt="Orange" /></div>
+		<div class="addr"><i class="fa fa-map-marker"></i> Orange Business Services Hungary Kft
+H-1117 Budapest, Budapart tér 2, BudapartGate 3th floor</div>
+		<div class="phone"><i class="fa fa-phone"></i> +36-12982600</div>
+		
+		
+	</div>	
+
+	<div class="r"><a href="/tagok">összes tagunk <i class="fa fa-angle-double-right"></i></a></div>	
+</div></div>
+			</div>								
+		</div>
+	</div>
+	
+	<div id="ax_15"><div class="footerdiv">	
+	<div class="container footer">
+		<div class="row">
+			<div class="col-ms-12 col-xs-6 col-sm-6 col-md-4">
+				<div class="footermenu">
+					<h3>Hasznos Linkek</h3>
+					<ul class="fa-ul">
+					  <li><i class="fa-li fa fa-angle-double-right"></i><a href="https://www.domain.hu/">Domain kereső</a></li>
+					  <li><i class="fa-li fa fa-angle-double-right"></i><a href="/statisztika">Statisztikák</a></li>
+					  <li><i class="fa-li fa fa-angle-double-right"></i><a href="/bix_szabalyzat">Szabályzat</a></li>
+					  <li><i class="fa-li fa fa-angle-double-right"></i><a href="https://ixpman.bix.hu/login">Belépés tagoknak</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-ms-12 col-xs-6 col-sm-6 col-md-4">
+				<div class="sociallinks">
+					<h3>Kövessen minket</h3>
+						<p>
+							<a href="https://www.facebook.com/bixhungary/?fref=ts"><span class="fa fa-facebook"></span> Facebook</a><br />
+							<a href="https://twitter.com/BIX_hu"><span class="fa fa-twitter"></span> Twitter</a><br />				
+							<a href="https://www.linkedin.com/company/budapest-internet-exchange"><span class="fa fa-linkedin-square"></span> LinkedIN</a>
+						</p>
+					</div>						
+			</div>
+			<div class="col-ms-12 col-xs-6 col-sm-6 col-md-4">
+				<div class="footeraddress">					
+					<h3>Kapcsolat</h3>
+					<p>
+					<span class="name"><b>BIX - Budapest Internet Exchange</b></span><br />
+					<span class="fa fa-map-marker"></span> 1089 Budapest, Bláthy Ottó utca 9.<br />
+					<span class="fa fa-phone"></span> +36 1 238 0115<br />
+					<span class="fa  fa-envelope"></span> <a href="mailto:info@bix.hu">info@bix.hu</a>
+					</p>
+				</div>							
+			</div>				
+		</div>
+	</div>
+
+	<div class="container footer1">
+		<div class="row">
+			<div class="col-xs-12 col-sm-9 col-md-9 l"><div class="footercopyr">Minden jog fenntartva! © ISZT (Council of Hungarian Internet Providers) | honlapkészítés: <a href="http://www.dds.hu/"><b>DDSWEB</b></a></div></div>
+			<div class="col-xs-12 col-sm-3 col-md-3 r"><div class="footercopyr"><a href="/impresszum">Impresszum</a></div></div>
+		</div>
+	</div>
+</div>	</div></div></div>
+<script type="text/javascript">a3_template_state='nyito_1_1702888682_.2.2.4.4.0.5.6.6.7.7.8.8.9.9.1.10.11.11.12.12.10.1.13.13.14.14.15.15.5.0.';DDS.AJAX.url_setup();DDS.AJAX.startEventPolling();</script>
+</body>
+</html>

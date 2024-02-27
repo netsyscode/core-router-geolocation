@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.kvant-telecom.ru/"><IMG SRC="/images/logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv4">
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTION VALUE="Voronezh"> Voronezh
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR>
+
+<TD ALIGN="RIGHT" COLSPAN=3>
+<input type="hidden" name="random" value="25aba895d4f77f7e7b31b11f722a97ff" />
+<a ><img
+            style="border: none; vertical-align: bottom"
+            id="captchas.net" src="http://image.captchas.net/?client=kvant&amp;random=25aba895d4f77f7e7b31b11f722a97ff&amp;alphabet=abcdefghkmnopqrstuvwxyz" 
+            width="240" height="80" 
+            alt="The CAPTCHA image" /></a>
+        <script type="text/javascript">
+          <!--
+          function captchas_image_reload (imgId) 
+          {
+	    var image_url = document.getElementById(imgId).src;
+            image_url+= "&";
+	    document.getElementById(imgId).src = image_url;
+          }
+
+          function captchas_image_error (image) 
+          {
+            if (!image.timeout) return true;
+            image.src = image.src.replace (/^http:\/\/image\.captchas\.net/, 
+                                        'http://image.backup.captchas.net');
+            return captchas_image_loaded (image);
+          }
+
+          function captchas_image_loaded (image)
+          {
+            if (!image.timeout) return true;
+            window.clearTimeout (image.timeout);
+            image.timeout = false;
+            return true;
+          }
+
+          var image = document.getElementById ('captchas.net');
+          image.onerror = function() {return captchas_image_error (image);};
+          image.onload = function() {return captchas_image_loaded (image);};
+          image.timeout 
+            = window.setTimeout(
+            "captchas_image_error (document.getElementById ('captchas.net'))",
+            10000);
+          image.src = image.src;
+          //-->      
+        </script>
+<br>
+<a href="javascript:captchas_image_reload('captchas.net')">Reload Image</a>
+</TR>
+<TR><TD ALIGN="RIGHT" COLSPAN=3> <a>Captcha: </a> <input name="password" size="16"/> </TD></TR>
+<TR><TD ALIGN="CENTER" COLSPAN=2>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-2"><CENTER>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</CENTER></FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@kvant-telecom.ru">noc@kvant-telecom.ru</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

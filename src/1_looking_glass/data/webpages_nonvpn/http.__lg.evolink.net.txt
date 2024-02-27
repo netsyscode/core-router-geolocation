@@ -1,0 +1,38 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>AS8262 Looking Glass</title>
+<link rel="stylesheet" type="text/css" href="lg.css" />
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="lg.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body autor="sysadmin@evolink.com" onload="showandhide(); waitPreloadPage();">
+<DIV id="prepage" style="position: fixed;top: 50%;left: 50%; transform: translate(-50%, -50%); text-align:left;  color:#005ca8;background-color:grey; layer-background-color:white;"><TABLE width=100%><TR><TD><B><center>Loading ... ... Please wait!</center></B></TD></TR></TABLE></DIV><form method="post" action="/" enctype="multipart/form-data" style="font-size:13px;color:#4b6e84"><h1><a href="http://www.evolink.com"><img align="left" src="logo_bg.png" width="122" height="42" /img></a></h1><h1><center><a href="http://www.ripe.net/fcgi-bin/whois?form_type=simple&full_query_string=&searchtext=-T+aut-num+AS8262&do_search=Search">AS8262</a> Looking glass </h1><h1><center><a href="http://lg.evolink.net"> <img src="home-btn.png" width="42" height="42" /img></a></h1><center><table><tr><td>Select Device</td><td></td><td><div id="FQDN">IP Address or FQDN</div><div id='IP'>IP Address</div></td><td></td></tr><tr><td><select name="router"  id="router" onchange="OnChange();">
+<option selected="selected" value="Core Router">Core Router</option>
+<option value="Border Router">Border Router</option>
+</select></td><td><div id=IPTYPE><div id=IPv4><label><input type="radio" name="iptype4" value="IPv4" checked="checked" />IPv4</label><br /></div><div id=IPv6><table><tr><td><label><input type="radio" name="iptype" value="IPv4" checked="checked" />IPv4</label><br /></td><td><label><input type="radio" name="iptype" value="IPv6" />IPv6</label><br /></td></tr></table></div></div></td><td><div id=SEARCH><input type="text" name="searchfor"  maxlength="50" /></div></td></tr><tr><td><table><tr><td><label><input type="radio" name="options" value="Show bgp sum" size="20" />Show bgp sum</label><br /></td></tr><tr><td><label><input type="radio" name="options" value="Show bgp network" size="20" />Show bgp network</label><br /></td></tr><tr><td><label><input type="radio" name="options" value="traceroute" size="20" />traceroute</label><br /></td></tr><tr><td><label><input type="radio" name="options" value="ping" checked="checked" size="20" />ping</label><br /></td></tr></table></td></tr><tr><td><input type="submit" name="Execute" value="Execute" class="btn" /></tr></td></table><div><input type="hidden" name=".cgifields" value="iptype4"  /><input type="hidden" name=".cgifields" value="options"  /><input type="hidden" name=".cgifields" value="iptype"  /></div></form><h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="http://www.evolink.com/">Evolink&nbsp - </a>[<a href="https://www.peeringdb.com/asn/8262">AS8262</a>]</h2>
+<table>
+<option value="">
+
+</table>
+<tail>
+
+<hr size=2>
+
+<table width="1" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+</td>
+  </tr>
+</table>
+<center>
+<i>
+Powered by EVOLINK. For premium IP, Data Center and Cloud services please visit us at <a href="https://www.evolink.com">www.evolink.com</a>.For any comments regarding this Looking glass please drop us a note at support@evolink.com. 
+</i>
+</center>
+</tail>
+</body>
+</html>

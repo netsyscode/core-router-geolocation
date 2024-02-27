@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><TITLE>Looking Glass - LOGIN</TITLE>
+</HEAD>
+<BODY BGCOLOR=#D7EAFF><H1>Looking Glass - LOGIN</H1>
+<p>
+<a href="https://auth.peeringdb.com/oauth2/authorize/?client_id=Stp8p2UUf08IDZunLNF5PHPBfEt9Nxg4hcXHK4Gd&scope=profile+email+networks&response_type=code&redirect_uri=https://lg.ix.net.ua/&state=uvziwjbr">Login via PeeringDB</a>
+</p>
+<BR><BR>
+Experimental version. All access is logged. Be carefull !
+<BR>
+</BODY></HTML>

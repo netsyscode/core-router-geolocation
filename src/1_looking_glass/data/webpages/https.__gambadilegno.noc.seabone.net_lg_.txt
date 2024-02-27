@@ -1,0 +1,152 @@
+<Html>
+<Head>
+<Title>Seabone -  Looking Glass</Title>
+<link rel="stylesheet" type="text/css" href="http://etabeta.noc.seabone.net/seabonestyle.css"> 
+
+
+</Head>
+<Body>
+
+    <div>
+      <a href="http://www.seabone.net/">
+	<img style="border-width: 0pt; float: left;"
+	  src="https://etabeta.seabone.net/images/company-logo.png" alt="Seabone home page">
+      </a>
+      <h1 style="text-align: right;">AS6762 Public Looking Glass</h1>
+      <br>
+    </div>
+
+
+<P>
+
+<Form Method="POST" Action="lg.cgi">
+
+<table>
+  <tr>
+    <th>Query:</th>
+    <td>
+      
+      <Input type="radio" name="query" value="bgp" Checked> show ip bgp
+      <i>&lt;address&gt;</i><br>
+      
+      <Input type="radio" name="query" value="bgp6" > show bgp
+      ipv6 unicast <i>&lt;prefix&gt;</i><br>
+
+      <Input type="radio" name="query" value="mbgp" > show bgp
+      ipv4 multicast <i>&lt;prefix&gt;</i><br>
+
+      <Input type="radio" name="query" value="mbgp6"> show bgp
+      ipv6 multicast <i>&lt;prefix&gt;</i><br>
+
+      <Input type="radio" name="query" value="ping"> ping <i>&lt;address or hostname&gt;</i><br>
+      
+      <Input type="radio" name="query" value="trace"> traceroute <i>&lt;address or
+	hostname&gt;</i><br>
+      </td>
+
+    <th>Address:</th><td> <Input Name="addr" size=20></td>
+    <th>Router:</th><td><Select Name = router>
+<Option Value = Amsterdam Selected> Amsterdam
+<Option Value = Ashburn> Ashburn
+<Option Value = Athens> Athens
+<Option Value = Aqaba> Aqaba
+<Option Value = Bogota> Bogota
+<Option Value = Bucharest> Bucharest
+<Option Value = BuenosAires> BuenosAires
+<Option Value = Catania> Catania
+<Option Value = Cartagena> Cartagena
+<Option Value = Dallas> Dallas
+<Option Value = Daressalaam> Daressalaam
+<Option Value = Djibouti> Djibouti
+<Option Value = ElPaso> ElPaso
+<Option Value = Fortaleza> Fortaleza
+<Option Value = Frankfurt> Frankfurt
+<Option Value = Hamburg> Hamburg
+<Option Value = HoChiMihn> HoChiMihn
+<Option Value = HongKong> HongKong
+<Option Value = Istanbul> Istanbul
+<Option Value = Jacksonville> Jacksonville
+<Option Value = KualaLumpur> KualaLumpur
+<Option Value = Lagos> Lagos
+<Option Value = Lima> Lima
+<Option Value = Lisbon> Lisbon
+<Option Value = London> London
+<Option Value = LosAngeles> LosAngeles
+<Option Value = Madrid> Madrid
+<Option Value = Marseille> Marseille
+<Option Value = McAllen> McAllen
+<Option Value = Miami> Miami
+<Option Value = Milano> Milano
+<Option Value = Newark> Newark
+<Option Value = NewYork> NewYork
+<Option Value = Palermo> Palermo
+<Option Value = PaloAlto> PaloAlto
+<Option Value = Panama> Panama
+<Option Value = Paris> Paris
+<Option Value = PortoAlegre> PortoAlegre
+<Option Value = Puertorico> Puertorico
+<Option Value = RioDeJaneiro> RioDeJaneiro
+<Option Value = Rome> Rome
+<Option Value = Salvador> Salvador
+<Option Value = SaoPaulo> SaoPaulo
+<Option Value = Santiago> Santiago
+<Option Value = Singapore> Singapore
+<Option Value = Sofia> Sofia
+<Option Value = Stockholm> Stockholm
+<Option Value = Wien> Wien
+<Option Value = Yerevan> Yerevan
+<Option Value = GRX> GRX
+</Select></td>
+    <td> <Input Type="submit" Value="Submit"> </td>
+    <td> <Input Type="reset" Value="Reset"> </td>
+
+</tr>
+</table>
+
+
+</Form>
+
+
+
+
+<HR>
+<!--P Align = Center>
+<I>
+  Please email questions/comments or things you would like added to
+ <A Href="mailto:antonio.ferretti@tisparkle.com">antonio.ferretti@tisparkle.com</a>.
+</I>
+<P Align = Center>
+<A Href = ftp://ftp.cistron.nl/pub/people/miquels/net/> Download --
+  --Software </A -->
+
+<h3>Welcome to Telecom Italia Sparkle's Looking Glass.</h3>
+
+<p>
+It provides a snapshot of the current performance of our global IP
+backbone (AS
+6762).
+</p>
+This looking glass is here as a courtesy and should only be used to
+verify
+reachability. In fact, as the ICMP traffic is handled on routers with
+low-priority, this tool has not to be intended for use in measuring
+SLAs.
+
+
+<h4>WARNING:</h4>
+
+<p>
+All ping and traceroutes towards Sprint (AS 1239) and DTAG (AS 3320)
+backbones originating on a router where they are directly connected
+will not work because they do not redistribute the point-to-point
+addresses in their routing. It's their policy and there is no point in
+complaining. In some cases it is possible that the traceroute works
+but the return path is unexpectedly much longer due to different
+routing. Please use a different origin router and everything will just work.
+</p>
+
+<hr>
+<a href="http://etabeta.noc.seabone.net/">Back</a>
+
+</Body>
+

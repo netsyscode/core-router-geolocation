@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ro">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Traceroute - Urmareste ruta pachetelor catre gazda de destinatie de pe serverele traceroute.ro si utilitar pentru ping si MTR bazat pe web." />
+	<meta name="keywords" content="traceroute, ping, mtr" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="language" content="RO"/>
+	<meta name="author" content="TraceRoute"/>
+	<meta name="robots" content="index, follow" />
+	<title>traceroute.ro</title>
+	<!--
+	<link href="/css/index.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-tablet.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-desktop.min.css" rel="stylesheet" type="text/css" />
+   -->
+   <link href="/css/index.css?v=2" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-tablet.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-desktop.css" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/imgs/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/imgs/favicons/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/imgs/favicons/manifest.json">
+    <link rel="mask-icon" href="/imgs/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/imgs/favicons/favicon.ico">
+    <link rel="canonical" href="https://www.traceroute.ro/" />
+
+    <meta name="msapplication-config" content="/imgs/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+	<script src="/js/lib/jquery.min.js"></script>
+	<script src="/js/ui/smart.ui.js"></script>
+	<script src="/js/main/index.js"></script>
+	<script src="/js/main/internet.js"></script>
+	</head>
+	<body>
+		<!-- responsive menu box -->
+		<div class="xl-hide resp-menu">
+			<ul>
+				<li><a>COLOCARE</a>
+					<ul>
+						<li><a href="https://www.nav.ro/colocare"><i class="ic-3"></i>COLOCARE SERVERE</a></li>
+						<li><a href="https://www.nav.ro/data-center"><i class="ic-4"></i>DATA CENTER (DC)</a></li>
+					</ul>
+				</li>
+				<li><a>DOMENII</a>
+					<ul>
+						<li><a href="https://www.nav.ro/inregistrare-domenii"><i class="ic-5"></i>

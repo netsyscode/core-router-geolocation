@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Naitways Looking Glass</title>
+<head>
+<body>
+
+<center>
+<img src='logo.png' width='400'/>
+<br/>
+<h1><b>AS57119 Looking Glass</b></h1>
+<br/>
+<hr>
+<table border='0'><tr><td align='left'>
+<form action="./" method="post">
+IPv4 / IPv6 / FQDN / Param : <input type="text" name="name" /> 
+<br/>
+Query Type : <input type='radio' name="rdio" value="trace" checked />Trace <input type='radio' name="rdio" value="ping"/>Ping <input type='radio' name="rdio" value="bgp">BGP
+<br/>
+Location : <select name='site'>
+
+<option value='th2' selected>FR - PARIS - TH2 (IPv6 Enable)</option>
+<option value='par5'>FR - PARIS - PAR5 (IPv6 Enable)</option>
+<option value='lon1'>UK - LONDON- LON1 (IPv6 Enable)</option>
+
+</select>
+<input type="submit" value="Perform"/>
+</form>
+</td></tr></table>
+<font size='-3'>Your IP : 166.111.68.233 | All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</font>
+<hr><br/>
+<table border='0'><tr><td align='left'>
+ </td></tr></table>
+
+
+</body>
+</html>

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bird's Eye - Looking Glass</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/r-2.1.0/datatables.min.css">
+
+    <style>
+        /* Custom page footer */
+        .footer {
+          padding-top: 19px;
+          margin-top: 30px;
+          color: #777;
+          border-top: 1px solid #e5e5e5;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.inex.ie/rc1-cork-ipv6/lg/ ">Bird's Eye :: API
+                              and Looking Glass
+                        </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+                            <li><a href="https://www.inex.ie/rc1-cork-ipv6/lg">Looking Glass</a></li>
+                <li><a href="https://www.inex.ie/rc1-cork-ipv6/lg/route">Route Lookup</a></li>
+                        <li><a href="https://www.inex.ie/rc1-cork-ipv6/">API Overview</a></li>
+            <li><a href="https://github.com/inex/birdseye/">GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <br><br><br>
+      
+                <div class="starter-template">
+            <h1>
+                                    INEX Cork - Route Collector - IPv6
+                            </h1>
+            <div class="well">
+                Bird 2.0.9&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                    Router ID: 185.1.69.126&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                Uptime: 557 days &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                Last Reconfigure: 2023-12-18 08:21:03
+                            </div>
+          </div>
+      
+      
+<h2>BGP Protocol Summary</h2>
+
+<table class="table" id="bgpsummary">
+    <thead>
+        <tr>
+            <th>Neighbor</th>
+            <th>Description</th>
+            <th>ASN</th>
+            <th>Table</th>
+            <th>PfxLimit</th>
+            <th>State/PfxRcd</th>
+            <th>PfxExp</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+    <tr >
+        <td>2001:7f8:18:210::6</td>
+        <td>
+                            AS112 - AS112 Reverse DNS
+                    </td>
+        <td class="text-right">112</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as112_vli249_ipv6">
+                                2
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as112_vli249_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as112_vli249_ipv6"
+                data-protocol="pb_as112_vli249_ipv6" title="AS112 - AS112 Reverse DNS">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::11</td>
+        <td>
+                            AS1213 - HEAnet
+                    </td>
+        <td class="text-right">1213</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as1213_vli222_ipv6">
+                                3
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as1213_vli222_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as1213_vli222_ipv6"
+                data-protocol="pb_as1213_vli222_ipv6" title="AS1213 - HEAnet">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::29</td>
+        <td>
+                            AS13335 - Cloudflare
+                    </td>
+        <td class="text-right">13335</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as13335_vli369_ipv6">
+                                3
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as13335_vli369_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as13335_vli369_ipv6"
+                data-protocol="pb_as13335_vli369_ipv6" title="AS13335 - Cloudflare">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::16</td>
+        <td>
+                            AS20940 - Akamai Technologies
+                    </td>
+        <td class="text-right">20940</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as20940_vli245_ipv6">
+                                1
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as20940_vli245_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as20940_vli245_ipv6"
+                data-protocol="pb_as20940_vli245_ipv6" title="AS20940 - Akamai Technologies">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::23</td>
+        <td>
+                            AS25152 - RIPE NCC k-root server
+                    </td>
+        <td class="text-right">25152</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as25152_vli262_ipv6">
+                                1
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as25152_vli262_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as25152_vli262_ipv6"
+                data-protocol="pb_as25152_vli262_ipv6" title="AS25152 - RIPE NCC k-root server">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::10</td>
+        <td>
+                            AS31122 - Viatel
+                    </td>
+        <td class="text-right">31122</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as31122_vli220_ipv6">
+                                13
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as31122_vli220_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as31122_vli220_ipv6"
+                data-protocol="pb_as31122_vli220_ipv6" title="AS31122 - Viatel">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::31</td>
+        <td>
+                            AS39122 - Blacknight
+                    </td>
+        <td class="text-right">39122</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as39122_vli470_ipv6">
+                                20
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as39122_vli470_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as39122_vli470_ipv6"
+                data-protocol="pb_as39122_vli470_ipv6" title="AS39122 - Blacknight">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::8</td>
+        <td>
+                            AS43760 - INEX Route Servers
+                    </td>
+        <td class="text-right">43760</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as43760_vli226_ipv6">
+                                46
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as43760_vli226_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as43760_vli226_ipv6"
+                data-protocol="pb_as43760_vli226_ipv6" title="AS43760 - INEX Route Servers">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::9</td>
+        <td>
+                            AS43760 - INEX Route Servers
+                    </td>
+        <td class="text-right">43760</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as43760_vli227_ipv6">
+                                46
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as43760_vli227_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as43760_vli227_ipv6"
+                data-protocol="pb_as43760_vli227_ipv6" title="AS43760 - INEX Route Servers">Details</a>
+        </td>
+    </tr>
+
+
+    <tr >
+        <td>2001:7f8:18:210::15</td>
+        <td>
+                            AS47720 - CloudCIX
+                    </td>
+        <td class="text-right">47720</td>
+        <td>
+            <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/table/master6">
+                master6
+            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/protocol/pb_as47720_vli228_ipv6">
+                                5
+                                    </a>
+                                    </td>
+        <td class="text-right">
+                                                <a href="https://www.inex.ie/rc1-cork-ipv6/lg/routes/export/pb_as47720_vli228_ipv6">
+                                0
+                                    </a>
+                                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as47720_vli228_ipv6"
+                data-protocol="pb_as47720_vli228_ipv6" title="AS47720 - CloudCIX">Details</a>
+        </td>
+    </tr>
+
+
+    </tbody>
+</table>
+
+
+<div class="modal fade" id="protocol-info-modal" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">
+                Protocol Details for <code><span id="title_p_name"></span></code>
+            </h4>
+        </div>
+        <div class="modal-body">
+            <pre>
+<span id="p_name"></span>    <span id="p_bird_protocol"></span>    <span="p_table"></span> <span id="p_state"></span>     <span id="p_state_changed"></span>  <span id="p_connection"></span>
+  Description:    <span id="p_description"></span>
+  Preference:     <span id="p_preference"></span>
+  Input filter:   <span id="p_input_filter"></span>
+  Output filter:  <span id="p_output_filter"></span>
+  Import limit:   <span id="p_import_limit"></span>
+    Action:       <span id="p_limit_action"></span>
+  Routes:         <span id="p_routes_imported"></span> imported, <span id="p_routes_exported"></span> exported, <span id="p_routes_preferred"></span> preferred
+  Route change stats:     received   rejected   filtered    ignored   accepted
+    Import updates:     <span id="p_import_updates_received"></span> <span id="p_import_updates_rejected"></span> <span id="p_import_updates_filtered"></span> <span id="p_import_updates_ignored"></span> <span id="p_import_updates_accepted"></span>
+    Import withdraws:   <span id="p_import_withdraws_received"></span> <span id="p_import_withdraws_rejected"></span>        --- <span id="p_import_withdraws_ignored"></span> <span id="p_import_withdraws_accepted"></span>
+    Export updates:     <span id="p_export_updates_received"></span> <span id="p_export_updates_rejected"></span> <span id="p_export_updates_filtered"></span>        --- <span id="p_export_updates_accepted"></span>
+    Export withdraws:   <span id="p_export_withdraws_received"></span>        ---        ---        --- <span id="p_export_withdraws_accepted"></span>
+  BGP state:          <span id="p_bgp_state"></span>
+    Neighbor address: <span id="p_neighbor_address"></span>
+    Neighbor AS:      <span id="p_neighbor_as"></span>
+    Neighbor ID:      <span id="p_neighbor_id"></span>
+    Neighbor caps:    <span id="p_neighbor_capabilities"></span>
+    Session:          <span id="p_bgp_session"></span>
+    Source address:   <span id="p_source_address"></span>
+    Route limit:      <span id="p_route_limit_at"></span>/<span id="p_import_limit2"></span>
+    Hold timer:       <span id="p_hold_timer"></span>
+    Keepalive timer:  <span id="p_keepalive"></span>
+</pre>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+        <footer class="footer">
+            <p>
+                &copy; 2016 - 2023 Internet Neutral Exchange Association Limited by Guarantee
+                (<a href="https://www.inex.ie/">INEX</a>).
+                <a href="https://github.com/inex/birdseye/blob/master/LICENSE.md">MIT License</a>.<br>
+                A simple secure PHP micro service to provide some Bird protocol / routing information via a HTTP API as JSON.
+                This was the winning project from <a href="https://atlas.ripe.net/hackathon/ixp-tools/">the RIPE IXP Tools Hackaton</a>
+                just prior to <a href="https://ripe73.ripe.net/">RIPE73</a> in Madrid, Spain. Find the code on
+                <a href="https://github.com/inex/birdseye">GitHub</a>.
+            </p>
+        </footer>
+    </div><!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/r-2.1.0/datatables.min.js"></script>
+
+    <script type="text/javascript">
+
+        jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+            "ip-address-pre": function ( a ) {
+                var i, item;
+                var m = a.split("."),
+                    n = a.split(":"),
+                    x = "",
+                    xa = "";
+
+                if (m.length == 4) {
+                    // IPV4
+                    for(i = 0; i < m.length; i++) {
+                        item = m[i];
+
+                        if(item.length == 1) {
+                            x += "00" + item;
+                        }
+                        else if(item.length == 2) {
+                            x += "0" + item;
+                        }
+                        else {
+                            x += item;
+                        }
+                    }
+                }
+                else if (n.length > 0) {
+                    // IPV6
+                    var count = 0;
+                    for(i = 0; i < n.length; i++) {
+                        item = n[i];
+
+                        if (i > 0) {
+                            xa += ":";
+                        }
+
+                        if(item.length === 0) {
+                            count += 0;
+                        }
+                        else if(item.length == 1) {
+                            xa += "000" + item;
+                            count += 4;
+                        }
+                        else if(item.length == 2) {
+                            xa += "00" + item;
+                            count += 4;
+                        }
+                        else if(item.length == 3) {
+                            xa += "0" + item;
+                            count += 4;
+                        }
+                        else {
+                            xa += item;
+                            count += 4;
+                        }
+                    }
+
+                    // Padding the ::
+                    n = xa.split(":");
+                    var paddDone = 0;
+
+                    for (i = 0; i < n.length; i++) {
+                        item = n[i];
+
+                        if (item.length === 0 && paddDone === 0) {
+                            for (var padding = 0 ; padding < (32-count) ; padding++) {
+                                x += "0";
+                                paddDone = 1;
+                            }
+                        }
+                        else {
+                            x += item;
+                        }
+                    }
+                }
+
+                return x;
+            },
+
+            "ip-address-asc": function ( a, b ) {
+                return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+            },
+
+            "ip-address-desc": function ( a, b ) {
+                return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+            }
+        });
+        
+        
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+
+        var protocols = {"pb_as112_vli249_ipv6":{"protocol":"pb_as112_vli249_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T00:10:02+00:00","connection":"  Established   ","description":"AS112 - AS112 Reverse DNS","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::6","neighbor_as":112,"neighbor_id":"185.1.69.6","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":240,"hold_timer_now":194,"keepalive":80,"keepalive_now":50,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":2,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":2,"rejected":0,"filtered":0,"ignored":0,"accepted":2},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":944,"rejected":2,"filtered":942,"accepted":0},"export_withdraws":{"received":401,"accepted":0}},"route_limit_at":2},"pb_as1213_vli222_ipv6":{"protocol":"pb_as1213_vli222_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-11-22T18:41:33+00:00","connection":"  Established   ","description":"AS1213 - HEAnet","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::11","neighbor_as":1213,"neighbor_id":"87.44.48.40","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":90,"hold_timer_now":69,"keepalive":30,"keepalive_now":18,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":3,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":7,"rejected":0,"filtered":0,"ignored":3,"accepted":4},"import_withdraws":{"received":1,"rejected":0,"ignored":0,"accepted":1},"export_updates":{"received":57,"rejected":5,"filtered":52,"accepted":0},"export_withdraws":{"received":3,"accepted":0}},"route_limit_at":3},"pb_as13335_vli369_ipv6":{"protocol":"pb_as13335_vli369_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T01:36:33+00:00","connection":"  Established   ","description":"AS13335 - Cloudflare","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::29","neighbor_as":13335,"neighbor_id":"162.158.27.1","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":90,"hold_timer_now":58,"keepalive":30,"keepalive_now":11,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":3,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":495,"rejected":0,"filtered":0,"ignored":464,"accepted":31},"import_withdraws":{"received":27,"rejected":0,"ignored":0,"accepted":27},"export_updates":{"received":880,"rejected":34,"filtered":846,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":3},"pb_as20940_vli245_ipv6":{"protocol":"pb_as20940_vli245_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-06-07T05:47:02+00:00","connection":"  Established   ","description":"AS20940 - Akamai Technologies","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::16","neighbor_as":20940,"neighbor_id":"2.18.24.254","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":90,"hold_timer_now":77,"keepalive":30,"keepalive_now":13,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":1,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":23,"rejected":0,"filtered":0,"ignored":22,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":596,"rejected":1,"filtered":595,"accepted":0},"export_withdraws":{"received":219,"accepted":0}},"route_limit_at":1},"pb_as25152_vli262_ipv6":{"protocol":"pb_as25152_vli262_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T00:56:10+00:00","connection":"  Established   ","description":"AS25152 - RIPE NCC k-root server","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::23","neighbor_as":25152,"neighbor_id":"185.1.69.23","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":240,"hold_timer_now":140,"keepalive":80,"keepalive_now":2,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":1,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":1,"rejected":0,"filtered":0,"ignored":0,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":885,"rejected":0,"filtered":885,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":1},"pb_as31122_vli220_ipv6":{"protocol":"pb_as31122_vli220_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-11-22T11:07:19+00:00","connection":"  Established   ","description":"AS31122 - Viatel","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::10","neighbor_as":31122,"neighbor_id":"78.137.187.135","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":180,"hold_timer_now":80,"keepalive":60,"keepalive_now":40,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":13,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":66,"rejected":0,"filtered":0,"ignored":51,"accepted":15},"import_withdraws":{"received":1,"rejected":0,"ignored":0,"accepted":1},"export_updates":{"received":66,"rejected":15,"filtered":51,"accepted":0},"export_withdraws":{"received":6,"accepted":0}},"route_limit_at":13},"pb_as39122_vli470_ipv6":{"protocol":"pb_as39122_vli470_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T01:55:03+00:00","connection":"  Established   ","description":"AS39122 - Blacknight","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::31","neighbor_as":39122,"neighbor_id":"81.17.240.16","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":90,"hold_timer_now":74,"keepalive":30,"keepalive_now":1,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":20,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":980,"rejected":0,"filtered":0,"ignored":912,"accepted":68},"import_withdraws":{"received":44,"rejected":0,"ignored":0,"accepted":44},"export_updates":{"received":877,"rejected":68,"filtered":809,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":20},"pb_as43760_vli226_ipv6":{"protocol":"pb_as43760_vli226_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T00:53:38+00:00","connection":"  Established   ","description":"AS43760 - INEX Route Servers","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::8","neighbor_as":43760,"neighbor_id":"185.1.69.8","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":240,"hold_timer_now":198,"keepalive":80,"keepalive_now":19,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":46,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":344,"rejected":0,"filtered":0,"ignored":1,"accepted":343},"import_withdraws":{"received":343,"rejected":0,"ignored":70,"accepted":273},"export_updates":{"received":886,"rejected":304,"filtered":582,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":46},"pb_as43760_vli227_ipv6":{"protocol":"pb_as43760_vli227_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T00:54:08+00:00","connection":"  Established   ","description":"AS43760 - INEX Route Servers","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::9","neighbor_as":43760,"neighbor_id":"185.1.69.9","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":240,"hold_timer_now":217,"keepalive":80,"keepalive_now":48,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":46,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":334,"rejected":0,"filtered":0,"ignored":1,"accepted":333},"import_withdraws":{"received":333,"rejected":0,"ignored":70,"accepted":263},"export_updates":{"received":886,"rejected":200,"filtered":686,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":46},"pb_as47720_vli228_ipv6":{"protocol":"pb_as47720_vli228_ipv6","bird_protocol":"BGP","table":"master6","state":"up","state_changed":"2023-03-15T01:57:49+00:00","connection":"  Established   ","description":"AS47720 - CloudCIX","bgp_state":"Established","neighbor_address":"2001:7f8:18:210::15","neighbor_as":47720,"neighbor_id":"91.103.0.235","bgp_session":["external","AS4"],"source_address":"2001:7f8:18:210::126","hold_timer":90,"hold_timer_now":63,"keepalive":30,"keepalive_now":13,"preference":100,"input_filter":"(unnamed)","output_filter":"REJECT","routes":{"imported":5,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":27,"rejected":0,"filtered":0,"ignored":15,"accepted":12},"import_withdraws":{"received":7,"rejected":0,"ignored":0,"accepted":7},"export_updates":{"received":860,"rejected":12,"filtered":848,"accepted":0},"export_withdraws":{"received":343,"accepted":0}},"route_limit_at":5}};
+
+        function spacifyNumber( n, s ) {
+            return "" + ' '.repeat( s - n.length ) + "" + String(n);
+        }
+
+        $('#bgpsummary')
+            .removeClass( 'display' )
+            .addClass('table');
+
+        $(document).ready(function() {
+            $('#bgpsummary').DataTable({
+                paging: false,
+                order: [[ 2, "asc" ]],
+                columnDefs: [
+                    { type: 'ip-address', targets: 0 },
+                    { type: 'string', targets: 0 },
+                    { type: 'int', targets: 0 },
+                    { type: 'string', targets: 0 },
+                    { type: 'string', targets: 0 },
+                    { type: 'int', targets: 0 },
+                    { type: 'int', targets: 0 }
+                ]
+            });
+        });
+
+
+        $('a[id|="sourceSelector"]').on( 'click', function(){
+            if( $("#net").val().trim() == "" ) {
+                return;
+            }
+            $("#submit").prop('disabled', true);
+
+            $.get('https://www.inex.ie/rc1-cork-ipv6/lg/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                    source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+                $('#route-modal .modal-content').html(html);
+                $('#route-modal').modal('show', {backdrop: 'static'});
+             });
+
+            $("#submit").prop('disabled', false);
+        });
+
+        $('a[id|="protocol_details"]').on( 'click', function(){
+            let pname = $(this).attr('data-protocol');
+
+            let p = protocols[pname];
+
+            $('#title_p_name').html( pname );
+            $('#p_name').html( pname );
+            $('#p_bird_protocol').html( p.bird_protocol );
+            $('#p_table').html( p.table );
+            $('#p_state ').html( p.state );
+            $('#p_state_changed').html( p.state_changed );
+            $('#p_connection').html( p.connection );
+            $('#p_description').html( p.description );
+            $('#p_preference').html( p.preference );
+            $('#p_input_filter').html( p.input_filter );
+            $('#p_output_filter').html( p.output_filter );
+
+            $('#p_import_limit').html( p.import_limit );
+            $('#p_limit_action').html( p.limit_action );
+            $('#p_routes_imported').html( p.routes.imported );
+            $('#p_routes_exported').html( p.routes.exported );
+            $('#p_routes_preferred').html( p.routes.preferred );
+
+            $('#p_import_updates_received').html( spacifyNumber( p.route_changes.import_updates.received, 10 ) );
+            $('#p_import_updates_rejected').html( spacifyNumber( p.route_changes.import_updates.rejected, 10 ) );
+            $('#p_import_updates_filtered').html( spacifyNumber( p.route_changes.import_updates.filtered, 10 ) );
+            $('#p_import_updates_ignored').html( spacifyNumber( p.route_changes.import_updates.ignored, 10 ) );
+            $('#p_import_updates_accepted').html( spacifyNumber( p.route_changes.import_updates.accepted, 10 ) );
+
+            $('#p_import_withdraws_received').html( spacifyNumber( p.route_changes.import_withdraws.received, 10 ) );
+            $('#p_import_withdraws_rejected').html( spacifyNumber( p.route_changes.import_withdraws.rejected, 10 ) );
+            $('#p_import_withdraws_ignored').html( spacifyNumber( p.route_changes.import_withdraws.ignored, 10 ) );
+            $('#p_import_withdraws_accepted').html( spacifyNumber( p.route_changes.import_withdraws.accepted, 10 ) );
+
+            $('#p_export_updates_received').html( spacifyNumber( p.route_changes.export_updates.received, 10 ) );
+            $('#p_export_updates_rejected').html( spacifyNumber( p.route_changes.export_updates.rejected, 10 ) );
+            $('#p_export_updates_filtered').html( spacifyNumber( p.route_changes.export_updates.filtered, 10 ) );
+            $('#p_export_updates_accepted').html( spacifyNumber( p.route_changes.export_updates.accepted, 10 ) );
+
+            $('#p_export_withdraws_received').html( spacifyNumber( p.route_changes.export_withdraws.received, 10 ) );
+            $('#p_export_withdraws_accepted').html( spacifyNumber( p.route_changes.export_withdraws.accepted, 10 ) );
+
+            $('#p_bgp_state').html( p.bgp_state );
+            $('#p_neighbor_address').html( p.neighbor_address );
+            $('#p_neighbor_as').html( p.neighbor_as );
+            $('#p_neighbor_id').html( p.neighbor_id );
+
+            if( p.neighbor_capabilities instanceof Array && p.neighbor_capabilities.length ) {
+                $('#p_neighbor_capabilities').html( p.neighbor_capabilities.join(' ') );
+            } else {
+                $('#p_neighbor_capabilities').html( 'n/a' );
+            }
+            if( p.bgp_session instanceof Array && p.bgp_session.length ) {
+                $('#p_bgp_session').html( p.bgp_session.join(' ') );
+            } else {
+                $('#p_bgp_session').html( 'n/a' );
+            }
+            $('#p_source_address').html( p.source_address );
+            $('#p_route_limit_at').html( p.route_limit_at );
+            $('#p_import_limit2').html( p.import_limit );
+            $('#p_hold_timer').html( p.hold_timer );
+            $('#p_keepalive').html( p.keepalive );
+
+            $('#protocol-info-modal').modal('show', {backdrop: 'static'});
+        });
+
+    </script>
+
+
+  </body>
+</html>

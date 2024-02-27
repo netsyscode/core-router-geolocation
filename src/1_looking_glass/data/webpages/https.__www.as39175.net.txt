@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="Looking Glass, LG, BGP, Connective" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <title>Connective Looking Glass</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">	
+	<style type="text/css">
+
+		html {
+			overflow-y: scroll;
+		}
+	
+		.jumbotron {
+			background-image: url('https://pbs.twimg.com/profile_banners/966274122941689856/1519216711/1500x500');
+			background-size: cover;
+						height: 630px;
+					}
+		
+		.jumbotron .container {
+		    background: rgba(55, 53, 57, 0.75);
+			margin: 30px auto 10px auto;
+						padding: 20px 20px 60px 40px;
+						color: #ffffff;
+			border-radius: 12px; }
+			
+		.form-inline .form-group {
+			padding-left: 0px;
+		}
+			
+		.form-inline .form-group .form-control {
+			width: 100%;
+		}
+
+		.result, .loading { padding-right: 20px; }
+
+kbd {
+  display:          block;
+  margin-left:      auto;
+  margin-right:     auto;
+}
+pre {
+  color:            #FFFFFF;
+  background-color: #000000;
+  text-decoration:  none;
+  padding: 20px;
+  margin-left:      auto;
+  margin-right:     auto;
+}
+	
+	</style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">AS39175.net</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Looking Glass</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/peering-policy">Peering Policy</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/bgp-communities">BGP Communities</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="https://www.peeringdb.com/asn/39175" target="_blank">PeeringDB</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+	  
+        <div class="container">
+		
+          <h1 class="display-4" style="margin-top: 20px; margin-bottom: 20px;">Connective Looking Glass</h1>
+
+	
+<div class="alert alert-danger alert-dismissable" id="error">
+<button type="button" class="close" aria-hidden="true">&times;</button>
+<strong>Error!</strong>&nbsp;<span id="error-text"></span>
+</div>
+
+		  <div class="content">
+		  <form class="form-inline" action="execute.php" method="post">
+		  	
+		  	<div class="form-group col-sm-5">
+				<select class="form-control" name="routers" id="routers"><optgroup label="Amsterdam"><option value="9">Iron Mountain AMS-1 (rt0.ams1.nl.as39175.net)</option></optgroup><optgroup label="London"><option value="1" selected="selected">Telehouse North (rt0.lon2.uk.as39175.net)</option><option value="2">Interxion LON1 (rt0.lon5.uk.as39175.net)</option><option value="3">Equinix LD8 (rt0.lon7.uk.as39175.net)</option><option value="4">Equinix LD6 (rt0.lon8.uk.as39175.net)</option><option value="5">Volta London (rt0.lon1.uk.as39175.net)</option><option value="6">Iron Mountain LON-1 (rt0.lon4.uk.as39175.net)</option><option value="7">Iron Mountain LON-1 (rt1.lon4.uk.as39175.net)</option><option value="8">CenturyLink Goswell Road (rt0.lon6.uk.as39175.net)</option></optgroup><optgroup label="Manchester"><option value="11">Equinix MA3 (rt0.man1.uk.as39175.net)</option></optgroup><optgroup label="Paris"><option value="10">Interxion PAR2 (rt0.par1.fr.as39175.net)</option></optgroup></select>
+			</div>
+		  
+			<div class="form-group col-sm-3">
+				<input class="form-control" name="parameter" id="input-param" placeholder="IP Address/Hostname" value="164.70.99.9" autofocus />
+			</div>
+			
+		  	<div class="form-group col-sm-2">
+				<select class="form-control" name="query" id="query"><option value="bgp" selected="selected">bgp</option><option value="ping">ping</option><option value="traceroute">traceroute</option></select>
+			</div>
+			
+			<div class="col-sm-2">
+				<input type="submit" class="btn btn-success">
+				<button class="btn btn-danger" id="clear" type="reset">Reset</button>
+		    </div>
+		    <input type="hidden" class="hidden" name="dontlook" placeholder="Don't look at me!" />
+		  </form>
+		</div>
+
+<div class="loading" style="margin-top: 10px;">
+<div class="progress">
+<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+</div>
+</div>
+</div>
+<div class="result">
+<div id="output"></div>
+<div class="reset">
+<button class="btn btn-danger btn-block" id="backhome">Reset</button>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+		  
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+
+	
+<div class="row">
+<div class="col-md-4">
+            <h2>About Us</h2>
+            <p>Connective is a leading provider of global connectivity. We offer a range of connectivity solutions including IP Transit and MPLS. Find out more about our services by visiting our website.</p>
+            <p><a class="btn btn-secondary" href="https://www.connective.online" role="button">Learn More »</a></p>
+          </div>
+
+<div class="col-md-4">
+            <h2>Peer With Us</h2>
+            <p>We operate an open peering policy and welcome the opportunity to peer with new networks. Our network connects us to a range of global Data Centres and IXPs where we can accept public and private peering.</p>
+            <p><a class="btn btn-secondary" href="/peering-policy" role="button">Peering Policy »</a></p>
+          </div>
+
+<div class="col-md-4">
+            <h2>BGP Communities</h2>
+            <p>Connective customers who wish to strictly control their routing can take advantage of our BGP communities. Take a look at our comprehensive documentation how our BGP communities work.</p>
+            <p><a class="btn btn-secondary" href="/bgp-communities" role="button">BGP Communities »</a></p>
+          </div>
+</div>
+
+<div class="row" style="margin-top: 20px">
+
+<div class="col-md-12">
+
+    <h2>Peering Locations</h2>
+    <p>Our network is available for public and private peering at a range of locations across the UK. In order to request direct peering with our network (AS39175), please contact our Network Operations Center.</p>
+
+</div>
+
+<div class="col-md-6">
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th colspan="3">Public Peering Locations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>LINX LON1</td><td>195.66.224.132</td><td>2001:7f8:4::9907:1</td></tr>
+        <tr><td>LINX LON2</td><td>195.66.236.132</td><td>2001:7f8:4:1::9907:1</td></tr>
+        <tr><td>LONAP</td><td>5.57.80.154</td><td>2001:7f8:17::9907:1</td></tr>
+	<tr><td>Equinix London</td><td>185.1.104.102</td><td>2001:7f8:be::3:9175:1</td></tr>
+        <tr><td>LINX Manchester</td><td>195.66.244.107</td><td>2001:7f8:4:2::9907:1</td></tr>
+        <tr><td>Equinix Manchester</td><td>185.1.101.53</td><td>2001:7f8:bc::3:9175:1</td></tr>
+    </tbody>
+</table>
+</div>
+<div class="col-md-6">
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th colspan="3">Private Peering Locations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>LON2</td><td>Telehouse North, East, West and North 2</td><td>London, UK</td></tr>
+        <tr><td>LON7</td><td>Equinix LD8</td><td>London, UK</td></tr>
+        <tr><td>LON5</td><td>Interxion LON1, LON2 and LON3</td><td>London, UK</td></tr>
+        <tr><td>LON8</td><td>Equinix LD4, LD5, LD6, LD7 and LD10</td><td>London, UK</td></tr>
+	<tr><td>LON3</td><td>Redcentric London</td><td>London, UK</td></tr> 
+	<tr><td>LON1</td><td>Volta Great Sutton Street</td><td>London, UK</td></tr>
+        <tr><td>LON6</td><td>CenturyLink Goswell Road</td><td>London, UK</td></tr>
+        <tr><td>LON4</td><td>Iron Mountain LON-1</td><td>London, UK</td></tr>
+        <tr><td>MAN1</td><td>Equinix MA3</td><td>Manchester, UK</td></tr>
+        <tr><td>AMS1</td><td>Iron Mountain AMS-1</td><td>Amsterdam, NL</td></tr>
+        <tr><td>PAR1</td><td>Interxion PAR2</td><td>Paris, FR</td></tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+	<hr />
+
+      </div>
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Connective Online Limited | Registered in England and Wales (Company No. 14498508) Cambrai Court 1229, Stratford Road, Hall Green, Birmingham, England, B28 9AA</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    
+<script src="js/looking-glass.js"></script>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><TITLE>LG.Varna.Net</TITLE><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META NAME="Author" CONTENT="Kaloyan Kovachev">
+<LINK rel="icon" href="/favicon.ico" type="image/x-icon">
+<LINK rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<LINK type="text/css" rel="stylesheet" href="/css/default.css">
+</HEAD><BODY>
+
+<TABLE border='0'><TR><TD rowspan='2'><IMG src='/images/Logo.gif' alt='Logo' height='50' width='140'></TD>
+<TD><IMG src='/images/spc.gif' alt='' width='1' height='1'></TD>
+<TD nowrap align='right' valign='top' rowspan='2'></TD></TR>
+<TR><TD width='100%' align='center' valign='middle'><H2>LG.Varna.Net</H2></TD></TR></TABLE>
+
+<FORM id='LGquery' method='POST' action='LG.php' target='LGres'><TABLE cellspacing='2' border='0' cellpadding='2' style='height: 100%;'>
+<TR align='center'><TD><B>Router:</B><BR /><SELECT id='RTR' name='RTR' onChange="javascript: document.forms['LGquery'].action='/index.php'; document.forms['LGquery'].target='_top'; submit();"><OPTION value='Zeus' selected>Core Router 1 (Zeus)</OPTION><OPTION value='Siberia'>Core Router 2 (Siberia)</OPTION><OPTION value='LG'>LG.Varna.Net</OPTION></SELECT></TD>
+<TD rowspan='30' width='100%' height='100%' style='min-width: 550px; min-height: 800px; height: 100%;' valign='top'><IFRAME id='LGres' name='LGres' frameborder='0'  style='min-width: 550px; min-height: 800px; height: 100%;' scrolling='auto' width='100%' height='100%'></IFRAME></TD></TR>
+<TR><TD align='center'><B>Argument:</B><BR /><input type='text' id='Arg' name='Arg'  size='20'></TD></TR>
+<TR><TD align='center'><B>Query:</B><HR></TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='OctoRPKI'>Octo RPKI status</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='RipeRPKI'>Ripe RPKI status</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='BGP_sum'>BGP Summary</TD></TR>
+<TR><TD nowrap align='right'>longer prefixes<input type='checkbox' name='rtPlus' value='X'></TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='BGP_rt'>BGP Route to</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='IPq_4rt'>IPv4 Net Route to</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='IP_4rg'>IPv4 Host Route to</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='tracepath'>Trace path to</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='ping'>Ping to</TD></TR>
+<TR><TD><HR></TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='NS_soa'>Domain SOA</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='NS_ns'>Domain NS</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='NS_mx'>Domain MX</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='NS_look'>DNS lookup</TD></TR>
+<TR><TD><HR></TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='HTTP_head'>HTTP check HEAD</TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='HTTP_get'>HTTP check GET</TD></TR>
+<TR><TD nowrap align='right'>show as page<input type='checkbox' name='shHTML' value='X'></TD></TR>
+<TR><TD><HR></TD></TR>
+<TR><TD nowrap><input type='radio' name='req' value='WhoIs'>Whois lookup</TD></TR>
+<TR><TD><input type='submit' class='btn' value='Execute'></TD></TR>
+<TR style='height: 100%;'><TD>&nbsp;</TD></TR>
+</TABLE></FORM>
+
+</BODY></HTML>

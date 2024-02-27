@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PING.LV</title>
+       <meta name="description" content="─truma p─rbaude" />
+    <meta name="keywords" content="─truma p─rbaude" />
+    <meta name="author" content="ping.lv" />
+    <link href="css/main123.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="functions_v3.js"></script>
+    <script type="text/javascript" src="browserdetect.js"></script>
+    <script type="text/javascript" src="swfobject.js"></script>
+    <script type="text/javascript" src="js/verify.js"></script>
+    <script type="text/javascript" src="js/domain_check.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+<!--
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="./js/jquery.progressbar.js"></script>
+-->
+<script type="text/javascript">
+function showSpeedTest(){
+
+                var flashvars = {
+                        configExtension: "xml"
+
+                };
+                var params = {
+                        quality: "high",
+                        bgcolor: "#ffffff",
+                        allowScriptAccess: "always"
+                };
+                var attributes = {
+                        id: "flashtest",
+                        name: "flashtest"
+                };
+                $("#speedtest").html(swfobject.embedSWF("netgauge.swf?v=3.0", "flashcontent", "620", "420", "10.0.0", false, flashvars, params, attributes));
+		$("#speedtest").show();
+}
+
+var loadedApplet = "";
+function loadJava(applet) {
+        if(loadedApplet == applet) {
+                return;
+        } else {
+                loadedApplet = applet;
+        }
+        var e = document.getElementById('javadiv');
+        if(e != null) {
+                if ((BrowserDetect.browser == "Safari") || (BrowserDetect.browser == "Opera")) {
+                    applet = "VoipApplet.jar";
+                }
+                e.innerHTML = "<applet code=\"VoipApplet.class\" archive=\"" + applet + "?blah=" + Math.random() + "\" width=\"1\" height=\"1\" mayscript id=\"VoipApplet\" name=\"VoipApplet\"><param name=\"debug\" value=\"false\"></applet>";
+        }
+}
+
+function switchColors(element, color)
+{
+links=document.getElementsByTagName("label") ;
+for (var i = 0 ; i < links.length ; i ++)
+links.item(i).style.color = 'black' ;
+element.style.color=color;
+}
+function changeColors(element, color)
+{
+lang=document.getElementsByTagName("a") ;
+for (var i = 0 ; i < lang.length ; i ++)
+lang.item(i).style.color = '#A8BAC3' ;
+element.style.color=color;
+}
+</script>
+	<script type="text/javascript">
+function switchColors(element, color)
+{
+links=document.getElementsByTagName("label") ;
+for (var i = 0 ; i < links.length ; i ++)
+links.item(i).style.color = 'black' ;
+element.style.color=color;
+}
+function changeColors(element, color)
+{
+lang=document.getElementsByTagName("a") ;
+for (var i = 0 ; i < lang.length ; i ++)
+lang.item(i).style.color = '#A8BAC3' ;
+element.style.color=color;
+}
+
+
+$(document).ready(function () {
+
+//showSpeedTest();
+
+         $(":radio:checked").each(function () {
+                        if($(this).val() == 'speedtest') {
+                                $('#formSubmit').hide();
+//                                showSpeedTest();
+                                $('#pb1').hide();
+//                                $('#speedtest').hide();
+                                $("#port").hide();
+                                $("#test").hide();
+                                $("#help_form").hide();
+                        } else if ($(this).val() == 'ping') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#formSubmit').show();
+                                $("#count").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+//                              $("#speedtest").css('min-height', '500px');
+//                              $("#whois_server").hide();
+//                              $("#dig_options").hide();
+                        } else if ($(this).val() == 'whois') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $("#subject").show();
+//                              $("#ip-holder").hide();
+                                $("#ip-holder_whois").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                        } else if ($(this).val() == 'dig') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $("#dig_options").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        } else if ($(this).val() == 'resolve') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'nslookup') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'tracepath') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'traceroute') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }
+                });
+});
+
+
+</script>
+</head>
+
+
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 id="logo"><a href="https://ping.lv" title="ping.lv - s─kums"><span>ping.lv</span></a></h1>
+
+            <ul id="lang">
+                <li><a href="http://ping.lv/index.php" onclick="changeColors(this, '#FF7610');">Lv</a></li>
+                <li><a href="http://ping.lv/index-ru.php" onclick="changeColors(this, '#FF7610');">Ru</a></li>
+                <li><a href="http://ping.lv/index-en.php" onclick="changeColors(this, '#FF7610');">En</a></li>
+            </ul>
+            <p class="help"><a href="help.html">Pal┤dz┤ba</a></p>
+        </div>
+        <form action="./index.php" method="post" class="radio-forma" id="mainform">
+            <fieldset>
+                <legend>Form</legend>
+                <div id="link-holder">
+                    <ul class="menu">
+                           <li>
+                            <input type="radio" id="name2" class="radio" value="speedtest" name="action" checked="checked"/>
+                            <label for="name2" onclick="switchColors(this, '#FF7610');">

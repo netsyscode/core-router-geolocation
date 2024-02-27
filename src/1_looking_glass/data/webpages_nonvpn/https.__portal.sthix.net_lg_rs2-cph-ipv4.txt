@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.sthix.net/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            STHIX :: IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="ALge1lTBVJSNtDtPyDTFBr5GJ1oWL0RmJy1kWRew">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.sthix.net/css/ixp-pack.css?id=4f4be1219e9331ccbd29" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.sthix.net/favicon.ico" />
+
+                
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.sthix.net">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.sthix.net/images/ixp-manager-white.png">
+    STHIX :: IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.sthix.net/customer/details">
+                            Customer Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.sthix.net/customer/associates">
+                            Associate Customers                        </a>
+
+                        
+                    </div>
+                </li>
+            
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.sthix.net/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.sthix.net/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.sthix.net/statistics/vlan">
+                            VLAN / Per-Protocol Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.sthix.net/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.sthix.net/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.sthix.net/login">
+                        Login
+                    </a>
+                
+            </li>
+        </ul>
+
+    </div>
+</nav>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h3>
+                                                                    Looking Glass
+            <small class="text-muted" style="font-size: 16px;">RS #2 - CPH - IPv4</small>
+                                </h3>
+                            <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                    <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.sthix.net/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                RS #2 - CPH - IPv4            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-cph-ipv4">
+                            RS #1 - CPH - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-cph-ipv6">
+                            RS #1 - CPH - IPv6                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-gbg-ipv4">
+                            RS #1 - GBG - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-gbg-ipv6">
+                            RS #1 - GBG - IPv6                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-sth-ipv4">
+                            RS #1 - STH - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs1-sth-ipv6">
+                            RS #1 - STH - IPv6                        </a>
+
+                    
+                        <a class="dropdown-item active" href="https://portal.sthix.net/lg/rs2-cph-ipv4">
+                            RS #2 - CPH - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs2-cph-ipv6">
+                            RS #2 - CPH - IPv6                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs2-gbg-ipv4">
+                            RS #2 - GBG - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs2-gbg-ipv6">
+                            RS #2 - GBG - IPv6                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs2-sth-ipv4">
+                            RS #2 - STH - IPv4                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.sthix.net/lg/rs2-sth-ipv6">
+                            RS #2 - STH - IPv6                        </a>
+
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.sthix.net/lg/rs2-cph-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.sthix.net/lg/rs2-cph-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                
+                                    <div class="alert alert-light" role="alert">
+        <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+    </div>
+
+
+    <div class="card mb-4">
+        <div class="card-body bg-light d-flex">
+            <div class="mr-auto">
+            
+                Bird v2                2.0.12
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                API: 1.2.2                
+                                    &nbsp;&nbsp;|&nbsp;&nbsp; 
+                    Router ID: 185.1.88.2                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Uptime: 46 days.
+                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Last Reconfigure: 2023-12-18 04:40:43                
+                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                JSON:
+                [<a href="https://portal.sthix.net/api/v4/lg/rs2-cph-ipv4/status">status</a>]
+                [<a href="https://portal.sthix.net/api/v4/lg/rs2-cph-ipv4/bgp-summary">bgp</a>]
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<table class="table table-striped table-sm text-monospace" style="font-size: 14px;width: 100%;" id="bgpsummary">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Neighbor
+            </th>
+            <th>
+                Description
+            </th>
+            <th class="text-right">
+                ASN&nbsp;
+            </th>
+            <th>
+                Table
+            </th>
+            <th class="text-right">
+                PfxLimit&nbsp;
+            </th>
+            <th class="text-right">
+                State/PfxRcd&nbsp;
+            </th>
+            <th class="text-right">
+                PfxExp&nbsp;
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.46                    </td>
+                    <td class="pr-4">
+                        AS6939 - Hurricane Electric                    </td>
+                    <td class="text-right pr-4" data-order="6939">
+                        6939                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0284_as6939">
+                            t_0284_as6939                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="200000">
+                            <span
+                                                            >
+                                106724/200000                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="106724">
+                                                                                106724                                                                        </td>
+                    <td class="text-right pr-4" data-order="314">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/export/pb_0284_as6939">
+                                                        314                                                            </a>
+                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0284_as6939"
+                            data-protocol="pb_0284_as6939" title="AS6939 - Hurricane Electric">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.23                    </td>
+                    <td class="pr-4">
+                        AS8896 - Xfiber AS                    </td>
+                    <td class="text-right pr-4" data-order="8896">
+                        8896                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0205_as8896">
+                            t_0205_as8896                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="452">
+                            <span
+                                                            >
+                                54/452                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="54">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0205_as8896">
+                                                        54                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107022">
+                                                                                107022                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0205_as8896"
+                            data-protocol="pb_0205_as8896" title="AS8896 - Xfiber AS">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.20                    </td>
+                    <td class="pr-4">
+                        AS13335 - Cloudflare, Inc.                    </td>
+                    <td class="text-right pr-4" data-order="13335">
+                        13335                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0190_as13335">
+                            t_0190_as13335                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Connect</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0190_as13335"
+                            data-protocol="pb_0190_as13335" title="AS13335 - Cloudflare, Inc.">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.37                    </td>
+                    <td class="pr-4">
+                        AS32934 - Facebook                    </td>
+                    <td class="text-right pr-4" data-order="32934">
+                        32934                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0248_as32934">
+                            t_0248_as32934                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Connect</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0248_as32934"
+                            data-protocol="pb_0248_as32934" title="AS32934 - Facebook">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.38                    </td>
+                    <td class="pr-4">
+                        AS32934 - Facebook                    </td>
+                    <td class="text-right pr-4" data-order="32934">
+                        32934                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0249_as32934">
+                            t_0249_as32934                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Connect</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0249_as32934"
+                            data-protocol="pb_0249_as32934" title="AS32934 - Facebook">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.35                    </td>
+                    <td class="pr-4">
+                        AS33891 - Core Backbone GmbH                    </td>
+                    <td class="text-right pr-4" data-order="33891">
+                        33891                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0246_as33891">
+                            t_0246_as33891                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="250">
+                            <span
+                                                            >
+                                0/250                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="0">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0246_as33891">
+                                                        0                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107075">
+                                                                                107075                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0246_as33891"
+                            data-protocol="pb_0246_as33891" title="AS33891 - Core Backbone GmbH">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.36                    </td>
+                    <td class="pr-4">
+                        AS39351 - 31173 Services AB                    </td>
+                    <td class="text-right pr-4" data-order="39351">
+                        39351                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0247_as39351">
+                            t_0247_as39351                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="5593">
+                            <span
+                                                            >
+                                0/5593                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="0">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0247_as39351">
+                                                        0                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107022">
+                                                                                107022                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0247_as39351"
+                            data-protocol="pb_0247_as39351" title="AS39351 - 31173 Services AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.19                    </td>
+                    <td class="pr-4">
+                        AS42541 - Fiberby ApS                    </td>
+                    <td class="text-right pr-4" data-order="42541">
+                        42541                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0186_as42541">
+                            t_0186_as42541                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="98">
+                            <span
+                                                            >
+                                16/98                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="16">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0186_as42541">
+                                                        16                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107059">
+                                                                                107059                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0186_as42541"
+                            data-protocol="pb_0186_as42541" title="AS42541 - Fiberby ApS">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.41                    </td>
+                    <td class="pr-4">
+                        AS44034 - Hi3G Access AB                    </td>
+                    <td class="text-right pr-4" data-order="44034">
+                        44034                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0257_as44034">
+                            t_0257_as44034                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="13">
+                            <span
+                                                            >
+                                10/13                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="10">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0257_as44034">
+                                                        10                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107012">
+                                                                                107012                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0257_as44034"
+                            data-protocol="pb_0257_as44034" title="AS44034 - Hi3G Access AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.22                    </td>
+                    <td class="pr-4">
+                        AS47699 - Bredbandskollen                    </td>
+                    <td class="text-right pr-4" data-order="47699">
+                        47699                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0327_as47699">
+                            t_0327_as47699                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                1/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0327_as47699">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107021">
+                                                                                107021                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0327_as47699"
+                            data-protocol="pb_0327_as47699" title="AS47699 - Bredbandskollen">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.21                    </td>
+                    <td class="pr-4">
+                        AS49362 - DSV A/S                    </td>
+                    <td class="text-right pr-4" data-order="49362">
+                        49362                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0199_as49362">
+                            t_0199_as49362                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="36">
+                            <span
+                                                            >
+                                3/36                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="3">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0199_as49362">
+                                                        3                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107072">
+                                                                                107072                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0199_as49362"
+                            data-protocol="pb_0199_as49362" title="AS49362 - DSV A/S">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.17                    </td>
+                    <td class="pr-4">
+                        AS49544 - i3D.net                    </td>
+                    <td class="text-right pr-4" data-order="49544">
+                        49544                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0305_as49544">
+                            t_0305_as49544                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="19425">
+                            <span
+                                                            >
+                                280/19425                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="280">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0305_as49544">
+                                                        280                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="106743">
+                                                                                106743                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0305_as49544"
+                            data-protocol="pb_0305_as49544" title="AS49544 - i3D.net">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.27                    </td>
+                    <td class="pr-4">
+                        AS50304 - Blix Solutions AS                    </td>
+                    <td class="text-right pr-4" data-order="50304">
+                        50304                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0213_as50304">
+                            t_0213_as50304                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0213_as50304"
+                            data-protocol="pb_0213_as50304" title="AS50304 - Blix Solutions AS">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.42                    </td>
+                    <td class="pr-4">
+                        AS50986 - Excellent Hosting Sweden AB                    </td>
+                    <td class="text-right pr-4" data-order="50986">
+                        50986                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0259_as50986">
+                            t_0259_as50986                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0259_as50986"
+                            data-protocol="pb_0259_as50986" title="AS50986 - Excellent Hosting Sweden AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.44                    </td>
+                    <td class="pr-4">
+                        AS51519 - Karabro AB                    </td>
+                    <td class="text-right pr-4" data-order="51519">
+                        51519                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0267_as51519">
+                            t_0267_as51519                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="1347">
+                            <span
+                                                            >
+                                5/1347                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="5">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0267_as51519">
+                                                        5                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107017">
+                                                                                107017                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0267_as51519"
+                            data-protocol="pb_0267_as51519" title="AS51519 - Karabro AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.32                    </td>
+                    <td class="pr-4">
+                        AS62183 - Bredbandsson AB                    </td>
+                    <td class="text-right pr-4" data-order="62183">
+                        62183                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0239_as62183">
+                            t_0239_as62183                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0239_as62183"
+                            data-protocol="pb_0239_as62183" title="AS62183 - Bredbandsson AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr class="warning">
+                    <td class="pr-4">
+                        185.1.88.43                    </td>
+                    <td class="pr-4">
+                        AS201983 - Ansluten Hosting i Sverige AB                    </td>
+                    <td class="text-right pr-4" data-order="201983">
+                        201983                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0260_as201983">
+                            t_0260_as201983                        </a>
+                    </td>
+                                            <td class="text-right pr-4">
+                                        </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                                    <span class="badge badge-warning">Active</span>
+                                            </td>
+                    <td class="text-right pr-4" data-order="-1">
+                                            </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0260_as201983"
+                            data-protocol="pb_0260_as201983" title="AS201983 - Ansluten Hosting i Sverige AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.28                    </td>
+                    <td class="pr-4">
+                        AS202687 - Mainloop Solutions AB                    </td>
+                    <td class="text-right pr-4" data-order="202687">
+                        202687                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0221_as202687">
+                            t_0221_as202687                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="121">
+                            <span
+                                                            >
+                                1/121                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="1">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0221_as202687">
+                                                        1                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107074">
+                                                                                107074                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0221_as202687"
+                            data-protocol="pb_0221_as202687" title="AS202687 - Mainloop Solutions AB">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+            
+                <tr >
+                    <td class="pr-4">
+                        185.1.88.26                    </td>
+                    <td class="pr-4">
+                        AS205206 - Netsite A/S                    </td>
+                    <td class="text-right pr-4" data-order="205206">
+                        205206                    </td>
+                    <td>
+                        <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/table/t_0206_as205206">
+                            t_0206_as205206                        </a>
+                    </td>
+                                            <td class="text-right pr-4" data-order="10">
+                            <span
+                                                            >
+                                3/10                            </span>
+                                        </td>
+                    <td class="text-right pr-4" data-order="3">
+                                                                                    <a href="https://portal.sthix.net/lg/rs2-cph-ipv4/routes/protocol/pb_0206_as205206">
+                                                        3                                                            </a>
+                                                                        </td>
+                    <td class="text-right pr-4" data-order="107072">
+                                                                                107072                                                                        </td>
+                    <td class="text-reset">
+                        <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-pb_0206_as205206"
+                            data-protocol="pb_0206_as205206" title="AS205206 - Netsite A/S">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+
+                    
+    </tbody>
+</table>
+
+<div class="modal fade" id="protocol-info-modal" role="dialog">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">
+                Protocol Details for <code><span id="title_p_name"></span></code>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <pre>
+<span id="p_name"></span>    <span id="p_bird_protocol"></span>    <span="p_table"></span> <span id="p_state"></span>     <span id="p_state_changed"></span>  <span id="p_connection"></span>
+  Description:    <span id="p_description"></span>
+  Preference:     <span id="p_preference"></span>
+  Input filter:   <span id="p_input_filter"></span>
+  Output filter:  <span id="p_output_filter"></span><span id="p_o_import_limit">
+  Import limit:   <span id="p_import_limit"></span>
+    Action:       <span id="p_limit_action"></span></span>
+  Routes:         <span id="p_routes_imported"></span> imported, <span id="p_routes_exported"></span> exported, <span id="p_routes_preferred"></span> preferred
+  Route change stats:     received   rejected   filtered    ignored   accepted
+    Import updates:     <span id="p_import_updates_received"></span> <span id="p_import_updates_rejected"></span> <span id="p_import_updates_filtered"></span> <span id="p_import_updates_ignored"></span> <span id="p_import_updates_accepted"></span>
+    Import withdraws:   <span id="p_import_withdraws_received"></span> <span id="p_import_withdraws_rejected"></span>        --- <span id="p_import_withdraws_ignored"></span> <span id="p_import_withdraws_accepted"></span>
+    Export updates:     <span id="p_export_updates_received"></span> <span id="p_export_updates_rejected"></span> <span id="p_export_updates_filtered"></span>        --- <span id="p_export_updates_accepted"></span>
+    Export withdraws:   <span id="p_export_withdraws_received"></span>        ---        ---        --- <span id="p_export_withdraws_accepted"></span>
+  BGP state:          <span id="p_bgp_state"></span>
+    Neighbor address: <span id="p_neighbor_address"></span>
+    Neighbor AS:      <span id="p_neighbor_as"></span>
+    Neighbor ID:      <span id="p_neighbor_id"></span>
+    Neighbor caps:    <span id="p_neighbor_capabilities"></span>
+    Session:          <span id="p_bgp_session"></span>
+    Source address:   <span id="p_source_address"></span><span id="p_o_route_limit_at">
+    Route limit:      <span id="p_route_limit_at"></span>/<span id="p_import_limit2"></span></span>
+    Hold timer:       <span id="p_hold_timer"></span>
+    Keepalive timer:  <span id="p_keepalive"></span>
+</pre>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+                            </div>
+
+                        </div>
+
+
+                    </main>
+
+            </div> <!-- </div class="row"> -->
+
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+
+            <small>
+
+            IXP Manager V5.7.0
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+                Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            Discover IXP Manager at:
+
+            <a href="https://www.ixpmanager.org/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.facebook.com/ixpmanager">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>
+
+            <a  href="https://twitter.com/ixpmanager">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://github.com/inex/IXP-Manager">
+                <i class="fa fa-github fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://docs.ixpmanager.org/">
+                <i class="fa fa-book fa-inverse mx-1"></i>
+            </a>
+
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.sthix.net/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.sthix.net/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.sthix.net/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.sthix.net/js/ixp-pack.js?id=5729885b2cd485059e4e"></script>
+
+        <script>
+
+            $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            
+
+        </script>
+
+
+                
+<script type="text/javascript">
+
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+    "ip-address-pre": function ( a ) {
+        var i, item;
+        var m = a.split("."),
+            n = a.split(":"),
+            x = "",
+            xa = "";
+        if (m.length == 4) {
+            // IPV4
+            for(i = 0; i < m.length; i++) {
+                item = m[i];
+                if(item.length == 1) {
+                    x += "00" + item;
+                }
+                else if(item.length == 2) {
+                    x += "0" + item;
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        else if (n.length > 0) {
+            // IPV6
+            var count = 0;
+            for(i = 0; i < n.length; i++) {
+                item = n[i];
+                if (i > 0) {
+                    xa += ":";
+                }
+                if(item.length === 0) {
+                    count += 0;
+                }
+                else if(item.length == 1) {
+                    xa += "000" + item;
+                    count += 4;
+                }
+                else if(item.length == 2) {
+                    xa += "00" + item;
+                    count += 4;
+                }
+                else if(item.length == 3) {
+                    xa += "0" + item;
+                    count += 4;
+                }
+                else {
+                    xa += item;
+                    count += 4;
+                }
+            }
+            // Padding the ::
+            n = xa.split(":");
+            var paddDone = 0;
+            for (i = 0; i < n.length; i++) {
+                item = n[i];
+                if (item.length === 0 && paddDone === 0) {
+                    for (var padding = 0 ; padding < (32-count) ; padding++) {
+                        x += "0";
+                        paddDone = 1;
+                    }
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        return x;
+    },
+    "ip-address-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+    },
+    "ip-address-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+</script>
+
+
+<script type="text/javascript">
+
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+
+    let protocols = {"pb_0284_as6939":{"protocol":"pb_0284_as6939","bird_protocol":"BGP","table":"t_0284_as6939","state":"up","state_changed":"2023-11-29T08:45:38+00:00","connection":"  Established   ","description":"AS6939 - Hurricane Electric","bgp_state":"Established","neighbor_address":"185.1.88.46","neighbor_as":6939,"neighbor_id":"216.218.252.74","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":180,"hold_timer_now":145,"keepalive":60,"keepalive_now":1,"preference":100,"input_filter":"f_import_as6939","output_filter":"f_export_as6939","import_limit":200000,"limit_action":"restart","routes":{"imported":106724,"exported":314,"preferred":0},"route_changes":{"import_updates":{"received":2633034,"rejected":0,"filtered":0,"ignored":2,"accepted":2633032},"import_withdraws":{"received":536389,"rejected":0,"ignored":0,"accepted":536389},"export_updates":{"received":2637516,"rejected":2632801,"filtered":0,"accepted":4715},"export_withdraws":{"received":537772,"accepted":1704}},"route_limit_at":106724},"pb_0205_as8896":{"protocol":"pb_0205_as8896","bird_protocol":"BGP","table":"t_0205_as8896","state":"up","state_changed":"2023-11-29T08:45:52+00:00","connection":"  Established   ","description":"AS8896 - Xfiber AS","bgp_state":"Established","neighbor_address":"185.1.88.23","neighbor_as":8896,"neighbor_id":"212.33.150.48","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":90,"hold_timer_now":56,"keepalive":30,"keepalive_now":15,"preference":100,"input_filter":"f_import_as8896","output_filter":"f_export_as8896","import_limit":452,"limit_action":"restart","routes":{"imported":54,"exported":107022,"preferred":0},"route_changes":{"import_updates":{"received":186,"rejected":0,"filtered":0,"ignored":125,"accepted":61},"import_withdraws":{"received":4,"rejected":0,"ignored":0,"accepted":4},"export_updates":{"received":2637316,"rejected":62,"filtered":0,"accepted":2637254},"export_withdraws":{"received":537697,"accepted":537696}},"route_limit_at":54},"pb_0190_as13335":{"protocol":"pb_0190_as13335","bird_protocol":"BGP","table":"t_0190_as13335","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Connect       Socket: No route to host","description":"AS13335 - Cloudflare, Inc.","bgp_state":"Connect","neighbor_address":"185.1.88.20","neighbor_as":13335,"preference":100,"input_filter":"f_import_as13335","output_filter":"f_export_as13335","import_limit":6934,"limit_action":"restart"},"pb_0248_as32934":{"protocol":"pb_0248_as32934","bird_protocol":"BGP","table":"t_0248_as32934","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Connect       Socket: No route to host","description":"AS32934 - Facebook","bgp_state":"Connect","neighbor_address":"185.1.88.37","neighbor_as":32934,"preference":100,"input_filter":"f_import_as32934","output_filter":"f_export_as32934","import_limit":759,"limit_action":"restart"},"pb_0249_as32934":{"protocol":"pb_0249_as32934","bird_protocol":"BGP","table":"t_0249_as32934","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Connect       Socket: No route to host","description":"AS32934 - Facebook","bgp_state":"Connect","neighbor_address":"185.1.88.38","neighbor_as":32934,"preference":100,"input_filter":"f_import_as32934","output_filter":"f_export_as32934","import_limit":759,"limit_action":"restart"},"pb_0246_as33891":{"protocol":"pb_0246_as33891","bird_protocol":"BGP","table":"t_0246_as33891","state":"up","state_changed":"2023-11-29T08:45:38+00:00","connection":"  Established   ","description":"AS33891 - Core Backbone GmbH","bgp_state":"Established","neighbor_address":"185.1.88.35","neighbor_as":33891,"neighbor_id":"81.95.15.218","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":90,"hold_timer_now":59,"keepalive":30,"keepalive_now":11,"preference":100,"input_filter":"f_import_as33891","output_filter":"f_export_as33891","import_limit":250,"limit_action":"restart","routes":{"imported":0,"exported":107075,"preferred":0},"route_changes":{"import_updates":{"received":0,"rejected":0,"filtered":0,"ignored":0,"accepted":0},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":2637320,"rejected":0,"filtered":0,"accepted":2637320},"export_withdraws":{"received":537698,"accepted":537698}},"route_limit_at":0},"pb_0247_as39351":{"protocol":"pb_0247_as39351","bird_protocol":"BGP","table":"t_0247_as39351","state":"up","state_changed":"2023-11-29T08:45:38+00:00","connection":"  Established   ","description":"AS39351 - 31173 Services AB","bgp_state":"Established","neighbor_address":"185.1.88.36","neighbor_as":39351,"neighbor_id":"193.138.216.148","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":90,"hold_timer_now":50,"keepalive":30,"keepalive_now":17,"preference":100,"input_filter":"f_import_as39351","output_filter":"f_export_as39351","import_limit":5593,"limit_action":"restart","routes":{"imported":0,"exported":107022,"preferred":0},"route_changes":{"import_updates":{"received":24,"rejected":0,"filtered":0,"ignored":0,"accepted":24},"import_withdraws":{"received":24,"rejected":0,"ignored":0,"accepted":24},"export_updates":{"received":2637282,"rejected":24,"filtered":0,"accepted":2637258},"export_withdraws":{"received":537721,"accepted":537697}},"route_limit_at":0},"pb_0186_as42541":{"protocol":"pb_0186_as42541","bird_protocol":"BGP","table":"t_0186_as42541","state":"up","state_changed":"2023-11-30T02:56:19+00:00","connection":"  Established   ","description":"AS42541 - Fiberby ApS","bgp_state":"Established","neighbor_address":"185.1.88.19","neighbor_as":42541,"neighbor_id":"193.104.135.78","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":240,"hold_timer_now":170,"keepalive":80,"keepalive_now":42,"preference":100,"input_filter":"f_import_as42541","output_filter":"f_export_as42541","import_limit":98,"limit_action":"restart","routes":{"imported":16,"exported":107059,"preferred":0},"route_changes":{"import_updates":{"received":12357,"rejected":0,"filtered":0,"ignored":10808,"accepted":1549},"import_withdraws":{"received":1532,"rejected":0,"ignored":0,"accepted":1532},"export_updates":{"received":2591405,"rejected":1549,"filtered":0,"accepted":2589856},"export_withdraws":{"received":516253,"accepted":514949}},"route_limit_at":16},"pb_0257_as44034":{"protocol":"pb_0257_as44034","bird_protocol":"BGP","table":"t_0257_as44034","state":"up","state_changed":"2023-11-29T08:45:30+00:00","connection":"  Established   ","description":"AS44034 - Hi3G Access AB","bgp_state":"Established","neighbor_address":"185.1.88.41","neighbor_as":44034,"neighbor_id":"194.117.52.145","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":180,"hold_timer_now":129,"keepalive":60,"keepalive_now":26,"preference":100,"input_filter":"f_import_as44034","output_filter":"f_export_as44034","import_limit":13,"limit_action":"restart","routes":{"imported":10,"exported":107012,"preferred":0},"route_changes":{"import_updates":{"received":10,"rejected":0,"filtered":0,"ignored":0,"accepted":10},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":2637258,"rejected":10,"filtered":0,"accepted":2637248},"export_withdraws":{"received":537697,"accepted":537697}},"route_limit_at":10},"pb_0327_as47699":{"protocol":"pb_0327_as47699","bird_protocol":"BGP","table":"t_0327_as47699","state":"up","state_changed":"2023-11-29T08:45:30+00:00","connection":"  Established   ","description":"AS47699 - Bredbandskollen","bgp_state":"Established","neighbor_address":"185.1.88.22","neighbor_as":47699,"neighbor_id":"80.67.1.222","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":240,"hold_timer_now":165,"keepalive":80,"keepalive_now":27,"preference":100,"input_filter":"f_import_as47699","output_filter":"f_export_as47699","import_limit":10,"limit_action":"restart","routes":{"imported":1,"exported":107021,"preferred":0},"route_changes":{"import_updates":{"received":1,"rejected":0,"filtered":0,"ignored":0,"accepted":1},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":2637258,"rejected":1,"filtered":0,"accepted":2637257},"export_withdraws":{"received":537697,"accepted":537697}},"route_limit_at":1},"pb_0199_as49362":{"protocol":"pb_0199_as49362","bird_protocol":"BGP","table":"t_0199_as49362","state":"up","state_changed":"2023-11-29T08:45:31+00:00","connection":"  Established   ","description":"AS49362 - DSV A\/S","bgp_state":"Established","neighbor_address":"185.1.88.21","neighbor_as":49362,"neighbor_id":"193.162.26.255","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":180,"hold_timer_now":157,"keepalive":60,"keepalive_now":12,"preference":100,"input_filter":"f_import_as49362","output_filter":"f_export_as49362","import_limit":36,"limit_action":"restart","routes":{"imported":3,"exported":107072,"preferred":0},"route_changes":{"import_updates":{"received":3,"rejected":0,"filtered":0,"ignored":0,"accepted":3},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":2637320,"rejected":3,"filtered":0,"accepted":2637317},"export_withdraws":{"received":537698,"accepted":537698}},"route_limit_at":3},"pb_0305_as49544":{"protocol":"pb_0305_as49544","bird_protocol":"BGP","table":"t_0305_as49544","state":"up","state_changed":"2023-11-29T08:45:42+00:00","connection":"  Established   ","description":"AS49544 - i3D.net","bgp_state":"Established","neighbor_address":"185.1.88.17","neighbor_as":49544,"neighbor_id":"188.122.95.86","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":180,"hold_timer_now":139,"keepalive":60,"keepalive_now":16,"preference":100,"input_filter":"f_import_as49544","output_filter":"f_export_as49544","import_limit":19425,"limit_action":"restart","routes":{"imported":280,"exported":106743,"preferred":0},"route_changes":{"import_updates":{"received":8668,"rejected":0,"filtered":0,"ignored":5586,"accepted":3082},"import_withdraws":{"received":96,"rejected":0,"ignored":0,"accepted":96},"export_updates":{"received":2639156,"rejected":3071,"filtered":0,"accepted":2636085},"export_withdraws":{"received":537697,"accepted":537614}},"route_limit_at":280},"pb_0213_as50304":{"protocol":"pb_0213_as50304","bird_protocol":"BGP","table":"t_0213_as50304","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Active        Socket: Connection refused","description":"AS50304 - Blix Solutions AS","bgp_state":"Active","neighbor_address":"185.1.88.27","neighbor_as":50304,"preference":100,"input_filter":"f_import_as50304","output_filter":"f_export_as50304","import_limit":113381,"limit_action":"restart"},"pb_0259_as50986":{"protocol":"pb_0259_as50986","bird_protocol":"BGP","table":"t_0259_as50986","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Active        Socket: No route to host","description":"AS50986 - Excellent Hosting Sweden AB","bgp_state":"Active","neighbor_address":"185.1.88.42","neighbor_as":50986,"preference":100,"input_filter":"f_import_as50986","output_filter":"f_export_as50986","import_limit":21,"limit_action":"restart"},"pb_0267_as51519":{"protocol":"pb_0267_as51519","bird_protocol":"BGP","table":"t_0267_as51519","state":"up","state_changed":"2023-11-29T08:45:39+00:00","connection":"  Established   ","description":"AS51519 - Karabro AB","bgp_state":"Established","neighbor_address":"185.1.88.44","neighbor_as":51519,"neighbor_id":"193.243.183.65","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":180,"hold_timer_now":93,"keepalive":60,"keepalive_now":12,"preference":100,"input_filter":"f_import_as51519","output_filter":"f_export_as51519","import_limit":1347,"limit_action":"restart","routes":{"imported":5,"exported":107017,"preferred":0},"route_changes":{"import_updates":{"received":16,"rejected":0,"filtered":0,"ignored":5,"accepted":11},"import_withdraws":{"received":2,"rejected":0,"ignored":0,"accepted":2},"export_updates":{"received":2637703,"rejected":11,"filtered":0,"accepted":2637692},"export_withdraws":{"received":537696,"accepted":537698}},"route_limit_at":5},"pb_0239_as62183":{"protocol":"pb_0239_as62183","bird_protocol":"BGP","table":"t_0239_as62183","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Active        Socket: No route to host","description":"AS62183 - Bredbandsson AB","bgp_state":"Active","neighbor_address":"185.1.88.32","neighbor_as":62183,"preference":100,"input_filter":"f_import_as62183","output_filter":"f_export_as62183","import_limit":25,"limit_action":"restart"},"pb_0260_as201983":{"protocol":"pb_0260_as201983","bird_protocol":"BGP","table":"t_0260_as201983","state":"start","state_changed":"2023-11-01T16:40:53+00:00","connection":"  Active        Socket: Connection refused","description":"AS201983 - Ansluten Hosting i Sverige AB","bgp_state":"Active","neighbor_address":"185.1.88.43","neighbor_as":201983,"preference":100,"input_filter":"f_import_as201983","output_filter":"f_export_as201983","import_limit":20,"limit_action":"restart"},"pb_0221_as202687":{"protocol":"pb_0221_as202687","bird_protocol":"BGP","table":"t_0221_as202687","state":"up","state_changed":"2023-11-29T08:45:49+00:00","connection":"  Established   ","description":"AS202687 - Mainloop Solutions AB","bgp_state":"Established","neighbor_address":"185.1.88.28","neighbor_as":202687,"neighbor_id":"46.246.106.4","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":60,"hold_timer_now":43,"keepalive":20,"keepalive_now":14,"preference":100,"input_filter":"f_import_as202687","output_filter":"f_export_as202687","import_limit":121,"limit_action":"restart","routes":{"imported":1,"exported":107074,"preferred":0},"route_changes":{"import_updates":{"received":5,"rejected":0,"filtered":0,"ignored":0,"accepted":5},"import_withdraws":{"received":3,"rejected":0,"ignored":0,"accepted":3},"export_updates":{"received":2637320,"rejected":5,"filtered":0,"accepted":2637315},"export_withdraws":{"received":537696,"accepted":537700}},"route_limit_at":1},"pb_0206_as205206":{"protocol":"pb_0206_as205206","bird_protocol":"BGP","table":"t_0206_as205206","state":"up","state_changed":"2023-11-29T08:45:39+00:00","connection":"  Established   ","description":"AS205206 - Netsite A\/S","bgp_state":"Established","neighbor_address":"185.1.88.26","neighbor_as":205206,"neighbor_id":"185.224.16.12","bgp_session":["external","route-server","AS4"],"source_address":"185.1.88.2","hold_timer":90,"hold_timer_now":50,"keepalive":30,"keepalive_now":19,"preference":100,"input_filter":"f_import_as205206","output_filter":"f_export_as205206","import_limit":10,"limit_action":"restart","routes":{"imported":3,"exported":107072,"preferred":0},"route_changes":{"import_updates":{"received":3,"rejected":0,"filtered":0,"ignored":0,"accepted":3},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":2637588,"rejected":3,"filtered":0,"accepted":2637585},"export_withdraws":{"received":537698,"accepted":537698}},"route_limit_at":3}};
+    function spacifyNumber( n, s ) {
+        return "" + ' '.repeat( s - n.length ) + "" + String(n);
+    }
+    $('#bgpsummary').removeClass( 'display' ).addClass('table');
+
+    $(document).ready(function() {
+
+        $('#bgpsummary').DataTable({
+            stateSave: true,
+            stateDuration : DATATABLE_STATE_DURATION,
+            responsive: true,
+            paging: false,
+            order: [[ 2, "asc" ]],
+            columnDefs: [
+                { type: 'ip-address', targets: [ 0 ] },
+                { type: 'string', targets: [ 1 ] },
+                { type: 'num', targets: [ 2 ] },
+                { type: 'string', targets: [ 3 ], "orderable": false },
+                { type: 'num', targets: [ 4 ] },
+                { type: 'num', targets: [ 5 ] },
+                { type: 'num', targets: [ 6 ] }
+            ]
+        });
+    });
+
+    $('a[id|="sourceSelector"]').on( 'click', function(){
+        if( $("#net").val().trim() == "" ) {
+            return;
+        }
+        $("#submit").prop('disabled', true);
+        $.get('https://portal.sthix.net/lg/rs2-cph-ipv4/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+            $('#route-modal .modal-content').html(html);
+            $('#route-modal').modal('show', {backdrop: 'static'});
+         });
+        $("#submit").prop('disabled', false);
+    });
+
+    $('a[id|="protocol_details"]').on( 'click', function(){
+        let pname = $(this).attr('data-protocol');
+        let p = protocols[pname];
+        $('#title_p_name'   ).html( pname );
+        $('#p_name'         ).html( pname );
+        $('#p_bird_protocol').html( p.bird_protocol );
+        $('#p_table'        ).html( p.table );
+        $('#p_state '       ).html( p.state );
+        $('#p_state_changed').html( p.state_changed );
+        $('#p_connection'   ).html( p.connection );
+        $('#p_description'  ).html( p.description );
+        $('#p_preference'   ).html( p.preference );
+        $('#p_input_filter' ).html( p.input_filter );
+        $('#p_output_filter').html( p.output_filter );
+        if( p.import_limit ) {
+            $('#p_import_limit').html(p.import_limit);
+        } else {
+            $('#p_o_import_limit').hide();
+            $('#p_o_route_limit_at').hide();
+        }
+        $('#p_limit_action' ).html( p.limit_action );
+        $('#p_routes_imported'  ).html( p.routes.imported );
+        $('#p_routes_exported'  ).html( p.routes.exported );
+        $('#p_routes_preferred' ).html( p.routes.preferred );
+        $('#p_import_updates_received'  ).html( spacifyNumber( p.route_changes.import_updates.received, 10 ) );
+        $('#p_import_updates_rejected'  ).html( spacifyNumber( p.route_changes.import_updates.rejected, 10 ) );
+        $('#p_import_updates_filtered'  ).html( spacifyNumber( p.route_changes.import_updates.filtered, 10 ) );
+        $('#p_import_updates_ignored'   ).html( spacifyNumber( p.route_changes.import_updates.ignored, 10 ) );
+        $('#p_import_updates_accepted'  ).html( spacifyNumber( p.route_changes.import_updates.accepted, 10 ) );
+        $('#p_import_withdraws_received').html( spacifyNumber( p.route_changes.import_withdraws.received, 10 ) );
+        $('#p_import_withdraws_rejected').html( spacifyNumber( p.route_changes.import_withdraws.rejected, 10 ) );
+        $('#p_import_withdraws_ignored' ).html( spacifyNumber( p.route_changes.import_withdraws.ignored, 10 ) );
+        $('#p_import_withdraws_accepted').html( spacifyNumber( p.route_changes.import_withdraws.accepted, 10 ) );
+        $('#p_export_updates_received'  ).html( spacifyNumber( p.route_changes.export_updates.received, 10 ) );
+        $('#p_export_updates_rejected'  ).html( spacifyNumber( p.route_changes.export_updates.rejected, 10 ) );
+        $('#p_export_updates_filtered'  ).html( spacifyNumber( p.route_changes.export_updates.filtered, 10 ) );
+        $('#p_export_updates_accepted'  ).html( spacifyNumber( p.route_changes.export_updates.accepted, 10 ) );
+        $('#p_export_withdraws_received').html( spacifyNumber( p.route_changes.export_withdraws.received, 10 ) );
+        $('#p_export_withdraws_accepted').html( spacifyNumber( p.route_changes.export_withdraws.accepted, 10 ) );
+        $('#p_bgp_state'            ).html( p.bgp_state );
+        $('#p_neighbor_address'     ).html( p.neighbor_address );
+        $('#p_neighbor_as'          ).html( p.neighbor_as );
+        $('#p_neighbor_id'          ).html( p.neighbor_id );
+        if( p.neighbor_capabilities instanceof Array && p.neighbor_capabilities.length ) {
+            $('#p_neighbor_capabilities').html( p.neighbor_capabilities.join(' ') );
+        } else {
+            $('#p_neighbor_capabilities').html( 'n/a' );
+        }
+        if( p.bgp_session instanceof Array && p.bgp_session.length ) {
+            $('#p_bgp_session').html( p.bgp_session.join(' ') );
+        } else {
+            $('#p_bgp_session').html( 'n/a' );
+        }
+        $('#p_source_address'   ).html( p.source_address );
+        $('#p_route_limit_at'   ).html( p.route_limit_at );
+        $('#p_import_limit2'    ).html( p.import_limit );
+        $('#p_hold_timer'       ).html( p.hold_timer );
+        $('#p_keepalive'        ).html( p.keepalive );
+        $('#protocol-info-modal').modal('show', {backdrop: 'static'});
+    });
+</script>
+
+
+        
+    </body>
+</html>

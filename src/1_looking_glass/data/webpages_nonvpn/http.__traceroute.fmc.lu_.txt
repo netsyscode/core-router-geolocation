@@ -1,0 +1,149 @@
+<HTML>
+<!--
+Chaine: FMC
+Description : FMC : Traceroute from Luxemburg
+Path //venus.eurofmc.com/home/httpd/traceroute/home.html
+Date de creation : 08/08/2004 FM
+Date mise a jour : 23/09/2016 FM
+--> 
+
+  <HEAD>
+    <TITLE>Ping, Traceroute, Tracepath</TITLE>
+    <META http-equiv="Pragma" content="no-store">
+    <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <LINK title="FMC style" rel="stylesheet" href="../styles/FMCstyl.css" type="text/css">
+    <SCRIPT language="JavaScript">
+<!--
+
+function home()
+  {
+  location.href="http://www.fmc.lu";
+  }  
+
+function Valide()
+  {
+  var info = document.trace;
+  var page;
+  var flag;
+  var i;
+
+  if (info.address.value != "")
+    {
+    flag=0;
+    for (i = 0;i <= info.address.value.length-1;i++)
+      {
+      if (info.address.value.charAt(i) == " ")
+        {
+        flag++;
+        }
+      if (info.address.value.charAt(i) == ";")
+        {
+        flag++;
+        }
+      }
+    if (flag > 0)
+      {
+      alert("\nBad entry/Saisie incorrecte");
+      document.trace.address.focus();
+      return false;
+      }
+    else page = info.address.value;
+    }
+  else
+    {
+    alert("Invalid entry/Entrer une adresse ou nom de machine");
+    document.trace.address.focus();
+    return false;
+    }
+  document.trace.address.value = page;
+  return true;
+  }
+
+
+//-->    
+    </SCRIPT>
+  </HEAD>
+  <BODY topmargin="15" leftmargin="15" rightmargin="15" bgcolor="#FFFFFF"
+  style="scrollbar-face-color: #E0F0FF; scrollbar-arrow-color: #000094;
+         scrollbar-track-color: #000094; scrollbar-3dlight-color: #000094; scrollbar-darkshadow-color: #000094"
+  link="#000094">
+  <DIV ID="overDiv" STYLE="position:absolute; visibility:hide;"></DIV>
+  <TABLE width="100%">
+    <TR>
+      <TD width="80%">
+        <IMG src="../icons/symbol_small.gif" border="0" align="absmiddle">
+        <FONT class="Title0Blue">&nbsp;&nbsp;&nbsp;
+       Ping, Traceroute, Tracepath,...
+        </FONT>
+      </TD>
+      <TD width="20%" align="right" valign="center">
+        <A href="#" onClick="home()"><IMG src="../icons/home.gif" border="0"></A>
+      </TD>
+    </TR>
+  </TABLE>
+  <P>
+  </DIV>
+  <FONT class="Text1">
+  <P align="justify">
+  To perform a ping, traceroute, tracepath or nslookup from our site <A href="http://www.eurofmc.com/"><B>www.eurofmc.com</B></A> (Luxemburg), 
+  enter the desired destination host.domain or IP address below. 
+<P align="justify">
+  Cet utilitaire vous permet d'&#233;tablir une route entre notre serveur <A href="http://www.fmc.lu"><B>www.fmc.lu</B></A></A> (situ&#233; &#224; Luxembourg) et une machine ou adresse IP dont le nom ou l'adresse IP est &#224; indiquer ci-dessous.
+  <P>
+  <FORM method="POST" action="/cgi-bin/traceping.pl" name="trace" onSubmit="return Valide();">
+  <TABLE width="90%" cellpadding="5">
+    <TR>
+      <TD valign="middle">
+        <INPUT type="radio" name="program" value="ping">ping &nbsp;
+	<INPUT type="radio" name="program" value="traceroute" checked>traceroute &nbsp;
+        <INPUT type="radio" name="program" value="tracepath">tracepath &nbsp;
+        <INPUT type="radio" name="program" value="dig">nslookup &nbsp;
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="middle">
+        <FONT class="Text1">
+        <B>Machine ou Adresse IP :</B> <INPUT type="text" size="30" value="" name="address"> <INPUT type="submit" value="OK">
+        </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+  </FORM>
+  <BR>
+  <CENTER>
+  <TABLE width="60%" cellpadding="10" cellspacing="0" border="1" bordercolor="#000094">
+    <TR>
+      <TD align="center">
+        <FONT class="Text1">
+        Others lan/wan tools are avalaible on our <A href="http://www.eurofmc.com/"><B>home page</B></A>.
+        </FONT>
+      </TD>
+    </TR>
+    <TR>
+      <TD align="center">
+        <FONT class="Text1">
+        D'autres utilitaires Internet et r&#233;seau sont disponibles en <A href="http://www.fmc.lu/"><B>page d'accueil</B></A> de notre site.
+        </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+  <P>
+  <TABLE width="60%" cellpadding="10" cellspacing="0" border="1" bordercolor="#000094">
+    <TR>
+      <TD rawspan="2" align="center">
+        <IMG src="../icons/fmc.gif" border="0" align="absmiddle">
+        <BR>
+        <U>(Grand-Duch&#233; de Luxembourg)</U>
+      </TD>
+      <TD>
+        <FONT class="Text1">
+        For contact us please click <A href="http://www.eurofmc.com/contacts/home.php"><B>here</B></A>.
+        <P>
+        Pour nous contacter, cliquer <A href="http://www.eurofmc.com/contacts/home.php"><B>ici</B></A>.
+        </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+  </CENTER>
+  </BODY>
+</HTML>

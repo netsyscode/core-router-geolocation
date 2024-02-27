@@ -1,0 +1,5704 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>CLOUD-IX / Looking Glass</title>
+		<meta charset="UTF-8">
+		<link rel=stylesheet type=text/css href="/static/css/bootstrap.min.css">
+		<link rel=stylesheet type=text/css href="/static/css/bootstrap-responsive.min.css">
+		<link rel=stylesheet type=text/css href="/static/css/docs.css">
+		<link rel=stylesheet type=text/css href="/static/css/DT_bootstrap.css">
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="/">CLOUD-IX / Looking Glass</a>
+					<div class="navbar nav-collapse">
+						<ul class="nav nav-pills">
+							<li class="navbar-text">Nodes:&nbsp;&nbsp;</li>
+							<li class="hosts"><a id="r1-ru-spb+r2-ru-spb+r1-ru-msk+r2-ru-msk+r2-ru-ekt+r1-ru-ekt" href="#">all</a></li>
+
+							
+							<li class="hosts"><a id="r1-ru-spb" href="#">r1-ru-spb</a></li>
+							
+							<li class="hosts"><a id="r2-ru-spb" href="#">r2-ru-spb</a></li>
+							
+							<li class="hosts"><a id="r1-ru-msk" href="#">r1-ru-msk</a></li>
+							
+							<li class="hosts"><a id="r2-ru-msk" href="#">r2-ru-msk</a></li>
+							
+							<li class="hosts"><a id="r2-ru-ekt" href="#">r2-ru-ekt</a></li>
+							
+							<li class="hosts"><a id="r1-ru-ekt" href="#">r1-ru-ekt</a></li>
+							
+
+							<li class="divider-vertical"></li>
+
+							<li class="navbar-text">Protocols:&nbsp;&nbsp;</li>
+							<li class="proto"><a id="ipv4" href="#">ipv4</a></li>
+							<li class="proto"><a id="ipv6" href="#">ipv6</a></li>
+							<li class="divider-vertical"></li>
+
+							<li class="dropdown request_type">
+							<a href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown">
+								Show protocols
+								<b class="caret"></b>
+							</a>
+
+							<ul class="dropdown-menu">
+								
+								<li><a id="traceroute" href="#">traceroute ...</a></li>
+								
+								<li><a id="summary" href="#">show protocols</a></li>
+								
+								<li><a id="detail" href="#">show protocols ... all</a></li>
+								
+								<li><a id="prefix" href="#">show route for ...</a></li>
+								
+								<li><a id="prefix_detail" href="#">show route for ... all</a></li>
+								
+								<li><a id="where" href="#">show route where net ~ [ ... ]</a></li>
+								
+								<li><a id="where_detail" href="#">show route where net ~ [ ... ] all</a></li>
+								
+								<li><a id="adv" href="#">show route ...</a></li>
+								
+							</ul>
+							</li>
+							<form class="navbar-search pull-left" action="javascript:;">
+								<input type="text" style="width:250px;" class="request_args search-query" placeholder="...">
+							</form>
+							<li class="navbar-text"></li>
+
+						</ul>
+
+						<p class="navbar-text pull-right"></p>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span8">
+					
+					
+
+					
+
+<h3 style="float:left">r1-ru-spb: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp1299">bgp1299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-28</td>
+        <td>03:36:51 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-23</td>
+        <td>03:38:27 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp12555">bgp12555</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-21</td>
+        <td>16:10:04 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp15169">bgp15169</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-30</td>
+        <td>04:15:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-09</td>
+        <td>14:33:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp21030_2">bgp21030_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-10</td>
+        <td>05:26:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp24739">bgp24739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>05:19:23 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp34268">bgp34268</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-12-06</td>
+        <td>02:51:22 Passive Socket: Connection reset by peer</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp35807">bgp35807</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-12</td>
+        <td>01:44:01 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp39046_2">bgp39046_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-26</td>
+        <td>06:56:08 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp39087">bgp39087</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>10:10:05 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp42893">bgp42893</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>17:56:45 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp42893_2">bgp42893_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-29</td>
+        <td>17:50:46 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp44030">bgp44030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-17</td>
+        <td>05:22:22 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp44882">bgp44882</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-20</td>
+        <td>14:14:26 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp47211">bgp47211</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-01</td>
+        <td>13:15:40 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp47541">bgp47541</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-14</td>
+        <td>03:38:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp47541_2">bgp47541_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-21</td>
+        <td>04:18:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp48234">bgp48234</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp48257">bgp48257</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-06</td>
+        <td>18:02:13 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp48416">bgp48416</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-10</td>
+        <td>06:09:22 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp51093">bgp51093</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:14:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp51093_2">bgp51093_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:14:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp51093_3">bgp51093_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp57700">bgp57700</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-30</td>
+        <td>00:04:59 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp59482">bgp59482</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-21</td>
+        <td>18:00:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp60357">bgp60357</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:41:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp196739">bgp196739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-23</td>
+        <td>18:16:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp196750">bgp196750</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-21</td>
+        <td>14:42:37 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp198580">bgp198580</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-22</td>
+        <td>16:28:24 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp199394">bgp199394</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-21</td>
+        <td>01:35:10 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp201083">bgp201083</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp201118">bgp201118</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:15:00 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp201499">bgp201499</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-15</td>
+        <td>13:42:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp205226">bgp205226</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-23</td>
+        <td>08:40:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp207472">bgp207472</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:41:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp209655">bgp209655</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2021-12-15</td>
+        <td>04:34:19 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2021-01-28</td>
+        <td>16:39:09 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp29076_rt1_msk_RR">bgp29076_rt1_msk_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:39:06 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:39:09 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp29076_local_rt2_spb">bgp29076_local_rt2_spb</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:39:17 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp15169_2">bgp15169_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-24</td>
+        <td>04:36:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp21030_3">bgp21030_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-24</td>
+        <td>12:22:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp42339">bgp42339</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-03</td>
+        <td>10:54:06 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp60231">bgp60231</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:41:22 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp49505">bgp49505</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-09</td>
+        <td>08:37:40 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp61152">bgp61152</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-19</td>
+        <td>13:13:05 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp13238">bgp13238</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-25</td>
+        <td>16:06:15 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp31376">bgp31376</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-26</td>
+        <td>12:46:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp31444">bgp31444</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-01-18</td>
+        <td>05:20:49 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp34843">bgp34843</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>16:13:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp39046">bgp39046</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-21</td>
+        <td>17:56:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp39087_2">bgp39087_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>10:09:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp42149">bgp42149</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-05-11</td>
+        <td>18:37:01 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp42668">bgp42668</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-12</td>
+        <td>09:57:24 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp47363">bgp47363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-08</td>
+        <td>16:30:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp47968">bgp47968</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:07 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp48287">bgp48287</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:35 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp51178">bgp51178</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-08</td>
+        <td>03:45:17 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp56630">bgp56630</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:51 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp60684">bgp60684</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-12</td>
+        <td>07:59:02 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp60731">bgp60731</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-20</td>
+        <td>10:47:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp62241">bgp62241</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:54 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp200976">bgp200976</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:49 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp204272">bgp204272</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:20:45 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp204576">bgp204576</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-25</td>
+        <td>13:52:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp204600">bgp204600</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp210447">bgp210447</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:58 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp210494">bgp210494</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:13:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp211609">bgp211609</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-19</td>
+        <td>10:29:10 Connect Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp211609_2">bgp211609_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-19</td>
+        <td>10:27:17 Connect Socket: Connection refused</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp50538">bgp50538</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-09</td>
+        <td>01:03:47 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp9123">bgp9123</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-24</td>
+        <td>16:37:03 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp199539">bgp199539</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>22:44:06 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp205264">bgp205264</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-24</td>
+        <td>11:08:02 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp5495">bgp5495</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-28</td>
+        <td>14:41:09 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp207239">bgp207239</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-17</td>
+        <td>13:56:13 Passive Received: Peer de-configured</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-spb/ipv4?q=bgp8492">bgp8492</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-16</td>
+        <td>04:00:02 Passive</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+<h3 style="float:left">r2-ru-spb: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2020-07-24</td>
+        <td>15:03:48</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2020-07-24</td>
+        <td>15:03:48 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-23</td>
+        <td>03:39:04 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp24739">bgp24739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>05:19:27 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp31444">bgp31444</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-18</td>
+        <td>15:13:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp35807">bgp35807</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-12</td>
+        <td>01:45:05 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp39046_2">bgp39046_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-26</td>
+        <td>06:57:11 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp39087">bgp39087</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>10:11:06 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp42893">bgp42893</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>17:57:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp42893_2">bgp42893_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-29</td>
+        <td>14:17:40 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp44030">bgp44030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-17</td>
+        <td>05:23:27 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp44882">bgp44882</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-21</td>
+        <td>13:12:19 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp47211">bgp47211</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-01</td>
+        <td>13:16:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp47541">bgp47541</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-14</td>
+        <td>03:39:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp47541_2">bgp47541_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-21</td>
+        <td>04:19:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp48234">bgp48234</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-28</td>
+        <td>18:10:41 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp48257">bgp48257</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-06</td>
+        <td>18:03:00 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp48416">bgp48416</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-10</td>
+        <td>06:09:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp51093">bgp51093</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:15:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp51093_2">bgp51093_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:15:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp51093_3">bgp51093_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2020-12-17</td>
+        <td>14:14:51 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp59482">bgp59482</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-21</td>
+        <td>18:02:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp60357">bgp60357</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>04:21:48 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp196739">bgp196739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2020-07-24</td>
+        <td>15:03:48 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp196750">bgp196750</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-21</td>
+        <td>14:43:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp198580">bgp198580</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-22</td>
+        <td>16:29:20 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp201083">bgp201083</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2020-07-24</td>
+        <td>15:03:48 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp201118">bgp201118</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>04:16:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp201499">bgp201499</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-15</td>
+        <td>13:43:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp207472">bgp207472</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-02-11</td>
+        <td>22:10:46 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2020-07-24</td>
+        <td>15:03:48 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp29076_rt1_msk_RR">bgp29076_rt1_msk_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-22</td>
+        <td>06:02:26 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-16</td>
+        <td>19:09:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp29076_local_rt2_spb">bgp29076_local_rt2_spb</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-10-21</td>
+        <td>03:46:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp1299">bgp1299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-28</td>
+        <td>03:37:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp57700">bgp57700</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-30</td>
+        <td>00:05:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp15169">bgp15169</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-30</td>
+        <td>04:16:40 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp15169_2">bgp15169_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-24</td>
+        <td>04:37:08 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp42339">bgp42339</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-04-10</td>
+        <td>16:43:12 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp49505">bgp49505</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-06</td>
+        <td>17:39:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp61152">bgp61152</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-19</td>
+        <td>13:19:57 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp50538">bgp50538</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-09</td>
+        <td>01:03:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp13238">bgp13238</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-25</td>
+        <td>16:07:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp31376">bgp31376</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-13</td>
+        <td>09:59:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp31444_2">bgp31444_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-01-18</td>
+        <td>05:21:49 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp34843">bgp34843</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>16:14:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp39046">bgp39046</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-21</td>
+        <td>17:55:01 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp39087_2">bgp39087_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>10:10:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp42149">bgp42149</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-05-11</td>
+        <td>18:37:59 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp42668">bgp42668</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-12</td>
+        <td>10:05:21 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp47363">bgp47363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-08</td>
+        <td>16:31:27 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp47968">bgp47968</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp48287">bgp48287</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:15:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp51178">bgp51178</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>03:38:40 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp56630">bgp56630</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp60684">bgp60684</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-12</td>
+        <td>08:00:02 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp60731">bgp60731</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-20</td>
+        <td>10:48:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp62241">bgp62241</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:15:00 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp200976">bgp200976</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp204272">bgp204272</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp204576">bgp204576</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-25</td>
+        <td>13:53:54 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp204600">bgp204600</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:49 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp209655">bgp209655</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-29</td>
+        <td>12:45:13 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp210447">bgp210447</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:58 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp210494">bgp210494</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>20:14:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp211609">bgp211609</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-19</td>
+        <td>10:30:03 Connect Socket: Connection refused</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp211609_2">bgp211609_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-19</td>
+        <td>10:28:10 Connect Socket: Connection refused</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp12555">bgp12555</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-02</td>
+        <td>03:03:28 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-09</td>
+        <td>14:34:27 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp21030_2">bgp21030_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-10</td>
+        <td>05:27:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp21030_3">bgp21030_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-24</td>
+        <td>12:23:11 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp60231">bgp60231</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-01-03</td>
+        <td>16:51:41 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp199394">bgp199394</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-21</td>
+        <td>06:46:32 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp205226">bgp205226</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-23</td>
+        <td>08:41:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp199539">bgp199539</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>22:45:02 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp205264">bgp205264</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-24</td>
+        <td>11:08:56 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp5495">bgp5495</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-28</td>
+        <td>14:42:06 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp207239">bgp207239</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-17</td>
+        <td>13:57:10 Passive Received: Peer de-configured</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp9123">bgp9123</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>11:10:14 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-spb/ipv4?q=bgp8492">bgp8492</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-16</td>
+        <td>05:00:01 Passive</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+<h3 style="float:left">r1-ru-msk: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp3175">bgp3175</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp3327">bgp3327</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp5537">bgp5537</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp6694">bgp6694</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:28 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp6697">bgp6697</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp9032">bgp9032</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp12695">bgp12695</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp12714">bgp12714</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:37 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp12714_2">bgp12714_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:55 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp12722">bgp12722</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:19 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp12739">bgp12739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp13178">bgp13178</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp13238">bgp13238</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp13335">bgp13335</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:55 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp15169">bgp15169</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp15169_2">bgp15169_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp20848">bgp20848</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-05-26</td>
+        <td>00:33:23 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:01 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp21453">bgp21453</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-07-24</td>
+        <td>15:57:59 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp21859">bgp21859</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp24638">bgp24638</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp24663">bgp24663</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp25189">bgp25189</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:49 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp25189_2">bgp25189_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp25511">bgp25511</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp25532">bgp25532</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:47 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp28968">bgp28968</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:26 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29226">bgp29226</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29319">bgp29319</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29319_2">bgp29319_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:54 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29503">bgp29503</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:59 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29588">bgp29588</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:35 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp30953">bgp30953</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp31370">bgp31370</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:37 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp31415">bgp31415</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp34602">bgp34602</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:11 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp34853">bgp34853</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp34853_2">bgp34853_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp34879">bgp34879</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:11 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp35271">bgp35271</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp39709">bgp39709</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp41095">bgp41095</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp41268">bgp41268</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp41957">bgp41957</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:24 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp41957_2">bgp41957_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp42149">bgp42149</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-12-26</td>
+        <td>23:00:49 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp42244">bgp42244</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:41 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp42377">bgp42377</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-15</td>
+        <td>21:19:18 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp42632">bgp42632</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:20 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp42988">bgp42988</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:41:51 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43102">bgp43102</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:43:05 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43267">bgp43267</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43404">bgp43404</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:06 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43502">bgp43502</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:45 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43502_2">bgp43502_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:54 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43502_3">bgp43502_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43727">bgp43727</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43912">bgp43912</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp44622">bgp44622</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp44670">bgp44670</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp44927">bgp44927</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47213">bgp47213</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47258">bgp47258</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47258_2">bgp47258_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:35 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47323">bgp47323</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:13 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47379">bgp47379</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47478">bgp47478</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47542">bgp47542</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47542_2">bgp47542_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47655">bgp47655</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:43:49 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47764">bgp47764</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:29 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47775">bgp47775</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47923">bgp47923</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:10 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48061">bgp48061</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48166">bgp48166</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:09 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48293">bgp48293</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:43 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48822">bgp48822</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48822_2">bgp48822_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48851">bgp48851</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-08-22</td>
+        <td>17:27:09 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48940">bgp48940</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49106">bgp49106</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:52 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49106_2">bgp49106_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49124">bgp49124</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49368">bgp49368</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49834">bgp49834</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-17</td>
+        <td>01:01:05 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49834_2">bgp49834_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-15</td>
+        <td>01:00:08 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50113">bgp50113</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50254">bgp50254</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50289">bgp50289</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>14:20:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50340">bgp50340</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50448">bgp50448</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50775">bgp50775</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:35 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50966">bgp50966</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50966_2">bgp50966_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51028">bgp51028</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-17</td>
+        <td>14:07:24 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51077">bgp51077</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51341">bgp51341</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:35 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51341_2">bgp51341_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51343">bgp51343</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51408">bgp51408</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-02</td>
+        <td>00:34:21 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51444">bgp51444</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:08 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51444_2">bgp51444_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51596">bgp51596</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:35 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51698">bgp51698</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:47 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp52168">bgp52168</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-08-09</td>
+        <td>13:14:18 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp56630">bgp56630</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:12 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp56694">bgp56694</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:43:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp57191">bgp57191</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp57191_2">bgp57191_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp57363">bgp57363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:41 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp57629">bgp57629</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp57712">bgp57712</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp58288">bgp58288</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:09 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp59504">bgp59504</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp59504_2">bgp59504_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-14</td>
+        <td>13:35:03 Passive Socket: Operation timed out</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp60068">bgp60068</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp60283">bgp60283</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp60299">bgp60299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-18</td>
+        <td>10:34:00 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp60796">bgp60796</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:41 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp60796_2">bgp60796_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp61170">bgp61170</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:16 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp61325">bgp61325</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp61325_2">bgp61325_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp62366">bgp62366</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:40 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp62410">bgp62410</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:40 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp62429">bgp62429</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:40 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp64419">bgp64419</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:37 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp196798">bgp196798</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-09-28</td>
+        <td>14:29:31 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp197309">bgp197309</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp197453">bgp197453</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:01 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp198083">bgp198083</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp198255">bgp198255</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp199320">bgp199320</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp199599">bgp199599</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-11-29</td>
+        <td>22:06:31 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp199635">bgp199635</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp199805">bgp199805</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp200161">bgp200161</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:03 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp200161_2">bgp200161_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp200350">bgp200350</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:56 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp200430">bgp200430</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp200976">bgp200976</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp201119">bgp201119</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp201477">bgp201477</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:15 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp203907">bgp203907</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp203907_2">bgp203907_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:59 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp204271">bgp204271</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp204338">bgp204338</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp204825">bgp204825</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:43:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp205460">bgp205460</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206152">bgp206152</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-24</td>
+        <td>23:19:54 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206152_2">bgp206152_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206295">bgp206295</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:47 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206295_2">bgp206295_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206767">bgp206767</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:07 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp207874">bgp207874</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp208992">bgp208992</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp51698">bgp51698</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:47 Established bgp209739 BGP FULL_TABLE up 2023-12-14 13:45:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp211406">bgp211406</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:35 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp211406_2">bgp211406_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp211609">bgp211609</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:50:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp211609_2">bgp211609_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:50:49 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>03:37:36 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29076_rt2_spb_RR">bgp29076_rt2_spb_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=BB">BB</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-18</td>
+        <td>04:01:00 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp24936">bgp24936</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:42:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp44555">bgp44555</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-05-25</td>
+        <td>22:10:05 Passive Socket: Operation timed out</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp196938">bgp196938</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:41:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp205264">bgp205264</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50867_3">bgp50867_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:48 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50867">bgp50867</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:11 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50867_2">bgp50867_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47723">bgp47723</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:08 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206805">bgp206805</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:59 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206805_2">bgp206805_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206805_3">bgp206805_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:37 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206805_4">bgp206805_4</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:28 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47655_2">bgp47655_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50473">bgp50473</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48293_2">bgp48293_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp212236">bgp212236</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp198255_2">bgp198255_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47655_3">bgp47655_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-31</td>
+        <td>13:59:20 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp8563">bgp8563</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp207353">bgp207353</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-04-27</td>
+        <td>10:09:33 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp1299">bgp1299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:19 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp210756">bgp210756</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp206661">bgp206661</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp50822">bgp50822</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp201119_2">bgp201119_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp43667">bgp43667</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp47723_2">bgp47723_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:48 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp210079_2">bgp210079_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:00 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp210079">bgp210079</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp61308">bgp61308</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp205638">bgp205638</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:43 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48600">bgp48600</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:36 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp41853">bgp41853</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:51 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp48610">bgp48610</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp216366">bgp216366</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49531_2">bgp49531_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:38 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp49531">bgp49531</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>18:55:10 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-msk/ipv4?q=bgp34545">bgp34545</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-15</td>
+        <td>04:00:00 Passive</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+<h3 style="float:left">r2-ru-msk: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp1299">bgp1299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:11 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp3175">bgp3175</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp3327">bgp3327</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:27 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp5537">bgp5537</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:19 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp6694">bgp6694</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-11</td>
+        <td>17:35:57 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp6697">bgp6697</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-30</td>
+        <td>16:14:15 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp9032">bgp9032</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:52 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12616">bgp12616</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-01-12</td>
+        <td>09:34:30 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12695">bgp12695</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:15 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12714">bgp12714</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:55 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12714_2">bgp12714_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:36 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12722">bgp12722</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:30 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp12739">bgp12739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:55 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp13178">bgp13178</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:48:00 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp13238">bgp13238</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:35:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp13335">bgp13335</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:09 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp15169">bgp15169</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-30</td>
+        <td>03:25:18 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp15169_2">bgp15169_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-23</td>
+        <td>04:32:49 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp20848">bgp20848</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-05-26</td>
+        <td>00:33:56 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-04</td>
+        <td>02:22:05 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp21453">bgp21453</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:48:19 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp21859">bgp21859</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:37 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp24638">bgp24638</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp24663">bgp24663</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>13:58:40 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp24936">bgp24936</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-05-01</td>
+        <td>18:08:20 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp25189">bgp25189</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:29 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp25189_2">bgp25189_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:03 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp25511">bgp25511</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-13</td>
+        <td>19:40:17 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp25532">bgp25532</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:11 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp28968">bgp28968</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-03</td>
+        <td>22:35:17 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29226">bgp29226</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:16 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29319">bgp29319</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-27</td>
+        <td>13:43:16 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29319_2">bgp29319_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-07</td>
+        <td>10:19:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29503">bgp29503</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-28</td>
+        <td>08:58:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29588">bgp29588</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:32 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp30953">bgp30953</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp31370">bgp31370</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-04-14</td>
+        <td>16:03:29 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp31415">bgp31415</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp34602">bgp34602</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:19 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp34853">bgp34853</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-02-20</td>
+        <td>17:15:20 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp34853_2">bgp34853_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:55 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp34879">bgp34879</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-07-21</td>
+        <td>12:16:59 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp35271">bgp35271</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:25 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp39709">bgp39709</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-07</td>
+        <td>20:47:30 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp41095">bgp41095</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp41268">bgp41268</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp41957">bgp41957</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:50:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp41957_2">bgp41957_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:35:16 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp42377">bgp42377</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-15</td>
+        <td>21:19:46 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp42632">bgp42632</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-21</td>
+        <td>18:04:30 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp42988">bgp42988</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-30</td>
+        <td>01:25:34 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43102">bgp43102</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-19</td>
+        <td>23:10:54 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43404">bgp43404</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43502">bgp43502</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-17</td>
+        <td>12:55:13 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43502_2">bgp43502_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-17</td>
+        <td>12:55:15 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43502_3">bgp43502_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-17</td>
+        <td>12:55:15 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43727">bgp43727</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-25</td>
+        <td>08:31:07 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43912">bgp43912</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-10</td>
+        <td>15:59:58 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp44555">bgp44555</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-05-25</td>
+        <td>22:09:57 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp44670">bgp44670</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:38 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp44927">bgp44927</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-26</td>
+        <td>09:04:10 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47213">bgp47213</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-23</td>
+        <td>13:55:27 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47258">bgp47258</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-21</td>
+        <td>17:00:22 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47258_2">bgp47258_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47379">bgp47379</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-01-17</td>
+        <td>15:22:18 Passive Received: Peer de-configured</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47542">bgp47542</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47542_2">bgp47542_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-06-08</td>
+        <td>14:47:45 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47764">bgp47764</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>11:08:19 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47775">bgp47775</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-31</td>
+        <td>10:06:48 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47923">bgp47923</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-08</td>
+        <td>10:51:23 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48061">bgp48061</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-24</td>
+        <td>10:29:26 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48166">bgp48166</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-28</td>
+        <td>18:03:43 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48293">bgp48293</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:47 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48822">bgp48822</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:09:06 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48822_2">bgp48822_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:28 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48851">bgp48851</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-08-22</td>
+        <td>18:04:59 Passive BGP Error: Hold timer expired</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48940">bgp48940</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:23 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp49106">bgp49106</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:59 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp49106_2">bgp49106_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>04:45:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp49124">bgp49124</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-24</td>
+        <td>18:50:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp49368">bgp49368</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-06-15</td>
+        <td>09:15:51 Passive Received: Peer de-configured</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50113">bgp50113</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-04-29</td>
+        <td>13:09:36 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50254">bgp50254</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50340">bgp50340</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-04</td>
+        <td>09:54:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50448">bgp50448</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:05 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50775">bgp50775</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:10:09 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50867">bgp50867</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:22 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50966">bgp50966</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-22</td>
+        <td>05:42:02 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50966_2">bgp50966_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:32 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51028">bgp51028</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-17</td>
+        <td>14:08:04 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51077">bgp51077</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:35:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51341">bgp51341</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-05-03</td>
+        <td>00:20:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51341_2">bgp51341_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51408">bgp51408</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-11-02</td>
+        <td>00:34:59 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51444">bgp51444</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-20</td>
+        <td>20:01:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51444_2">bgp51444_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-18</td>
+        <td>17:25:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51596">bgp51596</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51698">bgp51698</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:28:49 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp51904">bgp51904</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-28</td>
+        <td>14:54:17 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp52168">bgp52168</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-08-09</td>
+        <td>13:16:03 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp56630">bgp56630</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp56694">bgp56694</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:14 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp57191">bgp57191</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-10-17</td>
+        <td>22:55:55 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp57191_2">bgp57191_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-09-22</td>
+        <td>23:59:08 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp57363">bgp57363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-11</td>
+        <td>15:08:59 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp57629">bgp57629</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-23</td>
+        <td>12:28:40 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp57712">bgp57712</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp58288">bgp58288</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-08-11</td>
+        <td>00:17:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp59504">bgp59504</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp59504_2">bgp59504_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp60068">bgp60068</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:47:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp60283">bgp60283</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp60299">bgp60299</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-18</td>
+        <td>10:35:02 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp60796">bgp60796</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:28:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp60796_2">bgp60796_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:39:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp61170">bgp61170</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:48:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp61325">bgp61325</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:02 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp61325_2">bgp61325_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-09-12</td>
+        <td>13:57:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp62366">bgp62366</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:46 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp62410">bgp62410</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-06</td>
+        <td>12:37:10 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp62429">bgp62429</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:45 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp196798">bgp196798</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-09-28</td>
+        <td>14:30:07 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp197309">bgp197309</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:22 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp197453">bgp197453</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp198255">bgp198255</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-06</td>
+        <td>11:36:41 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp199320">bgp199320</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp199635">bgp199635</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-16</td>
+        <td>18:31:22 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp200161">bgp200161</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:57 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp200161_2">bgp200161_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-31</td>
+        <td>23:53:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp200350">bgp200350</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:44 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp200430">bgp200430</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:55 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp200976">bgp200976</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:41 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp201119">bgp201119</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-17</td>
+        <td>02:19:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp201477">bgp201477</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-26</td>
+        <td>01:07:46 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp203907">bgp203907</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:51 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp203907_2">bgp203907_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp204271">bgp204271</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp204338">bgp204338</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-04-13</td>
+        <td>12:22:19 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp204825">bgp204825</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-26</td>
+        <td>15:37:47 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp205460">bgp205460</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-10-29</td>
+        <td>03:31:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206152">bgp206152</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-14</td>
+        <td>13:35:26 Passive Socket: Connection closed</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206152_2">bgp206152_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:34 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206295">bgp206295</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:29:52 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206295_2">bgp206295_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-01</td>
+        <td>00:53:21 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206767">bgp206767</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:29:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp207874">bgp207874</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:28:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp209739">bgp209739</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-28</td>
+        <td>13:37:47 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp211406">bgp211406</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:09:09 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp211406_2">bgp211406_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:09:14 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp211609">bgp211609</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:51:23 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp211609_2">bgp211609_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:51:35 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:52 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29076_rt2_spb_RR">bgp29076_rt2_spb_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-04-08</td>
+        <td>04:08:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp196938">bgp196938</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:37:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp205264">bgp205264</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:48 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50867_3">bgp50867_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-01</td>
+        <td>00:12:41 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50867_2">bgp50867_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:44:28 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47723_2">bgp47723_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-02-27</td>
+        <td>16:39:32 Passive Received: Peer de-configured</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47723_3">bgp47723_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-08-15</td>
+        <td>08:28:33 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47723">bgp47723</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:17 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206805">bgp206805</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:46:25 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206805_2">bgp206805_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206805_3">bgp206805_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-16</td>
+        <td>15:40:25 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206805_4">bgp206805_4</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-03-07</td>
+        <td>00:35:10 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47655">bgp47655</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-03</td>
+        <td>14:34:01 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47655_2">bgp47655_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-11-09</td>
+        <td>03:46:44 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50473">bgp50473</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-12</td>
+        <td>07:20:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48293_2">bgp48293_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2022-10-06</td>
+        <td>15:35:33 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp212236">bgp212236</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:31 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp198255_2">bgp198255_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-17</td>
+        <td>10:54:51 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp47655_3">bgp47655_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2022-10-31</td>
+        <td>13:56:28 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp8563">bgp8563</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:48:11 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp207353">bgp207353</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-04-27</td>
+        <td>10:09:57 Passive Received: Administrative shutdown</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp210756">bgp210756</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-04-25</td>
+        <td>05:47:30 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp206661">bgp206661</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-03-03</td>
+        <td>05:00:00 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp201119_2">bgp201119_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:40 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp50822">bgp50822</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-03-13</td>
+        <td>12:54:04 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp43667">bgp43667</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:39 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp210079_2">bgp210079_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:12 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp210079">bgp210079</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-06-16</td>
+        <td>15:07:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp64419">bgp64419</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-06-16</td>
+        <td>23:56:52 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp61308_2">bgp61308_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-07-13</td>
+        <td>21:38:31 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp61308">bgp61308</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-07-19</td>
+        <td>16:03:00 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp205638">bgp205638</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:36:19 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48600">bgp48600</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-11</td>
+        <td>17:55:39 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp41853">bgp41853</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-10-13</td>
+        <td>09:52:42 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp48610">bgp48610</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:32 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp216366">bgp216366</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-14</td>
+        <td>13:45:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp49531">bgp49531</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-06</td>
+        <td>16:40:23 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-msk/ipv4?q=bgp34545">bgp34545</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-15</td>
+        <td>05:00:02 Passive</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+<h3 style="float:left">r2-ru-ekt: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp12418">bgp12418</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp12714">bgp12714</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:51 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:53 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp24955">bgp24955</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:32:47 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp28709">bgp28709</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:57 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp34879">bgp34879</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp44128">bgp44128</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp48642">bgp48642</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:55 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp49218">bgp49218</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:59 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp51028">bgp51028</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:32:02 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp52015">bgp52015</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp52015_2">bgp52015_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp52015_3">bgp52015_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp52015_4">bgp52015_4</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp57363">bgp57363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:32:02 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp61031">bgp61031</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp209307">bgp209307</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:32:50 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp210756">bgp210756</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:15:50 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp29076_rt1_msk_RR">bgp29076_rt1_msk_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:18:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp29076_rt2_spb_RR">bgp29076_rt2_spb_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:18:52 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r2-ru-ekt/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:52 Established</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+<h3 style="float:left">r1-ru-ekt: show protocols</h3>
+<table class="table table-striped table-bordered table-condensed table-summary">
+<thead>
+	<tr><th>Name</th><th>protocol</th><th>table</th><th>state</th><th>since</th><th>info</th></tr>
+</thead>
+<tbody>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bfd_cloud">bfd_cloud</a></td>
+        <td>BFD</td>
+        <td>master</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=r_to_full">r_to_full</a></td>
+        <td>Pipe</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 =&gt; master</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp9049">bgp9049</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp12418">bgp12418</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:43 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp12714">bgp12714</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:53 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp21030">bgp21030</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp24955">bgp24955</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:56 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp28709">bgp28709</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp34879">bgp34879</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:47 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp44128">bgp44128</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp48642">bgp48642</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:43 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp49218">bgp49218</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:45:31 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp51028">bgp51028</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:42 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp52015">bgp52015</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp52015_2">bgp52015_2</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp52015_3">bgp52015_3</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp52015_4">bgp52015_4</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-important">start</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 Passive</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp57363">bgp57363</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:42 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp61031">bgp61031</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:52 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp209307">bgp209307</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:45:01 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp210756">bgp210756</a></td>
+        <td>BGP</td>
+        <td>FULL_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:50 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=r_to_IBGP">r_to_IBGP</a></td>
+        <td>Pipe</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:27:40 =&gt; FULL_TABLE</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp29076_rt1_msk_RR">bgp29076_rt1_msk_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:21 Established</td>
+    </tr>
+	
+	<tr class="even">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp29076_rt2_spb_RR">bgp29076_rt2_spb_RR</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:31:23 Established</td>
+    </tr>
+	
+	<tr class="odd">
+        <td><a href="/detail/r1-ru-ekt/ipv4?q=bgp29076_local">bgp29076_local</a></td>
+        <td>BGP</td>
+        <td>IBGP_TABLE</td>
+        <td><span class="label label-success">up</span></td>
+        <td>2023-12-04</td>
+        <td>10:43:42 Established</td>
+    </tr>
+	
+</tbody>
+</table>
+<br />
+
+
+
+				</div>
+				<div class="span4">
+					<div class="well" style="padding: 8px 0;">
+						<ul class="nav nav-list history">
+							<li class="nav-header">Request history</li>
+							
+							<li class="active">
+							<a href="/summary/r1-ru-spb+r2-ru-spb+r1-ru-msk+r2-ru-msk+r2-ru-ekt+r1-ru-ekt/ipv4">
+								r1-ru-spb+r2-ru-spb+r1-ru-msk+r2-ru-msk+r2-ru-ekt+r1-ru-ekt/ipv4: show protocols
+							</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<p>bird looking glass, <a href="https://github.com/sileht/bird-lg/">source code</a> under GPL 3.0, powered by <a href="http://flask.pocoo.org">Flask</a>, <a href="http://jquery.com/">jQuery</a> and <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></p>
+			</div>
+
+		<div class="progress progress-info progress-striped active" style="position:fixed;bottom:0px;right:10px;display:none;height:10px;width:200px;">
+			<div class="bar" style="width: 100%;"></div>
+		</div>
+			<div class="modal fade" style="display:none;">
+				<div class="modal-header">
+					<a class="close" data-dismiss="modal">×</a>
+					<h3>Modal header</h3>
+				</div>
+				<div class="modal-body" style="height: 300px; overflow: auto;">
+					<p>One fine body…</p>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-primary">Close</a>
+				</div>
+			</div>	
+		</div>
+		<script type="text/javascript" src="/static/js/jquery.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="/static/js/DT_bootstrap.js"></script>
+		<script type="text/javascript">
+			request_type = "summary";
+			request_args = "";
+			hosts = "r1-ru-spb+r2-ru-spb+r1-ru-msk+r2-ru-msk+r2-ru-ekt+r1-ru-ekt";
+			proto = "ipv4";
+			history_query = [["r1-ru-spb+r2-ru-spb+r1-ru-msk+r2-ru-msk+r2-ru-ekt+r1-ru-ekt", "ipv4", "summary", ""]];
+</script>
+<script type="text/javascript" src="/static/js/lg.js"></script>
+	</body>
+</html>

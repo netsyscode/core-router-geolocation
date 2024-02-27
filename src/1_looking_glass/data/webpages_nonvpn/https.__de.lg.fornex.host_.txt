@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fornex Germany - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Styles -->
+    <link href="/static/css/spacelab.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="/">Fornex Germany</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span8">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Frankfurt, Germany</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 185.26.97.232</p>
+                <p>Test IPv6: Not available now</p>
+                <p>Test files: <a href="/static/100MB.test" id="100MB">100MB</a> <a href="/static/200MB.test" id="200MB">200MB</a> <a href="/static/500MB.test" id="500MB">500MB</a> <a href="/static/1000MB.test" id="1000MB">1000MB</a> 
+                </p>
+              </div>
+              <br>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="well">
+              <span id="legend">
+                More Locations
+              </span>
+              <p><a href="//de.lg.fornex.host">Frankfurt, Germany</a></p><p><a href="//nl.lg.fornex.host">Naaldwijk, Netherlands</a></p><p><a href="//us.lg.fornex.host">Dallas, United States</a></p><p><a href="//ru.lg.fornex.host">Moscow, Russia</a></p><p><a href="//ua.lg.fornex.host">Kiev, Ukraine</a></p><p><a href="//ch.lg.fornex.host">Hunenberg, Switzerland</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr4">mtr</option>
+                  <!--<option value="mtr6">mtr6</option>!-->
+                  <option value="ping4" selected="selected">ping</option>
+                  <!-- <option value="ping6">ping6</option> !-->
+                  <option value="traceroute4">traceroute</option>
+                  <!-- <option value="traceroute6">traceroute6</option> !-->
+                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p><strong><a href="https://fornex.com/?from=ch.lg.fornex.host">FORNEX.COM</a></strong>  - §å§ã§Ý§å§Ô§Ú §ç§à§ã§ä§Ú§ß§Ô§Ñ §Ó §¦§Ó§â§à§á§Ö</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="/static/js/LookingGlass.js"></script>
+    <script src="/static/js/XMLHttpRequest.js"></script>
+  </body>
+</html>
+<!--
+LookingGlass originally by Telephone: http://iamtelephone.com
+Python backend rewrite by Brandon Whaley, Ramnode LLC, http://ramnode.com
+-->

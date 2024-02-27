@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.uixp.co.ug/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            UIXP Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="FwsISPRmfMB2AIwBDkcAEcTd5HPcWrWbms94tlaj">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.uixp.co.ug/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.uixp.co.ug/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.uixp.co.ug">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.uixp.co.ug/images/ixp-manager-white.png">
+    UIXP Portal</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item active" href="https://portal.uixp.co.ug/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/vlan">
+                            VLAN / Per-Protocol Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                        <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/core-bundle/2">
+                                Inter-Switch / PoP Graphs
+                            </a>
+                                            
+                                            <a class="dropdown-item 1" href="https://portal.uixp.co.ug/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.uixp.co.ug/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.uixp.co.ug/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.uixp.co.ug/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select a router...            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        AS112 Services                    </h6>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/as112-router1-ipv4">
+                            AS112-IPV4                        </a>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/as112-router1-ipv6">
+                            AS112-IPV6                        </a>
+                                                        <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/rs1-ipv4">
+                            CH - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/rs1-ipv6">
+                            CH - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/rs2-ipv4">
+                            RXO - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.uixp.co.ug/lg/rs2-ipv6">
+                            RXO - IPv6                        </a>
+                                                </div>
+        </div>
+                <a class="btn btn-white" href="https://portal.uixp.co.ug/lg/">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                <div class="tw-bg-red-100 tw-border-l-4 tw-border-red-500 tw-text-red-700 p-4 alert-dismissible mb-4" role="alert">
+<div class="d-flex align-items-center"><div class="text-center"><i class="fa fa-exclamation-triangle fa-2x "></i></div><div class="col-sm-12">No router with the provided handle was found</div> 
+</div></div>
+
+            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+    
+                <div class="tab-content well">
+                    <div class="tab-pane active show" id="kampala1">
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav nav-pills card-header-pills">
+                                                    <li class="nav-item" >
+                                <a class="nav-link active" data-toggle="pill" href="#kampala1-4">
+                                    IPv4                                </a>
+                            </li>
+                                                    <li class="nav-item" >
+                                <a class="nav-link 1" data-toggle="pill" href="#kampala1-6">
+                                    IPv6                                </a>
+                            </li>
+                                            </ul>
+                </div>
+
+                <div class="card-body">
+                    <div class="tab-content">
+                                                    <div id="kampala1-4" class="tab-pane active show">
+                                <table class="table table-striped hover table-router">
+                                    <thead class="table-dark">
+                                        <th>
+                                            Router
+                                        </th>
+                                        <th>
+                                            Config Last Updated
+                                        </th>
+                                        <th></th>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/rs1-ipv4">
+                                                <td class="align-middle">
+                                                    CH - IPv4                                                </td>
+                                                <td class="align-middle">
+                                                    2023-12-18 11:00:01                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/rs1-ipv4">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/rs2-ipv4">
+                                                <td class="align-middle">
+                                                    RXO - IPv4                                                </td>
+                                                <td class="align-middle">
+                                                    2023-12-18 11:00:01                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/rs2-ipv4">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/as112-router1-ipv4">
+                                                <td class="align-middle">
+                                                    AS112-IPV4                                                </td>
+                                                <td class="align-middle">
+                                                    2022-10-12 04:27:21                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/as112-router1-ipv4">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                                                    <div id="kampala1-6" class="tab-pane 1">
+                                <table class="table table-striped hover table-router">
+                                    <thead class="table-dark">
+                                        <th>
+                                            Router
+                                        </th>
+                                        <th>
+                                            Config Last Updated
+                                        </th>
+                                        <th></th>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/rs1-ipv6">
+                                                <td class="align-middle">
+                                                    CH - IPv6                                                </td>
+                                                <td class="align-middle">
+                                                    2023-12-18 11:00:01                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/rs1-ipv6">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/rs2-ipv6">
+                                                <td class="align-middle">
+                                                    RXO - IPv6                                                </td>
+                                                <td class="align-middle">
+                                                    2023-12-18 11:00:01                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/rs2-ipv6">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                    <tr data-href="https://portal.uixp.co.ug/lg/as112-router1-ipv6">
+                                                <td class="align-middle">
+                                                    AS112-IPV6                                                </td>
+                                                <td class="align-middle">
+                                                    2022-10-12 04:27:21                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="https://portal.uixp.co.ug/lg/as112-router1-ipv6">
+                                                        Looking Glass
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>                              </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.2.0
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.uixp.co.ug/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.uixp.co.ug/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.uixp.co.ug/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.uixp.co.ug/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+        $(".table-router tbody tr").click(function() {
+            window.document.location = $( this ).data( "href");
+        });
+
+        $( document ).on( 'mouseenter', '[data-toggle="tab"], [data-toggle="pill"]', function () {
+            $( this ).tab( 'show' );
+        });
+    </script>
+
+            </body>
+</html>

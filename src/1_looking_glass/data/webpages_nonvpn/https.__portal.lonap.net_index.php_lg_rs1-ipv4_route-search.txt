@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.lonap.net/index.php/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            LONAP IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="yGx6qhAVbU0WdiAv3wyUpAc13B3QcAoPe6b1egUZ">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.lonap.net/index.php/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.lonap.net/favicon.ico" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.lonap.net/index.php">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.lonap.net/images/ixp-manager-white.png">
+    LONAP IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/statistics/vlan">
+                            VLAN / Per-Protocol Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://portal.lonap.net/index.php/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.lonap.net/index.php/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.lonap.net/index.php/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Route Server #1 - IPv4</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.lonap.net/index.php/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Route Server #1 - IPv4            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item active" href="https://portal.lonap.net/index.php/lg/rs1-ipv4">
+                            Route Server #1 - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.lonap.net/index.php/lg/rs1-ipv6">
+                            Route Server #1 - IPv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.lonap.net/index.php/lg/rs2-ipv4">
+                            Route Server #2 - IPv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.lonap.net/index.php/lg/rs2-ipv6">
+                            Route Server #2 - IPv6                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.lonap.net/index.php/lg/rs1-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.lonap.net/index.php/lg/rs1-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.14                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 5.57.80.1                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 41 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-18 06:01:30
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://portal.lonap.net/index.php/api/v4/lg/rs1-ipv4/status">status</a>]
+                    [<a href="https://portal.lonap.net/index.php/api/v4/lg/rs1-ipv4/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+
+            IXP Manager V6.3.1
+            |
+
+            
+                Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+
+            
+            |
+
+            Discover LONAP at:
+            <a href="https://www.lonap.net/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/company/lonap-ltd/">
+                <i class="fa fa-linkedin fa-inverse mx-1"></i>
+            </a>
+
+            <!-- <a href="https://www.facebook.com/groups/lonap/">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>
+            -->
+
+            <a  href="https://twitter.com/LONAP">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.lonap.net/index.php/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.lonap.net/index.php/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.lonap.net/index.php/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.lonap.net/index.php/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["t_1330_as204778","t_1041_as199468","t_0758_as212263","t_0981_as211371","t_1073_as211029","t_0587_as205389","t_0927_as207995","t_1083_as210412","t_0418_as200052","t_0396_as197898","t_0351_as199713","t_1272_as202282","t_1255_as212232","t_0649_as917","t_0966_as211597","t_1247_as210619","t_0343_as199659","t_0544_as206347","t_1329_as200708","t_0363_as8674","t_0166_as8676","t_0023_as2906","master4","t_0344_as199659","t_1147_as198440","t_0605_as198736","master6","t_1275_as212109","t_1271_as198079","t_1166_as208189","t_0364_as8674","t_1096_as8330","t_1013_as5482","t_0122_as3856","t_1258_as6461","t_0124_as5503","t_1082_as396998","t_0005_as8838","t_0662_as201838","t_1097_as8330","t_1079_as8075","t_1262_as396986","t_0028_as3213","t_0126_as5503","t_0042_as6939","t_0278_as8683","t_0666_as8220","t_0010_as20915","t_0043_as8468","t_1019_as1820","t_0503_as2818","t_0002_as16353","t_0119_as4455","t_0110_as25061","t_0090_as8218","t_0139_as3213","t_0450_as9009","t_0084_as8330","t_0938_as5463","t_0954_as8680","t_0075_as8530","t_0499_as2818","t_1242_as8851","t_0543_as2603","t_0003_as44684","t_0121_as42","t_0031_as15830","t_0088_as20940","t_0475_as10310","t_0290_as8075","t_1129_as59811","t_0051_as12041","t_roa","t_1184_as60800","t_0098_as50300","t_0030_as39326","t_0429_as33445","t_0385_as31122","t_0538_as20712","t_0545_as33438","t_0979_as60255","t_0436_as56745","t_0428_as6507","t_1249_as42611","t_0526_as47638","t_0529_as33073","t_1327_as57870","t_0760_as24429","t_0537_as42831","t_1158_as55256","t_0348_as51945","t_0750_as36924","t_0627_as60426","t_0655_as13009","t_0466_as20940","t_0654_as21339","t_0113_as25369","t_0580_as34790","t_0725_as24916","t_0178_as34746","t_0132_as35313","t_0439_as34660","t_0599_as6894","t_0386_as13335","t_0312_as25160","t_0032_as44684","t_0025_as12496","t_0448_as35266","t_0469_as12200","t_0902_as59659","t_0744_as48101","t_0061_as30740","t_1040_as41495","t_0179_as34746","t_0044_as12390","t_0584_as50023","t_0691_as41230","t_0752_as34746","t_0755_as41103","t_0104_as56595","t_0080_as41103","t_0464_as59439","t_1024_as25460","t_0368_as29611","t_1320_as20940","t_1160_as41000","t_0648_as61012","t_0476_as51561","t_0421_as51043","t_1070_as13150","t_0575_as62240","t_0491_as63949","t_0582_as60793","t_0367_as57099","t_0473_as59953","t_0494_as52075","t_0052_as29550","t_0438_as47998","t_0746_as48101","t_0340_as51263","t_0404_as61124","t_0379_as34442","t_0072_as25061","t_0600_as33438","t_0060_as49375","t_0941_as57463","t_1061_as51055","t_0153_as12519","t_0492_as47866","t_0170_as34066","t_0307_as13414","t_1206_as31631","t_1220_as57907","t_0692_as16247","t_0960_as51809","t_0341_as51263","t_1221_as57257","t_1231_as34465","t_1126_as60022","t_0665_as19186","t_1240_as50763","t_0693_as22822","t_0136_as16353","t_0422_as12775","t_0942_as48294","t_1304_as39122","t_0493_as47866","t_0441_as43013","t_0308_as13414","t_1144_as15510","t_0468_as49544","t_0350_as31595","t_0498_as20712","t_0137_as31463","t_0479_as24482","t_0719_as59816","t_0520_as32787","t_0172_as31472","t_0694_as22822","t_0431_as51762","t_0502_as49158","t_0674_as62955","t_0353_as42010","t_0332_as42689","t_0971_as25098","t_0065_as12496","t_0334_as51409","t_0128_as33941","t_1207_as60079","t_0066_as12519","t_1325_as30081","t_0531_as15169","t_1226_as52025","t_0521_as55195","t_0695_as16164","t_0442_as31742","t_0057_as33920","t_0056_as51782","t_0598_as14340","t_0460_as54113","t_0749_as41847","t_0720_as15830","t_0497_as47480","t_0342_as60868","t_0352_as24916","t_0589_as25152","t_0451_as50823","t_1254_as42004","t_0424_as51918","t_1062_as56478","t_0129_as41678","t_0712_as61323","t_1125_as39875","t_0164_as51918","t_0711_as60377","t_0354_as20915","t_0471_as13009","t_1163_as44444","t_1217_as56444","t_0704_as42228","t_1137_as48070","t_0416_as56329","t_0381_as45014","t_0624_as45102","t_0530_as57976","t_1165_as54113","t_1146_as49600","t_0417_as39522","t_1218_as56444","t_0912_as41400","t_0096_as20562","t_0474_as10310","t_0730_as34927","t_0679_as39175","t_1149_as197000","t_1039_as56482","t_0534_as64415","t_0713_as55256","t_0336_as28792","t_1292_as20253","t_0696_as34979","t_0722_as35826","t_1281_as25198","t_0463_as29017","t_1246_as43915","t_0721_as47935","t_0347_as31595","t_0078_as34555","t_0723_as24594","t_0690_as203421","t_0715_as24594","t_0680_as206626","t_1202_as205771","t_0727_as206324","t_0374_as199335","t_1077_as199904","t_1277_as210874","t_0977_as56478","t_1140_as209505","t_0918_as201126","t_1278_as210874","t_0763_as208189","t_0522_as200612","t_1216_as212027"].sort();
+    let protocols = ["pp_0343_as199659","pb_0979_as60255","pb_0096_as20562","pb_0912_as41400","pb_0474_as10310","pb_0730_as34927","pb_1039_as56482","pb_0534_as64415","pb_0713_as55256","pb_0336_as28792","pb_0977_as56478","pb_1292_as20253","pb_0722_as35826","pp_0278_as8683","pb_0088_as20940","pb_1281_as25198","pb_0463_as29017","pb_0475_as10310","pb_1246_as43915","pb_0721_as47935","pp_0666_as8220","pb_0347_as31595","pb_1129_as59811","pb_0078_as34555","pb_1184_as60800","pb_0098_as50300","pb_0723_as24594","pb_0429_as33445","pb_0385_as31122","pb_0538_as20712","pb_0545_as33438","pb_0715_as24594","pb_0436_as56745","pb_1249_as42611","pb_0526_as47638","pb_0529_as33073","pb_1327_as57870","pb_0760_as24429","pb_0537_as42831","pb_1158_as55256","pb_0348_as51945","pb_0750_as36924","pb_0627_as60426","pb_0655_as13009","pb_0654_as21339","pb_0466_as20940","pb_0580_as34790","pb_0725_as24916","pb_0178_as34746","pb_0439_as34660","pb_0386_as13335","pp_0023_as2906","pb_0448_as35266","pb_0469_as12200","pb_0902_as59659","pb_0744_as48101","pb_0179_as34746","pp_0954_as8680","pb_0584_as50023","pb_0691_as41230","pb_0752_as34746","pb_0755_as41103","pb_0464_as59439","pb_1202_as205771","pb_0368_as29611","pp_1013_as5482","pp_0122_as3856","pb_0648_as61012","pb_0476_as51561","pp_0124_as5503","pb_0575_as62240","pb_0491_as63949","pb_0582_as60793","pp_0005_as8838","pb_0367_as57099","pb_0473_as59953","pp_1126_as60022","pb_0494_as52075","pb_0438_as47998","pp_0498_as20712","pp_0028_as3213","pb_0746_as48101","pp_0441_as43013","pb_0379_as34442","pb_0941_as57463","pb_0492_as47866","pp_0476_as51561","pp_0575_as62240","pb_1140_as209505","pp_0582_as60793","pp_0126_as5503","pb_0692_as16247","pp_0473_as59953","pb_0960_as51809","pp_0042_as6939","pp_0494_as52075","pp_0353_as42010","pb_0665_as19186","pp_0746_as48101","pb_0544_as206347","pb_0693_as22822","pb_0649_as917","pp_0695_as16164","pp_0002_as16353","pp_0334_as51409","pb_0942_as48294","pp_1207_as60079","pb_0493_as47866","pb_1329_as200708","pp_0043_as8468","pp_0379_as34442","pp_0066_as12519","pp_0110_as25061","pp_0941_as57463","pp_1325_as30081","pp_0598_as14340","pp_0492_as47866","pp_1226_as52025","pp_0749_as41847","pp_1019_as1820","pb_0468_as49544","pb_0344_as199659","pp_0589_as25152","pp_0442_as31742","pb_0498_as20712","pp_0692_as16247","pb_1147_as198440","pb_0605_as198736","pp_0960_as51809","pp_0057_as33920","pb_1275_as212109","pb_0479_as24482","pp_0503_as2818","pp_0056_as51782","pb_0719_as59816","pb_1271_as198079","pb_0694_as22822","pb_0674_as62955","pp_0665_as19186","pp_0460_as54113","pb_1166_as208189","pp_0720_as15830","pp_0693_as22822","pp_0342_as60868","pp_0352_as24916","pp_0119_as4455","pp_0942_as48294","pb_1149_as197000","pp_0493_as47866","pp_1254_as42004","pp_0451_as50823","pb_0971_as25098","pp_0424_as51918","pp_0129_as41678","pb_0522_as200612","pp_0712_as61323","pp_0164_as51918","pp_0468_as49544","pp_0711_as60377","pp_0354_as20915","pb_1216_as212027","pp_0471_as13009","pp_0479_as24482","pp_0719_as59816","pp_0694_as22822","pp_1163_as44444","pb_1082_as396998","pp_0674_as62955","pb_0662_as201838","pp_1217_as56444","pp_0704_as42228","pb_1330_as204778","pb_1041_as199468","pp_1137_as48070","pb_0749_as41847","pp_0971_as25098","pp_0416_as56329","pb_1262_as396986","pp_0381_as45014","pp_0624_as45102","pp_0003_as44684","pp_0031_as15830","pp_0530_as57976","pp_0051_as12041","pb_0690_as203421","pp_1165_as54113","rpki1","pp_0679_as39175","pp_1146_as49600","pp_0417_as39522","pp_0030_as39326","pp_1218_as56444","rpki2","pb_0966_as211597","pb_0680_as206626","pp_0912_as41400","pp_0096_as20562","pp_0474_as10310","pp_0696_as34979","pb_1073_as211029","pb_0727_as206324","pb_0374_as199335","pp_0730_as34927","pp_0497_as47480","pp_1039_as56482","pp_0534_as64415","pp_0713_as55256","pp_0336_as28792","pp_1292_as20253","pp_0722_as35826","pp_0088_as20940","pp_1281_as25198","pp_0463_as29017","pp_0475_as10310","pp_1246_as43915","pb_1077_as199904","pp_0721_as47935","pp_0347_as31595","pp_1129_as59811","pb_1083_as210412","pb_1277_as210874","pp_0078_as34555","pb_0418_as200052","pp_1184_as60800","pp_0113_as25369","pp_0098_as50300","pp_0723_as24594","pp_0132_as35313","pp_0429_as33445","pp_0385_as31122","pp_0312_as25160","pp_0121_as42","pp_0032_as44684","pp_0025_as12496","pp_0538_as20712","pp_0545_as33438","pp_0715_as24594","pp_0436_as56745","pp_0061_as30740","pb_0918_as201126","pp_1040_as41495","pb_1278_as210874","pp_1249_as42611","pp_0526_as47638","pp_0044_as12390","pp_0529_as33073","pb_0023_as2906","pp_1327_as57870","pp_0760_as24429","pp_0104_as56595","pp_0537_as42831","pp_0080_as41103","pp_0979_as60255","pp_1158_as55256","pp_0348_as51945","pp_0750_as36924","pp_0627_as60426","pp_0655_as13009","pp_0466_as20940","pp_0654_as21339","pp_1024_as25460","pp_0758_as212263","pp_0981_as211371","pp_0580_as34790","pb_0351_as199713","pp_0725_as24916","pp_0178_as34746","pp_1320_as20940","pp_0439_as34660","pp_1160_as41000","pb_1272_as202282","pp_0977_as56478","pb_0763_as208189","pb_1255_as212232","pp_0386_as13335","pp_0421_as51043","pp_1070_as13150","pp_0448_as35266","pp_0469_as12200","pb_1013_as5482","pp_0052_as29550","pp_0902_as59659","pp_0744_as48101","pb_0122_as3856","pp_0179_as34746","pb_0124_as5503","pp_0340_as51263","pp_0584_as50023","pp_0691_as41230","pp_0404_as61124","pp_1073_as211029","pp_0752_as34746","pb_0005_as8838","pp_0072_as25061","pp_0600_as33438","pp_0755_as41103","pp_0060_as49375","pp_0464_as59439","pp_1061_as51055","pp_0153_as12519","pp_0368_as29611","pp_0170_as34066","pp_0307_as13414","pp_1206_as31631","pp_1220_as57907","pp_0010_as20915","pb_0028_as3213","pp_0648_as61012","pp_0341_as51263","pp_1221_as57257","pb_1247_as210619","pp_1231_as34465","pp_0491_as63949","pb_0343_as199659","pp_0367_as57099","pp_1083_as210412","pp_1240_as50763","pp_0418_as200052","pp_0136_as16353","pp_0422_as12775","pp_1304_as39122","pb_0126_as5503","pp_0438_as47998","pb_0758_as212263","pb_0981_as211371","pb_0042_as6939","pp_0308_as13414","pp_1144_as15510","pp_0350_as31595","pp_0137_as31463","pb_0043_as8468","pp_0520_as32787","pp_0172_as31472","pp_0431_as51762","pp_0502_as49158","pb_0938_as5463","pb_0954_as8680","pb_0499_as2818","pb_1019_as1820","pp_0332_as42689","pp_0065_as12496","pb_0587_as205389","pp_0128_as33941","pb_0503_as2818","pb_0927_as207995","pp_0531_as15169","pp_0521_as55195","pb_0119_as4455","pp_0966_as211597","pp_1272_as202282","pp_1255_as212232","pb_0090_as8218","pb_0396_as197898","pb_0139_as3213","pb_0010_as20915","pp_1062_as56478","pb_0450_as9009","pp_0587_as205389","pp_1125_as39875","pp_0927_as207995","pb_0002_as16353","pb_0084_as8330","pb_0110_as25061","pp_0396_as197898","pb_0075_as8530","pp_1247_as210619","pb_1242_as8851","pb_0543_as2603","pb_0599_as6894","pp_0544_as206347","pb_0290_as8075","pp_1329_as200708","pp_0344_as199659","pp_1147_as198440","pp_0605_as198736","pp_1275_as212109","pp_1271_as198079","pp_1166_as208189","pp_1149_as197000","pb_0428_as6507","pp_1202_as205771","pb_0003_as44684","pb_0031_as15830","pb_0051_as12041","pb_0363_as8674","pb_0166_as8676","pb_0030_as39326","pp_1082_as396998","pp_0649_as917","pp_0662_as201838","pb_0364_as8674","pp_1262_as396986","pb_1096_as8330","pp_0690_as203421","pp_1140_as209505","pb_0121_as42","pb_1258_as6461","pp_0680_as206626","pb_0113_as25369","device1","pp_0727_as206324","pp_0374_as199335","pb_1097_as8330","pb_0132_as35313","pb_1079_as8075","pb_0312_as25160","pb_0032_as44684","pb_0025_as12496","pb_0061_as30740","pp_1077_as199904","pb_1040_as41495","pp_1277_as210874","pb_0044_as12390","pb_0104_as56595","pb_0080_as41103","pb_1024_as25460","pb_0278_as8683","pb_1320_as20940","pb_0666_as8220","pp_0522_as200612","pb_1160_as41000","pp_0090_as8218","pb_0421_as51043","pb_1070_as13150","pp_1216_as212027","pp_0918_as201126","pp_1278_as210874","pp_0139_as3213","pb_0052_as29550","pp_1330_as204778","pp_1041_as199468","pb_0695_as16164","pb_0340_as51263","pb_0404_as61124","pp_0450_as9009","pb_0072_as25061","pb_0600_as33438","pb_0598_as14340","pb_0060_as49375","pp_0938_as5463","pb_1061_as51055","pp_0763_as208189","pb_0153_as12519","pb_0497_as47480","pp_0499_as2818","pb_0589_as25152","pb_0170_as34066","pb_0307_as13414","pb_1206_as31631","pb_1220_as57907","pp_0084_as8330","pb_0341_as51263","pb_1221_as57257","pb_1231_as34465","pb_1126_as60022","pp_0075_as8530","pp_1242_as8851","pb_1240_as50763","pp_0543_as2603","pb_0136_as16353","pb_0422_as12775","pb_1304_as39122","pb_0441_as43013","pb_0308_as13414","pb_1144_as15510","pb_0350_as31595","pp_0290_as8075","pb_0137_as31463","pb_0172_as31472","pb_0520_as32787","pb_0431_as51762","pb_0502_as49158","pb_0353_as42010","pb_0332_as42689","pb_0065_as12496","pb_0128_as33941","pb_0334_as51409","pb_1207_as60079","pb_0066_as12519","pb_1325_as30081","pb_0531_as15169","pb_0679_as39175","pb_1226_as52025","pp_0428_as6507","pb_0521_as55195","pb_0442_as31742","pb_0057_as33920","pb_0056_as51782","pb_0696_as34979","pp_0363_as8674","pp_0599_as6894","pp_0166_as8676","pb_0460_as54113","pb_0720_as15830","pb_0342_as60868","pb_0352_as24916","pp_0351_as199713","pb_1254_as42004","pb_0451_as50823","pb_0424_as51918","pb_1062_as56478","pb_0129_as41678","pb_0712_as61323","pb_1125_as39875","pp_0364_as8674","pb_0164_as51918","pb_0711_as60377","pb_0354_as20915","pb_0471_as13009","pp_1096_as8330","pb_1163_as44444","pb_1217_as56444","pb_0704_as42228","pp_1258_as6461","pb_1137_as48070","pb_0416_as56329","pb_0381_as45014","pb_0624_as45102","pp_1097_as8330","pb_0530_as57976","pp_1079_as8075","pb_1165_as54113","pb_1146_as49600","pb_0417_as39522","pb_1218_as56444"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://portal.lonap.net/index.php/lg/rs1-ipv4/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv4');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv4' );
+    });
+</script>
+            </body>
+</html>

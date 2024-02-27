@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<title>ООО «Азъ — Коммуникации» &#8212; Инфосеть вашего бизнеса</title>
+<link rel="alternate" type="application/rss+xml" title="ООО «Азъ — Коммуникации» &raquo; Лента" href="https://az-com.su/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ООО «Азъ — Коммуникации» &raquo; Лента комментариев" href="https://az-com.su/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/az-com.su\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<style id='wp-block-site-logo-inline-css'>
+.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}
+</style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}
+</style>
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}
+</style>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}
+</style>
+<style id='wp-block-template-part-inline-css'>
+.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='wp-block-list-inline-css'>
+ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='wp-block-cover-css' href='https://az-com.su/wp-includes/blocks/cover/style.min.css?ver=6.2' media='all' />
+<style id='wp-block-cover-inline-css'>
+.wp-block-cover{padding-top: 6rem;padding-bottom: 6rem;}
+</style>
+<style id='wp-duotone-unset-7-inline-css'>
+.wp-duotone-unset-7 > .wp-block-cover__image-background, .wp-duotone-unset-7 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image img{height:auto;max-width:100%;vertical-align:bottom}.wp-block-image img,.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image figcaption{margin-bottom:1em;margin-top:.5em}.wp-block-image .is-style-rounded img,.wp-block-image.is-style-circle-mask img,.wp-block-image.is-style-rounded img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}.wp-block-image :where(.has-border-color){border-style:solid}.wp-block-image :where([style*=border-top-color]){border-top-style:solid}.wp-block-image :where([style*=border-right-color]){border-right-style:solid}.wp-block-image :where([style*=border-bottom-color]){border-bottom-style:solid}.wp-block-image :where([style*=border-left-color]){border-left-style:solid}.wp-block-image :where([style*=border-width]){border-style:solid}.wp-block-image :where([style*=border-top-width]){border-top-style:solid}.wp-block-image :where([style*=border-right-width]){border-right-style:solid}.wp-block-image :where([style*=border-bottom-width]){border-bottom-style:solid}.wp-block-image :where([style*=border-left-width]){border-left-style:solid}.wp-block-image figure{margin:0}
+.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}
+</style>
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important;margin-bottom:1.75em}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+</style>
+<style id='wp-duotone-unset-17-inline-css'>
+.wp-duotone-unset-17 > .wp-block-cover__image-background, .wp-duotone-unset-17 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-20-inline-css'>
+.wp-duotone-unset-20 > .wp-block-cover__image-background, .wp-duotone-unset-20 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-23-inline-css'>
+.wp-duotone-unset-23 > .wp-block-cover__image-background, .wp-duotone-unset-23 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-26-inline-css'>
+.wp-duotone-unset-26 > .wp-block-cover__image-background, .wp-duotone-unset-26 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-29-inline-css'>
+.wp-duotone-unset-29 > .wp-block-cover__image-background, .wp-duotone-unset-29 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-32-inline-css'>
+.wp-duotone-unset-32 > .wp-block-cover__image-background, .wp-duotone-unset-32 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-duotone-unset-35-inline-css'>
+.wp-duotone-unset-35 > .wp-block-cover__image-background, .wp-duotone-unset-35 > .wp-block-cover__video-background{filter:none !important;}
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--azcom-black: #1d3f58;--wp--preset--color--azcom-blue: #009ee0;--wp--preset--color--azcom-red: #c32304;--wp--preset--color--azcom-green: #32964d;--wp--preset--color--azcom-yellow: #f1e625;--wp--preset--color--azcom-darkgrey: #404040;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: 'Inter', sans-serif;--wp--preset--font-family--harmonia-sans: HarmoniaSans, Calibri, sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--typography--font-size--heading-1: clamp(1rem,(1rem + 5vw),4.0rem);--wp--custom--typography--font-size--heading-2: clamp(1rem,(1rem + 3vw),3.0rem);--wp--custom--typography--font-size--heading-3: clamp(1rem,(1rem + 2vw),2.0rem);--wp--custom--typography--font-size--heading-4: clamp(1rem,(1rem + 1vw),1.5rem);--wp--custom--typography--font-size--heading-5: 1rem;--wp--custom--typography--font-size--heading-6: 1.2rem;}body { margin: 0;--wp--style--global--content-size: 720px;--wp--style--global--wide-size: 1200px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--white);color: var(--wp--preset--color--azcom-black);font-family: var(--wp--preset--font-family--inter);font-size: 1rem;line-height: 1.75;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--azcom-blue);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-1);font-weight: 300;line-height: 1.3;}h2{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-2);font-weight: 400;line-height: 1.3;}h3{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-3);font-weight: 600;line-height: 1.3;text-transform: uppercase;}h4{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-4);font-weight: 500;line-height: 1.3;}h5{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-5);font-weight: 600;line-height: 1.3;}h6{font-family: var(--wp--preset--font-family--harmonia-sans);font-size: var(--wp--custom--typography--font-size--heading-6);font-weight: 300;line-height: 1.3;text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-azcom-black-color{color: var(--wp--preset--color--azcom-black) !important;}.has-azcom-blue-color{color: var(--wp--preset--color--azcom-blue) !important;}.has-azcom-red-color{color: var(--wp--preset--color--azcom-red) !important;}.has-azcom-green-color{color: var(--wp--preset--color--azcom-green) !important;}.has-azcom-yellow-color{color: var(--wp--preset--color--azcom-yellow) !important;}.has-azcom-darkgrey-color{color: var(--wp--preset--color--azcom-darkgrey) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-azcom-black-background-color{background-color: var(--wp--preset--color--azcom-black) !important;}.has-azcom-blue-background-color{background-color: var(--wp--preset--color--azcom-blue) !important;}.has-azcom-red-background-color{background-color: var(--wp--preset--color--azcom-red) !important;}.has-azcom-green-background-color{background-color: var(--wp--preset--color--azcom-green) !important;}.has-azcom-yellow-background-color{background-color: var(--wp--preset--color--azcom-yellow) !important;}.has-azcom-darkgrey-background-color{background-color: var(--wp--preset--color--azcom-darkgrey) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-azcom-black-border-color{border-color: var(--wp--preset--color--azcom-black) !important;}.has-azcom-blue-border-color{border-color: var(--wp--preset--color--azcom-blue) !important;}.has-azcom-red-border-color{border-color: var(--wp--preset--color--azcom-red) !important;}.has-azcom-green-border-color{border-color: var(--wp--preset--color--azcom-green) !important;}.has-azcom-yellow-border-color{border-color: var(--wp--preset--color--azcom-yellow) !important;}.has-azcom-darkgrey-border-color{border-color: var(--wp--preset--color--azcom-darkgrey) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-harmonia-sans-font-family{font-family: var(--wp--preset--font-family--harmonia-sans) !important;}
+</style>
+<style id='core-block-supports-inline-css'>
+.wp-container-content-1{flex-grow:1;}.wp-container-2.wp-container-2{flex-direction:column;align-items:flex-end;}.wp-container-3.wp-container-3{justify-content:flex-start;}.wp-container-15.wp-container-15,.wp-container-44.wp-container-44{flex-wrap:nowrap;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://az-com.su/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1' media='all' />
+<style id='wp-webfonts-inline-css'>
+@font-face{font-family:'Inter', sans-serif;font-style:normal;font-weight:300;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/Inter/Inter-Light.ttf') format('truetype');font-stretch:normal;}@font-face{font-family:'Inter', sans-serif;font-style:normal;font-weight:400;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/Inter/Inter-Regular.ttf') format('truetype');font-stretch:normal;}@font-face{font-family:"HarmoniaSans, Calibri, sans-serif";font-style:normal;font-weight:300;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/HarmoniaSans/HarmoniaSansProCyr-Light.otf') format('opentype');font-stretch:normal;}@font-face{font-family:"HarmoniaSans, Calibri, sans-serif";font-style:normal;font-weight:400;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/HarmoniaSans/HarmoniaSansProCyr-Regular.otf') format('opentype');font-stretch:normal;}@font-face{font-family:"HarmoniaSans, Calibri, sans-serif";font-style:normal;font-weight:500;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/HarmoniaSans/HarmoniaSansProCyr-SemiBd.otf') format('opentype');font-stretch:normal;}@font-face{font-family:"HarmoniaSans, Calibri, sans-serif";font-style:normal;font-weight:600;font-display:fallback;src:url('/wp-content/themes/az-com/assets/fonts/HarmoniaSans/HarmoniaSansProCyr-Bold.otf') format('opentype');font-stretch:normal;}
+</style>
+<link rel='stylesheet' id='azcom-style-css' href='https://az-com.su/wp-content/themes/az-com/style.css?ver=0.1' media='all' />
+<link rel='stylesheet' id='azcom-style-blocks-css' href='https://az-com.su/wp-content/themes/az-com/assets/css/blocks.css?ver=6.2' media='all' />
+<link rel="https://api.w.org/" href="https://az-com.su/wp-json/" /><link rel="alternate" type="application/json" href="https://az-com.su/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://az-com.su/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://az-com.su/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2" />
+<link rel="canonical" href="https://az-com.su/" />
+<link rel='shortlink' href='https://az-com.su/' />
+<link rel="alternate" type="application/json+oembed" href="https://az-com.su/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faz-com.su%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://az-com.su/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faz-com.su%2F&#038;format=xml" />
+<link rel="icon" href="https://az-com.su/wp-content/uploads/2023/04/az-com-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://az-com.su/wp-content/uploads/2023/04/az-com.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://az-com.su/wp-content/uploads/2023/04/az-com.png" />
+<meta name="msapplication-TileImage" content="https://az-com.su/wp-content/uploads/2023/04/az-com.png" />
+</head>
+
+<body class="home page-template-default page page-id-2 wp-custom-logo wp-embed-responsive">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="wp-block-group is-layout-constrained" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div class="wp-block-group alignwide azcom-header-group drop is-content-justification-left is-layout-flex wp-container-3"><div class="wp-block-site-logo"><a href="https://az-com.su/" class="custom-logo-link" rel="home" aria-current="page"><img width="100" height="98" src="https://az-com.su/wp-content/uploads/2023/04/az-com.png" class="custom-logo" alt="ООО «Азъ — Коммуникации»" decoding="async" srcset="https://az-com.su/wp-content/uploads/2023/04/az-com.png 356w, https://az-com.su/wp-content/uploads/2023/04/az-com-300x297.png 300w" sizes="(max-width: 100px) 100vw, 100px" /></a></div>
+
+
+<h3 class="wp-block-heading">ИНФОСЕТЬ ВАШЕГО БИЗНЕСА</h3>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer wp-container-content-1"></div>
+
+
+
+<div class="wp-block-group azcom-header-contacts is-vertical is-content-justification-right is-layout-flex wp-container-2">
+<p class="has-text-align-right has-azcom-black-color has-text-color has-large-font-size">(3452) <strong>36-76-76</strong></p>
+
+
+
+<p class="has-text-align-right has-medium-font-size"><a href="mailto:info@az-com.su">info@az-com.su</a></p>
+</div>
+</div>
+</div>
+</header>
+
+<div class="entry-content wp-block-post-content is-layout-flow">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group alignwide is-layout-constrained">
+<div class="wp-duotone-unset-7 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim"></span><img decoding="async" width="2560" height="1599" class="wp-block-cover__image-background wp-image-75" alt="" src="http://az-com.local/wp-content/uploads/2023/04/wire-globe-1.jpg" data-object-fit="cover" srcset="https://az-com.su/wp-content/uploads/2023/04/wire-globe-1.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-300x187.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-1024x640.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-768x480.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-1536x959.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-2048x1279.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-azcom-black-color has-text-color">Транспортная сеть связи</h3>
+
+
+
+<ul class="hero-list">
+<li>Протяженность около <strong>20 000 км</strong></li>
+
+
+
+<li>Технологии <strong>100G / 200G / 400G</strong></li>
+
+
+
+<li>Пропускная способность до&nbsp;<strong>8&nbsp;Тбит/с</strong></li>
+</ul>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-17 wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-azcom-black-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left">Услуги</h3>
+</div>
+
+
+
+<div class="wp-block-columns azcom-services is-layout-flex wp-container-15">
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="900" height="675" src="http://preview.az-com.su/wp-content/uploads/2023/04/prov.jpg" alt="" class="wp-image-216" srcset="https://az-com.su/wp-content/uploads/2023/04/prov.jpg 900w, https://az-com.su/wp-content/uploads/2023/04/prov-300x225.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/prov-768x576.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<h6 class="wp-block-heading">Операторам<br>связи</h6>
+
+
+
+<div class="wp-block-group azcom-service-list is-layout-constrained">
+<p>IP-транзит</p>
+
+
+
+<p>Размещение оборудования в&nbsp;ЦОД</p>
+
+
+
+<p>Аренда каналов</p>
+
+
+
+<p>Длина волны в DWDM-тракте</p>
+
+
+
+<p>Аренда «темных» волокон</p>
+
+
+
+<p>URL-фильтрация</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="900" height="675" src="http://preview.az-com.su/wp-content/uploads/2023/04/corp.jpg" alt="" class="wp-image-214" srcset="https://az-com.su/wp-content/uploads/2023/04/corp.jpg 900w, https://az-com.su/wp-content/uploads/2023/04/corp-300x225.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/corp-768x576.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<h6 class="wp-block-heading">Корпоративным<br>клиентам</h6>
+
+
+
+<div class="wp-block-group azcom-service-list is-layout-constrained">
+<p>Доступ в интернет</p>
+
+
+
+<p>Публичные WiFi-сети</p>
+
+
+
+<p>Создание и&nbsp;сопровождение сайтов</p>
+
+
+
+<p>Корпоративные VPN-сети</p>
+
+
+
+<p>Облачная телефония</p>
+
+
+
+<p>Видеоаналитика</p>
+
+
+
+<p>Аренда каналов</p>
+
+
+
+<p>Аренда «темных» волокон</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="900" height="675" src="http://preview.az-com.su/wp-content/uploads/2023/04/gos.jpg" alt="" class="wp-image-215" srcset="https://az-com.su/wp-content/uploads/2023/04/gos.jpg 900w, https://az-com.su/wp-content/uploads/2023/04/gos-300x225.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/gos-768x576.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<h6 class="wp-block-heading">Государственным<br>структурам</h6>
+
+
+
+<div class="wp-block-group azcom-service-list is-layout-constrained">
+<p>Доступ в интернет</p>
+
+
+
+<p>Корпоративные VPN-сети</p>
+
+
+
+<p>Облачная телефония</p>
+
+
+
+<p>Видеоаналитика</p>
+
+
+
+<p>Размещение оборудования в&nbsp;ЦОД</p>
+
+
+
+<p>Аренда каналов</p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-20 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-azcom-black-color has-text-color">REMOTE IX (PIPEX)</h3>
+
+
+
+<p class="has-azcom-black-color has-text-color">Услуга Remote IX характеризует прямое включение к Internet Exchange – точке обмена трафиком.</p>
+
+
+
+<p class="has-azcom-black-color has-text-color">Услуга Remote IX включает в себя Аренду канала до точки обмена трафиком, плюс дает возможность обмена маршрутной информацией с её участниками по протоколу BGP.</p>
+
+
+
+<p class="has-azcom-black-color has-text-color">Поскольку стоимость данной услуги значительно ниже, чем IP-Транзит, то пользование данной услугой позволяет подключаемому Интернет-провайдеру увеличить скорость соединения в своих тарифных планах, что позитивно сказывается на росте абонентской базы, а также получить экономию средств, сэкономив на полосе канала по услуге IP- Транзит.</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-23 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-azcom-black-background-color has-background-dim-10 has-background-dim"></span><img decoding="async" loading="lazy" width="2560" height="2560" class="wp-block-cover__image-background wp-image-146" alt="" src="http://az-com.local/wp-content/uploads/2023/04/hero-dark-1.jpg" style="object-position:50% 0%" data-object-fit="cover" data-object-position="50% 0%" srcset="https://az-com.su/wp-content/uploads/2023/04/hero-dark-1.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-300x300.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1024x1024.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-150x150.jpg 150w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-768x768.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1536x1536.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-2048x2048.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-white-color has-text-color">IP-ТРАНЗИТ</h3>
+
+
+
+<p class="has-white-color has-text-color">Услуга IP-транзит служит для обеспечения глобальной связности каждого с каждым, это именно то, чего не хватает при пользовании только одной услугой Remote IX (Ссылка).</p>
+
+
+
+<p class="has-white-color has-text-color">В услугу IP-Транзит входит предоставление доступа как ко всему сегменту сети Интернет по протоколу BGP, так и его части, используя при этом BGP Community либо Default Route.</p>
+
+
+
+<p class="has-white-color has-text-color">Мы обеспечиваем круглосуточную техническую поддержку клиента, проводим оптимизацию необходимого маршрута доставки контент-трафика, а также оказываем помощь в настройке оборудования. Обеспечиваем защиту от DOS атак, благодаря собственной запатентованной программе.</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-26 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-90 has-background-dim"></span><img decoding="async" loading="lazy" width="2560" height="1600" class="wp-block-cover__image-background wp-image-110" alt="" src="http://az-com.local/wp-content/uploads/2023/04/hero-colocation.jpg" data-object-fit="cover" srcset="https://az-com.su/wp-content/uploads/2023/04/hero-colocation.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/hero-colocation-300x188.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/hero-colocation-1024x640.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/hero-colocation-768x480.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/hero-colocation-1536x960.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/hero-colocation-2048x1280.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-azcom-black-color has-text-color">COLOCATION</h3>
+
+
+
+<p>Компания предоставляет возможность аренды отдельных юнитов в стойке, телекоммуникационных шкафов в городе Тюмень, размером 19″и 21″, высотой 42U с подключением кабельной сети и силовых автоматов.</p>
+
+
+
+<p>Услуга Colocation включает в себя:<br>• Выделение места в стойке для размещения оборудования клиента;<br>• Резервирование систем электроснабжения;<br>• Сплит-система кондиционирования канального типа с резервированием N+1 для поддержания оптимальных климатических параметров в помещении;<br>• Автоматическая система оповещения пожарной охраны и газового пожаротушения;<br>• Охрана клиентского оборудования и территории;<br>• Видеонаблюдение за оборудованием с регистрацией и записью событий;<br>• Техническое обслуживание.</p>
+
+
+
+<p>Размещая оборудование у нас, Вам больше не придётся беспокоиться о работе и сохранности вашего оборудования.</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-29 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim-0 has-background-dim"></span><img decoding="async" loading="lazy" width="2560" height="2560" class="wp-block-cover__image-background wp-image-146" alt="" src="http://az-com.local/wp-content/uploads/2023/04/hero-dark-1.jpg" style="object-position:50% 25%" data-object-fit="cover" data-object-position="50% 25%" srcset="https://az-com.su/wp-content/uploads/2023/04/hero-dark-1.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-300x300.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1024x1024.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-150x150.jpg 150w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-768x768.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1536x1536.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-2048x2048.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-white-color has-text-color">АРЕНДА КАНАЛА</h3>
+
+
+
+<p class="has-white-color has-text-color">Когда заказчику требуется организовать собственную сеть между географически разнесенными точками (филиалами), либо просто иметь статический маршрут прохождения трафика, необязательно связывать необходимые точки через сеть Интернет путем построения сложных IP систем.</p>
+
+
+
+<p class="has-white-color has-text-color">Достаточно лишь воспользоваться уже готовой масштабируемой IP/MPLS сетью, имеющей множество точек подключения в разных городах России.</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-32 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim"></span><img decoding="async" width="2560" height="1599" class="wp-block-cover__image-background wp-image-75" alt="" src="http://az-com.local/wp-content/uploads/2023/04/wire-globe-1.jpg" data-object-fit="cover" srcset="https://az-com.su/wp-content/uploads/2023/04/wire-globe-1.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-300x187.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-1024x640.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-768x480.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-1536x959.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/wire-globe-1-2048x1279.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-azcom-black-color has-text-color">ДОСТУП В ИНТЕРНЕТ (ТРАФИК)</h3>
+
+
+
+<p class="has-azcom-black-color has-text-color">Если у Вашей компании рассредоточенная по большой территории сеть подразделений и партнеров и Вы хотите иметь высокую скорость передачи информации, индивидуальные хорошо защищенные каналы связи, не терять важную информацию, накопленную за долгое время и собирать из разных источников, то для Вас у нас есть предложения.</p>
+
+
+
+<p class="has-azcom-black-color has-text-color">Компания готова организовать выделенный виртуальный канал до места назначения, либо предоставить технические условия на присоединение к сети передачи данных, канал в сеть Интернет. Подключение производится по стандартам 100/1000/BASE-TX, 10GBASE- SR, 10GBASE-LR, а также 40GBASE-SR4, 40GBASE-LR4 и 100GBASE-LR4, 100GBASE- SR4, что является неоспоримым преимуществом среди других операторов связи.</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-duotone-unset-35 wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img decoding="async" loading="lazy" width="2560" height="2560" class="wp-block-cover__image-background wp-image-146" alt="" src="http://preview.az-com.su/wp-content/uploads/2023/04/hero-dark-1.jpg" style="object-position:50% 75%" data-object-fit="cover" data-object-position="50% 75%" srcset="https://az-com.su/wp-content/uploads/2023/04/hero-dark-1.jpg 2560w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-300x300.jpg 300w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1024x1024.jpg 1024w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-150x150.jpg 150w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-768x768.jpg 768w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-1536x1536.jpg 1536w, https://az-com.su/wp-content/uploads/2023/04/hero-dark-1-2048x2048.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-white-color has-text-color">Города подключения</h3>
+
+
+
+<p class="azcom-city-list has-white-color has-text-color">Асбест<br>Байкалово<br>Бакальское<br>Белоярский<br>Белый Яр<br>Верхнеказымский<br>Владимир<br>Вынгапур<br>Глазов<br>Голышманово<br>Губкинский<br>Демьянское<br>Екатеринбург<br>Заводоуковск<br>Ижевск<br>Иркутск<br>Исетское<br>Ишим<br>Казань<br>Казым<br>Камышлов<br>Каскара<br>Киров<br>Когалым<br>Красноярск<br>Курган<br>Лангепас<br>Ленинское<br>Лонгъюган<br>Любинское<br>Лыхма<br>Мангут<br>Москва<br>Муген<br>Муравленко<br>Надым<br>Называевск<br>Нефтеюганск<br>Нижневартовск<br>Нижний Новгород<br>Нижний Тагил<br>Новосибирск<br>Новый Уренгой<br>Ноябрьск<br>Нагань<br>Октябрьский<br>Омск<br>Пермь<br>Покров<br>Покровское<br>Пуровск<br>Пыть-Ях<br>Радужный<br>Салехард<br>Салым<br>Северный Варьеган<br>Сеноман<br>Сентябрьский<br>Советский<br>Созоново<br>Сорум<br>Сосновка<br>Стрежевой<br>Сургут<br>Тарко-Сале<br>Тобольск<br>Тюмень<br>Уват<br>Уксянское<br>Уренгой<br>Уфа<br>Чаши<br>Челябинск<br>Шадринск<br>Шумиха<br>Щучье<br>Ямбург</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f8f8f8"></span><div class="wp-block-cover__inner-container">
+<div class="wp-block-group is-layout-constrained">
+<div class="wp-block-group is-layout-constrained">
+<h3 class="wp-block-heading has-text-align-left has-azcom-black-color has-text-color">Присоединиться</h3>
+
+
+
+<div class="wp-block-contact-form-7-contact-form-selector">
+<div class="wpcf7 no-js" id="wpcf7-f130-p2-o1" lang="ru-RU" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f130-p2-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="130" />
+<input type="hidden" name="_wpcf7_version" value="5.7.5.1" />
+<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f130-p2-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="2" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="azcom-contact-form">
+	<p><label>Имя <span class="wpcf7-form-control-wrap" data-name="person-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="person-name" /></span></label><label>Телефон <span class="wpcf7-form-control-wrap" data-name="person-tel"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="+7 (123) 456-78-90" value="" type="tel" name="person-tel" /></span></label>
+	</p>
+	<div class="azcom-form-footer">
+		<p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Определить максимально выгодные&nbsp;условия" />
+		</p>
+	</div>
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group azcom-footer has-azcom-darkgrey-background-color has-background is-layout-constrained" style="padding-top:2rem;padding-bottom:2rem">
+<div class="wp-block-columns is-layout-flex wp-container-44">
+<div class="wp-block-column is-layout-constrained">
+<p>ООО «Азъ &#8212; Коммуникации»</p>
+
+
+
+<p>ИНН 7204196322<br>КПП 720301001<br>ОКПО 29652137</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow">
+<p>Банковские реквизиты</p>
+
+
+
+<p>БИК 046577964<br>к/с №30101810100000000964<br>р/с №40702810338290001245<br>в Филиале «Екатеринбургский»<br>АО «АЛЬФА-БАНК» г. Екатеринбург<br></p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow">
+<p>Юридический адрес</p>
+
+
+
+<p>625053, Тюменская область, <br>г. Тюмень, ул. Широтная, 279</p>
+
+
+
+<p>Телефон: (3452) 36-76-76<br>E-mail: <a href="mailto:info@az-com.su">info@az-com.su</a></p>
+</div>
+</div>
+
+
+
+<p>Лицензия на телематические услуги связи № Л030-00114-77/00152191 от 26.04.2022 (Роскомнадзор)</p>
+
+
+
+<p class="has-text-align-left">© ООО «Азъ-коммуникации» 2023 г.</p>
+</div>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94953664, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img decoding="async" src="https://mc.yandex.ru/watch/94953664" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></footer></div>
+
+		<style id="skip-link-styles">
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+	</style>
+		<script>
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		// Get the site wrapper.
+		// The skip-link will be injected in the beginning of it.
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Перейти к содержимому';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	</script>
+	<script src='https://az-com.su/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.5.1' id='swv-js'></script>
+<script id='contact-form-7-js-extra'>
+var wpcf7 = {"api":{"root":"https:\/\/az-com.su\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src='https://az-com.su/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.5.1' id='contact-form-7-js'></script>
+</body>
+</html>

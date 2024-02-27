@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ZCenter s.c. - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZCenter s.c. LG">
+    <meta name="author" content="Looking Glass">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+	<img src="assets/logo.png">
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Informacje o sieci</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Lokalizacja serwera: <b>Stargard</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 91.241.27.28</p>
+                <p></p>
+                <p>Testowe pliki do pobrania: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+              </div>
+              <p>Tw

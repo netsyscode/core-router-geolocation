@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BaCloud Looking Glass - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bacloud.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1><a id="title" href="http://lg-lt-eu.bacloud.com">BaCloud Looking Glass</a></h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="well">
+                <span class="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <p><i class="fa fa-server" aria-hidden="true">&nbsp;</i> Server Location: <b>Lithuania, EU</b></p>
+                      <p><i class="fa fa-map-marker" aria-hidden="true">&nbsp;</i> Other Location: <a href="http://lg-chi-us.bacloud.com">Chicago, USA</a></p><p><i class="fa fa-map-marker" aria-hidden="true">&nbsp;</i> Other Location: <a href="http://lg-nl-eu.bacloud.com">Netherlands, EU</a></p><p><i class="fa fa-map-marker" aria-hidden="true">&nbsp;</i> Other Location: <a href="http://lg-uk-eu.bacloud.com">United Kingdom, EU</a></p>                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <p><i class="fa fa-check-circle-o" aria-hidden="true">&nbsp;</i> Test IPv4: 185.25.50.85</p>
+                      <p><i class="fa fa-check-circle-o" aria-hidden="true">&nbsp;</i> Test IPv6: 2a04:2180:0:1::1629:27e7</p>
+                      <p><i class="fa fa-download" aria-hidden="true">&nbsp;</i> Test files: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="200MB.test" id="testfile">200MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1024MB.test" id="testfile">1024MB</a> </p>
+                      <p><i class="fa fa-link" aria-hidden="true">&nbsp;</i> Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <span class="legend">Network tests</span>
+              <form class="form-inline" id="networktest" action="#results" method="post">
+                <div class="container">
+                  <div class="row">
+                    <div class="form-group">
+                      <input id="host" name="host" type="text" class="form-control form-control-lg" placeholder="Host or IP address">
+                    </div>
+                    <div class="form-group">
+                      <select name="cmd" class="form-control form-control-lg" style="margin-left: 5px;">
+                        <option value="host">host</option>
+                        <option value="mtr">mtr</option>
+                        <option value="mtr6">mtr6</option>                        <option value="ping" selected="selected">ping</option>
+                        <option value="ping6">ping6</option>                        <option value="traceroute">traceroute</option>
+                        <option value="traceroute6">traceroute6</option>                      </select>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="hosterror" class="col-12">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="well">
+                <span class="legend">Results</span>
+                <pre id="response" style="display:none"></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="http://lg-lt-eu.bacloud.com/cn.php">ÖÐÎÄ</a>
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by <a href="https://github.com/ILLKX/LookingGlass-En">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>GABIX</title>
+	<meta name="description" content="GABIX" />
+<meta name="keywords" content="GABIX" />
+	<meta name="language" content="fr" />
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	
+	    
+    <link rel="stylesheet" type="text/css" media="all" href="/css/front/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/front/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/front/owl.carousel.min.css" />
+    <link rel='stylesheet' type='text/css' media='all' href='/css/front/revolution/settings.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='/css/front/ns-default.css' />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/front/main.css" />
+    <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5d146723f67b520012461343&product=inline-share-buttons"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142997134-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-142997134-1');
+</script>
+</head>
+<body>
+	<div class="mobile-menu-first">
+	<div id="mobile-menu" class="mobile-menu">
+    	<div class="header-mobile-menu"></div>
+    	<div class="mCustomScrollbar light" data-mcs-theme="minimal-dark">
+      		<ul>
+        		                <li class="menu-item menu-item-has-children active">
+                	<a title="Accueil" href="javascript:void(0)"><span>Accueil</span></a>
+          	    	<ul role="menu" >
+            			                        <li class="menu-item"><a title="Evènements" href="/fr/" ><span>Evènements</span></a></li>
+                                  			</ul>
+       	 		</li>
+        		                <li class="menu-item menu-item-has-children active">
+                	<a title="Se connecter a GABIX" href="javascript:void(0)"><span>Se connecter a GABIX</span></a>
+          	    	<ul role="menu" >
+            			                        <li class="menu-item"><a title="Avantages" href="/fr/17/avantages" ><span>Avantages</span></a></li>
+                                                <li class="menu-item"><a title="Venir sur GABIX" href="/fr/19/venir-sur-gabix" ><span>Venir sur GABIX</span></a></li>
+                                                <li class="menu-item"><a title="Charte d’interconnexion" href="/fr/20/charte-d-interconnexion" ><span>Charte d’interconnexion</span></a></li>
+                                                <li class="menu-item"><a title="Tarifs" href="/fr/21/tarifs" ><span>Tarifs</span></a></li>
+                                  			</ul>
+       	 		</li>
+        		                <li class="menu-item menu-item-has-children active">
+                	<a title="Technique" href="javascript:void(0)"><span>Technique</span></a>
+          	    	<ul role="menu" >
+            			                        <li class="menu-item"><a title="Statistiques" href="https://ixp.gabix.ga/statistics/ixp" target="_blank"><span>Statistiques</span></a></li>
+                                                <li class="menu-item"><a title="Infrastructures" href="/fr/24/infrastructures" ><span>Infrastructures</span></a></li>
+                                                <li class="menu-item"><a title="Service de base" href="/fr/25/service-de-base" ><span>Service de base</span></a></li>
+                                                <li class="menu-item"><a title="Spécifications technique des services" href="/fr/45/specifications-technique-des-services" ><span>Spécifications technique des services</span></a></li>
+                                                <li class="menu-item"><a title="Services supplémentaires" href="/fr/40/services-supplementaires" ><span>Services supplémentaires</span></a></li>
+                                                <li class="menu-item"><a title="Serveur de routes" href="/fr/42/serveurs-de-routes" ><span>Serveur de routes</span></a></li>
+                                                <li class="menu-item"><a title="CDNs" href="/fr/38/cdns" ><span>CDNs</span></a></li>
+                                                <li class="menu-item"><a title="Quad9" href="/fr/44/quad9" ><span>Quad9</span></a></li>
+                                                <li class="menu-item menu-item-has-children">
+                            <a title="Outils" href="javascript:void(0)"><span>Outils</span></a>
+                            <ul role="menu">
+                                		                    	<li class="menu-item">
+                                	<a title="Visioconférence" href="/fr/49/visioconference" ><span>Visioconférence</span></a>
+                               	</li>
+                                                            </ul>
+                        </li>
+                                  			</ul>
+       	 		</li>
+        		                <li class="menu-item menu-item-has-children active">
+                	<a title="A propos" href="javascript:void(0)"><span>A propos</span></a>
+          	    	<ul role="menu" >
+            			                        <li class="menu-item"><a title="Mieux comprendre un point d’échange internet" href="/fr/12/mieux-comprendre-un-point-d-echange-internet" ><span>Mieux comprendre un point d’échange internet</span></a></li>
+                                                <li class="menu-item"><a title="Présentation de GABIX" href="/fr/13/presentation-de-gabix" ><span>Présentation de GABIX</span></a></li>
+                                                <li class="menu-item"><a title="Fonctionnement" href="/fr/9/fonctionnement" ><span>Fonctionnement</span></a></li>
+                                                <li class="menu-item"><a title="Equipe GABIX" href="/fr/43/equipe-gabix" ><span>Equipe GABIX</span></a></li>
+                                                <li class="menu-item menu-item-has-children">
+                            <a title="Membres" href="javascript:void(0)"><span>Membres</span></a>
+                            <ul role="menu">
+                                		                    	<li class="menu-item">
+                                	<a title="Membres fondateurs" href="/fr/46/membres-fondateurs" ><span>Membres fondateurs</span></a>
+                               	</li>
+                                		                    	<li class="menu-item">
+                                	<a title="Membres  Participants" href="/fr/47/membres-participants" ><span>Membres  Participants</span></a>
+                               	</li>
+                                                            </ul>
+                        </li>
+                                                <li class="menu-item"><a title="Nous contacter" href="/fr/contact" ><span>Nous contacter</span></a></li>
+                                  			</ul>
+       	 		</li>
+        		                <li class="menu-item"><a title="ESPACE MEMBRES" href="https://ixp.gabix.ga/login" target="_blank"><span>ESPACE MEMBRES</span></a></li>
+        		            </ul>
+    	</div>
+  	</div>
+</div>	<div>
+		<header>
+	<div class="site-top">
+    	<div class="container">
+        	<ul class="topmenu">
+	        	<li><a href="/fr/"><i class="fa fa-home"></i> Accueil</a></li>
+                <li><a href="/fr/contact">Contact</a></li>
+           	</ul>
+            <ul class="social">
+				                <li><a target="_blank" href="https://www.facebook.com/GAB-IX-1224151501049800/" class="fa fa-facebook"></a></li>                <li><a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a></li>                <li><a target="_blank" href="https://twitter.com/ixpgabix" class="fa fa-twitter"></a></li>                <li><a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a></li> 
+                      
+								<li class="login"><a class="btn" href="https://ixp.gabix.ga" target="_blank"><i class="fa fa-user"></i> Espace membres</a></li>
+                <li class="search"><input id="searchKey" type="text" placeholder="Recherche ..." class="getSearch" data-url="/fr/recherche/0" /></li>
+            </ul>
+      	</div>
+   	</div>
+	<div class="header">
+    	<div class="container">
+			<a href="javascript:void(0)" class="mm-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <a href="/fr/" class="logo"><img src="/images/front/logo.png" alt="GABIX" /></a>
+        	<ul class="orion-menu">
+                                <li>
+                    <a href="/fr/" >Accueil</a>
+                    <ul>
+                                                <li><a href="/fr/" >Evènements</a></li>
+                                            </ul>
+                </li>
+                                <li>
+                    <a href="/fr/staticPage" >Se connecter a GABIX</a>
+                    <ul>
+                                                <li><a href="/fr/17/avantages" >Avantages</a></li>
+                                                <li><a href="/fr/19/venir-sur-gabix" >Venir sur GABIX</a></li>
+                                                <li><a href="/fr/20/charte-d-interconnexion" >Charte d’interconnexion</a></li>
+                                                <li><a href="/fr/21/tarifs" >Tarifs</a></li>
+                                            </ul>
+                </li>
+                                <li>
+                    <a href="/fr/staticPage" >Technique</a>
+                    <ul>
+                                                <li><a href="https://ixp.gabix.ga/statistics/ixp" target="_blank">Statistiques</a></li>
+                                                <li><a href="/fr/24/infrastructures" >Infrastructures</a></li>
+                                                <li><a href="/fr/25/service-de-base" >Service de base</a></li>
+                                                <li><a href="/fr/45/specifications-technique-des-services" >Spécifications technique des services</a></li>
+                                                <li><a href="/fr/40/services-supplementaires" >Services supplémentaires</a></li>
+                                                <li><a href="/fr/42/serveurs-de-routes" >Serveur de routes</a></li>
+                                                <li><a href="/fr/38/cdns" >CDNs</a></li>
+                                                <li><a href="/fr/44/quad9" >Quad9</a></li>
+                                                <li>
+                            <a href="/fr/48/outils" >Outils</a>
+                            <ul>
+                                                                <li><a href="/fr/49/visioconference" >Visioconférence</a></li>
+                                                            </ul>
+                        </li>
+                                            </ul>
+                </li>
+                                <li>
+                    <a href="/fr/staticPage" >A propos</a>
+                    <ul>
+                                                <li><a href="/fr/12/mieux-comprendre-un-point-d-echange-internet" >Mieux comprendre un point d’échange internet</a></li>
+                                                <li><a href="/fr/13/presentation-de-gabix" >Présentation de GABIX</a></li>
+                                                <li><a href="/fr/9/fonctionnement" >Fonctionnement</a></li>
+                                                <li><a href="/fr/43/equipe-gabix" >Equipe GABIX</a></li>
+                                                <li>
+                            <a href="/fr/10/membres" >Membres</a>
+                            <ul>
+                                                                <li><a href="/fr/46/membres-fondateurs" >Membres fondateurs</a></li>
+                                                                <li><a href="/fr/47/membres-participants" >Membres  Participants</a></li>
+                                                            </ul>
+                        </li>
+                                                <li><a href="/fr/contact" >Nous contacter</a></li>
+                                            </ul>
+                </li>
+                                <li><a href="https://ixp.gabix.ga/login" target="_blank">ESPACE MEMBRES</a></li>
+                            </ul>
+	  	</div>
+  	</div>
+</header>        <div class="site-inner">
+	<div class="pageHeader parallax" data-source-url="/images/front/slide.jpg">
+    	<div class="bg"></div>
+        <div class="container"><h1>Looking Glass</h1></div>
+    </div>
+    <div class="inner lookingGlass">
+		<div class="container">
+            <link href="/css/front/looking-glass.css" rel="stylesheet" />
+            <div class="alert alert-danger alert-dismissable" id="error">
+                <button type="button" class="close" aria-hidden="true">&times;</button>
+                <strong>Error!</strong>&nbsp;<span id="error-text"></span>
+            </div>
+            <div class="content" id="command_options">
+                <form role="form" action="/lg/execute.php" method="post">
+                                        <h2>Commandes</h2>
+                    <ul class="radioList">
+                        <li>
+                        	<input type="radio" id="query_1" name="query" value="ping" checked="checked" />
+                        	<label for="query_1">PING</label>
+                        </li>
+                        <li>
+                        	<input type="radio" id="query_2" name="query" value="traceroute" />
+                        	<label for="query_2">Traceroute</label>
+                        </li>
+                        <li>
+                        	<input type="radio" id="query_3" name="query" value="bgp" />
+                        	<label for="query_3">BGP Route</label>
+                        </li>
+                        <li>
+                        	<input type="radio" id="query_4" name="query" value="bgp-summary-ipv4" />
+                        	<label for="query_4">BGP Summary (IPv4)</label>
+                        </li>
+                        <li>
+                        	<input type="radio" id="query_5" name="query" value="bgp-summary-ipv6" />
+                        	<label for="query_5">BGP Summary (IPv6)</label>
+                        </li>
+                  	</ul>      
+                   	 
+                    
+                    <h2>Arguments</h2>
+                    <div>
+                        <label for="input-param">IP/HOSTNAME</label>
+                        <input type="text" name="parameter" id="input-param" autofocus />
+                    </div>
+                    <div class="confirm">
+                        <input type="hidden" name="routers" id="routers" value="router1" />
+                        <div class="col-md-12 btn-group">
+                            <button class="col-md-6 btn btn-primary" id="send" type="submit">Soumettre</button>
+                            <button class="col-md-6 btn btn-danger" id="clear" type="reset">Réinitialiser</button>
+                        </div>
+                    </div>
+                    <input type="text" class="d-none" name="dontlook" placeholder="Don't look at me!" />
+                </form>
+            </div>
+            <div class="loading">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                </div>
+            </div>
+            <div class="result">
+                <div id="output"></div>
+                <div class="reset"><button class="btn btn-danger btn-block" id="backhome">Réinitialiser</button></div>
+            </div>        
+        </div>	    
+   	</div>     
+</div>        <footer>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-3">
+            	<a class="logo" href="/fr/"><img src="/images/front/logo-footer.png" /></a>
+                <p>GAB-IX est le Point d’Echange de trafic Internet (IXP - Internet eXchange Point) du Gabon et géré par le groupement d’intérêt</p>
+                				<ul class="social">
+					<li><a target="_blank" href="https://www.facebook.com/GAB-IX-1224151501049800/" class="fa fa-facebook"></a></li>                	<li><a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a></li>                	<li><a target="_blank" href="https://twitter.com/ixpgabix" class="fa fa-twitter"></a></li>               	 	<li><a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a></li>                </ul>
+				            </div>
+            <div class="col-lg-3 infos">
+            	                <h3>Contact</h3>
+                <ul class="contact">
+                	<li>Libreville – Gabon, sis au quartier ANGONDJE BP : 13 831</li>
+                    <li>Tél.: +241 04 72 44 78</li>
+                    <li>Email: info@gabix.ga</li>
+                </ul>
+                            </div>
+            <div class="col-lg-3 links">
+            	<h3>Menu</h3>
+                <div class="row">
+                                        <ul class="col-md-6">                    <li><a href="/fr/staticPage" >GABIX</a></li>
+                                                                                <li><a href="/fr/staticPage" >Membres</a></li>
+                                                                                <li><a href="/fr/staticPage" >Services</a></li>
+                                                                                <li><a href="/fr/staticPage" >INTERCONNEXION</a></li>
+                    </ul>                                        <ul class="col-md-6">                    <li><a href="/fr/" >Evènements</a></li>
+                                                                                <li><a href="/fr/6/statistiques" >Statistiques</a></li>
+                                                                                <li><a href="/fr/partners" >Partenaires</a></li>
+                                                            </ul>				</div>
+            </div>
+            <div class="col-lg-3 newsletter">
+            	<h3>Newsletter</h3>
+				<p>Abonnez-vous à notre newsletter pour vous tenir au courant des nouvelles du groupe.</p>
+                <div class="newsletter-form"><input type="text" id="setNEmail" placeholder="Email ..." data-url="/fr/newsletterSubscriber" data-error="Adresse email non valide." /><button class="btn setNEmail"><i class="fa fa-envelope-o" aria-hidden="true"></i></button></div>
+            </div>
+        </div>
+    </div>
+	<div class="siteInfo">
+    	<div class="container">
+        	<div class="copy">2023 &copy; GAB-IX</div>
+        	<div class="tw">Développé par <a href="https://www.tanitweb.com" target="_blank">Tanitweb</a></div>
+       	</div>
+   	</div> 
+</footer>
+<a id="to-top" class="fa fa-angle-up"></a>	</div>
+   	<script defer src='/js/front/modernizr.custom.js'></script>
+	<script defer src='/js/front/jquery-1.11.2.min.js'></script> 
+	<script defer src='/js/front/owl.carousel.js'></script>
+	<script defer src='/js/front/jquery.mCustomScrollbar.concat.min.js'></script>
+	<script defer src='/js/front/jquery.mobile-menu.js'></script>
+    <script defer src='/js/front/menu.js'></script>
+	<script defer src='/js/front/revolution/revolution.min.js'></script>
+    <script defer src='/js/front/revolution/tools.min-2.1.0.2.js'></script>     
+    <script defer src='/js/front/parallax.js'></script>
+    <script defer src='/js/front/jquery.popupoverlay.js'></script>
+	<script defer src='/js/front/jquery.liMarquee.js'></script>
+    <script defer src='/js/front/notificationFx.js'></script>
+	<script defer src='/js/front/classie.js'></script>
+	<script defer src='/js/front/jquery.validate.min.js'></script>
+    <script defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB0pzXCLkIuHv6fxuAh1_5lajIXD97qnYI'></script>
+    <script defer src='/js/front/main.js'></script>
+    <script defer src='/js/front/looking-glass.js'></script>
+</body>
+</html>

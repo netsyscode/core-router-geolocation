@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Pacific Northwest Gigapop Looking Glass</title>
+        <link rel="stylesheet" type="text/css" href="/lookingglass/static/master.css?q=1642538582"/>
+        
+    </head>
+    <body style="background: #f2f2f2;">
+        <div id="content">
+            
+    <form id="lookingglass">
+    <table style="border: 0; margin: 0 auto;">
+        <tr align="center" valign="top">
+            <th>select node</th>
+            <th>then select command</th>
+            <th>specify parameter</th>
+        </tr>
+        <tr align="center" valign="top">
+            <td>
+                <select name="node" size="6 ">
+                    
+                        <option value="icar-chcg1-1">icar-chcg1-1</option>
+                    
+                        <option value="icar-ptld1-1">icar-ptld1-1</option>
+                    
+                        <option value="icar-spkn1-2">icar-spkn1-2</option>
+                    
+                        <option value="icar-sttl1-2">icar-sttl1-2</option>
+                    
+                        <option value="icar-sttl1-3">icar-sttl1-3</option>
+                    
+                        <option value="icar-sttl2-2">icar-sttl2-2</option>
+                    
+                </select>
+            </td>
+            <td rowspan="3">
+                <select name="command" size="6">
+                    
+                        <option value="ping">ping</option>
+                    
+                        <option value="traceroute">traceroute</option>
+                    
+                        <option value="show_BGP_IPv4_Unicast_prefix">show BGP IPv4 Unicast prefix</option>
+                    
+                        <option value="show_BGP_IPv6_Unicast_prefix">show BGP IPv6 Unicast prefix</option>
+                    
+                        <option value="show_BGP_IPv4_Unicast_AS_path_regex">show BGP IPv4 Unicast AS path regex</option>
+                    
+                        <option value="show_BGP_IPv6_Unicast_AS_path_regex">show BGP IPv6 Unicast AS path regex</option>
+                    
+                </select>
+            </td>
+            <td>
+                <input type="text" name="parameter" value="" />
+            </td>
+        </tr>
+        <tr align="center" valign="top">
+            <th>and routing instance</th>
+            <th>and finally .... </th>
+        </tr>
+        <tr align="center" valign="top">
+            <td>
+                <select name="instance"  size="3">
+                    
+                        <option value="com">Commodity</option>
+                    
+                        <option value="hp">High Performance</option>
+                    
+                        <option value="i2">Internet2</option>
+                    
+                </select>
+            </td>
+            <td>
+                <input type="submit" name="execute command" value="execute command" />
+            </td>
+        </tr>
+        <tr align="left" valign="top">
+            <td colspan="3">
+                <pre id="results" style="overflow-x: scroll; width: 560px;"></pre>
+            </td>
+        </tr>
+    </table>
+</form>
+
+        </div>
+
+        <!-- core js -->
+        <script src="/shared/third-party/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+
+        <!-- user javascript goes here -->
+        <script src="/lookingglass/static/master.js?q=1642538582"></script>
+        
+    <script>
+        /* get the script path from the app server */
+        lookingglass.endpoint = "/lookingglass/api/query";
+    </script>
+    <script src="/lookingglass/static/lookingglass.js?q=1642538582"></script>
+
+    </body>
+</html>

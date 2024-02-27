@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    EDIS Global Looking Glass 
+  </title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Network Tools provided by EDIS Global | Looking Glass Server and VPS Hosting in Israel, Tel Aviv and in many other locations worldwide. Check it out!">
+  <meta name="author" content="EDIS Global">
+
+  <!-- IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- Styles -->
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  <link href="assets/css/edis.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img src="assets/img/Edis_logo_dark.png" alt="Edis_logo" />
+      </div>
+      <ul>
+        <li class="menuItem"><a href="https://www.edisglobal.com/blog/looking-glass">Looking Glass</a></li>
+        <!-- <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/france-paris">VPS Hosting France</a></li> -->
+        <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >VPS Hosting Israel</a></li>
+        <li class="menuItem"><a href="https://www.edisglobal.com">Cheap VPS Hosting</a></li>
+        <li class="menuItem"><a href="https://status.edis.global/">EDIS Global Statuspage</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navMobile">
+      <div class="logoMobile">
+        <img src="assets/img/Edis_logo_dark.png" alt="Edis_logo" />
+      </div>
+      <div>
+        <ul class="navListMobile">
+          <li class="menuItem"><a href="https://www.edisglobal.com/blog/looking-glass">Looking Glass</a></li>
+          <!-- <li class="menuItem" id="serverLocationLink"><a href="https://www.edisglobal.com/vps-server/france-paris">VPS Hosting France</a></li> -->
+
+          <li class="menuItem"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >VPS Hosting Israel</a></li>
+          <li class="menuItem"><a href="https://www.edisglobal.com">Cheap VPS Hosting</a></li>
+          <li class="menuItem"><a href="https://status.edis.global/">EDIS Global Statuspage</a></li>
+        </ul>
+        <div class="hamburgerMenuButton" id="toggleNavButton">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <!-- <button id="toggleNavButton">
+          menu
+        </button> -->
+      </div>
+    </nav>
+  </header>
+
+  <section class="heroSection">
+    <img class="heroImage" src="assets/img/lookingGlassGrayBg.png" alt="Looking Glass hero image" />
+  </section>
+
+  <div class="floatingFooter">
+    <div class="remoteIpWrapper">
+      <p>Your IP Address: <b id="userIp">164.70.99.9</b></p>
+      <button class="primaryButtonOutline copyToClipboardBtn" data-clipboard-target="#userIp"
+        data-clipboard-action="copy">
+        <img src="assets/img/copy_icon_primary.png" alt="copy icon" />
+      </button>
+    </div>
+
+    <div class="orderButtonWrapper">
+      <button class="primaryButton"><a href="https://www.edisglobal.com/vps-server/israel-tel-aviv" >Buy Israel VPS</a></button>
+    </div>
+  </div>
+
+
+  <!-- Container -->
+  <div class="customContainer">
+
+    <div class="heroTextWrapper">
+
+      <h1>Looking Glass Server Israel, Tel Aviv</h1>
+
+      <p class="addReadMore showlesscontent">VPS Israel: EDIS Global's Israel VPS hosting platform is physically located in Petah Tikva (פֶּתַח תִּקְוָה), a city in the Central District of Israel, 10 km (6.6 mi) east of Tel Aviv.     </p>
+    </div>
+
+    <div class="sectionsWrapper">
+
+      <!-- Network Information -->
+
+      <div class="locationDropdown">
+        <ul id="locationsList">
+        <li><a href="https://au.edis.at">Australia - Sydney</a></li><li><a href="https://at.edis.at">Austria - Vienna</a></li><li><a href="https://atvie.edis.at">Austria - Vienna Interxion</a></li><li><a href="https://atgrz.edis.at">Austria - Graz</a></li><li><a href="https://be.edis.at">Belgium - Brussels</a></li><li><a href="https://bg.edis.at">Bulgaria - Sofia</a></li><li><a href="https://ca.edis.at">Canada - Montréal</a></li><li><a href="https://cl.edis.at">Chile - Viña del Mar</a></li><li><a href="https://co.edis.at">Colombia - Bogotá</a></li><li><a href="https://hr.edis.at">Croatia - Zagreb</a></li><li><a href="https://cz.edis.at">Czech Republic - Prague</a></li><li><a href="https://dk.edis.at">Denmark - Copenhagen</a></li><li><a href="https://fr.edis.at">France - Paris</a></li><li><a href="https://de.edis.at">Germany - Frankfurt</a></li><li><a href="https://gr.edis.at">Greece - Thessaloniki</a></li><li><a href="https://hk.edis.at">Hong Kong - Kwai Chung 葵涌</a></li><li><a href="https://hu.edis.at">Hungary - Budapest</a></li><li><a href="https://is.edis.at">Iceland - Hafnarfjörður</a></li><li><a href="https://im.edis.at">Isle of Man - Ballasalla</a></li><li><a href="https://il.edis.at">Israel - Tel Aviv</a></li><li><a href="https://itpa.edis.at">Italy - Palermo</a></li><li><a href="https://it.edis.at">Italy - Milan</a></li><li><a href="https://jp.edis.at">Japan - Tokyo</a></li><li><a href="https://lv.edis.at">Latvia - Riga</a></li><li><a href="https://lt.edis.at">Lithuania - Vilnius</a></li><li><a href="https://md.edis.at">Moldova - Chișinău</a></li><li><a href="https://nl.edis.at">Netherlands - Amsterdam</a></li><li><a href="https://mk.edis.at">North Macedonia - Skopje</a></li><li><a href="https://no.edis.at">Norway - Oslo</a></li><li><a href="https://pl.edis.at">Poland - Warsaw</a></li><li><a href="https://ro.edis.at">Romania - Bucharest</a></li><li><a href="https://rusp.edis.at">Russia - St. Petersburg (СПб)</a></li><li><a href="https://ru.edis.at">Russia - Moscow (Москва)</a></li><li><a href="https://rs.edis.at">Serbia (Srbija) - Belgrade</a></li><li><a href="https://sg.edis.at">Singapore - Singapore</a></li><li><a href="https://si.edis.at">Slovenia - Ljubljana</a></li><li><a href="https://es.edis.at">Spain - Seville</a></li><li><a href="https://se.edis.at">Sweden - Stockholm</a></li><li><a href="https://ch.edis.at">Switzerland - Zürich</a></li><li><a href="https://ae.edis.at">UAE - Dubai دبي</a></li><li><a href="https://uklnd.edis.at">United Kingdom - London, Docklands</a></li><li><a href="https://uk.edis.at">United Kingdom - London, City</a></li><li><a href="https://us.edis.at">USA - New York</a></li><li><a href="https://usmia.edis.at">USA - Miami</a></li>
+        </ul>
+      </div>
+
+      <section class="sectionCard ">
+        <div>
+          <div class="cardHeader">
+            <div>
+              <h2 class="cardTitle">Server Israel, Tel Aviv</h2>
+              <p class="locationAddress">Data Center: Tel Aviv, Shacham Data Center Bezeq International</p>
+            </div>
+            <div>
+              <!-- <select class="form-select" id="locationSelect" aria-label="Default select example">
+                <option selected hidden>Select another location</option>
+
+              </select> -->
+              <!-- <p class="text-small text-muted mt-1">Select another location</p> -->
+              <div id="dropdownButton">Looking Glass Server</div>
+            </div>
+          </div>
+
+          <div class="cardBody">
+
+            <table>
+              <tr>
+                <td>
+                  <p id="ipv4">193.182.144.14</p>
+                </td>
+                <td>
+                  <button class="primaryButtonOutline copyToClipboardBtn" data-clipboard-target="#ipv4"
+                    data-clipboard-action="copy">
+                    <img src="assets/img/copy_icon_primary.png" alt="copy icon" />
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p id="ipv6">2a03:f80:972:2767::1</p>
+                </td>
+                <td>
+                  <button class="primaryButtonOutline copyToClipboardBtn" data-clipboard-target="#ipv6"
+                    data-clipboard-action="copy">
+                    <img src="assets/img/copy_icon_primary.png" alt="copy icon" />
+                  </button>
+                </td>
+              </tr>
+            </table>
+
+            <div>
+              <p>
+                <b>Speed Test Files</b>
+              </p>
+              <div class="speedTestButtons">
+                <button class="primaryButtonOutline"><a href="/10MB.test" id="testfile">10MB</a></button> <button class="primaryButtonOutline"><a href="/100MB.test" id="testfile">100MB</a></button> <button class="primaryButtonOutline"><a href="/1000MB.test" id="testfile">1000MB</a></button>               </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+
+      <section id="tests" class="sectionCard ">
+        <form class="form-inline" id="networktest" action="#results" method="post">
+          <fieldset>
+
+            <div class="cardHeader">
+              <h2 class="cardTitle">
+                Network Tests
+              </h2>
+            </div>
+
+            <div class="fieldsWrapper cardBody">
+              <div id="hosterror" class="control-group">
+                <div class="controls">
+                  <input id="host" name="host" type="text" class="input-large" placeholder="Hostname, IPv4 or IPv6 address">
+                </div>
+              </div>
+              <select name="cmd" class="input-medium">
+                <option value="host">host</option>
+                <option value="mtr">mtr</option>
+                <option value="mtr6">mtr6</option>                <option value="ping" selected="selected">ping</option>
+                <option value="ping6">ping6</option>                <option value="traceroute">traceroute</option>
+                <option value="traceroute6">traceroute6</option>              </select>
+              <button type="submit" id="submit" name="submit" class="primaryButton">Run
+                Test</button>
+
+            </div>
+
+          </fieldset>
+        </form>
+      </section>
+
+
+      <!-- Results -->
+      <section class="sectionCard" id="results" style="display:none">
+
+        <div class="cardHeader">
+          <h2 class="cardTitle">Results</h2>
+        </div>
+        <div class="cardBody">
+          <pre id="response" style="display:none"></pre>
+        </div>
+
+      </section>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footerLogo">
+        <img src="assets/img/Edis_logo_oneColor_dark.png" alt="Edis_logo" />
+      </div>
+    </footer>
+
+  </div>
+  <!-- /container -->
+
+  <!-- Javascript -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script src="assets/js/LookingGlass.min.js"></script>
+  <script src="assets/js/XMLHttpRequest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+
+  <script type="text/javascript">
+
+    // Dropdown element
+
+    const dropdownButton = document.getElementById('dropdownButton');
+    const dropdownWrapper = document.querySelector('.locationDropdown');
+
+    dropdownButton.addEventListener('click', toggleDropdown);
+
+    function toggleDropdown() {
+      dropdownWrapper.classList.toggle('locationDropdownVisible')
+    }
+
+    // Copy text button
+
+    new ClipboardJS('.copyToClipboardBtn');
+
+    // Mobile menu
+
+    const toggleBtn = document.getElementById('toggleNavButton');
+    const menuItems = document.querySelector('.navListMobile');
+
+    toggleBtn.addEventListener('click', toggleNav);
+
+    function toggleNav() {
+      menuItems.classList.toggle('showNavListMobile');
+      toggleBtn.classList.toggle('pressed');
+    }
+
+
+    //Read more link for the header text
+
+    function AddReadMore() {
+      var carLmt = 120;
+      var readMore = "<span class='readMore'  title='Click to Show More'> ... Read More</span>";
+      var readLess = "<span class='readLess' title='Click to Show Less'> Read Less</span>";
+
+      $(".addReadMore").each(function() {
+        var allstr = $(this).text();
+
+        if (allstr.length > carLmt && window.innerWidth <= 550) {
+          var firstSet = allstr.substring(0, carLmt);
+          var secdHalf = allstr.substring(carLmt, allstr.length);
+          var strtoadd = firstSet + "<span class='SecSec'>" + secdHalf + "</span>" + readMore + readLess;
+
+          $(this).html(strtoadd);
+        }
+      });
+
+      $(".readMore, .readLess").on("click", function() {
+        $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
+      });
+    }
+
+    $(window).on('resize', function() {
+      $(".readMore, .readLess").off("click").remove();
+      $('.addReadMore').each(function() {
+        $(this).html($(this).text());
+      });
+
+      AddReadMore();
+    });
+
+    AddReadMore();
+
+
+
+  </script>
+</body>
+
+</html>

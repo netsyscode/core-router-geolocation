@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+*****************************
+**   Looking Glass by Telephone **
+**     Refined by AMDbuilder      **
+*****************************
+-->
+	<head>
+		<title>Riven Cloud - Looking Glass</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+		  <script src="https://cdnjs.loli.net/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://cdnjs.loli.net/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.loli.net/css?family=Nunito+Sans" rel="stylesheet">
+		<style type="text/css">body{font-family:'Nunito Sans', sans-serif;}</style>
+	</head>
+	<body>
+		<div class="container">
+		  
+			<div class="row" id="header">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1><a id="title" href="https://lg-de1.sa.net"><img src="https://portal.sa.net/assets/img/logo.png" alt="Riven Cloud" /></a></h1>
+					</div>
+				</div>
+			</div>
+		  
+		  <!-- Network Information -->
+		  
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network information</div>
+						<div class="panel-body">
+							<p>Server Location: <strong>Frankfurt, Germany</strong></p>
+							<p>IPv4 Address: 147.78.179.179</p>
+							<p>IPv6 Address: 2a09:0:1:1::69db:fda</p>							<p>Your IP Address: <strong><a href="#tests" id="userip">166.111.68.233</a></strong></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network Test Files</div>
+						<div class="panel-body">
+							<h4>IPv4 Download Test</h4>
+							<a href="http://147.78.179.179/100MB.test" class="btn btn-xs btn-default">100MB</a> <a href="http://147.78.179.179/200MB.test" class="btn btn-xs btn-default">200MB</a> <a href="http://147.78.179.179/500MB.test" class="btn btn-xs btn-default">500MB</a> 							
+							<h4>IPv6 Download Test</h4><a href="http://[2a09:0:1:1::69db:fda]/100MB.test" class="btn btn-xs btn-default">100MB</a> <a href="http://[2a09:0:1:1::69db:fda]/200MB.test" class="btn btn-xs btn-default">200MB</a> <a href="http://[2a09:0:1:1::69db:fda]/500MB.test" class="btn btn-xs btn-default">500MB</a> 							
+						</div>
+					</div>
+				</div>
+			</div>
+		  
+		  <!-- Network Tests -->
+		  
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network tests</div>
+						<div class="panel-body">
+							<form class="form-inline" id="networktest" action="#results" method="post">
+							
+								<div id="hosterror" class="form-group">
+									<div class="controls">
+										<input id="host" name="host" type="text" class="form-control" placeholder="Host or IP address">
+									</div>
+								</div>
+								<div class="form-group">
+									<select name="cmd" class="form-control">
+										<option value="host">host</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>									</select>
+								</div>
+						
+								<button type="submit" id="submit" name="submit" class="btn btn-success">Run Test</button>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- Results -->
+			<div class="row" id="results" style="display:none">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Results</div>
+						<div class="panel-body">
+						
+							<pre id="response" style="display:none"></pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		  
+				<footer class="footer">
+					<p class="pull-right">
+						<a href="https://sa.net/">Riven Cloud - SSD VPS Hosting</a>
+					</p>
+				</footer>
+
+		</div>
+
+		<script src="assets/js/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/LookingGlass.min.js"></script>
+		<script src="assets/js/XMLHttpRequest.min.js"></script>
+	</body>
+</html>

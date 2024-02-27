@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119555136-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-119555136-1');
+</script>
+<link rel="stylesheet" type="text/css" href="/st.css" />
+<TITLE>Omantel Looking Glass</TITLE>
+<LINK REL="shortcut icon" type="image/x-icon" HREF="/favicon.svg">
+<meta name=keywords content="Omantel Looking glass, BGP, Looking Glass"/>
+<meta http-equiv="Cache-control" content="no-store">
+<meta http-equiv="Pragma" content="no-cache">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#f99f26">
+<TABLE BORDER="0"><TR><TD><A HREF="http://www.omantel.om"><IMG SRC="/OMANTEL_LOGO.svg" BORDER="0" ALT="Omantel"></A></TD></TR></TABLE>
+<CENTER>
+<div>
+<div class="container">
+<h1 style="text-align: center; color: #fba127; font-family: "FS Alvar"; line-height: 2; margin: 0; font-size: 52px; text-transform: uppercase; font-weight: normal"></h1>
+<A HREF="https://lookingglass.omantel.om"><IMG SRC="/title-lg.png"></A>
+</div>
+</div>
+</CENTER>
+<P>
+<P>
+<FORM METHOD=POST ACTION="/lg/">
+<CENTER>
+<div class="splash">
+<div class="container">
+<form action="#results" onsubmit="onSubmitCheck(); return false;" name="queryform">
+<TABLE class="querybox"><TR><TD>
+<TABLE class="querybox">
+<TR>
+<TH style="width: 20px; font-size: 14px; font-family:Tahoma, Geneva, sans-serif; font-style: normal; text-align: left"><FONT COLOR="#FFFFFF"></FONT></TH>
+<TH style="width: 300px; font-size: 14px; font-family: Tahoma, Geneva, sans-serif; font-weight: normal; font-style: normal; text-align: left"><FONT COLOR="#FFFFFF">&nbsp; &nbsp; &nbsp;&nbsp; IP Address or Prefix</FONT></th>
+<TH style="width: 250px; font-size: 14px; font-family:Tahoma, Geneva, sans-serif; font-weight: normal; font-style: normal; text-align: left"><FONT COLOR="#FFFFFF">Location</FONT></TH>
+<TH style="width: 120px; font-size: 14px; font-family:Tahoma, Geneva, sans-serif; font-weight: normal; font-style: normal; text-align: left"><FONT COLOR="#FFFFFF">Protocol</FONT></TH>
+</TR>
+
+<TR>
+
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp CHECKED></TD><TD style="font-size: 14px; font-family:Tahoma, Geneva, sans-serif">&nbsp;<FONT COLOR="#FFFFFF">bgp</FONT></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD style="font-size: 14px; font-family:Tahoma, Geneva, sans-serif">&nbsp;<FONT COLOR="#FFFFFF">ping</FONT></TD></TR>
+<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace></TD><TD style="font-size: 14px; font-family:Tahoma, Geneva, sans-serif">&nbsp;<FONT COLOR="#FFFFFF">trace</FONT></TD></TR>
+
+
+</TABLE>
+</TD>
+
+<TD ALIGN=CENTER><input NAME=addr style="height: 36px; width: 240px; border-radius: 0.3em; border: 1px solid #eeeeee;"></TD>
+<TD ALIGN=LEFT><SELECT NAME=router style="height: 36px; width: 220px; border-radius: 0.3em; border: 1px solid #eeeeee;">
+
+<OPTION VALUE="Oman - BlueCity"> Oman - BlueCity
+<OPTION VALUE="Oman - Seeb" SELECTED> Oman - Seeb
+<OPTION VALUE="Oman - TCC"> Oman - TCC
+<OPTION VALUE="Oman - Watayyah"> Oman - Watayyah
+<OPTION VALUE="Oman - Equinix MC1"> Oman - Equinix MC1
+<OPTION VALUE="Asia - Dubai"> Asia - Dubai
+<OPTION VALUE="Asia - Singapore"> Asia - Singapore
+<OPTION VALUE="Europe - Amsterdam"> Europe - Amsterdam
+<OPTION VALUE="Europe - Frankfurt"> Europe - Frankfurt
+<OPTION VALUE="Europe - London"> Europe - London
+<OPTION VALUE="Europe - Marseille"> Europe - Marseille
+</SELECT><FONT SIZE=2></FONT></TD>
+
+<TD ALIGN=LEFT><SELECT NAME=protocol style="height: 36px; width: 90px; border-radius: 0.3em; border: 1px solid #eeeeee;">
+<OPTION VALUE=IPv4> IPv4 
+<OPTION VALUE=IPv6> IPv6 
+</SELECT></TD>
+
+<TD ALIGN=LEFT>
+<INPUT id="form_submit" TYPE=submit VALUE=Submit class="button" style="height: 36px; width: 90px; border-radius: 0.3em; border: 1px solid #eeeeee;">
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FORM>
+</div>
+</div>
+</CENTER>
+<P>
+<P>
+<BR>
+<BR>
+<CENTER><div class="container"><div class="infobox"><TABLE><TR><TD style="background-color: #f3f3f3; padding: 25px; font-size: 12px; font-family:Tahoma, Geneva, sans-serif;"><P><STRONG><FONT COLOR="#000000">Disclaimer:</FONT></STRONG></P> <P><FONT COLOR="#000000">- Due to the low-priority of  queries, this Looking Glass is not appropriate for measuring Service Level Agreements and  should only be used to verify reachability and routing information.<P> <P>- All commands will be logged for possible later analysis and statistics..</P><P>- All queries must be entered manually; no automated scripts are allowed.</P><P>- The results may differ from test to test due to inherent traffic patterns.</P></FONT></TD></TR></TABLE></div></div></CENTER>
+
+<P>
+<CENTER>
+<P>
+</CENTER>
+</BODY>
+</HTML>

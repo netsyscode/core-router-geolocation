@@ -1,0 +1,13 @@
+<Html>
+<Head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="bg">
+<Title>Looking Glass - SpectrumNet Rousse -  Looking Glass</Title>
+</Head>
+<Body>
+<Center>
+<Img Src="http://office.rousse.spnet.net/logos/freebsd.gif" ALT="Looking Glass - SpectrumNet Rousse">
+<P>
+<B>
+<FORM ACTION="http://web.superhosting.bg/secureinfo" METHOD=POST>
+<INPUT TYPE="hidden" NAME="action" VALUE="lookup">

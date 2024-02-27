@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>HostUS Looking Glass - Los Angeles 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los Angeles 03 network looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <a class="brand" href="/">HostUS Looking Glass</a>
+                <ul class="nav">
+                  <li><a href="http://hostus.us">Main Website</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">North America <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://atl-lg.hostus.us">Atlanta, GA (ATL01)</a></li>
+                      <li><a href="http://clt-lg.hostus.us">Charlotte, NC (CLT01)</a></li>
+                      <li><a href="http://dal-lg.hostus.us">Dallas, TX (DAL01)</a></li>
+                      <li><a href="http://dal02-lg.hostus.us">Dallas, TX (DAL02)</a></li>
+                      <li><a href="http://la-lg.hostus.us">Los Angeles, CA (LAX01)</a></li>
+                      <li><a href="http://la02-lg.hostus.us">Los Angeles, CA (LAX02)</a></li>
+                      <li><a href="http://la03-lg.hostus.us">Los Angeles, CA (LAX03)</a></li>
+                      <li><a href="http://wdc-lg.hostus.us">Washington, D.C. (WDC01)</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Asia Pacific <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://hk-lg.hostus.us">Hong Kong, China (HKG01)</a></li>
+                      <li><a href="http://syd-lg.hostus.us">Sydney, Australia (SYD01)</a></li>
+                      <li><a href="http://sgp-lg.hostus.us">Singapore (SGP01)</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Europe <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://lon-lg.hostus.us">London, UK (LON01)</a></li>
+                      <li><a href="http://ams-lg.hostus.us">Amsterdam, Netherlands (AMS01)</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">LAX03 | Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Los Angeles, USA</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 202.5.16.2</p>
+                <p>Test IPv6: 2602:ffc5:60::1:f0ad</p>
+                <p>Test files: <a href="10MB.tf" id="testfile">10MB</a> <a href="100MB.tf" id="testfile">100MB</a> </p>
+                <p>BGP Information: <a href="http://bgp.he.net/AS7489" rel="nofollow">AS7489</a></p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+  </body>
+</html>

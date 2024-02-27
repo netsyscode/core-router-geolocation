@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Home</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/base.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+	<body>
+    <div id="container">
+      <header>
+        <nav>
+          <ul id="nav">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="#" onclick="window.open('p.php','pop','scrollbars=yes,width=500,height=600')">Privacy</a></li>
+            <li><a href="unsubscribe.php">Unsubscribe</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </nav>
+        <hgroup class="intro">
+          <h1 class="title"><a href="index.html">173.82.12.3</a></h1>
+        </hgroup>       
+        <br />
+        <br />
+      </header>
+      <div class="wrapper">
+        
+        <div class="clear"></div>
+        <div class="border"></div>
+        <div class="home-widget">
+          <h3><br>Welcome to 173.82.12.3 !</h3>
+          <p style="font-family:Serif;font-size:20px;">
+        You've found <b>173.82.12.3 </b>dedicated to finding the best money-saving offers on the Web and delivering them directly to you, the consumer.<br><br>
+		Business profiles contain comprehensive information on contacts, products, services, trade experience and technology.<br><br>
+		We strive to provide the highest quality and lowest prices available to our customers, resulting in one of the best satisfaction ratings in the industry.<br><br>
+		If you're not already receiving our money-saving offers and web-only specials,<a href="contact.php"><b style="color:#444444">contact us today</b></a>. 
+		</p> </div>     
+        <br />        
+      </div>
+      <footer>
+        <div class="border"></div>       
+        <div class="border2"></div>
+        <br />
+        <span class="copyright"><span class="left"><br />
+        <p> 

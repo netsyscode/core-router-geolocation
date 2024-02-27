@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Mark-ITT Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/mark.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+		  	<a href="http://mark.ru/"><img src="mark-logo.png" alt="Марк - Интернет для всех" title="МАРК - Интернет для всех" class="bs-icon"></a>
+            <h1><a id="title" href="https://support.mark.ru/lg/">Mark-ITT (AS3226) Looking Glass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Izhevsk, Russia</b></p>
+              <div style="margin-left: 10px;">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+	<!-- Other ISP's Looking Glasses -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Other ISP's Looking Glasses</span><!-- IE/Safari dislike <legend> out of context -->
+              <div style="margin-left: 10px;">
+              </div>
+              <p><a href="http://lg.megafon.ru/lg/lg.cgi">Megafon (AS31133) Looking Glass</a></p>
+              <p><a href="http://lg.ttk.ru/">TTK (AS20485) Looking Glass</a></p>
+              <p><a href="http://lg.gldn.net//">Beeline (AS3216) Looking Glass</a></p>
+              <p><a href="http://lg.telia.net/">TeliaSonera (AS1299) Looking Glass</a></p>
+              <p><a href="http://lg.retn.net/">ReTN (AS9002) Looking Glass</a></p>
+              <p><a href="https://lg.ihome.ru/">iHome (AS25478) Looking Glass</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Powered by LookingGlass</p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

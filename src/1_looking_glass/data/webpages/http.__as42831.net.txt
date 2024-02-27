@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AS42831 Information</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Network Information</h1>
+  <!-- Section 1 -->
+  <h2>Testing Information</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Server Location:</h4>
+      <p>Coventry</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Test IPv4:</h4>
+      <p>94.229.65.150</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Test IPv6:</h4>
+      <p>2a01:a500:3::2a01</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Test Files:</h4>
+      <p><a href="https://as42831.net/10MB.test">10MB</a>, <a href="https://as42831.net/1GB.test">1GB</a>, <a href="https://as42831.net/10GB.test">10GB</a></p>
+    </div>
+    <div class="col-md-8">
+      <h4>Looking Glass:</h4>
+      <p><a href="https://lg.as42831.net">https://lg.as42831.net</a></p>
+    </div>
+  </div>
+  
+  <!-- Section 2 -->
+  <h2>iPerf3 Test Servers</h2>
+  <p>London - iperf3: iperf.as42831.net -p 5300-5400</p>
+  
+  <!-- Section 3 -->
+  <h3>BGP Communities</h3>
+  <h4>Upstream Transit Providers</h4>
+<p>42831:3257 - No Advertise to GTT - AS3257</br>
+42831:1002 - Prepend 3x GTT - AS3257</p>
+
+<p>42831:174 - No Advertise to Cogent - AS174</br>
+42831:1004 - Prepend 3x Cogent - AS174</p>
+
+<p>42831:3356 - No Advertise to Lumen - AS3356</br>
+42831:1006 - Prepend 3x Lumen - AS3356</p>
+
+<h4>Direct Peering Sessions</h4>
+<p>42831:2001 - No Advertise to OVH - AS16276</br>
+42831:2002 - Prepend 3x OVH - AS16276</p>
+
+<p>42831:2005 - No Advertise to Google - AS15169</br>
+42831:2006 - Prepend 3x Google - AS15169</p>
+
+<p>42831:2007 - No Advertise to Sky - AS5607</br>
+42831:2008 - Prepend 3x Sky - AS5607</p>
+
+<p>42831:2009 - No Advertise to BT - AS2856</br>
+42831:2010 - Prepend 3x BT - AS2856</p>
+
+<p>42831:2011 - No Advertise to Virgin - AS5089</br>
+42831:2012 - Prepend 3x Virgin - AS5089</p>
+
+<p>42831:2015 - No Advertise to TalkTalk - AS13285</br>
+42831:2016 - Prepend 3x TalkTalk - AS13285</p>
+
+<p>42831:2017 - No Advertise to Datacamp - AS60068</br>
+42831:2018 - Prepend 3x Datacamp - AS60068</p>
+
+<h4>Internet Exchange Points (IXP)</h4>
+<p>42831:3001 - Don't advertise prefix to LINX</br>
+42831:3002 - Prepend 3x to LINX </p>
+
+<p>42831:3005 - Don't advertise prefix to LONAP</br>
+42831:3006 - Prepend 3x to LONAP</p>  
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<Html>
+<Head>
+<Title>ENTEL-CHILE -  Looking Glass</Title>
+</Head>
+<!BODY BACKGROUND="/icons/fondo.gif" TEXT="#f2f2f2" LINK="#aaaaaa"!>
+<BODY bgcolor="#e9e9e9">
+<Center>
+<H2> Looking Glass</H2>
+</Center>
+<P>
+<Hr size=2 width=85%>
+<P>
+
+<Form Method="POST" Action="lg.pl">
+
+<Dl>
+<Dt> <B>Query:</b>
+   <DD>
+   <Input type="radio" name="query" value="bgp" Checked> bgp
+<!--
+   <DD>
+   <Input type="radio" name="query" value="summary"> bgp summary
+-->
+   <DD>
+   <Input type="radio" name="query" value="dampened-paths"> dampened-paths 
+   <DD>
+   <Input type="radio" name="query" value="flap-statistics"> flap-statistics 
+   <DD>
+   <Input type="radio" name="query" value="ping"> ping
+   <DD>
+   <Input type="radio" name="query" value="trace"> trace 
+   <DD>
+   <DD>
+<P>
+<DT>
+<B>Address:</B> <Input Name="addr" size=20>
+<B>Router:</B><FONT COLOR="#000000"><Select Name = router>
+<Option Value = PIT01-CNT Selected> PIT01-CNT
+</Select>
+</DL>
+
+<P>
+
+<Input Type="submit" Value="Submit"> | 
+<Input Type="reset" Value="Reset"> 
+</Form></FONT>
+
+</Body>
+<P>
+<HR Size=2 Width=85%>
+<P>
+</Body>
+<Tail>
+<Center>
+<I>
+  Si tienen algun tipo de duda o consulta, por favor enviarlas a
+ <A Href="mailto:ipmpls@entel.cl?subject=Requerimiento PIT-IP (pitentel)">ipmpls@entel.cl</a>.
+</I>
+<P>
+</Center>
+</Tail>
+</Html>

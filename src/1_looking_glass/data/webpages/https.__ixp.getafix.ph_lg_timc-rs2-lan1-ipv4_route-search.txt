@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+    <base href="https://ixp.getafix.ph/index.php">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <meta charset="utf-8">
+
+    <title>GetaFIX</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="csrf-token" content="">
+
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/select2/dist/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/ixp-manager.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/draganddrop.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/font-awesome.min.css" />
+
+
+        
+
+    
+        <style>
+            html, body {
+              background-color: #eee;
+            }
+
+            body {
+                padding-top: 40px;
+            }
+        </style>
+    
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://ixp.getafix.ph">
+                GetaFIX            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li>
+                    <a href="https://ixp.getafix.ph">Home</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Member Information <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="https://ixp.getafix.ph/customer/details">Member Details</a>
+                        </li>
+                        <li>
+                            <a href="https://ixp.getafix.ph/customer/associates">Associate Members</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Peering<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                                                    <li><a href="https://ixp.getafix.ph/lg">Looking Glass</a></li>
+                                            </ul>
+                </li>
+
+                <li class="dropdown 1">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Statistics<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                                                    <li>
+                                <a href="https://ixp.getafix.ph/statistics/ixp">Overall Peering Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/infrastructure">Infrastructure Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/vlan">VLAN / Per-Protocol Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/trunk">Inter-Switch / PoP Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/switch">Switch Aggregate Graphs</a>
+                            </li>
+                        
+
+                        
+
+                                            </ul>
+                </li>
+
+                <li class="">
+                    <a href="https://ixp.getafix.ph/public-content/support">Support</a>
+                </li>
+                <li>
+                    <a href="http://www.ixpmanager.org/" target="_blank">About</a>
+                </li>
+                <li class="">
+                    <a href="https://ixp.getafix.ph/auth/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+        <div class="container">
+
+    
+
+            <div class="page-content">
+            <div class="page-header">
+                                            <div class="pull-right">
+    
+        <div class="btn-group btn-group-xs" role="group">
+            <div class="btn-group btn-group-xs" role="group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    TIMC-RS2-LAN1-IPV4                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                                            <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">
+                            AS112 Services                        </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4">
+                                    RCBC-AS112-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv6">
+                                    RCBC-AS112-LAN1-IPV6                                </a>
+                            </li>
+                                                                    <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">
+                            Route Server                        </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-rs1-lan1-ipv4">
+                                    RCBC-RS1-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-rs1-lan1-ipv6">
+                                    RCBC-RS1-LAN1-IPV6                                </a>
+                            </li>
+                                                    <li class="active">
+                                <a href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv4">
+                                    TIMC-RS2-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv6">
+                                    TIMC-RS2-LAN1-IPV6                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                            <a type="button" class="btn btn-default" href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv4/route-search">
+                    <span class="glyphicon glyphicon-search"></span>
+                </a>
+                        <a type="button" class="btn btn-default" href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv4">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+
+            </div>
+                    <h1>
+                                            Looking Glass
+    <small>Route Search</small>
+                </h1>
+                        <em>This is the public looking glass. Uncached results and additional routers available when logged in.</em>
+                </div>
+    
+
+
+    <div class="well well-sm">
+        Bird        2.0.7        &nbsp;&nbsp;|&nbsp;&nbsp;
+        API: 1.2.2        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Router ID: 103.104.19.2            &nbsp;&nbsp;|&nbsp;&nbsp;
+                Uptime: 9 days.
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Last Reconfigure: 2023-12-18 15:00:22                    <span class="label label-info pull-right">
+                Cached data. Maximum age: 5 mins.
+            </span>
+        
+        <div class="pull-right" style="font-family: monospace;">
+            JSON:
+            [<a href="https://ixp.getafix.ph/api/v4/lg/timc-rs2-lan1-ipv4/status">status</a>]
+            [<a href="https://ixp.getafix.ph/api/v4/lg/timc-rs2-lan1-ipv4/bgp-summary">bgp</a>]
+        </div>
+    </div>
+
+
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="net" class="col-sm-2 control-label">IP Address/Prefix</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="net" placeholder="192.0.2.0/24  |  2001:db8:7:2::/64">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <label class="radio-inline" class="control-label">
+                <input type="radio" name="sourceSelector" id="sourceSelector-table"    value="table" checked="checked"> Lookup table
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <label class="radio-inline" class="col-sm-10 col-sm-offset-2 control-label">
+                <input type="radio" name="sourceSelector" id="sourceSelector-protocol" value="protocol"> Lookup protocol
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="source" class="col-sm-2 control-label">Source</label>
+        <div class="col-sm-10">
+            <select class="form-control" id="source">
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <button id="submit" type="button" class="btn btn-default">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+<div class="modal fade" id="route-modal" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    </div>
+
+
+
+<footer>
+
+    <p>
+        IXP Manager V4.8.999        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Copyright &copy; 2010 - 2023 <a href="http://www.inex.ie/">Internet Neutral Exchange Association Company Limited By Guarantee</a>.
+        &nbsp;|&nbsp;
+        <a href="http://www.ixpmanager.org/">http://www.ixpmanager.org/</a>
+        &nbsp;|&nbsp;
+        <a href="https://ixp.getafix.ph/static/support">Contact Us</a>
+    </p>
+
+    <p>
+        Licensed under GPL v2.0.
+        &nbsp;|&nbsp;
+        This Program is provided AS IS, without warranty.
+        &nbsp;|&nbsp;
+        Generated in
+            0.159        seconds
+    </p>
+
+</footer>
+
+</div> <!-- </div class="container"> -->
+
+    <script> const RIPE_ASN_URL = "https://ixp.getafix.ph/api/v4/aut-num"; </script>
+    <script> const MARKDOWN_URL = "https://ixp.getafix.ph/api/v4/utils/markdown"; </script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/vue/dist/vue.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/select2/dist/js/select2.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/js/900-oss-framework.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/js/ixp-manager.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/bootbox.js/bootbox.js"></script>
+
+    <script>
+
+        $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+            </script>
+
+
+        
+<script type="text/javascript">
+
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+    "ip-address-pre": function ( a ) {
+        var i, item;
+        var m = a.split("."),
+            n = a.split(":"),
+            x = "",
+            xa = "";
+        if (m.length == 4) {
+            // IPV4
+            for(i = 0; i < m.length; i++) {
+                item = m[i];
+                if(item.length == 1) {
+                    x += "00" + item;
+                }
+                else if(item.length == 2) {
+                    x += "0" + item;
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        else if (n.length > 0) {
+            // IPV6
+            var count = 0;
+            for(i = 0; i < n.length; i++) {
+                item = n[i];
+                if (i > 0) {
+                    xa += ":";
+                }
+                if(item.length === 0) {
+                    count += 0;
+                }
+                else if(item.length == 1) {
+                    xa += "000" + item;
+                    count += 4;
+                }
+                else if(item.length == 2) {
+                    xa += "00" + item;
+                    count += 4;
+                }
+                else if(item.length == 3) {
+                    xa += "0" + item;
+                    count += 4;
+                }
+                else {
+                    xa += item;
+                    count += 4;
+                }
+            }
+            // Padding the ::
+            n = xa.split(":");
+            var paddDone = 0;
+            for (i = 0; i < n.length; i++) {
+                item = n[i];
+                if (item.length === 0 && paddDone === 0) {
+                    for (var padding = 0 ; padding < (32-count) ; padding++) {
+                        x += "0";
+                        paddDone = 1;
+                    }
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        return x;
+    },
+    "ip-address-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+    },
+    "ip-address-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+</script>
+
+
+<script type="text/javascript">
+
+
+var tables    = ["t_0038_as135345","t_0119_as138970","t_0073_as149825","t_0059_as132203","t_0057_as137184","t_0093_as131465","t_0039_as138678","t_0066_as139831","t_0075_as138915","t_0076_as146954","t_0077_as136907","t_0068_as134788","master4","t_0078_as136907","master6","t_0069_as9658","t_0040_as8674","t_0042_as3856","t_0062_as1828","t_0011_as60021","t_0107_as9658","t_0108_as6939","t_0044_as9927","t_0029_as4775","t_0049_as9002","t_0074_as6507","t_0110_as16509","t_0013_as13335","t_0101_as32934","t_0014_as13150","t_0010_as56099","t_0058_as4637","t_0084_as4775","t_0023_as54113","t_0103_as32934","t_0012_as45499","t_0031_as19551","t_0086_as63927","t_0022_as63293","t_0043_as42","t_0007_as45102","t_0033_as23930","t_0089_as55821","t_0015_as58453","t_0070_as54113","t_0017_as17639","t_0034_as59325","t_0106_as63927","t_0109_as16509","t_0100_as151066","t_0063_as21859","t_0053_as63927","t_0047_as18233","t_0055_as23944","t_0071_as46489","t_0021_as142271","t_0056_as18187","t_0072_as46489","t_0092_as45166","t_0048_as55821","t_0111_as141754","t_0120_as137239","t_0094_as15169","t_0041_as135025","t_0085_as55256","t_0113_as151354","t_0095_as15169","t_0032_as135607","t_0087_as14593","t_0105_as137406","t_0098_as134707","t_0122_as134497","t_0088_as14593","t_0079_as138965","t_0060_as135423","t_0027_as141013","t_0115_as135158","t_0061_as140593","t_0028_as141013","t_0116_as138025","t_0125_as137404","t_0114_as137996","t_0126_as150450","t_0018_as136515","t_0045_as132615","t_0124_as149833","t_0082_as150000","t_0035_as139464","t_0080_as150286","t_0127_as150431","t_0118_as140627","t_0046_as132615","t_0117_as138915","t_0019_as139831"].sort();
+var protocols = ["pb_0085_as55256","pb_0095_as15169","pb_0111_as141754","pb_0087_as14593","pb_0120_as137239","pb_0041_as135025","pb_0086_as63927","pb_0088_as14593","pb_0113_as151354","pb_0032_as135607","pb_0105_as137406","pb_0089_as55821","pb_0122_as134497","pb_0060_as135423","pb_0027_as141013","pp_0040_as8674","pb_0115_as135158","pp_0042_as3856","pb_0061_as140593","pb_0028_as141013","pb_0116_as138025","pb_0125_as137404","pb_0114_as137996","pp_0062_as1828","pb_0126_as150450","pb_0018_as136515","pb_0045_as132615","pb_0124_as149833","pb_0082_as150000","pb_0035_as139464","pb_0078_as136907","pb_0080_as150286","pb_0127_as150431","pp_0107_as9658","pb_0118_as140627","pb_0046_as132615","pp_0110_as16509","pp_0013_as13335","pp_0101_as32934","pp_0108_as6939","pp_0044_as9927","pp_0014_as13150","pp_0092_as45166","pp_0010_as56099","pp_0048_as55821","pb_0117_as138915","pp_0029_as4775","pb_0019_as139831","pb_0038_as135345","pp_0094_as15169","pb_0098_as134707","pp_0023_as54113","pb_0079_as138965","pp_0103_as32934","pp_0085_as55256","pp_0095_as15169","pp_0012_as45499","pp_0031_as19551","pp_0022_as63293","pp_0007_as45102","pp_0087_as14593","pp_0033_as23930","pb_0119_as138970","pb_0073_as149825","pb_0059_as132203","pb_0057_as137184","pp_0086_as63927","pb_0093_as131465","pp_0088_as14593","pp_0015_as58453","pb_0039_as138678","pp_0070_as54113","pb_0066_as139831","pp_0043_as42","pb_0075_as138915","pp_0017_as17639","pp_0089_as55821","pp_0034_as59325","pp_0106_as63927","pb_0040_as8674","pb_0042_as3856","pp_0011_as60021","pb_0076_as146954","pp_0109_as16509","pb_0077_as136907","pb_0068_as134788","pp_0063_as21859","pb_0062_as1828","pp_0059_as132203","pp_0053_as63927","pp_0021_as142271","pp_0047_as18233","pp_0093_as131465","pp_0055_as23944","pp_0071_as46489","pp_0066_as139831","pp_0111_as141754","pb_0107_as9658","pp_0056_as18187","pp_0072_as46489","pb_0108_as6939","pb_0044_as9927","pp_0075_as138915","pb_0011_as60021","pp_0120_as137239","pb_0029_as4775","pb_0049_as9002","pb_0074_as6507","pp_0041_as135025","pp_0113_as151354","pp_0076_as146954","pp_0077_as136907","pp_0032_as135607","pb_0058_as4637","pp_0068_as134788","pb_0084_as4775","pb_0110_as16509","pb_0013_as13335","pb_0101_as32934","pb_0014_as13150","pb_0010_as56099","pp_0105_as137406","pp_0078_as136907","pp_0122_as134497","pp_0060_as135423","pp_0027_as141013","pp_0115_as135158","pb_0023_as54113","pb_0103_as32934","pb_0012_as45499","pb_0031_as19551","pb_0022_as63293","pp_0061_as140593","pp_0098_as134707","pp_0028_as141013","pp_0116_as138025","pb_0007_as45102","pb_0069_as9658","pp_0079_as138965","pp_0125_as137404","pp_0114_as137996","pb_0033_as23930","device1","pp_0126_as150450","pp_0018_as136515","pp_0045_as132615","pp_0124_as149833","pp_0082_as150000","pp_0035_as139464","pp_0080_as150286","pp_0127_as150431","pb_0043_as42","pp_0118_as140627","pp_0046_as132615","pb_0015_as58453","pb_0070_as54113","pp_0100_as151066","pp_0117_as138915","pb_0017_as17639","pp_0019_as139831","pb_0034_as59325","pb_0106_as63927","pp_0049_as9002","pp_0038_as135345","pp_0074_as6507","pb_0109_as16509","pp_0058_as4637","pb_0063_as21859","pb_0053_as63927","pp_0084_as4775","pb_0047_as18233","pb_0055_as23944","pp_0119_as138970","pp_0073_as149825","pb_0071_as46489","pp_0057_as137184","pb_0100_as151066","pb_0056_as18187","pb_0072_as46489","pp_0039_as138678","pb_0092_as45166","pb_0048_as55821","pp_0069_as9658","pb_0021_as142271","pb_0094_as15169"].sort();
+var source    = 'table';
+
+$("#submit").on( 'click', function(){
+    var net     = $("#net").val().trim();
+    var masklen = 32;
+    if( net == "" ) {
+        return;
+    }
+    $("#submit").prop('disabled', true);
+
+    if( net.indexOf('/') != -1 ) {
+        masklen = net.substring( net.indexOf('/') + 1);
+        net     = net.substring( 0, net.indexOf('/') );
+    } else if( net.indexOf(':') != -1 ) {
+        masklen = 128;
+    }
+
+    $.get('https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv4/route/' + encodeURIComponent(net) + '/' +
+            encodeURIComponent(masklen) + '/' +
+            source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+        $('#route-modal .modal-content').html(html);
+        $('#route-modal').modal('show', {backdrop: 'static'});
+     });
+
+    $("#submit").prop('disabled', false);
+});
+
+$('input:radio[name="sourceSelector"]').change( function(){
+    if( $(this).is(':checked') ) {
+        if( $(this).val() == "table" ) {
+            source = 'table'
+            $("#source").html("");
+            tables.forEach( function(e){
+                $("#source").append( $("<option></option>")
+                    .attr("value",e)
+                    .text(e)
+                );
+            });
+            $("#source").val('master');
+        } else {
+            source = 'protocol'
+            $("#source").html("");
+            protocols.forEach( function(e){
+                $("#source").append( $("<option></option>")
+                    .attr("value",e)
+                    .text(e)
+                );
+            });
+        }
+    }
+});
+
+$(document).ready(function() {
+
+    tables.forEach( function(e){
+        $("#source").append( $("<option></option>")
+            .attr("value",e)
+            .text(e)
+        );
+    });
+    $("#source").val('master');
+});
+
+</script>
+
+
+    
+</body>
+</html>

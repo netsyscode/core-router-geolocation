@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Speedtest | Looking Glass</title>
+  <link href="assets/css/cloud4box.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <section id="information">
+    <h1 class="title">Информация о сети</h1>
+    <p>Ваш IP-адрес: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+    <p>IP-адрес ЦОД: 185.127.24.43</p>
+    <p>Локация ЦОД: Россия, Москва</p>
+  </section>
+
+  <section id="speedtest">
+    <h1 class="title">Speedtest</h1>
+    <div class="subtitle">(Тест скорости соединения с серверами Cloud4box)</div>
+    <div class="testGroup">
+      <div class="testArea">
+        <div class="testName">Download</div>
+        <div id="dlText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Upload</div>
+        <div id="ulText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Ping</div>
+        <div id="pingText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Jitter</div>
+        <div id="jitText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+    </div>
+    <div id="ipArea">
+      <span id="ip"></span><br><br>
+      <div class="btn" id="startStopBtn"></div>
+    </div>
+  </section>
+
+  <!-- Network Tests -->
+  <section id="tests">
+    <h1 class="title">Looking Glass</h1>
+    <div class="subtitle">
+      (Проверка доступности серверов Cloud4box, трассировки до вашего iP-адреса и отслеживание пути)
+    </div>
+    <form class="form-inline" id="networktest" action="#results" method="post">
+      <div id="hosterror" class="control-group">
+        <input id="host" name="host" type="text" class="input input-host" placeholder="Домен или IP-адрес">
+        <select name="cmd" class="input input-cmd">
+          <option value="host">host</option>
+          <option value="mtr">mtr</option>
+          <option value="ping" selected="selected">ping</option>
+          <option value="traceroute">traceroute</option>
+        </select>
+      </div>
+      <button class="btn" id="startStopBtn2"></button>
+    </form>
+  </section>
+
+  <!-- Results -->
+  <section id="results" style="display:none">
+    <span class="legend" id="legend">Результат</span>
+    <pre id="response" style="display:none"></pre>
+  </section>
+
+</div><!-- /container -->
+
+<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="assets/js/LookingGlass.min.js"></script>
+<script type="text/javascript" src="assets/js/XMLHttpRequest.min.js"></script>
+<script type="text/javascript" src="speedtest.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

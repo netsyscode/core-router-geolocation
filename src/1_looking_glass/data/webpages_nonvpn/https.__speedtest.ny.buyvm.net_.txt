@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Frantech Solutions - New York Looking Glass</title>
+
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/lookingglass.css" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a href="https://my.frantech.ca" class="navbar-brand">
+					<strong>Frantech Solutions</strong>
+				</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#top-nav" aria-controls="top-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse" id="top-nav" style="">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link text-white" href="https://buyvm.net">VPS Hosting</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="https://buyshared.net/shared-cpanel-hosting/">Web Hosting</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="https://buyshared.net/cpanel-reseller-hosting/">Reseller Hosting</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="https://my.frantech.ca/contact.php">Contact Us</a></li>
+						<li class="nav-item"><a class="btn btn-outline-primary" href="https://my.frantech.ca/">Client Area</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="product-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+			<h1 class="display-4">New York, New York</h1>
+			<p class="lead">WHT Certified 100% Grade AAA Non Buffalo Hosting.</p>
+		</div>
+
+		<div class="container mb-4">
+			<div class="card shadow-sm">
+				<div class="card-header">
+					<h4 class="my-0 font-weight-normal">Looking Glass</h4>
+				</div>
+				<div class="card-body">
+					<form id="networktest" action="#results" method="post">
+						<div class="form-row">
+							<div class="form-group col-md-5">
+								<label for="host">Host or IP Address</label>
+								<input type="text" class="form-control" name="host" id="host" placeholder="google.com">
+								<div id="host-error" class="text-danger d-none">
+									You must provide a IP address or domain.
+								</div>
+							</div>
+							<div class="form-group col-md-5">
+								<label for="cmd">Test</label>
+								<select name="cmd" id="cmd" class="form-control">
+									<option value="host">host</option>
+									<option value="mtr">mtr</option>
+									<option value="mtr6">mtr6</option>
+									<option value="ping" selected="selected">ping</option>
+									<option value="ping6">ping6</option>           
+									<option value="traceroute">traceroute</option>
+									<option value="traceroute6">traceroute6</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2"><label>&nbsp;</label>
+								<button type="submit" id="submit" class="form-control btn btn-primary">Run Test</button>
+							</div>
+						</div>
+					</form>
+				</div>					
+			</div>	
+		</div>
+
+		<div class="container mb-4" id="results" style="display: none;">
+			<div class="card shadow-sm">
+				<div class="card-header">
+					<h4 class="my-0 font-weight-normal">Results</h4>
+				</div>
+				<div class="card-body">
+					<pre id="response"></pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+		<div class="card shadow-sm">
+			<div class="card-header">
+				<h4 class="my-0 font-weight-normal">Network Information</h4>
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-6">
+						<table class="table network-info">
+							<tbody>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-globe-americas"></i> Server Location:</td>
+									<td><b><a href="https://buyvm.net/new-york-datacenter/">New York, New York, USA</a></b></td>
+								</tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-ethernet"></i> IPv4:</td>
+									<td>198.98.53.31</td>
+								</tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-ethernet"></i> IPv4 (DDOS):</td>
+									<td>198.251.83.87</td>
+								</tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-ethernet"></i> IPv4 (Anycast):</td>
+									<td>198.251.86.22</td>
+								</tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-ethernet"></i> IPv6:</td>
+									<td>2605:6400:0010:0053::1</td>
+								</tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-download"></i> Test Files:</td>
+									<td>
+																					<ul class="list-inline">
+																									<li class="list-inline-item"><a href="100MB.test">100MB</a></li>
+																									<li class="list-inline-item"><a href="1000MB.test">1000MB</a></li>
+																							</ul>
+																			</td>
+								</tr>
+                                                                <tr>
+                                                                        <td style="width: 40%"><i class="fas fa-download"></i> Test iperf3:</td>
+                                                                        <td>speedtest.ny.buyvm.net</td>
+                                                                </tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-user-circle"></i> Your IP Address:</td>
+									<td><a href="#" id="userip">166.111.68.233</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>    
+					<div class="col-md-6">
+						<table class="table network-info">
+							<tbody>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-globe-americas"></i> Las Vegas:</td>
+									<td>
+										<ul class="list-inline">
+											<li class="list-inline-item"><b><a href="https://buyvm.net/las-vegas-datacenter/">Information</a></b></li>
+											<li class="list-inline-item"><b><a href="http://speedtest.lv.buyvm.net/">Looking Glass</a></b></li>
+										</ul>
+									</td>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-globe-americas"></i> New York:</td>
+									<td>
+										<ul class="list-inline">
+											<li class="list-inline-item"><b><a href="https://buyvm.net/new-york-datacenter/">Information</a></b></li>
+											<li class="list-inline-item"><b><a href="http://speedtest.ny.buyvm.net/">Looking Glass</a></b></li>
+										</ul>
+									</td>
+								</tr>
+                                                                <tr>
+                                                                        <td style="width: 40%"><i class="fas fa-globe-americas"></i> Miami:</td>
+                                                                        <td>
+                                                                                <ul class="list-inline">
+                                                                                        <li class="list-inline-item"><b><a href="https://buyvm.net/miami-datacenter/">Information</a></b></li>
+                                                                                        <li class="list-inline-item"><b><a href="http://speedtest.mia.buyvm.net/">Looking Glass</a></b></li>
+                                                                                </ul>
+                                                                        </td>
+                                                                </tr>
+								<tr>
+									<td style="width: 40%"><i class="fas fa-globe-europe"></i> Luxembourg:</td>
+									<td>
+										<ul class="list-inline">
+											<li class="list-inline-item"><b><a href="https://buyvm.net/luxembourg-datacenter/">Information</a></b></li>
+											<li class="list-inline-item"><b><a href="http://speedtest.lu.buyvm.net/">Looking Glass</a></b></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="pt-4 my-md-5 pt-md-5">
+			<div class="row">
+				<div class="col-3 col-md">
+					<img class="mb-2" src="assets/img/frantech.png">
+					<small class="d-block mb-3 text-white">Powered by <a href="https://github.com/telephone/LookingGlass">Looking Glass</a></small>
+					<small class="d-block mb-3 text-white">&copy; 2009 - 2023</small>
+				</div>
+				<div class="col-3 col-md">
+					<h5>Products</h5>
+					<ul class="list-unstyled text-small">
+						<li><a href="https://buyvm.net/kvm-dedicated-server-slices/">Dedicated KVM Slices</a></li>
+						<li><a href="https://buyvm.net/block-storage-slabs/">Block Storage Slabs</a></li>
+						<li><a href="https://buyvm.net/storage-vps/">Storage VPS</a></li>
+						<li><a href="https://buyvm.net/anycast-vps/">Anycast VPS</a></li>					
+						<li><a href="https://buyvm.net/ddos-protection/">DDOS Protection</a></li>
+					</ul>
+				</div>
+				<div class="col-3 col-md">
+					<h5>About Us</h5>
+					<ul class="list-unstyled text-small">
+						<li><a href="https://buyvm.net/about-buyvm/">About Us</a></li>
+						<li><a href="https://buyvm.net/datacenters/">Data Centers</a></li>
+						<li><a href="https://buyvm.net/features/">Awesome Features</a></li>				
+						<li><a href="https://buyvm.net/beware-the-moshbear/">Community Chat</a></li>
+					</ul>
+				</div>
+				<div class="col-3 col-md">
+					<h5>Support</h5>
+					<ul class="list-unstyled text-small">
+						<li><a href="http://wiki.buyvm.net/doku.php/">Wiki</a></li>
+						<li><a href="https://my.frantech.ca/register.php">Sign Up</a></li>
+						<li><a href="https://my.frantech.ca/clientarea.php">Client Area</a></li>
+						<li><a href="https://my.frantech.ca/contact.php">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/LookingGlass.js"></script>
+		<script src="assets/js/XMLHttpRequest.min.js"></script>	
+	</body>
+	</html>

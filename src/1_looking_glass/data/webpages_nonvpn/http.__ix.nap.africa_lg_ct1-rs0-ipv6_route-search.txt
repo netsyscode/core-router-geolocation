@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://ix.nap.africa/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="zGgZGFQxx15eU43j0HDc9vOz5or74WrsB1vX9yRV">
+
+        <link rel="stylesheet" type="text/css" href="https://ix.nap.africa/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://ix.nap.africa/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://ix.nap.africa">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://ix.nap.africa/images/napafrica-logo-small.png">
+    IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://ix.nap.africa/customer/details">
+                            Member List
+                        </a>
+
+                                                    <div class="dropdown-divider"></div>
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://ix.nap.africa/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://ix.nap.africa/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://ix.nap.africa/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://ix.nap.africa/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://ix.nap.africa/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">IPv6 Route Server 0 - IX Cape Town</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://ix.nap.africa/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                IPv6 Route Server 0 - IX Cape Town            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Cape Town                        </a>
+                                            <a class="dropdown-item active" href="https://ix.nap.africa/lg/ct1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/ct1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Cape Town                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/db1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Durban                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs0-ipv4">
+                            IPv4 Route Server 0 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs0-ipv6">
+                            IPv6 Route Server 0 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs1-ipv4">
+                            IPv4 Route Server 1 - IX Johannesburg                        </a>
+                                            <a class="dropdown-item " href="https://ix.nap.africa/lg/jb1-rs1-ipv6">
+                            IPv6 Route Server 1 - IX Johannesburg                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://ix.nap.africa/lg/ct1-rs0-ipv6/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://ix.nap.africa/lg/ct1-rs0-ipv6">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.0.7                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 196.60.70.2                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 620 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-15 13:43:12
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <span class="badge badge-info">
+                            Cached data. Maximum age: 5 mins.
+                        </span>
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://ix.nap.africa/api/v4/lg/ct1-rs0-ipv6/status">status</a>]
+                    [<a href="https://ix.nap.africa/api/v4/lg/ct1-rs0-ipv6/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.2.0
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://ix.nap.africa/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://ix.nap.africa/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://ix.nap.africa/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://ix.nap.africa/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["T328029x243","T10474x2","T22355x3","T22750x4","T11845x7","T328317x8","T37105x10","master4","master6","T37150x22","T37009x21","T6774x252","T3303x100","T6939x112","T37153x13","T30844x64","T37153x14","T26415x48","T32653x56","T37314x73","T37333x27","T37271x16","T16637x60","T16637x26","T37417x40","T37254x34","T19711x63","T44356x52","T37640x25","T37542x51","T37239x15","T37363x17","T37254x83","T37542x45","T15022x33","T37353x65","T37417x39","T37239x81","T37439x32","T37525x93","T37236x99","T25818x68","T37662x62","T37482x91","T37497x20","T37564x92","T37199x44","T37670x78","T37691x37","T37468x90","T22355x41","T37399x23","T37691x47","T10474x58","T37100x28","T36953x49","T11845x30","T37549x84","T13335x59","T36994x11","T20940x54","T22355x53","T37678x70","T328242x82","T328049x50","T328232x96","T37599x18","T327750x31","T328145x57","T54113x85","T54113x86","T328251x89","T328137x94","T328156x75","T328167x71","T328156x76","T327733x46","T327901x95","t_roa","T328174x87","T5583x233","T328174x88","T328366x36","T37105x114","T62044x241","T32653x111","T327824x69","T32437x125","T328278x55","T328266x97","T327872x35","T328178x77","T327754x67","T37204x171","T327936x38","T327782x66","T327872x74","T62044x239","T20011x257","T327983x42","T327939x43","T37403x224","T20011x258","T327849x80","T327698x24","T327966x61","T327926x98","T23764x221","T37172x104","T37053x174","T37317x103","T37172x105","T37053x149","T34465x222","T37028x176","T32934x172","T16637x242","T32934x173","T37049x124","T37613x205","T33763x160","T19551x213","T37119x177","T37235x267","T37049x253","T37356x120","T37515x262","T328112x19","T37356x123","T63293x107","T37266x161","T328101x79","T63293x108","T36924x121","T328114x72","T37168x119","T37731x229","T55256x228","T37358x150","T37363x195","T36692x200","T328032x110","T37645x231","T3856x6","T37680x170","T37680x154","T328220x133","T37724x169","T37529x264","T328032x226","T36916x158","T37457x266","T36874x207","T58453x180","T36874x109","T328510x142","T328333x101","T328242x131","T328501x143","T328333x102","T22355x218","T328170x126","T328510x182","T37497x156","T328501x238","T328126x155","T328262x122","T329028x230","T329035x235","T20459x163","T329062x234","T60171x190","T328246x220","T328802x210","T328317x117","T328315x175","T328137x128","T328711x223","T328341x167","T328512x192","T329126x236","T327901x215","T328512x193","T329062x247","T36868x249","T328237x152","T328820x203","T329144x263","T54994x145","T328480x211","T36994x168","T327804x162","T328461x144","T328803x214","T39892x136","T327822x127","T39892x137","T328339x113","T328327x166","T329153x268","T327804x183","T328391x116","T328266x135","T328437x134","T327822x148","T328178x140","T327813x265","T328544x153","T138915x244","T328471x164","T328517x138","T328471x165","T328337x185","T328544x146","T328480x139","T328474x132","T328517x248","T328732x191","T328633x159","T328633x178","T328608x184","T327693x130","T328735x260","T327782x141","T327880x151","T328384x157","T329276x254","T327880x208","T329088x237","T328745x225","T328870x250","T329276x255","T328870x251","T328916x227","T327693x129","T328575x147","T328596x201","T328917x261","T328790x209","T328970x216","T328596x202","T328278x197","T327892x232","T328855x206","T327991x115","T328748x217","T327767x245","T327767x246","T328818x187","T328818x188","T328884x212","T2018x29","T328568x186","T394354x181","T37271x9","T328576x198","T328576x199","T327849x194","T327983x256","T37179x1","T199524x240","T328829x189","T327996x106","T328839x196","T328767x179","T328785x259","T328888x204","T3356x12","T328016x219","T42x5","T328206x118"].sort();
+    let protocols = ["P328839x196","P328767x179","R329088x237","P10474x2","R328278x197","P22355x3","P22750x4","R10474x2","P11845x7","R22355x3","R22750x4","R11845x7","P3303x100","P37271x9","P328032x110","R3303x100","R6939x112","P15022x33","P328220x133","P37439x32","P328032x226","R37271x16","R16637x60","P37662x62","R16637x26","R37417x40","R37254x34","R19711x63","R44356x52","P328016x219","R37640x25","R37542x51","R37239x15","P37497x20","P37564x92","P328317x8","R37363x17","P37199x44","R37254x83","R37542x45","R15022x33","R37353x65","P37691x37","P37468x90","R37417x39","P22355x41","P37399x23","P37691x47","P10474x58","R37239x81","P37100x28","P36953x49","P11845x30","R37439x32","P37549x84","P37105x10","P13335x59","P36994x11","P20940x54","P22355x53","R37525x93","R37236x99","R25818x68","R37662x62","P37678x70","R37482x91","P37150x22","P37009x21","P37599x18","R37497x20","R37564x92","R328317x8","R37199x44","rpki1","R37670x78","rpki2","P54113x85","R37691x37","R37468x90","P54113x86","R22355x41","R37399x23","P37153x13","R37691x47","P30844x64","R10474x58","P37153x14","R37100x28","R36953x49","R11845x30","R37549x84","R37105x10","R13335x59","R36994x11","P26415x48","R20940x54","R22355x53","P32653x56","P37314x73","R37678x70","P37333x27","R327750x31","P37271x16","P5583x233","P16637x60","R37150x22","P16637x26","P37417x40","P37254x34","R37009x21","P19711x63","P44356x52","R37599x18","P37640x25","P37542x51","P327983x42","P37239x15","R54113x85","P37363x17","R54113x86","R37153x13","P37254x83","R30844x64","R327733x46","R327901x95","P37542x45","P37353x65","R37153x14","P37417x39","R26415x48","P37239x81","R32653x56","R328366x36","P37525x93","R37314x73","P37236x99","P25818x68","R37333x27","R5583x233","P6774x252","R327824x69","P37482x91","R327872x35","P6939x112","R327754x67","R327936x38","R327782x66","R327872x74","P37670x78","R327983x42","R327939x43","R327849x80","R327698x24","R327966x61","R327926x98","R37172x104","R37317x103","R37172x105","P37358x150","R6774x252","P36692x200","R34465x222","P37645x231","R16637x242","P37680x170","R37049x124","R37613x205","R33763x160","R19551x213","P37680x154","P328242x82","P37529x264","P328049x50","R37049x253","R37356x120","P328232x96","P36916x158","R37515x262","P37457x266","P327750x31","P328145x57","R328112x19","R37356x123","R63293x107","R37266x161","P328251x89","P328137x94","P36874x207","P58453x180","R328101x79","P36874x109","R63293x108","R36924x121","P328156x75","R328114x72","R37168x119","P328167x71","R37731x229","P328156x76","R55256x228","P327733x46","P327901x95","R37358x150","R37363x195","R36692x200","P22355x218","R37645x231","P328174x87","P37497x156","P328174x88","P328366x36","R37680x170","P20459x163","P3856x6","P37105x114","R37680x154","R37724x169","P60171x190","R328242x82","P62044x241","P32653x111","P327824x69","R37529x264","P32437x125","P328278x55","P328266x97","R328049x50","P327872x35","P328178x77","R328232x96","R36916x158","P327754x67","R37457x266","P36868x249","R328145x57","P37204x171","P54994x145","P327936x38","P327782x66","P327872x74","R3856x6","P36994x168","P62044x239","R328251x89","R328137x94","R36874x207","R58453x180","R36874x109","P39892x136","P327939x43","P37403x224","R328156x75","P39892x137","R328167x71","R328156x76","P327849x80","P327698x24","P327966x61","P327926x98","P23764x221","R22355x218","P37172x104","P37053x174","P37317x103","R328174x87","P37172x105","R37497x156","P37053x149","R328174x88","R328802x210","P328870x250","R328711x223","P328870x251","R327901x215","P34465x222","R20459x163","R37105x114","R328820x203","P37028x176","R60171x190","P32934x172","P16637x242","R62044x241","R32653x111","P32934x173","P37049x124","P37613x205","R32437x125","P33763x160","R328278x55","P19551x213","P328790x209","R328266x97","P328970x216","R328480x211","R328178x77","P327892x232","R328461x144","P327991x115","R328803x214","R36868x249","R327822x127","P37119x177","R37204x171","R54994x145","P37235x267","P37049x253","P37356x120","P37515x262","R328391x116","P328884x212","R36994x168","R62044x239","R327822x148","P37356x123","R328544x153","R328471x164","R39892x136","R37403x224","P394354x181","R328471x165","R39892x137","R328544x146","P63293x107","R328480x139","P37266x161","R328474x132","P63293x108","P36924x121","R328732x191","P327983x256","R23764x221","R328633x159","P199524x240","R37053x174","P37168x119","P37731x229","P55256x228","R37053x149","R328633x178","P37363x195","P327996x106","R327693x130","R328735x260","R327782x141","R327880x151","R328384x157","P328785x259","R37028x176","R32934x172","P328888x204","R329276x254","R327880x208","R32934x173","R328745x225","R328870x250","R329276x255","R328870x251","P37724x169","P20011x257","R37119x177","device1","R328916x227","P20011x258","R37235x267","R327693x129","R328575x147","R328596x201","R328917x261","R328790x209","R328970x216","R328596x202","R327892x232","R328855x206","R327991x115","R328748x217","R327767x245","R327767x246","R328818x187","R328818x188","R328884x212","R328568x186","R394354x181","P2018x29","R328576x198","R328576x199","R327849x194","R327983x256","direct1","R199524x240","P328510x142","P328333x101","P328242x131","P328501x143","P37179x1","P328333x102","R328829x189","P328206x118","R327996x106","R328839x196","R328767x179","P328112x19","R20011x257","R328785x259","P328170x126","P328510x182","R20011x258","R328888x204","P328501x238","P328126x155","P328262x122","P329028x230","P328101x79","P329035x235","R2018x29","R328032x110","P328029x243","P329062x234","P328114x72","P3356x12","R37271x9","P328246x220","P328802x210","P328317x117","P328315x175","P328137x128","P328711x223","P328341x167","P328512x192","P329126x236","P327901x215","R37179x1","P328512x193","P329062x247","R328220x133","P328237x152","P328820x203","P329144x263","P328480x211","R328032x226","P327804x162","P328461x144","P328803x214","P327822x127","P328339x113","P328327x166","P329153x268","R3356x12","P327804x183","P328391x116","P328266x135","P328437x134","P327822x148","P328178x140","R328016x219","P327813x265","P328544x153","P138915x244","P328471x164","P328517x138","R328510x142","R328333x101","R328242x131","R328501x143","P328471x165","R328333x102","P328337x185","P328544x146","R328206x118","P328480x139","P328474x132","P328517x248","P328732x191","P328633x159","R328170x126","R328510x182","P328633x178","R328501x238","P328608x184","R328126x155","R328262x122","R329028x230","R329035x235","P327693x130","P328735x260","P327782x141","P327880x151","R328029x243","P328384x157","R329062x234","R328246x220","P329276x254","P327880x208","P329088x237","P328745x225","R328317x117","P329276x255","R328315x175","R328137x128","R328341x167","R328512x192","R329126x236","P42x5","R328512x193","R329062x247","R328237x152","P328916x227","R329144x263","P327693x129","P328575x147","P328596x201","P328917x261","P328596x202","P328278x197","P328855x206","R327804x162","R42x5","R328339x113","P328748x217","R328327x166","R329153x268","P327767x245","R327804x183","P327767x246","P328818x187","R328266x135","R328437x134","P328818x188","R328178x140","R327813x265","R138915x244","R328517x138","P328568x186","R328337x185","P328576x198","P328576x199","R328517x248","P327849x194","P328829x189","R328608x184"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://ix.nap.africa/lg/ct1-rs0-ipv6/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv6');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv6' );
+    });
+</script>
+            </body>
+</html>

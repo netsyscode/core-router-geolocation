@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud Connectivity | Sofia Connect</title>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Cloud Connectivity | Sofia Connect">
+<meta name="keywords" content="Your deployment in the cloud. 
+Fast and easy.">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:url" content />
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cloud Connectivity | Sofia Connect">
+<meta property="og:description" content="Your deployment in the cloud. 
+Fast and easy.">
+<meta property="og:image" content="https://sofia-connect.net/attachments/Services/6/main/intro-cloud_thumb-m.jpg">
+<meta name="google-site-verification" content="teDKXsuhyL94RaBCrwkCt2FuDhe1TTRg3hzbgnBefZc" />
+<script src="/cdn-cgi/apps/head/opoqTVqdPxOgeZquXcroQVGnms8.js"></script><link rel="stylesheet" href="/css/main.css">
+<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+<script src="/js/vendor.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+        (function (d, t) {
+          var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          bh.type = 'text/javascript';
+          bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=14suc5ltpedeqwkcosn52w';
+          s.parentNode.insertBefore(bh, s);
+        })(document, 'script');
+      </script>
+<script type="text/javascript">
+        <!-- Google Analytics code -->
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47409841-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+</head>
+<body>
+
+<script type="text/javascript">
+  var _root = '/';
+  var _root_full = 'https://sofia-connect.net/';
+  var _controller = 'services';
+  var _action = 'view';
+  var _url_for = 'https://sofia-connect.net/services/cloud-connectivity-b534b';
+  var _lang = 'en';
+  var _langs = '[{"name":"English"}]';
+  var _base = 'https://sofia-connect.net/';
+  var _timezone_offset = '2';
+  var _environment = 'production';
+</script>
+<header id="main-header" class="main-header">
+<div class="holder">
+<div class="inner-holder">
+<h1 class="logo-holder">
+<a class="logo-link" href="/">
+<img class="logo-img" src="/img/logo_wb.svg" alt="Sofia Connect logo" width="178" height="48">
+</a>
+</h1>
+<button id="open-mobile" class="open-mobile">
+<span class="line"></span>
+</button>
+</div>
+<div class="menu-holder">
+<nav class="main-nav">
+<div class="nav-link-holder">
+<a class="main-nav-link " href="/"><span class="txt">Home</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link " href="/news"><span class="txt">News</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link group-link active" href="/services">
+<span class="txt">Services</span>
+</a>
+<div class="submenu">
+<a class="main-nav-sublink" href="/services/b-virtual-b-pop"><b>Virtual</b> POP</a>
+<a class="main-nav-sublink" href="/services/remote-peering"><b>Remote</b> Peering</a>
+<a class="main-nav-sublink" href="/services/ip-transit"><b>IP</b> Transit</a>
+<a class="main-nav-sublink" href="/services/b-vpn-b-services-202cb"><b>VPN</b> SERVICES</a>
+<a class="main-nav-sublink" href="/services/building-management"><b>BUILDING</b> MANAGEMENT</a>
+<a class="main-nav-sublink" href="/services/cloud-connectivity-b534b"><b>Cloud</b> Connectivity</a>
+</div>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link " href="/network"><span class="txt">Network</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link " href="/about"><span class="txt">About us</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link " href="/careers"><span class="txt">Careers</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link popup-link" href="#looking-glass"><span class="txt">Looking Glass</span></a>
+</div>
+<div class="nav-link-holder">
+<a class="main-nav-link" href="/contact"><span class="txt">Contact us</span></a>
+</div>
+</nav>
+<nav class="top-nav">
+<div class="nav-link-holder">
+<a class="top-nav-link popup-link" href="#virtualpop-login">Customer Login</a>
+</div>
+<div class="nav-link-holder">
+<a class="top-nav-link lang-link" href>En</a>
+</div>
+</nav>
+<div class="cta-holder">
+<a class="cta-link" href="tel:+35924200300">Support Calls: <span class="txt">+359 242 00300</span></a>
+</div>
+</div>
+</div>
+</header>
+<main id="main-content" class="main-content">
+<div class="holder">
+<section class="intro-section">
+<div class="media-holder intro-l-holder hidden-el" style="background-image:url(https://sofia-connect.net/attachments/Services/6/main/intro-cloud.jpg)" data-src="https://sofia-connect.net/attachments/Services/6/main/intro-cloud.jpg https://sofia-connect.net/attachments/Services/6/main/intro-cloud_thumb-m.jpg https://sofia-connect.net/attachments/Services/6/main/intro-cloud_thumb-xs.jpg"></div>
+<div class="intro-l-content half-content">
+<div class="intro-list">
+<div class="intro-item">
+<div class="row blue-overlay slide-el from-right">
+<div class="inner-holder">
+<div class="half-col">
+<div class></div>
+<div class="icon-cloud icon"></div>
+<h2 class="grand-l-title"><b>Cloud</b> Connectivity</h2>
+<div class="grand-text">Your deployment in the cloud.
+Fast and easy.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-service">
+<header class="section-header">
+<h2 class="section-title">DIRECT ACCESS TO THE BIGGEST CLOUD PROVIDERS</h2>
+</header>
+<ul class="chess-grid">
+<li class="chess-grid-item">
+<div class="col slide-el">
+<div class="chess-img" style="background-image:url(https://sofia-connect.net/attachments/ServiceSection/12/main/cloud-2_thumb-detail.jpg)"></div>
+</div>
+<div class="col slide-el">
+<div class="inner-holder cms"><h2>SCALABLE CONNECTIBITY</h2>
+<h2>TO THE BIGGEST CLOUD PROVIDERS</h2>
+<p>&nbsp;</p>
+<p><strong>Multicloud&nbsp;connectivity</strong></p>
+<ul class="tmc-list">
+<li>Build and manage a multicloud environment</li>
+<li>Connect to multiple cloud regions</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Rapid provisioning</strong></p>
+<ul class="tmc-list">
+<li>Deploy a network strategy in seconds</li>
+<li>Rapidly build into a global Ecosystem</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>On-demand connectivity</strong></p>
+<ul class="tmc-list">
+<li>Manage connecivity via our Portal</li>
+<li>Scale bandwith when you need it</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Pay as you need</strong></p>
+<ul class="tmc-list">
+<li>No long-term contracts</li>
+<li>Pay for that you use</li>
+</ul></div>
+</div>
+</li>
+<li class="chess-grid-item">
+<div class="col slide-el">
+<div class="chess-img" style="background-image:url(https://sofia-connect.net/attachments/ServiceSection/13/main/Cloud-providers-noshadow_thumb-detail.png)"></div>
+</div>
+<div class="col slide-el">
+<div class="inner-holder cms"><h2>DIRECT ACCESS</h2>
+<p>Currently Sofia Connect has direct connection the the biggest cloud providers:</p>
+<ul class="tmc-list">
+<li>Amazon Web Services&nbsp;<a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a></li>
+<li>Google Cloud Platform&nbsp;<a href="https://cloud.google.com/" target="_blank">https://cloud.google.com/</a></li>
+<li>Microsoft Azure&nbsp;<a href="https://azure.microsoft.com/" target="_blank">https://azure.microsoft.com/</a></li>
+<li>Alibaba Cloud&nbsp;<a href="https://www.alibabacloud.com" target="_blank">https://www.alibabacloud.com</a></li>
+<li>Oracle Cloud&nbsp;<a href="https://cloud.oracle.com/">https://cloud.oracle.com/</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>If you are looking for a connectivity to any other provider, please do not hesitate to contact our<a href="/cdn-cgi/l/email-protection#a5d6c4c9c0d6e5d6cac3ccc488c6cacbcbc0c6d18bcbc0d1" target="_blank"> Sales team</a>.</p></div>
+</div>
+</li>
+</ul>
+</section>
+<section class="services-section">
+<header class="section-header">
+<h2 class="section-title">Our Services</h2>
+</header>
+<div class="services-holder">
+<div id="services-slider" class="services-slider">
+<div class="services-list slider-list">
+<div class="list-item">
+<a class="service-link" href="/services/b-virtual-b-pop">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon icon-vpop"></span>
+<h3 class="service-title"><b>Virtual</b> POP</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+<div class="list-item">
+<a class="service-link" href="/services/remote-peering">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon icon-rpeering"></span>
+<h3 class="service-title"><b>Remote</b> Peering</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+<div class="list-item">
+<a class="service-link" href="/services/ip-transit">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon icon-transit"></span>
+<h3 class="service-title"><b>IP</b> Transit</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+<div class="list-item">
+<a class="service-link" href="/services/b-vpn-b-services-202cb">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon-vpn icon"></span>
+<h3 class="service-title"><b>VPN</b> SERVICES</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+<div class="list-item">
+<a class="service-link" href="/services/building-management">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon-last-mile icon"></span>
+<h3 class="service-title"><b>BUILDING</b> MANAGEMENT</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+<div class="list-item">
+<a class="service-link" href="/services/cloud-connectivity-b534b">
+<div class="inner-table">
+<div class="inner-cell">
+<span class="icon-cloud icon"></span>
+<h3 class="service-title"><b>Cloud</b> Connectivity</h3>
+<span class="read-more">Read more</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="support-section">
+<div class="row">
+<div class="half-col left-col white-basis col">
+<div class="inner-holder">
+<h3 class="grand-m-title"><b>Support calls</b></h3>
+<p>Supervised operation by highly skilled network and system engineers.</p>
+</div>
+</div>
+<div class="half-col right-col aqua-basis col">
+<div class="inner-holder">
+<p>Tel.: +359 242 00300</p><br>
+<p><b>Working Hours:</b></p>
+<p>*24 hours a day *7 days a week</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="main-footer">
+<div class="holder">
+<div class="footer-inner">
+<div class="row-1">
+<a class="logo-link" href="/">
+<img class="logo-img" src="/img/logo_gb.svg" alt="Sofia Connect logo" width="222" height="60">
+</a>
+<nav class="main-nav">
+<a class="main-nav-link" href="/"><span class="txt">Home</span></a>
+<a class="main-nav-link" href="/news"><span class="txt">News</span></a>
+<a class="main-nav-link" href="/services"><span class="txt">Services</span></a>
+<a class="main-nav-link" href="/network"><span class="txt">Network</span></a>
+<a class="main-nav-link" href="/about"><span class="txt">About us</span></a>
+<a class="main-nav-link" href="/careers"><span class="txt">Careers</span></a>
+<a class="main-nav-link popup-link" href="#looking-glass"><span class="txt">Looking Glass</span></a>
+<a class="main-nav-link" href="/contact"><span class="txt">Contact us</span></a>
+</nav>
+</div>
+<div class="row-2">
+<nav class="services-nav">
+<a class="services-nav-link" href="/services"><span class="txt">Services</span></a>
+<div class="nav-holder">
+<a class="services-nav-link" href="/services/b-virtual-b-pop">
+<span class="txt"><b>Virtual</b> POP</span>
+</a>
+<a class="services-nav-link" href="/services/remote-peering">
+<span class="txt"><b>Remote</b> Peering</span>
+</a>
+<a class="services-nav-link" href="/services/ip-transit">
+<span class="txt"><b>IP</b> Transit</span>
+</a>
+<a class="services-nav-link" href="/services/b-vpn-b-services-202cb">
+<span class="txt"><b>VPN</b> SERVICES</span>
+</a>
+<a class="services-nav-link" href="/services/building-management">
+<span class="txt"><b>BUILDING</b> MANAGEMENT</span>
+</a>
+<a class="services-nav-link" href="/services/cloud-connectivity-b534b">
+<span class="txt"><b>Cloud</b> Connectivity</span>
+</a>
+</div>
+</nav>
+</div>
+</div>
+<div class="copyright-line">
+<div class="copyright-inner">
+<div class="row-1">
+<p class="copy-info">&copy; 2016 Sofia Connect</p>
+<nav class="legals-nav">
+<a class="legals-link" href="https://sofia-connect.net/attachments/Files/10/main/index.html" target="_blank">seasons greetings</a>
+<a class="legals-link" href="https://sofia-connect.net/attachments/Files/9/main/Tender-documents.rar" target="_blank">Tender Documents</a>
+<a class="legals-link" href="https://sofia-connect.net/attachments/Files/4/main/Service-Level-Agreement.pdf" target="_blank">Service Level Agreement</a>
+<a class="legals-link" href target="_blank">Company information</a>
+<a class="legals-link" href="https://sofia-connect.net/attachments/Files/3/main/Master-service-agreement.pdf" target="_blank">Master service agreement</a>
+<a class="legals-link" href target="_blank">Terms & Conditions</a>
+</nav>
+</div>
+<div class="row-2">
+<ul class="socials-list">
+<li class="social-item">
+<a class="social-link" href="https://www.facebook.com/SofiaConnect.net/"><span class="icon-social-fb icon" target="_blank"></span></a>
+</li>
+<li class="social-item">
+<a class="social-link" href="https://www.linkedin.com/company/sofia-connect"><span class="icon-social-lin icon" target="_blank"></span></a>
+</li>
+</ul>
+<p class="design-by">Web Design: <a class="designer-link" href="http://edesign.bg/" target="_blank">eDesign</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div id="virtualpop-login" class="popup">
+<div class="holder">
+<section class="login-section">
+<div class="system-holder inner-holder">
+<form class="login-form system-form" action="https://conductor.sofia-connect.net/auth/login" method="post" target="_blank">
+<button class="close-btn btn">
+<span class="icon icon-close"></span>
+</button>
+<div class="form-row">
+<label for="username" class="item-label">Username</label>
+<input id="username" class="form-field" type="text" name="user">
+</div>
+<div class="form-row">
+<label for="userpass" class="item-label">Password</label>
+<input id="userpass" class="form-field" type="password" name="password">
+</div>
+<div class="form-row">
+<button id="login-submit" class="aqua-btn btn" type="submit" value="Submit">Login</button>
+<button class="grey-btn btn" type="reset" value="Reset">Reset</button>
+</div>
+</form>
+</div>
+</section>
+</div>
+</div>
+<div id="looking-glass" class="popup">
+<div class="holder">
+<section class="log-section">
+<div class="system-holder">
+<form id="data-form" class="system-form" action="/looking_glass" method="post">
+<button class="close-btn btn">
+<span class="icon icon-close"></span>
+</button>
+<div class="form-row">
+<div class="item-label">Type of Query</div>
+<input id="bgp" class="form-radio" type="radio" name="query" value="bgp">
+<label class="form-label" for="bgp">bgp</label>
+<input id="ping" class="form-radio" type="radio" name="query" value="ping">
+<label class="form-label" for="ping">ping</label>
+<input id="trace" class="form-radio" type="radio" name="query" value="trace" checked>
+<label class="form-label" for="trace">trace</label>
+</div>
+<div class="form-row">
+<div class="item-label">Additional Parameters</div>
+<input id="parameters" class="form-field" type="text" name="addr">
+</div>
+<div class="form-row">
+<div class="item-label">Node</div>
+<select id="router" class="form-select" name="router">
+<optgroup label="Sofia Connect">
+<option value="Router1">Router1</option>
+</optgroup>
+</select>
+</div>
+<div class="form-row">
+<button id="ask-for-data" class="aqua-btn btn" type="button" value="Submit">Submit</button>
+<button class="grey-btn btn" type="reset" value="Reset">Reset</button>
+</div>
+</form>
+</div>
+</section>
+<section class="log-results-section">
+<div class="system-holder">
+<div class="results-holder">
+<div id="results"></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="cookie-line">
+<div class="holder">
+<div class="cookie-text">
+<p>Cookies Policy - Cookies help us deliver our services. By using our services you agree to our use of cookies &nbsp;&nbsp;&nbsp;<a href>Learn more</a></p>
+</div>
+<button id="close-cookie" class="close-cookie-btn transparent-btn white-text btn">OK, got it</button>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/main.js"></script>
+<script>
+      App.init();
+    </script>
+</body>
+</html>

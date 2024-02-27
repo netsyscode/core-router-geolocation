@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+		*****************************
+		**   Looking Glass by Telephone **
+		*****************************
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Looking Glass :: EDGE2 - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <!--- link href="assets/css/cerulean.min.css" rel="stylesheet" --->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+<div class="row" id="header">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1><a id="title" href="https://edge2.lg.truenetwork.ru">LookingGlass</a></h1>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Network Information -->
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network information</div>
+						<div class="panel-body">
+							<p>Server Location: <!--- strong>, RU</strong --->
+<div class="form-group">
+		 <select name="" onchange="location = this.value;" class="form-control">
+                  <option value="https://edge2.lg.truenetwork.ru">EDGE2, RU</option>
+                  <option value="https://edge1.lg.truenetwork.ru">EDGE1, RU</option>
+                </select>
+                </div>
+                                                        
+</p>
+							<p>IPv4 Address: 94.247.110.2</p>
+							<p></p>
+							<p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network Test Files</div>
+						<div class="panel-body">
+							<p>Download test files: 
+							<a href="25MB.test" class="btn btn-xs btn-default">25MB</a>
+							<a href="50MB.test" class="btn btn-xs btn-default">50MB</a>
+							<a href="100MB.test" class="btn btn-xs btn-default">100MB</a>
+							<a href="1000MB.test" class="btn btn-xs btn-default">1GB</a>
+							</p>
+							<p>Speedtest page: <a href="speedtest" class="btn btn-xs btn-default">Open</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+      <!-- Network Tests -->
+        <div class="row">
+          <div class="col-xs-12">
+ 		<div class="panel panel-default">
+		<div class="panel-heading">Network tests</div>
+			<div class="panel-body">
+	<form class="form-inline" id="networktest" action="#results" method="post">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+
+                <div id="hosterror" class="form-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text"  class="form-control" placeholder="Host or IP address">
+                  </div>
+                </div>
+		<div class="form-group">
+		<select name="cmd" class="form-control">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+		</div>
+		<button type="submit" id="submit" name="submit" class="btn btn-success">Run Test</button>
+	            </form>
+        	  </div>
+        	</div>
+
+	      <!-- Results -->
+		<div class="row" id="results" style="display:none">
+		<div class="col-xs-12">
+		<div class="panel panel-default">
+		<div class="panel-heading">Results</div>
+		<div class="panel-body">
+		<pre id="response" style="display:none"></pre>
+		</div>
+		</div>
+		</div>
+		</div>
+
+
+	      <!-- Footer -->
+	<footer class="footer">
+									<p class="pull-right">
+									<a href="#">Back to top</a>
+									</p>
+									</footer>
+    </div>
+ 	<!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

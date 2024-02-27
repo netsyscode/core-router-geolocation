@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>lg.mbix.ca</title>
+<style type='text/css'><!--
+.footer {
+	text-align: left;
+	width: 100%;
+}
+img {
+	border: none;
+	border-width: 0px;
+}
+--></style>
+<style>
+tr:hover {background-color: #f5f5f5;}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+</style>
+</head>
+<body style="text-align: center">
+<div style="margin: 0px auto; text-align: left; width: 800px;">
+<a href="http://www.mbix.ca/">
+<img src="http://www.mbix.ca/wp/wp-content/themes/atahualpa/images/header/header-shrunk.jpg" alt="MBIX"/>
+</a>
+<form action='/cgi-bin/bgplg'>
+<div class="command">
+<select name='cmd'>
+<option value='show ip bgp'>show ip bgp</option>
+<option value='show ip bgp as'>show ip bgp as</option>
+<option value='show ip bgp source-as'>show ip bgp source-as</option>
+<option value='show ip bgp transit-as'>show ip bgp transit-as</option>
+<option value='show ip bgp peer-as'>show ip bgp peer-as</option>
+<option value='show ip bgp empty-as'>show ip bgp empty-as</option>
+<option value='show ip bgp summary'>show ip bgp summary</option>
+<option value='show ip bgp community'>show ip bgp community</option>
+<option value='show ip bgp detail community'>show ip bgp detail community</option>
+<option value='show ip bgp large-community'>show ip bgp large-community</option>
+<option value='show ip bgp detail large-community'>show ip bgp detail large-community</option>
+<option value='show ip bgp detail'>show ip bgp detail</option>
+<option value='show ip bgp detail as'>show ip bgp detail as</option>
+<option value='show ip bgp in'>show ip bgp in</option>
+<option value='show ip bgp out'>show ip bgp out</option>
+<option value='show ip bgp memory'>show ip bgp memory</option>
+<option value='show neighbor'>show neighbor</option>
+<option value='show nexthop'>show nexthop</option>
+<option value='traceroute'>traceroute</option>
+<option value='ping'>ping</option>
+<option value='traceroute6'>traceroute6</option>
+<option value='ping6'>ping6</option>
+<option value='help'>help</option>
+</select>
+<input type='text' value='' name='req'/>
+<input type='submit' value='submit'/>
+</div>
+</form>
+<pre>
+</pre>
+<p><a href="/bgp.html">Additional BGP Community Information</a></p>
+
+<table border=1 width=550 style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Large Community</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A0">16395:9:0</a></td><td>Route is not accepted by Route Server</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A1">16395:9:1</a></td><td>rejected: Invalid AS_PATH length</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A2">16395:9:2</a></td><td>rejected: Bogon Prefix</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A7">16395:9:7</a></td><td>rejected: Bogon ASN in AS_PATH</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A8">16395:9:8</a></td><td>rejected: Transit-free ASN in AS_PATH</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A9">16395:9:9</a></td><td>rejected: Origin ASN not present in AS-SET</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A12">16395:9:12</a></td><td>rejected: Prefix not registered in IRR or ARIN WHOIS</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A9%3A13">16395:9:13</a></td><td>rejected: Invalid Prefix length</td></tr>
+  <tr><td><a href="/cgi-bin/bgplg?cmd=show+ip+bgp+detail+large-community&req=16395%3A11%3A6">16395:11:6</a></td><td>Prefix validated against ARIN WHOIS</td></tr>
+  </tbody>
+</table>
+</div>
+<hr/>
+<div class='footer'>
+</div>
+</body>
+</html>

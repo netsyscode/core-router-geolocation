@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="none" />
+    <title>HostZealot - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="LookingGlass">
+    <meta name="author" content="Telephone">
+
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link rel="tweaks stylesheet"  href="assets/css/tweaks.css">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="">
+               <i>
+                   <img src="https://www.hostzealot.com/logo.png">
+               </i>
+               <span>
+               HostZealot Looking Glass
+               </span>
+            </a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                  <select name="server" class="form">
+                                            <option value="amsnl" selected="">NL - Amsterdam</option>
+                      <option value="hkgcn">CN - Hongkong</option>
+                      <option value="wawpl">PL - Warsaw</option>
+                      <option value="rlzil">IL - Rishon LeZion</option>
+                      <option value="lmscy">CY - Limassol</option>
+                      <option value="tllee">EE - Tallinn</option>
+                      <option value="seaus">US - Seattle</option>
+                      <option value="lonuk">UK - London</option>
+                      <option value="ashus">US - Ashburn</option>
+                      <option value="stkse">SE - Stockholm</option>
+                      <option value="torca">CA - Toronto</option>
+                      <option value="chius">US - Chicago</option>
+                      <option value="tgzge">GE - Tbilisi</option>
+                      <option value="frade">DE - Frankfurt</option>
+                      <option value="brube">BE - Brussels</option>
+                      <option value="dfwus">US - Dallas</option>
+                  </select>
+                <select name="cmd" class="input-medium">
+                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                  <div id="hosterror" class="control-group">
+                      <div class="controls">
+                          <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                      </div>
+                  </div>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="ip">
+         <div class="row">
+            <div class="span12">
+               <div class="well">
+                  Your IP is <b id="userip">166.111.68.233</b>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <div class="span12 download">
+            <div class="well" style="text-align:center;">
+                                <div class="span2" style="margin-left:0;">
+                    <strong style="">
+                        Amsterdam
+                    </strong>
+                    <a href="http://ams-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://ams-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://ams-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Hongkong
+                    </strong>
+                    <a href="http://hkg-speedtest.lg.hostzealot.com/1MB.bin">1MB</a>
+                    <a href="http://hkg-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://hkg-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Warsaw
+                    </strong>
+                    <a href="http://waw-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://waw-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://waw-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Rishon LeZion
+                    </strong>
+                    <a href="http://rlz-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://rlz-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://rlz-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Limassol
+                    </strong>
+                    <a href="http://lms-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://lms-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://lms-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Tallinn
+                    </strong>
+                    <a href="http://tll-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://tll-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://tll-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Seattle
+                    </strong>
+                    <a href="http://sea-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://sea-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://sea-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        London
+                    </strong>
+                    <a href="http://lon-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://lon-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://lon-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Ashburn
+                    </strong>
+                    <a href="http://ash-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://ash-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://ash-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Stockholm
+                    </strong>
+                    <a href="http://stk-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://stk-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://stk-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Toronto
+                    </strong>
+                    <a href="http://tor-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://tor-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://tor-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Chicago
+                    </strong>
+                    <a href="http://chi-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://chi-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://chi-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Tbilisi
+                    </strong>
+                    <a href="http://tgz-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://tgz-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://tgz-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Frankfurt
+                    </strong>
+                    <a href="http://fra-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://fra-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://fra-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Brussels
+                    </strong>
+                    <a href="http://bru-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://bru-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://bru-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Dallas
+                    </strong>
+                    <a href="http://dfw-speedtest.lg.hostzealot.com/10MB.bin">10MB</a>
+                    <a href="http://dfw-speedtest.lg.hostzealot.com/100MB.bin">100MB</a>
+                    <a href="http://dfw-speedtest.lg.hostzealot.com/1GB.bin">1GB</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                var xhr, isSubmitting = false;
+                // onclick, set user IP to input value
+                $('#userip').click(function () {
+                    $('#host').val($('#userip').text());
+                });
+                // form submit
+                $('#networktest').submit(function(e) {
+                    e.preventDefault();
+
+
+                    if ( isSubmitting ) {
+                        isSubmitting = false;
+                        xhr.abort();
+                        window.clearTimeout(timer);
+                        $('section#results').hide(function(){
+                            $('#ip').show()
+                        });
+
+                        $('#submit').text('Run Test');
+                        return
+                    }
+                    $('#response').html('');
+                    // define vars
+                    var host = $('input[name=host]').val();
+                    var server = $('select[name=server]').val();
+                    var data = 'cmd=' + $('select[name=cmd]').val() + '&host=' + host + '&server=' + server;
+                    // quick validation
+                    if (host == '') {
+                        $('#hosterror').addClass('error');
+                    }
+                    // submit form
+                    else {
+                        $('#ip').hide(function(){
+                            $('#results').show()
+                        });
+                        // disable submit button + blank response
+                        $('#submit').text('Cancel');
+                        $('#response').html();
+
+                        // call async request
+                        xhr = new XMLHttpRequest();
+                        xhr.open('POST', 'ajax.php', true);
+                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                        xhr.send(data);
+                        isSubmitting = true;
+                        var timer;
+                        timer = window.setInterval(function() {
+                            // on completion
+                            if (xhr.readyState == XMLHttpRequest.DONE) {
+                                window.clearTimeout(timer);
+                                $('#submit').text('Run Test');
+                                isSubmitting = false;
+                            }
+
+                            // show/hide results
+                            if (xhr.responseText == '') {
+                                $('#response').hide();
+                            } else {
+                                $('#hosterror').removeClass('error');
+                                $('#response, #results').show();
+                            }
+
+                            // output response
+                            if (xhr.responseText == 'Unauthorized request') {
+//                                $('#results').hide();
+                                $('#hosterror').addClass('error');
+                                $('pre#response').html('Bad host or ip address');
+                                isSubmitting = false;
+                            } else {
+                                $('#response').html(xhr.responseText.replace(/<br \/> +/g, '<br />'));
+                            }
+                        }, 500);
+                    }
+                });
+            });
+        </script>
+  </body>
+</html>

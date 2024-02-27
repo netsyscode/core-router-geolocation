@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Core-Backbone Looking Glass - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cbb.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="http://nbg.lg.core-backbone.com">Core-Backbone Looking Glass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <!--<p>Server Location: <b>Nuremberg, Germany</b></p>-->
+              <p>Server Location:
+		<select name="location" id="location">
+				<option value="0" selected="selected">Nuremberg, Germany</option>
+				<option value="1">Frankfurt, Germany</option>
+				<option value="2">Singapore, Singapore</option>
+				<option value="3">Amsterdam, Netherlands</option>
+				<option value="5">New York, USA</option>
+                </select>
+              </p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 83.142.85.226</p>
+                <p>Test IPv6: 2a01:4a0:36::2</p>
+                <p>Test files: <a href="/files/100MB.test" id="testfile">100MB</a> <a href="/files/1000MB.test" id="testfile">1000MB</a> <a href="/files/10000MB.test" id="testfile">10000MB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                $('#location').change(function() {
+                        console.log($(this).val());
+                        switch($(this).val())
+			{
+				case '0':
+					var url = location.protocol+"//nbg.lg.core-backbone.com";
+					location.href=url;
+					break;
+				case '1':
+					var url = location.protocol+"//fra.lg.core-backbone.com";
+					location.href=url;
+					break;
+				case '2':
+					var url = location.protocol+"//sin.lg.core-backbone.com";
+					location.href=url;
+					break;
+				case '3':
+					var url = location.protocol+"//ams.lg.core-backbone.com";
+					location.href=url;
+					break;
+				case '5':
+					var url = location.protocol+"//nyk.lg.core-backbone.com";
+					location.href=url;
+					break;
+                        }
+                });
+        });
+    </script>
+  </body>
+</html>

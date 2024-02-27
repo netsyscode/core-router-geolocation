@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+    <HEAD>
+        <TITLE>EscNet Looking Glass</TITLE>
+        <LINK REL="shortcut icon" HREF="/looking_glass/favicon.ico">
+        <STYLE>
+            img.logo
+            {
+                width:200px;
+                height:44px;
+                background:url(http://www.esc.net.au/img/header/header-sprites.png) 0 0;
+                background-color: rgb(0, 70, 119);
+            }
+        </STYLE>
+            </HEAD>
+    <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+        <TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://looking-glass.esc.net.au/"><IMG class="logo" BORDER="0"></A></TD></TR></TABLE>
+                            <CENTER>
+        <H2>EscNet Looking Glass</H2>
+    </CENTER>
+    <P>
+    <HR SIZE=2 WIDTH="85%" NOSHADE>
+    <P>
+    <FORM id="form" METHOD="POST" ACTION="">
+        <CENTER>
+            <TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+                        <TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+                            <TR>
+                                <TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+                                <TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+                                <TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+                            <TR><TD>
+                                    <TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+                                        <TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+                                        <TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+                                        <TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+                                        <TR><TD><INPUT TYPE="radio" NAME="query" VALUE="traceroute" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+                                        <TR><TD></TD><TD><SELECT NAME="protocol">
+                                                    <OPTION VALUE="IPv4"> IPv4
+                                                    <OPTION VALUE="IPv6"> IPv6
+                                                </SELECT></TD></TR>
+                                    </TABLE>
+                                </TD>
+                                <TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+                                <TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+                                        <OPTION VALUE="EscapeNet AS7600 View">EscapeNet AS7600 View</OPTION>
+                                                                                    <OPTION VALUE="Neighbor 14.102.140.143">Neighbor 14.102.140.143</OPTION>
+                                                                                    <OPTION VALUE="VIC Border">VIC Border</OPTION>
+                                                                                    <OPTION VALUE="SA Border">SA Border</OPTION>
+                                                                            </SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+                            </TR>
+                            <TR><TD ALIGN="CENTER" COLSPAN=3>
+                                    <P>
+                                        <INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+                                        <INPUT TYPE="RESET" VALUE="Reset"> 
+                                    <P>
+                                </TD></TR>
+                        </TABLE>
+                    </TD></TR></TABLE>
+        </CENTER>
+        <P>
+    </FORM>
+            <P>
+        <HR SIZE="2" WIDTH="85%" NOSHADE>
+        <P>
+        <CENTER>
+            <I>
+                Please email questions or comments to
+                <A HREF="mailto:support@esc.net.au">support@esc.net.au</A>
+            </I>
+            <P>
+        </CENTER>
+    </BODY>
+</HTML>

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>NOC</title>
+  <meta name="GENERATOR" content="Quanta Plus">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript" src="js/scripts.js" charset="UTF-8">
+  </script>
+
+</head>
+<body>
+<div style="width: 800px; margin: 0 auto;">
+<h1 style="text-align: center;">NOC.TOMKOW.PL</h1>
+
+<p>Działanie sieci:</p>
+
+<form method="POST" action="/">
+<table style="margin: 0 auto; width: 600px; text-align: center;">
+<TR>
+<TD>Polecenie</TD>
+<TD>Host</TD>
+</TR>
+<TR>
+<TD>
+<select name="cmd">
+<option value="ping">ping</option>
+<option value="trace">traceroute</option>
+</select>
+</TD>
+<TD><input name="host" value=""></TD>
+</TR>
+<tr>
+<TD colspan="2"><input type="submit" value="Wykonaj"></TD>
+</tr>
+</table>
+</form>
+
+ 
+<p>Sprawdź przędkość podczas pobierania pliku z sieci:</p>
+
+<table style="margin: 0 auto; width: 600px; text-align: center;">
+<TR>
+<td>Sieć Tomków:</td>
+<TD>
+<a href="http://speedtest0.tomkow.pl/files/5mb.bin">5mb.bin</a>
+</td>
+<TD>
+<a href="http://speedtest0.tomkow.pl/files/10mb.bin">10mb.bin</a>
+</td>
+<TD>
+<a href="http://speedtest0.tomkow.pl/files/50mb.bin">50mb.bin</a>
+</td>
+<TD>
+<a href="http://speedtest0.tomkow.pl/files/100mb.bin">100mb.bin</a>
+</TD>
+<TD>
+<a href="http://speedtest0.tomkow.pl/files/500mb.bin">500mb.bin</a>
+</TD>
+</TR>
+<TR>
+<td>Sieć ATMAN:</td>
+<TD>
+<a href="ftp://ftp.atman.pl/test1mb.dat">test1mb.dat</a>
+</td>
+<TD>
+<a href="ftp://ftp.atman.pl/test8mb.dat">test8mb.dat</a>
+</td>
+<TD>
+<a href="ftp://ftp.atman.pl/test64mb.dat">test64mb.dat</a>
+</td>
+<TD>
+<a href="ftp://ftp.atman.pl/test256mb.dat">test256mb.dat</a>
+</TD>
+<TD>
+<a href="ftp://ftp.atman.pl/test5gb.dat">test5gb.dat</a>
+</TD>
+</TR>
+<td>Sieć TkTelekom:</td>
+<TD>
+<a href="http://noc.tktelekom.pl/1MB.random">1MB.random</a>
+</td>
+<TD>
+<a href="http://noc.tktelekom.pl/5MB.random">5MB.random</a>
+</td>
+<TD>
+<a href="http://noc.tktelekom.pl/50MB.random">50MB.random</a>
+</td>
+<TD>
+<a href="http://noc.tktelekom.pl/100MB.random">100MB.random</a>
+</TD>
+<TD>
+<a href="http://noc.tktelekom.pl/500MB.random">500MB.random</a>
+</TD>
+</TR>
+</TR>
+<td>Sieć OVH:</td>
+<TD>
+<a href="http://ipv4.proof.ovh.net/files/1Mio.dat">1Mio.dat</a>
+</td>
+<TD>
+<a href="http://ipv4.proof.ovh.net/files/10Mio.dat">10Mio.dat</a>
+</td>
+<TD>
+<a href="http://ipv4.proof.ovh.net/files/100Mio.dat">100Mio.dat</a>
+</td>
+<TD>
+<a href="http://ipv4.proof.ovh.net/files/1Gio.dat">1Gio.dat</a>
+</TD>
+<TD>
+<a href="http://ipv4.proof.ovh.net/files/10Gio.dat">10Gio.dat</a>
+</TD>
+</TR>
+</table>
+
+</div>
+</body>
+</html>

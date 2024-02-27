@@ -1,0 +1,869 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<title> 
+Looking Glass | Wired Blade</title>
+    <meta charset="utf-8">
+	
+	
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="alternate" href="http://www.wiredblade.com/en-US" hreflang="en" />
+	<link rel="alternate" href="http://www.wiredblade.com/fr-FR" hreflang="fr" />
+	<link rel="alternate" href="http://www.wiredblade.com/zh-CN" hreflang="zh" />
+	<link rel="alternate" href="http://www.wiredblade.com" hreflang="x-default" />
+	
+	<meta name="norton-safeweb-site-verification" content="10jaegdvqfneijkovafzpcp6-46svxg0y14d59v4uwm15pr263zn8v6nng8pkv5buu2-sbbv9sq63k1qtdkq2m16s21r1mj5bj4ahcab5zvyp9xgyyztuwm58okddu3h" />
+	<meta name="reply-to" content="support&#64;wiredblade.com">
+	<meta name="Rating" content="General">
+	<meta name="distribution" content="Global">
+	<meta name="Copyright" content="Wired Blade">
+	<meta name="Classification" content="services">
+	<meta name="description" content=" 
+">
+	<meta name="msvalidate.01" content="75F5ECF52C0B34E17FE410D7D0D0C802">
+	<meta property="og:title" content="Wired Blade">
+	<meta property="og:type" content="company">
+	<meta property="og:url" content="http://www.wiredblade.com">
+	<meta property="og:image" content="http://www.wiredblade.com/content/images/logowiredblade.png">
+	<meta property="fb:admins" content="708750180">
+				<meta property="og:site_name" content="Wired Blade - Dedicated Servers">
+		<meta name="keywords" content="dedicated server, dedicated server hosting, dedicated server phoenix, co-location phoenix">
+		<meta name="keywords" content="minecraft server hosting, ubuntu server, windows server, minecraft hosting, ddos protection">
+		<link href="https://plus.google.com/+WiredBlade" rel="publisher" />
+	
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
+	
+	<link href="/bundles/css?v=fZwThgSK2VwsDcPLVpi9IjIo_EphFqvZle6TZ5rW8Jo1" rel="stylesheet"/>
+
+	
+	
+    
+    <!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="https://www.wiredblade.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" sizes="16x16" type="image/png" href="/favicon-16x16.png" />
+	<link rel="icon" sizes="32x32" type="image/png" href="/favicon-32x32.png" />
+	<link rel="icon" sizes="96x96" type="image/png" href="/favicon-96x96.png" />	
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+	
+	
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
+	<meta name="msapplication-TileColor" content="#00aba9"/>
+	
+    <!-- Force jQuery load -->
+	<script>window.jQuery || document.write('<script src="/scripts/jquery-3.5.0.min.js"><\/script>')</script>
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5GJR2R2SE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-X5GJR2R2SE');
+    </script>
+
+				<script type="application/ld+json">
+		{
+		  "@context" : "http://schema.org",
+		  "@type" : "Organization",
+		  "name" : "Dynu",
+		  "url" : "https://www.wiredblade.com",
+		  "sameAs" : [
+		    "https://twitter.com/WiredBlade",
+		    "https://plus.google.com/+WiredBlade",
+		    "https://www.facebook.com/WiredBlade",
+		    "https://foursquare.com/v/wiredblade/57856cc5498ea4781d6e6a38",
+		    "https://www.yelp.com/biz/wired-blade-scottsdale"
+		 ]
+		}
+		</script> 
+
+</head>
+<body class="">
+    
+	
+
+
+<div class="modal fade" id="defaultModal" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div id="defaultModalDialog" class="modal-dialog" style="width: 90%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="defaultModalTitle">
+Dedicated Server                </h4>
+            </div>
+            <div class="modal-body">
+                <div id="defaultModalBody"></div>
+            </div>
+            <div class="modal-footer">
+                <div id="defaultModalFooter"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/en-US/">
+                        <img src="/content/images/logowiredblade.png" alt="Wired Blade" height="60" width="180"><br />
+                        <span class="logo_title hidden-xs">
+                        </span>
+                    </a>
+                    <a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">Menu</span> </a>
+                </div>
+                <div id="sign" style="position:absolute;top:-10px;right: 0px;">
+                    <div class="row">
+                        <div class="col-xs-6 hidden-xs hidden-sm">
+                                <div class="form-group pull-right">
+                                    <form action="https://www.google.com/search" id="search-form" class="pull-right" method="get">
+                                        <div class="input-group manager searchfield">
+                                            <input id="q" name="q" type="search" value="" class="form-control manager searchfield" placeholder="Search">
+                                            <input name="qq" type="hidden" value="">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-xs btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                            </span>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                                <script type="text/javascript">
+										$("#search-form").submit(function( event ) {
+			  								$("#q").val("site:www.wiredblade.com " + $("#q").val());
+										});
+                                </script>
+                        </div>
+                        <div class="col-xs-6 sameline">
+<a href="/en-US/ControlPanel/CreateAccount">Create Account</a>                                <span> | </span>
+<a href="/en-US/ControlPanel/Login">Login</a>                                <span class="sameline hidden-xs hidden-sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+
+	<ul class="nav pull-right navbar-nav navbar-top hidden-xs hidden-sm">    	
+        <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">English<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                    <li><a href="/fr-FR/Support/LookingGlass">Fran&#231;ais</a></li>
+                                    <li><a href="/it-IT/Support/LookingGlass">Italiano</a></li>
+                                    <li><a href="/zh-CN/Support/LookingGlass">中文</a></li>
+            </ul>
+        </li>
+	</ul>
+                        </div>
+                    </div>
+                </div>
+<div class="collapse navbar-collapse"> <!--style="margin-top: 0px;"-->
+    <ul class="nav pull-right navbar-nav">    	
+    	
+			<li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="/en-US/Dedicated-Server">Dedicated Server<span class="caret"></span></a>
+				<ul class="dropdown-menu">					
+				   	<li><a href="/en-US/Dedicated-Server-Phoenix">Main</a></li>
+				   	<li><a href="/en-US/Data-Center">Data Center</a></li>
+                    <li><a href="/en-US/Dedicated-Server-Features">Features</a></li>
+                    <li><a href="/en-US/Dedicated-Servers">Servers</a></li>
+				   	<li><a href="/en-US/ControlPanel/AddDedicatedServer">Configure</a></li>
+				</ul>
+	         </li>    		
+    	        			<li><a href="/en-US/ControlPanel/AddVPS">VPS</a></li>        
+		                				<li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">SERVICES<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/en-US/Colocation-Phoenix">Colocation</a></li>
+						<li><a href="/en-US/Dedicated-Server-Phoenix">Dedicated Server</a></li>
+						<li><a href="/en-US/ControlPanel/AddDomainRegistration">Domains</a></li>
+						<li><a href="/en-US/Email">Email</a></li>
+						<li><a href="/en-US/SSL-Certificate">SSL Certificates</a></li>
+					</ul>
+		        </li>
+		<li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Support<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="/en-US/Support/ContactUs">Contact Us</a></li>
+				<li><a href="/en-US/Resources/FAQ">FAQ</a></li>
+                    <li><a href="/en-US/Support/LookingGlass">Looking Glass</a></li>
+                    <li><a href="/en-US/ControlPanel/NetworkStatus">Network Status</a></li>
+               	<li><a href="/en-US/Resources/Tutorials">Tutorials</a></li>				
+              </ul>
+        </li>
+        
+		<li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources<span class="caret"></span></a>
+		    <ul class="dropdown-menu">
+			    <li><a href="/en-US/Blog">Blog</a></li>
+			    <li><a href="/en-US/NetworkTools">Network Tools</a></li>
+		    </ul>
+        </li>
+    </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+		
+	
+
+<div class="main">
+
+    <!--Toastr-->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "8000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+    });
+
+    function setToastr(informationToastr, successToastr, errorToastr, warningToastr) {
+        if (informationToastr != null && informationToastr != '') { toastr.options.hideDuration = 5000; toastr["info"](informationToastr, "Heads up!"); toastr.options.hideDuration = 1000; }
+        if (successToastr != null && successToastr != '') { toastr["success"](successToastr, "Well done!"); }
+        if (errorToastr != null && errorToastr != '') { toastr["error"](errorToastr, "Oh snap!"); }
+        if (warningToastr != null && warningToastr != '') { toastr.options.hideDuration = 2000; toastr["warning"](warningToastr, "Warning!"); toastr.options.hideDuration = 1000; }
+    }
+
+    function clearToastr() {
+        toastr.clear();
+    }
+
+</script>
+
+
+    <!--Messages-->
+<section>
+	<div class="container">
+		<div id="divInformationMessage" class="alert-info row" style="display:none;">
+		    <div class="col-md-11">
+		        <img src="/content/images/icons/icon-big-information.png" alt="Heads up!" style="margin-top: 0px; margin-left: 0px; padding: 5px; float: left; width: 48px; height: 48px; border: 0;" width="48" height="48" class="absmiddle"> <h5><strong>Heads up!</strong><br/>
+				<span id="divInformationMessageText"> </span></h5>
+		    </div>
+		    <div class="col-md-1 text-center pull-right">
+		        <button type="button" class="close" aria-hidden="true">&times;</button>
+		    </div>
+		</div>	
+		
+		<div id="divSuccessMessage" class="alert-success row" style="display:none;">
+		    <div class="col-md-11">
+		        <img src="/content/images/icons/icon-big-success.png" alt="Well done!" style="margin-top: 0px; margin-left: 0px; padding: 5px; float: left; width: 48px; height: 48px; border: 0;" width="48" height="48" class="absmiddle"> <h5><strong>Well done!</strong><br/>
+				<span id="divSuccessMessageText"> </span></h5>
+		    </div>
+		    <div class="col-md-1 text-center pull-right">
+		        <button type="button" class="close" aria-hidden="true">&times;</button>
+		    </div>
+		</div>	
+		
+		<div id="divErrorMessage" class="alert-error row" style="display:none;">
+		    <div class="col-md-11">
+		        <img src="/content/images/icons/icon-big-error.png" alt="Oh snap!" style="margin-top: 0px; margin-left: 0px; padding: 5px; float: left; width: 48px; height: 48px; border: 0;" width="48" height="48" class="absmiddle"> <h5><strong>Oh snap!</strong><br/>
+				<span id="divErrorMessageText"> </span></h5>
+		    </div>
+		    <div class="col-md-1 text-center pull-right">
+		        <button type="button" class="close" aria-hidden="true">&times;</button>
+		    </div>
+		</div>	
+		
+		<div id="divWarningMessage" class="alert-warning row" style="display:none;">
+		    <div class="col-md-11">
+		        <img src="/content/images/icons/icon-big-warning.png" alt="Warning!" style="margin-top: 0px; margin-left: 0px; padding: 5px; float: left; width: 48px; height: 48px; border: 0;" width="48" height="48" class="absmiddle"> <h5><strong>Warning!</strong><br/>
+				<span id="divWarningMessageText"> </span></h5>
+		    </div>
+		    <div class="col-md-1 text-center pull-right">
+		        <button type="button" class="close" aria-hidden="true">&times;</button>
+		    </div>
+		</div>	
+	</div>
+</section>
+
+
+
+    <!--Breadcrumb-->
+ 
+	<section class="hgroup" style="padding-bottom:20px;">
+	    <div class="container">
+			                <div class="visible-xs">
+                    <h1><img id="HGroupImage" src="/content/images/icons/icon-big-search.png" width="48" height="48" class="absmiddle" alt="Looking Glass">&nbsp;Looking Glass</h1>
+                </div>
+                <div class="hidden-xs">
+                    <h1><img id="HGroupImage" src="/content/images/icons/icon-big-search.png" width="64" height="64" class="absmiddle" alt="Looking Glass">&nbsp;&nbsp;Looking Glass</h1>
+                </div>
+	        	        	<div class="hidden-xs">
+		        	<ul id="breadCrumb" class="breadcrumb pull-right">
+	        			<li><a id="LinkHomeBreadcrumb" href="/">Home</a></li><li><a id="LinkSupportBreadcrumb" href=/en-US/Support>Support</a></li><li class=active>Looking Glass</li>
+	    			</ul>
+    			</div>
+	        	<div class="visible-xs">
+		        	<ul id="breadCrumbxs" class="breadcrumb pull-right">
+<li><a id="LinkXSSupportBreadcrumb" href=/en-US/Support>Support</a></li><li class=active>Looking Glass</li>	    			</ul>
+    			</div>
+	    </div>
+	</section>
+
+
+    <!--Alerts-->
+<section>
+    
+    <div class="container" style="position: absolute; top: 60px; left: 50%; width: 800px; z-index: 999; margin: -50px 0 0 -400px; ">
+    	
+		<div id="divInformationAlert" style="display: none;" class="alert alert-info alert-dismissable"> <a onclick="$('#divInformationAlert').hide();" class="close">×</a> <h5><img src="/content/images/icons/icon-big-information.png" alt="Heads up!" style="margin-top: -10px; margin-left: -10px; padding: 5px; float: left; width: 64px; height: 64px;" width="64" height="64" class="absmiddle"> <strong>Heads up!</strong> <span id="divInformationAlertText">    </span></h5> </div>
+
+		<div id="divSuccessAlert" style="display: none;" class="alert alert-success alert-dismissable"> <a onclick="$('#divSuccessAlert').hide();" class="close">×</a> <h5><img src="/content/images/icons/icon-big-success.png" alt="Well done!" style="margin-top: -10px; margin-left: -10px; padding: 5px; float: left; width: 64px; height: 64px;" width="64" height="64" class="absmiddle"> <strong>Well done!</strong> <span id="divSuccessAlertText">    </span></h5> </div>
+		
+		<div id="divErrorAlert" style="display: none;" class="alert alert-error alert-dismissable"> <a onclick="$('#divErrorAlert').hide();" class="close">×</a> <h5><img src="/content/images/icons/icon-big-error.png" alt="Oh snap!" style="margin-top: -10px; margin-left: -10px; padding: 5px; float: left; width: 64px; height: 64px;" width="64" height="64" class="absmiddle"> <strong>Oh snap!</strong> <span id="divErrorAlertText">    </span></h5> </div>
+		
+		<div id="divWarningAlert" style="display: none;" class="alert alert-warning alert-dismissable"> <a onclick="$('#divWarningAlert').hide();" class="close">×</a> <h5><img src="/content/images/icons/icon-big-warning.png" alt="Warning!" style="margin-top: -10px; margin-left: -10px; padding: 5px; float: left; width: 64px; height: 64px;" width="64" height="64" class="absmiddle"> <strong>Warning!</strong> <span id="divWarningAlertText">    </span></h5> </div>
+
+	</div>
+	
+</section>
+
+
+
+
+    
+
+
+<!--Busy Indicator-->
+<div id="divBusy" class="divBusy"></div>
+	
+<section>
+	<div class="container">
+	
+<form action="" class="submitOnce" data-ajax="true" data-ajax-loading="#divBusy" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="onSuccess" data-ajax-update="#formBody" id="mainForm" method="post">				<div id="formBody">
+					
+					
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+    	
+		if('' != '' || '' != '') { $('#divInformationAlert').show(); $('#divInformationAlertText').html(' '); } else { $('#divInformationAlert').hide(); }
+		if('' != '' || '' != '') { $('#divSuccessAlert').show(); $('#divSuccessAlertText').html(' '); } else { $('#divSuccessAlert').hide(); }
+		if('' != '' || '' != '') { $('#divErrorAlert').show(); $('#divErrorAlertText').html(' '); } else { $('#divErrorAlert').hide(); }
+		if('' != '' || '' != '') { $('#divWarningAlert').show(); $('#divWarningAlertText').html(' '); } else { $('#divWarningAlert').hide(); }
+		
+		setTimeout(function(){
+			
+			$('#divSuccessAlert').delay(10000).fadeOut(200);
+			$('#divErrorAlert').delay(10000).fadeOut(200);
+			$('#divWarningAlert').delay(10000).fadeOut(200);			
+		}, 5000);
+
+		setToastr('', '', '', '');
+
+	});
+	
+    function clearAlerts() {
+        $('#divInformationAlert').hide();
+        $('#divInformationAlertText').html('');
+        $('#divSuccessAlert').hide();
+        $('#divSuccessAlertText').html('');
+        $('#divErrorAlert').hide();
+        $('#divErrorAlertText').html('');
+        $('#divWarningAlert').hide();
+        $('#divWarningAlertText').html('');
+    }
+
+    function setTimeoutAlerts() {
+        setTimeout(function () {
+            $('#divInformationAlert').delay(10000).fadeOut(200);
+            $('#divSuccessAlert').delay(10000).fadeOut(200);
+            $('#divErrorAlert').delay(10000).fadeOut(200);
+            $('#divWarningAlert').delay(10000).fadeOut(200);
+        }, 5000);
+    }
+
+    function setAlerts(informationAlert, successAlert, errorAlert, warningAlert) {
+        if (informationAlert != null && informationAlert != '') { $('#divInformationAlertText').html(informationAlert); $('#divInformationAlert').show(); }
+        if (successAlert != null && successAlert != '') { $('#divSuccessAlertText').html(successAlert); $('#divSuccessAlert').show(); }
+        if (errorAlert != null && errorAlert != '') { $('#divErrorAlertText').html(errorAlert); $('#divErrorAlert').show(); }
+        if (warningAlert != null && warningAlert != '') { $('#divWarningAlertText').html(warningAlert); $('#divWarningAlert').show(); }
+
+        if ((informationAlert != null && informationAlert != '') || (successAlert != null && successAlert != '') || (errorAlert != null && errorAlert != '') || (warningAlert != null && warningAlert != '')) { setTimeoutAlerts(); }
+    }
+	
+</script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+    
+        if('' != '' || '' != '') { $('#divInformationMessage').show(); $('#divInformationMessageText').html(''); } else { $('#divInformationMessage').hide(); }
+		if('' != '' || '' != '') { $('#divSuccessMessage').show(); $('#divSuccessMessageText').html(''); } else { $('#divSuccessMessage').hide(); }
+		if('' != '' || '' != '') { $('#divErrorMessage').show(); $('#divErrorMessageText').html(''); } else { $('#divErrorMessage').hide(); }
+		if('' != '' || '' != '') { $('#divWarningMessage').show(); $('#divWarningMessageText').html(''); } else { $('#divWarningMessage').hide(); }
+    	
+    	
+    	
+        setTimeout(function () {
+            $('#divSuccessMessage').delay(10000).fadeOut(200);
+            $('#divErrorMessage').delay(10000).fadeOut(200);
+            $('#divWarningMessage').delay(10000).fadeOut(200);
+        }, 5000);
+    });
+    
+    function clearMessages() {
+        $('#divInformationMessage').hide();
+        $('#divInformationMessageText').html('');
+        $('#divSuccessMessage').hide();
+        $('#divSuccessMessageText').html('');
+        $('#divErrorMessage').hide();
+        $('#divErrorMessageText').html('');
+        $('#divWarningMessage').hide();
+        $('#divWarningMessageText').html('');
+    }
+
+    function setTimeoutMessages() {
+        setTimeout(function () {
+            $('#divInformationMessage').delay(10000).fadeOut(200);
+            $('#divSuccessMessage').delay(10000).fadeOut(200);
+            $('#divErrorMessage').delay(10000).fadeOut(200);
+            $('#divWarningMessage').delay(10000).fadeOut(200);
+        }, 5000);
+    }
+
+    function setMessages(informationMessage, successMessage, errorMessage, warningMessage) {
+        
+        if (informationMessage != null && informationMessage != '') { $('#divInformationMessageText').html(informationMessage); $('#divInformationMessage').show(); }
+        if (successMessage != null && successMessage != '') { $('#divSuccessMessageText').html(successMessage); $('#divSuccessMessage').show(); }
+        if (errorMessage != null && errorMessage != '') { $('#divErrorMessageText').html(errorMessage); $('#divErrorMessage').show(); }
+        if (warningMessage != null && warningMessage != '') { $('#divWarningMessageText').html(warningMessage); $('#divWarningMessage').show(); }
+
+        if ((informationMessage != null && informationMessage != '') || (successMessage != null && successMessage != '') || (errorMessage != null && errorMessage != '') || (warningMessage != null && warningMessage != '')) { setTimeoutMessages(); }
+    }
+
+    $("#divInformationMessage .close").on("click", function () {
+        $("#divInformationMessage").hide();
+        $('#divInformationMessageText').html('');
+    });
+
+    $("#divSuccessMessage .close").on("click", function () {
+        $("#divSuccessMessage").hide();
+        $('#divSuccessMessageText').html('');
+    });
+
+    $("#divErrorMessage .close").on("click", function () {
+        $("#divErrorMessage").hide();
+        $('#divErrorMessageText').html('');
+    });
+
+    $("#divWarningMessage .close").on("click", function () {
+        $("#divWarningMessage").hide();
+        $('#divWarningMessageText').html('');
+    });
+
+
+</script>
+
+
+<section>
+    <div class="container" id="LookingGlassContainer">
+
+        <div class="row">
+
+            <div class="col-xs-12">
+
+                <div class="well" id="LookingGlassWell">
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="text-center"><h3>Your IP address is <a href="#" alt="Use as input" class="label label-primary" onClick="setFieldValue('Host', '164.70.99.9');">164.70.99.9</a></h3></div>
+                        </div>
+                    </div>
+
+                    <div id="ResultRow" class="row hidden">
+                        <div class="hidden-xs col-md-2"></div>
+                        <div class="col-xs-12 col-md-8">
+                            <br />
+                            <text><pre><div id="ResultDiv"></div></pre></text>
+                        </div>
+                        <div class="hidden-xs col-md-2"></div>
+                    </div>
+
+                    <br />
+                    <div class="row">
+
+                        <div class="hidden-xs col-md-3"></div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="editor-label">
+                                <label for="Host">Hostname or IP Address</label>
+                            </div>
+                            <div class="editor-field">
+                                <input class="form-control" data-val="true" data-val-regex="Please enter a valid IP address or hostname." data-val-regex-pattern="^(^(?=.{1,254}$)[\w\d_\-]{1,63}(\.[\w\d_\-]{1,63})*$)|(((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?)|((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))$" data-val-required="The Hostname or IP Address field is required." id="Host" name="Host" placeholder="Hostname or IP Address" type="text" value="164.70.99.9" />
+                                <span class="field-validation-valid" data-valmsg-for="Host" data-valmsg-replace="true" style="color:red;!important"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="editor-label">
+                                <label for="Test">Test</label>
+                            </div>
+                            <div class="editor-field">
+                                <select class="form-control lookingglass" data-val="true" data-val-required="The Test field is required." id="Test" name="Test"><option selected="selected" value="PING">Ping</option>
+<option value="TRACEROUTE">Traceroute</option>
+</select>
+                                <span class="field-validation-valid" data-valmsg-for="Test" data-valmsg-replace="true" style="color:red;!important"></span>
+                            </div>
+                        </div>
+
+                        <div class="hidden-xs col-md-3"></div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="hidden-xs col-md-3"></div>
+                        <div class="col-xs-12 col-md-6">
+                            <button id="RunTestButton" name="RunTestButton" data-dismiss="modal" class="btn btn-success btn-sm" type="button" value="Run Test"><span class="glyphicon glyphicon-cog"></span> Run Test</button>
+                            <button id="CancelButton" name="CancelButton" data-dismiss="modal" class="btn btn-warning btn-sm" type="button" value="Cancel"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                        </div>
+                        <div class="hidden-xs col-md-3"></div>
+                    </div>
+
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="hidden-xs col-md-3"></div>
+                        <div class="col-xs-12 col-md-6">
+                            <h3><img class="whitebuilding large absmiddle" alt="AS398019" src="/content/images/icons/icon-big-whitebuilding.png" />&nbsp;AS398019</h3><br />
+                            <img class="flag  medium" alt="Test IPv4 Address" src="/content/images/icons/icon-big-flag.png" />&nbsp;<strong>Test IPv4 Address:</strong> 162.216.242.193<br />
+                            <img class="flag  medium" alt="Test IPv6 Address" src="/content/images/icons/icon-big-flag.png" />&nbsp;<strong>Test IPv6 Address:</strong> 2602:ff23:0:8888::1<br />
+                            <img class="worldmapwithpointer  medium" alt="Server Location" src="/content/images/icons/icon-big-worldmapwithpointer.png" />&nbsp;<strong>Server Location:</strong> Phoenix, AZ<br />
+                            <img class="filesharing  medium" alt="Test Files" src="/content/images/icons/icon-big-filesharing.png" />&nbsp;<strong>Test Files:</strong> <a href="http://162.216.242.209/100.test" title="100MB Test File">100.test</a> <a href="http://162.216.242.209/1000.test" title="1000MB Test File">1000.test</a><br />
+                        </div>
+                        <div class="hidden-xs col-md-3"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<script>
+    $(function () {
+
+        var networkTools = $.connection.networkToolsHub;
+
+        networkTools.client.clearTracertResultForClient = function () {
+            // Clear the tracert results on the page.
+            $('#ResultDiv').empty();
+        };
+
+        networkTools.client.addNewTracertResultForClient = function (result) {
+            // Add to tracert result to the page.
+            $('#ResultDiv').append(htmlEncode(result) + '<br/>');
+        };
+
+        networkTools.client.clearPingResultForClient = function () {
+            // Clear the ping results on the page.
+            $('#ResultDiv').empty();
+        };
+
+        networkTools.client.addNewPingResultForClient = function (result) {
+            // Add to ping result to the page.
+            $('#ResultDiv').append(htmlEncode(result) + '<br/>');
+        };
+
+        $.connection.hub.start().done(function () {
+
+            $('#Host').keydown(function(event) {
+		        if (event.keyCode == 13) {
+                    if ($('#Host').hasClass('input-validation-error')) {
+                        return false;
+                    }
+		        	$('#ResultDiv').val('').focus();
+		        	$('#ResultRow').removeClass('hidden');
+		        	if ($("#Test").val() === 'PING') {
+                        networkTools.server.ping($('#Host').val(), $.connection.hub.id, 'en-US');
+                    }
+                    if ($("#Test").val() === 'TRACEROUTE') {
+                        networkTools.server.tracert($('#Host').val(), 30, 5000, $.connection.hub.id, 'en-US');
+                    }
+		        	event.preventDefault();
+					return false;
+				}
+            });
+
+            $('.lookingglass').keydown(function (event) {
+                if (event.keyCode == 13) {
+                    if ($('#Host').hasClass('input-validation-error')) {
+                        return false;
+                    }
+		        	$('#ResultDiv').val('').focus();
+                    $('#ResultRow').removeClass('hidden');
+                    if ($("#Test").val() === 'PING') {
+                        networkTools.server.ping($('#Host').val(), $.connection.hub.id, 'en-US');
+                    }
+                    if ($("#Test").val() === 'TRACEROUTE') {
+                        networkTools.server.tracert($('#Host').val(), 30, 5000, $.connection.hub.id, 'en-US');
+                    }
+		        	event.preventDefault();
+					return false;
+				}
+            });
+
+	    	$('#RunTestButton').click(function() {
+                if ($('#Host').hasClass('input-validation-error')) {
+                    return false;
+                }
+	    		$('#ResultDiv').val('').focus();
+                $('#ResultRow').removeClass('hidden');
+                if ($("#Test").val() === 'PING') {
+                    networkTools.server.ping($('#Host').val(), $.connection.hub.id, 'en-US');
+                }
+                if ($("#Test").val() === 'TRACEROUTE') {
+                    networkTools.server.tracert($('#Host').val(), 30, 5000, $.connection.hub.id, 'en-US');
+                }
+	    		event.preventDefault();
+	    		return false;
+            });
+
+            $('#CancelButton').click(function () {
+                window.location = '/en-US/Support';
+            });
+
+        });
+
+    });
+
+    function htmlEncode(value) {
+        var encodedValue = $('<div />').text(value).html();
+        return encodedValue;
+    }
+</script>			
+					
+				</div>					
+</form>				
+	</div>
+</section>	 
+	
+
+
+<script type="text/javascript">
+  
+	$(document).ready(function() {
+		
+			LoadGlobalization('en', 'https://www.wiredblade.com');		
+
+	} );  
+    
+</script>
+
+    <footer>
+        <section class="twitter_feed_wrapper">
+            <div class="container">
+<div class="row text-center">
+  <h3>Designed for everyone, everywhere</h3>
+  <br/>
+  Our services are easy to use and meant to enhance convenience. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
+  <br/>
+  <br/>
+</div>
+
+
+            </div>
+        </section>
+        <section id="footer_teasers_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_teaser col-sm-4 col-md-4">
+                        <h3>News</h3>
+                                                                            <a class="twitter-timeline" data-height="300" data-theme="dark" href="https://twitter.com/WiredBlade">Tweets by WiredBlade</a>
+                            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div class="footer_teaser col-sm-4 col-md-4">
+                        <h3>About us</h3>
+                        <p>Since 1997, we have been committed to providing innovative services along with rich features. It&#39;s about what you need to do and achieve. We are honored to be your partners along the way. Proudly based in Arizona, USA!</p>
+                        <br />
+<p><i class="fa fa-phone"></i> 1-602-904-5357</p>                        <p><i class="fa fa-envelope"></i> info@wiredblade.com </p>
+                        
+                        <br />
+                        <p class="text-center"> <a href="/en-US/Legal/TermsOfUse">Terms of Use</a> | <a href="/en-US/Legal/PrivacyPolicy">Privacy Policy</a> | <a href="/en-US/Legal/ReportAbuse">Report Abuse</a></p>
+                        <br />
+                        <div class="text-center"><img alt="We accept major credit cards and Bitcoin!" src="/content/images/paymentmethods.png" width="238" height="64" class="paymentmethods"></div>
+                        <br />
+                    </div>
+                    <div class="footer_teaser col-sm-4 col-md-4">
+                        <h3>Share this page</h3>
+                        <p>Get the word out. Share this page with your colleagues, friends and family.</p>
+                        <br />
+                                                                            <div class="row">
+                                <div class="col-xs-4">
+                                    <a href="https://www.facebook.com/WiredBlade" target="_blank"><img alt="Keep in touch with us on Facebook" src="/content/images/facebook.png" width="64" height="64"></a>
+                                </div>
+                                <div class="col-xs-4">
+                                    <a href="https://www.twitter.com/WiredBlade" target="_blank"><img alt="Follow us on Twitter" src="/content/images/twitter.png" width="64" height="64"></a>
+                                </div>
+                                <div class="col-xs-4">
+                                    <a href="https://plus.google.com/+WiredBlade" target="_blank"><img alt="Look us up on Google Plus" src="/content/images/google.png" width="64" height="64"></a>
+                                </div>
+                            </div>
+
+                        <br />
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-5">
+                                SERVICES<br />
+                                <br />
+                                    <a href="/en-US/Colocation-Phoenix"><small>Colocation</small></a><br />
+                                    <a href="/en-US/Dedicated-Server-Phoenix"><small>Dedicated Server</small></a><br />
+                                    <a href="/en-US/ControlPanel/AddDomainRegistration"><small>Domain Registration</small></a><br />
+                                    <a href="/en-US/Email"><small>Email Service</small></a><br />
+                                    <a href="/en-US/ControlPanel/AddVPS"><small><text>VPS</text></small></a><br />
+                            </div>
+                            <div class="col-xs-4">
+                                RESOURCES<br />
+                                <br />
+                                <a href="/en-US/Resources/API"><small>API</small></a><br />
+                                    <a href="/en-US/Blog"><small>Blog</small></a><br />
+                                <a href="/en-US/Resources/Tutorials"><small>Tutorials</small></a><br />
+                                <a href="/en-US/NetworkTools"><small>Network Tools</small></a><br />
+                            </div>
+                            <div class="col-xs-3">
+                                HELP<br />
+                                <br />
+                                <a href="/en-US/Support/ContactUs"><small>Contact</small></a><br />
+                                <a href="/en-US/Resources/FAQ"><small>FAQ</small></a><br />
+                                <a href="/en-US/Support"><small>Support</small></a><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-8"> <h5>Copyright &#169; 1997-2023 Wired Blade, Inc. All rights reserved.</h5> </div>
+                    <div class="text-right col-sm-4 col-md-4">Version 3.30.8748.31936</div>
+                </div>
+            </div>
+        </section>        
+    </footer>
+
+</div>
+<div class="partialContentsCart" data-url="/en-US/ControlPanel/PartialCart?sourceController=support&amp;sourceAction=lookingglass">
+	<div class="text-center">
+					Loading...
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	// Code to load partial views asynchronously
+	$(document).ready(function() {
+	
+	    $(".partialContentsCart").each(function(index, item) {
+			// locate each partial section
+			// if it has a URL set, load the contents into the area
+			var url = $(item).data("url");
+			
+			if (url && url.length > 0) {
+			
+		    	//$(item).load(url);
+		    	
+				var xhr = $.ajax({
+	            	url: url,
+	            	success: function(data) {
+	              		$(item).html(data);
+	            	}
+	          	});
+	          	
+				//$(document).click(function () {
+				//    if (xhr) {
+				//       xhr.abort();
+				//    }
+	          	//});
+
+	          	//$(window).bind("beforeunload", function (event) {
+	          	//    if (xhr) {
+	          	//        xhr.abort();
+	          	//    }
+	          	//});
+		  	}
+		});
+	
+	});
+
+</script>
+
+
+<script type="text/javascript">
+
+	var redirectTimer;
+
+    $(document).ready(function () {
+
+        $('#defaultModal').on('hidden.bs.modal', function () {
+    		cleanBootstrapDialog();
+		});
+
+		StartRedirectTimer();
+
+	} );
+
+	
+
+	function StartRedirectTimer() {
+		redirectTimer = setTimeout("RedirectToHomepage()", 3600000);
+	}
+
+	function RedirectToHomepage() {
+		clearTimeout(redirectTimer);
+		window.location = '/en-US/';
+	}
+
+</script>
+
+
+		
+	<script src="/bundles/javascript?v=ck4YTfOUXpm5KmRzRuZRu1m_Mqd0l0KDcT3B5k6bXA81"></script>
+
+	
+	
+
+    
+		
+        <script src="https://www.wiredblade.com/signalr/hubs"></script>
+
+	
+
+
+	
+</body>
+</html>

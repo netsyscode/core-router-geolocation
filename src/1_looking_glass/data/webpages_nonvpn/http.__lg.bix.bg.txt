@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>BIX.BG (AS15669) Looking Glass</TITLE>
+<meta NAME="description" CONTENT="BIX.BG e §á§ì§â§Ó§Ú§ñ§ä §Ò§ì§Ý§Ô§Ñ§â§ã§Ü§Ú §ß§Ö§å§ä§â§Ñ§Ý§Ö§ß Internet eXchange Point (IXP). §¬§ì§Þ BIX.BG §ã§Ö §ã§Ó§ì§â§Ù§Ó§Ñ§ä §ß§Ñ §Ó§Ú§ã§à§Ü§Ñ §ã§Ü§à§â§à§ã§ä (1GE/10GE/40GE/100GE) §Ú§ß§ä§Ö§â§ß§Ö§ä §Õ§à§ã§ä§Ñ§Ó§é§Ú§è§Ú §Ú §Õ§â§å§Ô§Ú §Ü§à§Þ§á§Ñ§ß§Ú§Ú, §Ù§Ñ §Ü§à§Ú§ä§à §ª§ß§ä§Ö§â§ß§Ö§ä §Ö §ã§â§Ö§Õ§Ñ §Ù§Ñ §á§â§Ñ§Ó§Ö§ß§Ö §ß§Ñ §Ò§Ú§Ù§ß§Ö§ã.">
+<meta NAME="keywords" CONTENT="Bulgarian Internet eXchange, BIX, BIX.BG, IXP, IXP.BG, Bulgaria, Sofia, Eastern Europe, Balkan, East Europe, Internet, Exchange, shared network, Looking Glass, AS15669, §¢§ì§Ý§Ô§Ñ§â§ã§Ü§Ú §ª§ß§ä§Ö§â§ß§Ö§ä §¦§Ü§ã§é§Ö§Û§ß§Õ§Ø, §ª§ß§ä§Ö§â§ß§Ö§ä, §³§à§æ§Ú§ñ, §¢§ì§Ý§Ô§Ñ§â§Ú§ñ, §¢§ª§¬§³.§¢§¤">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<div id="overDiv" style="position:absolute; visibility:hide; z-index:1;"></div>
+<script LANGUAGE="JavaScript" SRC="/overlib.js"></script>
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.bix.bg"><IMG SRC="/BIX_LOGO_Website.svg"" BORDER="0" ALT="bix_logo" width="228" height="170"></A></TD></TR></TABLE>
+<CENTER>
+<H2><font color="#0066CC" face="Arial, Helvetica, sans-serif">BIX.BG (AS15669) Looking Glass</font></H2>
+</CENTER>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<FORM METHOD="GET" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#E6E6E6"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR bgcolor="#5195CE">
+<TH NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH>
+</TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" CHECKED></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="received-routes"></TD><TD>&nbsp;bgp&nbsp;received-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgpcommunity"></TD><TD>&nbsp;bgp&nbsp;community</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;bgp&nbsp;regex</TD></TR>
+<!--
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;traceroute</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+-->
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTION VALUE="rs1.bix.bg (IPv4)"> rs1.bix.bg (IPv4)
+<OPTION VALUE="rs2.bix.bg (IPv4)"> rs2.bix.bg (IPv4)
+<OPTION VALUE="rs1.bix.bg (IPv6)"> rs1.bix.bg (IPv6)
+<OPTION VALUE="rs2.bix.bg (IPv6)"> rs2.bix.bg (IPv6)
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><div align="center"><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></div></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@bix.bg">noc@bix.bg</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

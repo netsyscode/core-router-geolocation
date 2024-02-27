@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<link href="/main.css" type="text/css" rel="stylesheet" media="screen" /><TITLE>Tata Communications AS6453 IPv4 and IPv6 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.tatacommunications.com/"><IMG SRC="/images/tata-logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<div id="overDiv" style="position:absolute; visibility:hide; z-index:1;">
+</div>
+<script LANGUAGE="JavaScript" SRC="/overlib.js"></script>
+<CENTER>
+<H2><A HREF=/lg/>Tata Communications AS6453 IPv4 and IPv6 Looking Glass</A></H2>
+</CENTER>
+<P>
+<P>
+<FORM METHOD="POST" ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#1968b3" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#1968b3" NOWRAP><FONT COLOR="#FFFFFF">Parameter</FONT></th>
+<TH BGCOLOR="#1968b3" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<!--
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+-->
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30" VALUE="166.111.68.233"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTION VALUE="gin-jn1-thar1"> AU, Melbourne, JN1
+<OPTION VALUE=>---
+<OPTION VALUE="gin-wi4-hcore1"> AT, Vienna, WI4
+<OPTION VALUE="gin-0pp-tcore1"> AU, Sydney, 0PP
+<OPTION VALUE="gin-1mh-thar1"> AU, Sydney, 1MH
+<OPTION VALUE="gin-jn1-thar1"> AU, Melbourne, JN1
+<OPTION VALUE="gin-m3h-thar1"> AU, Sydney, M3H
+<OPTION VALUE="gin-b1d-thar1"> BE, Brussels, B1D
+<OPTION VALUE="gin-so1-hcore1"> BG, Sofia, SO1
+<OPTION VALUE="gin-ebah1-tcore1"> BH, Bahrain, EBAH1
+<OPTION VALUE="gin-asaoa-thar1"> BR, Sao-Paulo, ASAOA
+<OPTION VALUE="gin-asaob-thar1"> BR, Sao-Paulo, ASAOB
+<OPTION VALUE="gin-a0met-thar1"> CA, Montreal, A0MET
+<OPTION VALUE="gin-lau-thar1"> CA, Laurentides, LAU
+<OPTION VALUE="gin-mtt-tcore1"> CA, Montreal, MTT
+<OPTION VALUE="gin-tnk-tcore1"> CA, Toronto, TNK
+<OPTION VALUE="gin-ttt-tcore1"> CA, Toronto, TTT
+<OPTION VALUE="gin-vcw-thar1"> CA, Vancouver, VCW
+<OPTION VALUE="gin-w6c-ecore1"> CA, Montreal, W6C
+<OPTION VALUE="gin-z3z-hcore1"> CH, Zurich, Z3Z
+<OPTION VALUE="gin-bogt7-tcore1"> CO, Bogota, BOGT7
+<OPTION VALUE="gin-eprg1-thar1"> CZ, Prague, EPRG1
+<OPTION VALUE="gin-f2c-thar1"> DE, Frankfurt, F2C
+<OPTION VALUE="gin-fnm-tcore1"> DE, Frankfurt, FNM
+<OPTION VALUE="gin-fr0-tcore1"> DE, Frankfurt, FR0
+<OPTION VALUE="gin-fr1-thar1"> DE, Frankfurt, FR1
+<OPTION VALUE="gin-acpha-thar1"> DK, Copenhagen, ACPHA
+<OPTION VALUE="gin-bjz-tcore1"> ES, Barcelona, BJZ
+<OPTION VALUE="gin-dvs-ecore1"> ES, Bilbao, DVS
+<OPTION VALUE="gin-emad0-ecore1"> ES, Madrid, EMAD0
+<OPTION VALUE="gin-mdo-thar1"> ES, Madrid, MDO
+<OPTION VALUE="gin-mx2-hcore1"> ES, Madrid, MX2
+<OPTION VALUE="gin-wv6-tcore1"> ES, Madrid, WV6
+<OPTION VALUE="gin-emrs2-thar1"> FR, Marseille, EMRS2
+<OPTION VALUE="gin-pg1-tcore1"> FR, Paris, PG1
+<OPTION VALUE="gin-pv0-thar1"> FR, Paris, PV0
+<OPTION VALUE="gin-pvu-tcore1"> FR, Paris, PVU
+<OPTION VALUE="gin-pye-tcore1"> FR, Paris, PYE
+<OPTION VALUE="gin-hw1-thar2"> GB, High Wycombe, HW1
+<OPTION VALUE="gin-l78-tcore1"> GB, London, L78
+<OPTION VALUE="gin-ld5-thar2"> GB, Slough, LD5
+<OPTION VALUE="gin-ldn-tcore1"> GB, London, LDN
+<OPTION VALUE="gin-lrs-thar1"> GB, London, LRS
+<OPTION VALUE="gin-lrt-thar1"> GB, London, LRT
+<OPTION VALUE="gin-ly9-thar1"> GB, London, LY9
+<OPTION VALUE="gin-sv8-tcore1"> GB, Highbridge, SV8
+<OPTION VALUE="gin-pv4-thar1"> GU, Piti, PV4
+<OPTION VALUE="gin-h71-ecore1"> HK, Hong Kong, H71
+<OPTION VALUE="gin-h81-thar1"> HK, Hong Kong, H81
+<OPTION VALUE="gin-hk2-tcore1"> HK, Hong Kong, HK2
+<OPTION VALUE="gin-ehb-hcore1"> HU, Budapest, EHB
+<OPTION VALUE="gin-edub1-thar1"> IE, Dublin, EDUB1
+<OPTION VALUE="gin-cxr-tcore1"> IN, Chennai, CXR
+<OPTION VALUE="gin-egop1-ecore1"> IN, Gorakhpur, EGOP1
+<OPTION VALUE="gin-klk-ecore1"> IN, Kolkata, KLK
+<OPTION VALUE="gin-mlv-tcore1"> IN, Mumbai, MLV
+<OPTION VALUE="gin-itm-ecore1"> IT, Milan, ITM
+<OPTION VALUE="gin-mlt-hcore3"> IT, Milan, MLT
+<OPTION VALUE="gin-rct-thar1"> IT, Rome, RCT
+<OPTION VALUE="gin-wi3-thar1"> IT, Milan, WI3
+<OPTION VALUE="gin-av3-tcore1"> JP, Toyohashi, AV3
+<OPTION VALUE="gin-e14-thar1"> JP, Osaka, E14
+<OPTION VALUE="gin-kv8-hcore1"> JP, Chiba, KV8
+<OPTION VALUE="gin-ovc-hcore1"> JP, Tokyo, OVC
+<OPTION VALUE="gin-tv2-tcore1"> JP, Tokyo, TV2
+<OPTION VALUE="gin-aseoa-ecore1"> KR, Seoul, ASEOA
+<OPTION VALUE="gin-a062l-tcore1"> KZ, Uralsk, A062L
+<OPTION VALUE="gin-lx0-hcore1"> LU, Luxembourg, LX0
+<OPTION VALUE="gin-ecbj1-ecore1"> MY, Cyberjaya, ECBJ1
+<OPTION VALUE="gin-kt1-tcore2"> MY, Kuala Lumpur, KT1
+<OPTION VALUE="gin-ad1-tcore1"> NL, Amsterdam, AD1
+<OPTION VALUE="gin-av2-tcore1"> NL, Amsterdam, AV2
+<OPTION VALUE="gin-hnn-thar1"> NL, Haarlem, HNN
+<OPTION VALUE="gin-os1-hcore3"> NO, Oslo, OS1
+<OPTION VALUE="gin-qby-thar1"> PH, Manila, QBY
+<OPTION VALUE="gin-w1t-tcore1"> PL, Warsaw, W1T
+<OPTION VALUE="gin-wzn-hcore1"> PL, Warsaw, WZN
+<OPTION VALUE="gin-pv9-tcore1"> PT, Lisbon, PV9
+<OPTION VALUE="gin-sz5-tcore1"> PT, Seixal, SZ5
+<OPTION VALUE="gin-bu0-ecore1"> RO, Bucharest, BU0
+<OPTION VALUE="gin-1m9-hcore1"> RU, Moscow, 1M9
+<OPTION VALUE="gin-jsd-tcore1"> SA, Jeddah, JSD
+<OPTION VALUE="gin-stk-hcore1"> SE, Stockholm, STK
+<OPTION VALUE="gin-40b-thar1"> SG, Singapore, 40B
+<OPTION VALUE="gin-asina-tcore1"> SG, Singapore, ASINA
+<OPTION VALUE="gin-esin4-ecore1"> SG, Singapore, ESIN4
+<OPTION VALUE="gin-ih4-tcore1"> SG, Singapore, IH4
+<OPTION VALUE="gin-svq-thar1"> SG, Singapore, SVQ
+<OPTION VALUE="gin-svw-tcore1"> SG, Singapore, SVW
+<OPTION VALUE="gin-w42-thar1"> SG, Singapore, W42
+<OPTION VALUE="gin-bk7-thar1"> TH, Bangkok, BK7
+<OPTION VALUE="gin-ekco3-tcore1"> TR, Gebze, EKCO3
+<OPTION VALUE="gin-etky1-tcore1"> TR, Ankara, ETKY1
+<OPTION VALUE="gin-etky2-tcore1"> TR, Istanbul, ETKY2
+<OPTION VALUE="gin-it5-tcore1"> TR, Istanbul, IT5
+<OPTION VALUE="gin-it6-tcore1"> TR, Ankara, IT6
+<OPTION VALUE="gin-tj5-tcore1"> TW, Taipei, TJ5
+<OPTION VALUE="gin-yig-tcore1"> TW, Taipei, YIG
+<OPTION VALUE="gin-00s-tcore1"> US, Seattle, 00S
+<OPTION VALUE="gin-a56-tcore1"> US, Atlanta, A56
+<OPTION VALUE="gin-aeq-tcore1"> US, Ashburn, AEQ
+<OPTION VALUE="gin-ct8-tcore1"> US, Chicago, CT8
+<OPTION VALUE="gin-ddv-tcore1"> US, Denver, DDV
+<OPTION VALUE="gin-dt8-tcore1"> US, Dallas, DT8
+<OPTION VALUE="gin-eai-tcore1"> US, Secaucus, EAI
+<OPTION VALUE="gin-ehio1-tcore1"> US, Hillsboro, EHIO1
+<OPTION VALUE="gin-epao1-thar1"> US, Palo Alto, EPAO1
+<OPTION VALUE="gin-eql-tcore1"> US, Los Angeles, EQL
+<OPTION VALUE="gin-lvw-tcore1"> US, Los Angeles, LVW
+<OPTION VALUE="gin-mln-tcore1"> US, Miami, MLN
+<OPTION VALUE="gin-n0v-tcore1"> US, New York, N0V
+<OPTION VALUE="gin-n75-tcore1"> US, New York, N75
+<OPTION VALUE="gin-njy-tcore3"> US, Newark, NJY
+<OPTION VALUE="gin-nto-tcore1"> US, New York, NTO
+<OPTION VALUE="gin-nw8-tcore1"> US, New York, NW8
+<OPTION VALUE="gin-sf9-tcore1"> US, San Francisco, SF9
+<OPTION VALUE="gin-sqn-tcore1"> US, San Jose, SQN
+<OPTION VALUE="gin-sv1-tcore1"> US, Santa Clara, SV1
+<OPTION VALUE="gin-un0-ecore1"> US, Phoenix, UN0
+<OPTION VALUE="gin-w40-tcore1"> US, Las Vegas, W40
+<OPTION VALUE="gin-wv1-tcore1"> US, Wall Township, WV1
+<OPTION VALUE="gin-xw7-ecore1"> US, Mcallen, XW7
+<OPTION VALUE="gin-xw8-ecore1"> US, Laredo, XW8
+<OPTION VALUE="gin-xz3-tcore1"> US, Dallas, XZ3
+<OPTION VALUE="gin-yqq-thar1"> US, New Jersey, YQQ
+<OPTION VALUE="gin-ejnb1-tcore1"> ZA, Johannesburg, EJNB1
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD>&nbsp;</TD><TD><div class="g-recaptcha" data-sitekey="6LdzmwwUAAAAAP-zsY8Xub_JyeVcqCJgkXEwYGCh"></div></TD><TD>&nbsp;</TD></TR>    
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<CENTER>
+Don't see your prefix or routing is suboptimal?
+<br/>
+Check the <a href="http://lg.as6453.net/doc/cust-routing-policy.html">routing policy</a>
+</CENTER>
+<P>
+<CENTER>
+<a href="https://lg.as6453.net/geo/geofeed.csv">GeoFeed</a>
+</CENTER> 
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now! This Looking Glass is NOT to be used with ANY automated scripts. All queries must be entered manually. Abusers of this policy will be permanently banned from this server. Because of the low-priority nature of ICMP traffic handling on routers, this tool is not appropriate for use in measuring SLAs. This tool should only be used to verify reachability.</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:lg@as6453.net">lg@as6453.net</A>.
+</I>
+<P>
+<I>
+  Looking glass software is freeware and can be downloaded from <A HREF="https://github.com/Cougar/lg">https://github.com/Cougar/lg</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="description" content="LayerStack IaaS Provider â High performance SSD Cloud Servers on OpenStack across multiple regions in APAC" />
+
+
+	<title>LayerStack Speed Test - Comprehensive suite of cloud computing services</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="LayerStack" />
+	<meta name="copyright" content="(c)2023 LayerStack Limited. All rights reserved." />
+	<meta name="rating" content="General" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+    
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    <!-- Bootstrap core CSS -->
+    <link href="includes/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+	<link href="includes/common.css" rel="stylesheet">
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5RPT77F');</script>
+<!-- End Google Tag Manager -->
+	  
+  </head>
+ 
+  <body>
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RPT77F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+			  
+      <div class="promotion-footer">
+        <div class="container" style="text-align:center;">
+            This website uses cookies to ensure you get the best experience on our website. <a href="#" class="closeeu" style="margin-left:10px;">[Got it]</a>
+      	</div>
+      </div>
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+		  
+		        <ul class="nav-right-m pull-left visible-xs" style="padding-left:5px;">
+			        <li>
+                        <a href="https://www.layerstack.com/clientarea" style="padding:3px;"><i class="fa fa-user font-grey"></i></a>
+					</li>
+		        </ul>
+				
+          <a class="brand-logo margin768-t-35" style="" href="/"><span class="hidden-text">LayerStack</span></a>
+          
+        </div>
+
+		<div id="navbar" class="navbar-collapse collapse navbar-right">
+		
+		  <div class="navbarRight pull-right hidden-xs">
+		        <ul class="nav navbar-nav">
+			        <li>
+                        <a id="nav-clientarea-en" href="https://www.layerstack.com/clientarea" style="padding:3px;"><i class="fa fa-user"></i></a>
+					</li>					
+		        </ul>
+		  </div>
+		
+		  <div class="pull-left margin768-t-35 width100-sm">
+
+          <ul class="nav navbar-nav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+            <li class="dropdown">
+              <a id="header-nav-product" class="large dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cloud visible-xs-inline-block"></i> Products <span class="caret visible-xs-inline-block"></span></a>
+              <ul class="dropdown-menu">
+				<li class="dropdown-header">CLOUD SERVER</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/general-cloud-server">General Purpose</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/memory-optimized-cloud-server">Memory-Optimized</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/high-storage-cloud-server">High Storage</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/arm-based-cloud-server">Arm-based</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/premium-compute">Premium Compute</a></li>
+				<li class="divider"></li> 
+				<li class="dropdown-header">DEDICATED CLOUD</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/dedicated-cloud">Dedicated Physical Cores</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/dedicated-cloud#hardware">Dedicated Hardware</a></li>
+				<li class="divider"></li> 
+				<li class="dropdown-header">NETWORKING</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/private-networking">Global Private Network</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/dedicated-bandwidth">Dedicated Bandwidth</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/china-direct-route">China Direct CN2 Route</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/load-balancers">Load Balancer</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/ddos-protection">DDos Protection</a></li>
+				<li class="divider"></li> 
+				<li class="dropdown-header">STORAGE SOLUTION</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/object-storage">Object Storage</a></li>
+              </ul>
+            </li>
+			
+            <li class="dropdown">
+              <a id="header-nav-pricing" class="large dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cubes visible-xs-inline-block"></i> Pricing <span class="caret visible-xs-inline-block"></span></a>
+              <ul class="dropdown-menu">
+				<li class="dropdown-header">CLOUD SERVER</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cloud-servers">General Purpose</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cloud-servers?cid=memory-optimized">Memory-Optimized</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cloud-servers?cid=high-storage">High Storage</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cloud-servers?cid=arm">Arm-based</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cloud-servers?cid=premium-compute">Premium Compute</a></li>
+				<li class="divider"></li> 
+				<li class="dropdown-header">DEDICATED CLOUD</li>
+                <li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/pricing-dedicated-cloud">Dedicated Physical Cores</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/pricing-dedicated-cloud?cid=dedicated-hardware">Dedicated Hardware</a></li>
+				<li class="divider"></li> 
+				<li class="dropdown-header">SOLUTIONS</li>
+                <li itemprop="name" class="dropdown">
+				<li><a itemprop="url" href="https://www.layerstack.com/private-networking">Global Private Network</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-object-storage">Object Storage</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-dedicated-bandwidth">Dedicated Bandwidth</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-dedicated-gpu">Dedicated GPU</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-acronis">Acronis Offsite Backup</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-plesk">Plesk Panel</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/pricing-cpanel">cPanel</a></li>
+              </ul>
+            </li>
+
+						
+			
+            <li class="dropdown">
+			  <a id="header-nav-support" class="large dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle visible-xs-inline-block"></i> Resources <span class="caret visible-xs-inline-block"></span></a>
+			  <ul class="dropdown-menu">
+				<li class="dropdown-header">SALE, SUPPORT AND MIGRATION</li>
+				<li><a itemprop="url" href="https://www.layerstack.com/contact-us">Sales & Support</a></li>
+				<li><a itemprop="url" href="https://service.layerstack.com/" target="_blank">Ticket Support</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/migration">Migration to LayerStack</a></li>
+                <li class="divider"></li>
+				<li class="dropdown-header">DOC, BLOG AND COMMUNITY</li>
+                <li><a itemprop="url" href="https://www.layerstack.com/blog/" target="_blank">Blog</a></li>
+                <li><a itemprop="url" href="https://www.layerstack.com/resources/tutorials/" target="_blank">Tutorial</a></li>
+                <li><a itemprop="url" href="https://www.layerstack.com/resources/" target="_blank">Help Center</a></li>
+                <li><a itemprop="url" href="https://developers.layerstack.com/" target="_blank">API Doc</a></li>
+                <li><a itemprop="url" href="https://www.layerstack.com/resources/docs/" target="_blank">Product Doc</a></li>
+                <li><a itemprop="url" href="https://www.layerstack.com/resources/faq/" target="_blank">FAQ</a></li>
+                <li><a itemprop="url" href="https://community.layerstack.com/" target="_blank">Community</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">SYSTEM, UPLOAD AND REPORT</li>
+				<li><a itemprop="url" href="https://status.layerstack.com/" target="_blank">System Status</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/upload-payment-advice">Upload Payment Advice</a></li>
+				<li><a itemprop="url" href="https://www.layerstack.com/report-abuse" target="_blank">Report Abuse</a></li>
+              </ul>
+			</li>
+			
+            <li class="dropdown">
+              <a id="header-nav-about" class="large dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-flag visible-xs-inline-block"></i> Company <span class="caret visible-xs-inline-block"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">COMPANY</li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/overview">About Us</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/contact-us">Contact Us</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/press-center">Press Center</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/legal">Legal</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">INFRASTRUCTURE</li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/amd">AMD EPYCâ¢</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/nvme">NVMe SSD</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://www.layerstack.com/benchmarks">Benchmarks</a></li>
+				<li itemprop="name"><a itemprop="url" href="https://hk03.layerstack.com/" target="_blank">Speedtest</a></li>
+              </ul>
+            </li>
+
+          </ul>
+		  </div>
+		  
+		  
+		</div><!--/.nav-collapse -->
+
+      </div>
+	  
+    </nav>
+
+
+		<div class="padding-t-50-0">
+           <div class="container">
+                <div class="row text-center" style="margin-top:20px;">
+
+                    <div class="col-sm-12">
+					    <h1 class="font-leads-56-36"><span class="font-red">Looking</span> Glass</h1>
+						<p class="font-grey" style="max-width:850px; margin:0 auto; clear:both;"><em>This Looking Glass provides information with the transparency relative to backbone routing and network performance that you received directly from our data centers in a different zone.</em></p>
+                    </div>
+                </div>
+           </div>
+		</div>
+		
+				<style type="text/css">
+					.locateselect {color:#999999; text-align:center;}
+					.locateselect:hover {color:red; text-decoration:none;}
+					
+					.iLocation0{fill:#cccccc;}
+					.iLocation1{fill:#FFFFFF;}
+					.iLocation2{fill:#999999;}
+					.iLocation3{fill:#FFFFFF;}
+					
+					.locateselect.active {color:red;}
+					.locateselect.active {text-decoration:none;}
+					
+					.active .iLocation0, .locateselect:hover .iLocation0{fill:#231F20;}
+					.active .iLocation1, .locateselect:hover .iLocation1{fill:#D8D7DA;}
+					.active .iLocation2, .locateselect:hover .iLocation2{fill:#E32133;}
+					.active .iLocation3, .locateselect:hover .iLocation3{fill:#FFFFFF;}
+					
+				</style>
+				
+		<div style="margin-top:3rem; margin-bottom:3rem; padding:10px;">
+		<div class="container">
+		<div style="background:#FFF; padding:60px; margin-bottom:50px; box-shadow: 1px 1px 4px #bcbcbc; z-index:1; border-radius: 8px;">
+		
+		    <div class="row hidden-xs">
+			    <div class="col-sm-3">
+				    <a href="https://sg01.layerstack.com" class="locateselect" style="display:block; width:100px; line-height:16px;">
+					    <div>
+						  <span style="font-size:28px; line-height:28px;"><i class="fa fa-map-marker-alt"></i> <em>SG01</em></span>
+						</div>
+						<div style="clear:both;">DATA CENTER</div>
+						<div>43.228.124.125</div>
+					</a>
+				</div>
+			    <div class="col-sm-3">
+				    <a href="https://hk03.layerstack.com" class="locateselect" style="display:block; width:100px; line-height:16px;">
+					    <div>
+						  <span style="font-size:28px; line-height:28px;"><i class="fa fa-map-marker-alt"></i> <em>HK03</em></span>
+						</div>
+						<div style="clear:both;">DATA CENTER</div>
+						<div>123.176.101.27</div>
+					</a>
+				</div>
+			    <div class="col-sm-3">
+				    <a href="https://jp01.layerstack.com" class="locateselect" style="display:block; width:100px; line-height:16px;">
+					    <div>
+						  <span style="font-size:28px; line-height:28px;"><i class="fa fa-map-marker-alt"></i> <em>JP01</em></span>
+						</div>
+						<div style="clear:both;">DATA CENTER</div>
+						<div>103.230.15.15</div>
+					</a>
+				</div>
+			    <div class="col-sm-3">
+				    <a href="https://la01.layerstack.com" class="locateselect active" style="display:block; width:100px; line-height:16px;">
+					    <div>
+						  <span style="font-size:28px; line-height:28px;"><i class="fa fa-map-marker-alt"></i> <em>LA01</em></span>
+						</div>
+						<div style="clear:both;">DATA CENTER</div>
+						<div>103.30.16.57</div>
+					</a>
+				</div>
+			</div>
+			<div class="visible-xs">
+				    <div class="font-grey">DATA CENTER: </div> 
+					<select class="form-control" onchange="location = this.value;">
+					    <option value="https://hk01.layerstack.com">Hong Kong (HK01)</option>
+					    <option value="https://hk02.layerstack.com">Hong Kong (HK02)</option>
+						<option value="https://hk03.layerstack.com">Hong Kong (HK03)</option>
+					    <option value="https://sg01.layerstack.com">Singapore (SG01)</option>
+					    <option value="https://jp01.layerstack.com">Japan (JP01)</option>
+					    <option value="https://la01.layerstack.com" selected="selected">North America (LA01)</option>
+					</select>
+			</div>			
+			
+			
+			
+			<div style="">
+		
+		
+		
+
+
+      <!-- Network Information -->
+      <section id="information">
+            <div style="margin-top:50px;">
+              <h3>Network information</h3>
+              <p>Server Location: <b>Los Angeles</b></p>
+              <div>
+                <p>Test IPv4: 103.30.16.57</p>
+                <p></p>
+                <p>Test files: <a class="font-red" href="50MB.test" id="testfile">50MB | </a> <a class="font-red" href="100MB.test" id="testfile">100MB | </a> </p>
+              </div>
+              <p>Your IP Address: <b><a class="font-red" href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+            <form class="form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <h3>Network tests</h3>
+                <div id="hosterror" class="form-group control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="form-control input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+				<div class="form-group">
+                    <select name="cmd" class="form-control input-medium" style="margin-left: 5px;">
+                      <option value="host">host</option>
+                      <option value="mtr">mtr</option>
+                                            <option value="ping" selected="selected">ping</option>
+                                            <option value="traceroute">traceroute</option>
+                                          </select>
+				</div>
+				<div class="form-group">
+                    <button type="submit" id="submit" name="submit" class="btn btn-primary btn-red-v2 font-white" style="margin-left: 5px;">Run Test</button>
+				</div>
+              </fieldset>
+            </form>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="margin-top:30px; display:none">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+      </section>
+
+
+    <!-- Javascript -->
+	
+			</div>
+	
+	
+
+	
+        </div>
+		</div>
+        </div>
+	
+    <div class="page-section-gray-bg" style="margin-top:10rem; margin-bottom:6rem;">
+        <div class="container text-center ani-fadeInUp" style="padding-top:8rem; padding-bottom:8rem; ">
+		    <h2 style="font-weight:lighter">Get Started in the LayerStack Cloud</h2>
+			<p style="margin-top:20px;"><a class="btn-large btn-red" href="https://www.layerpanel.com/#/signup" target="_blank">Create Account</a></p>
+        </div>
+    </div>
+	
+	
+<!-- FOOTER -->
+<div class="footer">
+    <div class="top container" style="padding-bottom:85px;">
+	    <div class="row">
+		
+           <div class="col-md-9">
+		   <div class="row" style="padding-bottom:20px;">
+             <div class="col-sm-3">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="https://www.layerstack.com/overview">About Us</a></li>
+                  <li><a href="https://www.layerstack.com/infrastructure">Infrastructure</a></li>
+                  <li><a href="http://blog.layerstack.com/" target="_blank">Blog</a></li>
+                  <li><a href="https://www.layerstack.com/press-center">Press Center</a></li>
+                  <li><a href="https://www.layerstack.com/legal">Legal</a></li>
+                  <li><a href="https://www.layerstack.com/regional-offices">Regional Offices</a></li>
+                </ul>
+             </div>
+             <div class="col-sm-3">
+                <h4>Products</h4>
+                <ul>
+                  <li><a href="https://www.layerstack.com/cloud-servers">Cloud Servers</a></li>
+				  <li><a href="https://www.layerstack.com/dedicated-gpu">Dedicated GPU</a></li>
+				  <li><a href="https://www.layerstack.com/private-networking">Global Private Networking</a></li>
+				  <li><a href="https://www.layerstack.com/china-direct-route">China Direct CN2 Route</a></li>
+				  <li><a href="https://www.layerstack.com/firewalls">Firewalls</a></li>
+				  <li><a href="https://www.layerstack.com/ddos-protection">DDoS Attack Protection</a></li>
+				  <li><a href="https://www.layerstack.com/backups">Backups</a></li>
+				  <li><a href="https://www.layerstack.com/layerpanel">Cloud Control Panel</a></li>
+				  <li><a href="https://www.layerstack.com/user-permission-management">User Permission Management</a></li>
+				  <li><a href="https://www.layerstack.com/cloud-server-managed-service">Cloud Server Managed Service</a></li>
+				  <li><a href="https://www.layerstack.com/templates">Templates</a></li>
+				  <li><a href="https://www.layerstack.com/api-management">LayerStack API</a></li>
+                  <li><a href="https://www.layerstack.com/acronis">Acronis Offsite Backup</a></li>
+				  <li><a href="https://www.layerstack.com/cpanel">cPanel Control Panel</a></li>
+                  <li><a href="https://www.layerstack.com/plesk">Plesk Panel</a></li>
+				  <li><a href="https://www.layerstack.com/amd">AMD EPYCâ¢</a></li>
+                  <li><a href="https://www.layerstack.com/benchmarks">Benchmarks</a></li>
+				  <li><a href="https://www.layerstack.com/nvme">NVMe SSD</a></li>
+                  <li><a href="https://hk03.layerstack.com/" target="_blank">Speed Test</a></li>
+                  <!-- li><a href="/pricing">Pricing</a></li -->
+                </ul>
+             </div>
+             <div class="col-sm-3">
+                <h4>Programs</h4>
+                <ul>
+                  <li><a href="https://www.layerstack.com/affiliate">Affiliate Program</a></li>
+				  <li><a href="https://www.layerstack.com/transfer">Transfer Program</a></li>
+                  <li><a href="https://www.layerstack.com/partners">Partners Program</a></li>
+                  <li><a href="https://www.layerstack.com/promotion">Promotion</a></li>
+                </ul>
+             </div>
+             <div class="col-sm-3">
+                <h4>Resources</h4>
+                <ul>
+				  <li><a href="https://www.layerstack.com/contact-us">Sales & Support</a></li>
+                  <li><a href="https://www.layerstack.com/resources/" target="_blank">Help Center</a></li>
+                  <li><a href="http://status.layerstack.com/" target="_blank">System Status</a></li>
+                  <li><a href="https://service.layerstack.com/" target="_blank">Ticket Support</a></li>
+				  <li><a href="https://www.layerstack.com/report-abuse">Report Abuse</a></li>
+				  <li><a href="https://www.layerstack.com/migration">Migrating to LayerStack</a></li>
+                  <li><a href="https://www.layerstack.com/upload-payment-advice">Upload Payment Advice</a></li>
+                </ul>
+             </div>
+           </div>
+		   </div>
+
+           <div class="col-md-3">
+	  
+                <div class="social-media pull-right" style="clear:both; text-align:right; margin:5px 0;">
+                    <a href="https://www.facebook.com/layerstack/" target="_blank"><i class="fab fa-facebook-square font-36 font-grey-v2"></i></a> 
+                    <a href="https://twitter.com/LayerStackCloud" target="_blank"><i class="fab fa-twitter-square font-36 font-grey-v2"></i></a> 
+                    <a href="https://www.linkedin.com/company/layerstack" target="_blank"><i class="fab fa-linkedin font-36 font-grey-v2"></i></a> 
+                    <a href="https://www.youtube.com/channel/UCfDdJvbacH6cCD-SwsEt-wQ" target="_blank"><i class="fab fa-youtube-square font-36 font-grey-v2"></i></a> 
+				</div>
+	  
+   		        <div class="pull-right padding-l-20-0 font-leads" style="clear:both;">All Rights Reserved Â© 2023 LayerStack Pte. Ltd.</div>
+					
+				 
+   
+	    </div>
+   </div>
+			
+</div>
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+	<script src="assets/js/common.js"></script>

@@ -1,0 +1,863 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<title>Looking glass | Network | Netwise</title>
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Use our network looking glass for advanced network testing, including routes, latencies, carriers, peers and more.">
+ <meta name="author" content="Netwise">
+<meta name="keywords" content="netwise, status, looking glass, information, network, testing, information, internet, bgp, connectivity, tests">
+
+<base href="/" />
+
+<link rel="stylesheet" href="/assets/vendor/hamburgers/hamburgers.min.css" type="text/css">
+
+<!-- Core -->
+<link rel="stylesheet" href="/assets/build/css/main.css">
+<script src="https://kit.fontawesome.com/8da6e8707a.js"></script>
+
+<!-- Favicotn -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!-- Book a Tour Modal -->
+<div class="modal fade" id="bookatour" tabindex="-1" role="dialog" aria-labelledby="bookatour" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3">
+            <div class="modal-body">
+                <div class="row align-items-center mb-5">
+                    <img src="../../assets/images/backgrounds/data-centre-1.jpg" class="img-fluid">
+                </div>
+                <div class="text-center mb-4">
+                    <h3 class="heading-2 strong-800 text-normal">
+                        <span>Book a tour</span>
+                    </h3>
+                    <span class="section-title-delimiter clearfix d-none"></span>
+                </div>
+
+                <span class="clearfix"></span>
+
+                <div class="fluid-paragraph text-center col-md-10">
+                    <p class="mb-4">Visit our world-class London data centres, situated in the heart of Europe's most important connectivity hub.</p>
+                </div>
+                <p class="bookatourstatusMsg"></p>
+                <form class="form-default form-material" id="bookatourForm" data-action="php/send-email-bookatour.php" role="form" data-toggle="validation" novalidate>
+                    <div class="form-group">
+                        <label for="bookatourDatacentre">Data centre</label>
+                        <select class="form-control" id="bookatourDatacentre" name="bookatourDatacentre">
+                            <option>London East</option>
+                            <option>London Central</option>
+                            <option>Telehouse North</option>
+                            <option>Harbour Exchange</option>
+                            <option>City Lifeline</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookatourName">Full name</label>
+                        <input type="text" class="form-control" id="bookatourName" name="bookatourName" placeholder="Enter full name" required>
+                        <span class="bar"></span>
+                        <div class="invalid-feedback">
+                            Please provide a full name.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookatourEmail">Email address</label>
+                        <input type="email" class="form-control" id="bookatourEmail" name="bookatourEmail" placeholder="Enter email address" required>
+                        <span class="bar"></span>
+                        <div class="invalid-feedback">
+                            Please provide a valid email address.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookatourPhone">Phone number (optional)</label>
+                        <input type="text" class="form-control" id="bookatourPhone" name="bookatourPhone" placeholder="Enter phone number">
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-check mt-4">
+                        <input class="form-check-input" type="checkbox" value="" id="bookatourConsent" id="bookatourConsent" required>
+                        <label class="form-check-label" for="bookatourConsent">
+                            I have read and agree to the terms set out in the <a href="privacy-policy" title="Privacy policy">Privacy Policy</a>, and give my full consent to be contacted in relation to my enquiry.
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                    <div class="form-group mt-4">
+                        <div class="g-recaptcha" data-sitekey="6LdJ5qgUAAAAACrF4hE7_kug57oZU75cOm2S0hS-" data-callback="recaptcha_callback_bookatour"></div>
+                    </div>
+                    <div class="form-group mt-4">
+                        <button type="reset" class="btn-reset d-none"></button>
+                        <button disabled="disabled" id="bookatourSubmit" type="submit" class="btn btn-styled btn-orange text-uppercase mb-3">Book now</button>
+                        <button type="button" class="btn btn-styled btn-navwidth mb-3" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  function recaptcha_callback_bookatour() {
+    $('#bookatourSubmit').removeAttr('disabled');
+  };
+</script>
+
+<div id="help" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="help" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h3 class="heading-2 mb-0 strong-800 text-normal">Help</h3></div><div class="modal-body"><h5>Command <small id="command-reminder"></small></h5><p id="description-help"></p><h5>Test parameter</h5><p id="parameter-help"></p></br><h5><i class="fa fa-info-circle text-info"></i> Disclaimer</h5><p>Please note that all interactions with this looking glass are monitored and logged for the safety and protection of our network. Your IP address is <strong>166.111.68.233</strong>.</p></div></div></div></div>
+<!-- Page specific link refs -->
+
+
+</head>
+<body>
+
+<!-- MAIN WRAPPER -->
+<main class="body-wrap">
+
+  <!-- Header -->
+  <div class="header">
+
+      <nav id="primary-nav" class="navbar fixed-top navbar-light navbar-expand-lg bg-default">
+          <div class="container-fluid navbar-container">
+              <!-- Brand/Logo -->
+              <a class="navbar-brand" href="/">
+                      <img src="assets/images/logo/netwise-logo.png" height="20px" class="d-none d-lg-inline-block" alt="Netwise">
+                      <img src="assets/images/logo/netwise-logomark.png" height="20px" class="d-lg-none" alt="Netwise">
+              </a>
+
+              <div class="d-inline-block">
+
+                  <div class="float-left d-block d-lg-none mr-2" style="margin-top: 1.4px;">
+                      <a href="https://my.netwise.co.uk/clientarea.php" target="_blank" rel="noreferrer" class="nav-link login-special" title="Log in to My Netwise">
+                          Log in
+                      </a>
+                  </div>
+
+                  <!-- Navbar toggler  -->
+                  <button class="navbar-toggler hamburger hamburger-js hamburger--spring" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+              </span>
+                  </button>
+              </div>
+
+              <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbar_main">
+
+                  <!-- Navbar links -->
+                  <ul class="navbar-nav ml-lg-auto">
+                      <li class="nav-item dropdown megamenu">
+                          <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Our story
+                          </a>
+
+                          <div class="dropdown-menu">
+                              <div class="mega-dropdown-menu row row-no-padding">
+                                  <div class="col-md-4 col-lg-3 ml-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Netwise</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Netwise</li>
+                                          <li>
+                                              <a class="dropdown-item" href="our-story/about-us" title="About us">
+                                                  About us
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="our-story/latest-news" title="Latest news">
+                                                  Latest news
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-6 col-lg-5 mr-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Our clients</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Our clients</li>
+                                          <li>
+                                              <a class="dropdown-item" href="our-story/success-stories/" title="Success stories">
+                                                  Success stories
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown megamenu">
+                          <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Solutions
+                          </a>
+
+                          <div class="dropdown-menu">
+                              <div class="mega-dropdown-menu row row-no-padding">
+                                  <div class="col-md-4 col-lg-3 ml-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Colocation</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Colocation</li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/server-colocation" title="1U / 2U / 4U Colocation">
+                                                  Server colocation
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/1u-2u-4u-colocation" title="1U / 2U / 4U Colocation">
+                                                  1U / 2U / 4U colocation
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/quarter-rack-colocation" title="Quarter Rack Colocation">
+                                                  Quarter rack colocation
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/half-rack-colocation" title="Half Rack Colocation">
+                                                  Half rack colocation
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/full-rack-colocation" title="Full Rack Colocation">
+                                                  Full rack colocation
+                                              </a>
+                                          </li>
+                                          <li class="dropdown-item-header d-none d-lg-block">&#8213;</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">&#8213;</li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/colocation-calculator" title="Colocation calculator">
+                                                  Colocation calculator
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-4 col-lg-3">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Hosting</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Hosting</li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/dedicated-servers" title="Dedicated Servers">
+                                                  Dedicated servers
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/specialist-hosting" title="Specialist Hosting">
+                                                  Specialist hosting
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-4 col-lg-4">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Other</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Other</li>
+                                          <li>
+                                              <a class="dropdown-item" href="solutions/disaster-recovery-suite" title="Disaster Recovery Suite">
+                                                  Disaster recovery suite
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown megamenu">
+                          <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Data centres
+                          </a>
+
+                          <div class="dropdown-menu">
+                              <div class="mega-dropdown-menu row row-no-padding">
+                                  <div class="col-md-4 col-lg-3 ml-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Flagship facilities</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Flagship facilities</li>
+                                          <li>
+                                              <a class="dropdown-item" href="data-centres/london-east" title="London East">
+                                                  London East <span class="small badge badge-nav text-white">New</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="data-centres/london-central" title="London Central">
+                                                  London Central
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-6 col-lg-5 mr-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Partner sites</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Partner sites</li>
+                                          <li>
+                                              <a class="dropdown-item" href="data-centres/telehouse-north" title="Telehouse North">
+                                                  Telehouse North
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="data-centres/harbour-exchange" title="Harbour Exchange">
+                                                  Harbour Exchange
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="data-centres/city-lifeline" title="City Lifeline">
+                                                  City Lifeline
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown megamenu">
+                          <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Network
+                          </a>
+
+                          <div class="dropdown-menu">
+                              <div class="mega-dropdown-menu row row-no-padding">
+                                  <div class="col-md-4 col-lg-3 ml-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Our network</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Our network</li>
+                                          <li>
+                                              <a class="dropdown-item" href="network/connectivity-services" title="Connectivity services">
+                                                  Connectivity services
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="network/carriers-topology" title="Carriers & topology">
+                                                  Carriers &amp; topology
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-6 col-lg-5 mr-lg-auto">
+                                      <ul class="megadropdown-links">
+                                          <li class="dropdown-item-header d-none d-lg-block">Customer insight</li>
+                                          <li class="dropdown-item-header-collapse d-lg-none">Customer insight</li>
+                                          <li>
+                                              <a class="dropdown-item" href="network/status-information/" title="Status information">
+                                                  Status information
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item" href="network/looking-glass/" title="Looking glass">
+                                                  Looking glass
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown megamenu">
+                          <a class="nav-link" href="get-in-touch/" title="Get in touch">
+                              Get in touch
+                          </a>
+                      </li>
+                  </ul>
+
+                  <ul class="navbar-nav ml-lg-auto d-none d-lg-block">
+                      <li class="nav-item">
+                          <a href="https://my.netwise.co.uk/clientarea.php" class="nav-link" target="_blank" rel="noreferrer" title="Log in to My Netwise">
+                              Log in
+                          </a>
+                      </li>
+                  </ul>
+
+                  <ul class="navbar-nav ml-lg-auto d-block d-lg-none text-center my-4">
+                      <li class="nav-item">
+                          <button type="button" class="btn btn-styled btn-sm btn-navwidth btn-orange btn-outline-nav text-uppercase" data-toggle="modal" data-target="#bookatour">
+                              Book a tour
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="pl-1 d-none d-lg-inline-block">
+                  <button type="button" class="btn btn-styled btn-sm btn-navwidth btn-orange btn-outline-nav text-uppercase" data-toggle="modal" data-target="#bookatour">
+                      Book a tour
+                  </button>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+    <section class="slice-lg pb-5">
+        <div class="container sct-inner">
+            <span class="space-xs-xl"></span>
+            <div class="text-center mb-3">
+                <h3 class="heading-2 strong-800 text-normal">
+                    <span>Looking glass</span>
+                </h3>
+                <span class="section-title-delimiter clearfix d-none"></span>
+            </div>
+
+            <span class="clearfix"></span>
+
+            <div class="fluid-paragraph col-md-10 text-center">
+                <p class="lead mt-4">Put our network to the test. Run specific commands on our network, from any of our core locations in London.</p>
+            </div>
+
+            <span class="space-xs-xl"></span>
+
+            <div class="row mx-lg-5 justify-content-center">
+              <div class="col-sm-6 col-md-3 mb-4 text-center">
+                <p class="mb-2">AS Number</p>
+                <p class="heading-3 strong-800 mb-3">60800</p>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-4 text-center">
+                <p class="mb-2">Macro</p>
+                <p class="heading-3 strong-800 mb-3">AS-NETWISE</p>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-4 text-center">
+                <p class="mb-2">MD5</p>
+                <p class="heading-3 strong-800 mb-3">Supported</p>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-4 text-center">
+                <p class="mb-2">Origin</p>
+                <p class="heading-3 strong-800 mb-3">UK</p>
+              </div>
+            </div>
+
+            <span class="space-xs-lg"></span>
+
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <form class="form-default form-material" role="form" action="execute.php" method="post" id="lookingglass" data-toggle="validation" novalidate>
+                    <div class="form-group">
+                        <label for="lookingglassLocation">Router location</label>
+                        <select class="form-control" name="routers" id="routers">
+                            <option value="router1" selected="selected">London - Netwise London Central</option><option value="router2">London - Telehouse North</option><option value="router3">London - Harbour Exchange</option><option value="router4">London - City Lifeline</option>                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-group">
+                      <div class="row mt-4">
+                        <div class="col-sm-6 mb-3">
+                          <label for="lookingglassCommand">Command</label>
+                          <select class="form-control" name="query" id="query">
+                              <option value="bgp" selected="selected">BGP</option><option value="ping">Ping</option><option value="traceroute">Traceroute</option>                          </select>
+                          <span class="bar"></span>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                          <label for="lookingglassParameter">Test parameter</label>
+                          <input type="text" class="form-control mt-1" name="parameter" id="input-param" value="166.111.68.233" required>
+                          <span class="bar"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row mt-5">
+                        <div class="col-sm-4 mb-3">
+                          <a href="" title="Need help?" class="clearbutton-lghelp" data-toggle="modal" data-target="#help">Need help?</a>
+                        </div>
+                        <div class="col-sm-8 text-sm-right">
+                          <button type="button" class="btn btn-styled btn-widthauto" id="clear" type="reset"><i class="fa fa-refresh strong-200"></i> Reset</button>
+                          <button type="submit" class="btn btn-styled btn-orange text-uppercase" id="send" type="submit">Run test</button>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="text" class="d-none" name="dontlook" placeholder="Don\'t look at me!" />
+                </form>
+
+                <div class="alert alert-danger alert-dismissable" id="error"><button type="button" class="close" aria-hidden="true">&times;</button><strong>Error!</strong>&nbsp;<span id="error-text"></span></div>
+                <div class="loading">
+        					<div class="progress progress-bar-striped active">
+        						<div class="progress-bar progress-bar-striped progress-bar-animated bg-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+        						</div>
+        					</div>
+        				</div>
+
+        				<div class="result">
+        					<div id="output"></div>
+        					<div class="reset">
+        						<button type="button" class="btn btn-styled " id="backhome">Reset</button>
+        					</div>
+        				</div>
+
+              </div>
+            </div>
+
+        </div>
+    </section>
+
+    <span class="space-xs-xl"></span>
+
+    <section class="slice bg-base-1">
+      <span class="space-xs-xl"></span>
+        <div class="container">
+
+          <div class="text-center mb-3">
+              <h3 class="heading-2 strong-800 text-normal">
+                  <span>System status</span>
+              </h3>
+              <span class="section-title-delimiter clearfix d-none"></span>
+          </div>
+
+          <span class="clearfix"></span>
+
+          <div class="fluid-paragraph col-md-10 text-center">
+              <p class="lead mt-4">Take a look at our system status interface, with key up-to-the-second system and network status information.</p>
+          </div>
+
+          <div class="fluid-paragraph text-center col-md-10">
+            <a href="network/status-information/" class="btn btn-styled  btn-orange text-uppercase mt-4">
+               Check system
+            </a>
+          </div>
+
+        </div>
+      <span class="space-xs-xl"></span>
+    </section>
+
+<span class="space-xs-xl"></span>
+
+<section class="slice staffCallout">
+    <div class="container sct-inner">
+        <div class="text-center mb-3">
+            <div class="block block-image-holder mb-4">
+                <div class="block-image">
+                    <img src="assets/images/team/matt.jpg" width="130px" class="rounded-circle">
+                </div>
+            </div>
+            <h3 class="heading-2 strong-800 text-normal">
+                <span>Hi, I'm Matt</span>
+            </h3>
+            <span class="section-title-delimiter clearfix d-none"></span>
+        </div>
+
+        <span class="clearfix"></span>
+
+        <div class="fluid-paragraph text-center col-md-10">
+            <p class="lead mt-4">By email, chat or on the phone, I¡¯m here to help.</p>
+            <a href="get-in-touch/" class="btn btn-styled  btn-orange btn-outline text-uppercase mt-4">
+                Get in touch
+            </a>
+        </div>
+        <span class="space-xs-xl"></span>
+    </div>
+</section>
+
+<footer id="footer" class="footer bg-dark c-white">
+    <div class="footer-top">
+        <span class="space-xs-md"></span>
+        <div class="container">
+            <div class="row cols-xs-space col-sm-space align-items-center">
+                <div class="col-md-7 col-12">
+                    <div class="text-xs-center text-sm-left">
+                        <div class="col">
+                            <p class="heading heading-4 strong-700">Call us&nbsp;&nbsp;<span class="strong-300">0845 430 9900</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="text-xs-center text-sm-right">
+                        <ul class="social-media social-media--style-1-v1">
+                            <li>
+                                <a href="https://www.linkedin.com/company/478009" class="linkedin" target="_blank" rel="noreferrer">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/netwise" class="twitter" target="_blank" rel="noreferrer">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/netwise/" class="facebook" target="_blank" rel="noreferrer">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/netwisehosting" class="youtube" target="_blank" rel="noreferrer">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr class="footer-break"></hr>
+        </div>
+
+        <div class="container">
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Our story
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="our-story/about-us" class="nav-link" title="About us">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="our-story/latest-news" class="nav-link" title="Latest news">
+                                    Latest news
+                                </a>
+                            </li>
+                            <li>
+                                <a href="our-story/careers" class="nav-link" title="Careers">
+                                    Careers
+                                </a>
+                            </li>
+                            <li>&#8213;</li>
+                            <li>
+                                <a href="our-story/success-stories/" class="nav-link" title="Success stories">
+                                    Success stories
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Colocation
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="solutions/1u-2u-4u-colocation" class="nav-link" title="1U / 2U / 4U colocation">
+                                    1U / 2U / 4U
+                                </a>
+                            </li>
+                            <li>
+                                <a href="solutions/quarter-rack-colocation" class="nav-link" title="Quarter rack colocation">
+                                    Quarter rack
+                                </a>
+                            </li>
+                            <li>
+                                <a href="solutions/half-rack-colocation" class="nav-link" title="Half rack colocation">
+                                    Half rack
+                                </a>
+                            </li>
+                            <li>
+                                <a href="solutions/full-rack-colocation" class="nav-link" title="Full rack colocation">
+                                    Full rack
+                                </a>
+                            </li>
+                            <li>
+                                <a href="solutions/colocation-calculator/" class="nav-link" title="Colocation calculator">
+                                    Colo calculator
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Data centres
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="data-centres/london-central" class="nav-link" title="London Central">
+                                    London Central
+                                </a>
+                            </li>
+                            <li>
+                                <a href="data-centres/telehouse-north" class="nav-link" title="Telehouse North">
+                                    Telehouse North
+                                </a>
+                            </li>
+                            <li>
+                                <a href="data-centres/harbour-exchange" class="nav-link" title="Harbour Exchange">
+                                    Harbour Exchange
+                                </a>
+                            </li>
+                            <li>
+                                <a href="data-centres/city-lifeline" class="nav-link" title="City Lifeline">
+                                    City Lifeline
+                                </a>
+                            </li>
+                            <li>&#8213;</li>
+                            <li>
+                                <a href="#bookatour" data-toggle="modal" data-target="#bookatour" title="Book a tour" class="nav-link">
+                                    Book a tour
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Network
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="network/connectivity-services" class="nav-link" title="Connectivity services">
+                                    Connectivity services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="network/carriers-topology" class="nav-link" title="Carriers & topology">
+                                    Carriers & topology
+                                </a>
+                            </li>
+                            <li>&#8213;</li>
+                            <li>
+                                <a href="network/status-information/" class="nav-link" title="Status information">
+                                    Status information
+                                </a>
+                            </li>
+                            <li>
+                                <a href="network/looking-glass/" class="nav-link" title="Looking glass">
+                                    Looking glass
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Support
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="get-in-touch/" class="nav-link" title="Get in touch">
+                                    Get in touch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://my.netwise.co.uk/clientarea.php" target="_blank" rel="noreferrer" class="nav-link" title="Log in to My Netwise">
+                                    Log in
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-700 mb-1">
+                            Legal
+                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="terms-of-use" class="nav-link" title="Terms of use">
+                                    Terms of use
+                                </a>
+                            </li>
+                            <li>
+                                <a href="acceptable-use-policy" class="nav-link" title="Acceptable use policy">
+                                    Acceptable use policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="privacy-policy" class="nav-link" title="Privacy policy">
+                                    Privacy policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="cookies" class="nav-link" title="Cookies">
+                                    Cookies
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr class="footer-break mt-1"></hr>
+    </div>
+
+    <div class="footer-bottom bg-dark c-white">
+        <div class="container mb-5">
+            <div class="row row-cols-xs-spaced flex flex-items-xs-middle">
+                <div class="col">
+                    <div class="copyright text-center">
+                        Netwise is the trading name of Netwise Hosting Limited. Copyright &copy; 2023. Company Reg No. 07098838. VAT Reg No. GB983370201.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="space-xs-lg"></span>
+    </div>
+</footer>
+
+</main>
+
+<!-- SCRIPTS -->
+<a href="#" class="back-to-top btn-back-to-top"></a>
+
+<!-- Core -->
+<script src="/assets/build/js/main.js"></script>
+
+<!-- Bootstrap Extensions -->
+<script src="/assets/vendor/bootstrap-notify/bootstrap-growl.min.js"></script>
+
+<!-- Plugins: Sorted A-Z -->
+<script src="/assets/vendor/viewport-checker/viewportchecker.min.js"></script>
+<script src="/assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+
+<!-- App JS -->
+<script src="/assets/js/boomerang.js"></script>
+
+<!-- Tracking Script -->
+<script>
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-7860896-8', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+<!-- Jivochat -->
+<script async type='text/javascript'>
+	(function(){ var widget_id = '161330';
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();
+</script>
+
+<!-- Page specific JS -->
+<script src="/assets/js/navscroll-staywhite.js"></script>
+
+<!-- Page specific JS -->
+<script src="/network/looking-glass/libs/jquery-3.1.1.min.js"></script>
+<script src="/network/looking-glass/js/looking-glass.js"></script>
+
+</body>
+</html>

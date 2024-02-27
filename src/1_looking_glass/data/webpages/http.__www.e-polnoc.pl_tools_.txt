@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+*****************************
+**   Looking Glass by Telephone **
+**     Refined by AMDbuilder      **
+*****************************
+-->
+	<head>
+		<title>e-POLNOC.pl Network Tools - Looking Glass</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<link href="assets/css/cerulean.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+		  
+			<div class="row" id="header">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1><a id="title" href="http://www.e-polnoc.pl/?page_id=73">e-POLNOC.pl Network Tools</a></h1>
+					</div>
+				</div>
+			</div>
+		  
+		  <!-- Network Information -->
+		  
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network information</div>
+						<div class="panel-body">
+							<p>Server Location: <strong>Rumia</strong></p>
+							<p>IPv4 Address: 213.108.112.254</p>
+														<p>Your IP Address: <strong><a href="#tests" id="userip">164.70.99.9</a></strong></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network Test Files</div>
+						<div class="panel-body">
+							<h4>IPv4 Download Test</h4>
+							<a href="//213.108.112.254/50M.test" class="btn btn-xs btn-default">50M</a> <a href="//213.108.112.254/100M.test" class="btn btn-xs btn-default">100M</a> <a href="//213.108.112.254/1000M.test" class="btn btn-xs btn-default">1000M</a> 							
+														
+						</div>
+					</div>
+				</div>
+			</div>
+		  
+		  <!-- Network Tests -->
+		  
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network tests</div>
+						<div class="panel-body">
+							<form class="form-inline" id="networktest" action="#results" method="post">
+							
+								<div id="hosterror" class="form-group">
+									<div class="controls">
+										<input id="host" name="host" type="text" class="form-control" placeholder="Host or IP address">
+									</div>
+								</div>
+								<div class="form-group">
+									<select name="cmd" class="form-control">
+										<option value="host">host</option>
+										<option value="mtr">mtr</option>
+																				<option value="ping" selected="selected">ping</option>
+																				<option value="traceroute">traceroute</option>
+																			</select>
+								</div>
+						
+								<button type="submit" id="submit" name="submit" class="btn btn-success">Run Test</button>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- Results -->
+			<div class="row" id="results" style="display:none">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Results</div>
+						<div class="panel-body">
+						
+							<pre id="response" style="display:none"></pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		  
+			<footer class="footer">
+				<p class="pull-right">
+					<a href="#">Back to top</a>
+				</p>
+			</footer>
+
+		</div>
+
+		<script src="assets/js/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/LookingGlass.min.js"></script>
+		<script src="assets/js/XMLHttpRequest.min.js"></script>
+	</body>
+</html>

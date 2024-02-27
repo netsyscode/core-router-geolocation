@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Server Mania AKL1 - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <style>
+      html,
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+      .container {
+        width: 1000px;
+      }
+      .span12 {
+        width: 795px;
+      }
+      .header .span12 > img {
+        width: 280px;
+        margin: 20px 0;
+      }
+      .well {
+        background-color: #f8f8f8;
+        box-shadow: none;
+      }
+      p {
+        color: #858585;
+      }
+      #legend {
+        color: #0095cd;
+        font-weight: 900;
+        line-height: 30px;
+        padding-bottom: 18px;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      a {
+        color: #0095CD;
+      }
+
+      a:hover {
+        color: #05a7e7;
+        text-decoration: none;
+      }
+      input,
+      select,
+      button {
+        font-family: inherit;
+      }
+      input,
+      select {
+        font-weight: 700;
+        border: 1px solid #e3e3e3 !important;
+      }
+      #networktest {
+        padding-bottom: 30px;
+      }
+      #networktest #legend {
+        margin-bottom: 30px;
+      }
+      .footer {
+        padding-top: 15px;
+      }
+      .locations {
+        float: left;
+        margin-left: 30px;
+      }
+      .locations b {
+        color: #000;
+      }
+      .locations a {
+        line-height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <img src="logo-wide.png"</a>
+            <!--Logo <h1><a id="title" href="http://lg.akl1.servermania.com">Server Mania AKL1</a></h1> -->
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: AKL1 - Auckland, NZ</p>
+              <div>
+                <p>Test IPv4: 23.254.104.98</p>
+                <p></p>
+                <p>Test files:
+                    <a href="http://lg.akl1.servermania.com/25MB.test">25MB</a>
+                    <a href="http://lg.akl1.servermania.com/50MB.test">50MB</a>
+                    <a href="http://lg.akl1.servermania.com/100MB.test">100MB</a>
+                    <a href="http://lg.akl1.servermania.com/1000MB.test">1000MB</a>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+          <!-- Sidebar -->
+          <p class="locations"><b>Test Locations:</b>
+             <br />
+             <br />
+                          <a href="https://lg.akl1.servermania.com">AKL1 - Auckland, NZ</a>
+             <br />
+                          <a href="https://lg.ams1.servermania.com">AMS1 - Amsterdam, NL</a>
+             <br />
+                          <a href="https://lg.buf1.servermania.com">BUF1 - Buffalo, NY</a>
+             <br />
+                          <a href="https://lg.dfw1.servermania.com">DFW1 - Dallas, TX</a>
+             <br />
+                          <a href="https://lg.ewr1.servermania.com">EWR1 - New Jersey, NJ</a>
+             <br />
+                          <a href="https://lg.lax2.servermania.com">LAX2 - Los Angeles, CA</a>
+             <br />
+                          <a href="https://lg.lhr1.servermania.com">LHR1 - London, UK</a>
+             <br />
+                          <a href="https://lg.yul2.servermania.com">YUL2 - Montr¨¦al, QC</a>
+             <br />
+                       </p>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p><a href="https://www.servermania.com">Back to ServerMania.com</a> <br><br></p>
+        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=990">
+<title>Looking Glass points</title>
+<link href="/style.css?v=3" rel="stylesheet">
+<script type="text/javascript" src="/js.js?v=9"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script type="text/javascript">
+$(document).ready(function() {
+	$("[data-tooltip='tooltip']").tooltip();
+	$("[data-popover='popover']").popover();
+	
+	$(window).on("scroll", function() {
+		if ($(document).width() >= 1080)
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				if ($("#back-to-top").data("visible") !== true)
+				{
+					$("#back-to-top").data("visible", true).stop(true, true).fadeIn();
+				}
+			}
+			else
+			{
+				if ($("#back-to-top").data("visible"))
+				{
+					$("#back-to-top").data("visible", false).stop(true, true).fadeOut();					
+				}
+			}
+		}
+		else
+		{
+			$("#back-to-top").hide();	
+		}
+	}).scroll().on("resize", function() {
+		if ($(document).width() < 1080)
+		{
+			$("#back-to-top").hide();
+		}
+		else
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				$("#back-to-top").show();
+			}
+		}
+	});
+});
+</script>
+<meta name="description" content="All Looking Glass points of LOOKING.HOUSE by country">
+</head>
+<body>	
+	<div id="back-to-top" data-visible="false" style="display:none; z-index:10; position:fixed; left:0; top:0; margin:0px; padding:25px; bottom:0px; width:24px; height:auto; cursor:pointer; background:url('/images/top.png') no-repeat; background-position:center center;" onclick="$('body:not(:animated),html:not(:animated)').animate({scrollTop: 0}, 400);"></div>
+
+	
+	<div class="container">	
+		<div class="well" style="padding:10px;"><a href="https://pq.hosting/?from=9186" target="_blank" rel="nofollow"><img src="/images/url/pq_14112023.svg" style="max-width:100%;"></a></div>
+	</div>
+	
+	<nav class="navbar navbar-default navbar-custom" role="navigation" style="background-color:#fafafa; margin-bottom:20px; width:100%; border:none; color:#333; border-radius:0px; position:relative;">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/index.php" style="padding:10px 20px;"><img src="/images/looking.house.svg" style="height:60px;"></a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/index.php" style="padding:20px 15px;">Home</a></li>
+					<li class="active-item"><a href="/points.php" style="padding:20px 15px;">Points</a></li>
+					<li><a href="/companies.php" style="padding:20px 15px;">Companies</a></li>
+					<li><a href="/whois_ip.php" style="padding:20px 15px;">Whois IP</a></li>
+					<li><a href="/dns_records.php" style="padding:20px 15px;">DNS</a></li>
+					<li><a href="/about.php" style="padding:20px 15px;">About</a></li>
+					<li><a href="https://fastpanel.direct/?from=looking.house" style="padding:20px 15px;" target="_blank"><img src="/images/fastpanel.svg" style="width: 72px;" data-tooltip="tooltip" data-placement="left" data-container="body" title="Free server control panel"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+
+<div class="container">
+	
+	<h1 class="well text-center" style="margin-top:0; font-size:20px;">Explore our Looking Glass points in different countries</h1>
+
+	<button type="button" class="btn btn-default btn-lg btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="$(this).hide(); $('#countries_select').slideDown('fast');" style="margin-bottom:20px;">Select country <span class="caret"></span> </button>
+
+	<div style="line-height:2.9em; margin-bottom:20px; display:none;" id="countries_select">
+					
+		<a href="/points.php?country=60" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ab.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Abhazia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ab.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=1" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/au.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Australia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/au.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=2" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Austria</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=35" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/by.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Belarus</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/by.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=37" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/be.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Belgium</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/be.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=42" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/br.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Brazil</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/br.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=3" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Bulgaria</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=10" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Canada</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=58" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Chile</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=51" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cn.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">China</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cn.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=44" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cy.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Cyprus</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cy.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=24" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Czech Republic</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=6" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/dk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Denmark</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/dk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=55" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ec.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Ecuador</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ec.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=27" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ee.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Estonia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ee.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=34" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/fi.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Finland</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/fi.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=23" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/fr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">France</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/fr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=63" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ge.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Georgia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ge.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=5" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/de.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Germany</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/de.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=61" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/gr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Greece</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/gr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=11" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/hk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Hong Kong</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/hk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=29" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/hu.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Hungary</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/hu.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=54" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/is.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Iceland</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/is.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=7" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/in.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">India</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/in.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=56" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/id.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Indonesia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/id.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=39" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ie.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Ireland</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ie.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=57" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/im.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Isle of Man</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/im.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=52" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/il.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Israel</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/il.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=9" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/it.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Italy</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/it.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=28" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/jp.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Japan</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/jp.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=36" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/kz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Kazakhstan</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/kz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=12" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lv.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Latvia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lv.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=13" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lt.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Lithuania</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lt.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=30" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lu.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Luxembourg</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/lu.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=53" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/my.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Malaysia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/my.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=14" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/mx.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Mexico</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/mx.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=31" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/md.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Moldova</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/md.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=15" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/nl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Netherlands</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/nl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=19" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/nz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">New Zealand</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/nz.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=16" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/no.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Norway</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/no.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=17" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/pl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Poland</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/pl.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=59" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/pt.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Portugal</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/pt.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=32" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ro.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Romania</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ro.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=18" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ru.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Russia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ru.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=48" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/rs.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Serbia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/rs.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=20" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/sg.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Singapore</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/sg.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=40" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/sk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Slovakia</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/sk.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=33" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/za.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">South Africa</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/za.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=43" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/kr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">South Korea</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/kr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=8" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/es.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Spain</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/es.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=26" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/se.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Sweden</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/se.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=25" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ch.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Switzerland</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ch.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=47" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/tw.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Taiwan</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/tw.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=38" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/tr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Turkey</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/tr.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=62" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ae.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">UAE</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ae.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=21" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/us.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">USA</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/us.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=22" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ua.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">Ukraine</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/ua.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+					
+		<a href="/points.php?country=4" class="btn btn-default" style="width:234px;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/gb.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+						<td style="text-align:center; vertical-align:middle;">United Kingdom</td>
+						<td style="width:21px; text-align:left; vertical-align:middle;"><img src="/images/icons/flags/gb.png" style="width:21px; height:16px; margin-bottom:2px;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</a>
+		
+	</div>
+</div>
+
+
+
+<div style="margin-bottom:-20px;">
+	
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/ab.png" style="width:21px; height:16px; vertical-align:top;"> Abhazia</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=568" class="btn btn-default btn-block" style="line-height:59px;">185.228.134.214</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(568, 42.999508, 40.999272, 'Abhazia, Sokhumi');">
+									<img src="/images/icons/flags/ab.png" style="width:21px; height:16px; margin-bottom:2px;"> Abhazia, Sokhumi
+									
+								</button>
+																
+								<a href="/company.php?id=252" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Cyxym</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-228-134-214.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://185-228-134-214.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://185-228-134-214.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=568&d=' + $('#domain_568').val() + '&f=' + $('#function_568').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_568">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_568">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=568&d=' + punycode.ToASCII($('#domain_568').val()) + '&f=' + $('#function_568').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/au.png" style="width:21px; height:16px; vertical-align:top;"> Australia</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=300" class="btn btn-default btn-block">146.185.214.47<hr style="margin:9px 0px;">2a03:90c0:105::3c</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(300, -33.854529, 151.208759, 'Australia, Sydney');">
+									<img src="/images/icons/flags/au.png" style="width:21px; height:16px; margin-bottom:2px;"> Australia, Sydney
+									
+								</button>
+																
+								<a href="/company.php?id=15" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Gcore</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://146-185-214-47.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">10 MB</a>
+									<a href="https://146-185-214-47.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">100 MB</a>
+									<a href="https://146-185-214-47.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=300&d=' + $('#domain_300').val() + '&f=' + $('#function_300').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_300">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_300">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=300&d=' + punycode.ToASCII($('#domain_300').val()) + '&f=' + $('#function_300').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=440" class="btn btn-default btn-block" style="line-height:59px;">103.126.137.120</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(440, -33.9117762, 151.1929422, 'Australia, Sydney, 47 Bourke Road Alexandria<br>Data center: <b>Psychz Networks</b>');">
+									<img src="/images/icons/flags/au.png" style="width:21px; height:16px; margin-bottom:2px;"> Australia, Sydney
+									
+								</button>
+																
+								<a href="/company.php?id=221" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Psychz Networks</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://103-126-137-120.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://103-126-137-120.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://103-126-137-120.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=440&d=' + $('#domain_440').val() + '&f=' + $('#function_440').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_440">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_440">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=440&d=' + punycode.ToASCII($('#domain_440').val()) + '&f=' + $('#function_440').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=573" class="btn btn-default btn-block">203.96.177.151<hr style="margin:9px 0px;">2406:cb41:0:f03f::735d</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(573, -33.918202, 151.189211, 'Australia, Sydney, A200 Bourke Rd Alexandria<br>Data center: <b>Equinix</b>');">
+									<img src="/images/icons/flags/au.png" style="width:21px; height:16px; margin-bottom:2px;"> Australia, Sydney
+									
+								</button>
+																
+								<a href="/company.php?id=201" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Shock Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://203-96-177-151.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://203-96-177-151.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://203-96-177-151.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=573&d=' + $('#domain_573').val() + '&f=' + $('#function_573').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_573">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_573">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=573&d=' + punycode.ToASCII($('#domain_573').val()) + '&f=' + $('#function_573').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/at.png" style="width:21px; height:16px; vertical-align:top;"> Austria</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=641" class="btn btn-default btn-block">212.69.167.70<hr style="margin:9px 0px;">2a05:5504:1::4fe:1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(641, 48.271098, 16.432888, 'Austria, Vienna, Richard-Neutra-Gasse 10<br>Data center: <b>ODC21</b>');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=271" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Hosteroid</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://212-69-167-70.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://212-69-167-70.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://212-69-167-70.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=641&d=' + $('#domain_641').val() + '&f=' + $('#function_641').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_641">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_641">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=641&d=' + punycode.ToASCII($('#domain_641').val()) + '&f=' + $('#function_641').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=662" class="btn btn-default btn-block">78.153.130.47<hr style="margin:9px 0px;">2a12:5940...838f:68b2</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(662, 48.269286, 16.411003, 'Austria, Vienna, Louis-Hafliger-Gasse 10<br>Data center: <b>InterXion</b>');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=245" type="button" class="btn btn-default btn-block" style="margin-top:5px;">AEZA</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://78-153-130-47.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://78-153-130-47.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://78-153-130-47.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=662&d=' + $('#domain_662').val() + '&f=' + $('#function_662').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_662">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_662">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=662&d=' + punycode.ToASCII($('#domain_662').val()) + '&f=' + $('#function_662').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=665" class="btn btn-default btn-block" style="line-height:59px;">95.164.9.5</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(665, 48.269463, 16.410726, 'Austria, Vienna, Louis-Hafliger-Gasse 10');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://95-164-9-5.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">10 MB</a>
+									<a href="https://95-164-9-5.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">100 MB</a>
+									<a href="https://95-164-9-5.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=665&d=' + $('#domain_665').val() + '&f=' + $('#function_665').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_665">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_665">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=665&d=' + punycode.ToASCII($('#domain_665').val()) + '&f=' + $('#function_665').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=686" class="btn btn-default btn-block" style="line-height:59px;">195.133.88.7</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(686, 48.269112, 16.410654, 'Austria, Vienna, Louis-Hafliger-Gasse 10<br>Data center: <b>InterXion</b>');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=275" type="button" class="btn btn-default btn-block" style="margin-top:5px;">4vps</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://195-133-88-7.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">10 MB</a>
+									<a href="https://195-133-88-7.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">100 MB</a>
+									<a href="https://195-133-88-7.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=686&d=' + $('#domain_686').val() + '&f=' + $('#function_686').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_686">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_686">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=686&d=' + punycode.ToASCII($('#domain_686').val()) + '&f=' + $('#function_686').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=240" class="btn btn-default btn-block" style="line-height:59px;">45.91.94.146</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(240, 48.269286, 16.410803, 'Austria, Vienna, Louis-Hafliger-Gasse 10<br>Data center: <b>Interxion</b>');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=88" type="button" class="btn btn-default btn-block" style="margin-top:5px;">HostHatch</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://45-91-94-146.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://45-91-94-146.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://45-91-94-146.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=240&d=' + $('#domain_240').val() + '&f=' + $('#function_240').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_240">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_240">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=240&d=' + punycode.ToASCII($('#domain_240').val()) + '&f=' + $('#function_240').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=313" class="btn btn-default btn-block">195.144.21.250<hr style="margin:9px 0px;">2a07:85c1:0:250::2</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(313, 48.195678, 16.368931, 'Austria, Vienna');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=152" type="button" class="btn btn-default btn-block" style="margin-top:5px;">BlackHOST</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://195-144-21-250.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://195-144-21-250.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://195-144-21-250.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=313&d=' + $('#domain_313').val() + '&f=' + $('#function_313').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_313">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_313">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=313&d=' + punycode.ToASCII($('#domain_313').val()) + '&f=' + $('#function_313').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=501" class="btn btn-default btn-block">46.102.157.175<hr style="margin:9px 0px;">2a0d:f302:102:ed20::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(501, 48.269286, 16.410603, 'Austria, Vienna, Louis-Hafliger-Gasse 10<br>Data center: <b>InterXion</b>');">
+									<img src="/images/icons/flags/at.png" style="width:21px; height:16px; margin-bottom:2px;"> Austria, Vienna
+									
+								</button>
+																
+								<a href="/company.php?id=213" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Alwyzon</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://46-102-157-175.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://46-102-157-175.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://46-102-157-175.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=501&d=' + $('#domain_501').val() + '&f=' + $('#function_501').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_501">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_501">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=501&d=' + punycode.ToASCII($('#domain_501').val()) + '&f=' + $('#function_501').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/by.png" style="width:21px; height:16px; vertical-align:top;"> Belarus</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=109" class="btn btn-default btn-block" style="line-height:59px;">185.66.68.100</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(109, 53.8453304, 27.6380343, 'Belarus, Minsk, Ubarevicha St 8/2<br>Data center: <b>Support.by</b>');">
+									<img src="/images/icons/flags/by.png" style="width:21px; height:16px; margin-bottom:2px;"> Belarus, Minsk
+									
+								</button>
+																
+								<a href="/company.php?id=70" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Support.by</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-66-68-100.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://185-66-68-100.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://185-66-68-100.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=109&d=' + $('#domain_109').val() + '&f=' + $('#function_109').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_109">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_109">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=109&d=' + punycode.ToASCII($('#domain_109').val()) + '&f=' + $('#function_109').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/be.png" style="width:21px; height:16px; vertical-align:top;"> Belgium</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=727" class="btn btn-default btn-block" style="line-height:59px;">95.164.62.7</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(727, 50.871025, 4.476342, 'Belgium, Brussels');">
+									<img src="/images/icons/flags/be.png" style="width:21px; height:16px; margin-bottom:2px;"> Belgium, Brussels
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://95-164-62-7.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://95-164-62-7.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://95-164-62-7.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=727&d=' + $('#domain_727').val() + '&f=' + $('#function_727').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_727">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_727">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=727&d=' + punycode.ToASCII($('#domain_727').val()) + '&f=' + $('#function_727').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/br.png" style="width:21px; height:16px; vertical-align:top;"> Brazil</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=562" class="btn btn-default btn-block" style="line-height:59px;">45.227.156.25</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(562, -23.245235, -47.061166, 'Brazil, Cabreuva-SP, Street Goias, 90<br>Data center: <b>POP OpenIT</b>');">
+									<img src="/images/icons/flags/br.png" style="width:21px; height:16px; margin-bottom:2px;"> Brazil, Cabreuva-SP
+									
+								</button>
+																
+								<a href="/company.php?id=248" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Open IT Group</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://45-227-156-25.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">10 MB</a>
+									<a href="https://45-227-156-25.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">100 MB</a>
+									<a href="https://45-227-156-25.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=562&d=' + $('#domain_562').val() + '&f=' + $('#function_562').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_562">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_562">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=562&d=' + punycode.ToASCII($('#domain_562').val()) + '&f=' + $('#function_562').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=166" class="btn btn-default btn-block">5.188.4.173<hr style="margin:9px 0px;">2a03:90c0:186::f1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(166, -23.5491356, -46.6331759, 'Brazil, Sao Paulo');">
+									<img src="/images/icons/flags/br.png" style="width:21px; height:16px; margin-bottom:2px;"> Brazil, Sao Paulo
+									
+								</button>
+																
+								<a href="/company.php?id=15" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Gcore</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://5-188-4-173.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">10 MB</a>
+									<a href="https://5-188-4-173.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">100 MB</a>
+									<a href="https://5-188-4-173.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 50 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=166&d=' + $('#domain_166').val() + '&f=' + $('#function_166').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_166">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_166">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=166&d=' + punycode.ToASCII($('#domain_166').val()) + '&f=' + $('#function_166').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=442" class="btn btn-default btn-block" style="line-height:59px;">108.181.69.248</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(442, -23.4925847, -46.8083706, 'Brazil, Sao Paulo, Av. Ceci 1900 - Res. Tambore<br>Data center: <b>Psychz Networks</b>');">
+									<img src="/images/icons/flags/br.png" style="width:21px; height:16px; margin-bottom:2px;"> Brazil, Sao Paulo
+									
+								</button>
+																
+								<a href="/company.php?id=221" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Psychz Networks</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://108-181-69-248.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://108-181-69-248.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://108-181-69-248.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=442&d=' + $('#domain_442').val() + '&f=' + $('#function_442').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_442">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_442">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=442&d=' + punycode.ToASCII($('#domain_442').val()) + '&f=' + $('#function_442').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/bg.png" style="width:21px; height:16px; vertical-align:top;"> Bulgaria</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=555" class="btn btn-default btn-block" style="line-height:59px;">146.19.80.3</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(555, 42.7027, 23.3062588, 'Bulgaria, Sofia, Ovcho pole St 122');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://146-19-80-3.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://146-19-80-3.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://146-19-80-3.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=555&d=' + $('#domain_555').val() + '&f=' + $('#function_555').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_555">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_555">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=555&d=' + punycode.ToASCII($('#domain_555').val()) + '&f=' + $('#function_555').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=717" class="btn btn-default btn-block" style="line-height:59px;">176.103.62.121</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(717, 42.702705, 23.306205, 'Bulgaria, Sofia, Ovcho pole St 122<br>Data center: <b>Telepoint</b>');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=277" type="button" class="btn btn-default btn-block" style="margin-top:5px;">XServer</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://176-103-62-121.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://176-103-62-121.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://176-103-62-121.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=717&d=' + $('#domain_717').val() + '&f=' + $('#function_717').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_717">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_717">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=717&d=' + punycode.ToASCII($('#domain_717').val()) + '&f=' + $('#function_717').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=8" class="btn btn-default btn-block">185.82.216.178<hr style="margin:9px 0px;">2a02:27aa::68</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(8, 42.7027351, 23.3062, 'Bulgaria, Sofia, Ovcho pole St 122<br>Data center: <b>Telepoint</b>');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=3" type="button" class="btn btn-default btn-block" style="margin-top:5px;">ITL DC</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-82-216-178.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://185-82-216-178.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://185-82-216-178.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=8&d=' + $('#domain_8').val() + '&f=' + $('#function_8').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_8">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_8">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=8&d=' + punycode.ToASCII($('#domain_8').val()) + '&f=' + $('#function_8').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=26" class="btn btn-default btn-block" style="line-height:59px;">185.68.93.57</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(26, 42.7027351, 23.3062588, 'Bulgaria, Sofia, Ovcho pole St 122<br>Data center: <b>Telepoint</b>');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=14" type="button" class="btn btn-default btn-block" style="margin-top:5px;">CISHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-68-93-57.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://185-68-93-57.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://185-68-93-57.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=26&d=' + $('#domain_26').val() + '&f=' + $('#function_26').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_26">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_26">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=26&d=' + punycode.ToASCII($('#domain_26').val()) + '&f=' + $('#function_26').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=91" class="btn btn-default btn-block" style="line-height:59px;">185.162.10.193</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(91, 42.7027, 23.3062, 'Bulgaria, Sofia, Ovcho pole St 122<br>Data center: <b>Telepoint</b>');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=7" type="button" class="btn btn-default btn-block" style="margin-top:5px;">EuroHoster</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-162-10-193.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 80 Mbit/s">10 MB</a>
+									<a href="https://185-162-10-193.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 80 Mbit/s">100 MB</a>
+									<a href="https://185-162-10-193.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 80 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=91&d=' + $('#domain_91').val() + '&f=' + $('#function_91').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_91">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_91">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=91&d=' + punycode.ToASCII($('#domain_91').val()) + '&f=' + $('#function_91').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=339" class="btn btn-default btn-block">79.142.70.20<hr style="margin:9px 0px;">2a00:7145::3fba:ce9b</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(339, 42.693699, 23.304523, 'Bulgaria, Sofia');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=150" type="button" class="btn btn-default btn-block" style="margin-top:5px;">AltusHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://79-142-70-20.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">10 MB</a>
+									<a href="https://79-142-70-20.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">100 MB</a>
+									<a href="https://79-142-70-20.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=339&d=' + $('#domain_339').val() + '&f=' + $('#function_339').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_339">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_339">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=339&d=' + punycode.ToASCII($('#domain_339').val()) + '&f=' + $('#function_339').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=423" class="btn btn-default btn-block" style="line-height:59px;">87.120.37.39</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(423, 42.6563318, 23.3692583, 'Bulgaria, Sofia, Grigoriy Gorbatenko St 3<br>Data center: <b>Sofia Data Center</b>');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=214" type="button" class="btn btn-default btn-block" style="margin-top:5px;">VPSBG</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://87-120-37-39.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://87-120-37-39.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://87-120-37-39.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=423&d=' + $('#domain_423').val() + '&f=' + $('#function_423').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_423">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_423">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=423&d=' + punycode.ToASCII($('#domain_423').val()) + '&f=' + $('#function_423').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=528" class="btn btn-default btn-block">89.44.197.95<hr style="margin:9px 0px;">2a03:90c0:375::4e</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(528, 42.663688, 23.310399, 'Bulgaria, Sofia');">
+									<img src="/images/icons/flags/bg.png" style="width:21px; height:16px; margin-bottom:2px;"> Bulgaria, Sofia
+									
+								</button>
+																
+								<a href="/company.php?id=15" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Gcore</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://89-44-197-95.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">10 MB</a>
+									<a href="https://89-44-197-95.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">100 MB</a>
+									<a href="https://89-44-197-95.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=528&d=' + $('#domain_528').val() + '&f=' + $('#function_528').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_528">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_528">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=528&d=' + punycode.ToASCII($('#domain_528').val()) + '&f=' + $('#function_528').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/ca.png" style="width:21px; height:16px; vertical-align:top;"> Canada</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=232" class="btn btn-default btn-block" style="line-height:59px;">192.95.41.128</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(232, 45.3150817, -73.8779233, 'Canada, Beauharnois<br>Data center: <b>SakuraServer</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Beauharnois
+									
+								</button>
+																
+								<a href="/company.php?id=122" type="button" class="btn btn-default btn-block" style="margin-top:5px;">SakuraServer</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://192-95-41-128.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://192-95-41-128.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://192-95-41-128.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=232&d=' + $('#domain_232').val() + '&f=' + $('#function_232').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_232">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_232">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=232&d=' + punycode.ToASCII($('#domain_232').val()) + '&f=' + $('#function_232').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=303" class="btn btn-default btn-block">198.50.214.138<hr style="margin:9px 0px;">2607:5300...7c1c:a421</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(303, 45.315075, -73.920878, 'Canada, Beauharnois, 20 Boul de Melocheville<br>Data center: <b>OVH</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Beauharnois
+									
+								</button>
+																
+								<a href="/company.php?id=127" type="button" class="btn btn-default btn-block" style="margin-top:5px;">HostNamaste</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://198-50-214-138.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://198-50-214-138.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://198-50-214-138.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=303&d=' + $('#domain_303').val() + '&f=' + $('#function_303').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_303">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_303">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=303&d=' + punycode.ToASCII($('#domain_303').val()) + '&f=' + $('#function_303').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=372" class="btn btn-default btn-block" style="line-height:59px;">198.27.110.93</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(372, 45.313429, -73.878696, 'Canada, Beauharnois');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Beauharnois
+									
+								</button>
+																
+								<a href="/company.php?id=179" type="button" class="btn btn-default btn-block" style="margin-top:5px;">ThomasHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://198-27-110-93.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://198-27-110-93.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://198-27-110-93.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=372&d=' + $('#domain_372').val() + '&f=' + $('#function_372').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_372">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_372">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=372&d=' + punycode.ToASCII($('#domain_372').val()) + '&f=' + $('#function_372').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=561" class="btn btn-default btn-block" style="line-height:59px;">51.222.196.32</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(561, 45.309584, -73.896503, 'Canada, Beauharnois, 50 Rue de lAluminerie<br>Data center: <b>OVH</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Beauharnois
+									
+								</button>
+																
+								<a href="/company.php?id=61" type="button" class="btn btn-default btn-block" style="margin-top:5px;">IPhoster</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://51-222-196-32.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://51-222-196-32.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://51-222-196-32.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=561&d=' + $('#domain_561').val() + '&f=' + $('#function_561').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_561">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_561">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=561&d=' + punycode.ToASCII($('#domain_561').val()) + '&f=' + $('#function_561').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=550" class="btn btn-default btn-block">23.191.80.34<hr style="margin:9px 0px;">2602:fc1c:fa0:1::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(550, 44.464721, -63.613524, 'Canada, Halifax, 233 Sambro Creek Rd');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Halifax
+									
+								</button>
+																
+								<a href="/company.php?id=163" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Free Range Cloud</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://23-191-80-34.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://23-191-80-34.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://23-191-80-34.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=550&d=' + $('#domain_550').val() + '&f=' + $('#function_550').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_550">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_550">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=550&d=' + punycode.ToASCII($('#domain_550').val()) + '&f=' + $('#function_550').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=368" class="btn btn-default btn-block" style="line-height:59px;">198.27.110.92</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(368, 45.484376, -73.55223, 'Canada, Montreal');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Montreal
+									
+								</button>
+																
+								<a href="/company.php?id=178" type="button" class="btn btn-default btn-block" style="margin-top:5px;">KarasHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://198-27-110-92.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://198-27-110-92.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://198-27-110-92.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=368&d=' + $('#domain_368').val() + '&f=' + $('#function_368').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_368">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_368">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=368&d=' + punycode.ToASCII($('#domain_368').val()) + '&f=' + $('#function_368').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=548" class="btn btn-default btn-block">45.153.48.51<hr style="margin:9px 0px;">2607:4300...51:0</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(548, 45.486889, -73.902242, 'Canada, Montreal');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Montreal
+									
+								</button>
+																
+								<a href="/company.php?id=217" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Webdock</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://45-153-48-51.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://45-153-48-51.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://45-153-48-51.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=548&d=' + $('#domain_548').val() + '&f=' + $('#function_548').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_548">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_548">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=548&d=' + punycode.ToASCII($('#domain_548').val()) + '&f=' + $('#function_548').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=332" class="btn btn-default btn-block">103.144.177.41<hr style="margin:9px 0px;">2602:fed2:fa0:8::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(332, 43.769471, -79.330722, 'Canada, North York, 245 Consumers Rd');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, North York
+									
+								</button>
+																
+								<a href="/company.php?id=163" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Free Range Cloud</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://103-144-177-41.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://103-144-177-41.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://103-144-177-41.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=332&d=' + $('#domain_332').val() + '&f=' + $('#function_332').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_332">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_332">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=332&d=' + punycode.ToASCII($('#domain_332').val()) + '&f=' + $('#function_332').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=60" class="btn btn-default btn-block">51.222.96.52<hr style="margin:9px 0px;">2607:5300...ec2a:7f0</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(60, 43.644672, -79.3841276, 'Canada, Toronto, 151 Front St W<br>Data center: <b>Cologix</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Toronto
+									
+								</button>
+																
+								<a href="/company.php?id=37" type="button" class="btn btn-default btn-block" style="margin-top:5px;">BlueVPS</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://51-222-96-52.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://51-222-96-52.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://51-222-96-52.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=60&d=' + $('#domain_60').val() + '&f=' + $('#function_60').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_60">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_60">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=60&d=' + punycode.ToASCII($('#domain_60').val()) + '&f=' + $('#function_60').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=362" class="btn btn-default btn-block">79.141.167.48<hr style="margin:9px 0px;">2a01:8640:3:2::d3c9:b62</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(362, 43.695819, -79.508527, 'Canada, Toronto');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Toronto
+									
+								</button>
+																
+								<a href="/company.php?id=175" type="button" class="btn btn-default btn-block" style="margin-top:5px;">HostZealot</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://79-141-167-48.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://79-141-167-48.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://79-141-167-48.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=362&d=' + $('#domain_362').val() + '&f=' + $('#function_362').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_362">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_362">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=362&d=' + punycode.ToASCII($('#domain_362').val()) + '&f=' + $('#function_362').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=468" class="btn btn-default btn-block" style="line-height:59px;">193.203.203.9</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(468, 43.641569, -79.412243, 'Canada, Toronto, 905 King St W Suite 500');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Toronto
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://193-203-203-9.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://193-203-203-9.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://193-203-203-9.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=468&d=' + $('#domain_468').val() + '&f=' + $('#function_468').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_468">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_468">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=468&d=' + punycode.ToASCII($('#domain_468').val()) + '&f=' + $('#function_468').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=671" class="btn btn-default btn-block">81.19.140.42<hr style="margin:9px 0px;">2a05:541:105:11::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(671, 43.644949, -79.388837, 'Canada, Toronto, 35 John St<br>Data center: <b>EXA</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Toronto
+									
+								</button>
+																
+								<a href="/company.php?id=275" type="button" class="btn btn-default btn-block" style="margin-top:5px;">4vps</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://81-19-140-42.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">10 MB</a>
+									<a href="https://81-19-140-42.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">100 MB</a>
+									<a href="https://81-19-140-42.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 2000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=671&d=' + $('#domain_671').val() + '&f=' + $('#function_671').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_671">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_671">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=671&d=' + punycode.ToASCII($('#domain_671').val()) + '&f=' + $('#function_671').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=711" class="btn btn-default btn-block">172.99.175.236<hr style="margin:9px 0px;">2605:e440:6::2:2cf</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(711, 43.650591, -79.385624, 'Canada, Toronto');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Toronto
+									
+								</button>
+																
+								<a href="/company.php?id=34" type="button" class="btn btn-default btn-block" style="margin-top:5px;">JustHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://172-99-175-236.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">10 MB</a>
+									<a href="https://172-99-175-236.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">100 MB</a>
+									<a href="https://172-99-175-236.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 200 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=711&d=' + $('#domain_711').val() + '&f=' + $('#function_711').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_711">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_711">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=711&d=' + punycode.ToASCII($('#domain_711').val()) + '&f=' + $('#function_711').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=496" class="btn btn-default btn-block">104.218.61.164<hr style="margin:9px 0px;">2602:fed2:fb0:19::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(496, 49.28491, -123.111871, 'Canada, Vancouver, 555 W Hastings St<br>Data center: <b>Harbour Center</b>');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Vancouver
+									
+								</button>
+																
+								<a href="/company.php?id=163" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Free Range Cloud</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://104-218-61-164.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://104-218-61-164.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://104-218-61-164.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=496&d=' + $('#domain_496').val() + '&f=' + $('#function_496').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_496">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_496">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=496&d=' + punycode.ToASCII($('#domain_496').val()) + '&f=' + $('#function_496').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=331" class="btn btn-default btn-block">23.133.64.25<hr style="margin:9px 0px;">2602:fed2:fe0:269::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(331, 49.893545, -97.142844, 'Canada, Winnipeg, 294 Portage Ave');">
+									<img src="/images/icons/flags/ca.png" style="width:21px; height:16px; margin-bottom:2px;"> Canada, Winnipeg
+									
+								</button>
+																
+								<a href="/company.php?id=163" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Free Range Cloud</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://23-133-64-25.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://23-133-64-25.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://23-133-64-25.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=331&d=' + $('#domain_331').val() + '&f=' + $('#function_331').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_331">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_331">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=331&d=' + punycode.ToASCII($('#domain_331').val()) + '&f=' + $('#function_331').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/cl.png" style="width:21px; height:16px; vertical-align:top;"> Chile</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=553" class="btn btn-default btn-block">216.73.159.15<hr style="margin:9px 0px;">2a06:a006:d1d1::105</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(553, -39.828143, -73.229245, 'Chile, Valdivia');">
+									<img src="/images/icons/flags/cl.png" style="width:21px; height:16px; margin-bottom:2px;"> Chile, Valdivia
+									
+								</button>
+																
+								<a href="/company.php?id=83" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Zappie Host</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://216-73-159-15.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://216-73-159-15.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://216-73-159-15.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=553&d=' + $('#domain_553').val() + '&f=' + $('#function_553').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_553">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_553">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=553&d=' + punycode.ToASCII($('#domain_553').val()) + '&f=' + $('#function_553').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/cn.png" style="width:21px; height:16px; vertical-align:top;"> China</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=260" class="btn btn-default btn-block" style="line-height:59px;">43.247.70.141</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(260, 22.543981, 114.058986, 'China, Shenzhen<br>Data center: <b>SakuraServer</b>');">
+									<img src="/images/icons/flags/cn.png" style="width:21px; height:16px; margin-bottom:2px;"> China, Shenzhen
+									
+								</button>
+																
+								<a href="/company.php?id=122" type="button" class="btn btn-default btn-block" style="margin-top:5px;">SakuraServer</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="http://43.247.70.141:40239/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">10 MB</a>
+									<a href="http://43.247.70.141:40239/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">100 MB</a>
+									<a href="http://43.247.70.141:40239/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=260&d=' + $('#domain_260').val() + '&f=' + $('#function_260').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_260">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_260">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=260&d=' + punycode.ToASCII($('#domain_260').val()) + '&f=' + $('#function_260').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/cy.png" style="width:21px; height:16px; vertical-align:top;"> Cyprus</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=185" class="btn btn-default btn-block">85.239.40.199<hr style="margin:9px 0px;">2a0c:5cc0:1::1:c5b2:768</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(185, 34.7068082, 33.0626506, 'Cyprus, Limassol, Faleas 1 Agios Athanasios<br>Data center: <b>CloudLayer8</b>');">
+									<img src="/images/icons/flags/cy.png" style="width:21px; height:16px; margin-bottom:2px;"> Cyprus, Limassol
+									
+								</button>
+																
+								<a href="/company.php?id=37" type="button" class="btn btn-default btn-block" style="margin-top:5px;">BlueVPS</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://85-239-40-199.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://85-239-40-199.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://85-239-40-199.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=185&d=' + $('#domain_185').val() + '&f=' + $('#function_185').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_185">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_185">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=185&d=' + punycode.ToASCII($('#domain_185').val()) + '&f=' + $('#function_185').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=359" class="btn btn-default btn-block">185.205.187.56<hr style="margin:9px 0px;">2a0c:5cc0:1::1:6c90:1e69</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(359, 34.693571, 33.027079, 'Cyprus, Limassol');">
+									<img src="/images/icons/flags/cy.png" style="width:21px; height:16px; margin-bottom:2px;"> Cyprus, Limassol
+									
+								</button>
+																
+								<a href="/company.php?id=175" type="button" class="btn btn-default btn-block" style="margin-top:5px;">HostZealot</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-205-187-56.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://185-205-187-56.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://185-205-187-56.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=359&d=' + $('#domain_359').val() + '&f=' + $('#function_359').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_359">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_359">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=359&d=' + punycode.ToASCII($('#domain_359').val()) + '&f=' + $('#function_359').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/cz.png" style="width:21px; height:16px; vertical-align:top;"> Czech Republic</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=350" class="btn btn-default btn-block" style="line-height:59px;">194.15.112.224</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(350, 49.205708, 16.661801, 'Czech Republic, Brno, Palavske nam 4343/11<br>Data center: <b>Itself</b>');">
+									<img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"> Czech Republic, Brno
+									
+								</button>
+																
+								<a href="/company.php?id=169" type="button" class="btn btn-default btn-block" style="margin-top:5px;">Hosting International</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://194-15-112-224.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://194-15-112-224.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://194-15-112-224.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=350&d=' + $('#domain_350').val() + '&f=' + $('#function_350').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_350">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_350">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=350&d=' + punycode.ToASCII($('#domain_350').val()) + '&f=' + $('#function_350').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=174" class="btn btn-default btn-block">195.123.245.113<hr style="margin:9px 0px;">2a05:9403::6b</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(174, 50.0695092, 14.4632941, 'Czech Republic, Prague, Kodanska 1441/46<br>Data center: <b>MasterDC</b>');">
+									<img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"> Czech Republic, Prague
+									
+								</button>
+																
+								<a href="/company.php?id=3" type="button" class="btn btn-default btn-block" style="margin-top:5px;">ITL DC</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://195-123-245-113.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://195-123-245-113.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://195-123-245-113.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=174&d=' + $('#domain_174').val() + '&f=' + $('#function_174').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_174">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_174">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=174&d=' + punycode.ToASCII($('#domain_174').val()) + '&f=' + $('#function_174').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=348" class="btn btn-default btn-block">93.99.104.115<hr style="margin:9px 0px;">2a01:5e0:36:c034::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(348, 50.204227, 14.514239, 'Czech Republic, Prague, Mesice, Nadrazni 11<br>Data center: <b>FinalTek.com</b>');">
+									<img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"> Czech Republic, Prague
+									
+								</button>
+																
+								<a href="/company.php?id=172" type="button" class="btn btn-default btn-block" style="margin-top:5px;">FinalHosting.net</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://93-99-104-115.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://93-99-104-115.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://93-99-104-115.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=348&d=' + $('#domain_348').val() + '&f=' + $('#function_348').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_348">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_348">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=348&d=' + punycode.ToASCII($('#domain_348').val()) + '&f=' + $('#function_348').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=601" class="btn btn-default btn-block" style="line-height:59px;">89.187.129.170</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(601, 50.084631, 14.398879, 'Czech Republic, Prague');">
+									<img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"> Czech Republic, Prague
+									
+								</button>
+																
+								<a href="/company.php?id=206" type="button" class="btn btn-default btn-block" style="margin-top:5px;">UnixHost</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://89-187-129-170.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">10 MB</a>
+									<a href="https://89-187-129-170.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">100 MB</a>
+									<a href="https://89-187-129-170.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 100 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=601&d=' + $('#domain_601').val() + '&f=' + $('#function_601').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_601">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_601">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=601&d=' + punycode.ToASCII($('#domain_601').val()) + '&f=' + $('#function_601').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=511" class="btn btn-default btn-block" style="line-height:59px;">185.53.46.10</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(511, 49.191653, 14.718363, 'Czech Republic, Veseli nad Luznici, Pod Rafandou 906');">
+									<img src="/images/icons/flags/cz.png" style="width:21px; height:16px; margin-bottom:2px;"> Czech Republic, Veseli nad Luznici
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://185-53-46-10.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://185-53-46-10.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://185-53-46-10.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=511&d=' + $('#domain_511').val() + '&f=' + $('#function_511').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_511">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_511">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=511&d=' + punycode.ToASCII($('#domain_511').val()) + '&f=' + $('#function_511').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/dk.png" style="width:21px; height:16px; vertical-align:top;"> Denmark</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=660" class="btn btn-default btn-block">95.164.10.5<hr style="margin:9px 0px;">2a13:6300:0:2::1</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(660, 54.951262, 8.869966, 'Denmark, Tender, Fabriksvej 1');">
+									<img src="/images/icons/flags/dk.png" style="width:21px; height:16px; margin-bottom:2px;"> Denmark, Tender
+									
+								</button>
+																
+								<a href="/company.php?id=105" type="button" class="btn btn-default btn-block" style="margin-top:5px;">PQ.Hosting</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://95-164-10-5.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">10 MB</a>
+									<a href="https://95-164-10-5.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">100 MB</a>
+									<a href="https://95-164-10-5.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=660&d=' + $('#domain_660').val() + '&f=' + $('#function_660').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_660">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_660">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=660&d=' + punycode.ToASCII($('#domain_660').val()) + '&f=' + $('#function_660').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/ec.png" style="width:21px; height:16px; vertical-align:top;"> Ecuador</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=363" class="btn btn-default btn-block" style="line-height:59px;">186.68.104.152</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(363, -2.1870013, -79.8902461, 'Ecuador, Guayaquil, Luis Urdaneta 1311 and Garcia Moreno<br>Data center: <b>Computeprog S.A.</b>');">
+									<img src="/images/icons/flags/ec.png" style="width:21px; height:16px; margin-bottom:2px;"> Ecuador, Guayaquil
+									
+								</button>
+																
+								<a href="/company.php?id=176" type="button" class="btn btn-default btn-block" style="margin-top:5px;">HostingSUPREMO</a>
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<div class="btn-group btn-group-justified" role="group">
+									<a href="https://186-68-104-152.lg.looking.house/10.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">10 MB</a>
+									<a href="https://186-68-104-152.lg.looking.house/100.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">100 MB</a>
+									<a href="https://186-68-104-152.lg.looking.house/1000.mb" type="button" class="btn btn-default" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 10 Mbit/s">1000 MB</a>
+								</div>
+									
+								<form class="input-group" style="margin-top:5px;" onsubmit="document.location = '/point.php?id=363&d=' + $('#domain_363').val() + '&f=' + $('#function_363').val(); return false;">
+									<input type="text" class="form-control" placeholder="IP or Domain name" style="width:150px;" id="domain_363">									
+									<select class="form-control" style="width:120px; margin-left:-1px;" id="function_363">
+										<option value="host">host</option>
+										<option value="ping" selected="selected">ping</option>
+										<option value="ping6" disabled="disabled">ping6</option>
+										<option value="traceroute">traceroute</option>
+										<option value="traceroute6" disabled="disabled">traceroute6</option>
+										<option value="mtr">mtr</option>
+										<option value="mtr6" disabled="disabled">mtr6</option>
+									</select>									
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button" style="width:55px; margin-left:-1px;" onclick="document.location = '/point.php?id=363&d=' + punycode.ToASCII($('#domain_363').val()) + '&f=' + $('#function_363').val();">Run</button>
+									</span>
+								</form>								
+							</td>
+						</tr>
+		
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-info" style="border-width:2px;">
+				<div class="panel-heading"><h3 class="panel-title"><img src="/images/icons/flags/ee.png" style="width:21px; height:16px; vertical-align:top;"> Estonia</h3></div>
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th style="width:250px; text-align:center; vertical-align:middle; border-width:2px;">IP / IPv6</th>
+							<th style="text-align:center; vertical-align:middle; border-width:2px;">Location / Company</th>
+							<th style="width:340px; text-align:center; vertical-align:middle; border-width:2px;">Speed test / Network test</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<a href="/point.php?id=44" class="btn btn-default btn-block">185.4.74.75<hr style="margin:9px 0px;">2a03:f480:1:9::8a</a>							
+							</td>
+							<td style="text-align:center; vertical-align:middle; border-width:2px;">
+								<button class="btn btn-default btn-block" onclick="ModalMap(44, 59.3594216, 27.4086047, 'Estonia, J

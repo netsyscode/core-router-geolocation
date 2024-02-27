@@ -1,0 +1,67 @@
+<!--
+	$Id: lg.cgi,v 1.21 2003/10/01 10:36:51 cougar Exp (with some modifications by madams)$
+	http://freshmeat.net/projects/lg/
+-->
+<Html>
+<Head>
+<Title>AS8422 - Public Looking Glass</Title>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</Head>
+<Body bgcolor="#FFFFFF" text="#000000">
+<Table Border="0" Width="100%"><Tr><Td Align="center"><A HREF="https://www.netcologne.de/"><Img Src="/netcologne.png" Border="0"></A></Td></Tr></Table>
+<Center>
+<H2>AS8422 - Public Looking Glass</H2>
+</Center>
+<P>
+<Hr size=2 width=85% noshade>
+<P>
+<Form Method="POST">
+<center>
+<table border=0 bgcolor="#EFEFEF"><tr><td>
+<table border=0 cellpading=2 cellspacing=2>
+<tr>
+<th bgcolor="#000000" nowrap><font color="#FFFFFF">Type of Query</font></th>
+<th bgcolor="#000000" nowrap><font color="#FFFFFF">Additional parameters</font></th>
+<th bgcolor="#000000" nowrap><font color="#FFFFFF">Node</font></th></tr>
+<tr><td>
+<table border=0 cellpading=2 cellspacing=2>
+<tr><td><Input type="radio" name="query" value="bgp"></td><td>&nbsp;bgp</td></tr>
+<tr><td><Input type="radio" name="query" value="regexp"></td><td>&nbsp;bgp regexp _x_</td></tr>
+<tr><td><Input type="radio" name="query" value="ping"></td><td>&nbsp;ping</td></tr>
+<tr><td><Input type="radio" name="query" value="trace" SELECTED></td><td>&nbsp;trace</td></tr>
+<tr><td></td><td><Select Name="protocol">
+<Option Value = "IPv4"> IPv4
+<Option Value = "IPv6"> IPv6
+</Select></td></tr>
+</table>
+</td>
+<td align=center>&nbsp;<br><Input Name="addr" size=30><br><font size=-1>&nbsp;<sup>&nbsp;</sup>&nbsp;</font></td>
+<td>&nbsp;<br><Select Name="router">
+<Option Value="Cologne"> Cologne
+</Select><br><font size=-1>&nbsp;&nbsp;<sup>&nbsp;</sup>&nbsp;</font></td>
+</tr>
+<tr><td align="center" colspan=3>
+<P>
+<Input Type="submit" Value="Submit"> | 
+<Input Type="reset" Value="Reset"> 
+<P>
+</td></tr>
+</table>
+</td></tr></table>
+</center>
+<P>
+</Form>
+<P>
+<HR Size=2 Width=85% noshade>
+<P>
+</Body>
+<Tail>
+<Center>
+<I>
+  Please email questions or comments to
+ <A Href="mailto:plg@netcologne.de">plg@netcologne.de</a>.
+</I>
+<P>
+</Center>
+</Tail>
+</Html>

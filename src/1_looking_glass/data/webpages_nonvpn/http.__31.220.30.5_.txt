@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=990">
+<title>Looking Glass Point</title>
+<link href="/style.css?v=3" rel="stylesheet">
+<script type="text/javascript" src="/js.js?v=9"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script type="text/javascript">
+$(document).ready(function() {
+	$("[data-tooltip='tooltip']").tooltip();
+	$("[data-popover='popover']").popover();
+	
+	$(window).on("scroll", function() {
+		if ($(document).width() >= 1080)
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				if ($("#back-to-top").data("visible") !== true)
+				{
+					$("#back-to-top").data("visible", true).stop(true, true).fadeIn();
+				}
+			}
+			else
+			{
+				if ($("#back-to-top").data("visible"))
+				{
+					$("#back-to-top").data("visible", false).stop(true, true).fadeOut();					
+				}
+			}
+		}
+		else
+		{
+			$("#back-to-top").hide();	
+		}
+	}).scroll().on("resize", function() {
+		if ($(document).width() < 1080)
+		{
+			$("#back-to-top").hide();
+		}
+		else
+		{
+			if ($(this).scrollTop() > 70)
+			{
+				$("#back-to-top").show();
+			}
+		}
+	});
+});
+</script>
+
+</head>
+<body>	
+	<div id="back-to-top" data-visible="false" style="display:none; z-index:10; position:fixed; left:0; top:0; margin:0px; padding:25px; bottom:0px; width:24px; height:auto; cursor:pointer; background:url('/images/top.png') no-repeat; background-position:center center;" onclick="$('body:not(:animated),html:not(:animated)').animate({scrollTop: 0}, 400);"></div>
+
+	
+	
+	<h2 class="text-center" style="margin-top:0px; margin-bottom:20px;">Looking Glass Point in USA, CA, Los Angeles from <a href="http://hosthatch.com" target="_blank">HostHatch</a></h2>
+	
+	
+	<div class="container">
+		<div class="panel panel-info">
+			<div class="panel-heading">More locations from HostHatch</div>
+			<div class="panel-body">
+				<a href="http://153.92.126.212">Sweden, Stockholm</a> &bull; <a href="http://31.187.64.131">Netherlands, Amsterdam</a> &bull; <a href="http://45.91.94.146">Austria, Vienna</a> &bull; <a href="http://185.175.56.105">Norway, Oslo</a> &bull; <a href="http://185.213.26.112">USA, NJ, Secaucus</a> &bull; <a href="http://45.45.216.45">USA, IL, Chicago</a> &bull; <a href="http://45.91.93.241">United Kingdom, London</a> &bull; <a href="http://45.91.92.167">Switzerland, Zurich</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="container">
+		<div class="panel panel-default" style="margin-bottom:0px;">
+			<table class="table table-bordered">
+				<tbody>
+					<tr>
+						<td style="width:50%; text-align:left; vertical-align:middle; padding:10px 15px;">Country <span class="pull-right"><img src="/images/icons/flags/us.png" style="width:21px; height:16px; vertical-align:text-top;"> USA</span></td>
+						<td style="width:50%; text-align:left; vertical-align:middle; padding:10px 15px;">City <span class="pull-right">CA, Los Angeles</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="list-group" style="margin-bottom:0px;">
+				<li class="list-group-item" id="PointMap" style="width:100%; height:239px; padding:0px;">
+					
+					
+					<script type="text/javascript">
+					var LMap = L.map('PointMap').setView([34.052236, -118.243486], 8);
+					
+					L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>', subdomains: 'abcd', maxZoom: 20}).addTo(LMap);
+								
+					L.marker([34.052236, -118.243486], {icon: L.icon({iconUrl: '/images/circles/circle2.svg', shadowUrl: '/images/circles/circle2.svg', iconSize: [16, 16], shadowSize: [16, 16], iconAnchor: [8, 8], shadowAnchor: [8, 8], popupAnchor: [0, 0]})}).addTo(LMap).bindPopup('<div style="font-size:14px;">USA, CA, Los Angeles<br>Data center: <b>Telecom Center</b></div>').openPopup();
+					</script>
+				</li>
+			</div>
+		</div>
+		
+	</div>
+	
+	<hr>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="input-group">
+					<span class="input-group-addon" style="min-width:70px; font-size:18px;">IP</span>
+					<input class="form-control input-lg" value="31.220.30.5" style="text-align:center;">
+					<span class="input-group-btn">
+						<button class="btn btn-default btn-lg" type="button" style="width:80px;" data-clipboard-text="31.220.30.5" id="ip_copy_button">Copy</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-xs-6">
+				<div class="input-group">
+					<span class="input-group-addon" style="min-width:70px; font-size:18px;">IPv6</span>
+					<input class="form-control input-lg" value="" style="text-align:center;" readonly="readonly">
+					<span class="input-group-btn">
+						<button class="btn btn-default btn-lg" type="button" style="width:80px;" data-clipboard-text="" disabled="disabled" id="ipv6_copy_button">Copy</button>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	$(document).ready(function(e) {
+		var IPClipboardEl = new ClipboardJS("#ip_copy_button");
+	
+		IPClipboardEl.on("success", function(e) {
+			$(e.trigger).text("Done").animate({"opacity":"0.3"}, 250).animate({"opacity":"1.0"}, 250, function() {
+				$(e.trigger).text("Copy");
+			}).blur();
+		}).on("error", function(e) {
+			$(e.trigger).text(":-(").animate({"opacity":"0.3"}, 250).animate({"opacity":"1.0"}, 250, function() {
+				$(e.trigger).text("Copy");
+			}).blur();
+		});
+	});
+	</script>
+	
+	<hr>
+	
+	<div class="container">
+		<div class="btn-group btn-group-justified" role="group">
+			<a href="/10.mb" type="button" class="btn btn-default btn-lg" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> 10 MB</a>
+			<a href="/100.mb" type="button" class="btn btn-default btn-lg" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> 100 MB</a>
+			<a href="/1000.mb" type="button" class="btn btn-default btn-lg" data-tooltip="tooltip" data-placement="top" data-container="body" title="Port speed - 1000 Mbit/s"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> 1000 MB</a>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div class="container">
+		<form onsubmit="LookingGlass(239, 'mtr');  LookingGlass(239, 'traceroute'); LookingGlass(239, 'ping'); LookingGlass(239, 'host'); return false;">
+			<div class="input-group">
+				<input type="text" class="form-control input-lg" placeholder="Domain name or IP address" id="domain" value="">
+				
+				<div class="input-group-btn" role="group">
+					<button type="button" class="btn btn-default btn-lg" onclick="LookingGlass(239, 'host'); $(this).blur();">host</button>
+					<button type="button" class="btn btn-default btn-lg" onclick="LookingGlass(239, 'ping'); $(this).blur();">ping</button>
+					<button type="button" class="btn btn-default btn-lg disabled" onclick="LookingGlass(239, 'ping6'); $(this).blur();">ping6</button>
+					<button type="button" class="btn btn-default btn-lg" onclick="LookingGlass(239, 'traceroute'); $(this).blur();">traceroute</button>
+					<button type="button" class="btn btn-default btn-lg disabled" onclick="LookingGlass(239, 'traceroute6'); $(this).blur();">traceroute6</button>
+					<button type="button" class="btn btn-default btn-lg" onclick="LookingGlass(239, 'mtr'); $(this).blur();">mtr</button>
+					<button type="button" class="btn btn-default btn-lg disabled" onclick="LookingGlass(239, 'mtr6'); $(this).blur();">mtr6</button>
+					<button type="button" class="btn btn-success btn-lg" onclick="LookingGlass(239, 'mtr');  LookingGlass(239, 'traceroute'); LookingGlass(239, 'ping'); LookingGlass(239, 'host'); $(this).blur();" style="font-weight:bold; padding:10px 25px;">All</button>
+				</div>
+			</div>
+			
+			
+			<div style="margin-top:10px;">
+				My IP: <span style="border-bottom:1px dotted #000; text-decoration:none; cursor:pointer;" onclick="$('#domain').val($(this).text());">166.111.68.233</span>
+			</div>
+			
+			
+			<div id="LookingGlassResult"></div>
+		</form>
+	</div>
+	
+	<footer class="footer">
+			<div class="container">
+				<div class="text-center">
+					<div style="padding:10px 15px;">
+						<div><a href="https://looking.house" target="_top"><img src="/images/looking.house.svg" style="height:42px;"></a></div>
+						
+						<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter49298329 = new Ya.Metrika({id:49298329, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true, ut:"noindex"}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/49298329?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	
+						<span id="cnstats_span"><script type="text/javascript">cnsd=document;cnst=escape(cnsd.title);cnst=cnst.replace(/\+/g,'%2B');cnsa=navigator.appName;cnsn=(cnsa.substring(0,2)=='Mi')?0:1;cnss=screen;cnspx=(cnsn==0)?cnss.colorDepth:cnss.pixelDepth;if (cnsd.getElementById){var i=cnsd.createElement('img');var amp=String.fromCharCode(38);var iurl='/stat/cnt-gif1x1.php?';iurl+='e='+cnss.width+'.'+cnss.height;iurl+=amp+'d='+cnspx+amp+'r='+escape(cnsd.referrer);iurl+=amp+'p='+escape(cnsd.location)+amp+'t='+cnst;i.src=iurl;i.width=1;i.height=1;i.border=0;cnsd.getElementById('cnstats_span').appendChild(i);}</script></span><noscript><img src="/stat/cnt-gif1x1.php?468&amp;c=0" width="1" height="1" border="0" alt="" /></noscript>
+						
+						<div>Powered by <a href="https://looking.house" target="_top">LOOKING.HOUSE</a></div>
+					</div>			
+				</div>
+			</div>
+			
+		</footer>
+		
+			
+</body>
+</html>

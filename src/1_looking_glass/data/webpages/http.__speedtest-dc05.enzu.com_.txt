@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MIA1 - Miami, FL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span6">
+            <h1><a id="title" href="http://speedtest-dc05.enzu.com"> <img src="/assets/img/eLogo.png" /></a></h1>
+          </div>
+          <div class="span6">
+            <h3>MIA1 - Miami, FL </h3>
+            <select onchange="location = this.options[this.selectedIndex].value;" style="margin-top: 0px; width: 400px;">
+              <option disabled selected>----- Select Speedtest Location -----</option>
+              <option value="http://speedtest-ord1.enzu.com">ORD1 - Chicago, IL</option>
+              <option value="http://speedtest-dtw1.enzu.com">DTW1 - Detroit, MI</option>
+              <option value="http://speedtest-dfw1.enzu.com">DFW1 - Dallas, TX</option>
+              <option value="http://speedtest-mia1.enzu.com">MIA1 - Miami, FL</option>
+              <option value="http://speedtest-lax2.enzu.com">LAX2 - Los Angeles, CA</option>
+              <option value="http://speedtest-tky1.enzu.com">TKY1 - Tokyo, JP</option>     
+              <option value="http://speedtest-hk1.enzu.com">HK1 - Hong Kong</option>     
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>MIA1 - Miami, FL</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 5.180.28.6</p>
+                <p>Test IPv6: 2605:f700:100:3::c050:bd06</p>
+                <p>Test files: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="250MB.test" id="testfile">250MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1GB.test" id="testfile">1GB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <!--<option value="host">host</option>-->
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                  <option value="astraceroute">astraceroute</option>
+                </select>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer nohighlight">
+        <p class="pull-right">
+ 
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

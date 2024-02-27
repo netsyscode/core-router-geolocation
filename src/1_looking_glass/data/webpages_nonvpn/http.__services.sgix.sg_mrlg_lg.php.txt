@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alice - The friendly BGP looking glass</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/static/css/libs.min.css?5.0.1" />
+    <link rel="stylesheet" href="/static/css/main.css?5.0.1" />
+
+    <link rel="stylesheet" href="/theme/style.css?63f5e63b" />
+  </head>
+  <body>
+    <!-- Application: Birdseye -->
+    <div id="app"></div>
+
+    <!-- Scripts -->
+    <script src="/static/js/libs.min.js?5.0.1"></script>
+    <script src="/static/js/app.js?5.0.1"></script>
+
+    <script type="text/javascript" src="/theme/content.js?63ec7c1c"></script>
+  </body>
+</html>

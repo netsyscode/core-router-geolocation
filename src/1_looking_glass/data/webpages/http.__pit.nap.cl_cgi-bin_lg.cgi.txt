@@ -1,0 +1,63 @@
+
+<html>
+<head>
+<title>PIT NAP Chile - Looking Glass</title>
+<!-- DO NOT REMOVE: MRLG-version 5.4.1 Beta (IPv6+SSH) -->
+<!-- DO NOT REMOVE: Written by and � 2000-2007, John Fraizer -->
+
+</head>
+<br>
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.nap.cl/"><IMG SRC="/nap.gif" BORDER="0" ALT="NAP Chile LG"></A></TD></TR></TABLE>
+<CENTER>
+<H1>Looking Glass</H1>
+</CENTER>
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+
+<font color=red face=arial size=1>
+<hr>
+</font></font>
+
+<font face=arial color=black>
+<form METHOD="POST" action="http://pit.nap.cl/cgi-bin/lg.cgi">
+<B>Router:</B>  <SELECT Name="router" Size=1>
+<OPTION  SELECTED Value="AS19411 NAP Chile">AS19411 NAP Chile - PIT NAP CL
+
+</select>
+
+
+
+
+<br><br>
+<B>Consulta</B>:
+<br>
+
+			<input type=radio name=query value=1>show ip bgp<br>
+			<input type=radio name=query value=2>show ip bgp summary<br>
+			
+			<input type=radio name=query value=7>trace<br>
+			<input type=radio name=query value=8>ping<br>
+			
+<br>
+<B>Argumento:</B> <input type=text name=arg length=20 maxlength=60 value=""> 
+(Algunos comandos requieren una direccion IP como argumento) 
+<br>
+<br>
+<input type=submit value=Executar></form></font></font>
+<hr>
+<br>
+<code>http://pit.nap.cl/cgi-bin/lg.cgi</code>
+<font color=blue face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass version 5.4.1 Beta (IPv6+SSH)<br>
+
+&copy; 2000-2007, John Fraizer  -
+OP-SEC.US<br>
+Source code: <a href=http://www.op-sec.us/mrlg/source/>http://www.op-sec.us/mrlg/source/</a>.	
+<br>
+<font color=red face=arial size=1>
+Nota: TODOS los accesos a esta interfaz son registrados.
+</font>
+</body>
+</html>

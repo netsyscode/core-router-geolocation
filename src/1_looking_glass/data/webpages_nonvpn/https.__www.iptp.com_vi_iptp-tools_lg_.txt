@@ -1,0 +1,53 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="vi" prefix="og: https://ogp.me/ns#"
+	prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  
+    <title>Looking Glass | IPTP Networks</title>
+
+		<!-- All in One SEO 4.5.0 - aioseo.com -->
+		<meta name="description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta name="robots" content="max-image-preview:large" />
+		<meta name="keywords" content="bgp,ping,route lookup,trace." />
+		<link rel="canonical" href="https://www.iptp.com/vi/iptp-tools/lg/" />
+		<meta name="generator" content="All in One SEO (AIOSEO) 4.5.0" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta property="og:site_name" content="IPTP Networks | A better Network, not just a bigger one!" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Looking Glass | IPTP Networks" />
+		<meta property="og:description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta property="og:url" content="https://www.iptp.com/vi/iptp-tools/lg/" />
+		<meta property="og:image" content="https://www.iptp.com/wp-content/uploads/iptplogo.svg" />
+		<meta property="og:image:secure_url" content="https://www.iptp.com/wp-content/uploads/iptplogo.svg" />
+		<meta property="article:published_time" content="2016-10-07T14:49:23+00:00" />
+		<meta property="article:modified_time" content="2023-11-23T13:13:44+00:00" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Looking Glass | IPTP Networks" />
+		<meta name="twitter:description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta name="twitter:image" content="https://www.iptp.com/wp-content/uploads/iptplogo.svg" />
+		<meta name="google" content="nositelinkssearchbox" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.iptp.com\/vi\/#listItem","position":1,"name":"Home","item":"https:\/\/www.iptp.com\/vi\/","nextItem":"https:\/\/www.iptp.com\/vi\/iptp-tools\/#listItem"},{"@type":"ListItem","@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/#listItem","position":2,"name":"IPTP Tools","item":"https:\/\/www.iptp.com\/vi\/iptp-tools\/","nextItem":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#listItem","previousItem":"https:\/\/www.iptp.com\/vi\/#listItem"},{"@type":"ListItem","@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#listItem","position":3,"name":"Looking Glass","previousItem":"https:\/\/www.iptp.com\/vi\/iptp-tools\/#listItem"}]},{"@type":"Organization","@id":"https:\/\/www.iptp.com\/vi\/#organization","name":"IPTP Networks","url":"https:\/\/www.iptp.com\/vi\/","logo":{"@type":"ImageObject","url":"https:\/\/www.iptp.com\/wp-content\/uploads\/iptplogo.svg","@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#organizationLogo"},"image":{"@id":"https:\/\/www.iptp.com\/vi\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#webpage","url":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/","name":"Looking Glass | IPTP Networks","description":"Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup.","inLanguage":"vi","isPartOf":{"@id":"https:\/\/www.iptp.com\/vi\/#website"},"breadcrumb":{"@id":"https:\/\/www.iptp.com\/vi\/iptp-tools\/lg\/#breadcrumblist"},"datePublished":"2016-10-07T14:49:23+03:00","dateModified":"2023-11-23T13:13:44+03:00"},{"@type":"WebSite","@id":"https:\/\/www.iptp.com\/vi\/#website","url":"https:\/\/www.iptp.com\/vi\/","name":"IPTP Networks","description":"A better Network, not just a bigger one!","inLanguage":"vi","publisher":{"@id":"https:\/\/www.iptp.com\/vi\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//www.iptp.com' />
+<link rel='dns-prefetch' href='//xm.iptp.net' />
+<link rel="alternate" type="application/rss+xml" title="D¨°ng th

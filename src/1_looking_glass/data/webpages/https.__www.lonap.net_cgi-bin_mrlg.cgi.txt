@@ -1,0 +1,96 @@
+
+<html>
+<head>
+<title>MRLG - www.lonap.net - Multi-Router Looking Glass</title>
+<!-- DO NOT REMOVE: MRLG-version 5.4.1+ad1 Beta (IPv6+SSH+Neighbor interrogation) -->
+<!-- DO NOT REMOVE: Written by and © 2000-2007, John Fraizer -->
+
+</head>
+
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+
+<font color=blue face=arial size=3>
+www.lonap.net - Multi-Router Looking Glass (MRLG)</font><br>
+<font color=blue face=arial size=2>
+Running MRLG Version 5.4.1+ad1 Beta (IPv6+SSH+Neighbor interrogation)</font></br>
+A service of <A HREF="https://www.lonap.net/">LONAP</A>.<br>
+<font color=red face=arial size=1>
+Note: ALL access to this interface is logged. Accessing from: 164.70.99.9<br>
+This facility is for network diagnostics only. <br>
+Please do NOT use this looking glass in automated scripts without permission.
+<hr>
+</font></font>
+
+<font face=arial color=black>
+<form METHOD="POST" action="/cgi-bin/mrlg.cgi">
+<B>Router:</B>  <SELECT Name="router" Size=1>
+<OPTION  SELECTED Value="collector">collector
+
+</select>
+
+<!-- 
+<br><B>Password</B>: <input type=password name=pass1 length=20 maxlength=60
+value=""> (if required)
+-->
+
+<br><br>
+<B>IPv4 Queries</B>:
+<br>
+
+			<input type=radio name=query value=1>show ip bgp<br>
+			<input type=radio name=query value=2>show ip bgp summary<br>
+			
+			<input type=radio name=query value=5>show ip bgp ipv4 multicast<br>
+			<input type=radio name=query value=6>show ip bgp ipv4 multicast  summary<br>
+			
+			<!-- <input type=radio name=query value=17>show ip bgp neighbor <i>[argument]</i> routes<br> -->
+			<input type=radio name=query value=20>show ip bgp neighbor <i>[argument]</i> received-routes<br>
+			<input type=radio name=query value=18>show ip bgp neighbor <i>[argument]</i> advertised-routes<br> 
+			<input type=radio name=query value=19>show ip bgp neighbor <i>[argument]</i> paths<br> 
+			
+<br>
+<B>IPv6 Queries</B>:
+<br>
+                        <input type=radio name=query value=13>show bgp ipv6 unicast<br>
+                        <input type=radio name=query value=14>show bgp ipv6 unicast summary<br>
+                        
+                        <input type=radio name=query value=66>show bgp ipv6 unicast neighbor <i>[argument]</i> received-routes<br>
+                        <input type=radio name=query value=67>show bgp ipv6 unicast neighbor <i>[argument]</i> routes<br>
+                        <input type=radio name=query value=68>show bgp ipv6 unicast neighbor <i>[argument]</i> advertised-routes<br>
+                        <input type=radio name=query value=69>show bgp ipv6 unicast neighbor <i>[argument]</i> paths<br>
+                        
+                        <input type=radio name=query value=16>show ipv6 route<br>
+                        
+<br>
+<B>Other Commands</B>:
+<br>
+
+                        <input type=radio name=query value=65>show ipv6 neighbor<br>
+                        
+                        <input type=radio name=query value=25>show ip arp<br>
+                        
+<input type=radio name=query value=11>show ip protocols<br>
+
+			<input type=radio name=query value=3>show ip route<br>
+			
+			<input type=radio name=query value=7>trace<br>
+			<input type=radio name=query value=8>ping<br>
+			
+<br>
+<B>Argument:</B> <input type=text name=arg length=20 maxlength=60 value=""> 
+(many commands require an IP address as argument) 
+<input type=submit value=Execute></form></font></font>
+<br>
+<code>/cgi-bin/mrlg.cgi</code>
+<font color=blue face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass version 5.4.1+ad1 Beta (IPv6+SSH+Neighbor interrogation)<br>
+
+&copy; 2000-2007, John Fraizer  -
+OP-SEC.US<br>
+Source code: <a href=http://www.op-sec.us/mrlg/source/>http://www.op-sec.us/mrlg/source/</a>.	
+<br>
+</body>
+</html>

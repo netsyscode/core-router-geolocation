@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html id="ls-global" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Infraestructura: Garant¨ªas para tu alojamiento | dinahosting</title>
+    
+    <link rel="alternate" hreflang="es" href="https://dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="en" href="https://en.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="gl" href="https://gl.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="ca" href="https://ca.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="pt" href="https://pt.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="x-default" href="https://dinahosting.com/somos-dinahosting/infraestructura" />
+    <meta name="description" content="En dinahosting tu proyecto est¨¢ en buenas manos: Centros de Datos e infraestructura de red de alta calidad y rendimiento, el mejor hardware y soporte 24/7" >    <meta name="theme-color" content="#f68642">
+
+    <!-- Manifest-->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="/moura/img-dina/favicon.png" type="image/x-icon"/>
+
+    <!-- Apple touch icon-->
+    <link rel="apple-touch-icon" href="/moura/img-dina/apple-touch-icon-57x57.png" />
+
+    <link href="http://dinahosting.com/somos-dinahosting/infraestructura" rel="canonical" >
+<link href="/moura/built/main.css?5.12.2023v2" media="screen" rel="stylesheet" type="text/css" ></head>
+
+<body class="">
+
+
+<input type="hidden" class="dh-cookies" name="message" value="

@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.gr-ix.gr/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            GR-IX Members' Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="BhQjy3UrlQ70MSsF5B9ww177ZozsZi1FmHFiYCmz">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.gr-ix.gr/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.gr-ix.gr/images/grnet-favicon.png" />
+
+                
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.gr-ix.gr">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.gr-ix.gr/images/grix-logo.png">
+    <!-- GR-IX Members' Portal -->
+</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                        <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/core-bundle/7">
+                                Inter-Switch / PoP Graphs
+                            </a>
+                                            
+                                            <a class="dropdown-item 1" href="https://portal.gr-ix.gr/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                            <div class="dropdown-divider"></div>
+
+                                                    <a class="dropdown-item 1" href="https://portal.gr-ix.gr/weather-map/1">Weathermap - Athens</a>
+                                                    <a class="dropdown-item 1" href="https://portal.gr-ix.gr/weather-map/2">Weathermap - Thessaloniki</a>
+                                                            </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.gr-ix.gr/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.gr-ix.gr/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+                                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h3>
+                                                                    Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Thessaloniki RSX (IPv6)</small>
+                                </h3>
+                            <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                    <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.gr-ix.gr/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Thessaloniki RSX (IPv6)            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-thess-vlan400-ipv4">
+                            Thessaloniki RS0 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-thess-vlan400-ipv6">
+                            Thessaloniki RS0 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-vlan505-ipv4">
+                            Athens RS0 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs0-vlan505-ipv6">
+                            Athens RS0 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-thess-vlan400-ipv4">
+                            Thessaloniki RS1 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-thess-vlan400-ipv6">
+                            Thessaloniki RS1 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-vlan505-ipv4">
+                            Athens RS1 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs1-vlan505-ipv6">
+                            Athens RS1 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs2-vlan505-ipv4">
+                            Athens RS2 (IPv4)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rs2-vlan505-ipv6">
+                            Athens RS2 (IPv6)                        </a>
+                                            <a class="dropdown-item " href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv4">
+                            Thessaloniki RSX (IPv4)                        </a>
+                                            <a class="dropdown-item active" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6">
+                            Thessaloniki RSX (IPv6)                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                
+                                                <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v1                    2.0.7                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.1
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 185.1.123.122                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 219 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-05-12 15:25:02
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://portal.gr-ix.gr/api/v4/lg/rsx-thess-vlan400-ipv6/status">status</a>]
+                    [<a href="https://portal.gr-ix.gr/api/v4/lg/rsx-thess-vlan400-ipv6/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <table class="table table-striped table-sm text-monospace" style="font-size: 14px;width: 100%;" id="bgpsummary">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    Neighbor
+                </th>
+                <th>
+                    Description
+                </th>
+                <th class="text-right">
+                    ASN&nbsp;
+                </th>
+                <th>
+                    Table
+                </th>
+                <th class="text-right">
+                    PfxLimit&nbsp;
+                </th>
+                <th class="text-right">
+                    State/PfxRcd&nbsp;
+                </th>
+                <th class="text-right">
+                    PfxExp&nbsp;
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+                            
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::14                        </td>
+                        <td class="pr-4">
+                            BGP for vodafone179 (AS3329 - 2001:7f8:ce::14)                        </td>
+                        <td class="text-right pr-4" data-order="3329">
+                            3329                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_vodafone179">
+                                t_vodafone179                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_vodafone179"
+                                data-protocol="b_vodafone179" title="BGP for vodafone179 (AS3329 - 2001:7f8:ce::14)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td class="pr-4">
+                            2001:7f8:ce::20                        </td>
+                        <td class="pr-4">
+                            BGP for grnet137 (AS5408 - 2001:7f8:ce::20)                        </td>
+                        <td class="text-right pr-4" data-order="5408">
+                            5408                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_grnet137">
+                                t_grnet137                            </a>
+                        </td>
+                                                    <td class="text-right pr-4" data-order="200">
+                                <span
+                                                                    >
+                                    31/200                                </span>
+                                                </td>
+                        <td class="text-right pr-4" data-order="31">
+                                                                                                <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/protocol/b_grnet137">
+                                                                31                                                                    </a>
+                                                                                    </td>
+                        <td class="text-right pr-4" data-order="0">
+                                                                                                <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/export/b_grnet137">
+                                                                0                                                                    </a>
+                                                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_grnet137"
+                                data-protocol="b_grnet137" title="BGP for grnet137 (AS5408 - 2001:7f8:ce::20)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::11                        </td>
+                        <td class="pr-4">
+                            BGP for otenet203 (AS6799 - 2001:7f8:ce::11)                        </td>
+                        <td class="text-right pr-4" data-order="6799">
+                            6799                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_otenet203">
+                                t_otenet203                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_otenet203"
+                                data-protocol="b_otenet203" title="BGP for otenet203 (AS6799 - 2001:7f8:ce::11)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::21                        </td>
+                        <td class="pr-4">
+                            BGP for synapsecom138 (AS8280 - 2001:7f8:ce::21)                        </td>
+                        <td class="text-right pr-4" data-order="8280">
+                            8280                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_synapsecom138">
+                                t_synapsecom138                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_synapsecom138"
+                                data-protocol="b_synapsecom138" title="BGP for synapsecom138 (AS8280 - 2001:7f8:ce::21)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::9                        </td>
+                        <td class="pr-4">
+                            BGP for vivacom228 (AS8866 - 2001:7f8:ce::9)                        </td>
+                        <td class="text-right pr-4" data-order="8866">
+                            8866                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_vivacom228">
+                                t_vivacom228                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_vivacom228"
+                                data-protocol="b_vivacom228" title="BGP for vivacom228 (AS8866 - 2001:7f8:ce::9)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::10                        </td>
+                        <td class="pr-4">
+                            BGP for cloudflare164 (AS13335 - 2001:7f8:ce::10)                        </td>
+                        <td class="text-right pr-4" data-order="13335">
+                            13335                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_cloudflare164">
+                                t_cloudflare164                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_cloudflare164"
+                                data-protocol="b_cloudflare164" title="BGP for cloudflare164 (AS13335 - 2001:7f8:ce::10)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::26                        </td>
+                        <td class="pr-4">
+                            BGP for dataways139 (AS15544 - 2001:7f8:ce::26)                        </td>
+                        <td class="text-right pr-4" data-order="15544">
+                            15544                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_dataways139">
+                                t_dataways139                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_dataways139"
+                                data-protocol="b_dataways139" title="BGP for dataways139 (AS15544 - 2001:7f8:ce::26)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::27                        </td>
+                        <td class="pr-4">
+                            BGP for dataways145 (AS15544 - 2001:7f8:ce::27)                        </td>
+                        <td class="text-right pr-4" data-order="15544">
+                            15544                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_dataways145">
+                                t_dataways145                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_dataways145"
+                                data-protocol="b_dataways145" title="BGP for dataways145 (AS15544 - 2001:7f8:ce::27)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::13                        </td>
+                        <td class="pr-4">
+                            BGP for wind176 (AS25472 - 2001:7f8:ce::13)                        </td>
+                        <td class="text-right pr-4" data-order="25472">
+                            25472                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_wind176">
+                                t_wind176                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_wind176"
+                                data-protocol="b_wind176" title="BGP for wind176 (AS25472 - 2001:7f8:ce::13)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::17                        </td>
+                        <td class="pr-4">
+                            BGP for ipacctltd197 (AS31287 - 2001:7f8:ce::17)                        </td>
+                        <td class="text-right pr-4" data-order="31287">
+                            31287                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_ipacctltd197">
+                                t_ipacctltd197                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_ipacctltd197"
+                                data-protocol="b_ipacctltd197" title="BGP for ipacctltd197 (AS31287 - 2001:7f8:ce::17)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::22                        </td>
+                        <td class="pr-4">
+                            BGP for Vestitel144 (AS39505 - 2001:7f8:ce::22)                        </td>
+                        <td class="text-right pr-4" data-order="39505">
+                            39505                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_Vestitel144">
+                                t_Vestitel144                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_Vestitel144"
+                                data-protocol="b_Vestitel144" title="BGP for Vestitel144 (AS39505 - 2001:7f8:ce::22)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::15                        </td>
+                        <td class="pr-4">
+                            BGP for bulgartel244 (AS44814 - 2001:7f8:ce::15)                        </td>
+                        <td class="text-right pr-4" data-order="44814">
+                            44814                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_bulgartel244">
+                                t_bulgartel244                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_bulgartel244"
+                                data-protocol="b_bulgartel244" title="BGP for bulgartel244 (AS44814 - 2001:7f8:ce::15)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::18                        </td>
+                        <td class="pr-4">
+                            BGP for s3company192 (AS44901 - 2001:7f8:ce::18)                        </td>
+                        <td class="text-right pr-4" data-order="44901">
+                            44901                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_s3company192">
+                                t_s3company192                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_s3company192"
+                                data-protocol="b_s3company192" title="BGP for s3company192 (AS44901 - 2001:7f8:ce::18)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::2                        </td>
+                        <td class="pr-4">
+                            BGP for grtld232 (AS48053 - 2001:7f8:ce::2)                        </td>
+                        <td class="text-right pr-4" data-order="48053">
+                            48053                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_grtld232">
+                                t_grtld232                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_grtld232"
+                                data-protocol="b_grtld232" title="BGP for grtld232 (AS48053 - 2001:7f8:ce::2)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::23                        </td>
+                        <td class="pr-4">
+                            BGP for intertelecom140 (AS48172 - 2001:7f8:ce::23)                        </td>
+                        <td class="text-right pr-4" data-order="48172">
+                            48172                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_intertelecom140">
+                                t_intertelecom140                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_intertelecom140"
+                                data-protocol="b_intertelecom140" title="BGP for intertelecom140 (AS48172 - 2001:7f8:ce::23)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::19                        </td>
+                        <td class="pr-4">
+                            BGP for telehouse242 (AS57344 - 2001:7f8:ce::19)                        </td>
+                        <td class="text-right pr-4" data-order="57344">
+                            57344                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_telehouse242">
+                                t_telehouse242                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_telehouse242"
+                                data-protocol="b_telehouse242" title="BGP for telehouse242 (AS57344 - 2001:7f8:ce::19)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::24                        </td>
+                        <td class="pr-4">
+                            BGP for hcn141 (AS57794 - 2001:7f8:ce::24)                        </td>
+                        <td class="text-right pr-4" data-order="57794">
+                            57794                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_hcn141">
+                                t_hcn141                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_hcn141"
+                                data-protocol="b_hcn141" title="BGP for hcn141 (AS57794 - 2001:7f8:ce::24)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::25                        </td>
+                        <td class="pr-4">
+                            BGP for metadosis142 (AS206529 - 2001:7f8:ce::25)                        </td>
+                        <td class="text-right pr-4" data-order="206529">
+                            206529                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_metadosis142">
+                                t_metadosis142                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_metadosis142"
+                                data-protocol="b_metadosis142" title="BGP for metadosis142 (AS206529 - 2001:7f8:ce::25)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::28                        </td>
+                        <td class="pr-4">
+                            BGP for greecetelecom155 (AS206652 - 2001:7f8:ce::28)                        </td>
+                        <td class="text-right pr-4" data-order="206652">
+                            206652                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_greecetelecom155">
+                                t_greecetelecom155                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_greecetelecom155"
+                                data-protocol="b_greecetelecom155" title="BGP for greecetelecom155 (AS206652 - 2001:7f8:ce::28)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr class="warning">
+                        <td class="pr-4">
+                            2001:7f8:ce::112                        </td>
+                        <td class="pr-4">
+                            BGP for as112 (AS112 - 2001:7f8:ce::112)                        </td>
+                        <td class="text-right pr-4" data-order="112">
+                            112                        </td>
+                        <td>
+                            <a href="https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/routes/table/t_as112">
+                                t_as112                            </a>
+                        </td>
+                                                    <td class="text-right pr-4">
+                                                </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                            <span class="badge badge-warning">Passive</span>
+                                                    </td>
+                        <td class="text-right pr-4" data-order="-1">
+                                                    </td>
+                        <td class="text-reset">
+                            <a class="btn btn-white btn-sm" style="font-size: 14px;" id="protocol_details-b_as112"
+                                data-protocol="b_as112" title="BGP for as112 (AS112 - 2001:7f8:ce::112)">
+                                Details
+                            </a>
+                        </td>
+                    </tr>
+                                    </tbody>
+    </table>
+
+<div class="modal fade" id="protocol-info-modal" role="dialog">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">
+                Protocol Details for <code><span id="title_p_name"></span></code>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <pre>
+<span id="p_name"></span>    <span id="p_bird_protocol"></span>    <span="p_table"></span> <span id="p_state"></span>     <span id="p_state_changed"></span>  <span id="p_connection"></span>
+  Description:    <span id="p_description"></span>
+  Preference:     <span id="p_preference"></span>
+  Input filter:   <span id="p_input_filter"></span>
+  Output filter:  <span id="p_output_filter"></span><span id="p_o_import_limit">
+  Import limit:   <span id="p_import_limit"></span>
+    Action:       <span id="p_limit_action"></span></span>
+  Routes:         <span id="p_routes_imported"></span> imported, <span id="p_routes_exported"></span> exported, <span id="p_routes_preferred"></span> preferred
+  Route change stats:     received   rejected   filtered    ignored   accepted
+    Import updates:     <span id="p_import_updates_received"></span> <span id="p_import_updates_rejected"></span> <span id="p_import_updates_filtered"></span> <span id="p_import_updates_ignored"></span> <span id="p_import_updates_accepted"></span>
+    Import withdraws:   <span id="p_import_withdraws_received"></span> <span id="p_import_withdraws_rejected"></span>        --- <span id="p_import_withdraws_ignored"></span> <span id="p_import_withdraws_accepted"></span>
+    Export updates:     <span id="p_export_updates_received"></span> <span id="p_export_updates_rejected"></span> <span id="p_export_updates_filtered"></span>        --- <span id="p_export_updates_accepted"></span>
+    Export withdraws:   <span id="p_export_withdraws_received"></span>        ---        ---        --- <span id="p_export_withdraws_accepted"></span>
+  BGP state:          <span id="p_bgp_state"></span>
+    Neighbor address: <span id="p_neighbor_address"></span>
+    Neighbor AS:      <span id="p_neighbor_as"></span>
+    Neighbor ID:      <span id="p_neighbor_id"></span>
+    Neighbor caps:    <span id="p_neighbor_capabilities"></span>
+    Session:          <span id="p_bgp_session"></span>
+    Source address:   <span id="p_source_address"></span><span id="p_o_route_limit_at">
+    Route limit:      <span id="p_route_limit_at"></span>/<span id="p_import_limit2"></span></span>
+    Hold timer:       <span id="p_hold_timer"></span>
+    Keepalive timer:  <span id="p_keepalive"></span>
+</pre>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+                            </div>
+
+                        </div>
+
+
+                    </main>
+
+            </div> <!-- </div class="row"> -->
+
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+
+            <small>
+            Greek Internet Exchange
+            IXP Manager V6.3.1
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+                Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+            Discover IXP Manager at:
+
+            <a href="https://www.ixpmanager.org/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.facebook.com/ixpmanager">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>
+
+            <a  href="https://twitter.com/ixpmanager">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://github.com/inex/IXP-Manager">
+                <i class="fa fa-github fa-inverse mx-1"></i>
+            </a>
+
+            <a  href="https://docs.ixpmanager.org/">
+                <i class="fa fa-book fa-inverse mx-1"></i>
+            </a>
+
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.gr-ix.gr/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.gr-ix.gr/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.gr-ix.gr/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.gr-ix.gr/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script>
+
+        <script>
+
+            $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            
+
+        </script>
+
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+
+<script type="text/javascript">
+
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+
+    let protocols = {"b_vodafone179":{"protocol":"b_vodafone179","bird_protocol":"BGP","table":"t_vodafone179","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for vodafone179 (AS3329 - 2001:7f8:ce::14)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::14","neighbor_as":3329,"preference":100,"input_filter":"filter_bgp_vodafone179","output_filter":"ACCEPT","import_limit":2000,"limit_action":"disable"},"b_grnet137":{"protocol":"b_grnet137","bird_protocol":"BGP","table":"t_grnet137","state":"up","state_changed":"2023-10-26T06:39:58+03:00","connection":"  Established   ","description":"BGP for grnet137 (AS5408 - 2001:7f8:ce::20)","bgp_state":"Established","neighbor_address":"2001:7f8:ce::20","neighbor_as":5408,"neighbor_id":"62.217.100.4","bgp_session":["external","route-server","AS4"],"source_address":"2001:7f8:ce::122","hold_timer":90,"hold_timer_now":80,"keepalive":30,"keepalive_now":1,"preference":100,"input_filter":"filter_bgp_grnet137","output_filter":"ACCEPT","import_limit":200,"limit_action":"disable","routes":{"imported":31,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":262,"rejected":0,"filtered":0,"ignored":0,"accepted":262},"import_withdraws":{"received":165,"rejected":0,"ignored":0,"accepted":165},"export_updates":{"received":265,"rejected":265,"filtered":0,"accepted":0},"export_withdraws":{"received":165,"accepted":0}},"route_limit_at":31},"b_otenet203":{"protocol":"b_otenet203","bird_protocol":"BGP","table":"t_otenet203","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for otenet203 (AS6799 - 2001:7f8:ce::11)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::11","neighbor_as":6799,"preference":100,"input_filter":"filter_bgp_otenet203","output_filter":"ACCEPT","import_limit":400,"limit_action":"disable"},"b_synapsecom138":{"protocol":"b_synapsecom138","bird_protocol":"BGP","table":"t_synapsecom138","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for synapsecom138 (AS8280 - 2001:7f8:ce::21)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::21","neighbor_as":8280,"preference":100,"input_filter":"filter_bgp_synapsecom138","output_filter":"ACCEPT","import_limit":200,"limit_action":"disable"},"b_vivacom228":{"protocol":"b_vivacom228","bird_protocol":"BGP","table":"t_vivacom228","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for vivacom228 (AS8866 - 2001:7f8:ce::9)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::9","neighbor_as":8866,"preference":100,"input_filter":"filter_bgp_vivacom228","output_filter":"ACCEPT","import_limit":2880,"limit_action":"disable"},"b_cloudflare164":{"protocol":"b_cloudflare164","bird_protocol":"BGP","table":"t_cloudflare164","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for cloudflare164 (AS13335 - 2001:7f8:ce::10)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::10","neighbor_as":13335,"preference":100,"input_filter":"filter_bgp_cloudflare164","output_filter":"ACCEPT","import_limit":100,"limit_action":"disable"},"b_dataways139":{"protocol":"b_dataways139","bird_protocol":"BGP","table":"t_dataways139","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for dataways139 (AS15544 - 2001:7f8:ce::26)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::26","neighbor_as":15544,"preference":100,"input_filter":"filter_bgp_dataways139","output_filter":"ACCEPT","import_limit":100,"limit_action":"disable"},"b_dataways145":{"protocol":"b_dataways145","bird_protocol":"BGP","table":"t_dataways145","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for dataways145 (AS15544 - 2001:7f8:ce::27)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::27","neighbor_as":15544,"preference":100,"input_filter":"filter_bgp_dataways145","output_filter":"ACCEPT","import_limit":100,"limit_action":"disable"},"b_wind176":{"protocol":"b_wind176","bird_protocol":"BGP","table":"t_wind176","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for wind176 (AS25472 - 2001:7f8:ce::13)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::13","neighbor_as":25472,"preference":100,"input_filter":"filter_bgp_wind176","output_filter":"ACCEPT","import_limit":600,"limit_action":"disable"},"b_ipacctltd197":{"protocol":"b_ipacctltd197","bird_protocol":"BGP","table":"t_ipacctltd197","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for ipacctltd197 (AS31287 - 2001:7f8:ce::17)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::17","neighbor_as":31287,"preference":100,"input_filter":"filter_bgp_ipacctltd197","output_filter":"ACCEPT","import_limit":800,"limit_action":"disable"},"b_Vestitel144":{"protocol":"b_Vestitel144","bird_protocol":"BGP","table":"t_Vestitel144","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for Vestitel144 (AS39505 - 2001:7f8:ce::22)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::22","neighbor_as":39505,"preference":100,"input_filter":"filter_bgp_Vestitel144","output_filter":"ACCEPT","import_limit":500,"limit_action":"disable"},"b_bulgartel244":{"protocol":"b_bulgartel244","bird_protocol":"BGP","table":"t_bulgartel244","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for bulgartel244 (AS44814 - 2001:7f8:ce::15)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::15","neighbor_as":44814,"preference":100,"input_filter":"filter_bgp_bulgartel244","output_filter":"ACCEPT","import_limit":1100,"limit_action":"disable"},"b_s3company192":{"protocol":"b_s3company192","bird_protocol":"BGP","table":"t_s3company192","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for s3company192 (AS44901 - 2001:7f8:ce::18)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::18","neighbor_as":44901,"preference":100,"input_filter":"filter_bgp_s3company192","output_filter":"ACCEPT","import_limit":6000,"limit_action":"disable"},"b_grtld232":{"protocol":"b_grtld232","bird_protocol":"BGP","table":"t_grtld232","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for grtld232 (AS48053 - 2001:7f8:ce::2)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::2","neighbor_as":48053,"preference":100,"input_filter":"filter_bgp_grtld232","output_filter":"ACCEPT","import_limit":10,"limit_action":"disable"},"b_intertelecom140":{"protocol":"b_intertelecom140","bird_protocol":"BGP","table":"t_intertelecom140","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for intertelecom140 (AS48172 - 2001:7f8:ce::23)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::23","neighbor_as":48172,"preference":100,"input_filter":"filter_bgp_intertelecom140","output_filter":"ACCEPT","import_limit":10,"limit_action":"disable"},"b_telehouse242":{"protocol":"b_telehouse242","bird_protocol":"BGP","table":"t_telehouse242","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for telehouse242 (AS57344 - 2001:7f8:ce::19)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::19","neighbor_as":57344,"preference":100,"input_filter":"filter_bgp_telehouse242","output_filter":"ACCEPT","import_limit":2040,"limit_action":"disable"},"b_hcn141":{"protocol":"b_hcn141","bird_protocol":"BGP","table":"t_hcn141","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for hcn141 (AS57794 - 2001:7f8:ce::24)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::24","neighbor_as":57794,"preference":100,"input_filter":"filter_bgp_hcn141","output_filter":"ACCEPT","import_limit":100,"limit_action":"disable"},"b_metadosis142":{"protocol":"b_metadosis142","bird_protocol":"BGP","table":"t_metadosis142","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for metadosis142 (AS206529 - 2001:7f8:ce::25)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::25","neighbor_as":206529,"preference":100,"input_filter":"filter_bgp_metadosis142","output_filter":"ACCEPT","import_limit":20,"limit_action":"disable"},"b_greecetelecom155":{"protocol":"b_greecetelecom155","bird_protocol":"BGP","table":"t_greecetelecom155","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for greecetelecom155 (AS206652 - 2001:7f8:ce::28)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::28","neighbor_as":206652,"preference":100,"input_filter":"filter_bgp_greecetelecom155","output_filter":"ACCEPT","import_limit":50,"limit_action":"disable"},"b_as112":{"protocol":"b_as112","bird_protocol":"BGP","table":"t_as112","state":"start","state_changed":"2023-05-12T15:25:02+03:00","connection":"  Passive       ","description":"BGP for as112 (AS112 - 2001:7f8:ce::112)","bgp_state":"Passive","neighbor_address":"2001:7f8:ce::112","neighbor_as":112,"preference":100,"input_filter":"filter_bgp_as112","output_filter":"ACCEPT","import_limit":300,"limit_action":"disable"}};
+    function spacifyNumber( n, s ) {
+        return "" + ' '.repeat( s - n.length ) + "" + String(n);
+    }
+    $('#bgpsummary').removeClass( 'display' ).addClass('table');
+
+    $(document).ready(function() {
+
+        $('#bgpsummary').DataTable({
+            stateSave: true,
+            stateDuration : DATATABLE_STATE_DURATION,
+            responsive: true,
+            paging: false,
+            order: [[ 2, "asc" ]],
+            columnDefs: [
+                { type: 'ip-address', targets: [ 0 ] },
+                { type: 'string', targets: [ 1 ] },
+                { type: 'num', targets: [ 2 ] },
+                { type: 'string', targets: [ 3 ], "orderable": false },
+                { type: 'num', targets: [ 4 ] },
+                { type: 'num', targets: [ 5 ] },
+                { type: 'num', targets: [ 6 ] }
+            ]
+        });
+    });
+
+    $('a[id|="sourceSelector"]').on( 'click', function(){
+        if( $("#net").val().trim() == "" ) {
+            return;
+        }
+        $("#submit").prop('disabled', true);
+        $.get('https://portal.gr-ix.gr/lg/rsx-thess-vlan400-ipv6/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+            $('#route-modal .modal-content').html(html);
+            $('#route-modal').modal('show', {backdrop: 'static'});
+         });
+        $("#submit").prop('disabled', false);
+    });
+
+    $('a[id|="protocol_details"]').on( 'click', function(){
+        let pname = $(this).attr('data-protocol');
+        let p = protocols[pname];
+        $('#title_p_name'   ).html( pname );
+        $('#p_name'         ).html( pname );
+        $('#p_bird_protocol').html( p.bird_protocol );
+        $('#p_table'        ).html( p.table );
+        $('#p_state '       ).html( p.state );
+        $('#p_state_changed').html( p.state_changed );
+        $('#p_connection'   ).html( p.connection );
+        $('#p_description'  ).html( p.description );
+        $('#p_preference'   ).html( p.preference );
+        $('#p_input_filter' ).html( p.input_filter );
+        $('#p_output_filter').html( p.output_filter );
+        if( p.import_limit ) {
+            $('#p_import_limit').html(p.import_limit);
+        } else {
+            $('#p_o_import_limit').hide();
+            $('#p_o_route_limit_at').hide();
+        }
+        $('#p_limit_action' ).html( p.limit_action );
+        $('#p_routes_imported'  ).html( p.routes ? ( p.routes.imported ?? 0 ) : 0 );
+        $('#p_routes_exported'  ).html( p.routes ? ( p.routes.exported ?? 0 ) : 0 );
+        $('#p_routes_preferred' ).html( p.routes ? ( p.routes.preferred ?? 0 ) : 0 );
+        $('#p_import_updates_received'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.received ?? 0) : 0, 10 ) );
+        $('#p_import_updates_rejected'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.rejected ?? 0) : 0, 10 ) );
+        $('#p_import_updates_filtered'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.filtered ?? 0) : 0, 10 ) );
+        $('#p_import_updates_ignored'   ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.ignored ?? 0) : 0, 10 ) );
+        $('#p_import_updates_accepted'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_updates.accepted ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_received').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.received ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_rejected').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.rejected ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_ignored' ).html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.ignored ?? 0) : 0, 10 ) );
+        $('#p_import_withdraws_accepted').html( spacifyNumber( p.route_changes ? (p.route_changes.import_withdraws.accepted ?? 0) : 0, 10 ) );
+        $('#p_export_updates_received'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.received ?? 0) : 0, 10 ) );
+        $('#p_export_updates_rejected'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.rejected ?? 0) : 0, 10 ) );
+        $('#p_export_updates_filtered'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.filtered ?? 0) : 0, 10 ) );
+        $('#p_export_updates_accepted'  ).html( spacifyNumber( p.route_changes ? (p.route_changes.export_updates.accepted ?? 0) : 0, 10 ) );
+        $('#p_export_withdraws_received').html( spacifyNumber( p.route_changes ? (p.route_changes.export_withdraws.received ?? 0) : 0, 10 ) );
+        $('#p_export_withdraws_accepted').html( spacifyNumber( p.route_changes ? (p.route_changes.export_withdraws.accepted ?? 0) : 0, 10 ) );
+        $('#p_bgp_state'            ).html( p.bgp_state );
+        $('#p_neighbor_address'     ).html( p.neighbor_address );
+        $('#p_neighbor_as'          ).html( p.neighbor_as );
+        $('#p_neighbor_id'          ).html( p.neighbor_id );
+        if( p.neighbor_capabilities instanceof Array && p.neighbor_capabilities.length ) {
+            $('#p_neighbor_capabilities').html( p.neighbor_capabilities.join(' ') );
+        } else {
+            $('#p_neighbor_capabilities').html( 'n/a' );
+        }
+        if( p.bgp_session instanceof Array && p.bgp_session.length ) {
+            $('#p_bgp_session').html( p.bgp_session.join(' ') );
+        } else {
+            $('#p_bgp_session').html( 'n/a' );
+        }
+        $('#p_source_address'   ).html( p.source_address );
+        $('#p_route_limit_at'   ).html( p.route_limit_at );
+        $('#p_import_limit2'    ).html( p.import_limit );
+        $('#p_hold_timer'       ).html( p.hold_timer );
+        $('#p_keepalive'        ).html( p.keepalive );
+        $('#protocol-info-modal').modal('show', {backdrop: 'static'});
+    });
+</script>
+
+
+        
+    </body>
+</html>

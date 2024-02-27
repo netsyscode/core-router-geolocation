@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>G8 - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - PHP looking glass">
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link href="assets/mdb5/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Container -->
+<div class="container">
+    <!-- Header -->
+    <header class="header nohighlight" id="overview">
+        <div id="center">
+            <a href="http://www.g8.net.br"><img src="img/g8.png"></img></a>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <h1><a id="title" href="https://lg.flo.spo.g8.net.br">G8 - Looking Glass</a></h1>
+            </div>
+        </div>
+    </header>
+    <form style="position: absolute; top: 10px; right: 10px">
+        <button type="submit" name="language" class="btn btn-light btn-floating btn-sm" value="en_US"><i class="flag flag-united-states"></i></button>
+        <button type="submit" name="language" class="btn btn-light btn-floating btn-sm" value="pt_BR"><i class="flag flag-brazil"></i></button>
+    </form>
+    <!-- Network Information -->
+    <div id="information" class="card shadow-2-strong">
+        <div class="card-body">
+            <span id="legend">Informações</span>
+            <p>Localidade do servidor:
+                <select name="location" id="location" class="form-select-md">
+                    <option value="0">Aracajú, SE - PTB</option><option value="1">Belo Horizonte, MG - CRL</option><option value="2">Brasília, DF - VN3K</option><option value="3">Fortaleza, CE - Angola</option><option value="4">Goiânia, GO - T63</option><option value="5">Manaus, AM - Corporate</option><option value="6">Rio de Janeiro, RJ - TLP</option><option value="7" selected>São Paulo, SP - Florida</option><option value="8">São Paulo, SP - Equinix SP4</option><option value="9">Uberlândia, MG - FLP</option><option value="10">Cuiabá, MT - Talumar</option>                </select>
+            </p>
+            <p>IPv4 do servidor: 186.226.82.25</p>
+            <p>IPv6 do servidor: 2804:39c:1001::37</p>
+            <p>Arquivos de teste: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+            <p>Seu endereço IP: <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+        </div>
+    </div>
+    <br>
+
+    <!-- Network Tests -->
+    <div id="tests" class="card shadow-2-strong">
+        <div class="card-body">
+
+            <span id="legend">Testes de rede</span>
+            <form class="row align-items-center" id="networktest" action="#results" method="post">
+                <div class="col-auto">
+                    <div id="hosterror" class="form-outline">
+                        <input id="host" name="host" type="text" class="form-control" required/>
+                        <label class="form-label" for="host">Host ou IP</label>
+                        <div class="invalid-feedback" >Apenas host ou endereço IP</div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <select name="cmd" class="form-select form-control">
+                        <option value="host">host</option>
+                        <option value="dig">DIG Reverso</option>
+                        <option value="mtr">mtr</option>
+                        <option value="mtr6">mtr6</option>                        <option value="ping" selected="selected">ping</option>
+                        <option value="ping6">ping6</option>                        <option value="traceroute">traceroute</option>
+                        <option value="traceroute6">traceroute6</option>                        <option value="bgp_v4">bgp_v4</option>
+                        <option value="bgp_v6">bgp_v6</option>
+                    </select>
+                </div>
+
+                <div class="col-auto">
+                    <button type="submit" id="submit" name="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+
+    <!-- Results -->
+    <div id="results" class="card shadow-2-strong" style="display:none">
+        <div class="card-body">
+
+            <span id="legend">Resultados</span>
+            <pre id="response" style="display:none"></pre>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer nohighlight">
+        <p class="pull-right">
+            <a href="#">Voltar ao topo</a>
+        </p>
+    </footer>
+
+</div><!-- /container -->
+
+<!-- Javascript -->
+<script src="assets/js/jquery-1.11.2.min.js"></script>
+<script src="assets/js/LookingGlass.min.js"></script>
+<!--<script src="assets/js/LookingGlass.js"></script>-->
+<script src="assets/js/XMLHttpRequest.min.js"></script>
+<script src="assets/mdb5/js/mdb.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#location').change(function () {
+            console.log($(this).val());
+            switch ($(this).val()) {
+                                       case "0":
+                                location.href="https://lg.aju.g8.net.br";
+                                break;                           case "1":
+                                location.href="https://lg.bhe.g8.net.br";
+                                break;                           case "2":
+                                location.href="https://lg.bsa.g8.net.br";
+                                break;                           case "3":
+                                location.href="https://lg.fla.g8.net.br";
+                                break;                           case "4":
+                                location.href="https://lg.gna.g8.net.br";
+                                break;                           case "5":
+                                location.href="https://lg.mns.g8.net.br";
+                                break;                           case "6":
+                                location.href="https://lg.rjo.g8.net.br";
+                                break;                           case "7":
+                                location.href="https://lg.flo.spo.g8.net.br";
+                                break;                           case "8":
+                                location.href="https://lg.sp4.spo.g8.net.br";
+                                break;                           case "9":
+                                location.href="https://lg.ula.g8.net.br";
+                                break;                           case "10":
+                                location.href="https://lg.cba.g8.net.br";
+                                break;            }
+        });
+    });
+</script>
+</body>
+</html>

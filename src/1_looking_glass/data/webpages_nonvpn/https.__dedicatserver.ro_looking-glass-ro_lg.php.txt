@@ -1,0 +1,139 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<!--
+			=================================================
+			Powered by HSDN PHP Looking Glass
+			- https://git.dev.hsdn.org/pub/lg
+			- https://github.com/hsdn/lg
+			=================================================
+		-->
+		<title>AS3164 Looking Glass</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon.ico">
+		<style type="text/css"> 
+			
+			body { font: 14px normal Arial, Helvetica, sans-serif; margin: 0px 0%; color: #000; background: #fff; }
+			h2 { font-size: 24px; font-weight: normal; }
+			form { margin: 0; padding: 0 0 15px 0;  width: 100%;}
+			p, object { margin: 0; padding: 0 0 15px 0; }
+			hr { margin: 0 0 15px 0; border: none; color: #000; background-color: #000; height: 1px; }
+			a:link, a:visited { color: #3398da; }
+			a:hover { color: #ccc; }
+			table { border: 0; }
+			table th { background: #3398da; color: #fff; white-space: nowrap; font-size: 14px; text-align: center; }
+			.form { margin: auto; text-align: left; background: #f3f9fd; border: 5px solid #dceaf3; width: 100%; border-radius: 5px; }
+			.center { text-align: center; }
+			.error { color: red; font-weight: bold; }
+			.warning { color: blue; font-weight: bold; }
+			.legend { font-size: 12px; margin: auto; }
+			.form-control {
+				display: block;
+				width: 90%;
+				height: calc(1.5em + .75rem + 2px);
+				padding: .375rem .75rem;
+				font-size: 1rem;
+				font-weight: 400;
+				line-height: 1.5;
+				color: #495057;
+				background-color: #fff;
+				background-clip: padding-box;
+				border: 1px solid #ced4da;
+				border-radius: .25rem;
+				transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+			}
+			.btn-blue {  
+			  font-weight: 500;
+			  font-size: 16px;
+			  letter-spacing: 1px;
+			  display: inline-block;
+			  padding: 7px 20px;
+			  border-radius: 3px;
+			  transition: 0.5s;
+			  color: #3398da;
+			  border: 2px solid #3398da;
+			}
+
+			.btn-blue:hover {
+			  background: #3398da;
+			  color: #fff;
+			}
+			.btn-red {  
+			  font-weight: 500;
+			  font-size: 16px;
+			  letter-spacing: 1px;
+			  display: inline-block;
+			  padding: 7px 20px;
+			  border-radius: 3px;
+			  transition: 0.5s;
+			  color: #d90022;
+			  border: 2px solid #d90022;
+			}
+
+			.btn-red:hover {
+			  background: #d90022;
+			  color: #fff;
+			}
+		</style>
+		<script type="text/javascript">
+			<!--
+				function load() {
+					var loading = document.getElementById('loading');
+					if (loading !== null) {
+						loading.style.display = 'none';
+					}
+				}
+		//-->
+	</script>
+</head>
+<body onload="load();">
+	<a href="?" class="btn-blue" style="text-decoration: none;">AS3164 Looking Glass</a>
+	<br><br>
+		<form method="get" action="">
+		<div class="center">
+			<table class="form" cellpadding="5" cellspacing="5">
+				<tr>
+					<th>Tip</th>
+					<th>IP / Nume domeniu ( ex: dedicatserver.ro ) </th>
+					<th>Nod</th>
+				</tr>
+				<tr>
+					<td width="37%">
+						<table border="0" cellpadding="5" cellspacing="5">
+							<tr>
+								<td><input type="radio" name="command" id="trace" value="trace"></td><td><label for="trace">traceroute</label></td>
+								<td><input type="radio" name="command" id="ping" value="ping" checked="checked"></td><td><label for="ping">ping</label></td>
+								<td style="padding-top:10px"><select name="protocol" class="form-control" style="width: 85px;"><option value="ipv4">IPv4</option></select></td>
+							</tr>
+						</table>
+					</td>
+					<td align="center">
+						<input name="query" class="form-control" size="30" style="padding: 0 10px;" value="166.111.68.233">
+					</td>
+					<td width="25%">
+						<select name="router" style="min-width: 180px" class="form-control" >
+																								<optgroup label="AS3164">
+																												<option value="example1">M247</option>
+																			<option value="example2">Voxility</option>
+																											</optgroup>
+																					</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="3">
+							<input type="hidden" name="time" value="1702878298" />
+							<p>
+								<input type="submit" value="Trimite" class="btn-blue" onclick="this.value='Asteapta ...'">
+								<input type="reset" class="btn-red" value="Reset">
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</form>
+			
+	<div class="center">
+		<p><small>Information: <a href="https://stat.ripe.net/AS3164" target="_blank">RIPEstat</a> <a href="http://bgp.he.net/AS3164" target="_blank">he.net</a> <a href="https://www.robtex.com/as/AS3164.html" target="_blank">robtex.com</a> <a href="http://www.peeringdb.com/view.php?asn=3164" target="_blank">PeeringDB</a></small></p>		
+	</div>
+</body>
+</html>

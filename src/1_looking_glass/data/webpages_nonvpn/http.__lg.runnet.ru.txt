@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			=================================================
+			Powered by HSDN PHP Looking Glass
+			- https://git.dev.hsdn.org/pub/lg
+			- https://github.com/hsdn/lg
+			=================================================
+		-->
+		<title>AS3267 Looking Glass</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon.ico">
+		<style type="text/css"> 
+		<!--
+			body { font: 14px normal Arial, Helvetica, sans-serif; margin: 30px 10%; color: #000; background: #fff; }
+			h2 { font-size: 24px; font-weight: normal; }
+			form { margin: 0; padding: 0 0 15px 0; }
+			p, object { margin: 0; padding: 0 0 15px 0; }
+			hr { margin: 0 0 15px 0; border: none; color: #000; background-color: #000; height: 1px; }
+			a:link, a:visited { color: #243649; }
+			a:hover { color: #ccc; }
+			table { border: 0; }
+			table th { background: #243649; color: #fff; white-space: nowrap; font-size: 14px; text-align: center; }
+			.form { margin: auto; text-align: left; background: #efefef; border: 5px solid #efefef; }
+			.center { text-align: center; }
+			.error { color: red; font-weight: bold; }
+			.warning { color: blue; font-weight: bold; }
+			.legend { font-size: 12px; margin: auto; }
+		//-->
+		</style>
+		<script type="text/javascript">
+		<!--
+			function load() {
+				var loading = document.getElementById('loading');
+				if (loading !== null) {
+					loading.style.display = 'none';
+				}
+			}
+		//-->
+		</script>
+	</head>
+	<body onload="load();">
+		<div class="center"><a href="?"><img src="logo-niks.jpg" border="0" alt="lg"></a></div>
+		<div class="center"><h2>AS3267 Looking Glass</h2></div>
+		<hr>
+		<form method="get" action="">
+		<div class="center">
+			<table class="form" cellpadding="2" cellspacing="2">
+				<tr><th>Type of Query</th><th>Additional parameters</th><th>Node</th></tr>
+				<tr><td>
+				<table border="0" cellpadding="2" cellspacing="2">
+                                        <tr><td><input type="radio" name="command" id="bgp-route" value="bgp-route" checked="checked"></td><td><label for="bgp-route">bgp route</label></td></tr>
+<!--					<tr><td><input type="radio" name="command" id="bgp-route-detail" value="bgp-route-detail" checked="checked"></td><td><label for="bgp-route-detail">bgp route details</label></td></tr> -->
+<!--					<tr><td><input type="radio" name="command" id="bgp" value="bgp" checked="checked"></td><td><label for="bgp">bgp</label></td></tr> -->
+<!--                    <tr><td><input type="radio" name="command" id="bgp-within" value="bgp-within" checked="checked"></td><td><label for="bgp-within">bgp within</label></td></tr> -->
+<!--					<tr><td><input type="radio" name="command" id="advertised-routes" value="advertised-routes"></td><td><label for="advertised-routes">bgp&nbsp;advertised-routes</label></td></tr> -->
+<!--					<tr><td><input type="radio" name="command" id="summary" value="summary"></td><td><label for="summary">bgp summary</label></td></tr> -->
+<!--                                    <tr><td><input type="radio" name="command" id="graph" value="graph"></td><td><label for="graph">bgp graph</label></td></tr> -->
+					<tr><td><input type="radio" name="command" id="trace" value="trace"></td><td><label for="trace">traceroute</label></td></tr>
+					<tr><td><input type="radio" name="command" id="ping" value="ping"></td><td><label for="ping">ping</label></td></tr>
+					<tr><td></td><td style="padding-top:10px">
+					<select name="protocol">
+						<option value="ipv4">IPv4</option>
+						<option value="ipv6">IPv6</option>
+					</select></td></tr>
+				</table></td>
+				<td align="center"><input name="query" size="30"></td>
+				<td align="right">
+				<select name="router" style="min-width: 180px">
+					<optgroup label="Europe">
+					<option value="ams-nikhef-1-gw">Amsterdam (ams-nikhef-1-gw)</option>
+					<option value="sth-tele-1-gw">Stockholm (sth-tele-1-gw)</option>
+					</optgroup>
+					<optgroup label="Russia">
+					<option value="spb-bm18-2-gw">Saint-Petersburg (spb-bm18-2-gw)</option>
+					<option value="spb-bm18-5-gw">Saint-Petersburg (spb-bm18-5-gw)</option>
+					<option value="spb-c21-5-gw">Saint-Petersburg (spb-c21-5-gw)</option>
+					<option value="spb-kt12-5-gw">Saint-Petersburg (spb-kt12-5-gw)</option>
+					<option value="msk-len32-5-gw">Moscow (msk-len32-5-gw)</option>
+					<option value="msk-m9-1-gw">Moscow (msk-m9-1-gw)</option>
+					<option value="msk-m9-5-gw">Moscow (msk-m9-5-gw)</option>
+					<option value="msk-tv11-5-gw">Moscow (msk-tv11-5-gw)</option>
+					<option value="nsk-s14-1-gw">Novosibirsk (nsk-s14-1-gw)</option>
+					<option value="khb-1-gw">Khabarovsk (khb-1-gw)</option>
+					<option value="vvk-1-gw">Vladivostok (vvk-1-gw)</option>
+					</optgroup>
+				</select></td></tr>
+				<tr><td align="center" colspan="3"><p><input type="submit" value="Submit"> | <input type="reset" value="Reset"></p></td></tr>
+			</table>
+		</div>
+		</form>
+
+
+        <div class="center">
+        <h4>IP-address: 85.142.29.29</h4>
+                </div>
+
+		<hr>
+		<div class="center">
+			<p><small>Information: <a href="https://stat.ripe.net/AS3267" target="_blank">RIPEstat</a> <a href="http://bgp.he.net/AS3267" target="_blank">he.net</a> <a href="https://www.robtex.com/as/AS3267.html" target="_blank">robtex.com</a> <a href="http://www.peeringdb.com/view.php?asn=3267" target="_blank">PeeringDB</a></small></p>
+			<p>Copyright &copy; 2023 NIKS (RUNNet)</p>
+		</div>
+	</body>
+</html>

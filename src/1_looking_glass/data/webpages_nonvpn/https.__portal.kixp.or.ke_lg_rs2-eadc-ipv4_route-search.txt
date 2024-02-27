@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.kixp.or.ke/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            Kenya Internet Exchange Point        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="HtP8iYhCXpOMzDhT0tnblAQiNB3bGbvNGPRiewWD">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.kixp.or.ke/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.kixp.or.ke/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.kixp.or.ke">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.kixp.or.ke/images/ixp-manager-white.png">
+    Kenya Internet Exchange Point</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.kixp.or.ke/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.kixp.or.ke/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.kixp.or.ke/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.kixp.or.ke/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.kixp.or.ke/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.kixp.or.ke/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.kixp.or.ke/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                        <a class="dropdown-item 1" href="https://portal.kixp.or.ke/statistics/core-bundle/6">
+                                Inter-Switch / PoP Graphs
+                            </a>
+                                            
+                                            <a class="dropdown-item 1" href="https://portal.kixp.or.ke/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.kixp.or.ke/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.kixp.or.ke/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">rs2-eadc-ipv4</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.kixp.or.ke/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                rs2-eadc-ipv4            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-adc-ipv4">
+                            rs1-adc-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-adc-ipv6">
+                            rs1-adc-ipv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-mba1-icolo-ipv4">
+                            rs1-mba1-icolo-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-mba1-icolo-ipv6">
+                            rs1-mba1-icolo-ipv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-nbo1-icolo-ipv4">
+                            rs1-nbo1-icolo-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-nbo1-icolo-ipv6">
+                            rs1-nbo1-icolo-ipv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-nbo1-paix-ipv4">
+                            rs1-nbo1-paix-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs1-nbo1-paix-ipv6">
+                            rs1-nbo1-paix-ipv6                        </a>
+                                            <a class="dropdown-item active" href="https://portal.kixp.or.ke/lg/rs2-eadc-ipv4">
+                            rs2-eadc-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs2-eadc-ipv6">
+                            rs2-eadc-ipv6                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs2-mba1-icolo-ipv4">
+                            rs2-mba1-icolo-ipv4                        </a>
+                                            <a class="dropdown-item " href="https://portal.kixp.or.ke/lg/rs2-mba1-icolo-ipv6">
+                            rs2-mba1-icolo-ipv6                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.kixp.or.ke/lg/rs2-eadc-ipv4/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.kixp.or.ke/lg/rs2-eadc-ipv4">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v1                    1.6.6                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 196.223.21.66                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 561 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-18 00:00:04
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <span class="badge badge-info">
+                            Cached data. Maximum age: 5 mins.
+                        </span>
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://portal.kixp.or.ke/api/v4/lg/rs2-eadc-ipv4/status">status</a>]
+                    [<a href="https://portal.kixp.or.ke/api/v4/lg/rs2-eadc-ipv4/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.2.0
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.kixp.or.ke/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.kixp.or.ke/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.kixp.or.ke/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.kixp.or.ke/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["T26415","T37027","T37305","master","T37109","T37063","T36236","T15808","T23764","T37406","T37137","T33771","T21859","T16637","T37271","T37219","T37156","T37273","T25818","T15399","T64515","T36904","T25568","T64516","T36914","T36915","T36924","T37662","T37619","T36926","T37298","T58453","T37684","T36866","T37685","T37578","T36948","T42","T329101","T329021","T328301","T329111","T329211","T2906a","T329033","T328331","T329044","T139057","T328190","T328271","T136907","T329029","T328093","T329190","T327813","T329246","T329174","T329183","T328490","T328652","T328438","T327906","T328734","T328089","T329177","T328582","T328475","T328296","T328835","T328781","T328298","T327766","T328479","T328578","T328856","T328990","T327789","T328993","T328994","T328977","T328986","T327997","T328987","T33771a","T37271b","T37684b","T328015","T329014","T3303","T4134","T2906","T12556b","T4809","T6447","T136907b","T3856","T9129","T6774","T328089b","T6939","T328089c","T328089d","T327766b","T20144","T15133","T12455","T33074","T12556"].sort();
+    let protocols = ["P37662","P37619","P36926","P37298","P58453","P37684","P36866","P37685","P37578","P36948","R20144x1","R2906x1a","R15133x1","P42","R12455x1","R33074x1","R12556x1","R328190x1","R329190x1","R26415x1","R329174x1","R329183x1","R37027x1","R328490x1","R37305x1","R328652x1","R327906x1","R37109x1","R37063x1","R328734x1","R36236x1","R329177x1","R15808x1","R23764x1","R328582x1","R328475x1","P2906a","R328296x1","R328835x1","R328781x1","R328298x1","R327766x1","R328479x1","R328578x1","R328856x1","R328990x1","R322029x1","P328781","R327789x1","P328990","R328993x1","R328994x1","R328977x1","P328993","R328986x1","R327997x1","P328994","P328977","R328987x1","P328986","P327997","P328987","R329101x1","R329021x1","R328301x1","R329111x1","R328015x1","R329014x1","R329211x1","R329033x1","R328331x1","R329044x1","R139057x1","R328271x1","R136907x1","R328093x1","R327813x1","R329246x1","R328438x1","R328089x1","R33771x1a","P329101","R37271x1b","P37684b","P329021","P329111","P328301","P328015","P329014","P329211","P329033","P328331","P329044","P139057","P328271","P328190","P136907","P329029","P328093","P329190","P327813","P329246","P329174","P329183","P328490","P328652","P328438","P327906","P328734","P328089","P329177","P328582","P328475","P328296","R3303x1","P328835","P328298","P327766","P328479","P328578","P328856","R4134x1","R37684x1b","P327789","R12556x1b","R2906x1","P3303","R4809x1","P4134","R6447x1","R3856x1","R9129x1","P12556b","R327766x1b","P2906","R6774x1","P4809","P6447","P33771a","P3856","P9129","R6939x1","P37271b","P6774","P6939","device1","R136907x1b","RC","R37137x1","R37406x1","R33771x1","R37271x1","R328089x1b","R21859x1","R16637x1","R37219x1","R37156x1","R37273x1","R25818x1","R15399x1","R64515x1","R36904x1","R25568x1","R64516x1","R328089cx1","R36914x1","R328089dx1","R36915x1","R36924x1","R37662x1","R37619x1","R36926x1","R37298x1","R58453x1","R37684x1","R36866x1","R37685x1","R37578x1","R36948x1","P20144","P15133","P12455","R42x1","P33074","P136907b","P12556","P26415","P37027","P37305","P37109","P37063","P36236","P15808","P23764","P37137","P328089b","P37406","P37271","P33771","P21859","P16637","P328089c","P37219","P37156","P328089d","P37273","P25818","P15399","P64515","P36904","P25568","P64516","P327766b","P36914","P36915","P36924"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://portal.kixp.or.ke/lg/rs2-eadc-ipv4/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv4');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv4' );
+    });
+</script>
+            </body>
+</html>

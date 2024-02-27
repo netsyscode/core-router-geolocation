@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title> TT LG </title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<!--[if IE 6]>
+	<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#"></a></h1>
+		</div>
+	</div>
+<div class="major">
+<h2>LOOKING GLASS</h2>
+<span>Powered by TÜRK TELEKOM</span> 
+</div>
+</div>
+<div id="wrapper2">
+<div id="newsletter" class="container">
+<div class="content">
+
+<form method="post" action="index.php" onsubmit="return:false" >  
+<div>
+<label class="desc" id="title1" for="Field1">Ip Address*</label>
+<input class="field text fn" tabindex="1" type="text" name="ip_address" placeholder="ipv4 or ipv6 address" value=""/>
+</div>
+<div>
+<legend id="title5" class="desc">Commands*</legend>
+<fieldset>
+<div>
+<input tabindex="2" type="radio" name="ipv4Command" value="ping"  >
+<label class="choice">Ping</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div>
+<input tabindex="3" type="radio" name="ipv4Command" value="trace"  >
+<label class="choice">Trace</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div>
+<input tabindex="3" type="radio" name="ipv4Command" value="bgproute"   >
+<label class="choice">Ipv4 Bgp Route</label>
+</div>
+<div>
+<input tabindex="3" type="radio" name="ipv4Command" value="bgproute_v6"  >
+<label class="choice">Ipv6 Bgp Route</label>
+</div>
+<div>
+<input size="10"  maxlength="3" name="ip_prefix" placeholder="Prefix Lenght" value=""/>
+</div>
+</fieldset>
+</div>
+<div>
+<label class="desc" id="title1" for="Field1">&nbsp;</label><img id="captcha" src="../securimage/securimage_show.php" alt="CAPTCHA Image" ><a href="#" onclick="document.getElementById('captcha').src = '../securimage/securimage_show.php?' + Math.random(); return false"><img src="../securimage/images/refresh.png" alt="refresh image" ></a>
+</div>
+<div>
+<label class="desc" id="title1" for="Field1">Security Code*</label><input placeholder="security code" class="field text fn" type="text" name="captcha_code"  maxlength="6" />
+</div>
+<div>
+<div>
+<input id="saveForm" name="saveForm" type="submit" value="Submit">
+</div>
+</div>
+</form>
+</div>		
+</div>
+</div>
+		<div align="center" style="background-color:#B74547;color:#F9F9F9;font-size:15px;font-style:normal;">Make sure you enter the correct security code!</div>      
+		<div id="copyright" class="container">
+			<p>Copyright (c) 2013 lg.turktelekom.com.tr All rights reserved. | Designed by TURK TELEKOM BACKBONE-SMC</p>
+		</div>
+	</body>
+	</html>
+	

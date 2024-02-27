@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><link rel="icon" href="img/tjnet.ico"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="keywords" content="Looking Glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv4, IPv6, Cisco, Juniper, Internet" /><meta name="description" content="" /><title>Looking Glass - Rede TJNET</title><link href="libs/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet" /><link href="css/style.css" rel="stylesheet" /></head><body><div class="header_bar"><h1></h1><br><div class="row"><div class="col-md-4" align="center"></div><div class="col-md-4" align="center"><img src="img/logo.png" class="img-responsive" alt="Logo" width="100%"/></div><div class="col-md-4" align="center"></div></div></div><div class="alert alert-danger alert-dismissable" align="center" id="error"><button type="button" class="close" aria-hidden="true">&times;</button><strong>Erro!</strong>&nbsp;<span id="error-text"></span></div><div id="command_options"><form role="form" id="formulario" action="execute.php" method="post">    <div class="container-fluid">
+    <div class="row min-vh-100 flex-column flex-md-row">
+        <aside class="col-12 col-md-2 p-0 bg-white flex-shrink-1">
+            <nav class="navbar navbar-expand navbar-light bg-white flex-md-column flex-row align-items-start py-2">
+                <div class="collapse navbar-collapse ">
+                    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                  
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#bgp" onclick="abrirBGP()"><i class="fas fa-route" style="color: red;"></i> <span class="d-none d-md-inline">BGP</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#downtest" onclick="abrirDownTest()"><i class="fas fa-download" style="color: red;"></i> <span class="d-none d-md-inline">Teste de Download</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#speedtest" onclick="abrirSpeedTest()"><i class="fas fa-tachometer-alt" style="color: red;"></i> <span class="d-none d-md-inline">Teste de Velocidade</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#sobre" onclick="abrirSobre()"><i class="fas fa-info-circle" style="color: red;"></i> <span class="d-none d-md-inline">Sobre</span></a>
+                        </li>
+                        <li class="nav-item">
+                        
+                        
+                        
+                            
+                            <input type="hidden" id="textBox1" value="Seu IP: 164.70.99.9"><a class="nav-link pl-0 text-nowrap" onclick="abrirAlert()"><i class="fas fa-mobile-alt" style="color: red;"></i> <span class="d-none d-md-inline">Seu IP</span></a>                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+
+        <main class="col py-3 flex-grow-1">
+          <div class="tab-content">
+          <div id="home">
+               <h3 id="vermelho">Looking Glass</h3>
+                <p>Bem-vindo ao looking-glass da REDE TJNET.<br>As informações fornecidas e o suporte deste serviço são feitos da melhor maneira possível. Estes são alguns de nossos roteadores em locais principais da nossa rede.</p>
+              </div>
+
+            <div id="sobre" class="tab-pane">
+                <h3 id="vermelho">ABOUT REDE TJNET</h3>
+                <p>
+                  
+                  The TJNET Network is an medium ISP /Eyeball/Cable based in the city of Coxim, 250km from the capital of the state of Mato Grosso do Sul in Brazil, we serve as a transit operator for other providers in the region and serve 11 cities nearby.
+
+                </p> 
+
+                <br> 
+
+                <h3 id="vermelho">AUTONOMOUS SYSTEM NUMBER</h3>
+                
+
+                <p>
+                  REDE TJNET operates using the autonomous system <span id="vermelho"><strong><a href="https://registro.br/tecnologia/ferramentas/whois/?search=266130">AS266130</a></strong></span>.
+                </p>
+
+                <br>
+
+                <h3 id="vermelho">PEERING POLICY</h3>
+
+                <p>
+                  We have a selective peering policy requiring a minimum of 500 Mbps of traffic destined to or through your network. We welcome the opportunity to engage in peering with responsible BGP speakers in an effort to improve the experience of all users from our customers.
+
+                  Both parties must provide a 24/7 contact who can escalate critical issues in a timely fashion.
+
+                  Interconnections should occur in mutual locations, with a minimal 2x 10G SFP+ Ethernet interfaces, and the interface capacity upgrades should occur in a timely manner to ensure a high end-user quality of experience.
+                </p>
+
+                <br>
+
+                <h3 id="vermelho">PEERING INFORMATION</h3>
+                <br>
+                <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>ASN</td>
+                    <td><a href="https://registro.br/tecnologia/ferramentas/whois/?search=266130">AS266130</a></td>
+                  </tr>
+                  <tr>
+                    <td>PeeringDB</td>
+                    <td id="vermelho"><a href="http://www.peeringdb.com/view.php?asn=266130">as266130.peeringdb.com</a></td>
+                  <tr>
+                    <td>IRR Map</td>
+                    <td id="vermelho"><a href="http://irrexplorer.nlnog.net/search/266130">irrexplorer.nlnog.net/266130</a></td>
+                  </tr>
+                  <tr>
+                    <td>bgp.he.net</td>
+                    <td id="vermelho"><a href="http://bgp.he.net/AS266130">bgp.he.net/AS266130</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <h3 id="vermelho">CONTACT INFORMATION</h3>
+              <br>
+              <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>Peering Policies</td>
+                    <td>peering@redetjnet.com</td>
+                  </tr>
+                  <tr>
+                  <td>Peering Operations</td>
+                  <td>noc@redetjnet.com</td>
+                  </tr>
+                  <tr>
+                  <td>Website URL</td>
+                    <td>www.redetjnet.com.br</td>
+                  </tr>
+                  <tr>
+                    <td>About TJNET</td>
+                    <td><a>www.redetjnet.com.br/sobre</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            
+            <div id="downtest" class="tab-pane" align="center">
+                <div class="row">
+                  <div class="col-md-4" id="espaco">
+                      <button onclick="location.href='/download/1G.zip'" type="button" class="btn btn-danger" 
+                      style="width: 50%;">
+                      <i class="fas fa-download"></i><br>1G</button>
+                  </div>
+                  <div class="col-md-4" id="espaco">
+                      <button onclick="location.href='/download/512M.zip'" type="button" class="btn btn-danger"
+                      style="width: 50.5%;">
+                      <i class="fas fa-download"></i><br>512M</button>
+                  </div>
+                  <div class="col-md-4" id="espaco">
+                      <button onclick="location.href='/download/256M.zip'" type="button" class="btn btn-danger"
+                      style="width: 50.5%;">
+                      <i class="fas fa-download"></i><br>256M</button>
+                  </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-4" id="espaco">
+                        <button onclick="location.href='/download/128M.zip'" type="button" class="btn btn-danger"
+                        style="width: 50.5%;">
+                        <i class="fas fa-download"></i><br>128M</button>
+                    </div>
+                    <div class="col-md-4" id="espaco">
+                        <button onclick="location.href='/download/1M.zip'" type="button" class="btn btn-danger"
+                        style="width: 50%;">  
+                        <i class="fas fa-download"></i><br>1M</button>
+                    </div>
+                    <div class="col-md-4" id="espaco">
+                        <button onclick="location.href='/download/1K.zip'" type="button" class="btn btn-danger"
+                        style="width: 50%;">
+                        <i class="fas fa-download"></i><br>1k</button>
+                    </div>
+                  </div>
+                </div>
+          
+            
+            <div id="speedtest">
+              <div class="col-md-12">
+                <iframe width="100%" height="650px" frameborder="0" src="https://tjnet.dualstack.speedtestcustom.com"></iframe>
+              </div>
+            </div>
+            
+              <div id="bgp" class="tab-pane">
+
+                <div class="form-group"><select class="form-control custom-select" name="routers" id="routers"><option selected>Selecione Roteador</option><option value="router1">Router REDE TJNET - CAMPO GRANDE</option><option value="router2">Router REDE TJNET - COXIM</option></select></div>
+<div class="form-group"><select class="form-control custom-select" name="query" id="query"><option selected>Selecione Comando</option><option value="bgp">BGP ROUTE</option><option value="as">BGP REGEXP</option><option value="ping">PING</option><option value="traceroute">TRACERT</option></select></div>    
+  
+
+<div class="form-group"><div class="input-group"><input class="form-control" name="parameter" placeholder="Parâmetro" id="input-param" autofocus /><div class="input-group-append"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#help"><i class="fas fa-question-circle"></i> Ajuda</button></div></div></div><div align="center"><div class="confirm btn-group"><div class="col-md-12 btn-group"><button class="col-md-6 btn btn-danger" id="send" onclick="ajaxsubmit()">Enviar</button><button class="col-md-6 btn btn-dark" id="clear" type="reset">Limpar</button></div></div></div><br><input type="text" class="d-none" name="dontlook" placeholder="Don't look at me!" /></form></div><div class="loading"><div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div><br><div id="resultado"><div class="result"><div id="output"></div><div class="reset"><button class="btn btn-danger btn-block" id="backhome" onclick=fecharResult()>Voltar</button></div></div></div>         
+        </main>
+    </div>
+    <div class="footer_bar"><p class="text-center"><div id="help" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"  align="left"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Ajuda</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><h4>Comando <span class="badge badge-danger"><small id="command-reminder"></small></span></h4><p id="description-help"></p><h4>Parâmetro</h4><p id="parameter-help"></p></div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button></div></div></div></div></body><script src="libs/jquery-3.4.1.min.js"></script>    <script type="text/javascript">
+      $('#speedtest').hide();
+      $('#home').show();
+
+        function abrirHome() {
+        $('#home').show();
+        $('#bgp').hide();
+        $('#downtest').hide();
+        $('#speedtest').hide();
+        $('#sobre').hide();
+        fecharResult();
+      }
+
+        function abrirBGP() {
+        fecharResult();
+        $('#home').hide();
+        $('#bgp').show();
+        $('#downtest').hide();
+        $('#speedtest').hide();
+        $('#sobre').hide();
+      }
+
+      function abrirDownTest() {
+        $('#home').hide();
+        $('#bgp').hide();
+        $('#downtest').show();
+        $('#speedtest').hide();
+        $('#sobre').hide();
+        fecharResult();
+      }
+
+      function abrirSpeedTest() {
+        $('#home').hide();
+        $('#bgp').hide();
+        $('#downtest').hide();
+        $('#speedtest').show();
+        $('#sobre').hide();
+        fecharResult();
+      }
+
+      function abrirSobre() {
+        $('#home').hide();
+        $('#bgp').hide();
+        $('#downtest').hide();
+        $('#speedtest').hide();
+        $('#sobre').show();
+        fecharResult();
+      }
+
+      function abrirAlert(){
+        var ipstring = document.getElementById('textBox1').value;
+        alert(ipstring);
+      }
+
+      function fecharResult(){
+        $('#resultado').hide();
+      }
+
+      function ajaxsubmit(){
+        $('#resultado').show();
+        $.ajax({
+            // ajax send
+         }).done(function(){
+            // submitted successfully
+         });
+      }
+    
+
+    </script>
+
+    <style type="text/css">
+      
+
+      html {
+        scroll-behavior: smooth;
+      }  
+
+      h6{
+        color:red;
+      }
+
+      a{
+        color:red;
+       
+      }
+      span:hover{
+        color:red;
+        font-weight: bold;
+      }
+      #vermelho{
+        color:red;
+      }
+      
+      a:hover{
+        color:red;
+        text-decoration: none;
+      }
+      #espaco{
+        padding-bottom:5%;
+      }
+
+      pre{
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+      }
+  </style>
+<script src="libs/bootstrap-4.4.1/js/bootstrap.min.js"></script><script src="libs/fontawesome-5.11.2/js/all.min.js"></script><script src="js/looking-glass.js"></script></html>

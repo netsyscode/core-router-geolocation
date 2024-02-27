@@ -1,0 +1,629 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--
+
+                 __ _
+
+               .: .' '.
+
+              /: /     \_
+
+             ;: ;  ,-'/`:\
+
+             |: | |  |() :|
+
+             ;: ;  '-.\_:/
+
+              \: \     /`
+
+               ':_'._.'
+
+                  ||
+
+                 /__\
+
+      .---.     {====}
+
+    .'   _,"-,__|::  |
+
+   /    ((O)=;--.::  |
+
+  ;      `|: |  |::  |
+
+  |       |: |  |::  |            *****************************
+
+  |       |: |  |::  |            * LookingGlass by Telephone *
+
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+
+  |       |: |  |::  |            *****************************
+
+  |       |: |  |::  |
+
+  |      /:'__\ |::  |
+
+  |     [______]|::  |
+
+  |      `----` |::  |__
+
+  |         _.--|::  |  ''--._
+
+  ;       .'  __{====}__      '.
+
+   \    .'_.-'._ `""` _.'-._    '.
+
+    '--'/`      `''''`      `\    '.__
+
+        '._                _.'
+
+           `""--......--""`
+
+-->
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Amsterdam Looking Glass By Psychz Networks</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Amsterdam Looking Glass By Psychz Networks">
+
+<meta name="author" content="Telephone">
+
+
+
+<!-- IE6-8 support of HTML elements -->
+
+<!--[if lt IE 9]>
+
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <![endif]-->
+
+
+
+<!-- Styles -->
+
+<link href="assets/css/cerulean.min.css" rel="stylesheet">
+
+<link href="assets/css/header.css" rel="stylesheet" type="text/css">
+
+<link href="assets/css/side-menu.css" rel="stylesheet" type="text/css">
+
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+<link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+
+<link href="assets/css/mobile.css" rel="stylesheet" type="text/css">
+
+<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+<section class="subcontent_box about_con">
+
+  <div class="new-header-con f-nav no-background">
+    <section class="wrapper group">
+      <div class="side-menu">
+        <div class="menu-wrap">
+            <div class="sidetop-menu">
+                <ul id="sidebar-menu">
+                    <li><a href="/index.html"><i class="fa"></i> Home</a></li>
+                    <li><a href="https://www.psychz.net/dashboard/"><i class="fa"></i>
+                            Dashboard</a></li>
+                    <li class="side-dropdown"><a href="#"><i class="fa"></i> Company<i class="angle"></i> </a>
+                        <ul>
+                            <li><a href="https://www.psychz.net/about-us.html"><i class="fa fa-user"></i> About Us</a></li>
+                            <li><a href="https://www.psychz.net/client/blog/en/"><i
+                                        class="fa fa-comments"></i> Blog</a></li>
+                            <li><a href="https://www.psychz.net/career.html"><i class="fa fa-line-chart"></i> Careers</a></li>
+                            <li><a href="https://www.psychz.net/contact.html"><i class="fa fa-phone"></i> Contact Us</a></li>
+                            <li><a href="https://www.psychz.net/datacenter.html"><i class="fa fa-database"></i> Data Centers</a>
+                            </li>
+                            <li><a href="https://www.psychz.net/looking-glass.html"><i class="fa fa-map-marker"></i> Looking
+                                    Glass</a></li>
+                            <li><a href="https://www.psychz.net/network.html"><i class="fa fa-sitemap"></i> Network</a></li>
+                            <li><a href="https://www.psychz.net/reseller.html"><i class="fa fa-users"></i> Reseller</a></li>
+                        </ul>
+                    </li>
+                    <li class="side-dropdown"><a href="#"><i class="fa"></i> Hosting Services<i class="angle"></i></a>
+                        <ul>
+                            <li><a href="https://www.psychz.net/backup.html"><i class="fa fa-folder"></i> Backup</a></li>
+                            <li><a href="https://www.psychz.net/cdn.html"><i class="fa fa-globe"></i> Content Delivery Network</a></li>
+                            <li><a href="https://www.psychz.net/colocation.html"><i class="fa fa-database"></i> Colocation Hosting</a></li>
+                            <li><a href="https://www.psychz.net/dedicated-hosting.html"><i class="fa fa-tasks"></i> Dedicated Hosting</a></li>
+                            <li class="ddos-link"><a href="https://www.psychz.net/ddos-mitigation.html"><i
+                                        class="fa fa-shield"></i> DDoS Mitigation</a></li>
+                            <li><a href="https://www.psychz.net/ip-transit.html"><i class="fa fa-refresh"></i> IP Transit</a></li>
+                            <li><a href="https://www.psychz.net/private-cloud.html"><i class="fa fa-cloud"></i> Private Cloud</a>
+                            </li>
+                            <li><a href="https://www.psychz.net/wavelength.html"><i class="fa fa-wifi"></i> Wavelength</a></li>
+                        </ul>
+                    </li>
+                    <li class="side-dropdown"><a href="#"><i class="fa"></i> Solutions<i class="angle"></i>
+                        </a>
+                        <ul>
+                            <li><a href="https://www.psychz.net/ecommerce.html"><i class="fa fa-shopping-cart"></i> Ecommerce</a></li>
+                            <li><a href="https://www.psychz.net/financial-trading.html"><i class="fa fa-dollar"></i> Finance</a>
+                            </li>
+                            <li><a href="https://www.psychz.net/gaming.html"><i class="fa fa-gamepad"></i> Gaming</a></li>
+                            <li><a href="https://www.psychz.net/hosting-providers.html"><i class="fa fa-tasks"></i> Hosting </a>
+                            </li>
+                            <li><a href="https://www.psychz.net/managed-hosting.html"><i class="fa fa-gears"></i> Management</a>
+                            </li>
+                            <li><a href="https://www.psychz.net/security.html"><i class="fa fa-shield"></i> Security</a></li>
+                            <li><a href="https://www.psychz.net/system-integrator.html"><i class="fa fa-gear"></i> System Integrator</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="side-dropdown"><a href="#"><i class="fa"></i> Support<i class="angle"></i> </a>
+                        <ul>
+                            <li><a href="https://www.psychz.net/client/questions"><i
+                                        class="fa fa-users"></i> Community</a></li>
+                            <li><a href="https://www.psychz.net/client/kb/en/"><i class="fa fa-graduation-cap"></i>
+                                    Knowledge Base</a></li>
+                            <li><a href="https://www.psychz.net/dashboard/"><i class="fa fa-ticket "></i> Open A Ticket</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--sidetop-menu-->
+            </div>
+            <div class="sidebottom-menu">
+                <ul>
+                    <li><i class="fa"></i> USA & Canada: <span class="style">800-933-1517</span></li>
+                    <li><i class="fa"></i> International: <span class="style">626-549-2801</span></li>
+                    <li><i class="fa"></i> Email:
+                        <a itemscope itemtype="https://schema.org/LocalBusiness" href="mailto:sales@psychz.net">
+                            <span itemprop="email">sales@psychz.net</span></a></li>
+                </ul>
+                <!--sidebottom-menu-->
+            </div>
+          <button class="close-button" id="close-button">Close Menu</button>
+          <div class="morph-shape" id="morph-shape"
+               data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+            <svg xmlns="https://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800"
+                 preserveAspectRatio="none">
+              <path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z"/>
+            </svg>
+          </div>
+        </div>
+        <button class="menu-button" id="open-button"></button>
+        <!--side-menu-->
+      </div>
+      <div class="logo"><a href="https://www.psychz.net/index.html"></a></div>
+      <div class="float-rt new-header-rt-box">
+        <ul>
+          <li>
+            <div class="new-header-icon1"></div>
+            <a href="#">Services <i class="fa fa-angle-down"></i> 
+			<span class="line"></span></a>
+            <div class="new-header-dropdown">
+              <section class="wrapper group">
+                <ul>
+                  <li><a href="https://www.psychz.net/dedicated-hosting.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-tasks"></i></div>
+                    Dedicated Servers</a></li>
+                  <li><a href="https://www.psychz.net/colocation.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-database"></i></div>
+                    Colocation</a></li>
+                  <li><a href="https://www.psychz.net/private-cloud.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-cloud"></i></div>
+                    Private Cloud</a></li>
+                  <li><a href="https://www.psychz.net/ddos-mitigation.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-shield"></i></div>
+                    DDoS Protection</a></li>
+                  <li><a href="https://www.psychz.net/ip-transit.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-refresh"></i></div>
+                    IP Transit</a></li>
+                  <li><a href="https://www.psychz.net/cdn.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-globe"></i></div>
+                    CDN</a></li>
+                                <li><a href="https://www.psychz.net/backup.html">
+                                    <div class="new-header-icon-holder"><i class="fa fa-cloud-download"></i></div>
+                                    Backup</a></li> 
+                                     <li><a href="https://www.psychz.net/wavelength.html">
+                                    <div class="new-header-icon-holder"><i class="fa fa-wifi"></i></div>
+                                    Wavelength</a></li>
+                </ul>
+                <!--wrapper-->
+              </section>
+              <!--new-header-dropdown-->
+            </div>
+          </li>
+          <li>
+            <div class="new-header-icon2"></div>
+            <a href="#">Solutions <i class="fa fa-angle-down"></i> 
+			<span class="line"></span></a>
+            <div class="new-header-dropdown new-header-dropdown2">
+              <section class="wrapper group">
+                <ul>
+                  <li><a href="https://www.psychz.net/ecommerce.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-shopping-cart"></i></div>
+                    Ecommerce</a></li>
+                  <li><a href="https://www.psychz.net/security.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-shield"></i></div>
+                    Security</a></li>
+                  <li><a href="https://www.psychz.net/gaming.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-gamepad"></i></div>
+                    Gaming</a></li>
+                  <li><a href="https://www.psychz.net/hosting-providers.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-tasks"></i></div>
+                    Hosting </a></li>
+                  <li><a href="https://www.psychz.net/managed-hosting.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-user"></i></div>
+                    Management</a></li>
+                  <li><a href="https://www.psychz.net/financial-trading.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-dollar"></i></div>
+                    Finance</a></li>
+                  <li><a href="https://www.psychz.net/system-integrator.html">
+                    <div class="new-header-icon-holder"><i class="fa fa-gear"></i></div>
+                    System Integrator</a></li>	
+                </ul>
+                <!--wrapper-->
+              </section>
+              <!--new-header-dropdown-->
+            </div>
+          </li>
+          <li><i class="fa fa-tachometer"></i>
+            <a href="https://www.psychz.net/dashboard/">Dashboard</a>
+          </li>
+        </ul>
+        <!--new-header-rt-box -->
+      </div>
+      <!--wrapper-->
+    </section>
+    <!--new-header-con -->
+  </div>
+  <!-- =========== --> 
+
+  <!-- Banner Area --> 
+
+  <!-- =========== -->
+
+  <section class="sub_bannercon">
+
+    <section class="wrapper group">
+
+      <aside class="sub_banner">
+
+        <h1><a style="color:#fff" id="title" href="/">Amsterdam Looking Glass</a></h1>
+
+        <!--sub_banner--> 
+
+      </aside>
+
+      <!--wrapper--> 
+
+    </section>
+    <div class="banner_menucon">
+      <section class="wrapper group">
+        <aside class="banner_menu">
+          <ul>
+            <li><a id="back-top2" href="#"><span class="home_txt">Home</span><span class="fa fa-home"></span></a></li>
+            <li><a class="scroll tests" href="#tests">Network Test</a></li>
+            <li><a class="scroll Map" href="#Map">Locations Map</a></li>
+            <li><a class="scroll Info" href="#Info">Network Info</a></li>
+          </ul>
+          <div class="call_btn">Call Us: <span class="numeric1">800-933-1517</span></div>
+          <!--banner_menu--> 
+        </aside>
+        <!--wrapper--> 
+      </section>
+      <!--banner_menucon--> 
+    </div>
+
+    <!--sub_bannercon--> 
+
+  </section>
+<a id="banner"></a>
+  <!--subcontent_box--> 
+
+</section>
+
+<!-- Container -->
+
+<div class="clear"></div>
+
+<div class="container">   
+
+  <!-- Header -->
+
+  <!--<header class="header nohighlight" id="overview">
+
+    <div class="row">
+
+      <div class="span12">
+
+        <h1><a id="title" href="</a></h1>
+
+      </div>
+
+    </div>
+
+  </header>-->
+
+  <div align=center> 
+
+  <!-- Network Tests -->
+  <section id="tests">
+      <div class="row">
+        <div class="span12">
+          <form class="well form-inline" id="networktest" action="#results" method="post">
+            <fieldset>
+              <span id="legend">Network tests</span>
+              <div class="well-inner">
+              <div id="hosterror" class="control-group">
+                <div class="controls">
+                  <input id="host" name="host" class="input-large" placeholder="Host or IP address" type="text">
+                </div>
+              </div>
+               <select name="cmd" class="input-medium" style="margin-left: 5px;">
+
+                <option value="host">host</option>
+
+                <option value="mtr">mtr</option>
+
+                <option value="mtr6">mtr6</option>
+                <option value="ping" selected="selected">ping</option>
+
+                <option value="ping6">ping6</option>
+                <option value="traceroute">traceroute</option>
+
+                <option value="traceroute6">traceroute6</option>
+              </select>
+              <button type="submit" id="submit" name="submit" class="btn btn-primary run-btn">Run Test</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+     <!-- Results -->
+    <section id="results" style="display:none">
+      <div class="row">
+        <div class="span12">
+          <div class="well"> 
+          <div class="close"></div>
+          <span id="legend">Results</span>
+           <div class="well-inner2">
+            <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div></div>
+<section class="greycon2 margin_top" id="Map">
+  <section class="wrapper group">
+   <div class="location-map-box">
+   <h3>Locations Map</h3>
+    <div class="lookingGlass-loc position-relative">
+          <figure>
+            <a class="link-location los-angeles-link" href="https://lg.lax.psychz.net/"></a>
+            <a class="link-location dallas-link" href="https://lg.texas.psychz.net/"></a>
+            <a class="link-location chicago-link" href="https://lg.chi.psychz.net/"></a>
+            <a class="link-location ashburn-link" href="https://lg.va.psychz.net/"></a>
+            <a class="link-location london-link" href="https://lg.lon.psychz.net/"></a>
+            <a class="link-location amsterdam-link" href="https://lg.ams.psychz.net/"></a>
+            <a class="link-location barcelona-link" href="https://lg.bcn.psychz.net/"></a>            
+            <a class="link-location moscow-link" href="https://lg.svo.psychz.net"></a>            
+            <a class="link-location Johannesburg-link" href="https://lg.jnb.psychz.net/"></a>
+            <a class="link-location saopaulo-link" href="https://lg.sao.psychz.net/"></a>
+            <a class="link-location mumbai-link" href="https://lg.in.psychz.net"></a>
+            <a class="link-location taipei-link" href="https://lg.tw.psychz.net/"></a>
+            <a class="link-location tokyo-link" href="https://lg.jp.psychz.net"></a>
+            <a class="link-location seoul-link" href="https://lg.icn.psychz.net/"></a>
+            <a class="link-location singapore-link" href="https://lg.sin.psychz.net/"></a>
+            <a class="link-location sydney-link" href="https://lg.syd.psychz.net/"></a>
+            <img alt="" src="assets/images/location-map-2.png" width="1173" height="546">
+          </figure>            
+          <!--map-box-->
+        </div>
+   <!--location-map-box-->
+   </div>
+    <!--wrapper--> 
+  </section>
+<!--greycon2-->
+</section>
+<div class="container">  
+    <!-- Network Information -->
+    <section id="information">
+      <div class="row"><a id="Info"></a>
+        <div class="span12">
+          <div class="well"> <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+            <div class="well-inner">
+           <ul class="float_lt">
+
+              <li><i class="fa fa-tasks"></i> <span>Server Location:</span> <b>Amsterdam</b></li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.lax.psychz.net>Los Angeles, USA</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.texas.psychz.net>Dallas, USA</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.chi.psychz.net/>Chicago, USA</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.va.psychz.net/>Ashburn, USA</a> </li>
+			  <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.sao.psychz.net/>Sao Paulo, Brazil</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.lon.psychz.net/>London, United Kingdom</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.bcn.psychz.net/>Barcelona, Spain</a> </li>
+			  <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.svo.psychz.net/>Moscow, Russia</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.jnb.psychz.net/>Johannesburg, South Africa</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.in.psychz.net/>Mumbai, India</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.sin.psychz.net/>Singapore</a> </li>
+        <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.tw.psychz.net/>Taipei, Taiwan</a> </li>
+        <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.icn.psychz.net/>Seoul, South Korea</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.jp.psychz.net/>Tokyo, Japan</a> </li>
+              <li><i class="fa fa-map-marker"></i> <span>Other Locations:</span> <a href=https://lg.syd.psychz.net/>Sydney, Australia</a> </li>
+
+                            </ul>
+                            
+             <ul class="float_rt">
+
+              <li><i class="fa fa-check-circle-o"></i> <span>Test IPv4:</span> 108.181.59.250</li>
+
+              <li><i class="fa fa-check-circle-o"></i> 
+
+                <span>Test IPv6:</span> 2604:6600:2007:48:0:2:185f:e237
+              </li>
+
+              <li><i class="fa fa-file-text-o"></i> <span>Test files:</span>
+
+                <a href="200MB.test" id="testfile">200MB</a> 
+              </li>
+
+            <li><i class="fa fa-address-book-o"></i> Your IP Address: <b><a href="#tests" id="userip">164.70.99.9</a></b></li>
+
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>   
+  </div>
+
+<!-- =========== --> 
+
+<!-- Footer Area --> 
+
+<!-- =========== -->
+
+<section class="footer-con float-lt">
+    <section class="wrapper group">
+        <footer class="footer-box">
+            <aside class="sitemap float-lt">
+                <h6>Hosting Services</h6>
+                <ul>
+                    <li><a href="https://www.psychz.net/backup.html">Backup</a></li>
+                    <li><a href="https://www.psychz.net/cdn.html">Content Delivery Network</a></li>
+                    <li><a href="https://www.psychz.net/colocation.html">Colocation Hosting</a></li>
+                    <li><a href="https://www.psychz.net/dedicated-hosting.html">Dedicated Hosting</a></li>
+                    <li><a href="https://www.psychz.net/ddos-mitigation.html">DDoS Mitigation</a></li>
+                    <li><a href="https://www.psychz.net/ip-transit.html">IP Transit</a></li>
+                    <li><a href="https://www.psychz.net/private-cloud.html">Private Cloud</a></li>
+                    <li><a href="https://www.psychz.net/wavelength.html">Wavelength</a></li>
+                </ul>
+                <h6>Support</h6>
+                <ul>
+                    <li><a href="https://www.psychz.net/client/questions">Community</a></li>
+                    <li><a href="https://www.psychz.net/client/kb/en/">Knowledge Base</a></li>
+                    <li><a href="https://www.psychz.net/dashboard/"> Open A Ticket</a></li>
+                </ul>
+                <!--sitemap-->
+            </aside>
+            <aside class="sitemap float-lt">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="https://www.psychz.net/about-us.html">About Us</a></li>
+                    <li><a href="https://www.psychz.net/client/blog/en/">Blog</a></li>
+                    <li><a href="https://www.psychz.net/career.html">Careers</a></li>
+                    <li><a href="https://www.psychz.net/contact.html">Contact Us</a></li>
+                    <li><a href="https://www.psychz.net/datacenter.html">Data Centers</a></li>
+                    <li><a href="https://www.psychz.net/looking-glass.html">Looking Glass</a></li>
+                    <li><a href="https://www.psychz.net/network.html">Network</a></li>
+                    <li><a href="https://www.psychz.net/reseller.html">Reseller</a></li>
+                </ul>
+                <!--sitemap-->
+            </aside>
+            <aside class="sitemap float-lt">
+                <h6>Policies</h6>
+                <ul>
+                    <li><a href="https://www.psychz.net/aup.html">Acceptable Usage Policy</a></li>
+                    <li><a href="https://www.psychz.net/privacy.html">Privacy Policy</a></li>
+                    <li><a href="https://www.psychz.net/sla.html">Service Level Agreement</a></li>
+                    <li><a href="https://www.psychz.net/tos.html">Terms and Conditions</a></li>
+                </ul>
+                <!--sitemap-->
+            </aside>
+            <aside class="sitemap float-lt sitemap2">
+                <h6>Company</h6>
+                <ul itemscope itemtype="https://schema.org/LocalBusiness">
+                    <li class="mb-xl-3"><span class="fa fa-map-marker font20"></span><span class="style1"> <span itemprop="name">Psychz Networks</span>,</span><br/>
+                        A Profuse Solutions Company<br/>
+                        <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span
+                                itemprop="streetAddress">611 Wilshire Blvd #300</span><br/>
+            <span itemprop="addressLocality">Los Angeles</span>, <span itemprop="addressRegion">California</span> <span
+                                itemprop="postalCode">90017</span><br/>
+            <span itemprop="addressCountry">USA</span></span></li>
+                    <li class="mb-xl-3"><span class="fa fa-mobile font20"></span>US/Canada: <span itemprop="telephone">800-933-1517</span></li>
+                    <li><span class="fa fa-phone font20"></span>International: <span itemprop="telephone">626-549-2801</span></li>
+                </ul>
+                <!-- sitemap -->
+            </aside>
+            <aside class="footer-rt col-xl-3 pl-xl-3 pr-xl-3 p-0 float-right">
+        <h6 class="mb-3">Subscribe to Our Mailing List</h6>
+        <div class="submit-btn float-left font14 regular-font text-center">
+          <a href="https://mailchi.mp/psychz.net/fi4gc078y6" target="_blank">Subscribe</a>
+        </div>
+        <!--footer-rt-->
+      </aside>
+            <!--footer-box-->
+        </footer>
+        <!--wrapper-->
+    </section>
+    <section class="copyright-con">
+        <section class="wrapper group">
+            <aside class="copyright"> Copyright © 2020 Psychz Networks, A Profuse Solutions Inc Company
+                <div class="social-box float-rt text-center">
+                    <ul>
+                        <li class="tw font16"><a class="fa fa-twitter" href="https://twitter.com/psychznetworks"></a></li>
+                        <li class="fb font16"><a class="fa fa-facebook" href="https://www.facebook.com/PsychzNetworks"></a></li>
+                        <li class="ln font16"><a class="fa fa-linkedin" href="https://www.linkedin.com/company/psychz-networks"></a></li>
+                        <li class="mail font16"><a class="fa fa-envelope" href="mailto:sales@psychz.net"></a></li>
+                    </ul>
+                    <!--social-box-->
+                </div>
+                <!--copyright-->
+            </aside>
+            <!--wrapper-->
+        </section>
+        <!--copyright-con-->
+    </section>
+    <!--footer-con-->
+</section>
+<!-- Footer -->
+
+<!--<footer class="footer nohighlight">-->
+<!---->
+<!--  <p class="pull-right"> <a href="#">Back to top</a> </p>-->
+<!---->
+<!--  <p>Powered by <a href="https://www.psychz.net/">Profuse Solutions</a></p>-->
+<!---->
+<!--</footer>-->
+
+<!-- /container --> 
+
+
+
+<!-- Javascript --> 
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>--> 
+
+<script src="assets/js/jquery-1.11.1.min.js"></script> 
+
+<script src="assets/js/jquery-ui.js"></script> 
+
+<script src="assets/js/nav-script.js"></script> 
+
+<script src="assets/js/custome-scripts.js"></script> 
+
+<script src="assets/js/LookingGlass.min.js"></script> 
+
+<script src="assets/js/XMLHttpRequest.min.js"></script>
+
+<script src="assets/js/snap.svg-min.js"></script>
+
+<script src="assets/js/classie.js"></script>
+
+<script src="assets/js/main4.js"></script>
+
+<script src="assets/js/menu.js"></script>
+
+</body>
+
+</html>
+

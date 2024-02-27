@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <title>搬瓦工美国洛杉矶DC8 ZNET机房LookingGlass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="description" content="搬瓦工美国洛杉矶DC8 ZNET机房网络测试网站，提供美国洛杉矶DC8 ZNET机房的LookingGlass测试和SpeedTest测试，可以测试Host、Ping、MTR、Traceroute等内容。" />
+  <meta name="keywords" content="搬瓦工美国洛杉矶DC8 ZNET,美国洛杉矶DC8 ZNET LookingGlass,美国洛杉矶DC8 ZNET SpeedTest" />
+  <meta name="author" content="Telephone" />
+  <!-- Styles -->
+  <link href="assets/css/cerulean.min.css" rel="stylesheet" type="text/css" />
+  <!-- IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- Container -->
+  <div class="container">
+    <!-- Header -->
+    <header class="header nohighlight" id="overview">
+      <div class="row">
+        <div class="span12">
+          <h1><a id="title" href="https://dc8.52bwg.com">搬瓦工美国洛杉矶DC8 ZNET机房LookingGlass</a></h1>
+        </div>
+      </div>
+    </header>
+    <!-- Network Information -->
+    <section id="information">
+      <div class="row">
+        <div class="span7">
+          <div class="well">
+            <span id="legend">网络信息</span><!-- IE/Safari dislike <legend> out of context -->
+            <p>服务器位置：US: Los Angeles, California (DC8 ZNET) [USCA_8]</p>
+            <div style="margin-left: 10px;">
+              <p>测试IPv4：23.252.99.102</p>
+              <p>测试IPv6：暂不支持</p>
+              <p>测试文件：暂不支持</p>
+            </div>
+            <p>您的IP地址：<a href="#tests" id="userip">166.111.68.233</a></p>
+          </div>
+        </div>
+        <div class="span5">
+          <div class="well">
+            <span id="legend">更多信息</span>
+            <p><a href="https://dc8.52bwg.com/speedtest/" target="_blank" rel="noopener">搬瓦工美国洛杉矶DC8 ZNET机房网络测速</a></p>
+            <p><a href="https://www.banwagongzw.com/168.html" target="_blank" rel="noopener">购买同款机房的搬瓦工VPS</a></p>
+            <p><a href="https://www.banwagongzw.com" target="_blank" rel="noopener">搬瓦工中文网</a></p>
+            <p><a href="https://52bwg.com" target="_blank" rel="noopener">搬瓦工</a></p>
+            <p><a href="https://www.banwagongzw.com/27.html" target="_blank" rel="noopener">其他演示网站</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SpeedTest -->
+    <section id="speedtest">
+      <div class="row">
+        <div class="span12">
+          <div class="well">
+            <span id="legend">速度测试</span>
+            <p>服务器带宽：1Gbps</p>
+            <div class="col-xs-6 col-md-3">
+              <p>平均延迟：<span id="pingText">等待...</span></p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>延迟波动：<span id="jitText">等待...</span></p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>下载速度：<span id="dlText">等待...</span></p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>上传速度：<span id="ulText">等待...</span></p>
+            </div>
+            <p>测试数值仅供参考，建议多测试几次。</p>
+            <button id="startStopBtn" class="btn btn-primary" onclick="startStop()">开始测试</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Network Tests -->
+    <section id="tests">
+      <div class="row">
+        <div class="span12">
+          <form class="well form-inline" id="networktest" action="#results" method="post">
+            <fieldset>
+              <span id="legend">网络测试</span>
+              <div id="hosterror" class="control-group">
+                <div class="controls">
+                  <input id="host" name="host" type="text" class="input-large" placeholder="域名或IP地址">
+                </div>
+              </div>
+              <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                <option value="host">host</option>
+                <option value="mtr">mtr</option>
+                                <option value="ping">ping</option>
+                                <option value="traceroute" selected="selected">traceroute</option>
+                              </select>
+              <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">开始测试</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Results -->
+    <section id="results" style="display:none">
+      <div class="row">
+        <div class="span12">
+          <div class="well">
+            <span id="legend">测试结果</span>
+            <pre id="response" style="display:none"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer nohighlight">
+      <p class="pull-right"><a href="indexen.php">English</a> - <a href="#">回到顶部</a></p>
+      <p>本站由 <a href="https://www.banwagongzw.com" target="_blank" rel="noopener">搬瓦工中文网</a> 提供支持，由 <a href="https://github.com/telephone/LookingGlass" target="_blank" rel="noopener">LookingGlass</a> & <a href="https://github.com/librespeed/speedtest" target="_blank" rel="noopener">SpeedTest</a> 驱动</p>
+    </footer>
+  </div><!-- /container -->
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="assets/js/LookingGlass.min.js"></script>
+  <script type="text/javascript" src="assets/js/XMLHttpRequest.min.js"></script>
+  <script type="text/javascript">
+    function I(id) {
+      return document.getElementById(id);
+    }
+    var w = null; //speedtest worker
+    function startStop(){
+      if(w != null){
+        //speedtest is running, abort
+        w.postMessage('abort');
+        w = null;
+        initUI();
+      } else {
+        I("pingText").textContent="等待...";
+        I("jitText").textContent="等待...";
+        I("dlText").textContent="等待...";
+        I("ulText").textContent="等待...";
+        //test is not running, begin
+        w = new Worker('SpeedTest/speedtest_worker.min.js');
+        w.postMessage('start'); //Add optional parameters as a JSON object to this command
+        w.onmessage = function (e) {
+          var data = JSON.parse(e.data);
+          var status = data.testState;
+          I("startStopBtn").textContent = "停止测试";
+          if ( status >= 4 ){
+            //test completed
+            I("startStopBtn").textContent = "开始测试";
+            w = null;
+          }
+          if ( status == 1 && data.pingStatus == 0 ){
+            I("pingText").textContent = '...'
+          } else {
+            if (data.pingStatus){
+              I("pingText").textContent = data.pingStatus + ' ms'
+            }
+          }
+          if ( status == 1 && data.jitterStatus == 0 ){
+            I("jitText").textContent = '...'
+          } else {
+            if (data.jitterStatus){
+              I("jitText").textContent = data.jitterStatus + ' ms'
+            }
+          }
+          if ( status == 1 && data.dlStatus == 0 ){
+            I("dlText").textContent = '...'
+          } else {
+            if (data.dlStatus){
+              I("dlText").textContent = data.dlStatus + ' Mbps'
+            }
+          }
+          if ( status == 1 && data.ulStatus == 0 ){
+            I("ulText").textContent = '...'
+          } else {
+            if (data.ulStatus){
+              I("ulText").textContent = data.ulStatus + ' Mbps'
+            }
+          }
+        };
+      }
+    }
+    //poll the status from the worker every 200ms (this will also update the UI)
+    setInterval(function () {
+      if(w) w.postMessage('status');
+    }, 200);
+    //function to (re)initialize UI
+    function initUI() {
+      I("pingText").textContent = "等待...";
+      I("jitText").textContent = "等待...";
+      I("dlText").textContent = "等待...";
+      I("ulText").textContent = "等待...";
+      I("startStopBtn").textContent = "开始测试";
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1489 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#"
+	prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  
+    <title>Looking Glass | IPTP Networks</title>
+
+		<!-- All in One SEO 4.5.0 - aioseo.com -->
+		<meta name="description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta name="robots" content="max-image-preview:large" />
+		<meta name="keywords" content="bgp,ping,route lookup,trace." />
+		<link rel="canonical" href="https://lg.iptp.net/en_US/iptp-tools/lg/" />
+		<meta name="generator" content="All in One SEO (AIOSEO) 4.5.0" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="IPTP Networks | A better Network, not just a bigger one!" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Looking Glass | IPTP Networks" />
+		<meta property="og:description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta property="og:url" content="https://lg.iptp.net/en_US/iptp-tools/lg/" />
+		<meta property="og:image" content="https://lg.iptp.net/wp-content/uploads/iptplogo.svg" />
+		<meta property="og:image:secure_url" content="https://lg.iptp.net/wp-content/uploads/iptplogo.svg" />
+		<meta property="article:published_time" content="2016-10-07T14:49:23+00:00" />
+		<meta property="article:modified_time" content="2023-11-23T13:13:44+00:00" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Looking Glass | IPTP Networks" />
+		<meta name="twitter:description" content="Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup." />
+		<meta name="twitter:image" content="https://lg.iptp.net/wp-content/uploads/iptplogo.svg" />
+		<meta name="google" content="nositelinkssearchbox" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/lg.iptp.net\/en_US\/#listItem","position":1,"name":"Home","item":"https:\/\/lg.iptp.net\/en_US\/","nextItem":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/#listItem"},{"@type":"ListItem","@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/#listItem","position":2,"name":"IPTP Tools","item":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/","nextItem":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#listItem","previousItem":"https:\/\/lg.iptp.net\/en_US\/#listItem"},{"@type":"ListItem","@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#listItem","position":3,"name":"Looking Glass","previousItem":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/#listItem"}]},{"@type":"Organization","@id":"https:\/\/lg.iptp.net\/en_US\/#organization","name":"IPTP Networks","url":"https:\/\/lg.iptp.net\/en_US\/","logo":{"@type":"ImageObject","url":"https:\/\/lg.iptp.net\/wp-content\/uploads\/iptplogo.svg","@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#organizationLogo"},"image":{"@id":"https:\/\/lg.iptp.net\/en_US\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#webpage","url":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/","name":"Looking Glass | IPTP Networks","description":"Looking Glass tool provide a useful insight into the backbone routing and efficiency of a network, its capabilities include Traceroute, BGP, ping, route Lookup.","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/lg.iptp.net\/en_US\/#website"},"breadcrumb":{"@id":"https:\/\/lg.iptp.net\/en_US\/iptp-tools\/lg\/#breadcrumblist"},"datePublished":"2016-10-07T14:49:23+03:00","dateModified":"2023-11-23T13:13:44+03:00"},{"@type":"WebSite","@id":"https:\/\/lg.iptp.net\/en_US\/#website","url":"https:\/\/lg.iptp.net\/en_US\/","name":"IPTP Networks","description":"A better Network, not just a bigger one!","inLanguage":"en-US","publisher":{"@id":"https:\/\/lg.iptp.net\/en_US\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//lg.iptp.net' />
+<link rel='dns-prefetch' href='//xm.iptp.net' />
+<link rel="alternate" type="application/rss+xml" title="IPTP Networks &raquo; Feed" href="https://lg.iptp.net/en_US/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IPTP Networks &raquo; Comments Feed" href="https://lg.iptp.net/en_US/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/lg.iptp.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='classic-theme-styles-css' href='https://lg.iptp.net/wp-includes/css/classic-themes.min.css?ver=6.2.3'  media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wcjp-frontend.css-css' href='https://lg.iptp.net/wp-content/plugins/custom-css-js-php/assets/css/wcjp-frontend.css?ver=6.2.3'  media='all' />
+<link rel='stylesheet' id='mltlngg_stylesheet-css' href='https://lg.iptp.net/wp-content/plugins/multilanguage/css/style.css?ver=1.3.3'  media='all' />
+<link rel='stylesheet' id='posts-from-category-widget-stylesheet-css' href='https://lg.iptp.net/wp-content/plugins/posts-in-category-widget/style.css?ver=1.2.0'  media='all' />
+<link rel='stylesheet' id='cssnews-css' href='https://lg.iptp.net/wp-content/plugins/sp-news-and-widget/assets/css/stylenews.css?ver=4.1.4'  media='all' />
+<link rel='stylesheet' id='widgets-on-pages-css' href='https://lg.iptp.net/wp-content/plugins/widgets-on-pages/public/css/widgets-on-pages-public.css?ver=1.4.0'  media='all' />
+<link rel='stylesheet' id='intlTelInput.css-css' href='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/intl-tel-input/css/intlTelInput.css?ver=6.2.3'  media='all' />
+<link rel='stylesheet' id='swiper.min.css-css' href='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/swiper/swiper-bundle.min.css?ver=6.2.3'  media='all' />
+<link rel='stylesheet' id='css-style2-css' href='https://lg.iptp.net/wp-content/themes/iptp-theme/css/style.css?ver=3826438'  media='all' />
+<script type='text/javascript' id='jquery-core-js-extra'>
+/* <![CDATA[ */
+var benevolent_data = {"auto":"1","loop":"1","pager":"1","animation":"slide","speed":"7000","a_speed":"600","rtl":"","is_localhost":"","is_mobile":"","admin_ajax":"https:\/\/lg.iptp.net\/en_US\/admin-ajax\/","utils":"https:\/\/lg.iptp.net\/wp-content\/themes\/iptp-theme\/lib\/intl-tel-input\/js\/utils.js","post_id":"282","link_op_rf_choose_page":"https:\/\/lg.iptp.net\/en_US\/thank-you\/","link_op_rf_choose_page_tks":"https:\/\/lg.iptp.net\/en_US\/event-thank-you\/","domain":"\/\/lg.iptp.net","is_web_dev":"","warehouse":"Warehouse","phone":"Phone","error_captcha":"The captcha code is incorrect","openla":"","test_api":"","step":"Step"};
+/* ]]> */
+</script>
+<script  src='https://lg.iptp.net/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script  src='https://lg.iptp.net/wp-content/plugins/sp-news-and-widget/assets/js/jquery.newstape.js?ver=4.1.4' id='vnewsticker-js'></script>
+<script  src='https://lg.iptp.net/wp-content/plugins/sp-news-and-widget/assets/js/sp-news-public.js?ver=4.1.4' id='sp-news-public-js'></script>
+<link rel="https://api.w.org/" href="https://lg.iptp.net/en_US/wp-json/" /><link rel="alternate" type="application/json" href="https://lg.iptp.net/en_US/wp-json/wp/v2/pages/282" /><link rel="alternate" type="application/json+oembed" href="https://lg.iptp.net/en_US/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flg.iptp.net%2Fen_US%2Fiptp-tools%2Flg%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://lg.iptp.net/en_US/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flg.iptp.net%2Fen_US%2Fiptp-tools%2Flg%2F&#038;format=xml" />
+<link rel="canonical" href="https://lg.iptp.net/en_US/iptp-tools/lg/"/>
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"admin"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFPQ38T');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->    
+        <!-- <script type="text/javascript">             
+          var ajax_url_load = "/var/www/site/wp-content/themes/iptp-theme/inc/load_ajax.php";               
+        </script> -->
+    <link rel="icon" href="https://lg.iptp.net/wp-content/uploads/cropped-ms-icon-310x310-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://lg.iptp.net/wp-content/uploads/cropped-ms-icon-310x310-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://lg.iptp.net/wp-content/uploads/cropped-ms-icon-310x310-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://lg.iptp.net/wp-content/uploads/cropped-ms-icon-310x310-1-270x270.png" />
+
+    
+    
+        
+    
+        <style type="text/css">
+        body nav li[id*="ru_RU"]{ display:none; }
+    </style>
+
+    <script>
+
+    jQuery(document).ready(function($) {
+
+      // if ( window.localStorage.getItem('where_ip')  ) {
+
+      //     if ( window.localStorage.getItem('where_ip') != "RU" ){
+      //       // $('nav li[id*="ru_RU"]').css('display','none !important');
+      //       $('body').append(`<style>nav li[id*="ru_RU"]{display:none!important}</style>`);
+
+      //       return;
+
+      //     }  else {
+
+      //        $('body').append(`<style>nav li[id*="ru_RU"]{display:block!important}</style>`);
+
+      //       return;
+      //     }
+
+      // }
+
+      $.ajax({ 
+         type: "get",
+        dataType: "json",
+        url: benevolent_data.admin_ajax,
+        data: {
+
+            action:"check_ip_ru",
+            test_api: "",
+        },
+
+
+        success: function(data) {
+          // Обработка успешного ответа
+         //    console.log( 'data: ' + data.page );
+
+          if (data.page != "RU" ) {
+            // Если результат "RU", добавляем элемент в список
+            $('body').append(`<style>nav li[id*="ru_RU"]{display:none!important}</style>`);
+
+        //    localStorage.setItem('where_ip', "NO" ); 
+
+          } else {
+
+             $('body').append(`<style>nav li[id*="ru_RU"]{display:block!important}</style>`);
+
+          //  localStorage.setItem('where_ip', "RU" ); 
+
+          }
+
+        },
+        error: function(xhr, status, error) {
+          // Обработка ошибок
+          console.error("Error making API request:", error);
+        }
+      });
+
+
+    });
+
+
+
+    </script>
+
+<link rel="alternate" hreflang="x-default" href="https://lg.iptp.net/en_US/iptp-tools/lg/" /><link rel="alternate" hreflang="en-us" href="https://lg.iptp.net/en_US/iptp-tools/lg/" /><link rel="alternate" hreflang="zh-cn" href="https://lg.iptp.net/zh_CN/iptp-tools/lg/" /><link rel="alternate" hreflang="zh-hk" href="https://lg.iptp.net/zh_HK/iptp-tools/lg/" /><link rel="alternate" hreflang="es-es" href="https://lg.iptp.net/es_ES/iptp-tools/lg/" /><link rel="alternate" hreflang="pt-pt" href="https://lg.iptp.net/pt_PT/iptp-tools/lg/" /><link rel="alternate" hreflang="ru-ru" href="https://lg.iptp.net/ru_RU/iptp-tools/lg/" /><link rel="alternate" hreflang="ja" href="https://lg.iptp.net/ja/iptp-tools/lg/" /><link rel="alternate" hreflang="vi" href="https://lg.iptp.net/vi/iptp-tools/lg/" />
+  
+
+       
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129655414-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-129655414-1');
+      </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+
+<body data-rsssl=1 class="page-template page-template-template-looking-glass page-template-template-looking-glass-php page page-id-282 page-child parent-pageid-276 wp-custom-logo mltlngg-en_US group-blog has-slider">
+  
+
+  <div id="page" class="site">
+
+    <header id="masthead" class="site-header">
+
+      <div class="header-top">
+        <div class="container container-larger d-flex justify-content-between">
+
+
+
+          <div class="site-branding header-left">
+            <a href="https://lg.iptp.net/en_US/" class="custom-logo-link" rel="home"><img src="https://lg.iptp.net/wp-content/uploads/iptplogo.svg" class="custom-logo" alt="IPTP Networks" decoding="async" /></a>            
+                        <p class="site-description">A better Network, not just a bigger one!</p>
+                      </div><!-- .site-branding -->
+          <div class="header-right ms-auto">
+            <div class="header-scoll-right d-flex">
+            
+              <form role="search" method="get" class="search-form" action="https://lg.iptp.net/en_US/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>
+            </div>
+           
+            <nav id="site-navigation" class="main-navigation">
+                <div class="menu-main-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-95" class="li-col3 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-95"><a href="https://lg.iptp.net/en_US/network/">Network</a>
+<ul class="sub-menu">
+	<li id="menu-item-568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-568"><a href="https://lg.iptp.net/en_US/internet-access/">Internet Access</a>
+	<ul class="sub-menu">
+		<li id="menu-item-571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571"><a href="https://lg.iptp.net/en_US/internet-access/ip-transit/">IP Transit</a></li>
+		<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://lg.iptp.net/en_US/internet-access/ix-transit/">IX Transit</a></li>
+		<li id="menu-item-4246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4246"><a href="https://lg.iptp.net/en_US/internet-access/remote-ix/">Remote Peering (Remote IX)</a></li>
+		<li id="menu-item-27635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27635"><a href="https://lg.iptp.net/en_US/internet-access/remote-ix-transit/">Remote IX Transit</a></li>
+		<li id="menu-item-23963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23963"><a href="https://lg.iptp.net/en_US/internet-access/direct-internet-access/">Direct Internet Access</a></li>
+		<li id="menu-item-22022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22022"><a href="https://lg.iptp.net/en_US/internet-access/remote-dia/">Remote DIA</a></li>
+		<li id="menu-item-20602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20602"><a href="https://lg.iptp.net/en_US/internet-access/virtual-pop/">Virtual PoP</a></li>
+		<li id="menu-item-9794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9794"><a href="https://lg.iptp.net/en_US/network/locations/">Points of Presence(PoP)</a></li>
+		<li id="menu-item-8347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8347"><a href="https://lg.iptp.net/en_US/internet-access/network-map/">Network Map</a></li>
+	</ul>
+</li>
+	<li id="menu-item-27782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27782"><a href="https://lg.iptp.net/en_US/network/connectivity-services/">Connectivity services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-16352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16352"><a href="https://lg.iptp.net/en_US/internet-access/low-latency-routes/">Low latency routes</a></li>
+		<li id="menu-item-18453" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-18453"><a href="https://lg.iptp.net/en_US/remote-ix-connection/">Free Remote IX</a></li>
+		<li id="menu-item-21327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21327"><a href="https://lg.iptp.net/en_US/network/connectivity-services/eompls-pseudowire-service/">EoMPLS Pseudowire Service</a></li>
+		<li id="menu-item-9793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9793"><a href="https://lg.iptp.net/en_US/direct-connection-to-cloud-providers/">Direct connection to cloud providers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-23738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23738"><a href="https://lg.iptp.net/en_US/network/connectivity-services/jumbo-platform/">Jumbo Platform</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9501" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9501"><a href="https://lg.iptp.net/en_US/jumboix/">Jumbo Internet Exchange</a></li>
+		<li id="menu-item-25205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25205"><a href="https://lg.iptp.net/en_US/jumbo-internet-exchange/jumboix-peru-pricing-plans/">JumboIX Peru Pricing Plans</a></li>
+		<li id="menu-item-25206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25206"><a href="https://lg.iptp.net/en_US/jumbo-internet-exchange/jumboix-cyprus-pricing-plans/">JumboIX Cyprus Pricing Plans</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18456"><a href="https://lg.iptp.net/en_US/network/datacenter-services/">Datacenter Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://lg.iptp.net/en_US/network/datacenter-services/dedicated-hosting/">Dedicated Hosting</a></li>
+		<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a href="https://lg.iptp.net/en_US/network/datacenter-services/colocation/">Colocation</a></li>
+		<li id="menu-item-8059" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8059"><a href="https://lg.iptp.net/en_US/matrix4/">DC Matrix 4 (Amsterdam)</a></li>
+		<li id="menu-item-8060" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8060"><a href="https://lg.iptp.net/en_US/k1/">DC Kermia 1 (Limassol)</a></li>
+		<li id="menu-item-18304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18304"><a href="https://lg.iptp.net/en_US/hosting/si/">DC San Isidro (Lima)</a></li>
+		<li id="menu-item-4617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4617"><a href="https://lg.iptp.net/en_US/network/datacenter-services/edge-computing/">Edge computing</a></li>
+		<li id="menu-item-10769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10769"><a href="https://lg.iptp.net/en_US/network/datacenter-services/remote-hands/">Remote Hands</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-9798" class="li-col4 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9798"><a href="https://lg.iptp.net/en_US/business-solutions/">Business solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-24816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24816"><a href="https://lg.iptp.net/en_US/business-solutions/network-advisory-services/">Network Advisory Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-26105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26105"><a href="https://lg.iptp.net/en_US/best-path-app/">Best Path App</a></li>
+	</ul>
+</li>
+	<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/">Integration Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-16196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16196"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/xaas/">XAAS</a></li>
+		<li id="menu-item-20360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20360"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/sd-wan-enabler/">SD-WAN Enabler</a></li>
+	</ul>
+</li>
+	<li id="menu-item-17980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17980"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/">Managed Service Provider (MSP)</a>
+	<ul class="sub-menu">
+		<li id="menu-item-580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/managed-connectivity/">Managed Connectivity Services</a></li>
+		<li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/unified-communication/">Unified Communication</a></li>
+		<li id="menu-item-9827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9827"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/security-services/">Security Services</a></li>
+		<li id="menu-item-18477" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-18477"><a href="https://lg.iptp.net/en_US/dmms/">Mitigation service against DDoS</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18479"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/">Office solutions</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9811" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9811"><a href="https://lg.iptp.net/en_US/erp/">IPTP XRM (ERP+CRM)</a></li>
+		<li id="menu-item-20063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20063"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/cross-messenger/">Cross Messenger (XM)</a></li>
+		<li id="menu-item-9826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9826"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/ip-telephony/">IP Telephony</a></li>
+		<li id="menu-item-24056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24056"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/remote-office/">Remote Office</a></li>
+		<li id="menu-item-18480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18480"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/cisco-telepresence/">Cisco TelePresence</a></li>
+		<li id="menu-item-18481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18481"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/video-surveillance/">Video Surveillance</a></li>
+		<li id="menu-item-26310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26310"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/lagblaster/">Lagblaster</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18482"><a href="https://lg.iptp.net/en_US/global-logistics/">Global IT Logistics</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18546"><a href="https://lg.iptp.net/en_US/global-logistics/purchasing/">Purchasing</a></li>
+		<li id="menu-item-18552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18552"><a href="https://lg.iptp.net/en_US/global-logistics/shipping/">Shipping</a></li>
+		<li id="menu-item-18596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18596"><a href="https://lg.iptp.net/en_US/global-logistics/warehouse-storage/">Warehouse Storage</a></li>
+		<li id="menu-item-18644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18644"><a href="https://lg.iptp.net/en_US/global-logistics/ior-eor/">IOR/EOR</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-260" class="li-col3 menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-260"><a href="https://lg.iptp.net/en_US/support/">Support</a>
+<ul class="sub-menu">
+	<li id="menu-item-611" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-611"><a href="https://lg.iptp.net/en_US/iptp-tools/">IPTP Tools</a>
+	<ul class="sub-menu">
+		<li id="menu-item-618" class="--bandwidth-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-618"><a href="https://lg.iptp.net/en_US/iptp-tools/bandwidth-test/">Bandwidth Test</a></li>
+		<li id="menu-item-11533" class="--bestpath-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-11533"><a href="https://lg.iptp.net/en_US/iptp-tools/best-path/">Best Path</a></li>
+		<li id="menu-item-616" class="--ipcalc-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="https://lg.iptp.net/en_US/iptp-tools/ip-calculator/">IP Subnet Calculator</a></li>
+		<li id="menu-item-22063" class="--ixp-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-22063"><a href="https://lg.iptp.net/en_US/iptp-tools/ixp-compare/">IXP Compare</a></li>
+		<li id="menu-item-615" class="--lg-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-282 current_page_item menu-item-615"><a href="https://lg.iptp.net/en_US/iptp-tools/lg/" aria-current="page">Looking Glass</a></li>
+		<li id="menu-item-19061" class="--uptime-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-19061"><a href="https://lg.iptp.net/en_US/iptp-tools/uptime-calculator/">Uptime calculator</a></li>
+		<li id="menu-item-613" class="--wmap-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-613"><a href="https://lg.iptp.net/en_US/iptp-tools/weathermap/">Weathermap</a></li>
+	</ul>
+</li>
+	<li id="menu-item-612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-612"><a href="https://lg.iptp.net/en_US/help/">Help</a>
+	<ul class="sub-menu">
+		<li id="menu-item-622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="https://lg.iptp.net/en_US/help/service-request/">Service request</a></li>
+		<li id="menu-item-623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a href="https://lg.iptp.net/en_US/help/e-mail/">E-mail</a></li>
+		<li id="menu-item-8130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8130"><a href="https://lg.iptp.net/en_US/help/vpn-setup/">VPN Setup</a></li>
+		<li id="menu-item-621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"><a href="https://lg.iptp.net/en_US/help/file-repository/">File Repository</a></li>
+		<li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619"><a href="https://lg.iptp.net/en_US/help/ipmi/">IPMI</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4616"><a href="https://lg.iptp.net/en_US/support/legal/">Legal</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4840"><a href="https://lg.iptp.net/en_US/support/legal/gsa/">Global Master Service Agreement</a></li>
+		<li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="https://lg.iptp.net/en_US/support/legal/peering-policy/">Peering Policy</a></li>
+		<li id="menu-item-14108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14108"><a href="https://lg.iptp.net/en_US/support/legal/privacy-notice/">Privacy Notice</a></li>
+		<li id="menu-item-4671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4671"><a href="https://lg.iptp.net/en_US/iptp-acceptable-use-policy/">IPTP Acceptable Use Policy</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-9833" class="li-col2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9833"><a href="https://lg.iptp.net/en_US/company/">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1045"><a href="https://lg.iptp.net/en_US/about-us/global-partnership/">Global Partnership</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18791"><a href="https://lg.iptp.net/en_US/about-us/global-partnership/for-investors/">For investors</a></li>
+		<li id="menu-item-1046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1046"><a href="https://lg.iptp.net/en_US/about-us/testimonials/">Testimonials</a></li>
+	</ul>
+</li>
+	<li id="menu-item-263" class="li-col2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-263"><a href="https://lg.iptp.net/en_US/about-us/">About Us</a>
+	<ul class="sub-menu">
+		<li id="menu-item-20912" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20912"><a href="https://lg.iptp.net/en_US/category/blog/">Blog</a></li>
+		<li id="menu-item-16530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16530"><a href="https://lg.iptp.net/en_US/company/corporate-magazine/">Corporate magazine</a></li>
+		<li id="menu-item-9835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9835"><a href="https://lg.iptp.net/en_US/company/meet-our-team/">Meet our team</a></li>
+		<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a href="https://lg.iptp.net/en_US/careers/">Careers</a></li>
+		<li id="menu-item-18970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18970"><a href="https://lg.iptp.net/en_US/company/contacts/">Contacts</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-33" class="mltlngg-menu-item mltlngg-menu-item-current menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-33"><a href="#"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/en_US.png" alt="English">&nbsp;English</a>
+<ul class="sub-menu">
+	<li id="menu-item-33-zh_CN" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-zh_CN"><a href="https://lg.iptp.net/zh_CN/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/zh_CN.png" alt="中文 (中国)">&nbsp;中文 (简体)</a></li>
+	<li id="menu-item-33-zh_HK" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-zh_HK"><a href="https://lg.iptp.net/zh_HK/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/zh_HK.png" alt="中文 (香港)">&nbsp;中文 (繁體)</a></li>
+	<li id="menu-item-33-es_ES" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-es_ES"><a href="https://lg.iptp.net/es_ES/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/es_ES.png" alt="Español">&nbsp;Español</a></li>
+	<li id="menu-item-33-pt_PT" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-pt_PT"><a href="https://lg.iptp.net/pt_PT/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/pt_PT.png" alt="Português">&nbsp;Português</a></li>
+	<li id="menu-item-33-ru_RU" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-ru_RU"><a href="https://lg.iptp.net/ru_RU/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/ru_RU.png" alt="Русский">&nbsp;Русский</a></li>
+	<li id="menu-item-33-ja" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-ja"><a href="https://lg.iptp.net/ja/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/ja.png" alt="日本語">&nbsp;日本語</a></li>
+	<li id="menu-item-33-vi" class="mltlngg-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-33-vi"><a href="https://lg.iptp.net/vi/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/vi.png" alt="Tiếng Việt">&nbsp;Tiếng Việt</a></li>
+</ul>
+</li>
+</ul></div>            </nav><!-- #site-navigation -->
+          </div>
+
+          <nav id="top-navigation" class="secondary-navigation">
+              <div class="menu-language-switcher-container"><ul id="secondary-menu" class="menu"><li id="menu-item-3386" class="mltlngg-menu-item mltlngg-menu-item-icon mltlngg-menu-item-current menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3386"><a href="#"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/en_US.png" alt="English"></a>
+<ul class="sub-menu">
+	<li id="menu-item-3386-zh_CN" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-zh_CN"><a href="https://lg.iptp.net/zh_CN/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/zh_CN.png" alt="中文 (中国)"></a></li>
+	<li id="menu-item-3386-zh_HK" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-zh_HK"><a href="https://lg.iptp.net/zh_HK/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/zh_HK.png" alt="中文 (香港)"></a></li>
+	<li id="menu-item-3386-es_ES" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-es_ES"><a href="https://lg.iptp.net/es_ES/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/es_ES.png" alt="Español"></a></li>
+	<li id="menu-item-3386-pt_PT" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-pt_PT"><a href="https://lg.iptp.net/pt_PT/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/pt_PT.png" alt="Português"></a></li>
+	<li id="menu-item-3386-ru_RU" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-ru_RU"><a href="https://lg.iptp.net/ru_RU/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/ru_RU.png" alt="Русский"></a></li>
+	<li id="menu-item-3386-ja" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-ja"><a href="https://lg.iptp.net/ja/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/ja.png" alt="日本語"></a></li>
+	<li id="menu-item-3386-vi" class="mltlngg-menu-item mltlngg-menu-item-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-3386-vi"><a href="https://lg.iptp.net/vi/iptp-tools/lg/"><img class="mltlngg-lang" src="https://lg.iptp.net/wp-content/plugins/multilanguage/images/flags/vi.png" alt="Tiếng Việt"></a></li>
+</ul>
+</li>
+</ul></div>            </nav><!-- #site-navigation -->
+          <!-- <a href="https://lg.iptp.net/en_US" class="custom-logo-link2" itemprop="url"><img id="logostat"
+              src="https://lg.iptp.net/wp-content/uploads/logo_IPTP.png" class="custom-logo" itemprop="logo"></a> -->
+
+
+          <!-- SECOND MENU -->
+                    <div id="secondary-mobile-header" class="d-none">
+            <a id="responsive-secondary-menu-button" href="#sidr-main2">Menu</a>
+          </div>
+
+
+          <!-- SECOND MENU -->
+
+          
+
+
+
+
+
+          <div id="mobile-header" class="navbar-dark navbar-mobile">
+            <a href="#" class="btn-toggle-search"></a>
+            <a class="responsive-menu-button navbar-toggler border-0" href="#sidr-main">
+            <span class="navbar-toggler-icon"></span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </header><!-- #masthead -->
+
+
+    <div class='clearfix'></div><section></section><div class='clearfix'></div><div class="container"><div id="crumbs"><a href="https://lg.iptp.net/en_US/">Home</a> » <a href="https://lg.iptp.net/en_US/iptp-tools/">IPTP Tools</a> » <span class="current">Looking Glass</span></div><div id="content" class="site-content"><div class="row"><div id="primary" class="content-area pe-2">
+  <main id="main" class="site-main entry-content">
+    <!-- <div class="" style="margin-top:100px;"></div> -->
+    <!-- <script src="https:///code.highcharts.com/highcharts.js"></script> -->
+    <!-- <script src="https:///cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+    <div>
+      <header class="entry-header">
+        <h1 class="entry-title">
+          Looking Glass        </h1>
+      </header>
+
+    </div>
+   
+		
+    
+
+
+	<!-- 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+		<link href="https://lg.iptp.net/wp-content/themes/iptp-theme/lg-dev/select2.min.css" rel="stylesheet" />
+		<script src="https://lg.iptp.net/wp-content/themes/iptp-theme/lg-dev/select2.min.js"></script>
+		<link rel="stylesheet" href="https://lg.iptp.net/wp-content/themes/iptp-theme/lg-dev/css/style.css">
+
+	
+
+<!-- 		<div class="center lg-hidden"><a href="?"><img src="lg_logo.gif" border="0" alt="lg"></a></div>
+ -->
+<!-- <div class="lg-wrap">		
+		<h1 class="text-center mb-5">AS <span class="text-primary">41095</span>Looking Glass</h1> -->
+
+		<!-- <hr> -->
+<div class="lg-wrap w-100">		
+		
+<form method="get" action="" class="js_form_lg">
+		<div class="lg-form position-relative">
+		<h2 class="text-normal text-white fs-5 mb-3 mt-0">AS 41095 Looking Glass</h2>
+			<div class="lg-regoin">
+				<div class="lg-type lg-xs">
+					<div>						
+						<label class="lbcontainer">bgp						  
+						  <input type="radio" name="command" id="bgp" value="bgp" checked='checked'  />
+						  <span class="checkmark"></span>
+						</label>
+					</div>
+					<div>
+						<label class="lbcontainer">ping						  
+						  <input type="radio" name="command" id="ping" value="ping"  />
+						  <span class="checkmark"></span>
+						</label>												
+					</div>
+					<div>
+						<label class="lbcontainer">trace						  
+						  <input type="radio" name="command" id="trace" value="trace"  />
+						  <span class="checkmark"></span>
+						</label>						
+					</div>
+				</div>
+				<div class="lg-prefix lg-xs">
+					<div class="lg-title">IP address or prefix</div>
+					<input name="query" type="text" size="30" class="lg-input-style" value="">
+				</div>
+				<div class="lg-router lg-xs">
+					<div class="lg-title">Router</div>
+					<select name="router" id="selectrouter" data-placeholder="Select a Server" style="min-width: 180px" class="lg-input-style">
+																							<optgroup label="AMERICAS">
+																							<option value="f445252ea09c" >🇺🇸 Ashburn Equinix DC5</option>
+																	<option value="527b861fc823" >🇺🇸 Atlanta Digital Realty | Telx</option>
+																	<option value="89ad661f036e" >🇺🇸 Chicago Equinix CH4</option>
+																	<option value="053a71f8ca11" >🇺🇸 Dallas Equinix DA3</option>
+																	<option value="58faa9239631" >🇺🇸 Los Angeles Equinix LA1</option>
+																	<option value="b1f0a2d0bb65" >🇺🇸 Seattle Westin Building</option>
+																	<option value="02e719b7a5e1" >🇺🇸 NYC Digital Realty | Telx 111 8th</option>
+																	<option value="14df915fe79a" >🇺🇸 San Jose Equinix SV1</option>
+																	<option value="18228f6a4bd5" >🇵🇪 Cirion Lima</option>
+																	<option value="r0.c309.nyc2.ny.us" >🇺🇸 NYC2 Digital Realty | Telx 111 8th</option>
+																	<option value="f15ad49e3e69" >🇧🇷 Sao Paulo (SP3)</option>
+																	<option value="r0309mi1miaus" >🇺🇸 Miami MI1</option>
+																	<option value="r0225ny4" >🇺🇸 New York NY4</option>
+																	<option value="r01011wslaus" >🇺🇸 LA1 Coresite</option>
+																	<option value="r0.pit.l3.scl.cl" >🇨🇱 Cirion Santiago de Chile</option>
+																							</optgroup>
+																													<optgroup label="EMEA">
+																							<option value="6910e89f3d6f" >🇳🇱 Amsterdam NIKHEF 327</option>
+																	<option value="datamena.dubai" >🇳🇱 Amsterdam NIKHEF 328</option>
+																	<option value="b7648281d85e" >🇬🇷 Athens MedNautilus</option>
+																	<option value="d599d0138034" >🇷🇴 Bucharest Romania NXDATA1</option>
+																	<option value="63d09bf27f7c" >🇩🇪 Frankfurt Equinix FR5</option>
+																	<option value="147622d9971b" >🇩🇪 Frankfurt NewTelco</option>
+																	<option value="cafb1f32c3fd" >🇿🇦 Johannesburg JB1</option>
+																	<option value="4f67b6275021" >🇺🇦 Kiev NewTelco</option>
+																	<option value="16031335b484" >🇨🇾 Limassol, Kermia 1</option>
+																	<option value="0ed4a67aa3a1" >🇬🇧 London Equinix LD5</option>
+																	<option value="4b9b5972406f" >🇬🇧 London Equinix Docklands LD8</option>
+																	<option value="d2e790e4e716" >🇪🇸 Madrid Interxion</option>
+																	<option value="d26dde14bb9c" >🇮🇹 Milano MIX</option>
+																	<option value="644e04b90ce4" >🇫🇷 Marseille Netcenter</option>
+																	<option value="295e29516e70" >🇷🇺 Moscow M9 M1</option>
+																	<option value="c82f80927c6e" >🇷🇺 Moscow M9 M5</option>
+																	<option value="f580379b163d" >🇫🇷 Paris TH2</option>
+																	<option value="7105b3bdf2b4" >🇧🇬 Sofia Neterra Teleport</option>
+																	<option value="r0908dx1dwcae" >🇦🇪 Datamena, Dubai, AE</option>
+																	<option value="98ec434ad083" >🇨🇭 Zurich InterXion</option>
+																	<option value="r0402ld4lnduk" >🇬🇧 London LD4</option>
+																	<option value="r0ee02dc2nbbbh" >🇧🇭 Infonas, Manama, Bahrain</option>
+																							</optgroup>
+																													<optgroup label="ASIA-PACIFIC">
+																							<option value="464596b9032f" >🇭🇰 Hong Kong Equinix China</option>
+																	<option value="d777b8ad099f" >🇭🇰 Hong Kong Equinix US-Centric</option>
+																	<option value="dcbf6860e5c5" >🇭🇰 Hong Kong Mega-i</option>
+																	<option value="8642451eebba" >🇲🇾 Kuala Lumpur (CX1)</option>
+																	<option value="9efdce37e359" >🇸🇬 Singapore Equinix SG1</option>
+																	<option value="702cf933534e" >🇰🇷 Seoul KINX Dogok</option>
+																	<option value="b4e827b20fd8" >🇯🇵 Tokyo Equinix TY2</option>
+																	<option value="e17d0d895c01" >🇻🇳 Vietnam Ho Chi Minh CMC</option>
+																	<option value="r0r703cmchanvn" >🇻🇳 Vietnam Ha Noi CMC</option>
+																	<option value="r026gssydau" >🇦🇺 Sydney Global Switch</option>
+																	<option value="03949f332f" >🇹🇼 Taipei Chief LY</option>
+																	<option value="r0bc05bbttyjp" >🇯🇵 BBTower NTT DATA Otemachi Tokyo</option>
+																	<option value="r0.bc.apjii.jkt.id" >🇮🇩 APJII, Jakarta, ID</option>
+																							</optgroup>
+																	</select>
+				</div>
+				<div class="lg-run lg-xs">	
+					<div class="lg-capcha">
+							<div id="captcha3" class="captcha__label"></div>
+							<span class="fa fa-refresh catpcha_refresh3"></span>							
+					</div>
+					<div>		
+						<div class="lg-title text-nowrap pe-3">Captcha:</div>		
+						<input type="text" size="2" class="lg-input-style captcha3" value="" required>
+					</div>
+				</div>
+				<div class="lg-run lg-run2 lg-xs">					
+					<button type="submit" class="lg-submit">Run</button>										
+				</div>
+
+				
+
+			</div>
+			<div style="display: none;">
+				<select name="protocol">
+					<option value="ipv4">IPv4</option>
+					<option value="ipv6">IPv6</option>
+				</select>
+			</div>
+		</div>
+		<div class="text-center">
+			<div class="lds-dual-ring js-loader"></div>
+		</div>
+		
+</form>
+
+<script type="text/javascript">
+
+	var code_jumbo3;
+
+
+	jQuery(function($){
+
+
+	function createCaptchalg() {
+        //clear the contents of captcha div first 
+        // if ($('#captchalg').length <= 0) {
+        //     return;
+        // }
+        document.getElementById('captcha3').innerHTML = "";
+        var charsArray =
+            "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+        var lengthOtp = 5;
+        var captcha = [];
+        for (var i = 0; i < lengthOtp; i++) {
+            var index = Math.floor(Math.random() * charsArray.length + 1);
+            if (captcha.indexOf(charsArray[index]) == -1)
+                captcha.push(charsArray[index]);
+            else i--;
+        }
+        var canv = document.createElement("canvas");
+        canv.id = "captcha3";
+        canv.width = 100;
+        canv.height = 50;
+        var ctx = canv.getContext("2d");
+        ctx.font = "25px Georgia";
+        ctx.strokeText(captcha.join(""), 0, 30);
+
+        code_jumbo3 = captcha.join("");
+        document.getElementById("captcha3").appendChild(canv);
+    }
+
+    var rotate1 = 360;
+
+    if ($('.catpcha_refresh3').length) {
+
+        $('.catpcha_refresh3').click(function (event) {
+            $(this).css('transform', 'rotate(' + rotate1 + 'deg)');
+
+            rotate1 += 360;
+
+             createCaptchalg();
+        });
+
+    }
+
+
+     createCaptchalg();
+
+
+
+
+     	var select_query = "🇺🇸 Ashburn Equinix DC5";
+
+
+     	$('[name="router"]').on('select2:select', function (e) {
+		    var data = e.params.data;
+		    select_query = data.text;
+
+		});
+
+
+	    $(document).on('submit', '.js_form_lg', function (e) {
+	        e.preventDefault();
+
+	        console.log('clickk');
+
+	         if ( $('.captcha3').val() == "" ) {
+
+	           $('.captcha3').val('').focus();
+
+	            return false;
+	       }
+
+
+
+	       if ( $('.captcha3').val() != code_jumbo3 ) {
+
+	            alert( benevolent_data.error_captcha );
+
+	            $('.captcha3').val('').focus();
+
+
+	            return false;
+	       }
+
+
+	      
+
+	       var $this = $(this);
+
+
+	        $.ajax({
+	            type: "get",
+	            dataType: "json",
+	            url: "https://lg.iptp.net/en_US/iptp-tools/lg/",
+	            data: {
+
+	                command:$this.find('[name="command"]:checked').val(),
+	                query:$this.find('[name="query"]').val(),
+	                router:$this.find('[name="router"]').val(),
+	                protocol:'ipv4',
+	                api: 'api',
+	            },
+	            context: this,
+	            beforeSend: function () {
+
+	            	 $(".js-loader").addClass('active');
+
+	            	 $('.lg-load-api').html('');
+
+	            },
+	            success: function (response) {
+
+	                console.log( response  );
+
+	                response[0] =  select_query;
+
+	                response[1] =  response[1] ? response[1] : $this.find('[name="command"]:checked').val() + ' ' +  $this.find('[name="query"]').val();
+
+
+	                
+	                response[2] = response[2] ? response[2] : "No result";
+
+
+	                $('.lg-load-api').html(`<div class="lg-des-parent"><p class="lg-short-des"><b>Router:</b> `+response[0]+`<br><b class="lg-short-command">Command:</b> `+response[1]+`</p><pre class="lg-code">`+response[2]+`<code>`);
+
+	                 $(".js-loader").removeClass('active');
+
+	                 createCaptchalg();
+
+	                 $('.captcha3').val('');
+
+	            },
+	            error: function (jqXHR, textStatus, errorThrown) {
+	                // location.href = location.href;
+	            }
+	        })
+
+	       
+
+	    });
+
+	})
+</script>
+
+<style>
+	.lg-capcha .catpcha_refresh3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    color: #222;
+    transition: all .5s;
+	}
+</style>
+
+
+
+
+		
+		<!-- <hr> -->
+<!-- 		 <div class="lg-links">
+	      <p><small>Info: <a href="https://stat.ripe.net/AS41095" target="_blank">RIPE</a> <a href="https://asrank.caida.org/asns?asn=41095" target="_blank">ASRank</a> <a href="https://radar.qrator.net/as41095" target="_blank">RADAR</a> <a href="http://www.peeringdb.com/view.php?asn=41095" target="_blank">PeeringDB</a></small></p>
+	      <p class="lg-hidden">Copyright &copy; 2023 Networks</p>
+	    </div>
+ -->
+
+<div class="lg-load-api"></div>
+
+
+	    <div class="lg-links">
+<a href="https://stat.ripe.net/AS41095" target="_blank">RIPE</a> <a href="https://asrank.caida.org/asns?asn=41095" target="_blank">ASRank</a> <a href="https://radar.qrator.net/as41095" target="_blank">RADAR</a> <a href="http://www.peeringdb.com/view.php?asn=41095" target="_blank">PeeringDB</a>
+</div>
+</div>		
+		<script src="https://lg.iptp.net/wp-content/themes/iptp-theme/lg-dev/js/lg-script.js"></script>		
+
+</html>
+<section class="lg-section mt-4 rounded pb-3 pe-3">
+<div class="row mx-0">
+<div class="col-12 col-lg-4 lg-sidebar p-3 p-lg-4 mt-4">
+<h2 class="text-primary2 fs-3 text-normal ps-3 mt-0 mb-4">What is Looking Glass?</h2>
+<div class="nav bp-nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><button class="nav-link text-start active" id="bp-tab-sec1" data-bs-toggle="pill" data-bs-target="#bp-content-sec1" type="button" role="tab" aria-controls="bp-content-sec1" aria-selected="true">What is Looking Glass?</button><button class="nav-link text-start js-bp-tab-sec2-target" id="bp-tab-sec2" data-bs-toggle="pill" data-bs-target="#bp-content-sec2" type="button" role="tab" aria-controls="bp-content-sec2" aria-selected="false">Benefits</button><button class="nav-link text-start js-bp-tab-sec3-target" id="bp-tab-sec3" data-bs-toggle="pill" data-bs-target="#bp-content-sec3" type="button" role="tab" aria-controls="bp-content-sec3" aria-selected="false">How to use?</button><button class="nav-link text-start js-bp-tab-sec4-target" id="bp-tab-sec4" data-bs-toggle="pill" data-bs-target="#bp-content-sec4" type="button" role="tab" aria-controls="bp-content-sec4" aria-selected="false">The meanings of each query</button><button class="nav-link text-start js-bp-tab-sec5-target" id="bp-tab-sec5" data-bs-toggle="pill" data-bs-target="#bp-content-sec5" type="button" role="tab" aria-controls="bp-content-sec5" aria-selected="false">Understand the results</button></div>
+</p></div>
+<div class="col-12 col-lg-8 p-3 pb-0 p-lg-4 pb-lg-0 lg-content rounded bg-white mt-5">
+<div class="tab-content" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="bp-content-sec1" role="tabpanel" aria-labelledby="bp-tab-sec1" tabindex="0">
+<div class="lg-img" style="background:url(/wp-content/uploads/lg-illustr2.png) no-repeat left/cover">
+<div class="lg-img-inner">
+<h2 class="text-uppercase text-secondary my-0 pt-5 fs-3 fw-bold">Looking Glass-</h2>
+<p class="">Easily seeing through all your demanding internet routes</p>
+</p></div>
+</p></div>
+<div class="border-bottom mb-3 border-1"></div>
+<p>What is Looking Glass? and why ISPs need this tool so much? Every newbie in the Telco world must have asked this question at least once but had some difficulties in finding a useful answer, therefore, with this article, IPTP Networks will help you go through the definition and how to use this Looking Glass tool, as well as how to understand its results.</p>
+<p>Looking Glass is the tool that provides users with information related to an ISP’s backbone routing and the efficiency of their network. It allows you to search up our routing information via IP address (or prefix) and router with only a few simple steps. This tool lets you search for the information in 3 types of queries: BGP, ping, and traceroute.</p>
+<p class="text-md-end text-center"><button class="btn text-uppercase js-bp-tab-sec1 lg-page--next"></button></p>
+</p></div>
+<div class="tab-pane fade" id="bp-content-sec2" role="tabpanel" aria-labelledby="bp-tab-sec2" tabindex="0">
+<div class="lg-img" style="background:url(/wp-content/uploads/lg-illustr2.png) no-repeat left/cover">
+<div class="lg-img-inner">
+<h2 class="text-secondary text-normal my-0 pt-5 fs-3 fw-bold">Looking Glass Tool Benefits</h2>
+</p></div>
+</p></div>
+<div class="border-bottom mb-3 border-1"></div>
+<p>The Internet is made up of many separate connections, and these connections can occasionally fail. The Internet is also made up of a number of other networks, some of which have trouble communicating with one another. This could be a BGP peering issue or another type of connectivity issue.</p>
+<p>In these cases, Looking Glass is an essential tool for troubleshooting Internet-related networking problems from the servers to the end user’s devices. It is also a reliable friend for you in determining who can offer the best IP transit service.</p>
+<p class="text-md-end text-center"><button class="btn text-uppercase js-bp-tab-sec2 lg-page--next"></button></p>
+</p></div>
+<div class="tab-pane fade" id="bp-content-sec3" role="tabpanel" aria-labelledby="bp-tab-sec3" tabindex="0">
+<p>To start the search:</p>
+<p>1. Select the query you want (BGP, ping, trace)</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-3-1.png" alt="ping bg trace"/></p>
+<p>2. Type in the IP address or prefix</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-3-2.png" alt="ping bg trace"/></p>
+<p>3. Choose the desired Router from the dropdown list</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-3-3.png" alt="ping bg trace"/></p>
+<p>4. After every field is ready, press “Run”</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-3-4.png" alt="ping bg trace"/></p>
+<p class="text-md-end text-center"><button class="btn text-uppercase js-bp-tab-sec3 lg-page--next"></button></p>
+</p></div>
+<div class="tab-pane fade" id="bp-content-sec4" role="tabpanel" aria-labelledby="bp-tab-sec4" tabindex="0">
+<div class="rounded bg-primary px-4 py-3 text-white mb-3">
+<div class="d-flex justify-content-between flex-wrap lg-radio" role="tablist">
+<div class="form-check active" data-bs-target="#bgp-show" data-bs-toggle="tab" role="tab" aria-controls="bgp-show" aria-selected="true"><input class="form-check-input" type="radio" name="lgSelect" id="bgp-radio" checked="checked"/><label class="form-check-label c-cursor" for="bgp-radio">BGP</label></div>
+<div class="form-check" data-bs-target="#ping-show" data-bs-toggle="tab" role="tab" aria-controls="ping-show" aria-selected="false"><input class="form-check-input" type="radio" name="lgSelect" id="ping-radio"/><label class="form-check-label c-cursor" for="ping-radio">Ping</label></div>
+<div class="form-check" data-bs-target="#trace-show" data-bs-toggle="tab" role="tab" aria-controls="trace-show" aria-selected="false"><input class="form-check-input" type="radio" name="lgSelect" id="trace-radio"/><label class="form-check-label c-cursor" for="trace-radio">Trace</label></div>
+</p></div>
+</p></div>
+<div class="tab-content" id="lgTabContent">
+<div id="bgp-show" class="tab-pane fade show active" role="tabpanel" aria-labelledby="bgp-show" tabindex="0">
+<p>BGP (Border Gateway Protocol) routing: shows the routes available from the source IP address to the selected routers.</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-bgp3.png" alt="bg"/></p>
+</p></div>
+<div id="ping-show" class="tab-pane fade" role="tabpanel" aria-labelledby="ping-show" tabindex="0">
+<p>Ping: allows you to view round trip time between a selected router and a specified IP address.</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-ping3.png" alt="ping"/></p>
+</p></div>
+<div id="trace-show" class="tab-pane fade" role="tabpanel" aria-labelledby="trace-show" tabindex="0">
+<p>Traceroute: helps you see how packets travel, including seeing hops encountered in the path, across an IP network and the router.</p>
+<p><img decoding="async" src="/wp-content/uploads/lg-trace3.png" alt="trace"/></p>
+</p></div>
+</p></div>
+<p class="text-md-end text-center"><button class="btn text-uppercase js-bp-tab-sec4 lg-page--next"></button></p>
+</p></div>
+<div class="tab-pane fade" id="bp-content-sec5" role="tabpanel" aria-labelledby="bp-tab-sec5" tabindex="0">
+<div class="rounded bg-primary px-4 py-3 text-white mb-3">
+<div class="d-flex justify-content-between flex-wrap lg-radio" role="tablist">
+<div class="form-check active" data-bs-target="#sec5-bgp-show" data-bs-toggle="tab" role="tab" aria-controls="sec5-bgp-show" aria-selected="true"><input class="form-check-input" type="radio" name="sect5lgSelect" id="setc5-bgp-radio" checked="checked"/><label class="form-check-label c-cursor" for="setc5-bgp-radio">BGP</label></div>
+<div class="form-check" data-bs-target="#sec5-ping-show" data-bs-toggle="tab" role="tab" aria-controls="sec5-ping-show" aria-selected="false"><input class="form-check-input" type="radio" name="sect5lgSelect" id="setc5-ping-radio"/><label class="form-check-label c-cursor" for="setc5-ping-radio">Ping</label></div>
+<div class="form-check" data-bs-target="#sec5-trace-show" data-bs-toggle="tab" role="tab" aria-controls="sec5-trace-show" aria-selected="false"><input class="form-check-input" type="radio" name="sect5lgSelect" id="setc5-trace-radio"/><label class="form-check-label c-cursor" for="setc5-trace-radio">Trace</label></div>
+</p></div>
+</p></div>
+<div class="tab-content" id="sect5lgTabContent">
+<div id="sec5-bgp-show" class="tab-pane fade show active" role="tabpanel" aria-labelledby="bgp-show" tabindex="0">
+<p><img decoding="async" src="/wp-content/uploads/lg-bgp4.png" class="img-fluid" alt="Looking Glass"/></p>
+<p>The above picture is basically what we get when we run the Looking Glass network tool using the BGP query. Based on the results of Looking Glass, in NIKHEF, we can see there are 2 routes from IPTP to the IP range “5.44.136.0/21”, in which, the route through Lumen with IP peer of “212.72.47.241” has the best quality.</p>
+<p>Specifically, we can see the number “3356” is Lumen’s AS number and 3292 is Tele Denmark’s ASN. And 212.72.47.241 is the IP that Lumen uses to establish a BGP session with IPTP.</p>
+</p></div>
+<div id="sec5-ping-show" class="tab-pane fade" role="tabpanel" aria-labelledby="ping-show" tabindex="0">
+<p><img decoding="async" src="/wp-content/uploads/lg-ping4.png" class="img-fluid" alt="Looking Glass"/></p>
+<p>The results that appear will show you how many data packets the system has sent to the destination and returned to the source. Based on this knowledge, you can find out how much possibility (in percentage) is that the router can «ping» to the IP address successfully (In this example, it is 100% with 5/5 packets successfully sent and returned). Moreover, in the below lines, you can also see the minimum/average/maximum round-trip time for those packets to travel from the source location to the end user’s devices or servers (in this case, 1/1/4 ms).</p>
+</p></div>
+<div id="sec5-trace-show" class="tab-pane fade" role="tabpanel" aria-labelledby="trace-show" tabindex="0">
+<p><img decoding="async" src="/wp-content/uploads/lg-trace4.png" class="img-fluid" alt="Looking Glass"/></p>
+<p>Talking about the same «trip», but instead of showing the total round trip time, the Traceroute query illustrates all the hops that occurred on the path and the time those data packets took to go through those hops.</p>
+<p>In wired computer networking, including the Internet, a hop occurs when a packet is passed from one network segment to the next. The hop count refers to the number of network devices through which data passes from source to destination. Since data storage-forwarding, as well as additional latency, is often incurred per hop, the larger the number of hops between source and destination, the lower the real-time performance will be.</p>
+</p></div>
+<p class="fw-bold">(Disclaimer: The information and pictures above are only used for demonstration purposes and not for research or any other purposes)</p>
+<p>To read more about our global Internet connectivities, please take a look at our <a href="/internet-access/ip-transit/">IP Transit</a>.</p>
+<p>To do further investigation of transcontinental latency, kindly visit our <a href="/iptp-tools/best-path/">Best Path</a> tool.</p>
+</p></div>
+<p class="text-md-end text-center"><button class="btn text-uppercase js-bp-tab-sec3 lg-page--next lg-page--prev"></button></p>
+</p></div>
+</p></div>
+</p></div>
+</p></div>
+<p>   <script>jQuery(function(c){c(document).ready(function(){c(".js-bp-tab-sec1").on("click",function(){c(".js-bp-tab-sec2-target").trigger("click")}),c(".js-bp-tab-sec2").on("click",function(){c(".js-bp-tab-sec3-target").trigger("click")}),c(".js-bp-tab-sec3").on("click",function(){c(".js-bp-tab-sec4-target").trigger("click")}),c(".js-bp-tab-sec4").on("click",function(){c(".js-bp-tab-sec5-target").trigger("click")})})})</script><br />
+</section>
+<h3 class="text-noraml text-secondary">Contact</h3>
+<p>If you experience a problem with this site that you would like to report, please contact us at<a href="mailto:n&#099;&#099;&#064;ipt&#112;.&#110;e&#116;"> &#110;&#99;c&#64;&#105;&#112;t&#112;&#46;net </a>or use the<a href="javascript:popupchat()"> “Live Assistant” </a>button on the bottom right of the webpage.</p>
+		
+
+
+    <!-- [jumboix_pricing] -->
+  </main>
+</div>
+
+<aside id="secondary" class="widget-area" role="complementary">
+	<section id="p_wg_show_acf_widget_peeringdb_ix-3" class="widget widget_p_wg_show_acf_widget_peeringdb_ix">
+
+                <div>
+                                    </div>
+
+            </section><section id="pagesinwidgets_post_section-4" class="widget pagesinwidgets_post_section">					<h5 class="widget-title widgettitle">Newsletter</h5>
+										<div class="wrap-newsletter">
+						<div class="wrap-email-subcri">
+<form method="post" id="form-email-subcri">
+      <input type="email" name="email" class="s-email" placeholder="yourmail@example.com" required="" value=""/><button type="submit" class="s-btn-submit">Subscribe</button><br />
+    </form>
+<p>		<small class="e-subcri-title d-none">Get the news once a month</small></p>
+<div class="mess" style="color:#08c;"></div>
+</div>
+<p><script type="text/javascript">
+jQuery(function($){
+  $('#form-email-subcri').submit(function( e ) {
+    e.preventDefault();
+    var email_sub = $(this).find('[name="email"]').val();
+      $.ajax({
+        type : "post",
+        dataType : "json",
+        url : "https://promo.iptp.net/page-process-email-subcriber/",      
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        data: {
+        email: email_sub,
+      },  
+      context: this,
+       beforeSend: function(){
+      },
+      success: function(response) {
+        if ( response ) {
+        $('.mess').html( response.status ) ;
+        } else {
+        $('.mess').html( "error" ) ;
+        }
+      },
+      error: function( jqXHR, textStatus, errorThrown ){
+      }
+    })
+  })
+});
+</script></p>
+						</div>
+					</section><section id="p_wg_show_post-3" class="widget widget_p_wg_show_post">
+
+            
+                <h5 class="widget-title">NEWSFEED</h5>
+            
+
+
+
+
+                        <div>
+                <div class="swiper-container swiper-container-wg-card">
+
+                 <div class="swiper-wrapper ">
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/cisco-small-business-specialization-achieved/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/cisco-small-business-hongkong-275x275.jpg" alt="Cisco Small Business Specialization Achieved!" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">Cisco Small Business Specialization Achieved!</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    IPTP Networks, as a leading provider of innovative networking solutions, is proud to announce its achievement of the esteemed Cisco Small Business Specialization certification in Hong Kong.
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/cisco-small-business-specialization-achieved/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/iptp-networks-receive-vietnam-isp-license/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/vt-en-275x275.jpg" alt="ISP license in Vietnam" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">ISP license in Vietnam</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    IPTP Networks receives the ISP license to provide telecommunications services in Vietnam
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/iptp-networks-receive-vietnam-isp-license/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/lagblaster/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/blast-thelag-mobile-275x275.jpg" alt="Lagblaster" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">Lagblaster</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    LAGBLASTER is our tailored license designed for minor capacity needs (3 -12Mbps), especially video conferencing and gaming experience
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/lagblaster/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/jumboix-the-ultimate-solution-now-in-cyprus/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/jumbocyprus-275x275.png" alt="JumboIX – The Ultimate Solution NOW IN CYPRUS!" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">JumboIX – The Ultimate Solution NOW IN CYPRUS!</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    Now you are able to exchange local traffic within Cyprus or go global with IPTP Network’s JumboIX platform.
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/jumboix-the-ultimate-solution-now-in-cyprus/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/first-customers-to-the-jumbo-ix-platform-have-been-connected/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/smm-jumboperu2web-275x275.jpg" alt="First customers to the Jumbo IX platform have been connected" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">First customers to the Jumbo IX platform have been connected</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    Milestone Managed!
+
+ IPTP Networks is honoured to announce its first customers to the Jumbo IX platform has been connected. 
+
+Jumbo IX is an innovative global initiative whose first implementation is happening in Latin America. Our team is excited...
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/first-customers-to-the-jumbo-ix-platform-have-been-connected/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                        <div class="swiper-slide">
+
+                            <div>
+                                <div class="text-center">
+                                    
+                                    <div class="">
+                                        <a href="https://lg.iptp.net/en_US/pci-dss-3-2-1-compliance-certification/">
+                                            <img src="https://lg.iptp.net/wp-content/uploads/smm-pcidss-web-275x275.png" alt="PCI DSS 3.2.1 compliance certification" class="--img">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="--title">PCI DSS 3.2.1 compliance certification</h5>
+                                </div>
+
+                                 <div class="--con">
+                                    
+                                    We keep working hard every day to give you the best services, and this implies taking care of our customers' data. Therefore, we annually renew our Level 1 PCI DSS v3.2.1 certification.
+                                                                    </div>
+
+                                <div class="text-right">
+                                    <a class="--link" href="https://lg.iptp.net/en_US/pci-dss-3-2-1-compliance-certification/">
+                                        READ MORE                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    
+                </div>
+
+               <div class="swiper-container-wg-card-button-next"></div>
+
+                <div class="swiper-container-wg-card-button-prev"></div>
+               
+                </div>
+            </div>
+
+            
+
+<script>
+jQuery(function($){
+    if ( $('.swiper-container-wg-card').length ) {
+
+    var swiper = new Swiper('.swiper-container-wg-card', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+           // effect: 'fade',
+          loop: true,
+          // pagination: {
+          //   el: '.swiper-pagination',
+          //   clickable: true,
+          // },
+          navigation: {
+             nextEl: '.swiper-container-wg-card-button-next',
+             prevEl: '.swiper-container-wg-card-button-prev',
+          },
+        });
+
+     $('.swiper-container-wg-card').css('visibility','visible');
+
+  }
+
+})
+</script>
+
+
+
+
+
+
+            
+            </section><section id="pagesinwidgets_post_section-2" class="widget pagesinwidgets_post_section">					<div class="hidden">
+						<div class="our-mgz"> <img decoding="async" loading="lazy" class="--img" src="/wp-content/uploads/Magazine_front011.png" alt="magazine_mockup_16" width="280" height="209" /></p>
+<p class="--content">Download our magazine which is intended to give a brief synopsis of our most popular services. The magazine also gives a good introduction to the capabilities, products and services of our company.</p>
+<div class="ml-auto"><a class="--link" href="https://fstor.iptp.net/files/CM2019_EN.pdf" download="CM2019_EN" rel="nofollow"> Download</a></div>
+</div>
+						</div>
+					</section><section id="benevolent_social_links-2" class="widget widget_benevolent_social_links"><h5 class="widget-title">Follow us:</h5>				<ul class="social-networks">
+										<li><a href="https://www.facebook.com/iptpnetworks" target="_blank" title="Facebook" class="fa fa-facebook"><span class="d-none">Facebook</span></a></li>
+										<li><a href="https://twitter.com/iptpnetworks" target="_blank" title="Twitter" class="fa fa-twitter"><span class="d-none">Twitter</span></a></li>
+										<li><a href="https://www.linkedin.com/company/iptpnetworks" target="_blank" title="Linkedin" class="fa fa-linkedin"><span class="d-none">Linkedin</span></a></li>
+										<li><a href="http://weixin.qq.com/r/JxOkvPnEjaTyrb3f90Y1" target="_blank" title="Wechat" class="fa fa-wechat"><span class="d-none">Wechat</span></a></li>
+										<li><a href="https://t.me/iptpnetworks" target="_blank" title="Telegram" class=""><img src="https://lg.iptp.net/wp-content/themes/iptp-theme/images//Telegram-logo.svg" alt="Telegram" width="25" height="25"><span class="d-none">Telegram</span></a></li>
+									</ul>
+			</section></aside><!-- #secondary -->
+</div></div></div>
+
+
+
+
+<footer id="colophon" class="site-footer">
+	
+		
+	
+		<div class="container container-larger">
+		<div class="footer-t">
+			<div class="row">
+			<div class="col-md-9 col-xs-12">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-12">
+						<section id="nav_menu-6" class="widget widget_nav_menu"><div class="menu-network-container"><ul id="menu-network" class="menu"><li id="menu-item-445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-445"><a href="https://lg.iptp.net/en_US/network/">Network</a>
+<ul class="sub-menu">
+	<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-455"><a href="https://lg.iptp.net/en_US/internet-access/">Internet Access</a>
+	<ul class="sub-menu">
+		<li id="menu-item-460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-460"><a href="https://lg.iptp.net/en_US/internet-access/ip-transit/">IP Transit</a></li>
+		<li id="menu-item-461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-461"><a href="https://lg.iptp.net/en_US/internet-access/ix-transit/">IX Transit</a></li>
+		<li id="menu-item-4247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4247"><a href="https://lg.iptp.net/en_US/internet-access/remote-ix/">Remote Peering (Remote IX)</a></li>
+		<li id="menu-item-27636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27636"><a href="https://lg.iptp.net/en_US/internet-access/remote-ix-transit/">Remote IX Transit</a></li>
+		<li id="menu-item-24015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24015"><a href="https://lg.iptp.net/en_US/internet-access/direct-internet-access/">Direct Internet Access</a></li>
+		<li id="menu-item-22021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22021"><a href="https://lg.iptp.net/en_US/internet-access/remote-dia/">Remote DIA</a></li>
+		<li id="menu-item-20601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20601"><a href="https://lg.iptp.net/en_US/internet-access/virtual-pop/">Virtual PoP</a></li>
+		<li id="menu-item-9677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9677"><a href="https://lg.iptp.net/en_US/network/locations/">Points of Presence(PoP)</a></li>
+		<li id="menu-item-18282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18282"><a href="https://lg.iptp.net/en_US/internet-access/network-map/">Network Map</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18483"><a href="https://lg.iptp.net/en_US/network/connectivity-services/">Connectivity services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1189"><a href="https://lg.iptp.net/en_US/internet-access/low-latency-routes/">Low latency routes</a></li>
+		<li id="menu-item-18484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18484"><a href="https://lg.iptp.net/en_US/internet-access/remote-ix/">Remote Peering (Remote IX)</a></li>
+		<li id="menu-item-21328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21328"><a href="https://lg.iptp.net/en_US/network/connectivity-services/eompls-pseudowire-service/">EoMPLS Pseudowire Service</a></li>
+		<li id="menu-item-9792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9792"><a href="https://lg.iptp.net/en_US/direct-connection-to-cloud-providers/">Direct connection to cloud providers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-23739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23739"><a href="https://lg.iptp.net/en_US/network/connectivity-services/jumbo-platform/">Jumbo Platform</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9500" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9500"><a href="https://lg.iptp.net/en_US/jumboix/">Jumbo Internet Exchange</a></li>
+		<li id="menu-item-25208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25208"><a href="https://lg.iptp.net/en_US/jumbo-internet-exchange/jumboix-peru-pricing-plans/">JumboIX Peru Pricing Plans</a></li>
+		<li id="menu-item-25209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25209"><a href="https://lg.iptp.net/en_US/jumbo-internet-exchange/jumboix-cyprus-pricing-plans/">JumboIX Cyprus Pricing Plans</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18488"><a href="https://lg.iptp.net/en_US/network/datacenter-services/">Datacenter Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-448"><a href="https://lg.iptp.net/en_US/network/datacenter-services/dedicated-hosting/">Dedicated Hosting</a></li>
+		<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://lg.iptp.net/en_US/network/datacenter-services/colocation/">Colocation</a></li>
+		<li id="menu-item-8061" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8061"><a href="https://lg.iptp.net/en_US/matrix4/">DC Matrix 4 (Amsterdam)</a></li>
+		<li id="menu-item-8062" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8062"><a href="https://lg.iptp.net/en_US/k1/">DC Kermia 1 (Limassol)</a></li>
+		<li id="menu-item-18303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18303"><a href="https://lg.iptp.net/en_US/hosting/si/">DC San Isidro (Lima)</a></li>
+		<li id="menu-item-18485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18485"><a href="https://lg.iptp.net/en_US/network/datacenter-services/edge-computing/">Edge computing</a></li>
+		<li id="menu-item-18486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18486"><a href="https://lg.iptp.net/en_US/network/datacenter-services/remote-hands/">Remote Hands</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div></section>					</div>
+					<div class="col-md-4 col-sm-6 col-12">
+						<section id="nav_menu-7" class="widget widget_nav_menu"><div class="menu-business-solutions-container"><ul id="menu-business-solutions" class="menu"><li id="menu-item-9691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9691"><a href="https://lg.iptp.net/en_US/business-solutions/">Business solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-24807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24807"><a href="https://lg.iptp.net/en_US/business-solutions/network-advisory-services/">Network Advisory Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-26104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26104"><a href="https://lg.iptp.net/en_US/best-path-app/">Best Path App</a></li>
+	</ul>
+</li>
+	<li id="menu-item-9683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9683"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/">Integration Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-16200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16200"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/xaas/">XAAS</a></li>
+		<li id="menu-item-20361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20361"><a href="https://lg.iptp.net/en_US/business-solutions/integration-services/sd-wan-enabler/">SD-WAN Enabler</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18495"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/">Managed Service Provider (MSP)</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18496"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/managed-connectivity/">Managed Connectivity Services</a></li>
+		<li id="menu-item-18497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18497"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/unified-communication/">Unified Communication</a></li>
+		<li id="menu-item-18498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18498"><a href="https://lg.iptp.net/en_US/business-solutions/managed-services/security-services/">Security Services</a></li>
+		<li id="menu-item-18499" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-18499"><a href="https://lg.iptp.net/en_US/dmms/">Mitigation service against DDoS</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18500"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/">Office solutions</a>
+	<ul class="sub-menu">
+		<li id="menu-item-25804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25804"><a href="https://lg.iptp.net/en_US/xrm/">IPTP XRM(ERP+CRM)</a></li>
+		<li id="menu-item-18503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18503"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/cross-messenger/">Cross Messenger (XM)</a></li>
+		<li id="menu-item-18505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18505"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/ip-telephony/">IP Telephony</a></li>
+		<li id="menu-item-18507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18507"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/remote-office/">Remote Office</a></li>
+		<li id="menu-item-18509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18509"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/cisco-telepresence/">Cisco TelePresence</a></li>
+		<li id="menu-item-18510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18510"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/video-surveillance/">Video Surveillance</a></li>
+		<li id="menu-item-26311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26311"><a href="https://lg.iptp.net/en_US/business-solutions/office-solutions/lagblaster/">Lagblaster</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18511"><a href="https://lg.iptp.net/en_US/global-logistics/">Global IT Logistics</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18547"><a href="https://lg.iptp.net/en_US/global-logistics/purchasing/">Purchasing</a></li>
+		<li id="menu-item-18551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18551"><a href="https://lg.iptp.net/en_US/global-logistics/shipping/">Shipping</a></li>
+		<li id="menu-item-18597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18597"><a href="https://lg.iptp.net/en_US/global-logistics/warehouse-storage/">Warehouse Storage</a></li>
+		<li id="menu-item-18643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18643"><a href="https://lg.iptp.net/en_US/global-logistics/ior-eor/">IOR/EOR</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div></section>					</div>
+					<!-- <div class="clearfix hidden-md hidden-lg"></div> -->
+					<div class="col-md-4 col-sm-6 col-12">
+						<section id="nav_menu-8" class="widget widget_nav_menu"><div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-307"><a href="https://lg.iptp.net/en_US/support/">Support</a>
+<ul class="sub-menu">
+	<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-314"><a href="https://lg.iptp.net/en_US/help/">Help</a>
+	<ul class="sub-menu">
+		<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://lg.iptp.net/en_US/help/service-request/">Service request</a></li>
+		<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://lg.iptp.net/en_US/help/e-mail/">E-mail</a></li>
+		<li id="menu-item-8131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8131"><a href="https://lg.iptp.net/en_US/help/vpn-setup/">VPN Setup</a></li>
+		<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a href="https://lg.iptp.net/en_US/help/file-repository/">File Repository</a></li>
+		<li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="https://lg.iptp.net/en_US/help/ipmi/">IPMI</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4614"><a href="https://lg.iptp.net/en_US/support/legal/">Legal</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4842"><a href="https://lg.iptp.net/en_US/support/legal/gsa/">Global Master Service Agreement</a></li>
+		<li id="menu-item-4675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4675"><a href="https://lg.iptp.net/en_US/support/legal/peering-policy/">Peering Policy</a></li>
+		<li id="menu-item-14109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14109"><a href="https://lg.iptp.net/en_US/support/legal/privacy-notice/">Privacy Notice</a></li>
+		<li id="menu-item-4615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4615"><a href="https://lg.iptp.net/en_US/iptp-acceptable-use-policy/">IPTP Acceptable Use Policy</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-306"><a href="https://lg.iptp.net/en_US/company/">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1118"><a href="https://lg.iptp.net/en_US/about-us/global-partnership/">Global Partnership</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9764"><a href="https://lg.iptp.net/en_US/about-us/global-partnership/for-investors/">For investors</a></li>
+		<li id="menu-item-1119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1119"><a href="https://lg.iptp.net/en_US/about-us/testimonials/">Testimonials</a></li>
+	</ul>
+</li>
+	<li id="menu-item-904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-904"><a href="https://lg.iptp.net/en_US/about-us/">About Us</a>
+	<ul class="sub-menu">
+		<li id="menu-item-20913" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20913"><a href="https://lg.iptp.net/en_US/category/blog/">Blog</a></li>
+		<li id="menu-item-16531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16531"><a href="https://lg.iptp.net/en_US/company/corporate-magazine/">Corporate magazine</a></li>
+		<li id="menu-item-9786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9786"><a href="https://lg.iptp.net/en_US/company/meet-our-team/">Meet our team</a></li>
+		<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="https://lg.iptp.net/en_US/careers/">Careers</a></li>
+		<li id="menu-item-18971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18971"><a href="https://lg.iptp.net/en_US/company/contacts/">Contacts</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div></section>						
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-12 footer__tools">
+						<section id="nav_menu-9" class="widget widget_nav_menu"><div class="menu-iptp-tools-container"><ul id="menu-iptp-tools" class="menu"><li id="menu-item-19609" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-19609"><a href="https://lg.iptp.net/en_US/iptp-tools/">IPTP Tools</a>
+<ul class="sub-menu">
+	<li id="menu-item-289" class="--bandwidth-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="https://lg.iptp.net/en_US/iptp-tools/bandwidth-test/">Bandwidth Test</a></li>
+	<li id="menu-item-19610" class="--bestpath-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-19610"><a href="https://lg.iptp.net/en_US/iptp-tools/best-path/">Best Path</a></li>
+	<li id="menu-item-288" class="--ipcalc-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-288"><a href="https://lg.iptp.net/en_US/iptp-tools/ip-calculator/">IP Subnet Calculator</a></li>
+	<li id="menu-item-22062" class="--ixp-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-22062"><a href="https://lg.iptp.net/en_US/iptp-tools/ixp-compare/">IXP Compare</a></li>
+	<li id="menu-item-287" class="--lg-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-282 current_page_item menu-item-287"><a href="https://lg.iptp.net/en_US/iptp-tools/lg/" aria-current="page">Looking Glass</a></li>
+	<li id="menu-item-19611" class="--uptime-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-19611"><a href="https://lg.iptp.net/en_US/iptp-tools/uptime-calculator/">Uptime calculator</a></li>
+	<li id="menu-item-286" class="--wmap-icon item-have-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="https://lg.iptp.net/en_US/iptp-tools/weathermap/">Weathermap</a></li>
+</ul>
+</li>
+</ul></div></section>					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<section id="pagesinwidgets_post_section-5" class="widget pagesinwidgets_post_section">					<h5 class="widget-title widgettitle">Contacts</h5>
+										<div class="text-left">
+						<div class="wrap-contact">
+<div>Americas region</div>
+<div class="div-contact">
+<h6 class="cp-heading -en_US">IPTP LLC (USA)</h6>
+<p>
+      PO Box 213, Wilton, CT 06897, USA<br />
+      e-mail: <a href="mailto:&#117;s&#064;&#105;&#112;&#116;p.&#110;e&#116;">&#117;&#115;&#64;&#105;p&#116;&#112;.n&#101;t</a><br />
+      phone: +1 (302) 407 4023</p>
+</p></div>
+<div class="div-contact">
+<h6 class="cp-heading -pu">IPTP Networks S.A.C. (Perú)</h6>
+<p>
+      Calle las Golondrinas N° 114, San Isidro, 15047, Lima, Perú.<br />
+      e-mail: <a href="mailto:&#105;n&#102;&#111;&#064;&#105;&#112;tp.&#112;&#101;">in&#102;&#111;&#64;&#105;&#112;&#116;&#112;.pe</a><br />
+      phone: +51 1 642 00 61</p>
+</p></div>
+<div class="div-contact">
+<h6 class="cp-heading -bo">IPTP SRL</h6>
+<p>
+      Villalobos 1688, La Paz, Bolivia<br />
+      <!--phone: +591 501 17 300--><br />
+      email: <a href="mailto:i&#110;fo&#064;i&#112;&#116;p&#046;&#098;&#111;">in&#102;o&#64;i&#112;t&#112;.b&#111;</a>
+    </p>
+</p></div>
+<div class="div-contact">
+<h6 class="cp-heading -br">IPTP – Integrações de Sistemas Ltda.</h6>
+<p>
+      Rua da Consolação, 368 – 15º andar &#8211; Centro<br />
+			São Paulo / SP – Cep 01302-000 &#8211; Brasil.
+    </p>
+</p></div>
+<div>Asia region</div>
+<div class="div-contact">
+<h6 class="cp-heading -zh_HK">IPTP LIMITED (Hong Kong)</h6>
+<p>
+      2602A, 26/F, Goodman Global Gateway, 168 Yeung Uk Road, Tsuen Wan, Hong Kong<br />
+      e-mail: <a href="mailto:in&#102;o&#064;&#105;&#112;t&#112;&#046;h&#107;">i&#110;f&#111;&#64;i&#112;&#116;p.&#104;&#107;</a><br />
+      phone: +852 24 383 217<br />
+      phone(CN): +86 139 1147 2755</p>
+</p></div>
+<div class="div-contact">
+<h6 class="cp-heading -vi">IPTP Networks Company Limited (Việt Nam)</h6>
+<p>
+      8F, Bcons Tower, 4A/167A Nguyen Van Thuong Street, Ward 25, Binh Thanh District, Ho Chi Minh City, Viet Nam.<br />
+      e-mail: <a href="mailto:in&#102;&#111;&#064;&#105;&#112;&#116;p&#046;v&#110;">i&#110;f&#111;&#64;ip&#116;&#112;&#46;vn</a><br />
+      phone: +84 2871099858</p>
+<p>Danang Software Park, 9th Floor, 2 Quang Trung Street, Thach Thang Ward, Hai Chau District, Da Nang City, Vietnam.<br />
+      E-mail: <a href="mailto:in&#102;o&#064;&#105;&#112;&#116;&#112;.v&#110;">&#105;nfo&#64;ip&#116;p.&#118;n</a><br />
+      Phone: +84 2871099858</p>
+</p></div>
+<div>European Union</div>
+<div class="div-contact">
+<h6 class="cp-heading -cy">Fredonia Trading Ltd (Cyprus)</h6>
+<p>
+      P.O. Box 54761, Limassol, CY-3727, Cyprus<br />
+      e-mail: <a href="mailto:&#099;&#121;&#064;&#105;&#112;tp.&#110;&#101;t">c&#121;&#64;&#105;&#112;t&#112;&#46;&#110;e&#116;</a><br />
+      phone: +357 25 878860</p>
+</p></div>
+<div class="div-contact">
+<h6 class="cp-heading -nz">IPTP Networks (The Netherlands)</h6>
+<p>
+      Science Park 404, BG 1098 XH, Amsterdam, The Netherlands<br />
+      e-mail: <a href="mailto:nl&#064;i&#112;&#116;p.ne&#116;">&#110;l&#64;&#105;&#112;t&#112;&#46;n&#101;t</a><br />
+      phone: +31 207 147 499</p>
+</p></div>
+</div>
+						</div>
+					</section>			</div>				
+			</div>
+		</div>
+	</div>
+		</footer><!-- #colophon -->
+
+
+
+
+
+	</div><!-- #page -->
+	
+
+	<!-- Sroll top -->
+	<a class="c-cursor"><div id="up" class="scroll"><span class="fa fa-angle-double-up"></span><span class="d-none visibility-hidden">scroll</span></div></a>
+
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFPQ38T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div class="site-info"><div class="container container-larger"><ul class="copyright list-inline">IPTP Networks &copy; 2023 | <li><a href="https://www.facebook.com/iptpnetworks" class="fa fa-facebook" target="_blank" title="Facebook"><span class="d-none">Facebook</span></a></li><li><a href="https://twitter.com/iptpnetworks" class="fa fa-twitter" target="_blank" title="Twitter"><span class="d-none">Twitter</span></a></li><li><a href="https://www.linkedin.com/company/1107444" class="fa fa-linkedin" target="_blank" title="LinkedIn"><span class="d-none">LinkedIn</span></a></li><li><a href="https://t.me/iptpnetworks" target="_blank" title="Telegram"><img src="https://iptp.net/wp-content/themes/iptp-theme/images//Telegram-logo.svg" style="filter: invert(90%) sepia(100%) saturate(31%) hue-rotate(200deg) brightness(107%) contrast(99%);margin-bottom: 2px;" alt="Telegram" width="12" height="12"><span class="d-none">Telegram</span></a></li><li><a href="http://weixin.qq.com/r/JxOkvPnEjaTyrb3f90Y1" class="fa fa-wechat" target="_blank" title="Wechat"><span class="d-none">Wechat</span></a></li> | <a href="/iptp-acceptable-use-policy/">User policy</a></ul></div>      <link rel='stylesheet' id='benevolent-font-css' href='https://lg.iptp.net/wp-content/themes/iptp-theme/css/fonts.css?ver=6.2.3'  media='all' />
+<link rel='stylesheet' id='benevolent-sidr-style-css' href='https://lg.iptp.net/wp-content/themes/iptp-theme/css/jquery.sidr.light.css?ver=6.2.3'  media='all' />
+<script  src='https://lg.iptp.net/wp-content/plugins/custom-css-js-php/assets/js/wcjp-frontend.js?ver=6.2.3' id='wcjp-frontend.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/js/jquery.lazy.min.js?ver=6.2.3' id='jquery.lazy.picture.min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/swiper/swiper-bundle.min.js?ver=6.2.3' id='swiper.min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/masonry.pkgd.min.js?ver=6.2.3' id='masonry.min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/js/jquery.sidr.js?ver=20160125' id='benevolent-sidr-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/jquery.matchHeight-min.js?ver=6.2.3' id='jquery.matchHeight-min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/lib/intl-tel-input/js/intlTelInput.min.js?ver=6.2.3' id='intlTelInput.min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/js/jquery.cookie.min.js?ver=6.2.3' id='jquery.cookie.min-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/js/src/bootstrap.bundle.min.js?ver=3839261' id='bootstrap.bundle.min.js-js'></script>
+<script  src='https://lg.iptp.net/wp-content/themes/iptp-theme/js/src/pages_mod.min.js?ver=3839261' id='benevolent-custom-js'></script>
+<script  src='https://lg.iptp.net/wp-content/plugins/live-assistant-iptp/assets/js/moment.min.js?ver=6.2.3' id='moment.min.js-iptp-js'></script>
+<script  src='https://xm.iptp.net/live-assistance.js?ver=424234' id='live-assistance-iptp-js'></script>
+
+    
+    
+        
+    
+    
+<!-- code footer tag  --><!--
+<script type="text/javascript">
+_linkedin_partner_id = "2646188";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2646188&fmt=gif" />
+</noscript>
+--><!-- end code footer tag -->
+
+
+	<style>
+		.live-assistance-wrapper .fixed-button.fixed-button {
+		    color: #fff;
+		    background: #f60;
+		}
+	</style>
+
+	
+
+</body>
+</html>

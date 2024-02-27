@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AARNet Looking Glass</title>
+		<meta name="description" content="Check to see if a web address is on-net with AARNet." />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="/js/custom.js"></script>
+        <script src="/js/loader.js"></script>
+		<link href="https://fonts.googleapis.com/css?family&#61;Open%20Sans" rel="stylesheet" />
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" type="image/png" href="/images/touch-icon.png">
+    </head>
+    <body>
+		
+		<div class="page-wrap">
+        <div class="header-wrap">
+		
+		<div class="header-internal">
+
+			<div class="header-menu">
+
+				<div class="main-logo">
+					<a href="/"><img src="/images/aarnet-logo-portal.png" alt="AARNet" class="aarnet-header-logo" />
+					<span aria-hidden="true" class="portal-header-name">Looking Glass</span></a>
+				</div>
+
+				<div class="main-menu">
+					<a class="menu-item" href="https://support.aarnet.edu.au" target="_blank">FAQs</a>
+					<a class="menu-item" href="https://www.aarnet.edu.au/contact-us" target="_blank">Contact Us</a>		
+					<div class="divider"></div>
+					<a class="menu-item" href="https://www.aarnet.edu.au" target="_blank">AARNet Home</a>
+				</div>
+				
+				<input class="side-menu" type="checkbox" id="side-menu" />
+				<label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+				
+				<nav class="nav">
+					<ul class="menu"><li><a href="https://support.aarnet.edu.au" target="_blank">FAQs</a></li><li><a href="https://www.aarnet.edu.au/contact-us" target="_blank">Contact Us</a></li><li><a href="https://www.aarnet.edu.au" target="_blank">AARNet Home</a></li></ul>
+				</nav>
+
+			</div>
+			
+			
+		</div>
+	
+	</div>
+
+<div class="main-background-wrap">		
+		
+<div class="container-wrap">
+    <div class="content-body">
+<h1>Looking Glass</h1>
+		
+		<p class="intro-text">
+                    Network IP addresses or DNS names can be entered. Network names may result in numerous IP numbers checked which can produce inconsistent results if the networks 
+                    are reachable by differing routes.
+                    <br />
+                    <br />While every attempt has been made to ensure that this data is accurate, AARNet does not take any form of liability if the data is incorrect or misrepresents the actual situation.
+                </p>
+	</div>
+	
+	<div class="content-body form-section">
+            <!-- l_grid -->
+
+	<section class="hero bg_color_grey_light l_panel">
+            <div class="l_grid">
+                <h2>AARNet4 Network Address Query</h2>
+                <!-- Modal -->
+                <div class="modal fade" id="helpmodal" tabindex="-1" role="dialog" aria-labelledby="Help" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Unfortunately we cannot allow the display of the entire route table so all queries must be specific.<p>
+                                <p>For show bgp you can enter in the parameter field:<p>
+                                <ul>
+                                    <li><b>a network address</b> either as an IP address or network notation eg 130.102.0.0/16</li>
+                                    <li><b>regexp \[regular_expression\]</b> in the parameter field for AS expressions.</li>
+                                    <li><b>community \[community_value\]</b> in the parameter field for community tagged routes.</li>
+                                </ul>
+                                <p>eg: <b>community 7575:1000 7575:3003</B> will display all AARNet customers in Victoria.</p>
+                                <p>Some community values are:</p>
+                                <table>
+                                    <tr><td>7575:1 <td>Export external to AARNet with no-export
+                                    <tr><td>7575:2 <td>No export beyond AARNet
+                                    <tr><td>7575:3 <td>Prepend AS7575 once 
+                                    <tr><td>7575:4 <td>Prepend AS7575 twice
+                                    <tr><td>7575:5 <td>Prepend AS7575 thrice
+                                    <tr><td>7575:6 <td>Blackhole traffic
+                                    <tr><td>7575:7 <td>Regional only
+                                    <tr><td>7575:70 <td>AARNet local preference 70
+                                    <tr><td>7575:80 <td>AARNet local preference 80
+                                    <tr><td>7575:90 <td>AARNet local preference 90
+                                    <tr><td>7575:1000 <td>Originated on member network
+                                    <tr><td>7575:1001 <td>Originated on affiliated R&E network 
+                                    <tr><td>7575:1002 <td>Originated on peer network
+                                    <tr><td>7575:1003 <td>Originated through transit network
+                                    <tr><td>7575:2xxx <td>Originated in Location
+                                    <tr><td>7575:2001 <td>Perth GigaPOP at Amnet IX
+                                    <tr><td>7575:2002 <td>Perth GigaPOP at CSIRO ARRC
+                                    <tr><td>7575:2003 <td>Adelaide GigaPOP at 10 Pulteney Street
+                                    <tr><td>7575:2004 <td>Adelaide GigaPOP at Hostworks
+                                    <tr><td>7575:2005 <td>Melbourne GigaPOP at Nextgen
+                                    <tr><td>7575:2006 <td>Melbourne GigaPOP at Melbourne Law School
+                                    <tr><td>7575:2007 <td>Canberra GigaPOP at TransACT
+                                    <tr><td>7575:2008 <td>Canberra GigaPOP at ANU
+                                    <tr><td>7575:2009 <td>Sydney GigaPOP at UTS
+                                    <tr><td>7575:2010 <td>Sydney GigaPOP at Nextgen
+                                    <tr><td>7575:2011 <td>Brisbane GigaPOP at UQ
+                                    <tr><td>7575:2012 <td>Brisbane GigaPOP at QUT
+                                    <tr><td>7575:2013 <td>Hobart POP at UTas
+                                    <tr><td>7575:2014 <td>Alice Springs POP at CDU
+                                    <tr><td>7575:2015 <td>Darwin POP at CDU
+                                    <tr><td>7575:2017 <td>Frankfurt POP at DE-CIX InterXion
+                                    <tr><td>7575:2018 <td>Singapore POP at SingTel - Kim Chuan Telecommunications Complex
+                                    <tr><td>7575:2019 <td>Palo Alto POP at PAIX
+                                    <tr><td>7575:2020 <td>Los Angeles POP at Telehouse America
+                                    <tr><td>7575:2022 <td>Seattle GigaPOP (SX TransPORT) at Pacific Wave
+                                    <tr><td>7575:2023 <td>Seattle GigaPOP at Pacific Wave
+                                    <tr><td>7575:2024 <td>Honolulu GigaPOP (SX TransPORT) at University of Hawai`i
+                                    <tr><td>7575:2025 <td>Honolulu GigaPOP at University of Hawai`i
+                                    <tr><td>7575:2026 <td>Suva POP at SCCN Cable Station
+                                    <tr><td>7575:2039 <td>Sydney Multicast/IPv6 Tunnel Router
+                                    <tr><td>7575:2040 <td>WAIX Peering Router
+                                    <tr><td>7575:2041 <td>TransACT Peering Router
+                                    <tr><td>7575:2042 <td>Adelaide Peering Router
+                                    <tr><td>7575:2043 <td>UTS Peering Router
+                                    <tr><td>7575:2044 <td>Equinix Sydney Peering Router
+                                    <tr><td>7575:30xx <td>State or Territory
+                                    <tr><td>7575:3001 <td>ACT
+                                    <tr><td>7575:3002 <td>NSW
+                                    <tr><td>7575:3003 <td>Victoria
+                                    <tr><td>7575:3004 <td>Queensland
+                                    <tr><td>7575:3005 <td>SA
+                                    <tr><td>7575:3006 <td>WA
+                                    <tr><td>7575:3007 <td>Tasmania
+                                    <tr><td>7575:3008 <td>Northern Territory
+                                    <tr><td>7575:5001 <td>Don't export to SX TransSPORT
+                                    <tr><td>7575:5002 <td>Don't export to Commodity Internet
+                                    <tr><td>7575:5003 <td>Don't export to Off Shore Commodity Internet
+                                    <tr><td>7575:6xxx <td>Locality codes
+                                    <tr><td>7575:6001 <td>Australasian network
+                                    <tr><td>7575:6002 <td>European network
+                                    <tr><td>7575:6003 <td>North American network
+                                    <tr><td>7575:6004 <td>North Asian network
+                                    <tr><td>7575:6005 <td>South Asian network
+                                    <tr><td>7575:6006 <td>Latin American network
+                                    <tr><td>7575:6007 <td>African network
+                                    <tr><td>7575:7xxx <td>Announced from Location
+                                    <tr><td>7575:7019 <td>Announced from Palo Alto
+                                    <tr><td>7575:7020 <td>Announced from Los Angeles
+                                    <tr><td>7575:8xxx <td>Location of peering
+                                    <tr><td>7575:8001 <td>Australasia
+                                    <tr><td>7575:8002 <td>Europe (DE-CIX)
+                                    <tr><td>7575:8003 <td>North America (SIX, Pacific Wave, PAIX, LAIIX)
+                                    <tr><td>7575:8005 <td>South Asia (Kim Chuan)
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form id="submission" method="POST" action="/run">
+                    <div class="form-group">
+                        <label for="ipaddress">Enter network address</label>
+                        <input type="text" class="form-control" id="ipaddress" placeholder="192.168.0.1" name="ipaddress">
+                    </div>
+                    <b>Check On-Net/Off-Net?</b>
+                    <label class="radio-inline">
+                    <input type="radio" name="onoffnet" id="noonoffnet" value="off" checked>No
+                    </label>
+                    <label class="radio-inline">
+                    <input type="radio" name="onoffnet" id="yesonoffnet">Yes
+                    </label>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="ping" name="ping">Ping</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="traceroute" name="traceroute">Traceroute</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="tcptrace" name="tcptrace">TCP Trace</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="showbgp" name="showbgp">Show BGP (IPv4 / IPv6)
+                            <a href="#" data-toggle="modal" data-target="#helpmodal">
+                                <span class="glyphicon glyphicon-question-sign"></span>
+                            </a>
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="showbgpmulticast" name="showbgpmulticast">Show BGP Multicast (IPv4 / IPv6)
+                            <a href="#" data-toggle="modal" data-target="#helpmodal">
+                                <span class="glyphicon glyphicon-question-sign"></span>
+                            </a>
+                        </label>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary btn-block" data-loading-text="Loading results... Please wait">
+                    Submit
+                    </button>
+                </form>
+            </div>
+            <!-- l_grid -->
+        </section>
+										
+        <!-- Start Results block -->
+        <section id="results_block" style="display:none;" class="l_panel bg_color_white l_relative">
+            <div id="results_header" style="display:none;" class="l_grid"></div>
+            <div id="onoffnet_results" style="display:none;" class="l_grid"></div>
+            <div id="ping_results" style="display:none;" class="l_grid"></div>
+            <div id="traceroute_results" style="display:none;" class="l_grid"></div>
+            <div id="tcptrace_results" style="display:none;" class="l_grid"></div>
+            <div id="showbgp_results" style="display:none;" class="l_grid"></div>
+            <div id="showbgpmulticast_results" style="display:none;" class="l_grid"></div>
+        </section>
+        <!-- End Results block -->
+										
+		</div>
+</div>
+</div>
+</div>		
+										
+<footer class="footer">
+		<div class="footer-internal">
+			<div class="acknowledgement">
+				<p>AARNet acknowledges the Traditional Custodians of country throughout Australia and we pay our respects to Elders past and present.</p>
+			</div>
+			<div class="footer-bottom">
+				
+				<div class="row">
+					<div class="column">
+						<a href="https://aarnet.edu.au" target="_blank" rel="noopener noreferrer">
+						<img src="/images/AARNet_logo_white.svg" alt="AARNet" class="aarnet-footer-logo" /></a>
+					</div>
+					<div class="column footer-socials">
+						<a href="http://www.linkedin.com/company/aarnet" target="_blank" rel="noopener noreferrer">
+							<img src="/images/linkedin.png" alt="AARNet on LinkedIn" />
+						</a>
+						<a href="https://www.facebook.com/aarnetNEWS" target="_blank" rel="noopener noreferrer">
+							<img src="/images/facebook-01.png" alt="AARNet on Facebook" />
+						</a>
+						<a href="https://twitter.com/AARNet" target="_blank" rel="noopener noreferrer">
+							<img src="/images/twitter.png" alt="AARNet on Twitter" />
+						</a>
+						<a href="https://www.youtube.com/user/aarnetvideo" target="_blank" rel="noopener noreferrer">
+							<img src="/images/youtube.png" alt="AARNet on Youtube" />
+						</a>
+					</div>
+					<div class="column footer-links">
+						© <script>document.write(new Date().getFullYear());</script> AARNET
+						<a href="https://www.aarnet.edu.au/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy</a>
+						<a href="https://www.aarnet.edu.au/legals" target="_blank" rel="noopener noreferrer">Legals</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    </footer>								
+        
+        <!-- footer_scripts -->
+        <script src="/js/compiled.js"></script>
+        <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="/js/vendor/selectivizr-min.js"></script>
+        <![endif]-->
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>AS43588 - Looking Glass</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LookingGlass - Open source PHP looking glass">
+<meta name="author" content="Telephone">
+
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<link href="assets/css/cerulean.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+<header class="header nohighlight" id="overview">
+<div class="row">
+<div class="span12">
+<h1><a id="title" href="https://as43588.net">AS43588</a></h1>
+</div>
+</div>
+</header>
+
+<section id="information">
+<div class="row">
+<div class="span12">
+<div class="well">
+<span id="legend">Network information</span>
+<p>Server Location: <b>Moldova</b></p>
+<div style="margin-left: 10px;">
+<p>Test IPv4: 31.131.0.111</p>
+<p></p>
+<p>Test files: <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+</div>
+<p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tests">
+<div class="row">
+<div class="span12">
+<form class="well form-inline" id="networktest" action="#results" method="post">
+<fieldset>
+<span id="legend">Network tests</span>
+<div id="hosterror" class="control-group">
+<div class="controls">
+<input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+</div>
+</div>
+<select name="cmd" class="input-medium" style="margin-left: 5px;">
+<option value="host">host</option>
+<option value="mtr">mtr</option>
+<option value="ping" selected="selected">ping</option>
+<option value="traceroute">traceroute</option>
+</select>
+<button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+</fieldset>
+</form>
+</div>
+</div>
+</section>
+
+<section id="results" style="display:none">
+<div class="row">
+<div class="span12">
+<div class="well">
+<span id="legend">Results</span>
+<pre id="response" style="display:none"></pre>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer nohighlight">
+<p class="pull-right">
+<a href="#">Back to top</a>
+</p>
+<p>Powered by <a href="https://github.com/telephone/LookingGlass">LookingGlass</a></p>
+</footer>
+</div>
+
+<script src="assets/js/jquery-1.11.2.min.js"></script>
+<script src="assets/js/LookingGlass.min.js"></script>
+<script src="assets/js/XMLHttpRequest.min.js"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'83754176dd2e6e63',t:'MTcwMjg3OTk2My4yMzkwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

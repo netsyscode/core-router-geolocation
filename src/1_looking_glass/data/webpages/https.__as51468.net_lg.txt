@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>One.com / AS51468</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/static/onecom.css" />
+<link rel="stylesheet" href="/static/spinner.css" />
+</head>
+<body>
+<script>
+
+function setSpinner(value)
+{
+    if (value) {
+        document.getElementById("run").disabled = true;
+        document.getElementById("spin").style.display = "inline-block";
+        document.getElementById("result").style.opacity = 0.2;
+    } else {
+        document.getElementById("run").disabled = false;
+        document.getElementById("spin").style.display = "none";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").style.opacity = 1;
+    }
+}
+
+function setContent(text)
+{
+    let ele = document.getElementById("result");
+    while (ele.firstChild) {
+        ele.removeChild(ele.firstChild);
+    }
+    let ele1 = document.createElement("div");
+    ele1.innerHTML = text;
+    ele.appendChild(ele1);
+    setSpinner(false);
+}
+
+function onSubmit(evt)
+{
+    evt.preventDefault();
+    var form = new FormData(document.getElementById('lg'));
+    fetch('?lg=1', {method: 'POST', body: form})
+        .then(response => {
+            if (response.ok) {
+                response.text().then(setContent);
+            } else {
+                setContent("HTTP Error: " + response.status + " " + response.statusText);
+            }
+        })
+        .catch(error => {
+            console.error("Fetch Error: ", error);
+            setContent("Fetch Error: " + error.message);
+        });
+    setSpinner(true);
+}
+
+function onLoaded(evt)
+{
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', onLoaded);
+} else {
+    onLoaded(null);
+}
+</script>
+<header>
+    <img alt="One.com" src="/static/logo.svg" />
+    <nav><ul>
+        <li class="active"><a class="icon icon-find" href="/lg">Looking Glass</a></li>
+        <li><a class="icon icon-pdb" href="https://peeringdb.com/asn/51468">Peering DB</a></li>
+    </ul></nav>
+</header>
+<main>
+    <h1>AS51468 Looking&nbsp;Glass</h1>
+    <div class="c">
+        <form id="lg" onsubmit="return onSubmit(event)">
+            <select name="type">
+                <option value="ping">ping</option>
+                <option value="route" selected>show bgp route</option>
+            </select>
+            <input name="query" />
+            <select name="router">
+                <option value="cr1-ams1">Amsterdam, NL</option>
+                <option value="cr1-cph3" selected>Taastrup, DK</option>
+                <option value="cr1-cph7">Ballerup, DK</option>
+                <option value="cr1-fra1">Frankfurt, DE</option>
+                <option value="cr1-lon1">London, UK</option>
+                <option value="cr1-par1">Paris, FR</option>
+                <option value="cr1-sto1">Stockholm, SE</option>
+                <option value="cr1-cph4">Sydvestvej, DK</option>
+            </select>
+            <input type="submit" id="run" value="Run" />
+            <span><i id="spin" style="display: none;" class="icon-spin4 animate-spin"></i></span>
+            <noscript><span class="err">May not work properly without javacsript.</span></noscript>
+        </form>
+        <div id="result"></div>
+        </div>
+    </div>
+
+    <div id="p">
+    </div>
+    <div id="bg"></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://ixpmanager.bknix.co.th/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            BKNIX IXP Manager        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="vtfAlGDKoJvAnO0KWvd60qzLQKyU3bglbUnCFUPP">
+
+        <link rel="stylesheet" type="text/css" href="https://ixpmanager.bknix.co.th/css/ixp-pack.css?id=d40a6cec6e9cc599648d" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://ixpmanager.bknix.co.th/favicon.ico" />
+
+        	
+		<!-- BKNIX Custom Google Analytics      2 line below-->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61080932-6"></script>
+                <script type="text/javascript" src="https://ixpmanager.bknix.co.th/js/bknix-gtag.js"></script>
+
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://ixpmanager.bknix.co.th">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://ixpmanager.bknix.co.th/images/ixp-manager-white.png">
+    BKNIX IXP Manager</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/customer/associates">
+                            Associate Members                        </a>
+
+                                                    <div class="dropdown-divider"></div>
+                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/docstore">
+                                Document Store
+                            </a>
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/vlan">
+                            VLAN / Per-Protocol Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                        <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/trunk">
+                                Inter-Switch / PoP Graphs
+                            </a>
+                                            
+                                            <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                            <div class="dropdown-divider"></div>
+
+                                                    <a class="dropdown-item 1" href="https://ixpmanager.bknix.co.th/weather-map/1">Weathermap - BKNIX Peering LAN</a>
+                                                            </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://ixpmanager.bknix.co.th/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://ixpmanager.bknix.co.th/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                Looking Glass
+            <small class="text-muted" style="font-size: 16px;">Route Server #1 - IXP v6 Peers</small>
+                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://ixpmanager.bknix.co.th/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Route Server #1 - IXP v6 Peers            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs0-ixp-cmi-ipv4">
+                            Route Server #0 - IXP-CMI v4 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs0-ixp-cmi-ipv6">
+                            Route Server #0 - IXP-CMI v6 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs0-ixp-ipv4">
+                            Route Server #0 - IXP v4 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs0-ixp-ipv6">
+                            Route Server #0 - IXP v6 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-cmi-ipv4">
+                            Route Server #1 - IXP-CMI v4 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-cmi-ipv6">
+                            Route Server #1 - IXP-CMI v6 Peers                        </a>
+                                            <a class="dropdown-item " href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-ipv4">
+                            Route Server #1 - IXP v4 Peers                        </a>
+                                            <a class="dropdown-item active" href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-ipv6">
+                            Route Server #1 - IXP v6 Peers                        </a>
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-ipv6/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://ixpmanager.bknix.co.th/lg/rs1-ixp-ipv6">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+                          </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                            <div class="alert alert-light" role="alert">
+            <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+        </div>
+    
+            <div class="card mb-4">
+            <div class="card-body bg-light d-flex">
+                <div class="mr-auto">
+                    Bird v2                    2.0.12                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    API: 1.2.2
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        Router ID: 203.159.68.69                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Uptime: 263 days.
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Last Reconfigure: 2023-12-18 05:00:04
+                    
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    JSON:
+                    [<a href="https://ixpmanager.bknix.co.th/api/v4/lg/rs1-ixp-ipv6/status">status</a>]
+                    [<a href="https://ixpmanager.bknix.co.th/api/v4/lg/rs1-ixp-ipv6/bgp-summary">bgp</a>]
+                </div>
+            </div>
+        </div>
+    
+        <div class="card col-sm-12">
+        <div class="card-body">
+
+            <form accept-charset="utf-8" class="form-horizontal col-md-10" custom-input-width-class="col-sm-6" action-buttons-custom-class="grey-box" method="GET" action="#">
+                <div class="form-group row"><label for="net" class="control-label col-lg-2 col-sm-4">IP Address/Prefix</label><div class="col-sm-6"><input class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64" type="text" name="net"></div></div>
+                <div class="form-group row"><label for="Internal Use" class="control-label col-lg-2 col-sm-4"> </label><div class="col-sm-6"><div class="form-check"><input class="form-check-input" value="table" id="source_selector" type="radio" name="source_selector" checked="checked"><label for="source_selector" class="">Lookup table</label></div><div class="form-check"><input class="form-check-input" value="protocol" id="source_selector2" type="radio" name="source_selector"><label for="source_selector2" class="">Lookup protocol</label></div></div></div>
+                <div class="form-group row"><label for="source" class="control-label col-lg-2 col-sm-4">Source</label><div class="col-sm-6"><select class="chzn-select form-control" id="source" name="source"><option value="" disabled="disabled" selected="selected">Choose a source</option></select></div></div>
+                <div class="form-group col-sm-12"><div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12"><input class="mb-2 mb-sm-0 btn-primary btn" id="submit" type="submit" value="Search"> <button class="mb-2 mb-sm-0 btn-success btn" id="help-btn" type="button">Help</button></div></div>
+            </form>        </div>
+    </div>
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+                IXP Manager V6.2.0
+                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    Copyright &copy; 2009 - 2023 Internet Neutral Exchange Association CLG
+                                &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                Discover IXP Manager at:
+
+                <a href="https://www.ixpmanager.org/">
+                    <i class="fa fa-globe fa-inverse mx-1"></i>
+                </a>
+
+                <a href="https://www.facebook.com/ixpmanager">
+                    <i class="fa fa-facebook fa-inverse mx-1" ></i>
+                </a>
+
+                <a  href="https://twitter.com/ixpmanager">
+                    <i class="fa fa-twitter fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://github.com/inex/IXP-Manager">
+                    <i class="fa fa-github fa-inverse mx-1"></i>
+                </a>
+
+                <a  href="https://docs.ixpmanager.org/">
+                    <i class="fa fa-book fa-inverse mx-1"></i>
+                </a>
+
+            </small>
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://ixpmanager.bknix.co.th/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://ixpmanager.bknix.co.th/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://ixpmanager.bknix.co.th/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://ixpmanager.bknix.co.th/js/ixp-pack.js?id=8e9b98cde1d547b82347"></script><script>
+            // Focus on search input when opening dropdown
+            $( document ).on('select2:open', () => {
+                document.querySelector( '.select2-search__field' ).focus();
+            });
+
+            $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                $( this ).data('placeholder' );
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $( this ).data( 'placeholder' );
+            }});
+
+            
+            $('[data-toggle="tooltip"]').tooltip();
+
+        </script>
+
+                
+
+    <script type="text/javascript">
+        // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+        $(document).on('hidden.bs.modal', function (e) {
+            $(e.target).removeData('bs.modal');
+        });
+    </script>
+    <script>
+    const dd_source   = $( '#source' );
+    const btn_submit  = $( '#submit' );
+
+    let tables    = ["t_0153_as136907","t_0082_as135419","t_0163_as140918","t_0118_as137856","t_0243_as137566","t_0236_as136458","t_0155_as136907","t_0157_as141362","t_0084_as133880","t_0011_as4621","t_0094_as140867","t_0159_as141362","t_0229_as138685","t_0021_as4618","t_0195_as142029","t_0249_as133385","master4","t_0149_as6939","master6","t_0187_as142029","t_0177_as142299","t_0179_as4621","t_0070_as3856","t_0225_as6507","t_0207_as9505","t_0064_as4618","t_0218_as7500","t_0216_as9287","t_0056_as7470","t_roa","t_0058_as4767","t_0203_as54113","t_0005_as63528","t_0078_as59238","t_0204_as54113","t_0013_as45796","t_0041_as42909","t_0112_as58952","t_0007_as63528","t_0132_as46079","t_0068_as42","t_0141_as46489","t_0054_as26415","t_0100_as132280","t_0060_as38794","t_0125_as63528","t_0161_as56038","t_0047_as20940","t_0053_as38566","t_0027_as45667","t_0062_as45758","t_0019_as45758","t_0128_as42473","t_0227_as64512","t_0245_as23764","t_0181_as63528","t_0049_as45265","t_0066_as63528","t_0146_as46489","t_0110_as139657","t_0167_as56038","t_0086_as63528","t_0185_as55256","t_0183_as63989","t_0017_as133543","t_0151_as140918","t_0231_as138685","t_0080_as133543","t_0251_as141419","t_0233_as150787","t_0171_as131447"].sort();
+    let protocols = ["pp_0011_as4621","pb_0167_as56038","pb_0110_as139657","pb_0086_as63528","pb_0185_as55256","pb_0183_as63989","pp_0021_as4618","pb_0078_as59238","pb_0017_as133543","pb_0151_as140918","pp_0070_as3856","pb_0249_as133385","pb_0231_as138685","pb_0080_as133543","pp_0225_as6507","pp_0068_as42","pp_0227_as64512","pb_0251_as141419","pp_0207_as9505","pb_0187_as142029","pb_0177_as142299","pp_0245_as23764","pp_0064_as4618","pp_0181_as63528","pb_0233_as150787","pb_0171_as131447","pp_0049_as45265","pp_0066_as63528","pp_0146_as46489","pb_0153_as136907","rpki1","pb_0011_as4621","rpki2","pb_0082_as135419","pb_0163_as140918","pb_0118_as137856","pb_0243_as137566","pp_0203_as54113","pp_0167_as56038","pp_0005_as63528","pp_0086_as63528","pp_0204_as54113","pp_0013_as45796","pb_0021_as4618","pp_0185_as55256","pp_0041_as42909","pb_0236_as136458","pb_0155_as136907","pp_0183_as63989","pb_0157_as141362","pp_0112_as58952","pb_0084_as133880","pp_0078_as59238","pp_0007_as63528","pp_0132_as46079","pb_0094_as140867","pp_0141_as46489","pp_0054_as26415","pb_0159_as141362","pp_0060_as38794","pp_0125_as63528","pb_0229_as138685","pp_0161_as56038","pp_0047_as20940","pp_0053_as38566","pp_0027_as45667","pb_0195_as142029","pb_0070_as3856","pp_0062_as45758","pp_0157_as141362","pp_0019_as45758","pp_0128_as42473","pb_0225_as6507","pp_0084_as133880","pb_0207_as9505","pb_0064_as4618","pb_0218_as7500","pp_0110_as139657","pb_0216_as9287","pb_0056_as7470","pp_0094_as140867","pp_0159_as141362","pp_0229_as138685","pp_0195_as142029","pp_0249_as133385","pb_0058_as4767","pp_0187_as142029","pp_0177_as142299","pp_0017_as133543","pb_0149_as6939","pb_0179_as4621","pb_0203_as54113","pb_0005_as63528","pp_0151_as140918","pb_0204_as54113","device1","pb_0013_as45796","pb_0041_as42909","pp_0231_as138685","pp_0080_as133543","pp_0251_as141419","pb_0112_as58952","pb_0007_as63528","lg_bird_as63529","pp_0100_as132280","pb_0132_as46079","pp_0233_as150787","pp_0218_as7500","pp_0171_as131447","pp_0216_as9287","pp_0056_as7470","pp_0153_as136907","pb_0141_as46489","pb_0054_as26415","pb_0060_as38794","pb_0125_as63528","pp_0082_as135419","pp_0163_as140918","pp_0118_as137856","pp_0243_as137566","pb_0161_as56038","pb_0047_as20940","pb_0053_as38566","pb_0068_as42","pb_0027_as45667","pb_0062_as45758","pp_0058_as4767","pb_0019_as45758","pb_0128_as42473","pb_0100_as132280","pp_0236_as136458","pp_0155_as136907","pb_0227_as64512","pp_0149_as6939","pb_0245_as23764","pb_0181_as63528","pp_0179_as4621","pb_0049_as45265","pb_0066_as63528","pb_0146_as46489"].sort();
+    let source    = 'table';
+
+    btn_submit.on( 'click', function( e ) {
+        e.preventDefault();
+        let net     = $( "#net" ).val().trim();
+        let masklen = 32;
+        if( net === "" ) {
+            return;
+        }
+        btn_submit.prop('disabled', true);
+
+        if( net.indexOf('/') !== -1 ) {
+            masklen = net.substring( net.indexOf('/') + 1);
+            net     = net.substring( 0, net.indexOf('/') );
+        } else if( net.indexOf(':') !== -1 ) {
+            masklen = 128;
+        }
+
+        $.get('https://ixpmanager.bknix.co.th/lg/rs1-ixp-ipv6/route/' + encodeURIComponent( net ) + '/' +
+            encodeURIComponent( masklen ) + '/' +
+            source + '/' + encodeURIComponent( dd_source.val() ), function( html ) {
+                $( '#route-modal .modal-content' ).html( html );
+                $( '#route-modal' ).modal( 'show', { backdrop: 'static' } );
+            });
+
+            btn_submit.prop('disabled', false);
+        });
+
+    $( 'input:radio[name="source_selector"]' ).change( function(){
+        if( $( this ).is( ':checked' ) ) {
+            dd_source.html( '' );
+            if( $(this).val() === "table" ) {
+                source = 'table'
+                datas = tables;
+            } else {
+                source = 'protocol'
+                datas = protocols;
+            }
+
+            datas.forEach( function( e ){
+                $( "#source" ).append( `<option value="${e}">${e}</option>` );
+            });
+
+            if( $(this).val() === "table" ) {
+                $( "#source" ).val('masterIPv6');
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        tables.forEach( function(e){
+            dd_source.append( `<option value="${e}">${e}</option>` );
+        });
+        dd_source.val( 'masterIPv6' );
+    });
+</script>
+            </body>
+</html>

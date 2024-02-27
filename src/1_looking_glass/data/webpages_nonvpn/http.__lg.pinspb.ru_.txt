@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>PIN Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://pinspb.ru/"><IMG SRC="/logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>PIN Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="External uplinks">
+<OPTION VALUE="TR-BONCH-MX204"> TR-BONCH-MX204
+<OPTION VALUE="TR-SELECTEL-ASR9001-CORE"> TR-SELECTEL-ASR9001-CORE
+<OPTION VALUE="TR-SELECTEL-MX204"> TR-SELECTEL-MX204
+<OPTION VALUE="TR-M9-MX204#1"> TR-M9-MX204#1
+<OPTION VALUE="TR-M9-MX204#2"> TR-M9-MX204#2
+</OPTGROUP>
+<OPTGROUP LABEL="Datacenter">
+<OPTION VALUE="PIN-SPB-6506-SERVERS"> PIN-SPB-6506-SERVERS
+<OPTION VALUE="PINHOSTING-TALLIN-4900M"> PINHOSTING-TALLIN-4900M
+<OPTION VALUE="PINVDS"> PINVDS
+<OPTION VALUE="blk.c65-2"> blk.c65-2
+</OPTGROUP>
+<OPTGROUP LABEL="User peering">
+<OPTION VALUE="PIN-SPB-3560-Main"> PIN-SPB-3560-Main
+</OPTGROUP>
+<OPTGROUP LABEL="Home Network">
+<OPTION VALUE="PIN-SPB-4900-homenet"> PIN-SPB-4900-homenet
+<OPTION VALUE="PIN-SPB-ASR9001-CORE"> PIN-SPB-ASR9001-CORE
+<OPTION VALUE="Arbital border"> Arbital border
+<OPTION VALUE="Arbital corer"> Arbital corer
+<OPTION VALUE="Aikonet c6503e"> Aikonet c6503e
+<OPTION VALUE="Aikonet c4900m"> Aikonet c4900m
+<OPTION VALUE="PORT C2911"> PORT C2911
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:admin@pinspb.ru">admin@pinspb.ru</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

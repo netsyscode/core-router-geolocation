@@ -1,0 +1,49 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>LookingGlass form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<br>
+<B><FONT SIZE=+2>CERN Looking Glass</FONT></B>
+<br>
+<hr>
+<form method="post" action="lg.cgi" enctype="application/x-www-form-urlencoded"><center>
+<table border cellspacing=0 width=575 align=center>
+
+<tr valign=top>
+        <th align=left><B>Query:</B></th>
+        <th align=left><B>Router:</B></th>
+</tr>
+<tr><td>
+<label><input type="radio" name="query" value="summary" />show ip bgp summary</label><br /><label><input type="radio" name="query" value="neighbor" />show ip bgp neighbor &lt;IP_addr&gt;</label><br /><label><input type="radio" name="query" value="route" />show ip route &lt;prefix&gt; [netmask]</label><br /><label><input type="radio" name="query" value="prefix" />show ip bgp &lt;prefix&gt; [netmask]</label><br />
+<hr />
+<label><input type="radio" name="query" value="v6_route" />show ipv6 route &lt;prefix&gt;</label><br /><label><input type="radio" name="query" value="v6_summary" />show ipv6 bgp summary</label><br /><label><input type="radio" name="query" value="v6_prefix" />show ipv6 bgp &lt;prefix&gt;</label><br />
+<hr />
+<label><input type="radio" name="query" value="ping" />ping &lt;IP_addr&gt;</label><br /><label><input type="radio" name="query" value="v6_ping" />ping ipv6 &lt;IP_addr&gt;</label><br />
+<hr />
+
+<P><B>Argument(s):</B> <INPUT name="args" size=30></P>
+        </TD>
+        <td aligh=left valign=top>
+<select name="router"  size="20">
+<option value="ee3:juniper">ee3</option>
+<option value="ee2:juniper">ee2</option>
+<option value="ee1:juniper">ee1</option>
+<option value="le1:juniper">le1</option>
+<option value="le2:juniper">le2</option>
+</select></dd>
+</td>
+</TABLE>
+<p>
+<input type="submit" name="submit" value="Submit" /><input type="reset"  name=".reset" /><div><input type="hidden" name=".cgifields" value="query"  /><input type="hidden" name=".cgifields" value="router"  /></div></form></center>
+<br>
+<a href=lgnotes.html>Looking Glass notes</a>
+<p>
+For support, contact <a href="mailto:extip@cern.ch">extip</a>
+
+</body>
+</html>

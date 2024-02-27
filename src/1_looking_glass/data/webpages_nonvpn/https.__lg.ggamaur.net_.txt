@@ -1,0 +1,98 @@
+<Html>
+<Head>
+<Title>GGA Maur -  Looking Glass</Title>
+</Head>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://gga.ch"><IMG SRC="images/logo.jpg" BORDER="0" ALT="GGA Maur"></A></TD></TR></TABLE>
+<CENTER>
+<H2> Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+
+<Form Method="POST" Action="lg.pl">
+
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node AS 21232</FONT></TH></TR>
+<TR><TD width="220">
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="ip"> IPv4
+<OPTION VALUE="ipv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<tab indent=20><TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" VALUE="166.111.68.233" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<Option Value = Interxion,Glattbrugg,Switzerland Selected> Interxion,Glattbrugg,Switzerland
+<Option Value = Colozuri,Zurich,Switzerland> Colozuri,Zurich,Switzerland
+
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> |
+<INPUT TYPE="RESET" VALUE="Reset">
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+
+<!--<Dl>
+<Dt> <H3>Query Router: <Select Name = router>
+<Option Value = Interxion,Glattbrugg,Switzerland Selected> Interxion,Glattbrugg,Switzerland
+<Option Value = Colozuri,Zurich,Switzerland> Colozuri,Zurich,Switzerland
+</Select></H3>
+
+   <DD>
+   <Input type="radio" name="query" value="bgp" Checked> show ip bgp
+   <DD>
+   <Input type="radio" name="query" value="ping"> ping
+   <DD>
+   <Input type="radio" name="query" value="trace"> traceroute
+   <DD>
+   <Input type="radio" name="query" value="bgp_v6"> show ipv6 bgp
+   <DD>
+   <Input type="radio" name="query" value="ping_v6"> ping ipv6
+   <DD>
+   <Input type="radio" name="query" value="trace_v6"> traceroute ipv6
+   <DD>
+<P>
+<DT>
+<H3>Address: <Input Name="addr" size=20 value="166.111.68.233"></H3>
+</DL>
+
+<P>
+
+<Input Type="submit" Value="Submit"> | 
+<Input Type="reset" Value="Reset"> 
+</Form>-->
+
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT>
+
+</Body>
+<P>
+<HR Size=1>
+<P>
+</Body>
+<Tail>
+<I>
+  Please email questions or comments to
+ <A Href="mailto:noc@ggamaur.net">noc@ggamaur.net</a>.
+</I>
+<P>
+</Tail>
+</TD></TR></TABLE></CENTER>
+</Html>

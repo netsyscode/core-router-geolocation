@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>SPT AS7602 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.spt.vn"><IMG SRC="/images/logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>SPT AS7602 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="ISPs in Viet Nam">
+<OPTION VALUE="SPT AS7602"> SPT AS7602
+<OPTION VALUE="VNIX"> VNIX  *
+</OPTGROUP>
+<OPTGROUP LABEL="Routeservers">
+<OPTION VALUE="Global Crossing - North USA"> Global Crossing - North USA
+<OPTION VALUE="Global Crossing - EU"> Global Crossing - EU
+<OPTION VALUE="TISCALI-TINET"> TISCALI-TINET
+<OPTION VALUE="Opentransit (AS5511)"> Opentransit (AS5511)
+<OPTION VALUE="ATT-CERFnet"> ATT-CERFnet
+<OPTION VALUE="TWTelecom (AS4323)"> TWTelecom (AS4323)
+<OPTION VALUE="Oregon Exchange"> Oregon Exchange
+<OPTION VALUE="TELUS Ontario (AS852)"> TELUS Ontario (AS852)
+<OPTION VALUE="Neotelecom (AS8218) - France"> Neotelecom (AS8218) - France
+<OPTION VALUE="Swisscom (AS3303) - Switzerland"> Swisscom (AS3303) - Switzerland
+<OPTION VALUE="Optus (AS7474) - Australia"> Optus (AS7474) - Australia
+</OPTGROUP>
+<OPTGROUP LABEL="Other Looking Glass">
+<OPTION VALUE="HGC"> HGC (AS9304) *
+<OPTION VALUE="TATA"> TATA (AS6453) *
+<OPTION VALUE="Deutsche Telekom"> Deutsche Telekom (AS3320) *
+<OPTION VALUE="NTT"> NTT (AS2941) *
+<OPTION VALUE="PCCW"> PCCW (AS3491) *
+<OPTION VALUE="Singtel"> Singtel Tel (AS9911) *
+</OPTGROUP>
+<OPTGROUP LABEL="IPv6 LGs">
+<OPTION VALUE="Data Telecom IPv6"> Data Telecom IPv6 *
+<OPTION VALUE="6TAP"> 6TAP *
+<OPTION VALUE="LavaNet"> LavaNet *
+<OPTION VALUE="r1-gw.ipv6.itk.pl"> iTk *
+<OPTION VALUE="EdisonTel IPv6"> EdisonTel IPv6 *
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: 	All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@spt.vn">noc@spt.vn</A>.
+</I>
+<P>
+<a href="http://www.spt.vn"><img src="/images/spt.png" border=0></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ipt.spt.vn"><img src="/images/ipt.png" border=0></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.stc.spt.vn"><img src="/images/stc.png" border=0></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.sst.com.vn"><img src="/images/sst.png" border=0></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.sts.com.vn"><img src="/images/sts.png" border=0></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.sgp.vn"><img src="/images/sgp.png" border=0></a>
+<P>
+</CENTER>
+</BODY>
+</HTML>

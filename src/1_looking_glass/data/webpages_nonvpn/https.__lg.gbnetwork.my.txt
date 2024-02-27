@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LookingGlass - GB Network Solutions AS132372">
+    <meta name="author" content="GBNetwork">
+    <title>GB Network Solutions - Looking Glass</title>
+    <link rel="shortcut icon" href="https://www.gbnetwork.my/images/gb-favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.gbnetwork.my/images/gb-favicon.ico">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-gb">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.gbnetwork.my">
+          <img src="https://www.gbnetwork.my/images/logo.png" alt="Powered by GB Network Solutions">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="tel:(+603)-8686-5540">(+603)-8686-5540</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:sales@gbnetwork.my">sales@gbnetwork.my</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <div class="box">
+          <div class="hero-title">Looking Glass</div>
+          <div class="hero-subtitle">Network Routing Information</div>
+          <div class="hero-decription">
+            This page provides you with network routing information on the backbone infrastructure in CJ1 Cyberjaya | Tier III Data Centre Malaysia          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 order-2 order-lg-1">
+            <p class="title-test">Network Test</p>
+            <div class="card card-test">
+              <div class="card-body">
+                <form id="networktest" action="#results" method="post">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input class="form-control" type="text" id="host" name="host" value="" placeholder="Please enter your domain name or IP address" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                      <select name="cmd" class="form-control">
+                        <option value="host">host</option>
+                        <option value="mtr">mtr</option>
+                        <option value="mtr6">mtr6</option>                        <option value="ping" selected="selected">ping</option>
+                        <option value="ping6">ping6</option>                        <option value="traceroute">traceroute</option>
+                        <option value="traceroute6">traceroute6</option>                      </select>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" id="submit" name="submit" class="btn btn-danger">Run Test</button>
+                </form>
+                <section id="results" style="display:none">
+                  <br>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <span id="legend"><strong>Results</strong></span>
+                      <pre id="response" style="display:none"></pre>
+                    </div>  
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="tips">
+              <p>
+                References
+              </p>
+              <ul>
+                <li><strong>Traceroute</strong> allows a user to follow a packet through the network to
+                  a specific destination. Traceroute is a utility that records the route (the specific
+                  gateway computers at each hop) through the Internet between your computer and a
+                  specified destination computer.
+                </li>
+                <li><strong>Ping</strong> is the reaction time of your connection - how fast you get a
+                  response after you have sent out a request.
+                </li>
+                <li><strong>Matt's Traceroute (MTR)</strong> is a computer program which combines the
+                  functions of the traceroute and the ping programs in one network diagnostic tool.
+                </li>
+                <li><strong>Host Test</strong> will provide you with the essential information about
+                  domain name and IP address.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 order-1 order-lg-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  Network Information
+                </div>
+                <p>
+                  <strong>Server Location</strong><br />
+                  CJ1 Cyberjaya | Tier III Data Centre Malaysia                </p>
+                <p>
+                  <strong>Test IPv4</strong><br />
+                  103.72.163.221                </p>
+                                <p>
+                  <strong>Test IPv6</strong><br />
+                  2403:fd40:1001:a001:1:0:4c10:7bc4                </p>
+                                <p>
+                  <strong>Test files</strong><br />
+                  <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a>                 </p>
+                <p>
+                  <strong>Your IP Address</strong><br />
+                  <a href="#tests" id="userip">166.111.68.233</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <hr />
+        <p class="text-center">Powered by GB Network Solutions</p>
+      </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+
+</html>

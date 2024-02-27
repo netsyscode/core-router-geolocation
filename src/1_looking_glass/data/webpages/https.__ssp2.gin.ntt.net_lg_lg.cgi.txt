@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><TITLE>NTT Public Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+        <link rel="stylesheet" href="css/lg.css" type="text/css">
+        <script type="text/javascript">
+        function changetext() {
+          var ind = document.getElementById("query").value; 
+          //window.alert(ind);
+          if (ind =='bgp')
+            {
+             //window.alert("BGP selected");
+             document.getElementById("fqdn").innerHTML = "IP Address:";
+             document.getElementById("myTable").style.visibility = "hidden";
+	     document.getElementById("myTable2").style.visibility= "visible";
+	     document.getElementById('divIPv46').style.visibility='hidden';
+            }
+          else
+            {
+             //window.alert("NOT BGP selected");
+             document.getElementById("fqdn").innerHTML = "FQDN or IP Address:";
+             document.getElementById('myTable').style.visibility='visible';
+             document.getElementById('myTable2').style.visibility='hidden';
+            }
+         var rad;
+         for (var i=0; i < document.lg.sourceIP.length; i++)
+          {
+           if (document.lg.sourceIP[i].checked)
+            {
+             rad = document.lg.sourceIP[i].value;
+            }
+           }
+        //window.alert(rad);
+        if (rad == 'IP')
+         {
+          document.lg.addr.disabled= false;
+          document.lg.addrFQDN.disabled = "true";
+          document.getElementById('divIPv46').style.visibility='hidden';
+         }
+        else if (rad == 'FQDN' && ind != "bgp")
+         {
+          document.lg.addrFQDN.disabled= false;
+          document.lg.addr.disabled= "true";
+          document.getElementById('divIPv46').style.visibility='visible';
+         }
+        else
+         {
+          document.lg.addr.disabled= "true";
+          document.lg.addrFQDN.disabled = "true";
+          document.getElementById('divIPv46').style.visibility='hidden';
+         }
+        }
+        </script>
+        </HEAD>
+        <BODY>
+<FORM name = "lg" METHOD="POST" ACTION="https://ssp2.gin.ntt.net/lg/lg.cgi">
+<div class = "H6"><B>Router:</B></div>
+<SELECT Name="router" Size=1 onchange="changetext();">
+<option selected value=0>-- select a router --
+<OPTGROUP LABEL="North America">
+<OPTION VALUE="Ashburn, VA - US"> Ashburn, VA - US
+<OPTION VALUE="Atlanta, GA - US"> Atlanta, GA - US
+<OPTION VALUE="Boston, MA - US"> Boston, MA - US
+<OPTION VALUE="Chicago, IL - US"> Chicago, IL - US
+<OPTION VALUE="Dallas, TX - US"> Dallas, TX - US
+<OPTION VALUE="Denver - CO - US"> Denver - CO - US
+<OPTION VALUE="Houston, TX - US"> Houston, TX - US
+<OPTION VALUE="Los Angeles, CA - US"> Los Angeles, CA - US
+<OPTION VALUE="Miami, FL - US"> Miami, FL - US
+<OPTION VALUE="New York, NY - US"> New York, NY - US
+<OPTION VALUE="Palo Alto, CA - US"> Palo Alto, CA - US
+<OPTION VALUE="Phoenix - AZ - US"> Phoenix - AZ - US
+<OPTION VALUE="Reston, VA - US"> Reston, VA - US
+<OPTION VALUE="Sacramento, CA - US"> Sacramento, CA - US
+<OPTION VALUE="San Jose, CA - US"> San Jose, CA - US
+<OPTION VALUE="Seattle, WA - US"> Seattle, WA - US
+<OPTION VALUE="Toronto - CA"> Toronto - CA
+</OPTGROUP>
+<OPTGROUP LABEL="Asia">
+<OPTION VALUE="Bangkok - TH"> Bangkok - TH
+<OPTION VALUE="Hong Kong - HK"> Hong Kong - HK
+<OPTION VALUE="Jakarta - ID"> Jakarta - ID
+<OPTION VALUE="Kuala Lumpur - MY"> Kuala Lumpur - MY
+<OPTION VALUE="Osaka - JP"> Osaka - JP
+<OPTION VALUE="Seoul - KR"> Seoul - KR
+<OPTION VALUE="Singapore - SG"> Singapore - SG
+<OPTION VALUE="Taipei - TW"> Taipei - TW
+<OPTION VALUE="Tokyo - JP"> Tokyo - JP
+</OPTGROUP>
+<OPTGROUP LABEL="Europe">
+<OPTION VALUE="Amsterdam - NL"> Amsterdam - NL
+<OPTION VALUE="Barcelona - ES"> Barcelona - ES
+<OPTION VALUE="Berlin - DE"> Berlin - DE
+<OPTION VALUE="Brussels - BE"> Brussels - BE
+<OPTION VALUE="Bucharest - RO"> Bucharest - RO
+<OPTION VALUE="Budapest - HU"> Budapest - HU
+<OPTION VALUE="Dublin - IE"> Dublin - IE
+<OPTION VALUE="Düsseldorf - DE"> Düsseldorf - DE
+<OPTION VALUE="Frankfurt - DE"> Frankfurt - DE
+<OPTION VALUE="London - GB"> London - GB
+<OPTION VALUE="Luxembourg City - LU"> Luxembourg City - LU
+<OPTION VALUE="Madrid - ES"> Madrid - ES
+<OPTION VALUE="Manchester - GB"> Manchester - GB
+<OPTION VALUE="Marseille - FR"> Marseille - FR
+<OPTION VALUE="Milan"> Milan
+<OPTION VALUE="Paris - FR"> Paris - FR
+<OPTION VALUE="Sofia - BU"> Sofia - BU
+<OPTION VALUE="Stockholm - SE"> Stockholm - SE
+<OPTION VALUE="Vienna - AT"> Vienna - AT
+<OPTION VALUE="Warsaw - PL"> Warsaw - PL
+</OPTGROUP>
+<OPTGROUP LABEL="South America">
+<OPTION VALUE="São Paulo - BR"> São Paulo - BR
+</OPTGROUP>
+<OPTGROUP LABEL="Australia">
+<OPTION VALUE="Sydney - AU"> Sydney - AU
+</OPTGROUP>
+</SELECT>
+<br>
+<br>
+<div class = "H6"><B>Query:</B></div>
+
+<SELECT Name="query" id = "query" onchange="changetext();">
+<option selected value=0>-- select a query --<option value = "bgp"> BGP<option value = "ping"> Ping<option value = "trace"> Traceroute
+</SELECT>
+
+<BR><BR><div class = "H6"><B><span id="fqdn">FQDN or IP Address:</span></B><br></div><table><tr><td><INPUT TYPE="radio" NAME="sourceIP" VALUE="164.70.99.9" Checked onclick="changetext()">Your current IP Address: 164.70.99.9</td></tr><tr><td><INPUT TYPE="radio" NAME="sourceIP" VALUE="IP"  onclick="changetext()">Specify an IP Address (IPv4 or IPv6) <INPUT type="text" NAME="addr" SIZE="30" value ="" disabled></td></tr></table><div id= "myTable" style = "visibility:visible"><table><tr><td><INPUT TYPE="radio" NAME="sourceIP" VALUE="FQDN"  onclick="changetext()">Specify FQDN</td><td><INPUT type="text" NAME="addrFQDN" SIZE="30" value ="" disabled></td><td><div id = "divIPv46" style = "visibility:hidden"><table><INPUT TYPE="radio" NAME="protocol" VALUE="IPv4" Checked>IPv4<INPUT TYPE="radio" NAME="protocol" VALUE="IPv6" >IPv6</table></div></td></tr></table></div><div id= "myTable2" style = "visibility:hidden"><table><tr><td><font color='003399'><i> &nbsp; Only IP addresses or prefixes are allowed parameters for BGP Queries. FQDN can not be used. </i></font></td></tr>
+</table>
+</div>
+
+<BR>
+<table>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<INPUT TYPE="SUBMIT" id ="submit" VALUE="Submit" onclick = "changetext();"> &nbsp; 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+</TD></TR>
+</TABLE>
+<BR>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+    <base href="https://ixp.getafix.ph/index.php">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <meta charset="utf-8">
+
+    <title>GetaFIX</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="csrf-token" content="">
+
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/bower_components/select2/dist/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/ixp-manager.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/draganddrop.css" />
+    <link rel="stylesheet" type="text/css" href="https://ixp.getafix.ph/css/font-awesome.min.css" />
+
+
+        
+
+    
+        <style>
+            html, body {
+              background-color: #eee;
+            }
+
+            body {
+                padding-top: 40px;
+            }
+        </style>
+    
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://ixp.getafix.ph">
+                GetaFIX            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li>
+                    <a href="https://ixp.getafix.ph">Home</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Member Information <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="https://ixp.getafix.ph/customer/details">Member Details</a>
+                        </li>
+                        <li>
+                            <a href="https://ixp.getafix.ph/customer/associates">Associate Members</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Peering<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                                                    <li><a href="https://ixp.getafix.ph/lg">Looking Glass</a></li>
+                                            </ul>
+                </li>
+
+                <li class="dropdown 1">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Statistics<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                                                    <li>
+                                <a href="https://ixp.getafix.ph/statistics/ixp">Overall Peering Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/infrastructure">Infrastructure Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/vlan">VLAN / Per-Protocol Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/trunk">Inter-Switch / PoP Graphs</a>
+                            </li>
+                                                                            <li>
+                                <a href="https://ixp.getafix.ph/statistics/switch">Switch Aggregate Graphs</a>
+                            </li>
+                        
+
+                        
+
+                                            </ul>
+                </li>
+
+                <li class="">
+                    <a href="https://ixp.getafix.ph/public-content/support">Support</a>
+                </li>
+                <li>
+                    <a href="http://www.ixpmanager.org/" target="_blank">About</a>
+                </li>
+                <li class="">
+                    <a href="https://ixp.getafix.ph/auth/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+        <div class="container">
+
+    
+
+            <div class="page-content">
+            <div class="page-header">
+                                            <div class="pull-right">
+    
+        <div class="btn-group btn-group-xs" role="group">
+            <div class="btn-group btn-group-xs" role="group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    RCBC-AS112-LAN1-IPV4                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                                            <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">
+                            AS112 Services                        </li>
+                                                    <li class="active">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4">
+                                    RCBC-AS112-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv6">
+                                    RCBC-AS112-LAN1-IPV6                                </a>
+                            </li>
+                                                                    <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">
+                            Route Server                        </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-rs1-lan1-ipv4">
+                                    RCBC-RS1-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/rcbc-rs1-lan1-ipv6">
+                                    RCBC-RS1-LAN1-IPV6                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv4">
+                                    TIMC-RS2-LAN1-IPV4                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="https://ixp.getafix.ph/lg/timc-rs2-lan1-ipv6">
+                                    TIMC-RS2-LAN1-IPV6                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                            <a type="button" class="btn btn-default" href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4/route-search">
+                    <span class="glyphicon glyphicon-search"></span>
+                </a>
+                        <a type="button" class="btn btn-default" href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+
+            </div>
+                    <h1>
+                                            Looking Glass
+    <small>BGP Protocol Summary</small>
+                </h1>
+                        <em>This is the public looking glass. Uncached results and additional routers available when logged in.</em>
+                </div>
+    
+
+
+    <div class="well well-sm">
+        Bird        1.6.8        &nbsp;&nbsp;|&nbsp;&nbsp;
+        API: 1.1.4        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    Router ID: 103.104.19.254            &nbsp;&nbsp;|&nbsp;&nbsp;
+                Uptime: 751 days.
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Last Reconfigure: 2023-12-08 23:00:01        
+        <div class="pull-right" style="font-family: monospace;">
+            JSON:
+            [<a href="https://ixp.getafix.ph/api/v4/lg/rcbc-as112-lan1-ipv4/status">status</a>]
+            [<a href="https://ixp.getafix.ph/api/v4/lg/rcbc-as112-lan1-ipv4/bgp-summary">bgp</a>]
+        </div>
+    </div>
+
+
+<table class="table" id="bgpsummary">
+    <thead>
+        <tr>
+            <th>Neighbor</th>
+            <th>Description</th>
+            <th>ASN</th>
+            <th>Table</th>
+            <th>PfxLimit</th>
+            <th>State/PfxRcd</th>
+            <th>PfxExp</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+    <tr class="warning">
+        <td>103.104.19.1</td>
+        <td>
+            AS23942 - GetaFIX Route Servers        </td>
+        <td class="text-right">23942</td>
+        <td>
+            <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4/routes/table/master">
+                master            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                            Active                    </td>
+        <td class="text-right">
+                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as23942_vli5_ipv4"
+                data-protocol="pb_as23942_vli5_ipv4" title="AS23942 - GetaFIX Route Servers">Details</a>
+        </td>
+    </tr>
+
+
+    <tr class="warning">
+        <td>103.104.19.2</td>
+        <td>
+            AS23942 - GetaFIX Route Servers        </td>
+        <td class="text-right">23942</td>
+        <td>
+            <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4/routes/table/master">
+                master            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                            Active                    </td>
+        <td class="text-right">
+                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as23942_vli6_ipv4"
+                data-protocol="pb_as23942_vli6_ipv4" title="AS23942 - GetaFIX Route Servers">Details</a>
+        </td>
+    </tr>
+
+
+    <tr class="warning">
+        <td>103.104.19.58</td>
+        <td>
+            AS142271 - DoubleSquare Networks        </td>
+        <td class="text-right">142271</td>
+        <td>
+            <a href="https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4/routes/table/master">
+                master            </a>
+        </td>
+        <td class="text-right">
+                    </td>
+        <td class="text-right">
+                            Active                    </td>
+        <td class="text-right">
+                    </td>
+        <td>
+            <a class="btn btn-default btn-xs" id="protocol_details-pb_as142271_vli71_ipv4"
+                data-protocol="pb_as142271_vli71_ipv4" title="AS142271 - DoubleSquare Networks">Details</a>
+        </td>
+    </tr>
+
+
+    </tbody>
+</table>
+
+<div class="modal fade" id="protocol-info-modal" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">
+                Protocol Details for <code><span id="title_p_name"></span></code>
+            </h4>
+        </div>
+        <div class="modal-body">
+            <pre>
+<span id="p_name"></span>    <span id="p_bird_protocol"></span>    <span="p_table"></span> <span id="p_state"></span>     <span id="p_state_changed"></span>  <span id="p_connection"></span>
+  Description:    <span id="p_description"></span>
+  Preference:     <span id="p_preference"></span>
+  Input filter:   <span id="p_input_filter"></span>
+  Output filter:  <span id="p_output_filter"></span>
+  Import limit:   <span id="p_import_limit"></span>
+    Action:       <span id="p_limit_action"></span>
+  Routes:         <span id="p_routes_imported"></span> imported, <span id="p_routes_exported"></span> exported, <span id="p_routes_preferred"></span> preferred
+  Route change stats:     received   rejected   filtered    ignored   accepted
+    Import updates:     <span id="p_import_updates_received"></span> <span id="p_import_updates_rejected"></span> <span id="p_import_updates_filtered"></span> <span id="p_import_updates_ignored"></span> <span id="p_import_updates_accepted"></span>
+    Import withdraws:   <span id="p_import_withdraws_received"></span> <span id="p_import_withdraws_rejected"></span>        --- <span id="p_import_withdraws_ignored"></span> <span id="p_import_withdraws_accepted"></span>
+    Export updates:     <span id="p_export_updates_received"></span> <span id="p_export_updates_rejected"></span> <span id="p_export_updates_filtered"></span>        --- <span id="p_export_updates_accepted"></span>
+    Export withdraws:   <span id="p_export_withdraws_received"></span>        ---        ---        --- <span id="p_export_withdraws_accepted"></span>
+  BGP state:          <span id="p_bgp_state"></span>
+    Neighbor address: <span id="p_neighbor_address"></span>
+    Neighbor AS:      <span id="p_neighbor_as"></span>
+    Neighbor ID:      <span id="p_neighbor_id"></span>
+    Neighbor caps:    <span id="p_neighbor_capabilities"></span>
+    Session:          <span id="p_bgp_session"></span>
+    Source address:   <span id="p_source_address"></span>
+    Route limit:      <span id="p_route_limit_at"></span>/<span id="p_import_limit2"></span>
+    Hold timer:       <span id="p_hold_timer"></span>
+    Keepalive timer:  <span id="p_keepalive"></span>
+</pre>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+
+
+
+<footer>
+
+    <p>
+        IXP Manager V4.8.999        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Copyright &copy; 2010 - 2023 <a href="http://www.inex.ie/">Internet Neutral Exchange Association Company Limited By Guarantee</a>.
+        &nbsp;|&nbsp;
+        <a href="http://www.ixpmanager.org/">http://www.ixpmanager.org/</a>
+        &nbsp;|&nbsp;
+        <a href="https://ixp.getafix.ph/static/support">Contact Us</a>
+    </p>
+
+    <p>
+        Licensed under GPL v2.0.
+        &nbsp;|&nbsp;
+        This Program is provided AS IS, without warranty.
+        &nbsp;|&nbsp;
+        Generated in
+            0.858        seconds
+    </p>
+
+</footer>
+
+</div> <!-- </div class="container"> -->
+
+    <script> const RIPE_ASN_URL = "https://ixp.getafix.ph/api/v4/aut-num"; </script>
+    <script> const MARKDOWN_URL = "https://ixp.getafix.ph/api/v4/utils/markdown"; </script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/vue/dist/vue.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/select2/dist/js/select2.min.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/js/900-oss-framework.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/js/ixp-manager.js"></script>
+    <script type="text/javascript" src="https://ixp.getafix.ph/bower_components/bootbox.js/bootbox.js"></script>
+
+    <script>
+
+        $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+        $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+            $(this).data('placeholder');
+        }});
+
+            </script>
+
+
+        
+<script type="text/javascript">
+
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+    "ip-address-pre": function ( a ) {
+        var i, item;
+        var m = a.split("."),
+            n = a.split(":"),
+            x = "",
+            xa = "";
+        if (m.length == 4) {
+            // IPV4
+            for(i = 0; i < m.length; i++) {
+                item = m[i];
+                if(item.length == 1) {
+                    x += "00" + item;
+                }
+                else if(item.length == 2) {
+                    x += "0" + item;
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        else if (n.length > 0) {
+            // IPV6
+            var count = 0;
+            for(i = 0; i < n.length; i++) {
+                item = n[i];
+                if (i > 0) {
+                    xa += ":";
+                }
+                if(item.length === 0) {
+                    count += 0;
+                }
+                else if(item.length == 1) {
+                    xa += "000" + item;
+                    count += 4;
+                }
+                else if(item.length == 2) {
+                    xa += "00" + item;
+                    count += 4;
+                }
+                else if(item.length == 3) {
+                    xa += "0" + item;
+                    count += 4;
+                }
+                else {
+                    xa += item;
+                    count += 4;
+                }
+            }
+            // Padding the ::
+            n = xa.split(":");
+            var paddDone = 0;
+            for (i = 0; i < n.length; i++) {
+                item = n[i];
+                if (item.length === 0 && paddDone === 0) {
+                    for (var padding = 0 ; padding < (32-count) ; padding++) {
+                        x += "0";
+                        paddDone = 1;
+                    }
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        return x;
+    },
+    "ip-address-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+    },
+    "ip-address-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+</script>
+
+
+<script type="text/javascript">
+
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+
+    var protocols = {"pb_as23942_vli5_ipv4":{"protocol":"pb_as23942_vli5_ipv4","bird_protocol":"BGP","table":"master","state":"start","state_changed":"2023-11-07T00:00:00+00:00","connection":"  Active        Socket: Connection reset by peer","description":"AS23942 - GetaFIX Route Servers","preference":100,"input_filter":"f_import_policy","output_filter":"(unnamed)","import_limit":110000,"limit_action":"restart","routes":{"imported":0,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":0,"rejected":0,"filtered":0,"ignored":0,"accepted":0},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":0,"rejected":0,"filtered":0,"accepted":0},"export_withdraws":{"received":0,"accepted":0}},"bgp_state":"Active","neighbor_address":"103.104.19.1","neighbor_as":23942},"pb_as23942_vli6_ipv4":{"protocol":"pb_as23942_vli6_ipv4","bird_protocol":"BGP","table":"master","state":"start","state_changed":"2023-10-11T00:00:00+00:00","connection":"  Active        Socket: Connection closed","description":"AS23942 - GetaFIX Route Servers","preference":100,"input_filter":"f_import_policy","output_filter":"(unnamed)","import_limit":110000,"limit_action":"restart","routes":{"imported":0,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":0,"rejected":0,"filtered":0,"ignored":0,"accepted":0},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":0,"rejected":0,"filtered":0,"accepted":0},"export_withdraws":{"received":0,"accepted":0}},"bgp_state":"Active","neighbor_address":"103.104.19.2","neighbor_as":23942},"pb_as142271_vli71_ipv4":{"protocol":"pb_as142271_vli71_ipv4","bird_protocol":"BGP","table":"master","state":"start","state_changed":"2023-12-12T00:00:00+00:00","connection":"  Active        Socket: Connection reset by peer","description":"AS142271 - DoubleSquare Networks","preference":100,"input_filter":"f_import_policy","output_filter":"(unnamed)","import_limit":10,"limit_action":"restart","routes":{"imported":0,"exported":0,"preferred":0},"route_changes":{"import_updates":{"received":0,"rejected":0,"filtered":0,"ignored":0,"accepted":0},"import_withdraws":{"received":0,"rejected":0,"ignored":0,"accepted":0},"export_updates":{"received":0,"rejected":0,"filtered":0,"accepted":0},"export_withdraws":{"received":0,"accepted":0}},"bgp_state":"Active","neighbor_address":"103.104.19.58","neighbor_as":142271}};
+    function spacifyNumber( n, s ) {
+        return "" + ' '.repeat( s - n.length ) + "" + String(n);
+    }
+    $('#bgpsummary')
+        .removeClass( 'display' )
+        .addClass('table');
+    $(document).ready(function() {
+        $('#bgpsummary').DataTable({
+            paging: false,
+            order: [[ 2, "asc" ]],
+            columnDefs: [
+                { type: 'ip-address', targets: 0 },
+                { type: 'string', targets: 0 },
+                { type: 'int', targets: 0 },
+                { type: 'string', targets: 0 },
+                { type: 'string', targets: 0 },
+                { type: 'int', targets: 0 },
+                { type: 'int', targets: 0 }
+            ]
+        });
+    });
+    $('a[id|="sourceSelector"]').on( 'click', function(){
+        if( $("#net").val().trim() == "" ) {
+            return;
+        }
+        $("#submit").prop('disabled', true);
+        $.get('https://ixp.getafix.ph/lg/rcbc-as112-lan1-ipv4/route/' + encodeURIComponent($("#net").val().trim()) + '/' +
+                source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+            $('#route-modal .modal-content').html(html);
+            $('#route-modal').modal('show', {backdrop: 'static'});
+         });
+        $("#submit").prop('disabled', false);
+    });
+    $('a[id|="protocol_details"]').on( 'click', function(){
+        let pname = $(this).attr('data-protocol');
+        let p = protocols[pname];
+        $('#title_p_name').html( pname );
+        $('#p_name').html( pname );
+        $('#p_bird_protocol').html( p.bird_protocol );
+        $('#p_table').html( p.table );
+        $('#p_state ').html( p.state );
+        $('#p_state_changed').html( p.state_changed );
+        $('#p_connection').html( p.connection );
+        $('#p_description').html( p.description );
+        $('#p_preference').html( p.preference );
+        $('#p_input_filter').html( p.input_filter );
+        $('#p_output_filter').html( p.output_filter );
+        $('#p_import_limit').html( p.import_limit );
+        $('#p_limit_action').html( p.limit_action );
+        $('#p_routes_imported').html( p.routes.imported );
+        $('#p_routes_exported').html( p.routes.exported );
+        $('#p_routes_preferred').html( p.routes.preferred );
+        $('#p_import_updates_received').html( spacifyNumber( p.route_changes.import_updates.received, 10 ) );
+        $('#p_import_updates_rejected').html( spacifyNumber( p.route_changes.import_updates.rejected, 10 ) );
+        $('#p_import_updates_filtered').html( spacifyNumber( p.route_changes.import_updates.filtered, 10 ) );
+        $('#p_import_updates_ignored').html( spacifyNumber( p.route_changes.import_updates.ignored, 10 ) );
+        $('#p_import_updates_accepted').html( spacifyNumber( p.route_changes.import_updates.accepted, 10 ) );
+        $('#p_import_withdraws_received').html( spacifyNumber( p.route_changes.import_withdraws.received, 10 ) );
+        $('#p_import_withdraws_rejected').html( spacifyNumber( p.route_changes.import_withdraws.rejected, 10 ) );
+        $('#p_import_withdraws_ignored').html( spacifyNumber( p.route_changes.import_withdraws.ignored, 10 ) );
+        $('#p_import_withdraws_accepted').html( spacifyNumber( p.route_changes.import_withdraws.accepted, 10 ) );
+        $('#p_export_updates_received').html( spacifyNumber( p.route_changes.export_updates.received, 10 ) );
+        $('#p_export_updates_rejected').html( spacifyNumber( p.route_changes.export_updates.rejected, 10 ) );
+        $('#p_export_updates_filtered').html( spacifyNumber( p.route_changes.export_updates.filtered, 10 ) );
+        $('#p_export_updates_accepted').html( spacifyNumber( p.route_changes.export_updates.accepted, 10 ) );
+        $('#p_export_withdraws_received').html( spacifyNumber( p.route_changes.export_withdraws.received, 10 ) );
+        $('#p_export_withdraws_accepted').html( spacifyNumber( p.route_changes.export_withdraws.accepted, 10 ) );
+        $('#p_bgp_state').html( p.bgp_state );
+        $('#p_neighbor_address').html( p.neighbor_address );
+        $('#p_neighbor_as').html( p.neighbor_as );
+        $('#p_neighbor_id').html( p.neighbor_id );
+        if( p.neighbor_capabilities instanceof Array && p.neighbor_capabilities.length ) {
+            $('#p_neighbor_capabilities').html( p.neighbor_capabilities.join(' ') );
+        } else {
+            $('#p_neighbor_capabilities').html( 'n/a' );
+        }
+        if( p.bgp_session instanceof Array && p.bgp_session.length ) {
+            $('#p_bgp_session').html( p.bgp_session.join(' ') );
+        } else {
+            $('#p_bgp_session').html( 'n/a' );
+        }
+        $('#p_source_address').html( p.source_address );
+        $('#p_route_limit_at').html( p.route_limit_at );
+        $('#p_import_limit2').html( p.import_limit );
+        $('#p_hold_timer').html( p.hold_timer );
+        $('#p_keepalive').html( p.keepalive );
+        $('#protocol-info-modal').modal('show', {backdrop: 'static'});
+    });
+</script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>BinaryLane - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/e6ab2f3e-01c5-43b5-97f1-ccdfea608ef0.css">
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/binarylane.css?3" rel="stylesheet">
+
+      <script language="JavaScript">
+        var locations = [
+            {name: 'Brisbane', url: 'https://bne-lg.binarylane.cloud/'},{name: 'Melbourne', url: 'https://mel-lg.binarylane.cloud/'},{name: 'Perth', url: 'https://per-lg.binarylane.cloud/'},{name: 'Singapore', url: 'https://sin-lg.binarylane.cloud/'},{name: 'Sydney', url: 'https://syd-lg.binarylane.cloud/'},        ];
+
+        function onLocationChange() {
+            var x = document.getElementById("locationSelect").value;
+            window.location.href = x;
+        }
+      </script>
+  </head>
+  <body>
+    <!-- Container -->
+    <!-- Header -->
+    <header id="Nav">
+        <div id="NavContainer">
+            <div id="Header">
+                <div id="Logo" title="BinaryLane">
+                    <a href="https://www.binarylane.com.au"><span class="offleft">BinaryLane</span></a>
+                </div>
+                <div id="MenuBar">
+                    <ul class="DropDownMenu">
+                        <li><a href="https://www.binarylane.com.au/vps-hosting">VPS Hosting</a></li>
+                        <li><a href="https://www.binarylane.com.au/features">Features</a></li>
+                        <li><a href="https://www.binarylane.com.au/vpc">Private Cloud</a></li>
+                        <li><a href="https://support.binarylane.com.au/support/home">Help&nbsp;Desk</a></li>
+                    </ul>
+                </div>
+                <div id="NavButtons">
+                    <select id="locationSelect" name="location" class="input-medium" style="margin-left: 5px;" onchange="onLocationChange()">
+                      <option  value="https://bne-lg.binarylane.cloud/">Brisbane</option><option  value="https://mel-lg.binarylane.cloud/">Melbourne</option><option selected value="https://per-lg.binarylane.cloud/">Perth</option><option  value="https://sin-lg.binarylane.cloud/">Singapore</option><option  value="https://syd-lg.binarylane.cloud/">Sydney</option>                    </select>
+                </div>
+            </div>
+
+        </div>
+        <div class="Clear"></div>
+    </header>
+
+    <section id="Document">
+        <div class="DocumentContainer">
+            <div id="BodyFrame">
+                <div class="Body">
+                    <div id="MainContent-wrapper">
+                        <div id="MainContent">
+                            <h1>Looking Glass</h1>
+
+                            <!-- Network Information -->
+                            <section id="information">
+                                <div class="ContentModuleWrap">
+                                    <div class="ContentModule">
+                                        <h2>Network information</h2><!-- IE/Safari dislike <legend> out of context -->
+                                        <p>Test IPv4: 203.29.240.49</p>
+                                        <p>Test IPv6: 2404:9400:4:0:216:3eff:fee1:3a52</p>
+                                        <p>Test files: <a href="10MB.test" id="testfile">10MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="500MB.test" id="testfile">500MB</a> </p>
+                                        <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Network Tests -->
+                            <section id="tests">
+                                <div class="ContentModuleWrap">
+                                    <div class="ContentModule">
+                                        <h2>Network tests</h2>
+                                        <form id="networktest" action="#results" class="form-inline" method="post">
+                                            <div id="hosterror" class="control-group">
+                                                <div class="controls">
+                                                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                                                </div>
+                                            </div>
+                                            <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                                                <option value="bgp">bgp</option>
+                                                <option value="mtr">mtr</option>
+                                              <option value="mtr6">mtr6</option>                                                <option value="ping">ping</option>
+                                              <option value="ping6">ping6</option>                                                <option value="traceroute">traceroute</option>
+                                              <option value="traceroute6">traceroute6</option>                                            </select>
+                                            <!--<input type="submit" id="submit" name="submit" class="button" style="margin-left: 10px;"/>-->
+                                            <button type="submit" id="submit" name="submit" class="button" style="margin-left: 10px">Run Test</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Results -->
+                            <section id="results" style="display:none">
+                                <div class="ContentModuleWrap">
+                                    <div class="ContentModule">
+                                        <h2>Results</h2>
+                                        <pre id="response" style="display:none"></pre>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div><!-- /container -->
+    </section>
+    <footer id="FooterWrap">
+        <div id="Footer">
+
+            <div id="Company">
+                <a href="https://www.binarylane.com.au/legal">Legal</a> /
+                <a href="https://www.binarylane.com.au/security">Security</a> /
+                <a href="http://status.binarylane.com.au/">Cloud Status</a> /
+                <a href="http://lg.binarylane.com.au/">Looking Glass</a><br>
+                <span class="Copyright">

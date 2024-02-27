@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>TPNET - Looking glass</title>
+  <meta name="description" content="Lookingglass for AS5617">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="TPNET - Looking glass">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="img/cropped-logo.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+
+  <link rel="stylesheet" href="css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script> -->
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <!-- <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script> -->
+
+
+  <div class="bootstrap-wrapper">
+
+    <div class="container-fluid black-bg">
+      <div class="container menu-container">
+        <div class="row">
+          <a href="index.html" title="TPNET - Looking glass" class="col-xl-2 col-12 d-flex logo-wrapper">
+              <img src="img/cropped-logo.png" alt="Orange" class="logo" />
+              <span class="slogan">TPNET<br />AS5617</span>
+          </a>
+          <div class="col-xl-9 col-12">
+            <div class="main-menu-wrapper">
+              <div class="d-flex main-menu">
+                <a href="https://www.hurt-orange.pl/2022/11/rpki-jeszcze-bezpieczniejsza-siec-orange/">RPKI</a>
+                <a href="info_routing.html">Informacje routingowe</a>
+                <a href="serwery_lg.html">Serwery lg na 

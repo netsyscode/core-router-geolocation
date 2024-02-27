@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lumen's Looking Glass</title>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/lookingglass-extra.css" rel="stylesheet">
+<link href="/icons/spyglass.ico" rel="shortcut icon">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row align-items-center">
+<div class="col-1">
+</div> <!-- col -->
+<div class="col">
+<img src="/logos/A_standard_logo.png" class="img-fluid" alt="Responsive image">
+</div> <!-- col -->
+</div> <!-- row -->
+<br>
+<div class="row align-items-center">
+<div class="col-1">
+</div> <!-- col -->
+<div class="col">
+<img src="/images/956x114_network_performance_eng.jpg" class="img-fluid" alt="Responsive image" align="center">
+</div> <!-- col -->
+</div> <!-- row -->
+<br>
+<br>
+<div class="row align-items-center">
+<div class="col-1">
+</div> <!-- col -->
+<div class="col">
+Looking Glass Utilities provide expanded, drill-down information relative to backbone routing and efficiency of the network. Its capabilities include BGP Route Lookup, Ping, and Traceroute.<br>
+<br>
+</div> <!-- col -->
+<div class="col-1">
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row align-items-center">
+<div class="col-2">
+</div> <!-- col -->
+<div class="col" style="font-size:12px;">
+* BGP (Border Gateway Protocol) allows you to view routing table entries for a specified prefix for a selected site.<br>
+* PING allows you to view round trip time between a selected site and a specified IP address or hostname.<br>
+* TRACEROUTE allows you to view all enabled router hops encountered in the path between a selected site and a specified IP address or hostname.<br>
+</div> <!-- col -->
+<div class="col-2">
+</div> <!-- col -->
+</div> <!-- row -->
+<br>
+<form method="post" style="margin-bottom:0px;">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 col-lg-1">
+</div> <!-- col -->
+<div class="col-12 col-lg-3" style="border:1px solid #cecece;">
+<div class="row align-items-center " style="background-color:#8ec845;">
+<div class="col" align="center">
+Information Category
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+<div class="col" style="font-size:14px; padding: 15px 15px 15px 15px;">
+<div class="form-check">
+<input class="form-check-input" type="radio" id="Radio-category" name="category" value="ping" checked>
+<label class="form-check-label" for="Radio-category">
+Ping
+</label>
+</div> <!-- form-check-radio -->
+<div class="form-check">
+<input class="form-check-input" type="radio" id="Radio-category" name="category" value="traceroute">
+<label class="form-check-label" for="Radio-category">
+Traceroute
+</label>
+</div> <!-- form-check-radio -->
+<div class="form-check">
+<input class="form-check-input" type="radio" id="Radio-category" name="category" value="bgp">
+<label class="form-check-label" for="Radio-category">
+BGP Route Lookup
+</label>
+</div> <!-- form-check-radio -->
+<br>
+<br>
+<br>
+<a href="http://whois.arin.net/ui" target="_blank">WHOIS</a>
+</div> <!-- col -->
+</div> <!-- row -->
+</div> <!-- col -->
+<div class="col-12 col-lg-3" style="border:1px solid #cecece;">
+<div class="row align-items-center " style="background-color:#8ec845;">
+<div class="col" align="center">
+Source Site
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+<div class="col" style="font-size:14px; padding: 15px 15px 15px 15px;">
+<select class="custom-select" name="site_name">
+<optgroup Label="North America">
+<option value="Albany-NY-USA">Albany-NY-USA</option>
+<option value="Albuquerque-NM-USA">Albuquerque-NM-USA</option>
+<option value="Amarillo-TX-USA">Amarillo-TX-USA</option>
+<option value="Atlanta-GA-USA">Atlanta-GA-USA</option>
+<option value="Austin-TX-USA">Austin-TX-USA</option>
+<option value="Baltimore-MD-USA">Baltimore-MD-USA</option>
+<option value="Billings-MT-USA">Billings-MT-USA</option>
+<option value="Boise-ID-USA">Boise-ID-USA</option>
+<option value="Boston-MA-USA">Boston-MA-USA</option>
+<option value="Buffalo-NY-USA">Buffalo-NY-USA</option>
+<option value="Casper-WY-USA">Casper-WY-USA</option>
+<option value="CedarRapids-IA-USA">CedarRapids-IA-USA</option>
+<option value="Charlotte-NC-USA">Charlotte-NC-USA</option>
+<option value="Chicago-IL-USA">Chicago-IL-USA</option>
+<option value="Cincinnati-OH-USA">Cincinnati-OH-USA</option>
+<option value="Cleveland-OH-USA">Cleveland-OH-USA</option>
+<option value="Dallas-TX-USA">Dallas-TX-USA</option>
+<option value="Denver-CO-USA">Denver-CO-USA</option>
+<option value="Detroit-MI-USA">Detroit-MI-USA</option>
+<option value="ElPaso-TX-USA">ElPaso-TX-USA</option>
+<option value="Fresno-CA-USA">Fresno-CA-USA</option>
+<option value="Guadalajara-Mexico">Guadalajara-Mexico</option>
+<option value="Honolulu-HI-USA">Honolulu-HI-USA</option>
+<option value="Houston-TX-USA">Houston-TX-USA</option>
+<option value="Indianapolis-IN-USA">Indianapolis-IN-USA</option>
+<option value="Jackson-MS-USA">Jackson-MS-USA</option>
+<option value="Jacksonville-FL-USA">Jacksonville-FL-USA</option>
+<option value="KansasCity-KS-USA">KansasCity-KS-USA</option>
+<option value="LasVegas-NV-USA">LasVegas-NV-USA</option>
+<option value="LittleRock-AR-USA">LittleRock-AR-USA</option>
+<option value="LosAngeles-CA-USA">LosAngeles-CA-USA</option>
+<option value="Louisville-KY-USA">Louisville-KY-USA</option>
+<option value="Madison-WI-USA">Madison-WI-USA</option>
+<option value="Mazatlan-Mexico">Mazatlan-Mexico</option>
+<option value="McAllen-TX-USA">McAllen-TX-USA</option>
+<option value="MexicoCity-Mexico">MexicoCity-Mexico</option>
+<option value="Miami-FL-USA">Miami-FL-USA</option>
+<option value="Minneapolis-MN-USA">Minneapolis-MN-USA</option>
+<option value="Monterrey-Mexico">Monterrey-Mexico</option>
+<option value="Montreal-Canada">Montreal-Canada</option>
+<option value="Nashville-TN-USA">Nashville-TN-USA</option>
+<option value="Newark-NJ-USA">Newark-NJ-USA</option>
+<option value="NewOrleans-LA-USA">NewOrleans-LA-USA</option>
+<option value="NewYork-NY-USA">NewYork-NY-USA</option>
+<option value="Omaha-NE-USA">Omaha-NE-USA</option>
+<option value="Orlando-FL-USA">Orlando-FL-USA</option>
+<option value="Philadelphia-PA-USA">Philadelphia-PA-USA</option>
+<option value="Phoenix-AZ-USA">Phoenix-AZ-USA</option>
+<option value="Pittsburgh-PA-USA">Pittsburgh-PA-USA</option>
+<option value="Portland-OR-USA">Portland-OR-USA</option>
+<option value="Raleigh-NC-USA">Raleigh-NC-USA</option>
+<option value="Reno-NV-USA">Reno-NV-USA</option>
+<option value="Richmond-VA-USA">Richmond-VA-USA</option>
+<option value="Rochester-NY-USA">Rochester-NY-USA</option>
+<option value="Sacremento-CA-USA">Sacremento-CA-USA</option>
+<option value="SaintLouis-MO-USA">SaintLouis-MO-USA</option>
+<option value="SaltLakeCity-UT-USA">SaltLakeCity-UT-USA</option>
+<option value="SanAntonio-TX-USA">SanAntonio-TX-USA</option>
+<option value="SanDiego-CA-USA">SanDiego-CA-USA</option>
+<option value="SanFrancisco-CA-USA">SanFrancisco-CA-USA</option>
+<option value="SanJose-CA-USA">SanJose-CA-USA</option>
+<option value="Seattle-WA-USA">Seattle-WA-USA</option>
+<option value="Spokane-WA-USA">Spokane-WA-USA</option>
+<option value="Stamford-CT-USA">Stamford-CT-USA</option>
+<option value="Syracuse-NY-USA">Syracuse-NY-USA</option>
+<option value="Tampa-FL-USA">Tampa-FL-USA</option>
+<option value="Tijuana-Mexico">Tijuana-Mexico</option>
+<option value="Toronto-Canada">Toronto-Canada</option>
+<option value="Tulsa-OK-USA">Tulsa-OK-USA</option>
+<option value="Tustin-CA-USA">Tustin-CA-USA</option>
+<option value="Washington-DC-USA">Washington-DC-USA</option>
+<optgroup Label="Europe">
+<option value="Amsterdam-Netherlands">Amsterdam-Netherlands</option>
+<option value="Ankara-Turkey">Ankara-Turkey</option>
+<option value="Barcelona-Spain">Barcelona-Spain</option>
+<option value="Belgrade-Serbia">Belgrade-Serbia</option>
+<option value="Berlin-Germany">Berlin-Germany</option>
+<option value="Brussels-Belgium">Brussels-Belgium</option>
+<option value="Bucharest-Romania">Bucharest-Romania</option>
+<option value="Budapest-Hungary">Budapest-Hungary</option>
+<option value="Copenhagen-Denmark">Copenhagen-Denmark</option>
+<option value="Dublin-Ireland">Dublin-Ireland</option>
+<option value="Dusseldorf-Germany">Dusseldorf-Germany</option>
+<option value="Frankfurt-Germany">Frankfurt-Germany</option>
+<option value="Geneva-Switzerland">Geneva-Switzerland</option>
+<option value="Hamburg-Germany">Hamburg-Germany</option>
+<option value="Helsinki-Finland">Helsinki-Finland</option>
+<option value="Istanbul-Turkey">Istanbul-Turkey</option>
+<option value="Ljubljana-Slovenia">Ljubljana-Slovenia</option>
+<option value="London-England">London-England</option>
+<option value="Madrid-Spain">Madrid-Spain</option>
+<option value="Manchester-England">Manchester-England</option>
+<option value="Marseille-France">Marseille-France</option>
+<option value="Milan-Italy">Milan-Italy</option>
+<option value="Monaco">Monaco</option>
+<option value="Munich-Germany">Munich-Germany</option>
+<option value="Oslo-Norway">Oslo-Norway</option>
+<option value="Paris-France">Paris-France</option>
+<option value="Prague-CzechRep">Prague-CzechRep</option>
+<option value="Rome-Italy">Rome-Italy</option>
+<option value="Sofia-Bulgaria">Sofia-Bulgaria</option>
+<option value="Stockholm-Swedan">Stockholm-Swedan</option>
+<option value="Viena-Austria">Viena-Austria</option>
+<option value="Warsaw-Poland">Warsaw-Poland</option>
+<option value="Zagreb-Croatia">Zagreb-Croatia</option>
+<option value="Zurich-Switzerland">Zurich-Switzerland</option>
+<optgroup Label="Asia">
+<option value="Dubai-UnitedArabEmirates">Dubai-UnitedArabEmirates</option>
+<option value="HongKong-China">HongKong-China</option>
+<option value="Osaka-Japan">Osaka-Japan</option>
+<option value="Seoul-Korea">Seoul-Korea</option>
+<option value="Singapore">Singapore</option>
+<option value="Tokyo-Japan">Tokyo-Japan</option>
+<optgroup Label="South America">
+<option value="Aracaju-Brazil">Aracaju-Brazil</option>
+<option value="Arapiraca-Brazil">Arapiraca-Brazil</option>
+<option value="BeloHorizonte-Brazil">BeloHorizonte-Brazil</option>
+<option value="Bogota-Colombia">Bogota-Colombia</option>
+<option value="Brasilia-Brazil">Brasilia-Brazil</option>
+<option value="BuenosAires-Argentina">BuenosAires-Argentina</option>
+<option value="Cordoba-Argentina">Cordoba-Argentina</option>
+<option value="Curitiba-Brazil">Curitiba-Brazil</option>
+<option value="Fortaleza-Brazil">Fortaleza-Brazil</option>
+<option value="Goiania-Brazil">Goiania-Brazil</option>
+<option value="Lima-Peru">Lima-Peru</option>
+<option value="Londrina-Brazil">Londrina-Brazil</option>
+<option value="Maceio-Brazil">Maceio-Brazil</option>
+<option value="Mendoza-Argentina">Mendoza-Argentina</option>
+<option value="Natal-Brazil">Natal-Brazil</option>
+<option value="PanamaCity-Panama">PanamaCity-Panama</option>
+<option value="PortoAlegre-Brazil">PortoAlegre-Brazil</option>
+<option value="RibeiraoPreto-Brazil">RibeiraoPreto-Brazil</option>
+<option value="RiodeJaneiro-Brazil">RiodeJaneiro-Brazil</option>
+<option value="Rosario-Argentina">Rosario-Argentina</option>
+<option value="Salvador-Brazil">Salvador-Brazil</option>
+<option value="SanJuan-Argentina">SanJuan-Argentina</option>
+<option value="Santiago-Chile">Santiago-Chile</option>
+<option value="SaoPaolo-Brazil">SaoPaolo-Brazil</option>
+<option value="Vitoria-Brazil">Vitoria-Brazil</option>
+<optgroup Label="Australia">
+<option value="Sydney">Sydney</option>
+<optgroup Label="Africa">
+<option value="CapeTown-SouthAfrica">CapeTown-SouthAfrica</option>
+<option value="Johannesburg-SouthAfrica">Johannesburg-SouthAfrica</option>
+<option value="Nairobi-Kenya">Nairobi-Kenya</option>
+</select>
+</div> <!-- col -->
+</div> <!-- row -->
+</div> <!-- col -->
+<div class="col-12 col-lg-4" align="center" style="border:1px solid #cecece;">
+<div class="row align-items-center " style="background-color:#8ec845;">
+<div class="col">
+Destination Details
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+<div class="col" style="padding: 15px 15px 15px 15px;">
+<div class="row align-items-center">
+<div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-5" align="left" style="font-size:12px;">
+DNS Name or IP Address
+</div> <!-- col -->
+<div class="col-1">
+</div> <!-- col -->
+<div class="col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
+<input type="text" class="form-control" placeholder="x.x.x.x | xxxx:xxxx:..." aria-label="ip" name="ip" required aria-describedby="basic-addon1">
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row align-items-center">
+<div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-5" align="left" style="font-size:12px;">
+BGP Mask
+</div> <!-- col -->
+<div class="col-1" align="right">
+/
+</div> <!-- col -->
+<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+<input type="text" class="form-control" placeholder="xx" aria-label="mask" name="mask" aria-describedby="basic-addon1">
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row align-items-center">
+<div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-5" align="left" style="font-size:12px;">
+Ping Packet Size
+</div> <!-- col -->
+<div class="col-1">
+</div> <!-- col -->
+<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+<select class="custom-select" name="packet_size">
+<option value="64">64</option>
+<option value="128">128</option>
+<option value="256">256</option>
+<option value="512">512</option>
+<option value="1024">1024</option>
+</select>
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row align-items-center">
+<div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-5" align="left" style="font-size:12px;">
+Ping Packet Count
+</div> <!-- col -->
+<div class="col-1">
+</div> <!-- col -->
+<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+<select class="custom-select" name="packet_count">
+<option value="1">1</option>
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="25">25</option>
+</select>
+</div> <!-- col -->
+</div> <!-- row -->
+</div> <!-- col -->
+</div> <!-- row -->
+</div> <!-- col -->
+<div class="col-12 col-lg-1">
+</div> <!-- col -->
+</div> <!-- row -->
+</div> <!-- cont -->
+<br>
+<div class="row align-items-center">
+<div class="col-12 col-lg-10">
+</div> <!-- col -->
+<div class="col-12 col-lg-1">
+<button type="submit" class="btn  btn-primary btn-sm">Submit</button>
+</div> <!-- col -->
+<div class="col-12 col-lg-1">
+</div> <!-- col -->
+</div> <!-- row -->
+</form>
+<br>
+<div class="row align-items-center">
+<div class="col-2">
+</div> <!-- col -->
+<div class="col-8" style="font-size:12px; border:1px dotted #cecece;">
+<li>The Looking Glass tool is not to be used with any automated scripts/applications. All submissions must be entered manually.</li>
+<li>By using this Looking Glass tool, you agree to abide by the <a href="https://www.centurylink.com/aboutus/legal/acceptable-use-policy.html" target="_blank">Acceptable Use Policy</a>.</li>
+<li>Abusers of this policy will be permanently banned from this server, service, and/or application.</li>
+<li>By using this Looking Glass tool, you accept that your IP address and selections within this tool may be logged.</li>
+<li>By using this Looking Glass tool, you agree to accept all responsibility and risks associated with the use of this tool, in addition to the unpredictive performance & nature of Internet dependent/related services.</li>
+</div> <!-- col -->
+<div class="col-2">
+</div> <!-- col -->
+</div> <!-- row -->
+<br>
+<br>
+<div class="row align-items-center">
+<div class="col" align="center" style="font-size:10px; background-color: #bedf95;">

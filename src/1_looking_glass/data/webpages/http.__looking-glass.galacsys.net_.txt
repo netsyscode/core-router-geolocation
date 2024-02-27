@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<title>Bird-lg Go - bird show protocols</title>
+<link rel="stylesheet" href="/static/jsdelivr/npm/bootstrap@4.5.1/dist/css/bootstrap.min.css" integrity="sha256-VoFZSlmyTXsegReQCNmbXrS4hBBUl/cexZvPmPWoJsY=" crossorigin="anonymous">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="/">AS28855</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		
+		
+		
+		
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				
+				<a class="nav-link active"
+					href="/summary/91.194.60.69+185.34.34.33/"> All Servers </a>
+				
+			</li>
+			 
+			
+			<li class="nav-item">
+				
+				<a class="nav-link"
+					href="/summary/91.194.60.69/">lg-octo-dc2</a>
+				
+			</li>
+			
+			<li class="nav-item">
+				
+				<a class="nav-link"
+					href="/summary/185.34.34.33/">lg-octo-pa2</a>
+				
+			</li>
+			
+		</ul>
+		
+		<form name="goto" class="form-inline" action="javascript:goto();">
+			<div class="input-group">
+				<select name="action" class="form-control">
+					
+					<option value="detail">show protocols all</option>
+					
+					<option value="generic">show ...</option>
+					
+					<option value="route">show route for ...</option>
+					
+					<option value="route_all">show route for ... all</option>
+					
+					<option value="route_bgpmap">show route for ... (bgpmap)</option>
+					
+					<option value="route_generic">show route ...</option>
+					
+					<option value="route_where">show route where net ~ [ ... ]</option>
+					
+					<option value="route_where_all">show route where net ~ [ ... ] all</option>
+					
+					<option value="route_where_bgpmap">show route where net ~ [ ... ] (bgpmap)</option>
+					
+					<option value="summary" selected>show protocols</option>
+					
+					<option value="traceroute">traceroute ...</option>
+					
+					<option value="whois">whois ...</option>
+					
+				</select>
+				<input name="server" class="d-none" value="91.194.60.69+185.34.34.33">
+				<input name="target" class="form-control" placeholder="Target" aria-label="Target" value="">
+				<div class="input-group-append">
+					<button class="btn btn-outline-success" type="submit">&raquo;</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</nav>
+
+<div class="container">
+	<h2>lg-octo-dc2: show protocols</h2>
+
+
+<table class="table table-striped table-bordered table-sm">
+  <thead>
+
+    <th scope="col">Name</th>
+
+    <th scope="col">Proto</th>
+
+    <th scope="col">Table</th>
+
+    <th scope="col">State</th>
+
+    <th scope="col">Since</th>
+
+    <th scope="col">Info</th>
+
+  </thead>
+  <tbody>
+
+    <tr class="table-success">
+      <td><a href="/detail/91.194.60.69/castor_ipv4">castor_ipv4</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-08-28</td>
+      <td>Established</td>
+    </tr>
+
+    <tr class="table-success">
+      <td><a href="/detail/91.194.60.69/castor_ipv6">castor_ipv6</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-08-28</td>
+      <td>Established</td>
+    </tr>
+
+    <tr class="table-success">
+      <td><a href="/detail/91.194.60.69/pollux_ipv4">pollux_ipv4</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-08-28</td>
+      <td>Established</td>
+    </tr>
+
+    <tr class="table-success">
+      <td><a href="/detail/91.194.60.69/pollux_ipv6">pollux_ipv6</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-08-28</td>
+      <td>Established</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<h2>lg-octo-pa2: show protocols</h2>
+
+
+<table class="table table-striped table-bordered table-sm">
+  <thead>
+
+    <th scope="col">Name</th>
+
+    <th scope="col">Proto</th>
+
+    <th scope="col">Table</th>
+
+    <th scope="col">State</th>
+
+    <th scope="col">Since</th>
+
+    <th scope="col">Info</th>
+
+  </thead>
+  <tbody>
+
+    <tr class="table-success">
+      <td><a href="/detail/185.34.34.33/rt_pa2_1_ipv4">rt_pa2_1_ipv4</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-04-13</td>
+      <td>Established</td>
+    </tr>
+
+    <tr class="table-success">
+      <td><a href="/detail/185.34.34.33/rt_pa2_1_ipv6">rt_pa2_1_ipv6</a></td>
+      <td>BGP</td>
+      <td>---</td>
+      <td>up</td>
+      <td>2023-04-13</td>
+      <td>Established</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+</div>
+
+<script src="/static/jsdelivr/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="/static/jsdelivr/npm/bootstrap@4.5.1/dist/js/bootstrap.min.js" integrity="sha256-0IiaoZCI++9oAAvmCb5Y0r93XkuhvJpRalZLffQXLok=" crossorigin="anonymous"></script>
+
+<script>
+function goto() {
+	let action = $('[name="action"]').val();
+	let server = $('[name="server"]').val();
+	let target = $('[name="target"]').val();
+	let url = "";
+
+	if (action == "whois") {
+		url = "/" + action + "/" + target;
+	} else if (action == "summary") {
+		url = "/" + action + "/" + server + "/";
+	} else {
+		url = "/" + action + "/" + server + "/" + target;
+	}
+
+	window.location.href = url;
+}
+</script>
+</body>
+</html>

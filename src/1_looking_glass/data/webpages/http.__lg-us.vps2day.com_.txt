@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="LookingGlass - Open source PHP looking glass" />
+		<meta name="author" content="Telephone" />
+		
+		<title>VPS2day.com - USA</title>
+
+		<!-- Browser-Update.org -->
+		<script> 
+		var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,api:2018.09 }; 
+		
+		function $buo_f(){ 
+			var e = document.createElement("script"); 
+			e.src = "//browser-update.org/update.min.js"; 
+			document.body.appendChild(e);
+		};
+
+		try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+		catch(e){window.attachEvent("onload", $buo_f)}
+		</script>
+		
+		<!-- Translation for JavaScript -->
+		<script>
+		RunTest = "Run Test"
+		Loading = "Loading"
+		</script>
+		
+		<!-- Styles -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	</head>
+  
+	<body>
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Header -->
+			<div class="row" id="header">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1><a id="title" href="http://lg-us.vps2day.com?lang=en_US">VPS2day.com - USA</a></h1>
+					</div>
+				</div>
+			</div>
+
+			<!-- Network Information -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Network information 							
+						</div>
+						<div class="panel-body">
+							<p>Server Location: <strong>Dallas, TX</strong></p>
+							<p>IPv4 Address: 173.232.146.60</p>
+							<p>IPv6 Address: 2a0b:7140:8:1:5054:ff:fefb:c57c</p>							<p>Your IP Address: <strong><a href="#tests" id="userip">164.70.99.9</a></strong></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network Test Files</div>
+						<div class="panel-body">
+							<h4>IPv4 Download Test</h4>
+							<a href="http://lg-us.vps2day.com/100MB.bin" class="btn btn-xs btn-default">100MB</a> <a href="http://lg-us.vps2day.com/500MB.bin" class="btn btn-xs btn-default">500MB</a> <a href="http://lg-us.vps2day.com/1000MB.bin" class="btn btn-xs btn-default">1000MB</a> 							<h4>IPv6 Download Test</h4><a href="http://lg-us.vps2day.com/100MB.bin" class="btn btn-xs btn-default">100MB</a> <a href="http://lg-us.vps2day.com/500MB.bin" class="btn btn-xs btn-default">500MB</a> <a href="http://lg-us.vps2day.com/1000MB.bin" class="btn btn-xs btn-default">1000MB</a> 						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Network Tests -->
+		  
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Network tests</div>
+						<div class="panel-body">
+							<form class="form-inline" id="networktest" action="#results" method="post">
+							
+								<div id="hosterror" class="form-group">
+									<div class="controls">
+										<input id="host" name="host" type="text" class="form-control" placeholder="Host or IP address" />
+									</div>
+								</div>
+								<div class="form-group">
+									<select name="cmd" class="form-control">
+										<option value="host">host</option><option value="host6">host6</option><option value="mtr">mtr</option><option value="mtr6">mtr6</option><option value="ping" selected="selected">ping</option><option value="ping6">ping6</option><option value="traceroute">traceroute</option><option value="traceroute6">traceroute6</option>									</select>
+								</div>
+						
+								<button type="submit" id="submit" name="submit" class="btn btn-success">Run Test</button>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- Results -->
+			<div class="row" id="results" style="display:none">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><? echo _("Results"); ?></div>
+						<div class="panel-body">
+						
+							<pre id="response" style="display:none"></pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		  
+			<footer class="footer">
+				<p class="pull-right">
+					<a href="#">Back to top</a>
+				</p>
+				<p>
+				Powered by: <a target="_blank" href="http://github.com/telephone/LookingGlass">LookingGlass</a> | 
+				Modified by: <a target="_blank" href="https://github.com/StadtBadWurzach/LookingGlass">Stadt Bad Wurzach</a> | 
+				Language:  <a href="?lang=en_US">EN</a> <a href="?lang=de_DE">DE</a>
+				</p>
+			</footer>
+
+		</div>
+
+		
+		<script src="assets/js/jquery-1.12.4.min.js"></script>
+		<script src="assets/js/LookingGlass.min.js"></script>
+		<script src="assets/js/XMLHttpRequest.min.js"></script>
+	</body>
+</html>

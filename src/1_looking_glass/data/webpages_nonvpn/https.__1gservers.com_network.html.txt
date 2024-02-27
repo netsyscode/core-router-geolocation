@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1GServers.com :: Our Network</title>
+
+	<!-- Font Awesome -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Combined CSS -->
+	<link href="css/combined.css" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="icon" href="/favicon.ico">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
+
+        <!-- Global site tag (gtag.js) - Google Ads: 1051033726 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1051033726"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-1051033726');
+        </script>
+
+</head>
+<body>
+<div id="page" data-linkscroll='y' class="animsition">
+	
+	<!--
+	************************************************************
+	* Main page layout
+	************************************************************ -->
+	<div class="main-wrapper">
+	
+		<!--
+		************************************************************
+		* Header
+		************************************************************ -->
+		<header class="main-head dark bg-glass-dark-01" data-sticky="y">
+			<div class="container flex-cc min-px-h80">
+				
+				<div class="flex-row gt0 middle-md w100">
+					
+					<!--=================================
+					= Logo section
+					==================================-->
+					<div class="flex-col-md-3 pos-rel">
+						<a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more" data-navclose="pe-7s-close"><i class="pe-7s-more"></i></a>
+						<div class="header-logo-wrp">
+							<a class="header-logo pd-tb-small" href="index.html"><img src="/images/logo-small.png" alt="Brand logo"></a>
+						</div>
+					</div><!-- // END : Column //  -->
+					
+					<!--=================================
+					= Navigation links
+					==================================-->
+					<div class="flex-col-md-9 align-r m-content">
+						<ul class="inline-grid grid-mid">
+							<li>
+								<nav class="menu-wrp align-l">
+									<ul class="menu">
+										<li class="menu-item has-dropdown"><a>Servers</a>
+											<ul class="sub">
+<li><a href="auto-deploy-servers.html"><b>Ready In 20 Minutes:</b><br />&nbsp;- Auto Deploy Servers</a></li>
+<li><a href="10g-unmetered-dedicated-servers.html"><b>High Bandwidth:</b><br />&nbsp; - 10G Unmetered Servers</a></li>
+<li><a href="dedicated-servers.html"><b>Built For You:</b><br />&nbsp; - Customize A Server</a></li>
+<li><a href="dedicated-server-clusters.html"><b>Mission Critical:</b><br />&nbsp; - Server Clusters</a></li>
+											</ul>
+										</li>
+										<li class="menu-item"><a href="phoenix-colocation.html">Colocation</a></li>
+										<li class="menu-item"><a href="network.html">Network</a></li>
+										<li class="menu-item"><a href="facility.html">Facility</a></li>
+										<li class="menu-item"><a href="faq.html">FAQ</a></li>
+										<li class="menu-item"><a href="https://1gservers.com/blog/">Blog</a></li>
+										<li class="menu-item"><a href="contact.html">Contact</a></li>
+									</ul><!-- // END : Navigation links //  -->
+								</nav><!-- // END : Nav //  -->		
+							</li>
+							<li class="pd-l-20" data-rgen-sm="pd-0 pd-t-10 align-c">
+								<a href="https://portal.1gservers.com" class="btn btn-white mini"><i class="fa fa-sign-in mr-r-5"></i>&nbsp;&nbsp;LOGIN</a>
+							</li>
+						</ul>
+
+					</div><!-- // END : Column //  -->
+
+				</div><!-- // END : row //  -->
+
+			</div><!-- // END : container //  -->
+
+		</header>
+		<!-- ************** END : Header **************  -->
+
+
+		<!--
+		************************************************************
+		* Page heading
+		************************************************************ -->
+		<!-- Header -->
+		<header class="pos-rel pd-t-large page-header" data-rgen-sm="pd-tb-small" style="background-color: #095ca1;">
+			<div class="container small typo-light pos-rel z2">
+				<div class="w75 mr-auto content align-c mr-b-small" data-rgen-sm="mr-0">
+					<h2 class="title f-1 bold-3 lh-3" data-rgen-sm="large" style="color: #fcae11;font-weight: 625;text-shadow: 1px 1px black;">The 1GServers Network</h2>
+					<p class="title-sub small" data-rgen-sm="small" style="font-weight: 600;text-shadow: 1px 1px black;">Superior connectivity in Phoenix, AZ</p>
+				</div>
+			</div>
+			<b class="full-wh z1 bg-dark op-01"></b>
+			<div class="full-vh bg-tc bg-cover" data-stellar="y" data-stellar-ratio="0.8" data-rgen-sm="h100" data-bg="/images/opticuplinks.jpg">
+
+		</header>
+		<!-- ************** END : Page heading **************  -->
+
+
+		<!--
+		************************************************************
+		* Brand logo sections
+		************************************************************ -->
+		<section class="pd-tb-mini" data-rgen-sm="pd-tb-small" style="background-color: #095ca1;padding: 0;">
+			<div class="container align-c typo-light">
+				<div style="margin: auto;padding: 40px;padding-left: 50px;padding-right: 50px;">
+					<p style="margin: 0;">We know first hand how crucial it is for your website and apps to load as quickly and reliably as possible from around the globe.<br /><br />
+					That's why we've built our network from the ground up with quality in mind.
+					</p>
+				</div>
+				<!--
+				<ul class="inline-list gt-small reset">
+					<li><svg width="150" height="100" fill="white" style="opacity: .5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g><path d="M22.492 34.781c-.85-.233-1.694-.843-2.147-1.548-.49-.775-.686-1.889-.472-2.789a3.611 3.611 0 0 1 2.776-2.713 3.591 3.591 0 0 1 4.287 2.801c.113.535.088 1.29-.063 1.782a3.709 3.709 0 0 1-2.222 2.348c-.548.214-1.618.27-2.16.12z"/><path d="M29.479 37.538c-.755-.094-1.744-.453-1.68-.598.282-.692.32-.749.415-.705 1.164.491 2.197.56 2.996.19.837-.385 1.165-1.04 1.165-2.361v-.46l-.29.321c-1.19 1.322-3.632.869-4.482-.824-.315-.63-.415-1.108-.415-1.97.006-1.197.295-2.009.944-2.657.579-.58 1.278-.812 2.26-.756.749.038 1.215.22 1.649.63l.334.315v-.838h.944v3.589c0 2.392-.025 3.695-.07 3.915-.22 1.051-.969 1.807-2.077 2.096-.365.1-1.334.164-1.693.113zm1.674-3.915c.819-.365 1.19-1.146 1.19-2.493-.006-.919-.164-1.46-.566-1.9-.397-.448-.794-.611-1.48-.611-.805-.007-1.315.245-1.693.83-.642 1.014-.541 2.764.208 3.652.535.629 1.573.862 2.341.522zm-14.358 1.19c-1.366-.29-2.335-1.215-2.675-2.556-.233-.894-.114-1.983.295-2.75.416-.775 1.335-1.48 2.254-1.713.787-.201 1.901-.082 2.619.277.421.208.812.51.812.617 0 .088-.428.711-.485.711-.019 0-.139-.088-.27-.189-1.65-1.303-3.979-.415-4.3 1.637-.27 1.756 1.095 3.273 2.82 3.129.541-.045 1.051-.246 1.555-.611.245-.176.447-.315.453-.302.189.264.416.711.397.768-.063.157-.913.673-1.366.837-.378.132-.61.17-1.165.182-.378.013-.806-.006-.944-.037zm19.432-.063c-.642-.17-1.045-.403-1.53-.881-.711-.7-1.026-1.505-1.02-2.613 0-1.089.309-1.895.983-2.6.667-.692 1.535-1.007 2.612-.944 1.592.1 2.537 1.171 2.637 2.997l.038.642h-5.243v.251c0 .139.056.428.132.642.239.718.667 1.184 1.378 1.524.378.176.46.195 1.039.189.724 0 1.076-.114 1.731-.535.214-.139.397-.246.403-.233.113.157.415.692.415.73 0 .07-.56.434-.944.604a3.99 3.99 0 0 1-2.631.227zm2.669-4.514c-.063-.46-.403-1.076-.718-1.322-.982-.749-2.543-.358-3.14.781a3.374 3.374 0 0 0-.259.604l-.063.233h4.218l-.038-.296zm1.347 1.052v-3.463h1.007l.007.68c0 .649.006.668.1.517.202-.303.768-.813 1.07-.97.573-.283.989-.371 1.681-.34.963.044 1.51.346 1.826 1.014.258.554.29.925.29 3.55v2.474h-.933l-.031-2.436c-.019-2.046-.044-2.493-.132-2.77-.22-.686-.636-.938-1.473-.888-1.102.063-2.015.838-2.31 1.97-.076.297-.095.769-.095 2.248v1.876h-1.007v-3.462zm8.454 3.374a2.103 2.103 0 0 1-1.353-1.354c-.12-.384-.133-.585-.164-2.474l-.025-2.064h-.869v-.819h.944V26h.945v1.951h1.7v.819h-1.7v1.813c0 1.429.018 1.888.094 2.184.182.699.585 1.039 1.297 1.089l.434.031v.863l-.516-.007c-.29 0-.642-.037-.787-.081z"/></g></svg></li>
+					<li><svg width="150" height="100" fill="white" style="opacity: .5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g><path d="M41.079 31.01c-.304-.143-.626-.477-.739-.775-.083-.233-.071-.842.024-1.074.37-.884 1.555-1.164 2.288-.543.387.322.536.775.459 1.372-.108.901-1.162 1.426-2.032 1.02zm2.925-1.623c-.554-.286-.864-.764-.864-1.318 0-.776.525-1.355 1.287-1.433.882-.095 1.573.526 1.573 1.415 0 .596-.34 1.127-.87 1.348-.268.114-.9.108-1.126-.012zm-2.65-1.557a1.505 1.505 0 0 1-.99-1.015c-.12-.411-.06-.781.179-1.14.53-.787 1.56-.906 2.234-.25.244.239.423.674.423 1.038-.006.555-.387 1.134-.87 1.307-.274.096-.78.131-.977.06zM21.99 40.856c-.983-.304-1.716-.752-2.479-1.503-.274-.275-.5-.52-.5-.543 0-.03.351-.412.774-.854l.775-.805.12.149c.07.083.22.268.339.412.25.304.881.728 1.287.865.333.113.893.125 1.18.024.53-.18 1.012-.675 1.197-1.23.262-.805.017-1.468-.763-2.046-.34-.251-1.114-.591-1.346-.591-.334 0-1.097-.245-1.514-.483-1.322-.758-2.067-2.125-2.061-3.784 0-1.026.292-1.844.87-2.464.292-.316.923-.71 1.465-.919l.507-.197 3.145-.018c1.794-.012 3.14.006 3.14.036 0 .06-.423 1.343-.733 2.238-.03.09-.095.16-.137.16-.107 0-.113-.035.078.484.143.4.155.525.16 1.337.007.853 0 .913-.154 1.235-.09.19-.233.442-.328.567-.173.233-.637.68-.757.734a2.101 2.101 0 0 0-.196.113c-.125.09-.125.09.167.418.62.692.947 1.64.947 2.72 0 2.006-1.15 3.516-3.044 3.993-.59.143-1.573.125-2.14-.048zm2.061-8.258c.346-.18.703-.561.894-.943.429-.877.012-1.963-.924-2.44-.417-.21-1.09-.216-1.537-.007a1.897 1.897 0 0 0-1.007 2.256c.161.531.74 1.116 1.252 1.247.321.084 1.06.018 1.322-.113zM32.552 35.914c-.662-.092-1.544-.403-1.799-.639a2.72 2.72 0 0 0-.219-.178c-.298-.224-.607-.662-.753-1.064l-.158-.42.012-2.284.012-2.29h-.82c-.456 0-.827-.016-.827-.04 0-.017.182-.546.407-1.179l.407-1.139h.827V25.52l.006-1.167.255-.15c.14-.08.56-.31.924-.512.37-.201.796-.437.948-.529.152-.086.298-.161.316-.161.024 0 .043.828.043 1.84v1.841h2.552v-2.289l.292-.167c.638-.374 1.343-.765 1.373-.765.019 0 .183-.092.371-.201a3.57 3.57 0 0 1 .425-.236c.08-.029.092.196.092 1.812v1.846H39v2.359h-1.769l.019 1.915c.024 2.129.03 2.18.443 2.503.237.178.51.276.967.333l.28.04V36h-.317a9.16 9.16 0 0 1-.93-.086c-1.616-.219-2.607-.978-2.917-2.238-.067-.27-.09-.822-.09-2.49V29.04h-2.499l.037 4.015.188.218c.237.277.529.42 1.027.5l.395.064V36l-.377-.006c-.212-.006-.613-.04-.905-.08z"/></g></svg></li>
+					<li><svg width="150" height="100" fill="white" style="opacity: .5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g><path d="M19.2 36.356h6.177v1.886h-1.776v4.538h-2.57v-4.538H19.2v-1.886M28.52 38.953l-1.313 3.826h-2.459l2.433-6.423h2.679l2.487 6.423h-2.515l-1.312-3.826M31.745 36.356h6.204v1.886h-1.776v4.538h-2.596v-4.538h-1.832v-1.886M41.066 38.953l-1.285 3.826h-2.487l2.432-6.423h2.679l2.487 6.423h-2.487l-1.34-3.826M41.175 24.604a5.196 5.196 0 0 0-.901-1.285 9.048 9.048 0 0 0-3.498-2.214 13.323 13.323 0 0 0-4.728-.82 13.28 13.28 0 0 0-4.701.82 8.738 8.738 0 0 0-3.471 2.214c-.368.388-.673.83-.904 1.312a40.418 40.418 0 0 1 7.954-1.093.726.726 0 0 1 .602.245c.164.19.137.902.137 1.23l-.11 8.117h.984l-.083-8.17a2.94 2.94 0 0 1 .137-1.23.726.726 0 0 1 .601-.246c2.69.12 5.362.495 7.98 1.12"/><path d="M41.557 25.67a33.549 33.549 0 0 0-6.288-.82c-1.56-.082-1.585.464-1.42 1.53 0 .055.027.137.027.246.52 3.088 1.175 5.74 1.284 6.204 3.8-.875 6.532-3.28 6.532-6.095a4.373 4.373 0 0 0-.136-1.066M30.27 26.38c.163-1.066.136-1.612-1.422-1.53-2.115.087-4.22.362-6.287.82-.086.34-.132.689-.137 1.04.022 1.278.53 2.5 1.421 3.416a8.738 8.738 0 0 0 3.472 2.214c.524.196 1.064.351 1.612.464.11-.41.766-3.143 1.285-6.287a.177.177 0 0 0 .054-.136"/></g></svg></li>
+					<li><svg width="150" height="100" fill="white" style="opacity: .5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero"><path d="M29.223 29.737c-.235 0-.47-.174-.705-.521-.154-.243-.231-.425-.231-.55 0-.216.142-.414.427-.597.277-.181.6-.277.93-.275h5.547c.353 0 .529.161.529.482.003.357-.101.708-.299 1.006-.199.305-.415.456-.65.456h-1.805v6.06c0 .366-.1.702-.298 1.005-.198.304-.416.457-.65.457-.236 0-.471-.175-.707-.524-.153-.24-.23-.424-.23-.549v-6.45h-1.858zm8.612 2.011c-.434 0-.805.123-1.112.369a1.564 1.564 0 0 0-.57.985h3.2a1.335 1.335 0 0 0-.461-.964c-.29-.26-.642-.39-1.057-.39zm-1.681 2.708c.099.42.316.757.65 1.013.335.254.737.381 1.207.381.398 0 .872-.134 1.424-.401a1.6 1.6 0 0 1 .705-.188c.29 0 .434.129.434.388 0 .233-.052.456-.156.67-.104.215-.237.37-.4.469a3.94 3.94 0 0 1-1.024.436 4.23 4.23 0 0 1-1.119.153c-.65 0-1.246-.17-1.782-.51a3.615 3.615 0 0 1-1.255-1.314 3.477 3.477 0 0 1-.448-1.715c0-.68.163-1.294.49-1.844a3.413 3.413 0 0 1 2.996-1.722c.605 0 1.15.14 1.633.422.485.281.857.655 1.12 1.12.262.466.398.993.393 1.528.004.273-.074.542-.224.77-.149.228-.314.342-.494.342h-4.15v.002zm7.377 2.802c-.407 0-.76-.158-1.058-.476a1.577 1.577 0 0 1-.447-1.118v-7.12c0-.196.138-.384.414-.563.262-.175.571-.268.887-.268.334 0 .502.153.502.456v6.916c0 .117.025.213.075.289.049.076.138.141.264.194.144.063.217.189.217.376 0 .33-.09.632-.271.904-.181.274-.376.41-.583.41zm2.74 0c-.208 0-.435-.17-.68-.51-.144-.233-.216-.407-.216-.523v-5c0-.196.138-.383.413-.563.264-.175.573-.268.889-.267.335 0 .503.151.503.455v4.999c0 .24-.049.477-.143.698a1.45 1.45 0 0 1-.352.522c-.14.125-.278.188-.414.188zm0-7.723c-.236 0-.48-.182-.733-.549-.172-.258-.257-.46-.257-.603 0-.223.153-.434.46-.63.295-.193.64-.295.99-.295.38 0 .57.17.57.51 0 .264-.053.526-.157.77a1.62 1.62 0 0 1-.393.583c-.159.143-.318.214-.482.214h.002zm5.397 6.06c.404.001.8-.115 1.14-.334v-3.044a2.273 2.273 0 0 0-1.127-.282c-.515 0-.947.173-1.295.517-.348.344-.521.776-.521 1.294s.173.956.521 1.313c.348.358.776.537 1.282.537zm-.122 1.664c-.65 0-1.241-.161-1.769-.483a3.432 3.432 0 0 1-1.676-2.976c0-.662.168-1.265.502-1.81a3.553 3.553 0 0 1 1.302-1.268 3.462 3.462 0 0 1 1.722-.449c.525 0 1.036.143 1.534.43.316-.207.632-.31.949-.31.334 0 .501.153.501.456v5c0 .24-.047.477-.141.697a1.44 1.44 0 0 1-.353.524c-.14.124-.278.187-.414.187-.207 0-.433-.169-.678-.509a1.81 1.81 0 0 1-.19-.375 1.662 1.662 0 0 1-.291.509.881.881 0 0 1-.387.281c-.189.062-.393.094-.61.094v.002zm-31.57-.859c2.358-1.351 4.043-3.046 4.82-4.853a17.47 17.47 0 0 0 .504-4.177c0-.207-.01-.404-.029-.594-.139 2.186-2.996 4.933-6.776 6.729-4.558 2.164-7.978 2.747-9.505 1.096.53 1.035 1.24 2.079 2.047 3.015 1.879 1.65 4.973 1.058 8.94-1.216z"/><path d="M17.965 31.957c4.3-2.051 7.295-4.968 6.773-6.902-.859-1.464-2.593-2.021-4.454-2.021C14.768 23.034 8 26.628 8 31.212c0 .59.132 1.248.367 1.939 1.258 1.65 5.104.948 9.597-1.194m-.364 6.498c-3.024 1.212-4.755.826-5.712.069l-.014-.01c1.483 1.46 3.17 2.486 4.65 2.486 2.592 0 6.14-3.108 7.82-7.928-.947 1.74-2.977 3.878-6.742 5.383"/><path d="M17.6 38.455c3.767-1.505 5.797-3.642 6.744-5.383.17-.49.322-1 .452-1.525-.778 1.806-2.463 3.501-4.82 4.853-3.967 2.274-7.062 2.865-8.939 1.216.268.31.548.608.839.896l.014.01c.957.757 2.688 1.143 5.712-.068m.893-4.95c3.78-1.795 6.637-4.542 6.774-6.726-.067-.678-.253-1.248-.531-1.723.521 1.934-2.473 4.851-6.774 6.902-4.494 2.141-8.34 2.843-9.598 1.193.162.473.372.961.623 1.45 1.527 1.652 4.948 1.07 9.506-1.095"/></g></svg></li>
+				</ul>
+				-->
+			</div>
+		</section>
+		<!-- ************** END : Brand logo sections **************  -->
+
+		<!--
+		************************************************************
+		* Content section
+		************************************************************ -->
+		<section class="pos-rel pd-tb-small bg-gray" data-rgen-sm="pd-tb-small align-c" style="padding-bottom: 0px;padding-top: 50px;">
+			<div class="container">
+				
+				<div class="flex-row gt20 mb20">
+					<div class="flex-col-md-5">
+						<h2 class="title bold-1" data-rgen-sm="medium">The 1GServers network</h2>
+						<p class="title-sub small" data-rgen-sm="small" style="margin-bottom: 25px;">Enterprise grade - 100% Juniper</p>
+						<p>Designed from every aspect, our network ensures that your data is delivered as quickly as
+						possible. This is first accomplished by over deploying capacity and building in redundancies wherever possible. Next,
+						this methodology is expanded upon by interconnecting with multiple carrier backbones with the fastest possible
+						redundant fiber optic transmissions speeds.</p>
+
+						
+					</div><!-- // END : column //  -->
+					
+					<div class="flex-col-md-6 flex-col-md-offset-1">
+						<div class="flex-row gt30 mb40">
+							<div class="flex-col-md-6">
+								<div class="info-obj img-t g20 mini mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-network"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n mr-b-10">Network equipment</h3>
+										<p class="mr-0">We use Juniper MX series routers at our core with over 1.6Tbps network capacity and growing.</p>
+									</div>
+								</div><!-- info box -->
+							</div>
+
+							<div class="flex-col-md-6">
+								<div class="info-obj img-t g20 mini mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-graph2"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n mr-b-10">Monitoring</h3>
+										<p class="mr-0">We monitor our network from every vantage point and upgrade circuits proactively.</p>
+									</div>
+								</div><!-- info box -->
+							</div>
+
+							<div class="flex-col-md-6">
+								<div class="info-obj img-t g20 mini mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-like2"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n mr-b-10">Premium connectivity</h3>
+										<p class="mr-0">You'll never look back with our performance routed network with extensive public and private peering.</p>
+									</div>
+								</div><!-- info box -->
+							</div>
+
+							<div class="flex-col-md-6">
+								<div class="info-obj img-t g20 mini mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-check"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n mr-b-10">IPv4 &amp; IPv6</h3>
+										<p class="mr-0">Our network is dual stacked. IPv6 available for free upon request.</p>
+									</div>
+								</div><!-- info box -->
+							</div>
+						</div>
+					</div><!-- // END : column //  -->
+				</div><!-- // END : row //  -->
+				
+			</div>
+		</section>
+		<!-- ************** END : Content section **************  -->
+
+		<section class="pd-tb-small bg-white" style="padding: 0px;">
+			<div class="container">
+				<!--
+				************************************************************
+				* Carriers
+				************************************************************ -->
+				<div class="flex-row gt50 row-sep">
+					<div class="flex-col-md-4">
+						<div class="info-obj img-t small align-c" style="padding-top: 40px;">
+							<div class="img txt-dark"><img src="/images/tata_logo.svg" alt="TATA Communications Logo"></div>
+							<div class="info">
+								<hr class="w-25 mr-auto">
+								<p>TATA Communications provides 1GServers with multiple and redundant 100Gbps connections to the Internet, providing high performing and low latency routes for our customers.</p>
+							</div>
+						</div><!-- info object -->
+					</div><!-- column -->
+
+					<div class="flex-col-md-4">
+						<div class="info-obj img-t small align-c" style="padding-top: 40px;">
+							<div class="img txt-dark" style="min-width: 150px;min-height: 75px;padding-top: 12px;margin-bottom: -10px;"><img src="/images/cogent_logo.svg" alt="Cogent Communications Logo" style="min-width: 150px;"></div>
+							<div class="info">
+								<hr class="w-25 mr-auto">
+								<p>Cogent Communications provides 1GServers with multiple and reliable 100Gbps connections to the Internet, providing low cost and surprisingly high performing routes for our customers.</p>
+							</div>
+						</div><!-- info object -->
+					</div><!-- column -->
+
+					<div class="flex-col-md-4">
+						<div class="info-obj img-t small align-c" style="padding-top: 40px;">
+							<div class="img txt-dark" style="min-width: 150px;min-height: 75px;max-height: 75px;margin-top: -5px;margin-bottom: -6px;"><img src="/images/peering.svg" alt="Icon depicting Internet peering" style="max-height: 75px;"></div>
+							<div class="info">
+								<hr class="w-25 mr-auto">
+								<p>1GServers has established high speed peering with the Phoenix-IX Internet Exchange, and through private peering connections with popular networks for fast and optimal routes.</p>
+							</div>
+						</div><!-- info object -->
+					</div><!-- column -->
+				</div><!-- row -->
+				<!-- ************** END : Info boxes **************  -->
+			</div>
+		</section>
+
+
+		<!-- Internet providers -->
+		<div class="container pd-tb-small" data-rgen-sm="pd-tb-small" style="margin-top: 40px;margin-bottom: 0px;padding: 0px;">
+			<div class="w90 mr-auto">
+				<div class="info-obj img-t g30 align-l mr-0">
+					<section id="information" class="sectionclass" style="margin: 0px;padding: 9.5px;font-size: 14px;color: #333333;border: 1px solid #fcae11;">
+						<div class="divrow" style="margin: 0px;padding: 0px;padding-top: 10px;padding-bottom: 10px;">
+							<div class="span12 w75" style="margin: auto;text-align: center;">
+								<div class="info" style="margin: auto;">
+									The 1GServers network is performance routed so traffic always takes the best performing path.
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- End -->
+
+		<h2 class="title mini txt-upper mr-tb-medium w65 mr-auto with-sep" style="margin-bottom: 25px;margin-top: 35px;">
+			<span>Test the <span style="color: #fcae11;">1GServers</span> network</span>
+		</h2>
+
+		<div class="container pd-tb-small" data-rgen-sm="pd-tb-small" style="margin-top: 0px;margin-bottom: 0px;padding: 0px;">
+			<div class="w90 mr-auto">
+				<div class="info-obj img-t g30 align-l mr-0">
+
+      <!-- Network Information -->
+      <section id="information" class="sectionclass" style="margin: 0px; margin-bottom: 15px;padding: 9.5px;font-size: 14px;color: #333333;background-color: #f5f5f5;border: 1px solid #cccccc;border-radius: 4px;">
+        <div class="divrow" style="margin-bottom: 0px;padding-bottom: 0px;">
+          <div class="span12" style="margin: auto;margin-bottom: 0px;padding-bottom: 0px;line-height: 1.6;max-width: 510px;">
+              Testing Location: <b>Phoenix, AZ, USA</b><br />
+              <div style="margin-left: 10px;">
+                Test IPv4: &nbsp; 104.251.122.19<br />
+                Test IPv6: &nbsp; 2605:8340::2f<br />
+                Test files: &nbsp; <a href="http://speedtest.1gservers.com/100MB.test" id="testfile"><u>100MB</u></a> &nbsp; <a href="http://speedtest.1gservers.com/1GB.test" id="testfile"><u>1GB</u></a><br />
+              </div>
+              Your IP Address: <b><a href="javascript:return(0);//javascript:void();" id="userip"><u><span id="useripaddress"></span></u></a></b>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests" class="sectionclass" style="margin: 0px;margin-bottom: 14px;padding: 9.5px;font-size: 13px;color: #333333;background-color: #f5f5f5;border: 1px solid #cccccc;border-radius: 4px;">
+        <div class="divrow">
+          <div class="span12 align-c">
+		<form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <div id="hosterror" class="control-group" style="display: inline;">
+                  <div class="controls" style="display: inline;">
+                    <input id="host" name="host" type="text" class="form-control" placeholder="Host or IP address" style="font-size: 14px;background-color: white;margin: 5px;">
+                  </div>
+                </div>
+                <select name="cmd" class="form-control" style="background-color: white;font-size: 14px;margin: 5px;">
+                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                  <option value="ping">ping</option>
+                  <option value="ping6">ping6</option>		 
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>		
+                  <option value="host">host</option>
+                </select>
+                <button type="submit" id="submit" name="submit" class="form-control btn btn-default txt-upper" style="margin: 5px;width: 145px;">Run Test</button>
+              </fieldset>
+		</form>
+          </div>
+        </div>
+      </section>
+      <!-- Results -->
+      <section id="results" style="display:none;margin: 0px;margin-top: 0px;padding: 0px;">
+            <div class="well" style="padding-bottom: 4px;">
+		<pre id="response" style="display: none;font-family: monospace;white-space: nowrap;overflow-x: auto;"></pre>
+            </div>
+		<div id="response2" class="sectionclass align-c" style="margin: 0px;margin-bottom: 15px;padding: 9.5px;font-size: 13px;color: #333333;background-color: #f5f5f5;border: 1px solid #cccccc;border-radius: 4px;">If the above result does not meet your expectations, please let us know at <a href="mailto:support@1gservers.com"><u>support@1gservers.com</u></a>. Be sure to include the results.</div>
+      </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="//speedtest.1gservers.com/assets/js/LookingGlass.min.js"></script>
+<script>
+// useridaddress
+$.get("//speedtest.1gservers.com/remote_ip.cgi", function(response) {
+	$("#useripaddress").text(response);
+});
+</script>
+
+			</div></div></div>
+
+		<h2 class="title mini txt-upper mr-tb-medium w65 mr-auto with-sep" style="margin-bottom: 20px;margin-top: 35px;">
+			<span>The <span style="color: #fcae11;">1GServers</span> network live weathermap</span>
+		</h2>
+
+		<div class="align-c" style="margin-left: 25px;margin-right: 25px;padding-bottom: 20px;">
+			<div style="border: 1px solid #cccccc;border-radius: 4px;display: block;margin:auto;box-shadow: 10px 10px 5px silver;overflow: auto;text-align:center;">
+			<img id="weathermap-img" src="//zabbix.1gservers.com/weathermap.png" style="max-width: none;width: 1194px;display: block;margin: auto;">
+			
+			</div>
+		</div>
+
+		<section class="pd-tb-small bg-white" style="padding-top: 20px;padding-bottom: 0px;margin-top: 0px;">
+			<div class="container">
+				<div class="w75 mr-auto content align-c mr-b-small" style="padding: 0;margin-top: 0;margin-bottom: 0;padding-bottom: 40px;font-size: 120%;"><h5>Dedicated Server Clusters</h5>
+				We offer custom built dedicated server clusters for the most demanding of workloads.
+				Advanced support is included giving you peace of mind knowing you'll be taken care of.<br /><br />
+				<a href="dedicated-server-clusters.html" class="btn btn-default solid ssmall" style="margin: 5px;">Explore Server Cluster Solutions</a>
+				</div>
+			</div>
+		</section>
+
+		<!--
+		************************************************************
+		* Call to action section
+		************************************************************ -->
+		<section class="pos-rel pd-tb-small bg-dark" data-rgen-sm="pd-tb-small align-c" style="background:-webkit-gradient(linear,left top,left bottom,from(#095ca1),to(#05275d));background:linear-gradient(180deg,#095ca1 0,#05275d);padding-top: 50px;padding-bottom: 50px;">
+			<div class="container typo-light">
+				<div class="w75 mr-auto align-c">
+					<h2 class="title f-1 bold-3" data-rgen-sm="medium">Ready to get started?</h2>
+					<p class="title-sub small" data-rgen-sm="small">We have a wide variety of hardware options available for you. You can order from our list of <a href="auto-deploy-servers.html">auto deploy servers</a> or <a href="dedicated-servers.html">customize the hardware configuration</a> you need.</p>
+					<a href="auto-deploy-servers.html" data-rgen-sm="small" class="btn btn-default solid txt-upper bdr-2">Auto Deploy Servers</a> &nbsp; &nbsp; &nbsp; &nbsp;
+					<a href="dedicated-servers.html" data-rgen-sm="small" class="btn btn-default solid txt-upper bdr-2">Customizable Servers</a>
+				</div>
+			</div>
+
+			<!-- <b class="full-wh z1 bg-secondary op-06"></b>
+			<div class="full-wh bg-cc bg-cover" data-bg="http://via.placeholder.com/1920x1080"></div> -->
+		</section>
+		<!-- ************** END : Call to action section **************  -->
+
+		
+		<!-- 
+		************************************************************
+		* Footer section
+		************************************************************ -->
+		<footer class="pos-rel" data-rgen-sm="pd-tb-small align-c" style="padding-top: 50px;">
+			<div class="container">
+
+				<div class="flex-row gt20 mb20" style="//border: 1px solid red;padding: 0">
+					<div class="flex-col-md-4">
+
+						<!--=================================
+						= Contact information
+						==================================-->
+						<div class="info-obj img-l g20 tiny mr-b-mini" data-rgen-sm="img-t">
+							<div class="img txt-dark"><span class="iconwrp"><i class="pe-7s-map-marker"></i></span></div>
+							<div class="info">
+								<h3 class="title tiny mr-b-4 bold-3 f-1">Facility Address</h3>
+								<p class="mr-0">3402 E University Dr<br />
+								Phoenix, AZ 85034<br />USA<br /><i>(Not For Mail)</i></p>
+							</div>
+						</div><!-- info box -->
+
+						<div class="info-obj img-l g20 tiny mr-b-mini" data-rgen-sm="img-t">
+							<div class="img txt-dark"><span class="iconwrp"><i class="pe-7s-call"></i></span></div>
+							<div class="info">
+								<h3 class="title tiny mr-b-4 bold-3 f-1">Phone</h3>
+								<p class="mr-0"><strong>USA Toll Free: </strong> 1.877.464.6980<br> <strong>Int'l: </strong> +1 602.427.5673</p>
+							</div>
+						</div><!-- info box -->
+						
+					</div><!-- // END : column //  -->
+
+					<div class="flex-col-md-5 flex-col-md-offset-2">
+
+						<!--=================================
+						= Contact information Column 2
+						==================================-->
+						<div class="info-obj img-l g20 tiny mr-b-mini" data-rgen-sm="img-t">
+							<div class="img txt-dark"><span class="iconwrp"><i class="fa fa-sign-in mr-r-5"></i></span></div>
+							<div class="info">
+								<h3 class="title tiny mr-b-4 bold-3 f-1">Current Customers</h3>
+								Helpdesk / Control Panel:</p>
+								<a href="https://portal.1gservers.com" class="btn btn-default solid small">Login</a>
+
+							</div>
+						</div><!-- info box -->
+
+						<div class="info-obj img-l g20 tiny" data-rgen-sm="img-t">
+							<div class="img txt-dark"><span class="iconwrp"><i class="pe-7s-mail"></i></span></div>
+							<div class="info">
+								<h3 class="title tiny mr-b-4 bold-3 f-1">E-mail</h3>
+								<p class="mr-0">sales @ 1gservers.com</p><br />
+							</div>
+						</div><!-- info box -->
+
+					</div><!-- // END : column //  -->
+				</div><!-- // END : row //  -->
+				
+				<hr class="mr-tb-tiny" style="margin-top: 0px;margin-bottom: 0px;">
+
+				<div class="flex-row gt20 middle-md">
+					<div class="flex-col-md-6" style="padding-top: 4px;">
+						<p>&copy; 2013 - <span class="copyright-year"></span> 1GServers, LLC ~ <span style="font-weight: lighter;"><a href="policies.html">TOS &amp; AUP Policies</a></span> ~ <span style="font-weight: lighter;"><a href="https://1gservers.com/careers.html">Careers</span></p>
+					</div><!-- // END : column //  -->
+					
+					<div class="flex-col-md-6 align-r" data-rgen-sm="align-c">
+						<!--=========================================
+						=  Social links
+						=============================================-->
+						<a href="https://www.facebook.com/1GServers" target="_blank" class="sq20 fs14 mr-6 iconbox"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/1GServers" target="_blank" class="sq20 fs14 mr-6 iconbox"><i class="fa fa-twitter"></i></a>
+					</div><!-- // END : column //  -->
+				</div><!-- // END : row //  -->
+
+				
+			</div>
+		</footer><!-- / Footer section -->
+		<!-- ************** END : Footer section **************  -->
+	</div>
+	<!-- ************** END : Main page layout **************  -->
+
+
+</div>
+<!-- /#page --> 
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/bootstrap-v3.3.7/js/bootstrap.min.js"></script>
+<script src="lib/Swiper/js/swiper.min.js"></script>
+<script src="lib/jquery-validation/jquery.validate.min.js"></script>
+<script src="lib/animsition/js/animsition.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/rgen.js"></script>
+
+<script>
+var weathermapSource = document.getElementById("weathermap-img").src;
+function updateWeathermap() {
+	document.getElementById("weathermap-img").src = weathermapSource + '?time=' + new Date().getTime();
+}
+setInterval(updateWeathermap, 15000);
+</script>
+
+<!--Start of livechat Script-->
+<script type="text/javascript" defer>
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/65678a53e8301d47ec57f146/1hge78ls3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of livechat Script-->
+
+</body>
+</html>
+

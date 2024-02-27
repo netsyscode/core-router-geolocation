@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Looking Glass</title>
+</head>
+
+<BASE TARGET="_top">
+
+<p><!-- BODY HTML for all pages -->
+<BODY TEXT="#000000" BGCOLOR="#CFCFCF"
+LINK="#003399" VLINK="#003399" ALINK="#0000EE" BACKGROUND="/pict/bg.jpg">
+</p>
+<!-- top menu -->
+<a href=".."><img src="/pict/netitle.gif" height=34 width=92 border=0></a>
+<br>
+<hr size=1 noshade>
+<img src="/pict/logo2006/LOGO_98x19.gif" height=19 width=98 border=0 alt="§®§¡§Ü§à§Þ§ß§Ö§ä,">
+<font size=1>
+§¥§Ö§á§Ñ§â§ä§Ñ§Þ§Ö§ß§ä&nbsp;§ª§ß§ä§Ö§â§ß§Ö§ä
+<br>
+</font>
+<!-- <hr size=1 noshade> -->
+<br>
+<!-- <a href="../testlab/"><img src="/pict/lbl05.gif" width=20 height=20 border=0>testlab</a>
+<br>
+-->
+<!--
+<a href="../support/"><img src="/pict/lbl05.gif" width=20 height=20 border=0>support</a>
+<br>
+<a href="../refs/"><img src="/pict/lbl05.gif" width=20 height=20 border=0>references</a>
+<br>
+<a href="../staff/"><img src="/pict/lbl05.gif" width=20 height=20 border=0>contact&nbsp;info</a>
+<br>
+-->
+
+
+<form method="POST" action="cgi-bin/nph-lg" target="OUT">
+<p>
+<hr size=1 noshade>
+<!--
+<p>
+<dt> <b>Router:</b>
+<select name="Router">
+    <option value="ncc-8">Macomnet NCC-8</option>
+    <option value="nj-1">Macomnet NJ-1</option>
+-->
+</select>
+
+
+<dl>
+<dt> <b>Query:</b>
+	<small>
+   <p>
+   <dd>
+   <input type="radio" name="query" value="bgp" checked> bgp
+
+   <dd>
+   <input type="radio" name="query" value="ping"> ping
+   
+   <dd>
+   <input type="radio" name="query" value="trace"> trace
+	</small>
+<p>
+<dt> <b>Address:</b>  <input name="addr" size=20>
+</dl>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"> 
+</form>
+
+<!-- bottom menu -->
+<br>
+<a href=""> back to testlab <img src="/img/bl03.gif" width=24 height=25 border=0 alt="back"></a>
+<hr size=1 noshade>
+<FONT SIZE=1>(C)&nbsp;1998-2006&nbsp;MAcomnet,&nbsp;Internet&nbsp;Dept.</FONT>
+
+</body>
+</html>
+
+

@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html id="ls-global" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Infraestructura: Garantías para tu alojamiento | dinahosting</title>
+    
+    <link rel="alternate" hreflang="es" href="https://dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="en" href="https://en.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="gl" href="https://gl.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="ca" href="https://ca.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="pt" href="https://pt.dinahosting.com/somos-dinahosting/infraestructura" />
+<link rel="alternate" hreflang="x-default" href="https://dinahosting.com/somos-dinahosting/infraestructura" />
+    <meta name="description" content="En dinahosting tu proyecto está en buenas manos: Centros de Datos e infraestructura de red de alta calidad y rendimiento, el mejor hardware y soporte 24/7" >    <meta name="theme-color" content="#f68642">
+
+    <!-- Manifest-->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="/moura/img-dina/favicon.png" type="image/x-icon"/>
+
+    <!-- Apple touch icon-->
+    <link rel="apple-touch-icon" href="/moura/img-dina/apple-touch-icon-57x57.png" />
+
+    <link href="http://dinahosting.com/somos-dinahosting/infraestructura" rel="canonical" >
+<link href="/moura/built/main.css?5.12.2023v2" media="screen" rel="stylesheet" type="text/css" ></head>
+
+<body class="">
+
+
+<input type="hidden" class="dh-cookies" name="message" value="¡Hola! Solo utilizamos cookies propias con finalidad técnica. Para más información, consulta la <a href='/legal/cookies'>Política de cookies</a>.">
+<input type="hidden" class="dh-cookies" name="configure" value="CONFIGURAR">
+<input type="hidden" class="dh-cookies" name="allow" value="ACEPTAR">
+<input type="hidden" class="dh-cookies" name="c_mandatory_title" value="Cookies necesarias">
+<input type="hidden" class="dh-cookies" name="c_mandatory" value="Cookies imprescindibles para el funcionamiento de la página">
+<input type="hidden" class="dh-cookies" name="c_status_name" value="dh_cookie">
+<input type="hidden" class="dh-cookies" name="c_domain" value="dinahosting.com">
+<script>
+    window.addEventListener("DOMContentLoaded", function () {
+        const lopd = new Lopd();
+    });
+</script>
+
+<div class="header-wrapper">
+
+    
+    <div class="notice alert fade " id="notice-form">
+    <div class="container">
+        <span>
+            <i class="fa fa-warning fa-fw"></i>&nbsp;<span id="notice-form-message">No se puede dar de alta este servicio. Contacta con Soporte</span>
+        </span>
+    </div>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+    <!--=== Header v6 ===-->
+<header class="menu-header menu-color-dark menu-color-dark">
+    
+<!-- Main menu -->
+<nav id="main-menu" class="menu">
+    <!-- Navbar Brand -->
+    <a href="/" class="menu-header-logo" title="dinahosting">
+        <svg version="1.1" class="logo-default" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+     xml:space="preserve" viewBox="0 0 233.52 51.43" role="img" aria-label="logo Dinahosting"
+     style="enable-background:new 0 0 233.52 51.43;">
+    <title>dinahosting</title>
+    <path class="logo-typo-color"
+          d="M217.15,31.86V21.44c0-.8-.69-1-1.46-1.23a15.37,15.37,0,0,0-4.45-.65,16.68,16.68,0,0,0-3,.27,7,7,0,0,0-5.83,5.29,14.12,14.12,0,0,0,.06,7.3,6.85,6.85,0,0,0,4.71,4.82,9.36,9.36,0,0,0,2.25.44c.43,0,.91,0,1.48,0a7.87,7.87,0,0,0,2-.21c.72-.19,1.06-.48,1.06,0,0,1.42-1.42,3.18-5,2.9-.73-.06-1,0-1,.47v1.65c0,.52.45.56,1,.62,4.69.52,8.18-2.9,8.18-6.65Zm-3.17,2c0,.73-.06,1.05-.76,1.22a11,11,0,0,1-2.56.25,10.79,10.79,0,0,1-1.15-.06,4.87,4.87,0,0,1-3.61-2.94,9.68,9.68,0,0,1-.61-5.51,6.87,6.87,0,0,1,.4-1.42,4.66,4.66,0,0,1,4.37-3.27,9.92,9.92,0,0,1,2.87.21c.56.13,1,.26,1,.79V33.9Z"/>
+    <path class="logo-typo-color"
+          d="M164.52,32.19a4.5,4.5,0,0,0-2.13-3.45,9.25,9.25,0,0,0-2-.9,22.14,22.14,0,0,1-4.28-1.29,1.77,1.77,0,0,1-.75-1.41,2.31,2.31,0,0,1,1.69-2.4,4.92,4.92,0,0,1,3,.22c1.21.37,1.88.75,2.4.92.33.11.61.12.73-.28.06-.21.48-1.35.55-1.56.12-.4,0-.55-.45-.74a12.22,12.22,0,0,0-5.09-1.25,10.07,10.07,0,0,0-1.34.1,5.77,5.77,0,0,0-3.14,1.61,5,5,0,0,0-.35,6.09A5.43,5.43,0,0,0,156,29.63c1.61.51,3.7.72,4.41,1.21a2,2,0,0,1,1.1,2.34,1.81,1.81,0,0,1-1.06,1.33,6.06,6.06,0,0,1-1.13.35,7.35,7.35,0,0,1-1.16.12,9.16,9.16,0,0,1-2.51-.4c-.42-.12-2.14-.74-2.28-.78-.42-.12-.5.12-.61.42l-.53,1.66c-.14.44,0,.54.69.81A14.28,14.28,0,0,0,158,37.78a11.64,11.64,0,0,0,3.05-.37,4.2,4.2,0,0,0,3-2.52A5.57,5.57,0,0,0,164.52,32.19Z"/>
+    <rect class="logo-typo-color" x="74.09" y="15.26" width="3.18" height="3.18" rx="0.53"/>
+    <rect class="logo-typo-color" x="74.09" y="20.95" width="3.18" height="16.61" rx="0.53"/>
+    <rect class="logo-typo-color" x="178.12" y="15.26" width="3.18" height="3.18" rx="0.53"/>
+    <rect class="logo-typo-color" x="178.12" y="20.91" width="3.18" height="16.61" rx="0.53"/>
+    <path class="logo-typo-color"
+          d="M141.94,20.38c-4.49,0-8.13,3-8.13,8.66s3.64,8.65,8.13,8.65,8.12-2.82,8.12-8.65C150.06,23.56,146.53,20.38,141.94,20.38Zm0,15c-2.83,0-4.77-2.59-4.77-6.3,0-3.9,1.94-6.31,4.77-6.31s4.77,2.41,4.77,6.31C146.71,33.12,144.77,35.34,141.94,35.34Z"/>
+    <path class="logo-typo-color"
+          d="M131.5,29.59a21,21,0,0,0-.16-2.59,6.9,6.9,0,0,0-6.16-6.37,15.25,15.25,0,0,0-2.64-.22,16.78,16.78,0,0,0-2.68.22.18.18,0,0,1-.2-.18V15.82a.53.53,0,0,0-.53-.53H117a.53.53,0,0,0-.53.53V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V24c0-.6.17-.71.64-.79a15.94,15.94,0,0,1,2.6-.23,10.39,10.39,0,0,1,1.74.13,4.71,4.71,0,0,1,3.23,3.25,9.06,9.06,0,0,1,.44,3.08c0,1.61,0,7.57,0,7.57a.53.53,0,0,0,.53.53H131a.53.53,0,0,0,.53-.53Z"/>
+    <path class="logo-typo-color"
+          d="M170.9,23.9h4.24a.53.53,0,0,0,.53-.53V21.44a.53.53,0,0,0-.53-.53h-4.24a.53.53,0,0,1-.53-.53V15.79a.53.53,0,0,0-.53-.53h-2.12a.53.53,0,0,0-.53.53V26.92c0,3.79-.53,10.6,6.89,10.6h1.06a.53.53,0,0,0,.53-.53V35a.53.53,0,0,0-.53-.53h-1.06c-3.91,0-3.72-2.92-3.72-6.8V24.43A.53.53,0,0,1,170.9,23.9Z"/>
+    <path class="logo-typo-color" d="M84.43,32.68Z"/>
+    <path class="logo-typo-color"
+          d="M96.27,29.25a21.33,21.33,0,0,0-.16-2.6c-.47-3.57-2.6-5.59-6.16-6.19a16.31,16.31,0,0,0-2.64-.21,21.22,21.22,0,0,0-5.22.71c-.74.2-.83.4-.84,1.13V37a.53.53,0,0,0,.53.53H83.9a.53.53,0,0,0,.53-.53V23.75c0-.61.11-.74.66-.8a14,14,0,0,1,2.46-.24,9.64,9.64,0,0,1,1.78.14A4.56,4.56,0,0,1,92.63,26a9.37,9.37,0,0,1,.45,3.14c0,1.65,0,5.95,0,5.95v2a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V29.25Z"/>
+    <path class="logo-typo-color"
+          d="M69.47,15.26H67.68A.69.69,0,0,0,67,16v4.93a.19.19,0,0,1-.24.19,15.9,15.9,0,0,0-3.89-.43c-4.42,0-7.88,2.92-7.88,8.57s3.53,8.64,8.3,8.66a24.34,24.34,0,0,0,3.91-.25,9.63,9.63,0,0,0,2.29-.6c.35-.18.69-.41.69-.8V16A.69.69,0,0,0,69.47,15.26ZM63.39,35.4a4.38,4.38,0,0,1-3.79-1.61,6.74,6.74,0,0,1-1.49-4.58c0-2.21.58-3.74,1.73-4.76A4.62,4.62,0,0,1,63.27,23c3.1,0,3.71.78,3.71,1.42V34C67,35,66.48,35.4,63.39,35.4Z"/>
+    <path class="logo-typo-color"
+          d="M113.19,27.11c0-3.53-1.71-5.54-4-6.25a10.58,10.58,0,0,0-2.16-.51,12.54,12.54,0,0,0-1.74-.06c-.62,0-1.33.07-1.93.14a12.3,12.3,0,0,0-2.14.5c-.4.12-.9.34-1.14.43a.24.24,0,0,0-.17.27c.1.33.46,1.55.6,2a.22.22,0,0,0,.29.09l.92-.28a12.05,12.05,0,0,1,3.77-.61l.81,0a5,5,0,0,1,2.14.59c1.23.73,1.65,1.55,1.65,3.25a.33.33,0,0,1-.4.33,10.47,10.47,0,0,0-2.77-.33c-5.47,0-8.22,2.46-8.22,5.65s3,5.65,8.66,5.65a13.52,13.52,0,0,0,5.5-1,.53.53,0,0,0,.3-.48V27.11Zm-3.09,7.66a.51.51,0,0,1-.43.53,5.91,5.91,0,0,1-.93.19,16,16,0,0,1-2.2.17,9,9,0,0,1-2.21-.26,3.51,3.51,0,0,1-1.91-1.08,3.09,3.09,0,0,1-.7-2,2.8,2.8,0,0,1,.58-1.92,4,4,0,0,1,2.2-1.25,7.9,7.9,0,0,1,2.15-.25,10.26,10.26,0,0,1,2.86.46.88.88,0,0,1,.59.71v4.69Z"/>
+    <path class="logo-typo-color" d="M188.05,32.64Z"/>
+    <path class="logo-typo-color"
+          d="M199.89,29.22a23.33,23.33,0,0,0-.15-2.6c-.48-3.57-2.61-5.6-6.17-6.2a16.22,16.22,0,0,0-2.64-.21,21.15,21.15,0,0,0-5.21.71c-.75.21-.83.41-.85,1.13V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V23.72c0-.61.11-.74.66-.81a13.51,13.51,0,0,1,2.47-.23,9.71,9.71,0,0,1,1.77.13,4.59,4.59,0,0,1,3.31,3.13,9.74,9.74,0,0,1,.45,3.15V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V29.22Z"/>
+    <path class="logo-typo-color"
+          d="M45.17,31.9,34.28,13.05a3.76,3.76,0,0,0-6.52,0L16.88,31.9a3.77,3.77,0,0,0,3.26,5.65H41.9A3.77,3.77,0,0,0,45.17,31.9Zm-6.23,2.52H23.11a2.36,2.36,0,0,1-2.05-3.55L29,17.15a2.37,2.37,0,0,1,4.1,0L41,30.87A2.37,2.37,0,0,1,38.94,34.42Z"/></svg>
+<svg version="1.1" class="logo-shrink" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+     xml:space="preserve" viewBox="0 0 60 51.43" role="img" aria-label="Logo mini dinahosting"
+     style="enable-background:new 0 0 60 51.43;">
+    <title>dinahosting</title>
+    <path class="logo-iso-color"
+          d="M45.17,31.9,34.28,13.05a3.76,3.76,0,0,0-6.52,0L16.88,31.9a3.77,3.77,0,0,0,3.26,5.65H41.9A3.77,3.77,0,0,0,45.17,31.9Zm-6.23,2.52H23.11a2.36,2.36,0,0,1-2.05-3.55L29,17.15a2.37,2.37,0,0,1,4.1,0L41,30.87A2.37,2.37,0,0,1,38.94,34.42Z"/></svg>    </a>
+    <!-- Menu primary -->
+    <ul class="menu-primary" role="menubar" aria-label="Menú">
+        <!-- Dominios -->
+        <li role="menuitem" aria-label="Dominios" class="access-focus">
+            <a id="menu-dominios-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown "
+                 href="#menu-dominios" data-js-target="#menu-dominios" role="button" aria-haspopup="true" aria-expanded="false">
+                Dominios            </a>
+            <div id="menu-dominios" class="menu-secondary" aria-labelledby="menu-dominios-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Registro">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dominios">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-gestion_dns"></use>
+                                </svg>
+                                <span class="text-bold">Dominios                                    <span class="badge menu-label">PROMO</span>
+                                                                     </span>
+                                <small class="hidden-sm hidden-xs">Más de 400 extensiones a elegir</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Trasladar dominios">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dominios/trasladar-dominios">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-exchange"></use>
+                                </svg>
+                                <span class="text-bold">Trasladar dominios</span>
+                                <small class="hidden-sm hidden-xs">3 meses de hosting gratis con tu traslado</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Registrar por volumen">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dominios/registro-volumen">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-ingresos"></use>
+                                </svg>
+                                <span class="text-bold">Registrar por volumen                                    <span class="badge menu-label">promo</span>
+                                </span>
+                                <small class="hidden-sm hidden-xs">Hasta un 30 % de descuento. ¡Aprovecha!</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Precios dominios">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dominios/precios-registro-dominios">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-percentage"></use>
+                                </svg>
+                                <span class="text-bold">Precios de dominios</span>
+                                <small class="hidden-sm hidden-xs">Regístralos por varios años y ahorra más</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Hosting-->
+        <li role="menuitem" aria-label="Hosting" class="access-focus">
+            <a id="menu-hosting-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown "
+                 href="#menu-hosting" data-js-target="#menu-hosting" role="button" aria-haspopup="true" aria-expanded="false">
+                Hosting            </a>
+            <div id="menu-hosting" class="menu-secondary" aria-labelledby="menu-hosting-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Hostings">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-hosting-2"></use>
+                                </svg>
+                                <span class="text-bold">Hosting                                    <span class="badge menu-label">-75 %</span>
+                                                                    </span>
+                                <small class="hidden-sm hidden-xs">
+                                    Prueba tu hosting gratis y paga al publicar tu web                                </small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Hosting WordPress">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting/hosting-wordpress">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-wordpress-2"></use>
+                                </svg>
+                                <span class="text-bold">Hosting WordPress <span class="badge menu-label">-75 %</span>
+                                                                       </span>
+                                <small class="hidden-sm hidden-xs">Optimizado con el autoinstalador más completo</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Correo profesional">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting/hosting-correo">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-webmail"></use>
+                                </svg>
+                                <span class="text-bold">Correo profesional                                    <span class="badge menu-label">-60 %</span>
+                                </span>
+                                <small class="hidden-sm hidden-xs">Con tu propio dominio ¡destaca tu marca!</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Crear tienda woocommerce">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting/crear-tienda-woocommerce">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-ico-woocommerce"></use>
+                                </svg>
+                                <span class="text-bold">Crear tienda WooCommerce                                    <span class="badge menu-label">-75 %</span>
+                                    <span style="background-color: #9fd66f" class="badge menu-label hidden-xs">
+                                        Nuevo                                    </span>
+                                                                      </span>
+                                <small class="hidden-sm hidden-xs">WooCommerce en un clic</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Crear tienda prestashop">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting/crear-tienda-prestashop">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-ico-prestashop"></use>
+                                </svg>
+                                <span class="text-bold">Crear tienda PrestaShop<span class="badge menu-label">-75 %</span><span style="background-color: #9fd66f" class="badge menu-label hidden-xs">
+                                        Nuevo</span>
+                                                                       </span>
+                                <small class="hidden-sm hidden-xs">Tu ecommerce más avanzado</small>
+                            </a>
+                        </li>
+
+                        <li role="menuitem" aria-label="Precios de hosting">
+                            <a class="menu-link menu-link--color-change"
+                               href="/hosting/precios-hosting">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-ingresos"></use>
+                                </svg>
+                                <span class="text-bold">Precios de hosting</span>
+                                <small class="hidden-sm hidden-xs">¡Grandes descuentos por volumen!</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Servidores-->
+        <li role="menuitem" aria-label="Servidores" class="access-focus">
+            <a id="menu-vps-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown "
+                 href="#menu-vps" data-js-target="#menu-vps" role="button" aria-haspopup="true" aria-expanded="false">
+                Servidores            </a>
+            <div id="menu-vps" class="menu-secondary" aria-labelledby="menu-vps-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="VPS">
+                            <a class="menu-link menu-link--color-change"
+                               href="/vps">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-vps-server"></use>
+                                </svg>
+                                <span class="text-bold">VPS                                                                    </span>
+                                <small class="hidden-sm hidden-xs">Los VPS más rápidos y seguros con discos NVMe</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="VPS GPU">
+                            <a class="menu-link menu-link--color-change"
+                               href="/vps/vps-gpu">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-dedicados"></use>
+                                </svg>
+                                <span class="text-bold">VPS GPU<span
+                                            style="background-color: #9fd66f"
+                                            class="badge menu-label">Nuevo</span>
+                                </span>
+                                <small class="hidden-sm hidden-xs">Procesamiento masivo a tu alcance</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Servidores dedicados">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dedicados">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-dedicated-server"></use>
+                                </svg>
+                                <span class="text-bold">Servidores Dedicados                                    <span class="badge menu-label">promo</span>
+                                                                      </span>
+                                <small class="hidden-sm hidden-xs">Alojados en España. Máximo rendimiento y conectividad</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Servidores gpu">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dedicados/servidores-gpu">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-dedicados"></use>
+                                </svg>
+                                <span class="text-bold">Servidores Dedicados GPU<span style="background-color: #9fd66f" class="badge menu-label">
+                                        Nuevo                                    </span></span>
+                                <small class="hidden-sm hidden-xs">Computación acelerada para tus proyectos</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Cloud Hosting">
+                            <a class="menu-link menu-link--color-change"
+                               href="/cloud-hosting">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-cloud-server"></use>
+                                </svg>
+                                <span class="text-bold">Cloud Hosting</span>
+                                <small class="hidden-sm hidden-xs">Toda la potencia y recursos cuando los necesitas</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Cloud privada">
+                            <a class="menu-link menu-link--color-change"
+                               href="/dedicados/cloud-privada">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-cloud-privada-2"></use>
+                                </svg>
+                                <span class="text-bold">Cloud Privada</span>
+                                <small class="hidden-sm hidden-xs">Tu infraestructura virtual a medida</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Soluciones avanzadas">
+                            <a class="menu-link menu-link--color-change"
+                               href="/soluciones-avanzadas">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-dedicados"></use>
+                                </svg>
+                                <span class="text-bold">Soluciones Avanzadas</span>
+                                <small class="hidden-sm hidden-xs">Servicios personalizados para proyectos de alta exigencia</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Insfraestructura">
+                            <a class="menu-link menu-link--color-change"
+                               href="/somos-dinahosting/infraestructura">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-infraestructura"></use>
+                                </svg>
+                                <span class="text-bold">Infraestructura</span>
+                                <small class="hidden-sm hidden-xs">Máxima seguridad y rendimiento para tu proyecto</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Resellers-->
+        <li role="menuitem" aria-label="Resellers" class="access-focus">
+            <a id="menu-resellers-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown "
+                 href="#menu-resllers" data-js-target="#menu-resellers" role="button" aria-haspopup="true" aria-expanded="false">
+                Resellers            </a>
+            <div id="menu-resellers" class="menu-secondary" aria-labelledby="menu-resellers-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Reseller">
+                            <a class="menu-link menu-link--color-change"
+                               href="/resellers">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-tienda_online"></use>
+                                </svg>
+                                <span class="text-bold">Resellers</span>
+                                <small class="hidden-sm hidden-xs">Ideal para agencias y profesionales de la web</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Afiliados">
+                            <a class="menu-link menu-link--color-change"
+                               href="/resellers/afiliados">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-todo_a_mano"></use>
+                                </svg>
+                                <span class="text-bold">Afiliados</span>
+                                <small class="hidden-sm hidden-xs">Recomiéndanos y gana un 25 % de comisión</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <ul role="menu">
+
+                        <li role="menuitem" aria-label="Api">
+                            <a class="menu-link menu-link--color-change"
+                               href="/api">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-api"></use>
+                                </svg>
+                                <span class="text-bold">API</span>
+                                <small class="hidden-sm hidden-xs">Todos los comandos que necesitas</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Precios resellers">
+                            <a class="menu-link menu-link--color-change"
+                               href="/resellers/precios-resellers">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-ingresos"></use>
+                                </svg>
+                                <span class="text-bold">Precios Resellers</span>
+                                <small class="hidden-sm hidden-xs">¡Grandes descuentos por volumen!</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Mucho mas-->
+        <li role="menuitem" aria-label="Mucho más" class="access-focus">
+            <a id="menu-mucho-mas-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown "
+               href="#menu-mucho-mas"
+                 data-js-target="#menu-mucho-mas" role="button" aria-haspopup="true" aria-expanded="false">
+                Mucho más            </a>
+            <div id="menu-mucho-mas" class="menu-secondary" aria-labelledby="menu-mucho-mas-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Certificados SSL">
+                            <a class="menu-link menu-link--color-change"
+                               href="/mas-servicios/certificados-ssl">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-teu_certificado"></use>
+                                </svg>
+                                <span class="text-bold">Certificados SSL                                </span>
+                                <small class="hidden-sm hidden-xs">Protege los datos de tus clientes</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Tu web legal">
+                            <a class="menu-link menu-link--color-change"
+                               href="/mas-servicios/asesoria-legal">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-balance"></use>
+                                </svg>
+                                <span class="text-bold">Tu web legal</span>
+                                <small class="hidden-sm hidden-xs">Asesoramiento jurídico en Internet</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Asesoría técnica">
+                            <a class="menu-link menu-link--color-change"
+                               href="/mas-servicios/asesoria-tecnica">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-recambio"></use>
+                                </svg>
+                                <span class="text-bold">Asesoría Técnica</span>
+                                <small class="hidden-sm hidden-xs">Tu hosting securizado y optimizado</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="SMS">
+                            <a class="menu-link menu-link--color-change"
+                               href="/mas-servicios/sms">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-sms_100"></use>
+                                </svg>
+                                <span class="text-bold">SMS</span>
+                                <small class="hidden-sm hidden-xs">Envía SMS al mejor precio</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Almacenamiento adicional">
+                            <a class="menu-link menu-link--color-change"
+                               href="/mas-servicios/premium">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-autoescalador"></use>
+                                </svg>
+                                <span class="text-bold">Almacenamiento adicional</span>
+                                <small class="hidden-sm hidden-xs">Más espacio para tus ficheros</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Soporte-->
+        <li role="menuitem" aria-label="Soporte">
+            <div id="menu-soporte-dropdown">
+                <a class="menu-link menu-link--color-change menu-link--underline no-change "
+                   href="/somos-dinahosting/hablanos">
+                    Soporte                </a>
+            </div>
+        </li>
+
+        <!-- Somos dina-->
+        <li role="menuitem" aria-label="Somos dinahosting" class="access-focus">
+            <a id="menu-somos-dh-dropdown"
+                 class="pointer-default menu-link menu-link--underline menu-dropdown activeMenu"
+               href="#menu-somos-dh"
+                 data-js-target="#menu-somos-dh" role="button" aria-haspopup="true" aria-expanded="false">
+                Somos DH            </a>
+            <div id="menu-somos-dh" class="menu-secondary" aria-labelledby="menu-somos-dh-dropdown">
+                <div class="menu-column">
+                    <ul role="menu">
+                        <li role="menuitem" aria-label="Somos dinahosting">
+                            <a class="menu-link menu-link--color-change"
+                               href="/somos-dinahosting">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-todo_a_mano"></use>
+                                </svg>
+                                <span class="text-bold">Somos dinahosting</span>
+                                <small class="hidden-sm hidden-xs">Contigo el mejor equipo</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Casos de éxito">
+                            <a class="menu-link menu-link--color-change"
+                               href="/somos-dinahosting/casos-exito">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-calidad_2"></use>
+                                </svg>
+                                <span class="text-bold">Casos de éxito</span>
+                                <small class="hidden-sm hidden-xs">Clientes que confían en nosotros</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Responsabilidad social">
+                            <a class="menu-link menu-link--color-change"
+                               href="/somos-dinahosting/responsabilidad-social">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-roots"></use>
+                                </svg>
+                                <span class="text-bold">Responsabilidad social</span>
+                                <small class="hidden-sm hidden-xs">Compromiso con nuestro entorno</small>
+                            </a>
+                        </li>
+                        <li role="menuitem" aria-label="Trabaja con nosotros">
+                            <a class="menu-link menu-link--color-change"
+                               href="/somos-dinahosting/trabaja-con-nosotros">
+                                <svg class="hidden-sm hidden-xs" viewBox="0 0 30 30" height="30" aria-hidden="true">
+                                    <use href="#dhicon-todo_incluido"></use>
+                                </svg>
+                                <span class="text-bold">Trabaja con nosotros</span>
+                                <small class="hidden-sm hidden-xs">Empleo estable e igualdad de oportunidades</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!-- Blog-->
+        <li role="menuitem" aria-label="Blog" class="visible-sm visible-xs">
+            <div id="menu-blog-dropdown">
+                <a class="menu-link menu-link--color-change no-change" href="https://dinahosting.com/blog"
+                   target="_blank">
+                    <span>Blog</span>
+                </a>
+            </div>
+        </li>
+        <li role="menuitem" aria-label="Blog" class="hidden-sm hidden-xs">
+            <div id="menu-blog-dropdown-xs">
+                <a class="menu-link menu-link--color-change no-change" href="https://dinahosting.com/blog"
+                   target="_blank">
+                    <span>Blog</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Menu user -->
+    <ul class="menu-user" role="menubar" aria-label="Menú usuario">
+        <li class="menu-phone" role="menuitem" aria-label="Teléfono">
+            <a id="menu-phone-dropdown" href="tel:900854000" class="menu-link menu-link--color-change no-change no-subrayar
+            hidden-xs" data-js-target="#menu-phone" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-phone fa-fw" style="margin-top: 2px" aria-hidden="true"></i>
+                <span class="hidden-xs">900 854 000</span>
+                <small class="tel-gratis">Gratis</small>
+                <span class="sr-only">Teléfono</span>
+            </a>
+        </li>
+
+        <li class="menu-chat hidden-xs" role="menuitem" aria-label="Chat">
+            <button id="menu-chat-dropdown" data-chat="soporte"
+                    class="menu-link menu-link--color-change no-change hidden-xs"
+                    data-js-target="#menu-chat" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-comment fa-fw"></i>
+                <span class="sr-only">Chat</span>
+            </button>
+        </li>
+
+        <li class="menu-email hidden-xs" role="menuitem" aria-label="Email">
+            <a id="menu-email-dropdown" href="mailto:soporte@dinahosting.com"
+               class="menu-link menu-link--color-change no-change hidden-xs" data-js-target="#menu-email" role="button"
+               aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-envelope fa-fw"></i>
+                <span class="sr-only">Email</span>
+            </a>
+        </li>
+
+        <li class="menu-ayuda hidden-xs" role="menuitem" aria-label="Ayuda">
+            <a id="menu-ayuda-dropdown" href="/ayuda"
+               class="menu-link menu-link--color-change no-change hidden-xs" data-js-target="#menu-ayuda" role="button"
+               aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-question-circle fa-fw"></i>
+                <span class="sr-only">Ayuda</span>
+            </a>
+        </li>
+
+        <!-- Idiomas-->
+        <li role="menuitem" aria-label="Idiomas" class="access-focus">
+            <a href="#menu-idiomas"
+               class="pointer-default menu-link menu-dropdown menu-link--underline activeMenu hidden-xs"
+               data-js-target="#menu-idiomas" aria-haspopup="true" aria-expanded="false" style="width: 32px;">
+                es            </a>
+            <div id="menu-idiomas" class="menu-secondary menu-secondary-idioma"
+                 style="border: none">
+                <ul role="menu" aria-label="Idioma">
+                                                                                                                            <li role="menuitem" aria-label="ca">
+                                <a href="https://ca.dinahosting.com/somos-dinahosting/infraestructura?language-change=cat"
+                                   class="menu-link menu-link--color-change text-uppercase "
+                                   data-codigo-idioma="ca">
+                                    ca                                </a>
+                            </li>
+                                                                                                                                                    <li role="menuitem" aria-label="en">
+                                <a href="https://en.dinahosting.com/somos-dinahosting/infraestructura?language-change=en"
+                                   class="menu-link menu-link--color-change text-uppercase "
+                                   data-codigo-idioma="en">
+                                    en                                </a>
+                            </li>
+                                                                                                                                                                                                                        <li role="menuitem" aria-label="gl">
+                                <a href="https://gl.dinahosting.com/somos-dinahosting/infraestructura?language-change=gz"
+                                   class="menu-link menu-link--color-change text-uppercase "
+                                   data-codigo-idioma="gl">
+                                    gl                                </a>
+                            </li>
+                                                                                                                                                    <li role="menuitem" aria-label="pt">
+                                <a href="https://pt.dinahosting.com/somos-dinahosting/infraestructura?language-change=pt"
+                                   class="menu-link menu-link--color-change text-uppercase "
+                                   data-codigo-idioma="pt">
+                                    pt                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+        </li>
+
+        <li role="menuitem" aria-label="Login" class="access-focus">
+                <a href="#loginPopup" class="menu-link menu-link--color-change no-subrayar no-change js_header-popup-call" role="button" data-js-target="#loginPopup" aria-label="Login">
+        <span class="hidden-xs">Login</span>
+        <span class="glyphicon glyphicon-user hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>
+    </a>
+        </li >
+
+
+                <li role="menuitem" aria-label="Mostrar menu">
+            <button type="button" class="menu-link menu-link--color-change menu-toggle no-change"
+                    data-js-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false"
+                    aria-label="Muestra menú">
+                <i class="fa fa-menu fa-fw"></i>
+                <span class="sr-only">Menú</span>
+            </button>
+        </li>
+    </ul>
+</nav></header></div>
+
+<div id="wrapper">
+    <div id="loginPopup" class="js_header-popup hidden" aria-hidden="true">
+    <form id="form-login"
+          action="/usuario/login"
+          method="post" autocomplete="off">
+        <input type="hidden" name="acceder" value="acceder">
+        <div class="container">
+            <div class="login-formulario">
+                <input type="hidden" name="tipologin" id="tipo-login" value="web">
+                <div class="inicio">
+                    <p><b>Inicia sesión</b></p>
+                    <div>
+                        <div class="usuario">
+                            <label class="sr-only" for="usuario">Usuario</label>
+                            <input id="usuario" type="text"
+                                   placeholder="Usuario / Email principal" name="usuario"
+                                   required>
+                        </div>
+                        <div class="contraseña">
+                            <label class="sr-only" for="clave">Contraseña</label>
+                            <input data-password="overlay" id="clave" type="password"
+                                   placeholder="Contraseña"
+                                   name="clave" required>
+                            <i data-password-toggle="overlay" class="form__eyes-i pull-right"></i>
+                        </div>
+                    </div>
+                    <div class="botonera m-b-20">
+                        <button id="form-submit-web-buttom" class="btn-submit" type="submit" name="web">Seguir en la web</button>
+                        <button id="form-submit-button" class="btn-submit"
+                                type="submit" name="panel">Ir al Panel</button>
+                    </div>
+                </div>
+                <div class="registro">
+                    <p><b>Regístrate</b></p>
+                    <p style="color: white;">¿Aún no eres usuario? Date de alta un momento y empieza a disfrutar de todas nuestras ventajas. </p>
+                    <a class="btn-register text-uppercase" style="color: white;margin-bottom: 2.2em;"
+                       href="/usuario/registro-de-usuario">alta</a>
+                </div>
+
+            </div>
+
+            <a class="js_cus-close" href="#loginPopup" title="Cerrar">
+                <i class="fa fa-close fa-2x"></i>
+            </a>
+        </div>
+    </form>
+</div>
+        <div
+        class="cta cta--dedicados-infraestructura ">
+    <div class="cta__inner">
+
+                    <picture class="cta__image">
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-big.webp"
+                        type="image/webp" media="(min-width:2100px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-big.jpg" type="image/jpg"
+                        media="(min-width:2100px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas.webp"
+                        type="image/webp" media="(min-width:1200px) and (max-width:2099px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas.jpg" type="image/jpg"
+                        media="(min-width:1200px) and (max-width:2099px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-md.webp"
+                        type="image/webp" media="(min-width:992px) and (max-width:1199px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-md.jpg" type="image/jpg"
+                        media="(min-width:992px) and (max-width:1199px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-sm.webp"
+                        type="image/webp" media="(min-width:768px) and (max-width:991px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-sm.jpg" type="image/jpg"
+                        media="(min-width:768px) and (max-width:991px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-sm.webp"
+                        type="image/webp" media="(min-width:421px) and (max-width:767px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-sm.jpg" type="image/jpg"
+                        media="(min-width:421px) and (max-width:767px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-xs.webp"
+                        type="image/webp" media="(max-width:420px)"/>
+                <source srcset="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas-xs.jpg" type="image/jpg"
+                        media="(max-width:420px)"/>
+                <img src="/moura/img-dina/secciones/trimestre2023/Marinas/Marinas.jpg"
+                     alt="Infraestructura de máxima seguridad y rendimiento">
+            </picture>
+            
+        <div class="cta__body">
+            <div class="cta__container">
+                <div class="cta__copies">
+                    <!-- TÍTULO O CLAIM PRINCIPAL -->
+                                            <h1 class="cta__h1">Infraestructura de máxima seguridad y rendimiento</h1>
+                    
+                    <!-- DESCRIPCIÓN DEL CTA -->
+                                            <h2 class="cta__h2">Centros de Datos en España<br>Discos NVMe, ¡mucho más rápidos!</h2>
+                    
+                    <!-- DESCRIPCIÓN DEL CTA -->
+                    
+
+                    <!-- CARACTERÍSTICAS DEL CTA EN FORMA DE LISTA -->
+                                                                <!-- PRECIO DEL CTA -->
+                        
+                        <!-- BOTÓN PRINCIPAL DEL CTA -->
+                        
+                                    </div>
+            </div>
+        </div>
+
+                    <div class="cta__footer">
+                <span class="cta__caption">
+                    Miguel Mariñas. Desarrollo                </span>
+            </div>
+            </div>
+</div>
+    <!-- CONTENIDO POSICIONADO ABSOLUTO CON INFORMACIÓN DE PROMOS INDEPENDIENTES DEL CTA, ETC.  -->
+
+    <div>
+    <script>
+      const scrollingText = document.querySelector('.cta__promo-strip-text')
+      if (scrollingText !== null) {
+        scrollingText.innerHTML += '<b>Black Friday</b>'
+        scrollingText.innerHTML = scrollingText.innerHTML.repeat(4)
+
+        const containerWidth = document.querySelector('.cta__container').offsetWidth
+        const textWidth = scrollingText.offsetWidth
+
+        if (textWidth > containerWidth) {
+          const animationDuration = textWidth / 100
+          scrollingText.style.animationDuration = `${animationDuration}s`
+        }
+      }
+    </script>    
+
+<!-- BLOQUE: CPD -->
+<section class="section section--padded section--no-margin">
+    <div class="container text-center">
+        <h2><span class="custom-color">Garantías de tener tu alojamiento web en dinahosting</span></h2>
+        <p class="no-margin">Puedes tener la seguridad de que en dinahosting tu proyecto está en buenas manos: Centros de Datos e infraestructura de red de alto rendimiento, hardware de máxima calidad que hemos testeado previamente y Soporte Técnico próximo y dedicado siempre que lo necesitas.</p>
+    </div>
+</section>
+<!-- END BLOQUE: CPD -->
+
+<!-- BLOQUE CENTRO DE DATOS -->
+<section class="section section--gradient-ocean section--padded section--no-margin">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 margin-bottom-20">
+                <picture>
+                    <source srcset="/moura/img/somos_dinahosting/cpd_11.webp" media="all" type="image/webp">
+                    <img class="img-responsive" src="/moura/img/somos_dinahosting/cpd_11.jpg" alt="CPD" loading="lazy" width="588" height="766" />
+                </picture>
+            </div>
+            <div class="col-md-6">
+                <h2 class="margin-bottom-20">Nuestros Centros de Datos</h2>
+                <div class="rates__list no-margin-bottom">
+                    <ul class="servis-list">
+                        <li><h5>Localizados en Interxion y Global Switch, en Madrid</h5><p>233 m² de superficie en 4 cubos completamente independientes, planificados para garantizar su crecimiento y la comodidad en el trabajo del equipo técnico. Más de 3000 servidores dispuestos en racks Open Frame con cerramiento en cubos.</p></li>
+
+                        <li><h5>Alimentación garantizada</h5><p>
+                                Doble acometida eléctrica, baterías, SAI y grupos electrógenos redundantes. Tu web estará operativa aún en caso de caídas eléctricas prolongadas.</p>
+                        </li>
+                        <li><h5>Infraestructura online pase lo que pase</h5><p>Contamos con un CPD alternativo de respaldo que cuenta con 4 líneas de fibra en comunicación directa con Interxion separadas y redundadas en 2 y 2 con más de 3 Km de distancia de separación entre ellas. Esto nos permite estar siempre conectados y operativos, incluso en el caso de que se produzca una incidencia grave o catástrofe (Disaster Recovery).</p></li>
+                        <li><h5>Control ambiental</h5><p>Hemos optimizado la gestión del espacio con cableado en el techo por rejibands y mantenemos las condiciones de temperatura y humedad óptimas que nos indican los fabricantes. Disponemos de una configuración de n+1 en máquinas de aire para que en caso de avería la refrigeración no se vea afectada.</p></li>
+
+                        <li><h5>Medidas anti-humedades e incendios</h5><p>Disponemos de multitud de detectores dispuestos por toda la sala y en los puntos más sensibles del CPD.                            </p></li>
+
+                        <li><h5>Certificación ISO</h5><p>Nuestro CPD cumple las certificaciones más exigentes del sector: ISO 9001 de calidad, ISO 27001 de seguridad de la información, ISO 22301 para la continuidad de negocio, ISO 14001 de medio ambiente y LEED Gold de sostenibilidad.</p></li>
+
+                        <li><h5>Green hosting</h5><p class="no-margin-bottom">Nuestro CPD está asociado a The Green Grid, un consorcio internacional que fomenta la implantación de estrategias efectivas de eficiencia energética entre las empresas más relevantes del sector.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- End row -->
+    </div>
+</section>
+<!-- End BLOQUE CENTRO DE DATOS-->
+
+<!-- BLOQUE RED -->
+<section class="section section--padded-top section--no-margin red">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">Red Dinahosting</span></h2>
+            <p class="text-center margin-bottom-40">Nuestra red está optimizada y monitorizada en todo momento para ofrecerte la mejor conectividad. ¡Compruébalo tú mismo!</p>
+            <div class="col-xs-12">
+                <h3>BGP y 5 proveedoras independientes de conexión</h3>
+                <p>Contamos con una red de alto rendimiento y disponibilidad, con nuestro propio Sistema Autónomo. Está redundada en todos los puntos, con salida hacia Internet con 5 proveedores diferentes y balanceada con BGP, para encaminar el tráfico siempre por la ruta más corta.</p>
+                <h3>Máxima disponibilidad y mínimas latencias</h3>
+                <p>Garantizamos la resolución de conflictos de enrutado en menos de 5 ms. Podemos ofrecer la mejor conectividad del Estado, latencias mínimas (valores medios por debajo de 0,2 ms) a nivel nacional e internacional y una disponibilidad real del 99,999 %.</p>
+                <h3>Monitorización independiente Netcraft™</h3>
+                <p>Nuestra red está siendo auditada a tiempo real por Netcraft, quien publica continuamente los resultados de su monitorización.</p>
+            </div>
+            <div class="col-xs-12">
+                
+<section class="section">
+    <div id="looking_glass_form_container" class="container">
+        <h2 class="text-center">Looking Glass</h2>
+        <p class="text-center margin-bottom-40">Revisa y corrige problemas en las rutas de encaminamiento.</p>
+        <div class="margin-bottom-20">
+            <small>Los campos obligatorios están marcados con un asterisco                (<span class="color-red">*</span>)
+            </small>
+        </div>
+
+
+        <form class="row" action="/dedicados/red-test" method="post" id="looking_glass_form">
+
+            <div class="form-group col-sm-6 col-xs-12">
+                <label class="label-2" for="selectModalidad">Acción</label>
+                <div class="select my-select-v" style="width: 100%">
+<select name="accion" id="selectModalidad" traducirOptions="1">
+    <option value="ping" label="Ping" selected="selected">Ping</option>
+    <option value="trace" label="Trace">Trace</option>
+    <option value="bgp" label="BGP">BGP</option>
+    <option value="as_path" label="AS-Path">AS-Path</option>
+    <option value="descarga" label="Descarga de fichero">Descarga de fichero</option>
+</select></div>
+            </div>
+
+            <div class="form-group col-sm-6 col-xs-12">
+                <label class="label-2" for="ip">IP router</label>
+                <div class="select my-select-v" style="width: 100%">
+<select name="ip" id="ip" traducirOptions="1">
+    <option value="10.10.10.150" label="Core-01-DH-Espanix" selected="selected">Core-01-DH-Espanix</option>
+    <option value="10.10.10.151" label="Core-02-DH">Core-02-DH</option>
+</select></div>
+            </div>
+
+            <div class="form-group col-md-6 col-xs-12">
+                <label class="label-2" for="parametro">IP o IPv6</label>
+                <input id="parametro" name="parametro" value="164.70.99.9" type="text" class="form-control " style="height: 40px;">
+            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                    <div class="form__field">
+                        <label for="captcha" class="label-2">
+                            Captcha                            <span class="color-red">&nbsp;*</span>
+                        </label>
+                        <div class="captcha">
+                            <img height="40" width="150" alt="Introduce el texto mostrado en la imagen" src="data:image/jpeg;base64,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">
+
+<div  class="captcha-form">
+    <div>
+        <input type="hidden" id="captchatext" value="captcha_43c5331c060cb1d2ebc3b13842cfe4a012d7ae9f"/>
+        <button class="btn btn-price" id="generateAudio"
+                aria-label="Generar audio">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+        </button>
+        <audio class="hidden" controls id="audioPlayer">
+            Tu navegador no soporta la reproducción de audio.        </audio>
+    </div>
+    <input type="text" name="captcha" id="captcha"
+           class="form-control" required>
+</div>
+
+</img>                        </div>
+                                            </div>
+                </div>
+            
+            <div class="form-group col-md-6 col-xs-12">
+                
+<button name="enviar" id="btn-prueba-red" type="submit" value="Probar red" class="btn btn-price" style="width: 100%">Probar red</button>            </div>
+        </form>
+
+        <div id="lookingGlassLoader" class="marxe-sup-xl texto-cent oculto">
+            <div class="paxinador-ver-mais">
+        </div>
+                
+            </div>
+</section>
+
+<script language="JavaScript">
+    function load() {
+        if ($('#selectModalidad').val() != 'descarga') {
+            let el = document.getElementById('btn-prueba-red');
+
+            el.style.position = 'relative';
+
+            let newCapa = document.createElement('div');
+            let loader = document.createElement('img');
+
+            loader.src = '/moura/img/loading.svg';
+            loader.alt =  'loading';
+            loader.style.position = 'absolute';
+            loader.style.top = 50 + '%';
+            loader.style.left = 50 + '%';
+            loader.style.margin = '-14px 0 0 -12px';
+
+
+            newCapa.appendChild(loader);
+            newCapa.id = `overlay-${new Date().getTime()}`;
+            newCapa.style.position = 'absolute';
+            newCapa.style.top = 0;
+            newCapa.style.left = 0;
+            newCapa.style.right = 0;
+            newCapa.style.bottom = 0;
+            newCapa.style.background = "#fff";
+
+            el.appendChild(newCapa);
+        }
+    }
+</script>            </div>
+        </div><!-- End row -->
+    </div>
+</section>
+<!-- End BLOQUE RED -->
+
+<!-- BLOQUE: PRODUCTOS -->
+<section class="section section--padded section--no-margin section--highlight">
+    <div class="container">
+        <h2 class="text-center"><span class="custom-color">
+                    Hardware que utilizamos en dinahosting                </span>
+        </h2>
+        <p class="text-center no-margin">Ofrecemos hardware con la máxima calidad y el mejor rendimiento para todos tus proyectos.</p>
+    </div>
+</section>
+<section class="section--highlight">
+    <div class="mosaic">
+        <picture>
+            <source srcset="/moura/img/asesoria/confiamos.webp" media="all" type="image/webp">
+            <img src="/moura/img/asesoria/confiamos.jpg" width="1100" height="468" class="img-mantain"
+                 alt="Solo componentes en los que confiamos" loading="lazy">
+        </picture>
+        <div class="mosaic-body">
+            <h3>Solo componentes en los que confiamos</h3>
+            <p>
+                Nuestra experiencia con diferentes tipos de hardware a lo largo de los años nos lleva a ofrecerte solo el de mayor calidad y de marcas líderes del mercado. Por eso utilizamos servidores Dell y Lenovo.            </p>
+        </div>
+        <picture>
+            <source srcset="/moura/img/asesoria/ramon-backup.webp" media="all" type="image/webp">
+            <img src="/moura/img/asesoria/ramon-backup.jpg" width="1100" height="468"
+                 alt="Servidores de Backup" loading="lazy">
+        </picture>
+        <div class="mosaic-body">
+            <h3>Servidores de Backup</h3>
+            <p>
+                Sabemos lo importante que es hacer una copia de tus webs. Para garantizar la integridad de todos tus datos, montamos copias de seguridad distribuidas y redundadas gracias a sistemas de última generación, como Ceph.            </p>
+        </div>
+    </div>
+
+    <div class="mosaic">
+        <picture>
+            <source srcset="/moura/img/asesoria/pilar-garantia.webp" media="all" type="image/webp">
+            <img src="/moura/img/asesoria/pilar-garantia.jpg" width="1100" height="468"
+                 alt="Garantía de por vida" loading="lazy">
+        </picture>
+        <div class="mosaic-body">
+            <h3>Garantía de por vida</h3>
+            <p>
+                Todo el hardware que utilizamos para los servicios que contratas en dinahosting está garantizado de por vida. Respondemos por todos los componentes que sea necesario reemplazar.            </p>
+        </div>
+        <picture>
+            <source srcset="/moura/img/asesoria/ultima-generacion.webp" media="all" type="image/webp">
+            <img src="/moura/img/asesoria/ultima-generacion.jpg" width="1100" height="468"
+                 alt="Elementos de red: routers y switches" loading="lazy">
+        </picture>
+        <div class="mosaic-body">
+            <h3>Elementos de red: routers y switches</h3>
+            <p>
+                Utilizamos hardware de red de última generación de Cisco Systems, con routers de la serie ASR9000 y switches de la serie Nexus 5600, conectados de forma completamente redundada mediante enlaces de fibra óptica de alta velocidad. Te aseguramos el mayor rendimiento y fiabilidad.            </p>
+        </div>
+    </div>
+
+</section>
+<!-- END BLOQUE: PRODUCTOS -->
+
+
+<!-- BLOQUE NVMe -->
+<section class="section section--padded section--no-margin" id="bloque-nvme">
+    <div class="container text-center">
+        <h2>NVMe: máxima velocidad de lectura, escritura y ancho de banda</h2>
+        <p>En dinahosting trabajamos con discos <a href="/prensa/descargas/westerndinaES.pdf">NVMe de Western Digital</a>, que suponen un gran salto cualitativo en el terreno del almacenamiento y proporcionan una velocidad muy superior para todo tipo de tareas.</p>
+
+        <div class="fichas-color margin-bottom-25">
+            <div class="card-color-0 producto">
+                <div class="text-center">
+                    <svg viewBox="0 0 60 60" height="60" class="icono-cabecera" aria-hidden="true">
+                        <use href="#dhicon-autoinstalables"></use>
+                    </svg>
+                </div>
+                <h3 class="text-center">Velocidad</h3>
+                <p class="ficha-descripcion">NVMe usa la tecnología PCI-Express, que brinda unas tasas de transferencia e IOPS hasta 5 o 6 veces superiores a los discos tradicionales SSD.                </p>
+            </div>
+
+            <div class="card-color-1 producto">
+                <div class="text-center">
+                    <svg viewBox="0 0 60 60" height="60" class="icono-cabecera" aria-hidden="true">
+                        <use href="#dhicon-calidad_2"></use>
+                    </svg>
+                </div>
+                <h3 class="text-center">Rendimiento</h3>
+                <p class="ficha-descripcion">Los discos NVMe están preparados para asumir más capacidad de escritura y lectura de forma simultánea, <strong> reduciendo la latencia y la sobrecarga </strong> en el servicio.                </p>
+            </div>
+
+            <div class="card-color-2 producto">
+                <div class="text-center">
+                    <svg viewBox="0 0 60 60" height="60" class="icono-cabecera text-center" aria-hidden="true">
+                        <use href="#dhicon-teu_certificado"></use>
+                    </svg>
+                </div>
+                <h3 class="text-center">Última tecnología</h3>
+                <p class="ficha-descripcion">Para tu garantía, confiamos en un procesador de última generación Intel Cascade Lake, el modelo <strong>Intel Xeon Gold 5320</strong> de 50 Cores y 102 Threads.                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <figure class="chart charts--bar">
+                    <svg id="eFsJYkW9xCp1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 701.58 413.5" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+     aria-label="Gráfica comparando la velocidad secuencial de escritura y lectura de diferentes tipos de discos">
+    <desc>Los discos NVME son hasta 7 veces más rápidos que los SSD convencionales.</desc>
+    <title>Gráfica comparativa de ancho de banda de discos</title>
+    <line class="line-base" x1="0" y1="380.89" x2="701.58" y2="380.89" />
+    <line class="line-base" x1="90" y1="129.76" x2="701.58" y2="129.76"/>
+    <line class="line-base" x1="90" y1="230.21" x2="701.58" y2="230.21"/>
+    <line class="line-base" x1="90" y1="280.44" x2="701.58" y2="280.44"/>
+    <line class="line-base" x1="90" y1="330.67" x2="701.58" y2="330.67"/>
+    <line class="line-base" x1="90" y1="79.53" x2="701.58" y2="79.53"/>
+    <line class="line-base" x1="90" y1="179.98" x2="701.58" y2="179.98"/>
+    <line class="line-base" x1="90" y1="29.3" x2="701.58" y2="29.3"/>
+    <line class="line-base" x1="0" y1="129.76" x2="11.58" y2="129.76"/>
+    <line class="line-base" x1="0" y1="230.21" x2="11.58" y2="230.21"/>
+    <line class="line-base" x1="0" y1="280.44" x2="11.58" y2="280.44"/>
+    <line class="line-base" x1="0" y1="330.67" x2="11.58" y2="330.67"/>
+    <line class="line-base" x1="0" y1="79.53" x2="11.58" y2="79.53"/>
+    <line class="line-base" x1="0" y1="179.98" x2="11.58" y2="179.98"/>
+    <line class="line-base" x1="0" y1="29.3" x2="11.58" y2="29.3"/>
+    <text class="text-x" transform="translate(210 401.91)">Sequential Read</text>
+    <text class="text-x" transform="translate(492 402.91)">Sequential Write</text>
+    <g id="eFsJYkW9xCp19_ts" class="barra1" transform="translate(228.37,380.89) scale(1,0.512683)">
+        <rect width="42" height="9.42" rx="0" ry="0" transform="translate(-21,-9.42)"/>
+    </g>
+    <g id="eFsJYkW9xCp20_ts" class="barra2" transform="translate(270.37,380.89) scale(1,0.062749)">
+        <rect width="42" height="75.06" rx="0" ry="0" transform="translate(-21,-75.06)"/>
+    </g>
+    <g id="eFsJYkW9xCp21_ts" class="barra3" transform="translate(312.37,380.89) scale(1,0.013737)">
+        <rect width="42" height="351.59" rx="0" ry="0" transform="translate(-21,-351.59)"/>
+    </g>
+    <g id="eFsJYkW9xCp22_ts" class="barra1" transform="translate(511.2,380.89) scale(1,0.512717)">
+        <rect width="42" height="9.42" rx="0" ry="0" transform="translate(-21,-9.42)"/>
+    </g>
+    <g id="eFsJYkW9xCp23_ts" class="barra2" transform="translate(553.2,380.89) scale(1,0.08078)">
+        <rect width="42" height="59.79" rx="0" ry="0" transform="translate(-21,-59.79)"/>
+    </g>
+    <g id="eFsJYkW9xCp24_ts" class="barra3" transform="translate(595.2,380.89) scale(1,0.013726)">
+        <rect width="42" height="351.59" rx="0" ry="0" transform="translate(-21,-351.59)"/>
+    </g>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 82.52)"><![CDATA[5000 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 132.74)"><![CDATA[3000 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 182.96)"><![CDATA[2000 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 233.17)"><![CDATA[1500 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 283.39)"><![CDATA[1000 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(28.49 333.61)"><![CDATA[500 MB/s]]>
+    </text>
+    <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+          transform="translate(21.64 32.3)"><![CDATA[7000 MB/s]]>
+    </text>
+    <g id="eFsJYkW9xCp32_to" transform="translate(214.59752,367.922948)">
+        <text dx="0" dy="0" class="text-bar" transform="translate(0,0)">
+            HDD
+        </text>
+    </g>
+    <g id="eFsJYkW9xCp34_to" transform="translate(255.694992,367.257013)">
+        <text dx="0" dy="0" class="text-bar" transform="translate(0,0)">
+            SSD
+        </text>
+    </g>
+    <g id="eFsJYkW9xCp36_to" transform="translate(290.123933,367.152638)">
+        <text dx="0" dy="0" class="text-bar" transform="translate(0,0)">NVMe
+        </text>
+    </g>
+    <g id="eFsJYkW9xCp38_to" transform="translate(496.01,366.014297)">
+        <text dx="0" dy="0" class="text-bar"
+              transform="translate(0,0)">
+            HDD
+        </text>
+    </g>
+    <g id="eFsJYkW9xCp40_to" transform="translate(538.524992,366.759175)">
+        <text dx="0" dy="0"class="text-bar"
+              transform="translate(0,0)">
+            SSD
+        </text>
+    </g>
+    <g id="eFsJYkW9xCp42_to" transform="translate(571.76335,366.459475)">
+        <text dx="0" dy="0" class="text-bar"
+              transform="translate(0,0)">
+            NVMe
+        </text>
+    </g>
+    <g fill="none" stroke="black" stroke-width="4">
+        <path stroke-dasharray="10,10" d="M25 150 l701 0"></path>
+    </g>
+</svg>                    <figcaption>
+                        <h4>Ancho de Banda</h4>
+                        Los discos SSD trabajan sobre una interfaz SATA 3, de un ancho de banda máximo de 0,8 GB/s. Los NVMe lo hacen sobre una interfaz PCI-Express ® Gen3 x4, que soporta velocidades de lectura y escritura de hasta 7,9 GB/s                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="chart charts--bar">
+                        <svg id="e1uwClgX93f1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 0 701.58 413.5" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+         aria-label="Gráfica comparando los IOPS en diferentes tipos de discos">
+        <desc>Los discos NVMe son hasta 5 veces más rápidos que sus homónimos (SSD y HDD).</desc>
+        <title>Gráfica comparativa de entradas y salidas en discos</title>
+        <line class="line-base" x1="0" y1="380.89" x2="701.58" y2="380.89"/>
+        <line class="line-base" x1="90" y1="129.76" x2="701.58" y2="129.76"/>
+
+        <line class="line-base" x1="90" y1="230.21" x2="701.58" y2="230.21"/>
+        <line class="line-base" x1="90" y1="280.44" x2="701.58" y2="280.44"/>
+        <line class="line-base" x1="90" y1="330.67" x2="701.58" y2="330.67"/>
+        <line class="line-base" x1="90" y1="79.53" x2="701.58" y2="79.53"/>
+        <line class="line-base" x1="90" y1="179.98" x2="701.58" y2="179.98"/>
+        <line class="line-base" x1="90" y1="29.3" x2="701.58" y2="29.3"/>
+        <line class="line-base" x1="0" y1="129.76" x2="11.58" y2="129.76"/>
+        <line class="line-base" x1="0" y1="230.21" x2="11.58" y2="230.21"/>
+        <line class="line-base" x1="0" y1="280.44" x2="11.58" y2="280.44"/>
+        <line class="line-base" x1="0" y1="330.67" x2="11.58" y2="330.67"/>
+        <line class="line-base" x1="0" y1="79.53" x2="11.58" y2="79.53"/>
+        <line class="line-base" x1="0" y1="179.98" x2="11.58" y2="179.98"/>
+        <line class="line-base" x1="0" y1="29.3" x2="11.58" y2="29.3"/>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(218 401.91)"><![CDATA[Random Read]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(504 402.91)"><![CDATA[Random Write]]>
+        </text>
+        <g class="barra1" id="e1uwClgX93f19_ts" transform="translate(228.37,380.89) scale(1,0.292905)">
+            <rect width="42" height="16.08" rx="0" ry="0" transform="translate(-21,-16.08)"/>
+        </g>
+        <g class="barra2" id="e1uwClgX93f20_ts" transform="translate(270.37,380.89) scale(1,0.044233)">
+            <rect width="42" height="106.48" rx="0" ry="0" transform="translate(-21,-106.48)"/>
+        </g>
+        <g class="barra3" id="e1uwClgX93f21_ts" transform="translate(312.37,380.89) scale(1,0.013396)">
+            <rect width="42" height="351.59" rx="0" ry="0" transform="translate(-21,-351.59)"/>
+        </g>
+        <rect class="barra1" width="42" height="4.71" rx="0" ry="0" transform="translate(490.2 376.18)"/>
+        <g class="barra2" id="e1uwClgX93f23_ts" transform="translate(553.2,380.89) scale(1,0.048308)">
+            <rect width="42" height="97.5" rx="0" ry="0" transform="translate(-21,-97.5)"/>
+        </g>
+        <g class="barra3" id="e1uwClgX93f24_ts" transform="translate(595.2,380.89) scale(1,0.025382)">
+            <rect width="42" height="185.56" rx="0" ry="0" transform="translate(-21,-185.56)"/>
+        </g>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(20.94 32.3)"><![CDATA[1M 600K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(24.06 82.52)"><![CDATA[200 K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(24.06 132.96)"><![CDATA[150 K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(24.06 183.17)"><![CDATA[100 K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(30.91 233.17)"><![CDATA[60 K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(37.76 333.61)"><![CDATA[1 K IOPS]]>
+        </text>
+        <text dx="0" dy="0" font-family="&quot;Times New Roman&quot;" font-size="16" font-weight="400"
+              transform="translate(30.91 283.39)"><![CDATA[30 K IOPS]]>
+        </text>
+        <g id="e1uwClgX93f32_to" transform="translate(216.01,372.581888)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+               HDD
+            </text>
+        </g>
+        <g id="e1uwClgX93f34_to" transform="translate(255.475056,372.581888)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+                SSD
+            </text>
+        </g>
+        <g id="e1uwClgX93f36_to" transform="translate(288.839148,372.582034)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+                NVMe
+            </text>
+        </g>
+        <g id="e1uwClgX93f38_to" transform="translate(497.541457,372.805996)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+                HDD
+            </text>
+        </g>
+        <g id="e1uwClgX93f40_to" transform="translate(538.305056,372.581888)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+               SSD
+            </text>
+        </g>
+        <g id="e1uwClgX93f42_to" transform="translate(571.669148,372.581888)">
+            <text dx="0" dy="0" class="text-bar"
+                  transform="translate(0,0)">
+                NVMe
+            </text>
+        </g>
+        <g fill="none" stroke="black" stroke-width="4">
+            <path stroke-dasharray="10,10" d="M25 50 l701 0"></path>
+        </g>
+    </svg>                    <figcaption>
+                        <h4>IOPS</h4>
+                        El nuevo protocolo NVMe conecta los discos de almacenamiento a través de la interfaz PCI-Express, que reduce la latencia y aumenta los IOPS (número de operaciones de entrada y salida de datos que ocurren por segundo).                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End BLOQUE NVMe -->
+
+<!-- BLOQUE: GPU-->
+<section class="section section-parallax derecha section--gradient-ocean">
+    <div class="container">
+        <div>
+            <h2>Servidores Dedicados y VPS con GPU ya disponibles</h2>
+            <p>GPU (Graphic Processor Unit) cuenta con un procesador para alta computación y procesamiento masivo de datos. Es ideal para proyectos de inteligencia artificial, ingeniería, sistemas de predicción... o cualquier trabajo de cálculo que requiera de alta eficiencia y rendimiento constante.</p>
+            <div><a href="/dedicados/servidores-gpu"
+               class="btn btn--lg">Dedicados GPU</a>
+            <a href="/vps/vps-gpu"
+               class="btn btn--lg">VPS GPU</a>
+            </div>
+        </div>
+        <div>
+            <picture>
+                <source srcset="/moura/img-dina/parallax/GPU.webp" media="all" type="image/webp">
+                <img src="/moura/img-dina/parallax/GPU.png"
+                     alt="Servidores Dedicados GPU ya disponibles"
+                     width="600" height="342"/>
+            </picture>
+        </div>
+    </div>
+</section>
+
+
+<!-- BLOQUE IP ESPAÑOLA -->
+<section class="section section--padded section--no-margin" id="IPespanhola">
+    <div class="container">
+        <div class="margin-bottom-50">
+            <h2 class="text-center">Ventajas de tener tu hosting o servidor con IP española</h2>
+            <p class="text-center margin-bottom-40">
+                Comprar un hosting o un servidor en una proveedora nacional o en el extranjero es un factor clave para el rendimiento de tu web. Elige dinahosting y disfruta de todas las ventajas de tener tu servidor o hosting en España.            </p>
+        </div>
+
+        <!-- BLOQUE: 2X2 -->
+        <div class="row content-boxes-v3 ">
+    <div class="col-sm-6 sm-margin-bottom-40">
+        <div class="ic" aria-hidden="true">
+    <svg viewBox="0 0 60 60"><use href="#dhicon-calidad"></use></svg>
+</div>
+
+        <div class="content-boxes-in-v3">
+            <h3 class="heading-sm">
+                <span>Mejor posicionamiento SEO</span>
+            </h3>
+            <p>Si tu web se orienta al mercado nacional, disponer de IP española te ayudará a escalar posiciones en las búsquedas locales, ya que Google y otros buscadores priorizan las páginas alojadas en el mismo país.</p>
+        </div>
+    </div>
+    <div class="col-sm-6 sm-margin-bottom-40">
+        <div class="ic" aria-hidden="true">
+    <svg viewBox="0 0 60 60"><use href="#dhicon-legal_asesoria_juridica"></use></svg>
+</div>
+
+        <div class="content-boxes-in-v3">
+            <h3 class="heading-sm">
+                <span>Cumplimos con el RGPD</span>
+            </h3>
+            <p>Nuestra infraestructura cumple con la normativa europea en protección de datos. Nos aseguramos de que tu información y la de tus clientes esté totalmente protegida, por lo que ganas en seguridad y confianza.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="row content-boxes-v3">
+    <div class="col-sm-6 sm-margin-bottom-40">
+        <div class="ic" aria-hidden="true">
+    <svg viewBox="0 0 60 60"><use href="#dhicon-potencia"></use></svg>
+</div>
+
+        <div class="content-boxes-in-v3">
+            <h3 class="heading-sm">
+                <span>Mayor velocidad en tu web</span>
+            </h3>
+            <p>Nuestros servidores y hostings están en España. Cuanto más cerca esté el servidor, menores serán los tiempos de latencia y tu web se cargará mucho más rápido. Una mayor velocidad repercutirá en una mejor experiencia de usuario.</p>
+        </div>
+    </div>
+    <div class="col-sm-6 sm-margin-bottom-40">
+        <div class="ic" aria-hidden="true">
+    <svg viewBox="0 0 60 60"><use href="#dhicon-x7"></use></svg>
+</div>
+
+        <div class="content-boxes-in-v3">
+            <h3 class="heading-sm">
+                <span>Soporte Técnico 24/7 en tu idioma</span>
+            </h3>
+            <p>En dinahosting hablamos tu idioma y no utilizamos contestadores automáticos para atenderte. Trabajamos en tu mismo horario, por lo que te resultará más sencillo programar tareas o realizar el mantenimiento de tu web.</p>
+        </div>
+    </div>
+</div>
+
+        <!-- End BLOQUE: 2x2 -->
+    </div>
+</section>
+
+<!-- BLOQUE Países -->
+<section class="section section-parallax section--gradient-verde section--no-margin">
+    <div class="container">
+        <div>
+            <h2 style="max-width: 465px;margin: 0 auto 30px auto">Nuestros servidores DNS y Centros de Datos</h2>
+            <p>Nuestros servidores DNS se encuentran dispersados geográficamente de forma estratégica, lo que nos permite ofrecerte mayor confiabilidad y mejores tiempos de respuesta. Actualmente disponemos de varios servidores localizados por todo el mundo: España (Madrid), EEUU (Los Ángeles y New Jersey), Japón (Tokyo), Korea (Seul), y Australia (Sydney). Contamos además con 2 centros de datos en Madrid, en las instalaciones de Interxion y Global Switch.</p>
+        </div>
+        <div>
+            <video width= "600" height="342" autoplay loop muted poster="/moura/img-dina/parallax/Mapa-p-poster.png" aria-hidden="true">
+                <source src="/moura/img-dina/parallax/Mapa-p.webm" type="video/webm"/>
+                Tu navegador no soporta la etiqueta vídeo.            </video>
+        </div>
+    </div>
+</section>
+
+<!-- BLOQUE IT -->
+<section class="section section--highlight section--padded section--no-margin">
+    <div class="container">
+        <h2 class="text-center"><span class="custom-color">Indemnizaciones para VPS, Dedicados, Cloud y Housing</span></h2>
+        <p class="text-center margin-bottom-40">
+            Confiamos plenamente en nuestra infraestructura tecnológica y para demostrártelo hemos desarrollado un acuerdo de nivel de servicio como este.</p>
+        <div class="row">
+            <div class="tick-list">
+                <div class="tick-element">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_cruz no-float-md"></div>
+                        <span class="tick-text color-price-purple">Red no disponible 0,1 %</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_tick no-float-md"></div>
+                        <span class="tick-text"><span class="color-orange"> 5 % de devolución </span> de tu cuota mensual</span>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="tick-element">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_cruz no-float-md"></div>
+                        <span class="tick-text color-price-purple">Red no disponible 1 %</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_tick no-float-md"></div>
+                        <span class="tick-text"><span class="color-orange"> 25 % de devolución </span> de tu cuota mensual</span>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="tick-element">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_cruz no-float-md"></div>
+                        <span class="tick-text color-price-purple">Red no disponible 2 %</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_tick no-float-md"></div>
+                        <span class="tick-text"><span class="color-orange"> 50 % de devolución </span> de tu cuota mensual</span>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="tick-element">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_cruz no-float-md"></div>
+                        <span class="tick-text color-price-purple">Red no disponible 4 %</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_tick no-float-md"></div>
+                        <span class="tick-text"><span class="color-orange"> 75 % de devolución </span> de tu cuota mensual</span>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="tick-element no-margin-bottom">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_cruz no-float-md"></div>
+                        <span class="tick-text color-price-purple">Red no disponible 10 %</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <div class="ic icn_30 icn_tick no-float-md"></div>
+                        <span class="tick-text"><span class="color-orange"> 100 % de devolución </span> de tu cuota mensual</span>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BLOQUE Países -->
+
+<section class="section section-parallax section--gradient-verde">
+    <div class="container">
+        <div>
+                            <h2>Compromiso con tu seguridad</h2>
+            
+                            <p class=" ">Aunque aplicamos rigurosos controles de seguridad al hardware y al software con el que trabajas, es inevitable que pueda producirse algún error puntual. Si crees que has detectado un error o vulnerabilidad de seguridad en nuestros servicios, infórmanos y nuestro equipo lo revisará cuanto antes.</p>
+            
+                            <a href="/somos-dinahosting/seguridad-it"
+                   class="btn btn--lg ">Saber más</a>
+                    </div>
+        <div>
+                        <picture>
+                <source srcset="/moura/img-dina/parallax/certificado.webp" media="all" type="image/webp">
+                <img src="/moura/img-dina/parallax/certificado.png" alt="Compromiso con tu seguridad" width="600" height="342"/>
+            </picture>
+            
+        </div>
+    </div>
+</section>
+</div>
+
+<div id="footer-v4" class="footer-v4"><div class="footer">
+    <div class="container">
+        <div class="footer-general">
+            <div class="logo_footer">
+                <div>
+                    <svg version="1.1" id="logo-default" class="logo-default" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+     xml:space="preserve" viewBox="0 0 233.52 51.43" role="img" aria-label="logo Dinahosting"
+     style="enable-background:new 0 0 233.52 51.43;">
+    <title id="tituloDinaSvg">dinahosting</title>
+    <path class="logo-typo-color"
+          d="M217.15,31.86V21.44c0-.8-.69-1-1.46-1.23a15.37,15.37,0,0,0-4.45-.65,16.68,16.68,0,0,0-3,.27,7,7,0,0,0-5.83,5.29,14.12,14.12,0,0,0,.06,7.3,6.85,6.85,0,0,0,4.71,4.82,9.36,9.36,0,0,0,2.25.44c.43,0,.91,0,1.48,0a7.87,7.87,0,0,0,2-.21c.72-.19,1.06-.48,1.06,0,0,1.42-1.42,3.18-5,2.9-.73-.06-1,0-1,.47v1.65c0,.52.45.56,1,.62,4.69.52,8.18-2.9,8.18-6.65Zm-3.17,2c0,.73-.06,1.05-.76,1.22a11,11,0,0,1-2.56.25,10.79,10.79,0,0,1-1.15-.06,4.87,4.87,0,0,1-3.61-2.94,9.68,9.68,0,0,1-.61-5.51,6.87,6.87,0,0,1,.4-1.42,4.66,4.66,0,0,1,4.37-3.27,9.92,9.92,0,0,1,2.87.21c.56.13,1,.26,1,.79V33.9Z"/>
+    <path class="logo-typo-color"
+          d="M164.52,32.19a4.5,4.5,0,0,0-2.13-3.45,9.25,9.25,0,0,0-2-.9,22.14,22.14,0,0,1-4.28-1.29,1.77,1.77,0,0,1-.75-1.41,2.31,2.31,0,0,1,1.69-2.4,4.92,4.92,0,0,1,3,.22c1.21.37,1.88.75,2.4.92.33.11.61.12.73-.28.06-.21.48-1.35.55-1.56.12-.4,0-.55-.45-.74a12.22,12.22,0,0,0-5.09-1.25,10.07,10.07,0,0,0-1.34.1,5.77,5.77,0,0,0-3.14,1.61,5,5,0,0,0-.35,6.09A5.43,5.43,0,0,0,156,29.63c1.61.51,3.7.72,4.41,1.21a2,2,0,0,1,1.1,2.34,1.81,1.81,0,0,1-1.06,1.33,6.06,6.06,0,0,1-1.13.35,7.35,7.35,0,0,1-1.16.12,9.16,9.16,0,0,1-2.51-.4c-.42-.12-2.14-.74-2.28-.78-.42-.12-.5.12-.61.42l-.53,1.66c-.14.44,0,.54.69.81A14.28,14.28,0,0,0,158,37.78a11.64,11.64,0,0,0,3.05-.37,4.2,4.2,0,0,0,3-2.52A5.57,5.57,0,0,0,164.52,32.19Z"/>
+    <rect class="logo-typo-color" x="74.09" y="15.26" width="3.18" height="3.18" rx="0.53"/>
+    <rect class="logo-typo-color" x="74.09" y="20.95" width="3.18" height="16.61" rx="0.53"/>
+    <rect class="logo-typo-color" x="178.12" y="15.26" width="3.18" height="3.18" rx="0.53"/>
+    <rect class="logo-typo-color" x="178.12" y="20.91" width="3.18" height="16.61" rx="0.53"/>
+    <path class="logo-typo-color"
+          d="M141.94,20.38c-4.49,0-8.13,3-8.13,8.66s3.64,8.65,8.13,8.65,8.12-2.82,8.12-8.65C150.06,23.56,146.53,20.38,141.94,20.38Zm0,15c-2.83,0-4.77-2.59-4.77-6.3,0-3.9,1.94-6.31,4.77-6.31s4.77,2.41,4.77,6.31C146.71,33.12,144.77,35.34,141.94,35.34Z"/>
+    <path class="logo-typo-color"
+          d="M131.5,29.59a21,21,0,0,0-.16-2.59,6.9,6.9,0,0,0-6.16-6.37,15.25,15.25,0,0,0-2.64-.22,16.78,16.78,0,0,0-2.68.22.18.18,0,0,1-.2-.18V15.82a.53.53,0,0,0-.53-.53H117a.53.53,0,0,0-.53.53V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V24c0-.6.17-.71.64-.79a15.94,15.94,0,0,1,2.6-.23,10.39,10.39,0,0,1,1.74.13,4.71,4.71,0,0,1,3.23,3.25,9.06,9.06,0,0,1,.44,3.08c0,1.61,0,7.57,0,7.57a.53.53,0,0,0,.53.53H131a.53.53,0,0,0,.53-.53Z"/>
+    <path class="logo-typo-color"
+          d="M170.9,23.9h4.24a.53.53,0,0,0,.53-.53V21.44a.53.53,0,0,0-.53-.53h-4.24a.53.53,0,0,1-.53-.53V15.79a.53.53,0,0,0-.53-.53h-2.12a.53.53,0,0,0-.53.53V26.92c0,3.79-.53,10.6,6.89,10.6h1.06a.53.53,0,0,0,.53-.53V35a.53.53,0,0,0-.53-.53h-1.06c-3.91,0-3.72-2.92-3.72-6.8V24.43A.53.53,0,0,1,170.9,23.9Z"/>
+    <path class="logo-typo-color" d="M84.43,32.68Z"/>
+    <path class="logo-typo-color"
+          d="M96.27,29.25a21.33,21.33,0,0,0-.16-2.6c-.47-3.57-2.6-5.59-6.16-6.19a16.31,16.31,0,0,0-2.64-.21,21.22,21.22,0,0,0-5.22.71c-.74.2-.83.4-.84,1.13V37a.53.53,0,0,0,.53.53H83.9a.53.53,0,0,0,.53-.53V23.75c0-.61.11-.74.66-.8a14,14,0,0,1,2.46-.24,9.64,9.64,0,0,1,1.78.14A4.56,4.56,0,0,1,92.63,26a9.37,9.37,0,0,1,.45,3.14c0,1.65,0,5.95,0,5.95v2a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V29.25Z"/>
+    <path class="logo-typo-color"
+          d="M69.47,15.26H67.68A.69.69,0,0,0,67,16v4.93a.19.19,0,0,1-.24.19,15.9,15.9,0,0,0-3.89-.43c-4.42,0-7.88,2.92-7.88,8.57s3.53,8.64,8.3,8.66a24.34,24.34,0,0,0,3.91-.25,9.63,9.63,0,0,0,2.29-.6c.35-.18.69-.41.69-.8V16A.69.69,0,0,0,69.47,15.26ZM63.39,35.4a4.38,4.38,0,0,1-3.79-1.61,6.74,6.74,0,0,1-1.49-4.58c0-2.21.58-3.74,1.73-4.76A4.62,4.62,0,0,1,63.27,23c3.1,0,3.71.78,3.71,1.42V34C67,35,66.48,35.4,63.39,35.4Z"/>
+    <path class="logo-typo-color"
+          d="M113.19,27.11c0-3.53-1.71-5.54-4-6.25a10.58,10.58,0,0,0-2.16-.51,12.54,12.54,0,0,0-1.74-.06c-.62,0-1.33.07-1.93.14a12.3,12.3,0,0,0-2.14.5c-.4.12-.9.34-1.14.43a.24.24,0,0,0-.17.27c.1.33.46,1.55.6,2a.22.22,0,0,0,.29.09l.92-.28a12.05,12.05,0,0,1,3.77-.61l.81,0a5,5,0,0,1,2.14.59c1.23.73,1.65,1.55,1.65,3.25a.33.33,0,0,1-.4.33,10.47,10.47,0,0,0-2.77-.33c-5.47,0-8.22,2.46-8.22,5.65s3,5.65,8.66,5.65a13.52,13.52,0,0,0,5.5-1,.53.53,0,0,0,.3-.48V27.11Zm-3.09,7.66a.51.51,0,0,1-.43.53,5.91,5.91,0,0,1-.93.19,16,16,0,0,1-2.2.17,9,9,0,0,1-2.21-.26,3.51,3.51,0,0,1-1.91-1.08,3.09,3.09,0,0,1-.7-2,2.8,2.8,0,0,1,.58-1.92,4,4,0,0,1,2.2-1.25,7.9,7.9,0,0,1,2.15-.25,10.26,10.26,0,0,1,2.86.46.88.88,0,0,1,.59.71v4.69Z"/>
+    <path class="logo-typo-color" d="M188.05,32.64Z"/>
+    <path class="logo-typo-color"
+          d="M199.89,29.22a23.33,23.33,0,0,0-.15-2.6c-.48-3.57-2.61-5.6-6.17-6.2a16.22,16.22,0,0,0-2.64-.21,21.15,21.15,0,0,0-5.21.71c-.75.21-.83.41-.85,1.13V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V23.72c0-.61.11-.74.66-.81a13.51,13.51,0,0,1,2.47-.23,9.71,9.71,0,0,1,1.77.13,4.59,4.59,0,0,1,3.31,3.13,9.74,9.74,0,0,1,.45,3.15V37a.53.53,0,0,0,.53.53h2.12a.53.53,0,0,0,.53-.53V29.22Z"/>
+    <path class="logo-typo-color"
+          d="M45.17,31.9,34.28,13.05a3.76,3.76,0,0,0-6.52,0L16.88,31.9a3.77,3.77,0,0,0,3.26,5.65H41.9A3.77,3.77,0,0,0,45.17,31.9Zm-6.23,2.52H23.11a2.36,2.36,0,0,1-2.05-3.55L29,17.15a2.37,2.37,0,0,1,4.1,0L41,30.87A2.37,2.37,0,0,1,38.94,34.42Z"/></svg>
+<svg version="1.1" id="logo-shrink" class="logo-shrink" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+     xml:space="preserve" viewBox="0 0 60 51.43" role="img" aria-label="Logo mini dinahosting"
+     style="enable-background:new 0 0 60 51.43;">
+    <title id="tituloDinaSvgMini">dinahosting</title>
+    <path class="logo-iso-color"
+          d="M45.17,31.9,34.28,13.05a3.76,3.76,0,0,0-6.52,0L16.88,31.9a3.77,3.77,0,0,0,3.26,5.65H41.9A3.77,3.77,0,0,0,45.17,31.9Zm-6.23,2.52H23.11a2.36,2.36,0,0,1-2.05-3.55L29,17.15a2.37,2.37,0,0,1,4.1,0L41,30.87A2.37,2.37,0,0,1,38.94,34.42Z"/></svg>                </div>
+                <div>
+                    <ul class="social-list-footer">
+                        <li><a class="social-button" href="https://www.facebook.com/dinahosting/" title="Facebook" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="social-button logo-twitter" href="https://twitter.com/dinahosting" title="Twitter" target="_blank" rel="noopener noreferrer">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" xml:space="preserve">
+                                    <path d="M3,3l7.3,10.7L3.1,22h1.6l6.3-7.3l5,7.3h6l-7.7-11.2L21.1,3h-1.6l-5.9,6.8L9,3H3z M4.9,4h3.6l11.7,17h-3.6L4.9,4z"/>
+                                </svg>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li><a class="social-button" href="https://www.instagram.com/dinahosting/" title="Instagram" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
+                        <li><a class="social-button" href="https://www.linkedin.com/company/dinahosting-s.l./" title="LinkedIn"
+                               target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a><span class="sr-only">LinkedIn</span></li>
+                        <li><a class="social-button" href="https://www.youtube.com/channel/UCI_jWZBri-MELWd0opIT53w" title="Youtube"
+                               target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i><span class="sr-only">Youtube</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="center_footer" style="flex-grow: .5">
+                <div class="footer-contacto">
+                    <div class="cuadro">
+                        <p class="tit"> LLÁMANOS GRATIS</p>
+                        <p class="tel ">900 854 000
+                        </p>
+                    </div>
+                    <div class="cuadro">
+
+                        <p class="tit"> CONSÚLTANOS</p>
+                        <button class="footer-button"
+                                data-chat="soporte"><i class="ic icn_small icn_chat_pointers"></i>&nbsp; Iniciar chat                        </button>
+                    </div>
+                    <div class="cuadro">
+
+                        <p class="tit"> ESCRÍBENOS</p>
+                        <p class="footer-button"><a class="footer-button" href="mailto:soporte@dinahosting.com"
+                                                    style="white-space: nowrap">soporte@dinahosting.com
+                            </a></p></div>
+                </div>
+
+            </div>
+              <div class="center_footer preferencias">
+                <div class="col-xs-12 selector-idioma">
+    <div class="footer-selector">
+        <div class="titulo">
+            Idioma        </div>
+        <div class="selector">
+            <a class="prev-button" href="#selector-idiomas-footer" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <div id="selector-idiomas-footer" class="carousel slide" data-ride="carousel"  data-interval="false">
+                <div class="carousel-inner selector-footer-inner" role="listbox" aria-label="Idiomas">
+                                                                                                                                                            <div class="item" role="listbox" aria-label="Cambio idiomas">
+                                    <a href="https://ca.dinahosting.com/somos-dinahosting/infraestructura?language-change=cat"
+                                       data-codigo-idioma="ca">CA</a>
+                                </div>
+                                                                                                                                                                                                                <div class="item" role="listbox" aria-label="Cambio idiomas">
+                                    <a href="https://en.dinahosting.com/somos-dinahosting/infraestructura?language-change=en"
+                                       data-codigo-idioma="en">EN</a>
+                                </div>
+                                                                                                                                                                                                                <div class="item active" role="option">
+                                    <a href="https://dinahosting.com/somos-dinahosting/infraestructura?language-change=es" id="idioma-seleccionado"
+                                       data-codigo-idioma="es">ES</a>
+                                </div>
+                                                                                                                                                                                                                <div class="item" role="listbox" aria-label="Cambio idiomas">
+                                    <a href="https://gl.dinahosting.com/somos-dinahosting/infraestructura?language-change=gz"
+                                       data-codigo-idioma="gl">GL</a>
+                                </div>
+                                                                                                                                                                                                                <div class="item" role="listbox" aria-label="Cambio idiomas">
+                                    <a href="https://pt.dinahosting.com/somos-dinahosting/infraestructura?language-change=pt"
+                                       data-codigo-idioma="pt">PT</a>
+                                </div>
+                                                                                        </div>
+            </div>
+            <a class="next-button" href="#selector-idiomas-footer" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+                <div class="clear"></div>
+                                    <div class="col-xs-12">
+    <div class="footer-selector">
+        <div class="titulo ">
+            Ver impuestos        </div>
+        <div class="selector">
+            <a class="prev-button" href="#selector-impuestos-footer" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <div id="selector-impuestos-footer" class="carousel slide" data-ride="carousel"  data-interval="false">
+                <div class="carousel-inner selector-footer-inner" role="listbox" aria-label="Ver impuestos">
+                    <div class="item " role="option" aria-label="Si">
+                        <a href="/index/cambiar-impuestos"
+                           title="Sí">
+                            Sí                        </a>
+                    </div>
+                    <div class="item active" role="option" aria-label="No">
+                        <a href="/index/cambiar-impuestos"
+                           title="No">
+                            No                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="next-button" href="#selector-impuestos-footer" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+                            </div>
+        </div>
+        <div class="menu_footer">
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">DOMINIOS</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/dominios">Registrar dominios</a>
+            </li>
+            <li><a href="/dominios/trasladar-dominios">Trasladar dominios</a>
+            </li>
+            <li><a href="/dominios/registro-volumen">Registrar por volumen</a>
+            </li>
+            <li><a href="/dominios/precios-registro-dominios">Precios de dominios</a>
+            </li>
+            <li ><a href="/dominios/whois">Whois</a></li>
+            <li ><a href="/dominios/RDAP">RDAP</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">HOSTING</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/hosting">Comprar Hosting</a>
+            </li>
+            <li><a href="/hosting/hosting-wordpress">Hosting WordPress</a>
+            </li>
+            <li><a href="https://dinahosting.com/blog/wordpress-optimizado-dinahosting/">
+                    WordPress Optimizado</a>
+            </li>
+            <li><a href="/hosting/hosting-correo">Correo profesional</a>
+            </li>
+            <li><a href="/hosting/crear-tienda-woocommerce">Tienda WooCommerce</a>
+            </li>
+            <li><a href="/hosting/crear-tienda-prestashop">Tienda PrestaShop</a>
+            </li>
+            <li><a href="/hosting/autoinstalables">Autoinstalables</a>
+            </li>
+            <li><a href="/hosting/precios-hosting">Precios de hosting</a>
+            </li>
+            <li><a href="/hosting/hosting-pruebas-gratis">
+                    Hosting de pruebas gratis</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">SERVIDORES</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li>
+                <a href="/vps">VPS</a>
+            </li>
+            <li>
+                <a href="/vps/vps-gpu">VPS GPU</a>
+            </li>
+            <li>
+                <a href="/dedicados">Servidores Dedicados</a>
+            </li>
+            <li>
+                <a href="/dedicados/servidores-gpu">Servidores Dedicados GPU</a>
+            </li>
+            <li>
+                <a href="/cloud-hosting">Cloud Hosting</a>
+            </li>
+            <li>
+                <a href="/dedicados/cloud-privada">Cloud Privada</a>
+            </li>
+            <li>
+                <a href="/soluciones-avanzadas">Soluciones Avanzadas</a>
+            </li>
+            <li>
+                <a href="/somos-dinahosting/infraestructura">Infraestructura</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">RESELLERS</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/resellers">Resellers</a>
+            </li>
+            <li><a href="/resellers/afiliados">Afiliados</a>
+            </li>
+            <li><a href="/resellers/precios-resellers">Precios Reseller</a>
+            </li>
+            <li><a href="/api">API</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">MUCHO MÁS</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/mas-servicios/certificados-ssl">Certificados SSL</a>
+            </li>
+            <li><a href="/mas-servicios/asesoria-legal">Tu web legal</a>
+            </li>
+            <li><a href="/mas-servicios/asesoria-tecnica">Asesoría Técnica</a>
+            </li>
+            <li><a href="/mas-servicios/sms">SMS</a>
+            </li>
+            <li><a href="/mas-servicios/premium">Almacenamiento</a>
+            </li>
+            <li><a href="https://dinahosting.com/blog/servicios-gratuitos-en-dinahosting/">
+                    Gratis en dinahosting</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+        <h2 class="thumb-headline">Soporte</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/somos-dinahosting/hablanos">Soporte</a>
+            </li>
+            <li><a href="/somos-dinahosting/seguridad-it">
+                    Seguridad IT                </a>
+            </li>
+        </ul>
+        <h2 class="thumb-headline">SOMOS DINAHOSTING</h2>
+        <ul class="list-unstyled simple-list margin-bottom-20">
+            <li><a href="/somos-dinahosting">Somos dinahosting</a>
+            </li>
+            <li><a href="/somos-dinahosting/casos-exito">Casos de éxito</a>
+            </li>
+            <li><a href="/somos-dinahosting/responsabilidad-social">Responsabilidad social</a>
+            </li>
+            <li><a href="/somos-dinahosting/trabaja-con-nosotros">Trabaja con nosotros</a>
+            </li>
+            <li><a href="/somos-dinahosting/panel-de-control">
+                    Panel de Control</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- End Simple List-->
+<div id="carro-inactivo" data-carro=""
+     class="modal recordatorio cerrar-aviso-carro-inactivo" tabindex="-1">
+    <div id="recordatorio-caixa" class="recordatorio-caixa">
+        <a href="#cerrar-aviso" class="btn-close cerrar-aviso-carro-inactivo" data-bs-dismiss="modal" aria-label="Close"><i
+                    class="fa fa-times"></i></a>
+        <picture>
+            <source srcset="/moura/img-dina/carro/carro-marta.webp" type="image/webp" media="all">
+            <img src="/moura/img-dina/carro/carro-marta.jpg" alt="Fotografía de Marta Mariño">
+        </picture>
+        <div>
+            <p>                    Hola, te queda muy poco para terminar tu compra. ¿Tienes alguna duda? Si quieres escríbenos y te asesoramos sin ningún compromiso.                </p>
+            <a href="#abrir-chat"
+               class="btn btn--lg btn--orange cerrar-aviso-carro-inactivo" data-chat="soporte">
+                ¡SÍ! ABRIR UN CHAT            </a>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="row clearfix reset-margin">
+    <ul class="menu_auxiliar">
+        <li><a href="/legal" >Legal</a></li>
+        <li><a href="/legal/proteccion-datos">Protección de datos</a></li>
+        <li ><a href="/abuse">Política de Abusos</a></li>
+        <li ><a href="/canal-etico">Canal ético</a></li>
+        <li><a href="/legal/cookies">Cookies</a></li>
+        <li class="hidden-xs hidden-sm hidden-md"><a href="/somos-dinahosting/prensa">Prensa</a></li>
+        <li class="hidden-xs hidden-sm hidden-md">
+            <a href="https://dinahosting.email">Webmail</a>
+        </li>
+        <li ><a href="https://dinahosting.com/ayuda">Ayuda</a></li>
+    </ul>
+</div>
+</div>
+<div id="container-floating" tabindex="0">
+    <a href="https://dinahosting.com/ayuda" title="Ayuda dinahosting">
+        <div class="ayuda nds">
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+        </div>
+    </a>
+
+    <a href="tel:+34900854000" title="Teléfono gratuito">
+        <div class="telefono-menu nds">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+    </a>
+
+    <a href="#" data-chat="soporte" title="Chat dinahosting">
+        <div class="chat nds" style="position: fixed">
+            <i class="fa fa-comments" aria-hidden="true"></i>
+        </div>
+    </a>
+
+    <a href="mailto:soporte@dinahosting.com" title="Correo electrónico">
+        <div class="email nds">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+    </a>
+
+    <div id="floating-button">
+        <picture>
+            <source srcset="/imaxes/Axuda/Axuda-7.webp" media="all" type="image/webp">
+            <img
+                    src="/imaxes/Axuda/Axuda-1.png"
+                    width="55"
+                    height="55"
+                    id="boton-ayuda"
+                    alt="Asistente de ayuda"
+                    title="Asistente de ayuda">
+        </picture>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/moura/built/dh-vendors.js?5.12.2023"></script>
+<script type="text/javascript" src="/moura/built/dh-common.js?5.12.2023"></script>
+<script type="text/javascript" src="/moura/vendors/cookieconsent/build/cookieconsent.min.js"></script>
+<script type='text/javascript'>$(document).ready(function(){
+
+	var info =
+	{
+		ping : 
+		{
+			label : 'IP o IPv6',
+			requerido : true
+		},
+		trace : 
+		{
+			label : 'IP o IPv6',
+			requerido : true
+		},
+		bgp : 
+		{
+			label : 'IP o prefijo_ip o prefijo_ipv6',
+			requerido : true
+		},
+		as_path : 
+		{
+			label : 'Número de Sistema Autónomo',
+			requerido : true
+		}
+	};
+
+var selectIp = document.getElementById("ip");
+selectIp.removeAttribute("traduciroptions");
+var selectModalidad = document.getElementById("selectModalidad");
+selectModalidad.removeAttribute("traduciroptions");
+
+	function cambiarInfoForm(accion) {
+		var p_label = info[accion]['label'] + (info[accion]['requerido'] ? ' *' : '');
+		$('#looking_glass_form').find('input[name="parametro"]').parent().find('label').first().html(p_label);
+	}
+	
+	$('#looking_glass_form').find('select[name="accion"]').change(function() {
+                if($(this).val()=='descarga'){
+                    $('.ip,.parametro').hide();
+                }else{
+                    $('.ip,.parametro').show();
+                    cambiarInfoForm($(this).val());
+                }
+		
+	});
+
+	cambiarInfoForm($('#looking_glass_form').find('select[name="accion"] option:selected').val());
+	
+	var peticionLookingGlass = null;
+	$('#looking_glass_form').off('submit');
+	// $('#looking_glass_form').live('submit',function(e)
+    $('body').on('submit', '#looking_glass_form', function(e)
+	{   
+		e.preventDefault();
+        load();
+		if (peticionLookingGlass != null) {
+			peticionLookingGlass.abort();
+		}
+		$('#lookingGlassLoader').removeClass('oculto');
+		peticionLookingGlass = $.ajax({
+		  url: $(this).attr('action'),
+		  data: $(this).serialize(),
+		  type: 'post',
+		  dataType: 'html',
+		  context: $('#looking_glass_form'),
+		  success: function(data) {
+            $('#lookingGlassLoader').addClass('oculto');
+            try {
+            	data = $.parseJSON(data);
+                if(data.accion=='descarga'){
+                    window.open(data.data);
+                }
+                else {
+                    $('.paxina-inner').prepend(data.data);
+                    $('#looking_glass_form_container').replaceWith(data.form);
+                }
+            }
+            catch(Exception) {
+            	$('#looking_glass_form_container').replaceWith(data);
+            }
+		  }
+		});
+	});
+        
+    // $('#pecharCapaRede').live('click',function(e){
+    $('body').on('click', '#pecharCapaRede', function(e){
+        e.preventDefault();
+        $('.capaRede').remove();
+        return false;
+    });
+      
+
+$("#capaMensajero button").click(function (e) {$("#capaOverlay").addClass("oculto"); $("#capaMensajero").addClass("oculto");});
+$("#capaMensajero button").click(function (e) {$("#capaOverlay").addClass("oculto"); $("#capaMensajero").addClass("oculto");});});</script><!-- if lt IE 9
+    script(src='moura/plugins/respond.js')
+    script(src='moura/plugins/html5shiv.js')
+    script(src='moura/plugins/placeholder-IE-fixes.js')
+-->
+</body>
+</html>

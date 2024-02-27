@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PING.LV</title>
+       <meta name="description" content="ātruma pārbaude" />
+    <meta name="keywords" content="ātruma pārbaude" />
+    <meta name="author" content="ping.lv" />
+    <link href="css/main123.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="functions_v3.js"></script>
+    <script type="text/javascript" src="browserdetect.js"></script>
+    <script type="text/javascript" src="swfobject.js"></script>
+    <script type="text/javascript" src="js/verify.js"></script>
+    <script type="text/javascript" src="js/domain_check.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+<!--
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="./js/jquery.progressbar.js"></script>
+-->
+<script type="text/javascript">
+function showSpeedTest(){
+
+                var flashvars = {
+                        configExtension: "xml"
+
+                };
+                var params = {
+                        quality: "high",
+                        bgcolor: "#ffffff",
+                        allowScriptAccess: "always"
+                };
+                var attributes = {
+                        id: "flashtest",
+                        name: "flashtest"
+                };
+                $("#speedtest").html(swfobject.embedSWF("netgauge.swf?v=3.0", "flashcontent", "620", "420", "10.0.0", false, flashvars, params, attributes));
+		$("#speedtest").show();
+}
+
+var loadedApplet = "";
+function loadJava(applet) {
+        if(loadedApplet == applet) {
+                return;
+        } else {
+                loadedApplet = applet;
+        }
+        var e = document.getElementById('javadiv');
+        if(e != null) {
+                if ((BrowserDetect.browser == "Safari") || (BrowserDetect.browser == "Opera")) {
+                    applet = "VoipApplet.jar";
+                }
+                e.innerHTML = "<applet code=\"VoipApplet.class\" archive=\"" + applet + "?blah=" + Math.random() + "\" width=\"1\" height=\"1\" mayscript id=\"VoipApplet\" name=\"VoipApplet\"><param name=\"debug\" value=\"false\"></applet>";
+        }
+}
+
+function switchColors(element, color)
+{
+links=document.getElementsByTagName("label") ;
+for (var i = 0 ; i < links.length ; i ++)
+links.item(i).style.color = 'black' ;
+element.style.color=color;
+}
+function changeColors(element, color)
+{
+lang=document.getElementsByTagName("a") ;
+for (var i = 0 ; i < lang.length ; i ++)
+lang.item(i).style.color = '#A8BAC3' ;
+element.style.color=color;
+}
+</script>
+	<script type="text/javascript">
+function switchColors(element, color)
+{
+links=document.getElementsByTagName("label") ;
+for (var i = 0 ; i < links.length ; i ++)
+links.item(i).style.color = 'black' ;
+element.style.color=color;
+}
+function changeColors(element, color)
+{
+lang=document.getElementsByTagName("a") ;
+for (var i = 0 ; i < lang.length ; i ++)
+lang.item(i).style.color = '#A8BAC3' ;
+element.style.color=color;
+}
+
+
+$(document).ready(function () {
+
+//showSpeedTest();
+
+         $(":radio:checked").each(function () {
+                        if($(this).val() == 'speedtest') {
+                                $('#formSubmit').hide();
+//                                showSpeedTest();
+                                $('#pb1').hide();
+//                                $('#speedtest').hide();
+                                $("#port").hide();
+                                $("#test").hide();
+                                $("#help_form").hide();
+                        } else if ($(this).val() == 'ping') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#formSubmit').show();
+                                $("#count").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+//                              $("#speedtest").css('min-height', '500px');
+//                              $("#whois_server").hide();
+//                              $("#dig_options").hide();
+                        } else if ($(this).val() == 'whois') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $("#subject").show();
+//                              $("#ip-holder").hide();
+                                $("#ip-holder_whois").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                        } else if ($(this).val() == 'dig') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $("#dig_options").show();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        } else if ($(this).val() == 'resolve') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'nslookup') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'tracepath') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }else if ($(this).val() == 'traceroute') {
+                                $("#ndt_form2").hide();
+                                $("#ndt_form").hide();
+                                $('#test').show();
+                                $("#speedtest").hide();
+                                $("#subject").show();
+                        }
+                });
+});
+
+
+</script>
+</head>
+
+
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 id="logo"><a href="https://ping.lv" title="ping.lv - sākums"><span>ping.lv</span></a></h1>
+
+            <ul id="lang">
+                <li><a href="http://ping.lv/index.php" onclick="changeColors(this, '#FF7610');">Lv</a></li>
+                <li><a href="http://ping.lv/index-ru.php" onclick="changeColors(this, '#FF7610');">Ru</a></li>
+                <li><a href="http://ping.lv/index-en.php" onclick="changeColors(this, '#FF7610');">En</a></li>
+            </ul>
+            <p class="help"><a href="help.html">Palīdzība</a></p>
+        </div>
+        <form action="./index.php" method="post" class="radio-forma" id="mainform">
+            <fieldset>
+                <legend>Form</legend>
+                <div id="link-holder">
+                    <ul class="menu">
+                           <li>
+                            <input type="radio" id="name2" class="radio" value="speedtest" name="action" checked="checked"/>
+                            <label for="name2" onclick="switchColors(this, '#FF7610');">Ātruma pārbaude</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name3" class="radio" value="resolve" name="action"  />
+                            <label for="name3" onclick="switchColors(this, '#FF7610');">Resolve host</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name4" class="radio" value="whois" name="action"  />
+                            <label for="name4" onclick="switchColors(this, '#FF7610');">Whois</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name5" class="radio" value="nslookup" name="action"  />
+                            <label for="name5" onclick="switchColors(this, '#FF7610');">NS Lookup</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name6" class="radio" value="dig" name="action" />
+                            <label for="name6" onclick="switchColors(this, '#FF7610');">Dig</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name7" class="radio" value="ping" name="action"  />
+                            <label for="name7" onclick="switchColors(this, '#FF7610');">Ping</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name8" class="radio" value="traceroute" name="action"  />
+                            <label for="name8" onclick="switchColors(this, '#FF7610');">Traceroute</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="name9" class="radio" value="tracepath" name="action"  />
+                            <label for="name9" onclick="switchColors(this, '#FF7610');">Tracepath</label>
+                        </li>
+                    </ul>
+                </div>
+                <div id="ip-holder">
+                    <div class="ip-block">
+                        <label for="name1">Domena vārds vai IP:</label>
+                        <div  class="input"><input style="margin-left:-2px;" type="text" name="host" id="host" value="164.70.99.9" /></div>
+                        <label style="margin-top:5px;margin-left:-18px;" id="isp"></label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+     <div id="content">
+            <div class="flash">
+                                <div class="btn" id="formSubmit" style="margin-bottom:2rem;">
+                                        <center><a onclick="$('#mainform').submit();"><span>Go</span></a></center>
+                                </div>
+				<h2 id="subject" style="display:none;">
+	     
+	<span class="left">
+		<span class="right">
+	</span>
+		</span>
+			</h2>
+
+<div id="speedtest">
+  <!--OST Widget code start-->
+  <!-- <iframe src="http://openspeedtest.com/Get-widget.php" width="735" scrolling="no" height="490" frameborder="0"></iframe> -->
+  <!-- <iframe src="http://openspeedtest.com/ost-self-hosted.php" width="100%" height="540" scrolling="no" frameborder="0"></iframe> -->
+  <!-- OST Widget code end -->
+  
+  <!-- Test -->
+  <!-- <iframe width="100%" height="600px" frameborder="0" src="http://balticom.lv"></iframe> -->
+  
+  <iframe width="100%" height="600px" frameborder="0" src="//balticom.speedtestcustom.com"></iframe>
+  <script type="text/javascript">
+      $.get("https://json.geoiplookup.io", function (response) {
+          var $isp = response.isp;
+          var $asn = response.asn_org;
+          $("#isp").html($isp);
+
+          if ($isp.match("BALTICOM") || $asn.match("JSC BALTICOM")) {
+              $("#isp").html("AS Balticom")
+          } 
+          if ($isp.match("BITE")) {
+              $("#isp").html("BITE")
+          }
+      }, "jsonp");
+  </script>
+</div>
+
+<div id="test" class="inner">
+</div>
+</div>
+</div>
+        <div id="footer">
+            <p class="copy">&copy; 2023, A/S "Balticom"</p>
+            <p class="link">See <a href="http://www.balticom.lv/">www.balticom.lv</a></p>
+            <div class="clr"><!-- clear --></div>
+        </div>
+    </div>
+<script>
+$("form").submit(function() {
+                       if ((verifyIP($("input:[name=host]").val()) != "correct") || (checkDomain($("input:[name=host]").val()) != "correct")) {
+                                   alert ('Pārbaudi domēnu vai IP adresi');
+	                               return false;
+                                 }
+	                               return true;
+				});
+
+$('input:radio').bind('click', function () {
+                if($(this).val() == 'speedtest') {
+                        $('#formSubmit').hide();
+                        showSpeedTest();
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+			$("#ip-holder").show();
+                        $("#dig_options").hide();
+                        $("#test").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#subject").hide();
+                }
+                else if ($(this).val() == 'ping') {
+                        $("#speedtest").hide();
+                        $("#count").show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#ip-holder_whois").hide();
+                        $("#dig_options").hide();
+                        $('#formSubmit').show();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+
+                }
+                else if ($(this).val() == 'resolve') {
+                        $('#formSubmit').show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+                        $("#dig_options").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+
+                } else if ($(this).val() == 'whois') {
+                        $('#formSubmit').show();
+                        $("#ip-holder_whois").show();
+//			$("#ip-holder").hide();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#dig_options").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+		}else if ($(this).val() == 'nslookup') {
+                        $('#formSubmit').show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+                        $("#dig_options").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+
+                } else if ($(this).val() == 'dig') {
+                        $('#formSubmit').show();
+                        $("#dig_options").show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+                }else if ($(this).val() == 'traceroute') {
+                        $('#formSubmit').show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+                        $("#dig_options").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+                } else if ($(this).val() == 'tracepath') {
+                        $('#formSubmit').show();
+                        $("#speedtest").css('min-height', '500px');
+                        $("#count").hide();
+                        $("#ip-holder_whois").hide();
+                        $("#dig_options").hide();
+                        $("#speedtest").hide();
+                        $("#help_form").hide();
+                        $("#show_form").hide();
+			$("#ip-holder").show();
+
+                }
+});		
+
+
+</script>
+</body>
+</html>

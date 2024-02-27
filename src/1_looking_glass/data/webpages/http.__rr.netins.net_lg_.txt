@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+<title>Aureon Looking Glass</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="description" content="Aureon Looking Glass">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Will Hughes">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+
+<table align="center"><tr><td><IMG SRC="aureonlogo.png" /></td><td><h2>Looking Glass</h2></td></tr></table>
+
+<P><P><P>
+<table width="100%"><tr style="width:500px;"><td width="15%">&nbsp;</td>
+<td>Looking Glass
+<FORM action="lg.cgi" METHOD="POST">
+<P>
+<input type="radio" name="type" value="Traceroute" CHECKED>  Traceroute<P>
+<input type="radio" name="type" value="BGPLookup"> BGP Lookup <P>
+<input type="radio" name="type" value="Ping"> Ping&nbsp;&nbsp;Count: 
+<SELECT NAME="Count">
+<option selected>5</option>
+<option>10</option>
+<option>20</option>
+</SELECT>
+<P>IP Address/Hostname: <input type="text" name="ipaddr" value="">
+<input type="submit" value="Query">
+</FORM>
+</td>
+</tr>
+</table>
+<div style="border-top:1px solid black; text-align:center;\n">
+<small><a href='http://www.aureon.com'>Aureon</a></small>
+</div>
+</body>
+</html>

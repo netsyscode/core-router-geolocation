@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<style type="text/css">
+.disaster { background: #FF3838 !important; }
+.high { background: #FF9999 !important; }
+.average { background: #FFB689 !important; }
+.warning { background: #FFF6A5 !important; }
+.information { background: #D6F6FF !important; }
+.not_classified { background: #DBDBDB !important; }
+td {  font-family: verdana, arial, helvetica, sans-serif; font-size: 10px;}
+
+.bloco {  height: 600px;  width: 100%;  background-color: white;}
+
+.center { height: 50%;  width: 50%;  border: 0px solid green;  padding: 10px; margin:auto }
+
+</style></HEAD>
+<BODY BGCOLOR="#C0C0C0" TOPMARGIN="5" TEXT="#000000">
+<TABLE BORDER="1" cellpadding="0" cellspacing="0" WIDTH="850" align="center" bgcolor="#FFFFFF"><TR><TD Align="center"><A HREF="http://www.76telecom.com.br"><IMG SRC="https://www.76telecom.com.br/monitoramento/logo2_76.jpg" BORDER="0" ALT="LG"></A></TD></TR><TR><TD><br>
+<CENTER>
+<H1>Looking Glass</H1>
+</CENTER>
+<P>
+<HR SIZE=1 WIDTH="85%" NOSHADE>
+<P>
+<center>
+<FORM METHOD="POST" ACTION="/lg/">
+
+<TABLE BORDER=1 BGCOLOR="#EFEFEF" ><TR><TD>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF" size="2" >Pesquisa</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF" size="2">Destino</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF" size="2">Origem</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" checked></TD><TD>&nbsp;bgp</TD></TR>
+
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;regex</TD></TR>
+<!--
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+-->
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="76Telecom - Routeservers">
+<OPTION VALUE="AS262760-ICR01"> AS262760-ICR01
+<OPTION VALUE="AS262760-ICR02"> AS262760-ICR02
+<OPTION VALUE="AS262760-IPV6-ICR01"> AS262760-IPV6-ICR01
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Enviar"> | 
+	<INPUT TYPE="RESET" VALUE="Limpar"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="1" WIDTH="98%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:redes@76telecom.com.br">redes@76telecom.com.br</A>.
+</I>
+<P>
+</CENTER>
+</td></tr></table>
+</BODY>
+</HTML>

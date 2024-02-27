@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<style type="text/css">
+html, body, table, th, tr, td{
+margin: 0px;
+padding: 0px;
+}
+th{
+font-family: arial, Helvetica, sans-serif;
+font-style: normal;
+text-align: center;
+font-size: 14px;
+line-height: 20px;
+}
+tr{
+font-family: arial, Helvetica, sans-serif;
+text-align: left;
+color: #666666;
+background-color: #DCDCDC;
+font-size: 12px;
+line-height: 16px;
+}
+p{
+font-family: arial, Helvetica, sans-serif;
+text-align: left;
+color: #666666;
+font-size: 12px;
+line-height: 14px;
+}
+code{
+font-size: 11px;
+line-height: 14px;
+}
+td{
+padding: 1px 0 1px 5px;
+}
+a{
+color: #999999;
+}
+h1{
+color: #666666;
+font-family: helvetica,arial,sans-serif;
+font-size: 16px;
+font-weight: bold;
+margin: 0;
+padding: 0.3em 0.3em 0.3em 0;
+text-align: left;
+}
+</style>
+</HEAD>
+<BODY TEXT="#000000">
+<FONT FACE="Arial,Helvetica,sans-serif" FONT SIZE="2em">
+<BR><h1>Looking Glass</h1>
+<BR>
+<FORM METHOD=POST ACTION="/cgi-bin/lg.pl/">
+	<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+	<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+	<TR>
+	<TH BGCOLOR="#999999" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+	<TH BGCOLOR="#999999" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+	<TH BGCOLOR="#999999" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+	<TR><TD>
+	<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+	<TR><TD><INPUT TYPE=radio NAME=query VALUE=bgp></TD><TD>&nbsp;bgp</TD></TR>
+	<TR><TD><INPUT TYPE=radio NAME=query VALUE=ping></TD><TD>&nbsp;ping</TD></TR>
+	<TR><TD><INPUT TYPE=radio NAME=query VALUE=trace CHECKED></TD><TD>&nbsp;trace</TD></TR>
+	<TR><TD></TD><TD><SELECT NAME=protocol>
+	<OPTION VALUE=IPv4> IPv4
+	<OPTION VALUE=IPv6> IPv6
+	</SELECT></TD></TR>
+	</TABLE>
+	</TD>
+	<TD ALIGN=CENTER>&nbsp;<BR><INPUT NAME=addr SIZE=30><BR><FONT SIZE=-1>&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+	<TD ALIGN=RIGHT>&nbsp;<BR><SELECT NAME=router>
+<OPTGROUP LABEL="ccn munich">
+<OPTION VALUE="city0 (AS 29488)"> city0 (AS 29488)
+</OPTGROUP>
+	</SELECT><BR><FONT SIZE=-1>&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+	</TR>
+	<TR><TD ALIGN=CENTER COLSPAN=3>
+	<P>
+	<INPUT TYPE=SUBMIT VALUE=Submit> | <INPUT TYPE=RESET VALUE=Reset>
+	<P>
+	</TD></TR>
+	</TABLE>
+	</TD></TR></TABLE>
+	<P>
+	</FORM>
+	<p>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</p>
+
+	<P>
+	<I>Please email questions or comments to <A HREF="mailto:support@ccn.net">support@ccn.net</A>.</I>
+	<BR>
+	</P>
+	</BODY>
+	</HTML>

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>ElCat Ltd. Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<link rel='StyleSheet' href='/lg.css' type='text/css' />
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.elcat.kg/"><IMG SRC="/elcat-logo-tr.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>ElCat Ltd. Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTI--ON="/">
+<input type="hidden" name="id" value="6465149071">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" CHECKED id="bgp"></TD><TD><label for='bgp'>&nbsp;bgp</label></TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping" id="ping"></TD><TD><label for='ping'>&nbsp;ping</label></TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" id="trace"></TD><TD><label for='trace'>&nbsp;trace</label></TD></TR>
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv6">
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" id="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT>
+<button type="button" onclick="addr_clear()">clear address</button>
+<script>
+<!--
+function addr_clear() { document.getElementById('addr').value = ''; }
+//-->
+</script>
+</TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="ElCat's Routers">
+<OPTION VALUE="Border gateway Bishkek"> Border gateway Bishkek
+<OPTION VALUE="Border gateway Moscow"> Border gateway Moscow
+<OPTION VALUE="ElCat Core"> ElCat Core
+<OPTION VALUE="Gateway Osh (Internet)"> Gateway Osh (Internet)
+<OPTION VALUE="Gateway Osh (KG)"> Gateway Osh (KG)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit">
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to &lt;admin [at] elcat.kg&gt;
+</I>
+<P>
+
+<!-- WWW.NET.KG , code for http://lg.elcat.kg -->
+<script language="javascript" type="text/javascript">
+ java="1.0";
+ java1=""+"refer="+escape(document.referrer)+"&amp;page="+escape(window.location.href);
+ document.cookie="astratop=1; path=/";
+ java1+="&amp;c="+(document.cookie?"yes":"now");
+</script>
+<script language="javascript1.1" type="text/javascript">
+ java="1.1";
+ java1+="&amp;java="+(navigator.javaEnabled()?"yes":"now");
+</script>
+<script language="javascript1.2" type="text/javascript">
+ java="1.2";
+ java1+="&amp;razresh="+screen.width+'x'+screen.height+"&amp;cvet="+
+ (((navigator.appName.substring(0,3)=="Mic"))?
+ screen.colorDepth:screen.pixelDepth);
+</script>
+<script language="javascript1.3" type="text/javascript">java="1.3"</script>
+<script language="javascript" type="text/javascript">
+ java1+="&amp;jscript="+java+"&amp;rand="+Math.random();
+ document.write("<a href='//www.net.kg/stat.php?id=7053&amp;fromsite=7053' target='_blank'>"+
+ "<img src='//www.net.kg/img.php?id=7053&amp;"+java1+
+ "' border='0' alt='WWW.NET.KG' width='31' height='31' /></a>");
+</script>
+<noscript>
+ <a href='//www.net.kg/stat.php?id=7053&amp;fromsite=7053' target='_blank'><img
+  src="//www.net.kg/img.php?id=7053" border='0' alt='WWW.NET.KG' width='31'
+  height='31' /></a>
+</noscript>
+<!-- /WWW.NET.KG -->
+
+
+</CENTER>
+</BODY>
+</HTML>

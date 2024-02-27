@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <base href="https://portal.pit-ix.net/index.php">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            PIT-IX Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="OUOgxgvSbgzvxc8nVrH4oHSxDFQTYtGQpL7shocz">
+
+        <link rel="stylesheet" type="text/css" href="https://portal.pit-ix.net/css/ixp-pack.css?id=54139ef7ceae44bc30b3" />
+
+        <link rel="shortcut icon" type="image/ico" href="https://portal.pit-ix.net/favicon.ico.dist" />
+
+                
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.pit-ix.net">
+    <img class="tw-inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.pit-ix.net/images/ixp-manager-white.png">
+    PIT-IX Portal</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item 1" href="https://portal.pit-ix.net/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.pit-ix.net/customer/associates">
+                            Associate Members                        </a>
+
+                        
+                    </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.pit-ix.net/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.pit-ix.net/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.pit-ix.net/login">
+                        Login
+                    </a>
+                
+            </li>
+        </ul>
+
+    </div>
+</nav>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h3>
+                                                                    Looking Glass
+            <small class="text-muted" style="font-size: 16px;">rs2-ipv6.pit-ix.net</small>
+                                </h3>
+                            <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                    <div class="btn-group btn-group-sm" role="group">
+        <div class="btn-group btn-group-sm" role="group">
+            <a class="btn btn-white" href="https://portal.pit-ix.net/lg">
+                <span class="fa fa-list"></span>
+            </a>
+            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                rs2-ipv6.pit-ix.net            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">
+                        Route Server                    </h6>
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs1-ipv4">
+                            rs1-ipv4.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs1-ipv6">
+                            rs1-ipv6.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item " href="https://portal.pit-ix.net/lg/rs2-ipv4">
+                            rs2-ipv4.pit-ix.net                        </a>
+
+                    
+                        <a class="dropdown-item active" href="https://portal.pit-ix.net/lg/rs2-ipv6">
+                            rs2-ipv6.pit-ix.net                        </a>
+
+                                                </div>
+        </div>
+                    <a class="btn btn-white" href="https://portal.pit-ix.net/lg/rs2-ipv6/route-search">
+                <span class="fa fa-search"></span>
+            </a>
+                <a class="btn btn-white" href="https://portal.pit-ix.net/lg/rs2-ipv6">
+            <span class="fa fa-home"></span>
+        </a>
+    </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                
+                                    <div class="alert alert-light" role="alert">
+        <em>This is the public looking glass. Uncached results and additional routers available when logged in.&nbsp;&nbsp;&nbsp;&nbsp;</em>
+    </div>
+
+
+    <div class="card mb-4">
+        <div class="card-body bg-light d-flex">
+            <div class="mr-auto">
+            
+                Bird v2                2.0.7
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                API: 1.2.2                
+                                    &nbsp;&nbsp;|&nbsp;&nbsp; 
+                    Router ID: 206.71.141.3                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Uptime: 242 days.
+                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                Last Reconfigure: 2023-12-18 07:30:30                
+                                
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                JSON:
+                [<a href="https://portal.pit-ix.net/api/v4/lg/rs2-ipv6/status">status</a>]
+                [<a href="https://portal.pit-ix.net/api/v4/lg/rs2-ipv6/bgp-summary">bgp</a>]
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="card col-sm-12">
+        <div class="card-body">
+            <form class="form-horizontal">
+                <div class="form-group row">
+                    <label for="net" class="col-lg-3 col-md-4 col-sm-5 control-label">IP Address/Prefix</label>
+                    <div class="col-lg-5 col-sm-6">
+                        <input type="text" class="form-control" id="net" placeholder="192.0.2.0/24 | 2001:db8:7:2::/64">
+                    </div>
+                </div>
+
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-lg-3 col-md-4 col-sm-5"> </legend>
+                        <div class="col-lg-5 col-md-6 col-sm-5">
+                            <div class="form-check">
+                                <label class="radio-inline" class="control-label">
+                                    <input type="radio" name="sourceSelector" id="sourceSelector-table" value="table" checked="checked"> Lookup table
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="radio-inline" class="col-sm-10 col-sm-offset-2 control-label">
+                                    <input type="radio" name="sourceSelector" id="sourceSelector-protocol" value="protocol"> Lookup protocol
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+                <div class="form-group row">
+                    <label for="source" class="col-lg-3 col-md-4 col-sm-5 control-label">Source</label>
+                    <div class="col-lg-5 col-sm-6">
+                        <select class="form-control chzn-select" id="source">
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="bg-light p-4 mt-4 shadow-sm text-center col-lg-12">
+                        <button id="submit" type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="route-modal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </main>
+
+            </div> <!-- </div class="row"> -->
+
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+
+            IXP Manager V5.8.0
+            |
+
+            
+                Copyright &copy; 2017 - 2023 Pittsburgh Internet Exchange
+
+            
+            |
+
+            Discover PIT-IX at:
+            <a href="https://pit-ix.net/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/groups/8913222/">
+                <i class="fa fa-linkedin fa-inverse mx-1"></i>
+            </a>
+
+            <!--<a href="https://www.facebook.com/comepeerwithme/">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>-->
+
+            <a  href="https://twitter.com/pit_ix">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.pit-ix.net/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.pit-ix.net/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.pit-ix.net/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        <script type="text/javascript" src="https://portal.pit-ix.net/js/ixp-pack.js?id=281c037ceef60adcb738"></script>
+
+        <script>
+
+            $( ".chzn-select" ).select2({ width: '100%', placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-tag" ).select2({ width: '100%', tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect" ).select2({ width: '100%', allowClear: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            $( ".chzn-select-deselect-tag" ).select2({ width: '100%', allowClear: true, tags: true, placeholder: function() {
+                $(this).data('placeholder');
+            }});
+
+            
+
+        </script>
+
+
+                
+<script type="text/javascript">
+
+jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+    "ip-address-pre": function ( a ) {
+        var i, item;
+        var m = a.split("."),
+            n = a.split(":"),
+            x = "",
+            xa = "";
+        if (m.length == 4) {
+            // IPV4
+            for(i = 0; i < m.length; i++) {
+                item = m[i];
+                if(item.length == 1) {
+                    x += "00" + item;
+                }
+                else if(item.length == 2) {
+                    x += "0" + item;
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        else if (n.length > 0) {
+            // IPV6
+            var count = 0;
+            for(i = 0; i < n.length; i++) {
+                item = n[i];
+                if (i > 0) {
+                    xa += ":";
+                }
+                if(item.length === 0) {
+                    count += 0;
+                }
+                else if(item.length == 1) {
+                    xa += "000" + item;
+                    count += 4;
+                }
+                else if(item.length == 2) {
+                    xa += "00" + item;
+                    count += 4;
+                }
+                else if(item.length == 3) {
+                    xa += "0" + item;
+                    count += 4;
+                }
+                else {
+                    xa += item;
+                    count += 4;
+                }
+            }
+            // Padding the ::
+            n = xa.split(":");
+            var paddDone = 0;
+            for (i = 0; i < n.length; i++) {
+                item = n[i];
+                if (item.length === 0 && paddDone === 0) {
+                    for (var padding = 0 ; padding < (32-count) ; padding++) {
+                        x += "0";
+                        paddDone = 1;
+                    }
+                }
+                else {
+                    x += item;
+                }
+            }
+        }
+        return x;
+    },
+    "ip-address-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+    },
+    "ip-address-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+    // http://stackoverflow.com/questions/12449890/reload-content-in-modal-twitter-bootstrap
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal');
+    });
+</script>
+
+
+<script type="text/javascript">
+
+
+let tables    = ["t_0055_as137409","t_0028_as398223","t_0039_as400798","t_0005_as5050","t_0020_as6939","master4","master6","t_0041_as7341","t_0015_as6536","t_0001_as13335","t_0002_as20326","t_0003_as17054","t_0012_as27364","t_0031_as20940","t_0030_as19261","t_0023_as36040","t_0032_as12087","t_0016_as13333","t_0050_as14740","t_0026_as15133","t_0025_as13767","t_0033_as26873","t_0035_as17172","t_0037_as14230","t_0046_as33154","t_0029_as20940","t_0049_as14740","t_0040_as400798","t_0017_as122","t_0034_as396317","t_0056_as212232"].sort();
+let protocols = ["pp_0005_as5050","pb_0040_as400798","pp_0020_as6939","pp_0041_as7341","pp_0015_as6536","pb_0017_as122","pp_0003_as17054","pb_0034_as396317","pp_0049_as14740","pb_0056_as212232","pp_0012_as27364","pp_0031_as20940","pp_0030_as19261","pb_0055_as137409","pp_0023_as36040","pp_0032_as12087","pp_0016_as13333","pp_0050_as14740","pb_0028_as398223","pb_0005_as5050","pb_0039_as400798","pp_0026_as15133","pb_0020_as6939","pp_0025_as13767","pp_0033_as26873","pp_0035_as17172","pb_0041_as7341","pp_0037_as14230","pb_0015_as6536","pp_0001_as13335","pp_0002_as20326","pp_0046_as33154","pp_0029_as20940","pp_0039_as400798","pb_0001_as13335","pb_0002_as20326","pp_0040_as400798","pb_0003_as17054","pb_0031_as20940","pb_0012_as27364","pb_0030_as19261","pb_0023_as36040","pb_0032_as12087","pb_0016_as13333","pb_0050_as14740","pp_0017_as122","device1","pb_0026_as15133","pp_0034_as396317","pb_0025_as13767","pb_0033_as26873","pb_0035_as17172","pp_0056_as212232","pb_0037_as14230","pp_0055_as137409","pb_0046_as33154","pb_0029_as20940","pp_0028_as398223","pb_0049_as14740"].sort();
+let source    = 'table';
+
+$("#submit").on( 'click', function(){
+    let net     = $("#net").val().trim();
+    let masklen = 32;
+    if( net == "" ) {
+        return;
+    }
+    $("#submit").prop('disabled', true);
+
+    if( net.indexOf('/') != -1 ) {
+        masklen = net.substring( net.indexOf('/') + 1);
+        net     = net.substring( 0, net.indexOf('/') );
+    } else if( net.indexOf(':') != -1 ) {
+        masklen = 128;
+    }
+
+    $.get('https://portal.pit-ix.net/lg/rs2-ipv6/route/' + encodeURIComponent(net) + '/' +
+            encodeURIComponent(masklen) + '/' +
+            source + '/' + encodeURIComponent( $("#source").val() ), function(html) {
+        $('#route-modal .modal-content').html(html);
+        $('#route-modal').modal('show', {backdrop: 'static'});
+     });
+
+    $("#submit").prop('disabled', false);
+});
+
+$('input:radio[name="sourceSelector"]').change( function(){
+    if( $(this).is(':checked') ) {
+        if( $(this).val() == "table" ) {
+            source = 'table'
+            $("#source").html("");
+            tables.forEach( function(e){
+                $("#source").append( $("<option></option>")
+                    .attr("value",e)
+                    .text(e)
+                );
+            });
+            $("#source").val('master6');
+        } else {
+            source = 'protocol'
+            $("#source").html("");
+            protocols.forEach( function(e){
+                $("#source").append( $("<option></option>")
+                    .attr("value",e)
+                    .text(e)
+                );
+            });
+        }
+    }
+});
+
+$(document).ready(function() {
+
+    tables.forEach( function(e){
+        $("#source").append( $("<option></option>")
+            .attr("value",e)
+            .text(e)
+        );
+    });
+    $("#source").val('master6');
+});
+
+</script>
+
+
+        
+    </body>
+</html>

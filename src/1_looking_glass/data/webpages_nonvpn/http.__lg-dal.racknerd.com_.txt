@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>RackNerd - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+	
+
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css" />
+	
+	    <style>
+      html,
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+	        .header .span12 > img {
+        width: 280px;
+        margin: 20px 0;
+	}
+	
+div {
+  max-width: 1000px;
+}		
+	  
+	  input.MyButton {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: auto;
+background: linear-gradient(to left, #302b63, #302b63);
+color: #fff;
+border: 0px solid #3366cc;
+border-radius: 10px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 102, 0.5);
+margin: 5px 4px;
+}
+input.MyButton:hover {
+color: #ffff00;
+background: #000;
+border: 0px solid #fff;
+}
+
+	  input.MyButton1 {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: auto;
+background: linear-gradient(to left, #667db6, #667db6);
+color: #fff;
+border: 0px solid #3366cc;
+border-radius: 10px;
+box-shadow: 0 4px 15px 0 rgba(153, 153, 255, 0.5);
+margin: 5px 4px;
+}
+input.MyButton1:hover {
+color: #ffffff;
+background: #000;
+border: 0px solid #fff;
+}
+
+	  input.MyButton2 {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: auto;
+background: linear-gradient(to left, #348AC7, #348AC7);
+color: #fff;
+border: 0px solid #3366cc;
+border-radius: 10px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 179, 0.5);
+margin: 5px 4px;
+}
+input.MyButton2:hover {
+color: #ada9f5;
+background: #000;
+border: 0px solid #fff;
+}
+	  
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px 0px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #008CBA;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2F80ED, #2F80ED);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button00 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #008CBA;
+  text-decoration: none;
+}
+
+.button00:hover {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2bc255, #2bc255);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button3 {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2F80ED, #2F80ED);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2F80ED, #2F80ED);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button0 {
+  background-color: #2fed65;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #1a963d, #1a963d);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button0:hover {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #1a963d, #1a963d);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 0.65);
+}
+
+.button4 {
+  background-color: #FF4B2B;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #FF416C, #FF416C);
+}
+
+.button4:hover {
+  background-color: #FF4B2B;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #FF416C, #FF416C);
+  box-shadow: 0 4px 15px 0 rgba(220, 80, 80, 1.1);
+}
+
+
+.button5 {
+  background-color: #7b4397;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #7b4397, #7b4397);
+}
+
+.button5:hover {
+  background-color: #7b4397;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #7b4397, #7b4397);
+  box-shadow: 0 4px 15px 0 rgba(238, 130, 238, 1.1);
+}
+
+.button6 {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2F80ED, #2F80ED);
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #2F80ED, #2F80ED);
+  box-shadow: 0 4px 15px 0 rgba(0, 133, 255, 1.1);
+}
+
+.button7 {
+  background-color: #302b63;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #302b63, #302b63);
+}
+
+.button7:hover {
+  background-color: #302b63;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #302b63, #302b63);
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1.1);
+}
+
+.button8 {
+  background-color: #CB356B;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #CB356B, #CB356B);
+}
+
+.button8:hover {
+  background-color: #CB356B;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #CB356B, #CB356B);
+  box-shadow: 0 4px 15px 0 rgba(220, 80, 80, 1.1);
+}
+
+.button9 {
+  background-color: #f46b45;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #f46b45, #f46b45);
+}
+
+.button9:hover {
+  background-color: #CB356B;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #f46b45, #f46b45);
+  box-shadow: 0 4px 15px 0 rgba(255, 165, 0, 1.1);
+}
+
+.button10 {
+  background-color: #348F50;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #348F50, #348F50);
+}
+
+.button10:hover {
+  background-color: #348F50;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #348F50, #348F50);
+  box-shadow: 0 4px 15px 0 rgba(60, 179, 113, 1.1);
+}
+
+</style>
+	
+	
+	
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+	
+  </head>
+  <body>
+	  
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <a href="https://www.racknerd.com/" target="_blank" class="logo"><img src="logo.png" width="280"></a></br></br>
+          </div>
+        </div>
+      </header>
+	  
+      <!-- Location Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">USA Locations</span>
+					<a href="http://lg-lax02.racknerd.com/" class="button button2">Los Angeles, CA (DC-02)</a>&nbsp;
+					<a href="http://lg-sj.racknerd.com/" class="button button2">San Jose, CA</a>&nbsp;
+					<a href="http://lg-sea.racknerd.com/" class="button button2">Seattle, WA</a>&nbsp;
+					<a href="http://lg-chi.racknerd.com/" class="button button2">Chicago, IL</a>&nbsp;
+					<a href="http://lg-nj.racknerd.com/" class="button button2">New Jersey, NJ</a>&nbsp;
+					<a href="http://lg-atl.racknerd.com/" class="button button2">Atlanta, GA</a>&nbsp;
+					<a href="http://lg-dal.racknerd.com/" class="button button3">Dallas, TX</a>&nbsp;
+					<a href="http://lg-ny.racknerd.com/" class="button button2">Buffalo, NY</a>&nbsp;
+					<a href="http://lg-ash.racknerd.com/" class="button button2">Ashburn, VA</a>&nbsp;
+					<a href="https://racknerd.com/datacenters" class="button button4" target="_blank">View All Datacenters</a>&nbsp;
+            </div>
+          </div>  
+	    </div>	
+	  </section>
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Europe Locations</span>
+					<a href="http://lg-fr.racknerd.com/" class="button button2">Strasbourg, FR</a>&nbsp;
+					<a href="http://lg-ams.racknerd.com/" class="button button2">Amsterdam, NL</a>&nbsp;
+					<a href="https://racknerd.com/datacenters" class="button button4" target="_blank">View All Datacenters</a>&nbsp;
+            </div>
+          </div>  
+	    </div>	
+	</section>		  
+	  
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Server Location: <b>Dallas, TX</b></p>
+              <div style="margin-left: 10px;">
+                <p>Test IPv4: 198.23.249.100</p>
+                <p></p>
+                <p>Test files: <a href="25MB.test" id="testfile">25MB</a> <a href="50MB.test" id="testfile">50MB</a> <a href="100MB.test" id="testfile">100MB</a> <a href="1000MB.test" id="testfile">1000MB</a> </p>
+              </div>
+              <p>Your IP Address: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+            </div>
+          </div>
+		  
+	</div>
+		
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend">Network tests</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="traceroute">traceroute</option>
+                                  </select>
+                <button type="submit" id="submit" name="submit" class="button button6" style="margin-left: 10px;">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+         <!-- Results -->
+         <section id="results" style="display:none">
+           <div class="row">
+             <div class="span12">
+               <div class="well">
+                 <span id="legend">Results</span>
+                 <pre id="response" style="display:none"></pre>
+               </div>
+             </div>
+           </div>
+         </section>
+
+	 
+      <!-- Company Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Shortcuts</span>
+					<a href="https://tawk.to/chat/5dd899b3d96992700fc8d446/default" class="button button8" target="_blank">Chat with RackNerd</a>&nbsp;
+					<a href="https://my.racknerd.com/submitticket.php?step=2&deptid=1" class="button button10" target="_blank">Contact RackNerd Support</a>&nbsp;
+					<a href="https://www.racknerd.com" class="button button5" target="_blank">Back to RackNerd.com</a>&nbsp;
+					<a href="https://my.racknerd.com/clientarea.php" class="button button9" target="_blank">RackNerd Client Portal</a>&nbsp;
+					<a href="https://my.racknerd.com/register.php" class="button button7" target="_blank">Don't have an account? Create Account</a>&nbsp;
+            </div>
+          </div>  
+		  </div>
+	  </div> 
+	</section>
+
+
+  </div><!-- /container -->
+ 
+  
+
+
+
+	
+  </body>
+  
+  
+  
+</html>

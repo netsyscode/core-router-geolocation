@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <title>Looking glass - feral/network</title>
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/network.feral.io.css">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header role="banner">
+        <h2><a href="/">feral/network</a></h2>
+        <aside>
+            <div><a href="https://www.peeringdb.com/view.php?asn=200052" title="ASN 2-triple-zero-52">ASN 200052</a></div>
+            <div><a href="mailto:noc@feral.io">noc@feral.io</a></div>
+            <div><a href="https://www.feralhosting.com/about#company">Feral.io Ltd</a></div>
+        </aside>
+        <nav role="navigation">
+
+            <ul>
+                <li><a href="/looking-glass">Looking glass</a></li>
+                <li><a href="https://lg.noc.feral.io/">BGP looking glass</a></li>
+                <li><a href="/reroute">Reroute traffic</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div role="main">
+                <h1>Looking glass</h1>
+
+<form method="post" autocomplete="on">
+    <input type="hidden" name="csrf" value="u8DGiZ&#43;x2rsjn0sLzVY6wBHpQv&#43;qhG89joCVbZa05jwUQ4&#43;wEAwczbzjRTSoLv5GuG9UjHYh&#43;n4ZxvBb2DrWVw==">
+    <div class="lg-type">
+        <h2>Utility</h2>
+        <ul>
+            <li>
+                <input type="radio" name="utility" id="ping" value="ping" required checked>
+                <label for="ping">Ping</label>
+            </li>
+            <li>
+                <input type="radio" name="utility" id="traceroute" value="traceroute" required>
+                <label for="traceroute">Traceroute</label>
+            </li>
+            <li>
+                <input type="radio" name="utility" id="mtr" value="mtr" required>
+                <label for="mtr">MTR</label>
+            </li>
+        </ul>
+    </div>
+    <div class="lg-host"><input type="text" id="host" name="host" placeholder="Hostname / IP address" pattern="[a-zA-Z0-9\-\.:]{1,255}" value="" autofocus required></div>
+    <button type="submit" name="action" value="look">Start</button>
+    <p>Note: commands may take a few seconds to a minute to complete.</p>
+</form>
+
+
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+        <title>Servperso Systems - AS34872 Looking Glass</title>
+        <meta name="description" content="Servperso Systems - BGP & RIPE LIR services for small network operator">
+<meta name="keywords" content="as34872,as205523,ripe ncc,lir,ixp,locix,kleyrex,decix,dusseldorf,myloc,ipv6,ipv4,colocation,server,router,network,autonomous system">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="/assets/styles/normalize.min.css">
+	<link rel="stylesheet" href="/assets/styles/main.css">
+        <link rel="stylesheet" href="/assets/styles/servperso.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <link rel="icon" href="/assets/images/favicon.svg">
+        <base href="/">
+	<!-- <link rel="stylesheet" href="assets/styles/custom.css"> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154724837-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154724837-1');
+</script>
+
+    </head>
+    <body>
+        <!-- Header -->
+                <header id="header" class="header-bottom header-dynamic link-primary">
+		<div class="container">
+			<!-- Header - Logo -->
+			<a class="header-logo" href="/">
+ 				<div class="header-logo-text text-primary">
+                                    <img alt="Servperso Systems logo" src="/assets/images/logo_white_noborder.svg" style="height: 24px;">
+				</div>
+			</a>
+			<!-- Header - Navigation -->
+			<nav class="header-navigation">
+				<ul class="header-navigation-primary">
+                                        <li><a href="/ripe-ncc-lir-services" title="LIR Services - Got ASN/IP on RIPE NCC region">LIR Services</a></li>
+					<li>
+						<a href="/bgp-and-hosting" title="BGP IP Transit - VMs - Shared colocation">BGP & Hosting</a>
+						<div class="header-navigation-sub">
+							<ul class="header-navigation-sub-primary">
+								<li><a href="/bgp-vm" title="BGP VMs - Access to LocIX and others IXP">BGP VMs</a></li>
+                                                                <li><a href="/bgp-tunnel" title="BGP Tunnel - Got ip transit via regular tunnel">BGP Tunnel</a></li>
+                                                                <li><a href="/ip-transit" title="IP Transit via public peering or PNI">IP Transit</a></li>
+                                                                
+							</ul>
+                                                
+						</div>
+					</li>
+					<li><a href="/tunnel/ipwan" title="IP Wan tunnel without BGP">NO BGP IPv4</a></li>
+                                        <!--<li><a href="/ixp-connections">IXP Connect</a></li>-->
+                                        <li>
+						<a href="/network" title="Information on the AS34872 autonomous network">Our network</a>
+						<div class="header-navigation-sub">
+							<ul class="header-navigation-sub-primary">
+                                                            <li><a href="/network/weathermap" title="AS34872 Network Weathermap">Weathermap</a></li>
+                                                            <li><a href="/network/lookinglass" title="AS34872 Looking Glass">Looking Glass</a></li>
+                                                            <li><a href="/network/bgp" title="AS34872 bgp sessions">BGP Sessions</a></li>
+							</ul>
+                                                        <ul class="header-navigation-sub-secondary">
+								<li><a href="http://smokeping.servperso.net/" target="_blank">Smokeping NL</a></li>
+								<li><a href="http://smokeping-de1.servperso.net/" target="_blank">Smokeping DE</a></li>
+							</ul>
+						</div>
+					</li>
+                                        <li><a target="_blank" href="https://manager.servperso.net">Manager</a></li>
+					<li>
+						<a href="/about-us" title="About us">About us</a>
+						<div class="header-navigation-sub">
+							<ul class="header-navigation-sub-primary">
+								<li><a rel="nofollow" target="_blank" href="https://www.netsh.be/">Blog</a></li>
+                                                                <li><a href="/about-us" title="About us">About</a></li>
+								<li><a href="/contact" title="Contact us">Contact</a></li>
+							</ul>
+						</div>
+					</li>
+					
+                                        <li>
+                                            <a class="button button-wide button-gradient" href="/contact" title="Contact us">Contact us</a>
+                                        </li>
+				</ul>
+                            <!--
+				<ul class="header-navigation-secondary">
+					<li><a href="knowledge-base.html"><i class="fas fa-question-circle fa-left"></i>Knowledge Base</a></li>
+					<li><a href="client-login.html"><i class="fas fa-lock fa-left"></i>Client Login</a></li>
+				</ul>
+                            -->
+			</nav>
+		</div>
+			<!--<p style="text-align: center;color: #ff0000;font-size: 16Px;">Network instability in dusseldorf - intervention planed today - <a href="https://blog.servperso.net/network-issue-at-dusseldorf/">follow the incident here</a></p>-->
+	</header>        <!-- Main -->
+	<main id="main">
+        
+            <script type="text/javascript">
+    function lgpostrequest(postarg) {
+        SPJS.lg.request(postarg);
+    };
+    </script>
+                <section class="section-primary">
+			<div class="container">
+				<header class="section-header">
+					<h1>Network Looking Glass</h1>
+                                        
+				</header>
+			</div>
+			<div class="section-background">
+				<svg width="1442" height="712">
+					<use fill="var(--accent-color-secondary)" xlink:href="assets/images/cloud-mask.svg#background-small-1"/>
+				</svg>
+			</div>
+		</section>
+
+                <section class="section-secondary">
+                    <form method="post" id="lookinglass_form" onsubmit="return false;">
+                        <div class="container">
+                                                <div class="box text-center">
+                                                    <div class="box-content">
+							<div class="flex" style="text-align: left;">
+                                                            <div class="flex-33">
+                                                                <h3>Router selection</h3>
+                                                                  
+                                                                            <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                                
+                                                                                <input type="radio" name="routername" value="core1-mep-ser.nl" checked>
+                                                                                <p> core1-mep-ser.nl (Full table) </p>
+
+                                                                            </div>
+                                                                            
+                                                                           
+                                                                          
+                                                                            <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                                
+                                                                                <input type="radio" name="routername" value="core1-dus-my.de" checked>
+                                                                                <p> core1-dus-my.de (Full table) </p>
+
+                                                                            </div>
+                                                                            
+                                                                           
+                                                                          
+                                                                            <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                                
+                                                                                <input type="radio" name="routername" value="core2-dus-my.de" checked>
+                                                                                <p> core2-dus-my.de (Full table) </p>
+
+                                                                            </div>
+                                                                            
+                                                                           
+                                                                          
+                                                                            <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                                
+                                                                                <input type="radio" name="routername" value="dus2-rr" checked>
+                                                                                <p> dus2-rr (Full table) </p>
+
+                                                                            </div>
+                                                                            
+                                                                           
+                                                                                                                                    </div>
+                                                            <div class="flex-33">
+                                                                <h3>Request type</h3>
+                                                                <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                    <input type="radio" name="requesttype" value="route" checked>
+                                                                    <p>show route all &lt;ip|domain|asn&gt;</p>
+                                                                </div>
+                                                                <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                    <input type="radio" name="requesttype" value="ping">
+                                                                    <p>ping &lt;ip&gt;</p>
+                                                                </div>
+                                                                <div class="lookinglass_radio_button" onclick="jQuery(this).find('input').first().prop('checked', true);return false;">
+                                                                    <input type="radio" name="requesttype" value="traceroute">
+                                                                    <p>traceroute &lt;ip&gt;</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex-33">
+                                                                <h3>Destination</h3>
+                                                                <input type="text" class="form-control" name="requestparam" required="required"><br>
+                                                                <button type="submit" data-sitekey="6LdrWzUUAAAAALXokhG1J51215Be1L3M3OmCJn91" data-callback="lgpostrequest" class="g-recaptcha">Run</button>
+                                                            </div>
+                                                        </div>
+                                                        <pre id="lookinglass_text_result">
+                                                            
+                                                        </pre>
+                                                    </div>
+						</div>
+                        </div>
+                        
+                    </form>
+                    
+                    
+                    
+                </section>            
+            <!-- Footer -->
+                                <section id="footer">
+			<div class="container text-secondary link-primary">
+				<nav class="flex flex-center-top">
+					<div>
+						<h4>Connect</h4>
+						<ul>
+							<li><a target="_blank" href="https://twitter.com/servperso"><i class="fab fa-twitter fa-left"></i>Twitter</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4>Products</h4>
+						<ul>
+							<li><a href="/bgp-vm" title="BGP VMs - Access to LocIX and others IXP">BGP VMs</a></li>
+                                                        <li><a href="/ip-transit" title="IP Transit via public peering or PNI">IP Transit</a></li>
+                                                        <!--<li><a href="/ixp-connections">IXP Connect</a></li>-->
+                                                        <li><a href="/server-and-network-consulting" title="Network and system consulting">Consulting</a></li>
+                                                        <li><a href="/ripe-ncc-lir-services" title="LIR Services - Got ASN/IP on RIPE NCC region">LIR Services</a></li>
+                                                        <li><a href="/tunnel/ipwan" title="IP Wan tunnel without BGP">NO BGP IPv4</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4>AS34872</h4>
+						<ul>
+                                                        <li><a href="/network" title="Information on the AS34872 autonomous network">Network info</a></li>
+                                                        <li><a href="https://manager.servperso.net/index.php?rp=/announcements" target="_blank">Incident</a></li>
+							<li><a href="http://bgp.he.net/as34872" target="_blank">bgp.he.net</a></li>
+							<li><a href="https://www.peeringdb.com/net/21009" target="_blank">PeeringDB</a></li>
+							<li><a href="/network/weathermap" title="AS34872 Network Weathermap">Weathermap</a></li>
+                                                        <li><a href="/network/lookinglass" title="AS34872 Looking Glass">Looking Glass</a></li>
+                                                        <li><a href="/network/bgp" title="AS34872 bgp sessions">BGP Sessions</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4>Legal</h4>
+						<ul>
+							<li><a target="_blank" href="/tos.pdf">TOS</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4>Company</h4>
+						<ul>
+							<li><a target="_blank" href="https://www.netsh.be/">Blog</a></li>
+							<li><a href="/about-us" title="About us">About</a></li>
+							<li><a href="/contact" title="Contact us">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+				<footer class="section-footer">
+					<p>
+                                            Copyright 2023 &copy; Servperso. All rights reserved. <br>
+                                            <img src="/assets/images/pride.svg" style="height: 20px; vertical-align: middle;"> <img src="/assets/images/trans.svg" style="height: 20px; vertical-align: middle;"><br>
+					</p>
+				</footer>
+			</div>
+		</section>        </main>
+	<!-- Scripts -->
+	<script src="/assets/scripts/jquery.min.js"></script>
+	<script src="/assets/scripts/main.js"></script>
+        <script src="/assets/scripts/sp.js"></script>
+        <script type="text/javascript" src="assets/scripts/overlib.js"></script> 
+        <script src="assets/scripts/imageMapResizer.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        
+    <script>(function(){var js = "window['__CF$cv$params']={r:'837615b68a48f6d9',t:'MTcwMjg4ODY1Ny4xMDYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

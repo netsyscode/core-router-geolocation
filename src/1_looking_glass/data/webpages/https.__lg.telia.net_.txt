@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Telia Looking Glass</title>
+	<meta name="viewport" content="width=1000">
+	<meta name="description" content="Use the Looking Glass to view current routing information.">
+	<meta name=keywords content="Looking Glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, routing, AS3308, AS3249, AS1759, AS25400, AS3301">
+	<meta name="author" content="Telia Company">
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<style type="text/css">
+	html, body {
+		margin: 0;
+		padding: 0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+	.header {
+		height: 70px;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+		margin-bottom: 20px;
+	}
+	.header img {
+		height: 44px;
+		margin-top: 12px;
+		margin-left: 12px;
+	}
+	.splash {
+		background-color: #990ae3;
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	.querybox {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		border-spacing: 0;
+		border-collapse: collapse;
+	}
+	.infobox {
+		width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+		background-color: #f3f3f3;
+		padding: 25px;
+		font-size: 14px;
+	}
+        .twelve99box {
+                width: 850px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 25px;
+        }
+	h1 {
+		text-align: center;
+		color: #990ae3;
+		font-family: "Pebble";
+		line-height: 2;
+		margin: 0;
+		font-size: 52px;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+	p, li {
+		line-height: 1.5;
+		margin-top: 0;
+	}
+	td { padding: 0; }
+	div#results {
+		margin: 50px;
+		white-space: pre-wrap;
+		font-family: monospace;
+	}
+	div#results div.communities_c { margin-left: 3.6em; }
+	div#results div.communities_j { margin-left: 4.8em; }
+	@media all and (min-width: 1200px) {
+		div#results dl {
+		    column-count: 2;
+		    column-gap: 2em;
+		    width: 100%;
+		}
+	}
+	div#results dt {
+	    float: left;
+	    clear: left;
+	    width: 7em;
+	}
+	div#results dd { margin-left: 5em; }
+	div#results .route-active {
+		color: #ff8c00;
+		font-weight: bold;
+	}
+	div#results .hidden-data { display: none; }
+	div#results .route-rpki-valid { color: #209903; }
+	div#results .route-rpki-invalid { color: #ff0000; }
+	div#results_rpki_msgbox {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 13px;
+		padding: 5px;
+		white-space: normal;
+		margin-top: 25px;
+	}
+	div#results_rpki_msgbox.route-rpki-valid {
+		background-color: #209903;
+		color: white;
+	}
+	div#results_rpki_msgbox.route-rpki-unknown {
+		background-color: #ff8c00;
+		color: white;
+	}
+	div#results_rpki_msgbox.route-rpki-invalid {
+		background-color: #ff0000;
+		color: white;
+	}
+	input[type=submit], input[type=text], select {
+		background-color: white;
+		border: 1px solid #eeeeee;
+		border-radius: 0.3em;
+		box-shadow: inset 0 5px 3px rgba(255, 255, 255, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
+		font-size: 14px;
+		padding: 3px;
+		height: 30px;
+		box-sizing: border-box;
+	}
+	input[type=text] {
+		padding: 3px 3px 3px 6px;
+	}
+	input[type=submit] {
+		background-color: rgb(242, 242, 242);
+		color: #990ae3;
+	}
+	input[type=submit]:hover {
+		background-color: #990ae3;
+		color: rgb(242, 242, 242);
+	}
+	.input_submit_wait {
+		background-color: #990ae3 !important;
+		color: rgb(242, 242, 242) !important;
+	}
+	@font-face {
+		font-family: "Pebble";
+			src:url("/assets/Pebble_W_Rg.eot");
+			src:url("/assets/Pebble_W_Rg.eot?#iefix") format("embedded-opentype"), url("/assets/Pebble_W_Rg.woff") format("woff"), url("/assets/Pebble_W_Rg.ttf") format("truetype");
+			font-weight: normal;
+			font-style: normal;
+	}
+	#guide { transition: 0.5s linear all; }
+	.hide { opacity: 0; }
+	#results_spinner {
+		display: none;
+		margin-left: 50px;
+	}
+	</style>
+	<!--[if lte IE 9]>
+    <script type="text/javascript" src="/assets/XMLHttpRequest.js"></script>
+    <![endif]-->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>	<script type="text/javascript">
+	var nodes = {"AS1759 - Telia Finland":{"Helsinki ASBR1":{"backend_name":"fi-hkitm-asbr1.fi"},"Helsinki ASBR2":{"backend_name":"fi-hkihdc-asbr2.fi"}},"AS25400 - Telia Norge":{"Oslo (Sandakerveien)":{"backend_name":"san-peer2.osl.no"},"Oslo (Prestegata)":{"backend_name":"prg-peer2.osl.no"}},"AS3301 - Telia Sverige":{"Stockholm, Fredh&#228;ll":{"backend_name":"fre-peer1.se"},"Stockholm, Hammarby":{"backend_name":"hy-peer1.se"},"Malm&#246;":{"backend_name":"m-b-peer1.se"},"Lund":{"backend_name":"ld-h-peer1.se"},"G&#246;teborg":{"backend_name":"g-br-sec1.se"},"Sundsvall":{"backend_name":"sv-g-sec1.se"}},"AS3249 - Telia Eesti":{"Tallinn 1":{"backend_name":"kjj-bb3.ee"},"Tallinn 2":{"backend_name":"noe-bb3.ee"}},"AS3308 - Telia Danmark":{"Copenhagen PowCph":{"backend_name":"Copenhagen PowCph"},"Copenhagen OSD":{"backend_name":"Copenhagen OSD"}}};
+
+	function onChangeNetworkSelect() {
+		network = document.getElementById('form_network').value;
+		document.getElementById('form_router').innerHTML = "";
+		for (var key in nodes[network]) {
+			if (!nodes[network].hasOwnProperty(key)) continue;
+			if (!nodes[network][key].hasOwnProperty("backend_name")) {
+				var option = document.createElement('optgroup');
+				option.label=key;
+			} else {
+				var option = document.createElement('option');
+				option.innerHTML=key;
+				option.value=nodes[network][key]["backend_name"];
+				if (nodes[network][key]["default"] == "true") {
+					option.selected = true;
+				}
+			}
+			document.getElementById('form_router').options.add(option);
+		}
+	}
+
+function blockForm() {
+	Array.prototype.slice.call(document.forms.queryform.querySelectorAll('input[type="text"], input[type="radio"], select')).forEach(function(e){e.disabled=true});
+	document.getElementById('form_submit').value="Abort";
+	document.getElementById('form_submit').className="input_submit_wait";
+	document.getElementById('results_spinner').style.display="block";
+}
+
+function unblockForm() {
+	document.getElementById('form_submit').value="Run";
+	document.getElementById('form_submit').className="";
+	document.getElementById('results_spinner').style.display="none";
+	Array.prototype.slice.call(document.forms.queryform.querySelectorAll('input[type="text"], input[type="radio"], select')).forEach(function(e){e.removeAttribute('disabled')});
+}
+
+
+function formValidateAddress(input_str) {
+	var regex_ip = /((^\s*((([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))\s*$)|(^\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\s*$))/;
+	var regex_dns = /^\b((?=[a-z0-9-]{1,63}\.)(xn--)?[a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,63}\b(?:\.|)$/i;
+
+	input_str = input_str.trim();
+	var input_array = input_str.split("/");
+	if (input_array.length > 2) {
+		return {result: false, error: 'Invalid query.'};
+	}
+	if (regex_ip.test(input_array[0])) {
+		// IP address
+		var ip_ver = input_array[0].indexOf(":") !== -1 ? "IPv6" : "IPv4";
+		if (input_array.length == 2) {
+			// Check CIDR length
+			if (/^\+?(0|[1-9]\d*)$/.test(input_array[1]) == false) {
+				return {result: false, error: 'Invalid CIDR/netmask.'};
+			} else if (ip_ver == "IPv4" && input_array[1] > 32) {
+				return {result: false, error: 'Invalid CIDR/netmask length.'};
+			} else if (ip_ver == "IPv6" && input_array[1] > 128) {
+				return {result: false, error: 'Invalid CIDR/netmask length.'};
+			}
+		}
+		return {result: true, type: 'ip'};
+	} else if (regex_dns.test(input_str)) {
+		// DNS name
+		return {result: true, type: 'dns'};
+	} else {
+		// Unknown.
+		return {result: false, error: 'Invalid address, validation failed.'};
+	}
+}
+
+function onSubmitCheck() {
+	if (document.getElementById('form_submit').value == "Abort") {
+		// Active query running, abort
+		xhr.abort();
+		unblockForm();
+		grecaptcha.reset();		window.clearTimeout(xhr_timer);
+		document.getElementById('results').innerHTML=document.getElementById('results').innerHTML+"<br /><b>(Canceled)</b>";
+	} else {		
+		// Hide welcome guide
+		if (document.getElementById('guide') != undefined) {
+			document.getElementById('guide').className = document.getElementById('guide').className+" hide";
+			setTimeout(function(){
+				document.getElementById('guide').parentNode.removeChild(document.getElementById('guide'));
+			},500);
+		}
+		
+		var addressValidation = formValidateAddress(document.queryform.address.value);
+		if (addressValidation['result']) {
+			blockForm();
+			if (addressValidation['type'] == "ip") {
+				grecaptcha.execute();			} else if (addressValidation['type'] == "dns") {
+				onSubmitDNSQuery(document.queryform.address.value.trim());
+			}
+		} else {
+			document.getElementById('results').innerHTML = addressValidation['error'];
+		}
+	}
+}
+
+function DOHQuery(cb, name, type = 1) {
+	if (typeof cb != 'function') return false;
+	var doh_xhr = new XMLHttpRequest();
+	doh_xhr.onreadystatechange = function() {
+		if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+			var jsonResponse = JSON.parse(doh_xhr.responseText);
+			if (jsonResponse['Status'] != 0) {
+				cb(jsonResponse['Status']);
+			} else {
+				cb(jsonResponse['Status'], jsonResponse['Answer']);
+			}
+		}
+		if (this.readyState == XMLHttpRequest.DONE && this.status != 200) cb(-1);
+	};
+	doh_xhr.overrideMimeType("application/json");
+	doh_xhr.open("GET", "https://dns.google/resolve?name="+name+"&type="+type, true);
+	doh_xhr.send();
+}
+
+function onSubmitDNSQuery(name) {
+	document.getElementById('results').innerHTML = "It looks like you are trying to run a query using a DNS hostname.\n\n";
+	document.getElementById('results').innerHTML += "<b>Please select which IP you want to run the query against:</b>\n<div id=\"dns_results\"></div>\n\n";
+	document.getElementById('results').innerHTML += "<b>Disclaimer / Why do I see this:</b>\n";
+	document.getElementById('results').innerHTML += "In a modern day where many organizations utilize geolocation based lookups for serving DNS requests,\nwe cannot guarantee that our routers will run the query towards the same IP as you might do yourself locally.\nBy having you specify the query IP before running the query, we minimize the risk of confusions.";
+
+	var dns_results = function(answer){
+		if (answer['type'] != 1 && answer['type'] != 28) return false; // Only display A & AAAA records
+		document.getElementById('dns_results').innerHTML += answer['name']+" -> <a href=\"javascript:void(0);\" onclick=\"document.queryform.address.value='"+answer['data']+"';onSubmitCheck();\">"+answer['data']+"</a>\n";
+	}
+	var lookup_errors = 0;
+	var dns_complete = function() {
+		if (lookup_errors > 1) {
+			document.getElementById('dns_results').innerHTML = "No results found, or invalid query.";
+		}
+		unblockForm();
+	}
+	
+	// A record query (IPv4)
+	DOHQuery(function(status, response = false){
+		if (status == 0 && response != false) {
+			response.forEach(dns_results);
+		} else {
+			lookup_errors++;
+		}
+		dns_complete();
+	}, name, "A");
+	// AAAA record query (IPv6)
+	DOHQuery(function(status, response = false){
+		if (status == 0 && response != false) {
+			response.forEach(dns_results);
+		} else {
+			lookup_errors++;
+		}
+		dns_complete();
+	}, name, "AAAA");
+}
+	
+	var xhr = new XMLHttpRequest();
+	var xhr_timer;
+	function onSubmitQuery() {
+		var queryData = {
+		router: document.queryform.router.value,
+			type: document.queryform.querySelector('input[name="type"]:checked').value,
+			address: document.queryform.address.value
+		};
+
+		// Redirect Telia Carrier requests to Twelve99 Looking Glass
+		if (document.queryform.network.value == "AS1299 - Telia Carrier" || document.queryform.network.value == "AS8837 - Telia Carrier IPX") {
+			if (queryData.type == "trace") queryData.type = "traceroute";
+			document.getElementById('results').innerHTML = 'The Telia Carrier looking glass has moved to <a href="https://lg.twelve99.net/" target="_blank">https://lg.twelve99.net/</a>';
+			window.open('https://lg.twelve99.net/?router='+encodeURI(queryData.router)+'&type='+encodeURI(queryData.type)+'&address='+encodeURI(queryData.address), '_blank');
+			unblockForm();
+			return false;
+		}
+
+		var getVars = "?type="+encodeURI(document.queryform.querySelector('input[name="type"]:checked').value)
+			+"&router="+encodeURI(document.queryform.router.value)
+			+"&address="+encodeURI(document.queryform.address.value);
+		if (getVars != location.search) {
+			history.pushState({queryData: queryData}, "", getVars);
+		}
+		
+		var postData = "network="+encodeURI(document.queryform.network.value);
+		postData = postData+"&router="+encodeURI(document.queryform.router.value);
+		postData = postData+"&type="+encodeURI(document.queryform.querySelector('input[name="type"]:checked').value);
+		postData = postData+"&address="+encodeURI(document.queryform.address.value);
+		postData = postData+"&g-recaptcha-response="+encodeURI(grecaptcha.getResponse());		
+		xhr.open("POST", "query.php", true);
+		xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		xhr.send(postData);		
+		xhr_timer = window.setInterval(function() {
+			document.getElementById('results').innerHTML = xhr.responseText;
+			if (xhr.readyState == XMLHttpRequest.DONE) {
+				if (document.querySelectorAll("#results .route-active").length == 0 && document.querySelectorAll("#results .data-command").length == 1 && document.queryform.network.value == "AS1299 - Telia Carrier" && document.queryform.querySelector('input[name="type"]:checked').value == "bgp") {
+					document.getElementById('results').innerHTML += "<b>No route to destination found on selected router/network.</b>\n\nPossible reasons:\n1. Route not in DFZ.\n2. Prefix announcement rejected due to invalid RPKI/ROA validation state.\n3. Prefix announcement rejected due to import policy.";
+				}
+				if (document.querySelectorAll("#results .hidden-data").length == 1) {
+					hidden_data = document.querySelectorAll("#results .hidden-data")[0].dataset;
+					if (hidden_data.rpkistate != undefined && document.getElementById("results_rpki_msgbox") == null) {
+						if (hidden_data.rpkistate == "valid") {
+							msg = "The active path has a valid matching Route Origin Authorization (ROA) record.";
+						}
+						if (hidden_data.rpkistate == "invalid") {
+							msg = "The active path has an incorrect Route Origin Authorization (ROA) record but is still the best route.";
+						}
+						if (hidden_data.rpkistate == "unknown") {
+							msg = "The active path do not have a matching Route Origin Authorization (ROA) record but is still the best route.";
+						}
+						rpki_msgbox = document.createElement('div');
+						rpki_msgbox.setAttribute("id", "results_rpki_msgbox");
+						rpki_msgbox.setAttribute("class", "route-rpki-"+hidden_data.rpkistate);
+						rpki_msgbox.innerHTML = msg;
+						document.getElementById("results").insertBefore(rpki_msgbox, document.querySelectorAll("#results .data-command")[0].nextSibling);
+						for(var e=document.querySelectorAll(".route-active"),i=0;i<e.length;i++)e[i].classList.add("route-rpki-"+hidden_data.rpkistate);
+					}
+				}
+				unblockForm();
+				grecaptcha.reset();				window.clearTimeout(xhr_timer);
+			}
+		}, 500);
+	}
+	function getUrlVar(param) {
+	    var vars = [], hash;
+	    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+	    for(var i = 0; i < hashes.length; i++)
+	    {
+		hash = hashes[i].split('=');
+		vars.push(hash[0]);
+		vars[hash[0]] = decodeURIComponent(hash[1]);
+	    }
+	    return vars[param];
+	}
+
+	function populateQueryForm(queryData) {
+		var check = 0;
+		// Update Type Checkbox
+		document.queryform.querySelectorAll('input[name="type"]').forEach(function(o){
+			if (o.value == queryData.type) {
+				o.checked = true;
+				check++;
+			}
+		});
+		// Update Address Textfield
+		if (typeof queryData.address !== 'undefined') {
+			document.queryform.address.value = queryData.address;
+			check++;
+		}
+		var networks = Object.keys(nodes);
+		networks.forEach(function(n){
+			var routers = Object.keys(nodes[n]);
+			routers.forEach(function(r){
+				if (typeof nodes[n][r].backend_name !== 'undefined' && nodes[n][r].backend_name == queryData.router) {
+					// Update Network dropdown
+					document.queryform.querySelectorAll('select[name="network"] option').forEach(function(o){
+						if (o.value == n) {
+							o.selected = true;
+							check++;
+						}
+					});
+					onChangeNetworkSelect();
+					// Update Router dropdown
+					document.queryform.querySelectorAll('select[name="router"] option').forEach(function(o){
+						if (o.value == nodes[n][r].backend_name) {
+							o.selected = true;
+							check++;
+						}
+					});
+				}
+			});
+		});
+		return check;
+	}
+
+	window.onpopstate = function(event) {
+		populateQueryForm(event.state.queryData);
+		onSubmitCheck();
+	}
+
+	window.onload = function () {
+		var queryData = {
+			router: getUrlVar("router"),
+			type: getUrlVar("type"),
+			address: getUrlVar("address")
+		};
+		if (populateQueryForm(queryData) == 4) {
+			// Auto-submit if we have a complete query
+			onSubmitCheck();
+		} else {
+			onChangeNetworkSelect();
+		}
+	}
+	</script>
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<img src="/assets/logotype.svg" alt="Telia Company" />
+	</div>
+</div>
+<div>
+	<div class="container">
+		<h1>Looking Glass</h1>
+	</div>
+</div>
+<div class="splash">
+	<div class="container">			
+		<form action="#results" onsubmit="onSubmitCheck(); return false;" name="queryform">
+			<table class="querybox">
+				<tr>
+					<td style="width: 100px; vertical-align: bottom; font-size: 14px;"><label><input type="radio" name="type" value="bgp"> bgp</label></td>
+					<td style="font-size: 12px;">IP address or prefix:</td>
+					<td style="font-size: 12px;">Network:</td>
+					<td style="font-size: 12px;">Router:</td>
+				</tr>
+				<tr>
+					<td style="font-size: 14px;"><label><input type="radio" name="type" value="ping"> ping</label></td>
+					<td style="width: 285px;"><input type="text" name="address" value="" style="width: 270px;"></td>
+					<td style="width: 225px;">
+						<select name="network" id="form_network" style="width: 210px;" onchange="onChangeNetworkSelect()">
+							<option>AS3308 - Telia Danmark</option>
+<option>AS3249 - Telia Eesti</option>
+<option>AS1759 - Telia Finland</option>
+<option>AS25400 - Telia Norge</option>
+<option selected>AS3301 - Telia Sverige</option>
+						</select>
+					</td>
+					<td style="width: 225px;"><select name="router" id="form_router" style="width: 210px;"></select></td>
+					<td>
+						<div id='recaptcha' class="g-recaptcha" data-sitekey="6LdL7yAUAAAAAEt0rNcgbP_wJArmLiFkB8PqA9oq" data-callback="onSubmitQuery" data-size="invisible"></div>						<input type="submit" id="form_submit" value="Run" style="width: 100%;">
+					</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top; font-size: 14px;"><label><input type="radio" name="type" value="trace" checked> trace</label></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+<div id="guide">
+	<div class="container">
+	<div class="infobox">
+	<p>
+		The Looking Glass allows you to run a limited set of commands (bgp, ping, trace) directly on our different routers.
+	</p>
+	<p>
+		Select the network and router you are interested in from the dropdown lists, then choose the type of query you want to perform:
+	</p>
+	<ul>
+		<li>BGP (<em>Border Gateway Protocol</em> –  the core routing protocol of the Internet) queries allow you to see the routes available from the source address to “the specified routers" and to the destination IP address that you enter in the additional parameters field.</li>
+		<li>Ping queries show you the response time between the source address – the specified router – and the destination IP address that you enter in the additional parameters field.</li>
+		<li>Trace queries enable you to view the route taken by packets across an IP network between the source address – the specified router – and the destination IP address that you enter in the additional parameters field.</li>
+	</ul>
+	<p>
+		When you have selected the type of query and node, and filled the additional parameter field, press Run.
+	</p>
+	</div>
+	<div class="twelve99box"><a href="https://lg.twelve99.net/"><img src="https://lg.telia.net/assets/twelve99_banner.png" /></a></div>
+	</div>
+</div>
+<div>
+	<div class="container">
+		<div id="results"></div>
+		<img src="/assets/ellipsis.svg" id="results_spinner" />
+	</div>
+</div>
+</body>
+</html>

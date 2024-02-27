@@ -1,0 +1,252 @@
+#!/usr/bin/perl -wT
+
+use strict;
+
+# This is released into public domain, but I hope you will sent
+# me a email with a URL to you looking glass so I can add it to
+# my list at http://noc.tele.dk/, and that you will keep a reference
+# to my and Ed Kern.
+
+BEGIN { push(@INC,'/prod/looking-glass/lib'); };
+
+use Net::Cisco;
+use CGI;
+
+# Debug mode
+my $debug=0;
+
+# AS peers
+my @ASLG =  (5491, 1257,2109, 2120, 1835, 3240,3246, 6834, 5599, 2686, 5509, 3308, 6785, 3292, 6865, 9167, 12435, 8297, 8818, 5624, 9120, 12320, 9158, 12483, 12580, 8989, 12633, 8807, 702, 8220, 13120, 3257, 15564, 15687, 15411, 15516, 8642, 16095, 9132, 8881, 12832, 8434, 16245, 20498, 25352, 34823, 39554, 42525);
+
+# AS peers with looking glass
+my %ASLG;
+$ASLG{'3246'} = 'http://www.t1e.net/lg/';
+$ASLG{'3292'} = 'http://noc.tele.dk/cgi-bin/lg.cgi';
+$ASLG{'3308'} = 'http://lg.drift.telia.dk/';
+$ASLG{'6785'} = 'http://stat.cybercity.dk/lg/';
+$ASLG{'9120'} = 'http://lg.cohaesio.net/';
+$ASLG{'8807'} = 'http://noc.as8807.net/cgi-bin2/lg.cgi';
+$ASLG{'5492'} = 'http://looking-glass.uni2.net/';
+$ASLG{'8297'} = 'http://reporter.teleglobe.net/bin/lg';
+$ASLG{'5509'} = 'http://probe.global-one.nl/cgi-bin/lglass/look.pl';
+$ASLG{'15687'} = 'http://traceroute.nnit.dk/cgi-bin/bgp.cgi';
+
+# Valid queries
+my @valid = ( 
+           "show ip bgp",
+           "show ip bgp dampened-paths",
+           "show ip bgp flap-statistics",
+           "show ip bgp summary",
+           "show bgp ipv6 unicast summary",
+           "show ip mbgp summary",
+           "show ip mroute summary",
+           "ping",
+           "traceroute" 
+         );
+
+# Default choice in query list
+my $defaultquery = 'show ip bgp summary';
+
+# Queries with no address parameters
+my @noaddr = (
+           "show ip bgp summary",
+           "show ip bgp dampened-paths",
+           "show ip bgp flap-statistics",
+           "show environment all",
+           "show ip mroute summary",
+           "show ip mbgp summary",
+           "show ip interface brief",
+           "show bgp ipv6 unicast summary",
+         );
+
+# Don't cache thies queries
+my @nocache = (
+#           "show ip bgp",
+           "show ip bgp summary",
+           "show ip mbgp summary",
+           "show bgp ipv6 unicast summary",
+           "show environment all",
+           "ping",
+           "traceroute",
+           "show ip interface brief",
+         );
+
+# Router descriptions and IPs
+my @routers = (
+	'GC_Core1, Taastrup','193.163.221.65',
+	'GC_Core3, Taastrup','193.163.221.66',
+	'GC_Core4, Taastrup','193.163.221.68',
+	'CJV_Core1, Valby','193.163.221.72',
+	'UNI*C_Core1, DTU Lyngby','193.163.221.70',
+	'OLSSON_Core1, Vallensbaek','193.163.221.64',
+	);
+
+# Default choice in router list
+my $defaultrouter = '193.163.221.65';
+
+my $contact_realname="Jan Olsson";
+my $contact_email="jan\@olsson.net";
+ 
+my $credits="<p>Inspired by DIGEX/Looking Glass by <A HREF=\"mailto:ejk\@digex.net\">Ed Kern</A>, and rewritten by <A HREF=\"mailto:jesper\@skriver.dk\">Jesper Skriver</A>. Final adjustments by <A HREF=\"mailto:Martin.lorensen\@uni2.dk\">Martin Lorensen</A>";
+
+# Router username/password (NOT enable password)
+my $username = 'jan';
+my $password = 'S12cis';
+
+# for most web servers, cache_dir must be writable by uid nobody 
+my $cache_dir = "/prod/looking-glass/cache/" ; 
+
+# when to display cache?  max time difference (in seconds)
+my $max_time_diff = "600" ;
+
+# End of configuration
+
+my (%input,$router,$routerdesc,$notcache,$ROUTER,$seconds);
+foreach my $as (@ASLG) { $ASLG{$as} ||= "http://www.ripe.net/perl/whois?AS$as"; };
+
+
+MAIN: 
+{
+  Header();
+  if (CGI::ReadParse(\%input)) {
+    &DoIt;
+  } else {
+    &PrintForm;
+  }
+  Footer();
+}
+
+
+sub DoIt {
+  print "Checking if \"".$input{router}."\" is a valid router<br>\n" if ( $debug );
+  my $i=1;
+  my $okrouter;
+  foreach my $tam ( @routers ) {
+    $routerdesc=$tam    if ( $i == 1 );
+    $router=$tam        if ( $i == 2 );
+    $i++; 
+    if ( $i > 2 ) {
+      print "Comparing \"".$input{router}."\" with \"".$routerdesc."\"<br>\n" if ( $debug > 1);
+      if ( $input{router} eq $routerdesc ) {
+        $okrouter=1;
+        $ROUTER=$router;
+        last;
+      }
+      $i=$i-2 if ( $i > 2 );
+    }
+  }       
+  unless ( $okrouter ) {
+    &print_results("Not a valid router.\n");
+  }
+
+  print "Checking if valid query<br>\n" if ( $debug );
+  my $ok;
+  $input{'query'} ||= '';
+  foreach my $tam ( @valid ) {
+    $ok=1 if ( $input{'query'} eq $tam );
+  } 
+  
+  unless ( $ok ) {
+    &print_results("Not a valid query.\n");
+  }
+
+  print "Checking if nasty characters in addr<br>\n" if ( $debug );
+  unless ( $input{addr} =~ /^[0-9a-zA-Z\.\s\-\_\s\$\*\+]*$/ ) {
+    &print_results("Invalid characters in addr.\n");
+  }
+
+  print "Checking if we should cache this query<br>\n" if ( $debug );
+  foreach my $tam ( @nocache ) {
+    $notcache=1 if ( $input{query} eq $tam );
+  }
+
+  # first, make sure they typed in something, 
+  # for bgp make sure addr is specified
+  print "Checking if it's a show ip bgp with no addr specified.<br>\n" if ( $debug );
+  if ( ( $input{query} eq "show ip bgp" && $input{addr} =~ /^\s*$/ ) || ( $input{query} eq "show ip bgp regexp" && $input{addr} =~ /^\s*\.\*\s*$/ ) ) { 
+    &print_results("A full BGP table dump would cause to much stress on the router\nand this machine.<p>Please step back and input an address.\n");
+  }
+
+  print "Checking if it's a show ip bgp with a invalid addr specified.<br>\n" if ( $debug );
+  if ( $input{query} eq "show ip bgp" && $input{addr} !~ /^\d+\.\d+\.\d+\.\d+$/ ) {
+    &print_results("The IP address \"$input{addr}\" is not valid.\n<p>Please step back and try again.\n");
+  }
+
+  print "Checking if it's a query where no addr should be used.<br>\n" if ( $debug );
+  foreach my $tam ( @noaddr ) {
+    $input{addr}="" if ( $input{query} eq $tam );
+  }
+#  if (! ($ENV{'HTTP_REFERER'} =~ /^http:\/\/.*\.uni2\.(dk|net)\/.*$/))
+#    {
+#    &print_results("\nNo shortcuts allowed!\n");
+#    exit;
+#    }
+  my $file;
+  unless ( $notcache ) {
+    print "Checking if it's in the cache.<br>\n" if ( $debug );
+
+    my ($query,$addr);
+    if ($input{'query'} =~ /([a-zA-Z0-9 ]*)/)
+	{ $query = $1; }
+    else
+	{ die 'Argh - Invalid char in query: ' . $input{'query'}; };
+    if ($input{'addr'} =~ /([a-zA-Z0-9 \.]*)/)
+	{ $addr = $1; }
+    else
+	{ die 'Argh - Invalid char in addr: ' . $input{'addr'}; };
+
+    $file = $cache_dir."/".$ROUTER.".".$query.".".$addr;
+    $file =~ s/\s//g;
+    if (-e $file) { # see if cache exists
+      print "It was in the cache, showing it from there.<br>\n" if ( $debug );
+      my $dtime = time - ((stat($file))[9]);
+      if ($dtime <= $max_time_diff)
+      { # see if we are within cache time
+        open(CACHE,"$file") ;
+	my @results;
+        while (<CACHE>) { $results[$#results + 1] = $_ ; }
+        close CACHE ;
+        $seconds = $dtime ;
+        &print_results(@results);
+      }
+    }
+  }
+
+  print "Issueing the command \"$input{query} $input{addr}\" to the router $ROUTER.<br>\n" if ( $debug );
+  my @resbuf = &DoRsh($ROUTER,"$input{query} $input{addr}"); 
+  unless ( $notcache ) {
+    open(CACHE,">$file") || die "couldnt create file $file" ; 
+    foreach my $n (0 .. $#resbuf)
+    {
+      print CACHE $resbuf[$n] ; 
+    }
+    close CACHE ;
+  }
+  &print_results(@resbuf); 
+
+  exit;
+}
+
+sub print_results {
+
+my @results = @_;
+#if ($ENV{'SERVER_NAME'}) { #i.e. if we're in CGI land
+
+print "<center><b>Router:</b> ".$router."<br>\n";
+print "<b>Query:</b> ".$input{query}."<br>\n";
+
+if ($input{addr}) { print "<b>Addr:</b> $input{addr}\n"; }
+
+print <<END ; 
+</center>
+<p>
+
+<pre>
+
+END
+
+if ($seconds) { print "<b>From cache (number of seconds old (max 600)):</b> $seconds\n\n" ; }
+
+foreach my $line (@results) 
+ {
+ $line =~ s/(\d{3,5})/

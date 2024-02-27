@@ -1,0 +1,180 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                 __ _
+               .: .' '.
+              /: /     \_
+             ;: ;  ,-'/`:\
+             |: | |  |() :|
+             ;: ;  '-.\_:/
+              \: \     /`
+               ':_'._.'
+                  ||
+                 /__\
+      .---.     {====}
+    .'   _,"-,__|::  |
+   /    ((O)=;--.::  |
+  ;      `|: |  |::  |
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |            * LookingGlass by Telephone *
+  |       |: |  |::  |            *  http://iamtelephone.com  *
+  |       |: |  |::  |            *****************************
+  |       |: |  |::  |
+  |      /:'__\ |::  |
+  |     [______]|::  |
+  |      `----` |::  |__
+  |         _.--|::  |  ''--._
+  ;       .'  __{====}__      '.
+   \    .'_.-'._ `""` _.'-._    '.
+    '--'/`      `''''`      `\    '.__
+        '._                _.'
+           `""--......--""`
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Ikoula LookingGlass - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LookingGlass - Open source PHP looking glass">
+    <meta name="author" content="Telephone">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="assets/css/cerulean.min.css" rel="stylesheet">
+    <link href="assets/css/ikoula.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="muheader">
+<a href="https://www.ikoula.com" title="IKOULA"><img src="https://www.ikoula.com/sites/default/files/images/logo_ikoula_blanc.png" alt="IKOULA" width="auto" height="60"></a>
+<a href="https://www.ikoula.com" title="IKOULA" class="mubtn">Rejoindre IKOULA</a>
+<ul class="sitelg">
+<li>LookingGlass :</li>
+<li><a href="http://lg.ikdc1.ikoula.com/">IKDC1</a></li>
+<li><a href="http://lg.ikdc2.ikoula.com/">IKDC2</a></li>
+<li><a href="http://lg.nl.ikoula.com/">NL</a></li>
+<li><a href="http://lg.de.ikoula.com/">DE</a></li>
+<li><a href="http://lg.sg.ikoula.com/">SG</a></li>
+<li><a href="http://lg.miami2.ikoula.com/">MIAMI2</a></li>
+</ul>
+</div>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12"><div id="lang"><a href="?lang=fr"><img src="img/fr.png"></a>&nbsp;<a href="?lang=en"><img src="img/en.png"></a></div>
+
+    <h1><a id="title" href="/">Ikoula LookingGlass</a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Information -->
+      <section id="information">
+        <div class="row">
+          <div class="span12">
+	    <div class="well">
+<img src="https://www.ikoula.com/sites/default/files/images/ndsik.png" style="float:right;width:240px">
+              <span id="legend">Information Réseau</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>Localisation du Serveur : <b>ikdc1</b></p>
+              <div style="margin-left: 10px;">
+		<ul>
+			<li>Test IPv4 : <b>178.170.68.42</b></li>
+                	<li>Test IPv6 : 2a00:c70:1:178:170:68:42:1</li>                	<li>Fichier de test : <b><a href="100MB.test" id="testfile">100MB</a></b></li>
+		</ul>
+              </div>
+              <p>Votre adresse IP : <b><a href="#tests" id="userip">164.70.99.9</a></b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                <span id="legend" style="color:white">Tests Réseau</span>
+                <div id="hosterror" class="control-group">
+                  <div class="controls">
+                    <input id="host" name="host" type="text" class="input-large" placeholder="Hôte ou Adresse IP">
+                  </div>
+                </div>
+                <select name="cmd" class="input-medium">
+                  <option value="host">host</option>
+                  <option value="mtr">mtr</option>
+                  <option value="mtr6">mtr6</option>                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+		 <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Démarrer le test</button>	
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <!--<span id="legend">Resultats</span>-->
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+</div>
+<footer>
+<div class="footer">
+
+<ul class="copyright">
+<li>Copyright© 1998-2023 Ikoula. Tous droits réservés.</li>
+<li>
+	<ul class="reseaux">
+	<li><a href="https://twitter.com/ikoula" target="_blank" title="Twitter Ikoula" rel="noopener noreferrer"> <img src="img/twitter.png" alt="Twitter Ikoula" width="25"></a>
+	</li>
+	<li><a href="https://www.linkedin.com/company/ikoula" target="_blank" title="Twitter Ikoula" rel="noopener noreferrer"> <img src="img/linkedin.png" alt="linkedin-ikoula" width="25"></a>
+	</li>
+	<li><a href="https://www.youtube.com/user/IkoulaNet" target="_blank" title="Twitter Ikoula" rel="noopener noreferrer"> <img src="img/youtube.png" alt="youtube-ikoula" width="25"></a>
+	</li>
+	</ul>
+</li>
+</ul>
+
+<ul class="liens">
+<li><a href="https://www.ikoula.com/nom-de-domaine" title="Nom de domaine">Nom de domaine</a></li>
+<li><a href="https://www.ikoula.com/fr/serveur-dedie" title="Serveur dédié">Serveur dédié</a></li>
+<li><a href="https://www.ikoula.com/fr/cloud-public" title="CLOUD IKOULA ONE">CLOUD IKOULA ONE</a></li>
+<li><a href="https://www.ikoula.com/fr/hebergement-web" title="Hébergement web">Hébergement web</a></li>
+<li><a href="https://www.ikoula.com/fr/serveur-virtuel" title="Serveur virtuel VPS">Serveur virtuel VPS</a></li>
+<li><a href="https://www.ikoula.com/fr/sauvegarde-donnees-entreprises" title="Cloud Backup">Cloud Backup</a></li>
+<li><a href="https://www.ikoula.com/fr/certificats-ssl" title="Certificats SSL">Certificats SSL</a></li>
+<li><a href="https://www.ikoula.com/fr/infogerance" title="Infogérance">Infogérance</a></li>
+<li><a href="https://www.ikoula.com/fr/cloud-hybride-prive" title="Cloud Privé">Cloud Privé</a></li>
+</ul>
+<div style="clear:both"></div>
+
+</div>
+</footer>
+    </div><!-- /container -->
+
+
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+  </body>
+</html>

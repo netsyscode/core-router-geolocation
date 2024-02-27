@@ -1,0 +1,24 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Ping/Traceroute tool</title>
+<link rel="stylesheet" type="text/css" href="/css/telenor-responsive.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<body id="www-telenor-no"><div id="wrap"><div class="header--normal" id="header"><div class="show-dark-logo" id="logo"><img class="bright-logo" src="/images/telenorlogo2x_tcm52-213553.png" /></div><div class="nav-and-search-container"><ul class="display-on-desktop" id="section-nav" /><li class="active" id="pri-nav" /></div></div><div class="module"><a href="http://lg.telenor.net"><h1>Telenor Looking Glass</h1></a><form method="get" action="lg" enctype="multipart/form-data"><table class="list"><th></th> <th>Choose Options</th><tr /><td><b>IP Version</b></td><td><label><input type="radio" name="ip_version" value="IPv4" checked="checked" />IPv4</label> <label><input type="radio" name="ip_version" value="IPv6" />IPv6</label></td><tr /><td><b>Type</b></td><td><label><input type="radio" name="type" value="Ping" checked="checked" />Ping</label> <label><input type="radio" name="type" value="Traceroute" />Traceroute</label> <label><input type="radio" name="type" value="BGP" />BGP</label></td><tr /><td><b>Site</b></td><td /><select name="router" >
+<option value="ti9000b400">Amsterdam</option>
+<option value="ti9006b400">Frankfurt</option>
+<option value="ti3006b400">Gothenburg</option>
+<option value="ti9002b400">London</option>
+<option value="ti3218b400">Malmoe</option>
+<option value="ti0001b400">Oslo-1</option>
+<option value="ti0300b400">Oslo-2</option>
+<option value="ti3001b400">Stockholm-1</option>
+<option value="ti3002b400">Stockholm-2</option>
+<option value="ti3137b400">Sundsvall</option>
+</select><tr /><td><b>Parameters</b></td><td /><input type="text" name="parameters"  size="30" /><tr /><td /><td /><div class="action button horizontal"><input type="submit" name="submit" value="Submit" class="button-blue" /></div></table><div><input type="hidden" name=".cgifields" value="ip_version"  /><input type="hidden" name=".cgifields" value="type"  /></div></form><h3>Please enter required parameters</h3></div></div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Speedtest | Looking Glass</title>
+  <link href="assets/css/cloud4box.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <section id="information">
+    <h1 class="title">§ª§ß§æ§à§â§Þ§Ñ§è§Ú§ñ §à §ã§Ö§ä§Ú</h1>
+    <p>§£§Ñ§ê IP-§Ñ§Õ§â§Ö§ã: <b><a href="#tests" id="userip">166.111.68.233</a></b></p>
+    <p>IP-§Ñ§Õ§â§Ö§ã §¸§°§¥: 185.127.24.43</p>
+    <p>§­§à§Ü§Ñ§è§Ú§ñ §¸§°§¥: §²§à§ã§ã§Ú§ñ, §®§à§ã§Ü§Ó§Ñ</p>
+  </section>
+
+  <section id="speedtest">
+    <h1 class="title">Speedtest</h1>
+    <div class="subtitle">(§´§Ö§ã§ä §ã§Ü§à§â§à§ã§ä§Ú §ã§à§Ö§Õ§Ú§ß§Ö§ß§Ú§ñ §ã §ã§Ö§â§Ó§Ö§â§Ñ§Þ§Ú Cloud4box)</div>
+    <div class="testGroup">
+      <div class="testArea">
+        <div class="testName">Download</div>
+        <div id="dlText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Upload</div>
+        <div id="ulText" class="meterText"></div>
+        <div class="unit">Mbps</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Ping</div>
+        <div id="pingText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+      <div class="testArea">
+        <div class="testName">Jitter</div>
+        <div id="jitText" class="meterText"></div>
+        <div class="unit">ms</div>
+      </div>
+    </div>
+    <div id="ipArea">
+      <span id="ip"></span><br><br>
+      <div class="btn" id="startStopBtn"></div>
+    </div>
+  </section>
+
+  <!-- Network Tests -->
+  <section id="tests">
+    <h1 class="title">Looking Glass</h1>
+    <div class="subtitle">
+      (§±§â§à§Ó§Ö§â§Ü§Ñ §Õ§à§ã§ä§å§á§ß§à§ã§ä§Ú §ã§Ö§â§Ó§Ö§â§à§Ó Cloud4box, §ä§â§Ñ§ã§ã§Ú§â§à§Ó§Ü§Ú §Õ§à §Ó§Ñ§ê§Ö§Ô§à iP-§Ñ§Õ§â§Ö§ã§Ñ §Ú §à§ä§ã§Ý§Ö§Ø§Ú§Ó§Ñ§ß§Ú§Ö §á§å§ä§Ú)
+    </div>
+    <form class="form-inline" id="networktest" action="#results" method="post">
+      <div id="hosterror" class="control-group">
+        <input id="host" name="host" type="text" class="input input-host" placeholder="§¥§à§Þ§Ö§ß §Ú§Ý§Ú IP-§Ñ§Õ§â§Ö§ã">
+        <select name="cmd" class="input input-cmd">
+          <option value="host">host</option>
+          <option value="mtr">mtr</option>
+          <option value="ping" selected="selected">ping</option>
+          <option value="traceroute">traceroute</option>
+        </select>
+      </div>
+      <button class="btn" id="startStopBtn2"></button>
+    </form>
+  </section>
+
+  <!-- Results -->
+  <section id="results" style="display:none">
+    <span class="legend" id="legend">§²§Ö§Ù§å§Ý§î§ä§Ñ§ä</span>
+    <pre id="response" style="display:none"></pre>
+  </section>
+
+</div><!-- /container -->
+
+<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="assets/js/LookingGlass.min.js"></script>
+<script type="text/javascript" src="assets/js/XMLHttpRequest.min.js"></script>
+<script type="text/javascript" src="speedtest.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Fregat's Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER><TABLE BORDER="0" WIDTH="100%"><TR><TDcenter><A HREF="http://fregat.com"><IMG SRC="http://fregat.com/img/pic/logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE></CENTER>
+<P>
+<FORM METHOD="GET" ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#000679"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2 BGCOLOR="white">
+<TR>
+<TH BGCOLOR="#bb002f" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#bb002f" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#bb002f" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD><FONT COLOR="#000679">&nbsp;bgp</FONT></TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="route"></TD><TD><FONT COLOR="#000679">&nbsp;ip route</FONT></TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD><FONT COLOR="#000679">&nbsp;ping</FONT></TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD><FONT COLOR="#000679">&nbsp;traceroute</FONT></TD></TR>
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv4">
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="FREGAT">
+<OPTION VALUE="Dnepropetrovsk"> Dnepropetrovsk
+<OPTION VALUE="Kiev"> Kiev
+<OPTION VALUE="Frankfurt"> Frankfurt
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"><FONT COLOR="#000679"> |</FONT> 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<title>Warian SRL Looking Glass</title>
+<!-- PLEASE DO NOT REMOVE: MRLG-version 5.5.0 (IPv6+SSH) -->
+<!-- PLEASE DO NOT REMOVE: Written by and (c) 2000-2015, John Fraizer -->
+<!-- PLEASE DO NOT REMOVE: #BingaWonga #BingaWonga #BingaWonga #BingaWonga -->
+<!-- PLEASE DO NOT REMOVE: #MRLG-5.5.0 #Sat-Sep-27-03:16:28-UTC-2014 -->
+
+</head>
+
+<body bgcolor=white>
+<font face=arial size=3 color=blue>
+<CENTER>
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.warian.net/"><IMG SRC="images/logo_warian_2.png" BORDER="0" ALT="HEAnet"></A></TD></TR></TABLE>
+<H2>Warian SRL Looking Glass</H2>
+<H3>AS56911</H3>
+<p>Your address is: 164.70.99.9<P><HR SIZE=2 WIDTH="85%" NOSHADE><P>
+<font face=arial color=black>
+<form METHOD="POST" action="http://lg.warian.net/">
+<TABLE BORDER="0"><TR><TD align=center><B>Router:</B>  <SELECT Name="router" Size=1>
+<OPTION  SELECTED Value="AS56911 WARIAN">AS56911 WARIAN - OFF-NET RouteServer
+
+</select>
+</TD></TR><TR><TD align=left>
+
+
+<br/>
+<B>Query</B>:
+<br>
+
+			<input type=radio name=query value=2  >show ip bgp summary</input><br/>
+			<input type=radio name=query value=1  >show ip bgp <i>ip address</i></input><br/>
+			
+                        <input type=radio name=query value=17  >show ip bgp regex <i>adjacent asnum</i><br>
+                        
+			<input type=radio name=query value=3  >show ip route <i>ip address</i><br>
+			
+			<input type=radio name=query value=7  >trace <i>ip address</i><br>
+			<input type=radio name=query value=8  >ping <i>ip address</i><br>
+			</TD></TR><TR><TD align=left>
+<br>
+<B>Argument:</B> <input type=text name=arg length=20 maxlength=60 value="164.70.99.9">&nbsp<input type=submit value=Execute></form></font></font></TD></TR></Table><P><HR SIZE=2 WIDTH="85%" NOSHADE><P><Table><TR><TD align=left>Please select query to run ...
+</TD></TR></TABLE><P><HR SIZE=2 WIDTH="85%" NOSHADE><P><footer>
+<br>
+<code>http://lg.warian.net/</code>
+<font color=blue face=arial size=2>
+is running:
+<br>
+Multi-Router Looking Glass version 5.5.0 (IPv6+SSH)<br>
+Customised by Warian SRL</br>
+
+&copy; 2000-2014, John Fraizer  -
+<a href=http://www.op-sec.us/>OP-SEC.US</a><br>
+Source code: <a href=http://mrlg.op-sec.us/>http://mrlg.op-sec.us/</a>.	
+<br>
+</body>
+</html>
+</footer></center>

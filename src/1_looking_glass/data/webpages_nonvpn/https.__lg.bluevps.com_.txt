@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BlueVPS - Looking Glass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="LookingGlass">
+    <meta name="author" content="Telephone">
+
+    <link rel="default stylesheet" href="assets/css/cerulean.min.css">
+    <! -- some css tweaks by bluevps -->
+    <link rel="tweaks stylesheet"  href="assets/css/bluetweaks.css">
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header nohighlight" id="overview">
+        <div class="row">
+          <div class="span12">
+            <h1><a id="title" href="">
+               <i>
+                   <img src="https://bluevps.com/build/front/img/front/indexpage/bluevps-icon.png" style="width:80px;height:auto">
+               </i>
+               <span>
+               BlueVPS Looking Glass
+               </span>
+            </a></h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Network Tests -->
+      <section id="tests">
+        <div class="row">
+          <div class="span12">
+            <form class="well form-inline" id="networktest" action="#results" method="post">
+              <fieldset>
+                  <select name="server" class="form twemoji">
+                                            <option value="amsnl" data-flag="NL" selected="">NL - Amsterdam</option>
+                      <option value="lonuk" data-flag="GB">UK - London</option>
+                      <option value="stkse" data-flag="SE">SE - Stockholm</option>
+                      <option value="limde" data-flag="DE">DE - Frankfurt</option>
+                      <option value="sbgfr" data-flag="FR">FR - Strasbourg</option>
+                      <option value="pmoit" data-flag="IT">IT - Palermo</option>
+                      <option value="mades" data-flag="ES">ES - Madrid</option>
+                      <option value="tllee" data-flag="EE">EE - Tallinn</option>
+                      <option value="wawpl" data-flag="PL">PL - Warsaw</option>
+                      <option value="lmscy" data-flag="CY">CY - Limassol</option>
+                      <option value="rlzil" data-flag="IL">IL - Rishon LeZion</option>
+                      <option value="petil" data-flag="IL">IL - Petach Tikva</option>
+                      <option value="laxus" data-flag="US">US - Lost Angeles</option>
+                      <option value="atlus" data-flag="US">US - Atlanta</option>
+                      <option value="ashus" data-flag="US">US - Ashburn</option>
+                      <option value="bhsca" data-flag="CA">CA - Beauharnois</option>
+                      <option value="sydau" data-flag="AU">AU - Sydney</option>
+                      <option value="hkgcn" data-flag="HK">CN - Hong Kong</option>
+                      <option value="sgpsg" data-flag="SG">SG - Singapore</option>
+                      <option value="sgp2sg" data-flag="SG">SG - Singapore 2</option>
+                      <option value="sofbg" data-flag="BG">BG - Sofia</option>
+                      <option value="fjrae" data-flag="AE">AE - Fujairah</option>
+                  </select>
+                <select name="cmd" class="input-medium">
+                  <option value="ping" selected="selected">ping</option>
+                  <option value="ping6">ping6</option>                  <option value="traceroute">traceroute</option>
+                  <option value="traceroute6">traceroute6</option>                </select>
+                  <div id="hosterror" class="control-group">
+                      <div class="controls">
+                          <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                      </div>
+                  </div>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary">Run Test</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="ip">
+         <div class="row">
+            <div class="span12">
+               <div class="well">
+                  Your IP is <b id="userip">166.111.68.233</b>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Results -->
+      <section id="results" style="display:none">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <div class="span12 download">
+            <div class="well" style="text-align:center;">
+                                <div class="span2">
+                    <strong>
+                        Amsterdam<p data-flag="NL">NL</p>
+                    </strong>
+                    <a href="https://ams-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://ams-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://ams-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        London<p data-flag="GB">UK</p>
+                    </strong>
+                    <a href="https://lon-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://lon-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://lon-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Stockholm<p data-flag="SE">SE</p>
+                    </strong>
+                    <a href="https://stk-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://stk-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://stk-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Frankfurt<p data-flag="DE">DE</p>
+                    </strong>
+                    <a href="https://lim-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://lim-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://lim-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Strasbourg<p data-flag="FR">FR</p>
+                    </strong>
+                    <a href="https://sbg-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://sbg-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://sbg-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Palermo<p data-flag="IT">IT</p>
+                    </strong>
+                    <a href="https://pmo-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://pmo-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://pmo-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Madrid<p data-flag="ES">ES</p>
+                    </strong>
+                    <a href="https://mad-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://mad-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://mad-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Tallinn<p data-flag="EE">EE</p>
+                    </strong>
+                    <a href="https://tll-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://tll-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://tll-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Warsaw<p data-flag="PL">PL</p>
+                    </strong>
+                    <a href="https://waw-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://waw-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://waw-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Limassol<p data-flag="CY">CY</p>
+                    </strong>
+                    <a href="https://lms-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://lms-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://lms-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Rishon LeZion<p data-flag="IL">IL</p>
+                    </strong>
+                    <a href="https://rlz-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://rlz-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://rlz-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Petach Tikva<p data-flag="IL">IL</p>
+                    </strong>
+                    <a href="https://pet-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://pet-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://pet-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Los Angeles<p data-flag="US">US</p>
+                    </strong>
+                    <a href="https://lax-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://lax-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://lax-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Atlanta<p data-flag="US">US</p>
+                    </strong>
+                    <a href="https://atl-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://atl-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://atl-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Ashburn<p data-flag="US">US</p>
+                    </strong>
+                    <a href="https://ash-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://ash-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://ash-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Beauharnois<p data-flag="CA">CA</p>
+                    </strong>
+                    <a href="https://bhs-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://bhs-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://bhs-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Sydney<p data-flag="AU">AU</p>
+                    </strong>
+                    <a href="https://syd-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://syd-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://syd-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Hong Kong<p data-flag="HK">CN</p>
+                    </strong>
+                    <a href="https://hkg-speedtest.lg.bluevps.com/1MB.bin">1MB</a>
+                    <a href="https://hkg-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://hkg-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Singapore<p data-flag="SG">SG</p>
+                    </strong>
+                    <a href="https://sgp-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://sgp-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://sgp-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Singapore 2<p data-flag="SG">SG</p>
+                    </strong>
+                    <a href="https://sgp2-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://sgp2-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://sgp2-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Sofia<p data-flag="BG">BG</p>
+                    </strong>
+                    <a href="https://sof-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://sof-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://sof-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+                <div class="span2">
+                    <strong>
+                        Fujairah<p data-flag="AE">AE</p>
+                    </strong>
+                    <a href="https://fjr-speedtest.lg.bluevps.com/10MB.bin">10MB</a>
+                    <a href="https://fjr-speedtest.lg.bluevps.com/100MB.bin">100MB</a>
+                    <a href="https://fjr-speedtest.lg.bluevps.com/1GB.bin">1GB</a>
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- js to replace data-flag tags with coutry flag emoji -->
+    <script src="assets/js/flagReplace.js"></script>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+<!--    <script src="assets/js/XMLHttpRequest.min.js"></script> -->
+    <script src="assets/js/XMLHttpRequest_new.js"></script>
+        <script>
+            $(document).ready(function() {
+                var xhr, isSubmitting = false;
+                // onclick, set user IP to input value
+                $('#userip').click(function () {
+                    $('#host').val($('#userip').text());
+                });
+                // form submit
+                $('#networktest').submit(function(e) {
+                    e.preventDefault();
+
+
+                    if ( isSubmitting ) {
+                        isSubmitting = false;
+                        xhr.abort();
+                        window.clearTimeout(timer);
+                        $('section#results').hide(function(){
+                            $('#ip').show()
+                        });
+
+                        $('#submit').text('Run Test');
+                        return
+                    }
+                    $('#response').html('');
+                    // define vars
+                    var host = $('input[name=host]').val();
+                    var server = $('select[name=server]').val();
+                    var data = 'cmd=' + $('select[name=cmd]').val() + '&host=' + host + '&server=' + server;
+                    // quick validation
+                    if (host == '') {
+                        $('#hosterror').addClass('error');
+                    }
+                    // submit form
+                    else {
+                        $('#ip').hide(function(){
+                            $('#results').show()
+                        });
+                        // disable submit button + blank response
+                        $('#submit').text('Cancel');
+                        $('#response').html();
+
+                        // call async request
+                        xhr = new XMLHttpRequest();
+                        xhr.open('POST', 'ajax.php', true);
+                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                        xhr.send(data);
+                        isSubmitting = true;
+                        var timer;
+                        timer = window.setInterval(function() {
+                            // on completion
+                            if (xhr.readyState == XMLHttpRequest.DONE) {
+                                window.clearTimeout(timer);
+                                $('#submit').text('Run Test');
+                                isSubmitting = false;
+                            }
+
+                            // show/hide results
+                            if (xhr.responseText == '') {
+                                $('#response').hide();
+                            } else {
+                                $('#hosterror').removeClass('error');
+                                $('#response, #results').show();
+                            }
+
+                            // output response
+                            if (xhr.responseText == 'Unauthorized request') {
+//                                $('#results').hide();
+                                $('#hosterror').addClass('error');
+                                $('pre#response').html('Bad host or ip address');
+                                isSubmitting = false;
+                            } else {
+                                $('#response').html(xhr.responseText.replace(/<br \/> +/g, '<br />'));
+                            }
+                        }, 500);
+                    }
+                });
+            });
+        </script>
+  </body>
+</html>

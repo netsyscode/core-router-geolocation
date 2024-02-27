@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Looking Glass - Vultr.com</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How fast are Vultr's servers? Fastest vps, ping, ping6, mtr, mtr6, traceroute, traceroute6, Vultr Speed Test, Test IPv4, Test IPv6">
+    <meta name="keywords" content="Vultr Speed Test">
+    <meta name="author" content="Telephone">
+    <!-- Styles -->
+    <link href="assets/css/flag-icons.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css?v=1" rel="stylesheet" />
+    <link href="assets/css/select2.min.css" rel="stylesheet" />
+    <link href="assets/css/custom.min.css?v=13" rel="stylesheet"/>
+  </head>
+  <body class="">
+    <div class="site site--full">
+        <header class="site-banner banner--shape banner banner--fullpage">
+          <div class="container">
+              <div class="banner__brand">
+                  <a href="/" data-logo-video="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 448" width="2500" height="448" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%;">
+                      <image xlink:href="assets/logo__on-dark.svg" width="2500" height="448"/>
+                    </svg>
+                  </a>
+              </div>
+              <div class="banner__content">
+                <div class="m-w-lg m-h-a test-speed">
+                  <div class="test-speed__top">
+                      <h1><span class="test-speed__title">
+                          Network Looking Glass
+                      </span></h1>
+                      <div class="test-speed__ip">
+                          <span class="test-speed__ip-label">
+                              Your IP Address:
+                          </span>
+                          <div data-clipboard-action="copy" target="#userip" class="copyIP tooltip">
+                            <a href="#tests"><span class="test-speed__ip-value h5" id="userip">164.70.99.9</span></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="test-speed__box box">
+                      <div class="box__content">
+                          <h5>Server Location</h5>
+                          <div class="form-group form-group--locations">
+                                                          <select name="server-location" id="serverlocation">
+                                                                  <optgroup Label="Africa">
+                                                                          <option data-country="za" data-url="https://jnb-za-ping.vultr.com/" value="JNB" >Johannesburg</option>
+                                                                    </optgroup>
+                                                                  <optgroup Label="Asia">
+                                                                          <option data-country="in" data-url="https://blr-in-ping.vultr.com/" value="BLR" >Bangalore</option>
+                                                                        <option data-country="in" data-url="https://del-in-ping.vultr.com/" value="DEL" >Delhi NCR</option>
+                                                                        <option data-country="in" data-url="https://bom-in-ping.vultr.com/" value="BOM" >Mumbai</option>
+                                                                        <option data-country="jp" data-url="https://osk-jp-ping.vultr.com/" value="ITM" >Osaka</option>
+                                                                        <option data-country="kr" data-url="https://sel-kor-ping.vultr.com/" value="ICN" >Seoul</option>
+                                                                        <option data-country="sg" data-url="https://sgp-ping.vultr.com/" value="SGP" >Singapore</option>
+                                                                        <option data-country="il" data-url="https://tlv-il-ping.vultr.com/" value="TLV" >Tel Aviv</option>
+                                                                        <option data-country="jp" data-url="https://hnd-jp-ping.vultr.com/" value="NRT" >Tokyo</option>
+                                                                    </optgroup>
+                                                                  <optgroup Label="Australia">
+                                                                          <option data-country="au" data-url="https://mel-au-ping.vultr.com/" value="MEL" >Melbourne</option>
+                                                                        <option data-country="au" data-url="https://syd-au-ping.vultr.com/" value="SYD" >Sydney</option>
+                                                                    </optgroup>
+                                                                  <optgroup Label="Europe">
+                                                                          <option data-country="nl" data-url="https://ams-nl-ping.vultr.com/" value="AMS" >Amsterdam</option>
+                                                                        <option data-country="de" data-url="https://fra-de-ping.vultr.com/" value="FRA" >Frankfurt</option>
+                                                                        <option data-country="gb" data-url="https://lon-gb-ping.vultr.com/" value="LHR" >London</option>
+                                                                        <option data-country="es" data-url="https://mad-es-ping.vultr.com/" value="MAD" >Madrid</option>
+                                                                        <option data-country="gb" data-url="https://man-uk-ping.vultr.com/" value="MAN" >Manchester</option>
+                                                                        <option data-country="fr" data-url="https://par-fr-ping.vultr.com/" value="CDG" >Paris</option>
+                                                                        <option data-country="se" data-url="https://sto-se-ping.vultr.com/" value="STO" >Stockholm</option>
+                                                                        <option data-country="pl" data-url="https://waw-pl-ping.vultr.com/" value="WAW" >Warsaw</option>
+                                                                    </optgroup>
+                                                                  <optgroup Label="North America">
+                                                                          <option data-country="us" data-url="https://ga-us-ping.vultr.com/" value="ATL" >Atlanta</option>
+                                                                        <option data-country="us" data-url="https://il-us-ping.vultr.com/" value="ORD" >Chicago</option>
+                                                                        <option data-country="us" data-url="https://tx-us-ping.vultr.com/" value="DFW" >Dallas</option>
+                                                                        <option data-country="us" data-url="https://hon-hi-us-ping.vultr.com/" value="HNL" >Honolulu</option>
+                                                                        <option data-country="us" data-url="https://lax-ca-us-ping.vultr.com/" value="LAX" >Los Angeles</option>
+                                                                        <option data-country="mx" data-url="https://mex-mx-ping.vultr.com/" value="MEX" >Mexico City</option>
+                                                                        <option data-country="us" data-url="https://fl-us-ping.vultr.com/" value="MIA"  selected="selected" >Miami</option>
+                                                                        <option data-country="us" data-url="https://nj-us-ping.vultr.com/" value="EWR" >New Jersey</option>
+                                                                        <option data-country="us" data-url="https://wa-us-ping.vultr.com/" value="SEA" >Seattle</option>
+                                                                        <option data-country="us" data-url="https://sjo-ca-us-ping.vultr.com/" value="SJC" >Silicon Valley</option>
+                                                                        <option data-country="ca" data-url="https://tor-ca-ping.vultr.com/" value="YTO" >Toronto</option>
+                                                                    </optgroup>
+                                                                  <optgroup Label="South America">
+                                                                          <option data-country="cl" data-url="https://scl-cl-ping.vultr.com/" value="SCL" >Santiago</option>
+                                                                        <option data-country="br" data-url="https://sao-br-ping.vultr.com/" value="SAO" >São Paulo</option>
+                                                                    </optgroup>
+                                                              </select>
+                          </div>
+                          <h5>Network Information</h5>
+                          <ul class="list">
+                              <li>Test IPv4: <a href="#tests" id="useripv4">104.156.244.232</a></li>
+                              <li>Test IPv6: <a href="#tests" id="useripv6">2001:19f0:9000:8001:5400:ff:fe01:3889</a></li>
+                              <li>Test files:  <a href="/vultr.com.100MB.bin" id="testfile">100MB</a> <a href="/vultr.com.1000MB.bin" id="testfile">1GB</a></li>
+                          </ul>
+                          <div class="box box--gradient-secondary" style="display: block;">
+                            <div class="row">
+                              <form class="box__content rail" id="networktest" action="#results" method="post">
+                                <input class="form-control" id="host" value="" placeholder="Host of IP address">
+                                <select name="cmd" id="selector" class="form-control">
+                                    <option value="mtr">mtr</option>
+                                    <option value="mtr6">mtr6</option>
+                                    <option value="ping" selected="selected">ping</option>
+                                    <option value="ping6">ping6</option>
+                                    <option value="traceroute">traceroute</option>
+                                    <option value="traceroute6">traceroute6</option>
+                                </select>
+                                <button type="submit" id="submit" name="submit" class="btn btn--primary"><span class="btn__text">Run Test</span></button>
+                              </form>
+                            </div>
+                            <div class="row" id="results" style="display: none;">
+                              <div id="results_wrapper">
+                                <span id="cli-legend">$<span id="command"></span></span>
+                                <pre id="response" style="display:none;"></pre>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner__background">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1903 556">
+                  <path class="svg-banner-shape" d="M753.1,434.2c110.6,63.7,277.7,70.6,373.4,15.4L1905,0v555.9H0V0.2L753.1,434.2z"></path>
+              </svg>
+          </div>
+      </header>
+    </div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/select2.full.min.js"></script>
+    <script src="assets/js/XMLHttpRequest.min.js"></script>
+    <script src="assets/js/LookingGlass.min.js?v=23"></script>
+    <script src="assets/js/clipboard.js"></script>
+</body>
+</html>

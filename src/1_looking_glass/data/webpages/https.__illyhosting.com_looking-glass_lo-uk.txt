@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Looking Glass - IllyHosting</title>
+    <meta name="description" content="">
+    <link href="/img/favicon.ico" rel="shortcut icon">
+    <link href="/fonts/cloudicon/cloudicon.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/fonts/fontawesome/css/all.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/fonts/opensans/opensans.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/owl.carousel.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/swiper.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/animate.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/items.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'"/>
+  </head>
+  <body>
+
+  <header id="header"></header>
+ 
+   <div class="top-header item5 overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="wrapper">
+            <h1 class="heading">Network Looking Glass</h1>
+            <h3 class="subheading">This Looking Glass provides you with information relative to backbone routing and network efficiency, providing you with the same transparency that customers on our network receive directly.</h3>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="gocontent godown gocheck" href="/#scroll" >
+      <img class="svg" src="/fonts/svg/arrowdown.svg" height="80" alt="features">
+      <span>Features</span>
+    </a>
+  </div>
+    
+  <section style="margin: -100px 0px 80px;" class="pricing special sec-up-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+		  <p style="color: white; padding-bottom:5px; text-align: right;">Your IP Address: 3.230.119.106</p>
+          <div style="background: white; min-height: 430px; margin-top: 0px !important;" class="wrapper first text-left">
+				<div style="padding-left:50px; padding-right: 50px; padding-top:25px; padding-bottom: 30px;" class="col-sm-12 col-md-12 col-lg-12">
+					<p><strong>Server Location</strong></p>
+					<select id="serverlocation" class="inputplchpadding" style="width: 100%; border: 1px solid #c0c0c0; height: 45px;">
+						<option value="/looking-glass/pr-rks" >PrishtinÃ«, KosovÃ«</option>
+						<!--<option value="/looking-glass/fr-de" >Frankfurt, Germany</option>
+						<option value="/looking-glass/lo-uk" selected>London, United Kingdom</option>-->
+					</select>
+ 
+					<hr>
+					<p><strong>Network Information</strong></p>
+					<p>Test IPv4: <strong>51.195.157.128</strong></p>
+					<p>Test IPv6: <strong>::1</strong></p>
+					<p>Test Files: <a href="https://uk-lg.illyhosting.com/100MB.test">100MB</a>, <a href="https://pr-rks-lg.illyhosting.com/1000MB.test">1GB</a></p>
+					<hr>
+					
+					<div style="width:100%; background:#192734; height:auto; padding:30px;">
+						<form class="well form-inline" id="networktest" action="#results" method="post">
+							<div style="padding: 0px;" class=" col-sm-6 col-md-6 col-lg-6">
+								<input style="width: 100%; border: 1px solid #c0c0c0; height: 45px;" id="host" name="host" type="text" class="inputplchpadding" placeholder="Host or IP address" required>
+							</div>
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<select name="cmd" class="inputplchpadding" style="width: 100%; border: 1px solid #c0c0c0; height: 45px; ">
+									<option value="host">host</option>
+									<option value="mtr">mtr</option>
+									<option value="ping" selected="selected">ping</option>
+									<option value="traceroute">traceroute</option>
+								</select>
+							</div>
+							<div style="padding: 0;" class="col-sm-2 col-md-2 col-lg-2">
+								<button type="submit" id="submit" name="submit"  style="background: white; width: 100%; border: 1px solid #c0c0c0; height: 45px;">Run Test</button>
+							</div>
+						</form>
+					
+						<div style="padding: 0;" class="col-sm-12 col-md-12 col-lg-12">
+						<section id="results" style="display:none">
+								<span id="legend">Results</span>
+								<pre id="response" style="overflow: hidden; padding: 20px; display: none; width: 100%; min-height: 150px; background: black; color:white;"></pre>
+						</section>
+						</div>
+					</div>
+					
+					
+				</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer id="footer"></footer>
+<a href="/#0" class="cd-top"> <i class="fas fa-angle-up"></i> </a>
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/typed.js"></script>
+<script defer src="/js/popper.min.js"></script>
+<script defer src="/js/bootstrap.min.js"></script>
+<script defer src="/js/jquery.countdown.js"></script>
+<script defer src="/js/jquery.magnific-popup.min.js"></script>
+<script defer src="/js/slick.min.js"></script>
+<script defer src="/js/owl.carousel.min.js"></script>
+<script defer src="/js/isotope.min.js"></script>
+<script defer src="/js/jquery.scrollme.min.js"></script>
+<script defer src="/js/swiper.min.js"></script>
+<script async src="/js/lazysizes.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script defer src="/js/scripts.min.js"></script>
+<script>
+var typed3 = new Typed('#typed3', {
+strings: ["Premium hardware.", "Large performance.", "Fully dedicated."],
+typeSpeed: 50,
+backSpeed: 20,
+smartBackspace: true,
+loop: true
+});
+</script>
+<script>
+/**
+ * LookingGlass jQuery file
+ */
+$(document).ready(function() {
+  $('#userip').click(function () {
+    $('#host').val($('#userip').text());
+  });
+  $('#networktest').submit(function() {
+    var host = $('input[name=host]').val();
+    var data = 'cmd=' + $('select[name=cmd]').val() + '&host=' + host;
+    if (host == '') {
+        $('#hosterror').addClass('error');
+    }
+    else {
+       var serverurl = 'https://uk-lg.illyhosting.com/ajax.php?';
+      $('#submit').attr('disabled', 'true').text('Loading...');
+      $('#response').html();
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', serverurl + data, true);
+      xhr.send(null);
+      var timer;
+      timer = window.setInterval(function() {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            window.clearTimeout(timer);
+            $('#submit').removeAttr('disabled').text('Run Test');
+        }
+        if (xhr.responseText == '') {
+          $('#response').hide();
+        } else {
+          $('#hosterror').removeClass('error');
+          $('#response, #results').show();
+        }
+        if (xhr.responseText == 'Unauthorized request') {
+          $('#results').hide();
+          $('#hosterror').addClass('error');
+        } else {
+          $('#response').html(xhr.responseText.replace(/<br \/> +/g, '<br />'));
+        }
+      }, 500);
+    }
+    return false;
+  });
+});
+</script>
+
+<script>
+    $(function(){
+      // bind change event to select
+      $('#serverlocation').on('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location = url; // redirect
+          }
+          return false;
+      });
+    });
+</script>
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e550f34298c395d1ce9b3c6/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106391018-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+	adroll_adv_id = "5AD4LIJZHJHVJDXZU2AFS2"; adroll_pix_id = "CNEW2FZG3NF2DCMC24QTTD"; (function () { var _onload = function(){ if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return} if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return} var scr = document.createElement("script"); var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); scr.setAttribute('async', 'true'); scr.type = "text/javascript"; scr.src = host + "/j/roundtrip.js"; ((document.getElementsByTagName('head') || [null])[0] || document.getElementsByTagName('script')[0].parentNode).appendChild(scr); }; if (window.addEventListener) {window.addEventListener('load', _onload, false);} else {window.attachEvent('onload', _onload)} }()); 
+</script>
+</body>
+</html>

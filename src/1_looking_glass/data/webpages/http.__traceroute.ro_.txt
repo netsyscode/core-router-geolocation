@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="ro">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Traceroute - Urmareste ruta pachetelor catre gazda de destinatie de pe serverele traceroute.ro si utilitar pentru ping si MTR bazat pe web." />
+	<meta name="keywords" content="traceroute, ping, mtr" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="language" content="RO"/>
+	<meta name="author" content="TraceRoute"/>
+	<meta name="robots" content="index, follow" />
+	<title>traceroute.ro</title>
+	<!--
+	<link href="/css/index.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-tablet.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-desktop.min.css" rel="stylesheet" type="text/css" />
+   -->
+   <link href="/css/index.css?v=2" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-tablet.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive-desktop.css" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/imgs/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/imgs/favicons/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/imgs/favicons/manifest.json">
+    <link rel="mask-icon" href="/imgs/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/imgs/favicons/favicon.ico">
+    <link rel="canonical" href="https://www.traceroute.ro/" />
+
+    <meta name="msapplication-config" content="/imgs/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+	<script src="/js/lib/jquery.min.js"></script>
+	<script src="/js/ui/smart.ui.js"></script>
+	<script src="/js/main/index.js"></script>
+	<script src="/js/main/internet.js"></script>
+	</head>
+	<body>
+		<!-- responsive menu box -->
+		<div class="xl-hide resp-menu">
+			<ul>
+				<li><a>COLOCARE</a>
+					<ul>
+						<li><a href="https://www.nav.ro/colocare"><i class="ic-3"></i>COLOCARE SERVERE</a></li>
+						<li><a href="https://www.nav.ro/data-center"><i class="ic-4"></i>DATA CENTER (DC)</a></li>
+					</ul>
+				</li>
+				<li><a>DOMENII</a>
+					<ul>
+						<li><a href="https://www.nav.ro/inregistrare-domenii"><i class="ic-5"></i>ÎNREGISTRARE DOMENII</a></li>
+					</ul>
+				</li>
+				<li><a>GĂZDUIRE WEB</a>
+					<ul>
+						<li><a href="https://www.nav.ro/gazduire-web"><i class="ic-12"></i>GĂZDUIRE WEB</a></li>
+					</ul>
+				</li>
+				<li><a>DESPRE NOI</a>
+					<ul>
+						<li><a href="https://www.nav.ro/contact"><i class="ic-28"></i>CONTACT</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+<!-- main menu container -->
+<div class="menu-container">
+	<div class="wrapper">
+		<!-- logo -->
+		<a class="s-block xl-inline logo" href="/"></a>
+		<!--<a class="s-block xl-inline logo-xmas" href="/">
+			<span class="spr-2"></span>
+			<span class="spr-2"></span>
+			<span class="spr-2"></span>
+		</a>-->
+		<!-- main menu -->
+		<div class="s-hide xl-inline main-menu">
+			<ul>
+				<li><a href="/">TRACEROUTE</a></li>
+				<li><a href="/">MTR (MY TRACEROUTE)</a></li>
+				<li><a href="/">PING</a></li>
+			</ul>
+			<!-- lang item -->
+			<a href="/whois-ro" class="lang"><i class="spr-2"></i> WHOIS .RO</a>
+		</div>
+		<!-- side menu -->
+		<div class="s-hide xl-block xl-inline side-menu">
+			<a href="/contact"><i class="spr-2 ic-1"></i>CONTACT</a>
+		</div>
+	</div>
+	<div class="s-hide xl-block motto">www.traceroute.ro</div>
+
+	<!-- responsive menu icon -->
+	<div class="s-block xl-hide" id="menu-toggle">
+		<div id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div id="cross">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+
+</div>
+		<!-- Left Menu Fixed -->
+		<a class="s-hide l-block left-menu-btn">
+			<div class="box">
+				<span class="spr-2"></span>
+				<span class="spr-2"></span>
+				<span class="spr-2"></span>
+			</div>
+		</a>
+		<div class="left-menu">
+			<div class="lm-header">
+				<div class="lm-top clear-after">
+					<div class="spr-2 logo"></div>
+					<a class="close-popup sp-ebox-close"><div class="container-close"><div class="border border-1"></div><div class="border border-2"></div></div><div class="close-btn">ÎNCHIDE</div></a>
+				</div>
+				<div class="lm-info">
+					<div class="phone">+40 (21) 655-55-55</div>
+					<div class="buttons clear-after">
+						<a class="access open-login">CONTUL MEU</a>
+						<a class="lang ro">ȚĂRI</a>
+					</div>
+					<!-- lang menu -->
+					<div class="lang-menu">
+						<a href="https://www.nav.biz/" class="uk">UNITED KINGDOM</a>
+						<a href="https://www.nav.biz/" class="au">AUSTRIA</a>
+						<a href="https://www.nav.biz/" class="sa">SOUTH AFRICA</a>
+					</div>
+				</div>
+			</div>
+			<div class="lm-menu">
+				 <ul>
+					<!--<a href="/internet">INTERNET</a></li>-->
+					<li><a>SERVICII</a>
+						<ul>
+							<li><a href="https://www.nav.ro/internet">Internet</a></li>
+							<li><a href="https://www.nav.ro/servere-dedicate">Servere Dedicate</a></li>
+							<li><a href="https://www.nav.ro/vps-hosting">Servere VPS</a></li>
+							<li><a href="https://www.nav.ro/colocare">Colocare</a></li>
+						</ul>
+					</li>
+					<!--<li><a href="/colocare">COLOCARE</a></li>-->
+					<li><a>GĂZDUIRE</a>
+						<ul>
+							<li><a href="https://www.nav.ro/inregistrare-domenii">Domenii</a></li>
+							<li><a href="https://www.nav.ro/gazduire-web">Găzduire Web</a></li>
+							<li><a href="https://www.nav.ro/reseller">Reseller Web</a></li>
+							<li><a href="https://www.nav.ro/certificate-ssl">Certificate SSL</a></li>
+						</ul>
+					</li>
+					<!--<li><a href="/certificate-ssl">CERTIFICATE SSL</a></li>-->
+					<li><a>LIR</a>
+						<ul>
+							<li><a href="https://www.nav.ro/alocare-ip">Alocare adrese IP</a></li>
+							<li><a href="https://www.nav.ro/alocare-as">Alocare număr AS</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="lm-chat LiveHelpButton default"><a href="#"><i class="spr-2 chat-icon"></i>Chat - discută cu un expert</a></div>
+				<div class="lm-social">
+					<a class="fb-icon" href="https://www.facebook.com/nav6718" target="_blank"></a>
+					<a class="gp-icon" href="https://plus.google.com/+nav6718" target="_blank"></a>
+					<a class="ln-icon" href="https://www.linkedin.com/company/nav6718" target="_blank"></a>
+					<a class="tw-icon" href="https://twitter.com/nav6718" target="_blank"></a>
+				</div>
+			</div>
+		</div><!-- header -->
+	<!-- header menu -->
+	<!-- main section -->
+<section class="main internet">
+	<!-- Layer 2 -->
+	<div class="layer-2">
+		<div class="wrapper">
+			<!-- text -->
+			<div class="l9 centered text">
+				<h2><strong>Traceroute la <em>nivel global</em></strong></h2>
+				<p>Programul <strong>traceroute</strong> a fost conceput inițial ca o aplicație Unix care permite vizualizarea căii pe care circulă informațiile în Internet, prin urmărirea unui pachet de date trimis de pe calculatorul local către un calculator sau server destinatar din Internet.</p>
+			</div>
+			<!-- row locations -->
+			<div class="row locations">
+				<a data-loc="Bucuresti" class="active">RO - București</a>
+				<a data-loc="Sofia">BG - Sofia</a>
+				<a data-loc="Istambul">TR - Istanbul</a>
+				<a data-loc="Bratislava">SK - Bratislava</a>
+				<a data-loc="Viena">AT - Vienna</a>
+				<a data-loc="Munich">DE - Munich</a>
+				<a data-loc="Nuremberg">DE - Nuremberg</a>
+				<a data-loc="Frankfurt">DE - Frankfurt</a>
+				<a data-loc="Amsterdam">NE - Amsterdam</a>
+				<a data-loc="Belgrad">RS - Belgrade</a>
+				<a data-loc="New York">US - New York</a>
+				<a data-loc="Washington">US - Washington</a>
+				<a data-loc="Boston">US - Boston</a>
+			</div>
+			<!-- row tools -->
+			<div class="row tools">
+				<!-- left col -->
+				<div class="l6 l-left col col-1">
+					<div class="inside">
+						<h2>Informații rețea</h2>
+						<p>* Momentan este actualizat doar serverul din RO - București</p>
+						<!-- 1 -->
+						<div class="net-info active net-info-1">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPv4 <strong>91.239.230.3</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPv6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="/test/100M.img">100M</a>
+								<a class="btn" href="/test/1G.img">1G</a>
+								<a class="btn" href="/test/10G.img">10G</a></p>
+						</div>
+						<!-- 2 -->
+						<div class="net-info net-info-2">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 3 -->
+						<div class="net-info net-info-3">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 4 -->
+						<div class="net-info net-info-4">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 5 -->
+						<div class="net-info net-info-5">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 6 -->
+						<div class="net-info net-info-6">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 7 -->
+						<div class="net-info net-info-7">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 8 -->
+						<div class="net-info net-info-8">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 9 -->
+						<div class="net-info net-info-9">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 10 -->
+						<div class="net-info net-info-10">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 11 -->
+						<div class="net-info net-info-11">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 12 -->
+						<div class="net-info net-info-12">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+						<!-- 13 -->
+						<div class="net-info net-info-13">
+							<p><i class="spr-2 ic-loc"></i>Locație server <strong>RO - București</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV4 <strong>91.216.8.8</strong></p>
+							<p><i class="spr-2 ic-ip"></i>IPV6 <strong>2a05:1c00::76c6:6fd7</strong></p>
+							<p><i class="spr-2 ic-dw"></i>Fișiere de testare <a class="btn" href="https://traceroute.ro/test/100M">100M</a><a class="btn" href="https://traceroute.ro/test/1G">1G</a><a class="btn" href="https://traceroute.ro/test/10G">10G</a></p>
+						</div>
+					</div>
+				</div>
+				<!-- right col -->
+				<div class="l6 l-left col col-2">
+					<div class="inside">
+						<h2>Test rețea</h2>
+						<!-- test form -->
+						<form id="test" class="test">
+                            <label class="input"><input type="text" name="host" title="IP sau Host" placeholder="IP sau Host" value="" /></label>
+							<div class="field">
+								<label class="radio checked"><span class="radio-check"></span><input type="radio" checked name="cmd" value="ping" /> Ping</label>
+								<label class="radio"><span class="radio-check"></span><input type="radio" name="cmd" value="tracert" /> Traceroute</label>
+								<label class="radio"><span class="radio-check"></span><input type="radio" name="cmd" value="mtr" /> MTR</label>
+							</div>
+							<label class="button"><button type="submit"><span>Rulează testul</span></button></label>
+						</form>
+						<!-- test result -->
+						<div class="result"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- layer 3 -->
+	<div class="layer-3">
+		<div class="wrapper clear-after">
+			<div class="text">
+				<h2>Beneficii pentru accesul la Internet prin reţeaua noastră</h2>
+				<p>Serviciul de acces la Internet oferit de compania noastră este o soluţie premium ce oferă conexiune</p>
+				<p>de mare viteză, simetrică, nepartajată şi garantată, cu parametrii de performanţă garantaţi.</p>
+			</div>
+			<div class="row">
+				<!-- col 1 -->
+				<div class="l4 l-left col col-1">
+					<div class="icon icon-1">
+						<div class="spr square-1"></div>
+						<div class="spr square-2"></div>
+					</div>
+					<h3>Experiența</h3>
+					<p>Avem peste 10 (zece) ani de experienţă pe piaţa furnizării serviciilor de Internet, iar acest lucru ne permite să vă oferim o gamă largă de servicii pentru accesul la Internet, dând dovadă de flexibilitate, operativitate şi securitate.</p>
+				</div>
+				<!-- col 2 -->
+				<div class="l4 l-left col col-2">
+					<div class="icon icon-2">
+						<div class="spr square-1"></div>
+						<div class="spr square-2"></div>
+					</div>
+					<h3>Prezența</h3>
+					<p><a href="https://www.nav.ro" alt="NAV.RO" style="color:#00bebc;">NAV Communications</a> are o prezenţă puternică în regiunea Europei Centrale şi de Est, având peering-uri proprii de Internet în România, Ungaria, Austria, Germania, Olanda, Regatul Unit, dar şi peering-uri cu operatori internaţionali majori de Tier-1 şi furnizori de conţinut precum Google.</p>
+				</div>
+				<!-- col 3 -->
+				<div class="l4 l-left col col-3">
+					<div class="icon icon-3">
+						<div class="spr square-1"></div>
+						<div class="spr square-2"></div>
+					</div>
+					<h3>Cost accesibil</h3>
+					<p>Fiind un Internet provider ce foloseşte propriul transport prin fibră optică, putem oferi un serviciu complet destinat utilizatorilor rezidenţiali ce doresc conectare permanentă la Internet, viteză mare, trafic nelimitat în Internet dar şi un cost accesibil.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Layer 1 -->
+	<div class="layer-1">
+		<div class="wrapper">
+			<div class="row">
+				<!-- left col -->
+				<div class="l6 l-left col col-1">
+					<div class="inside">
+						<h2><strong>IP Transit</strong> -  Internet prin fibră optică</h2>
+						<p>Prin serviciul de acces la Internet prin fibră optică putem la dispoziţie o plajă largă de viteze de acces şi te putem ajuta să implementezi ceea ce se potriveşte cel mai bine nevoilor tale de comunicare.</p>
+						<p>Serviciul este destinat furnizorilor de hosting sau operatorilor de telecomunicaţii ce permit anunţarea spaţiului lor IP către Internet şi importul tabelelor de rutare NAV Communications în sistemul lor de rutare.</p>
+					</div>
+				</div>
+				<!-- right col -->
+				<div class="l6 l-left col col-2">
+					<div class="inside">
+						<h2><strong>IP Peering</strong> - Internet exchange</h2>
+						<p>Acest serviciu oferă posibilitatea schimbului de trafic între clienţii NAV Communications şi cei ai companiei tale. Serviciul se realizează prin conexiune dedicată şi garantată de fibră optică sau crearea de legături de interconectare realizate în centre de date prin sesiuni BGP.</p>
+						<p>Deţinem legături de peering cu toţi operatorii semnificativi şi suntem prezenţi în cele mai importante centre de date din România şi din alte ţări.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- layer 4 -->
+	<div class="layer-4">
+		<div class="wrapper">
+			<div class="row">
+				<div class="l8 l-left col col-1">
+					<div class="inner">
+						<p>Preţurile sunt exprimate în EURO, nu includ TVA şi se calculează la cursul B.N.R. din ziua facturării.</p>
+						<p>Taxa de instalare pentru Bucureşti este de 0€, în limita a 300 m de fibră optică.</p>
+						<p>Termenul de instalare este de aproximativ 24 ore de la semnarea contractului de furnizare Internet.</p>
+					</div>
+				</div>
+				<div class="s-hide l4 l-left col col-2"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- footer -->
+<footer>
+    <div class="wrapper">
+        <div class="row">
+            <!-- col 1 -->
+            <div class="m6 m-left l-20 l-left col col-1">
+                <div class="inside">
+                    <div class="logo"></div>
+                    <div class="copyright">
+                        <p>&copy; 2023 traceroute.ro</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/nav6718" target="_blank" class="spr fb-icon"></a>
+                        <a href="https://g.page/nav6718/" target="_blank" class="spr gp-icon"></a>
+                        <a href="https://www.linkedin.com/company/nav6718" target="_blank" class="spr ln-icon"></a>
+                        <a href="https://twitter.com/nav6718" target="_blank" class="spr tw-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- col 2 -->
+            <div class="s-hide l-20 l-left col col-2">
+                <div class="inside">
+                    <h3>Servicii</h3>
+                    <ul class="menu">
+                        <li><a href="/">Traceroute</a></li>
+                        <li><a href="/">MTR (My traceroute)</a>
+                        <li><a href="/">Ping</a>
+                    </ul>
+                </div>
+            </div>
+            <!-- col 3 -->
+            <div class="s-hide l-20 l-left col col-3">
+                <div class="inside">
+                    <h3>Informaţii</h3>
+                    <ul class="menu">
+                        <li><a href="/whois-ro">Whois .RO</a></li>
+                        <li><a href="https://mirrors.nav.ro/" target="_blank">Mirrors</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- col 3 -->
+            <div class="s-hide l-20 l-left col col-4">
+                <div class="inside">
+                    <h3>Legal</h3>
+                    <ul class="menu">
+                        <li><a href="https://www.anpc.gov.ro/" target="_blank">Protecţia consumatorului</a></li>
+                        <li><a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage" target="_blank">Soluționarea online a litigiilor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- col 5 -->
+            <div class="m6 m-left l-20 l-left col col-5">
+                <div class="inside">
+                    <h3>Call Center</h3>
+                    <p><a class="phone" href="tel:+40216555555">+40 (21) 655-55-55</a></p>
+                    <div class="s10 centered m12 company">
+                        <p>Serviciu furnizat de <a href="https://www.nav.ro" alt="NAV.RO" style="color:#00bebc;" target="_blank">NAV RO</a></p>
+                    </div>
+                    <ul class="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Login Popup -->
+<div class="login-modal" style="display: none"></div>
+<div class="s12 m6 l4 xl2 login-popup" style="display: none">
+    <!-- head line -->
+    <div class="head-line">
+        <h3>Zona de client</h3>
+        <a class="close"></a>
+    </div>
+    <!-- form -->
+    <form method="post" action="https://client.ro/dologin.php">
+        <input type="text" name="username" placeholder="Adresa de e-mail" />
+        <input type="password" name="password" autocomplete="off" placeholder="Parola" />
+        <button type="submit">Autentificare</button>
+    </form>
+    <!-- info line -->
+    <div class="info-line">
+        <p>Zona de client este adresată doar clienților NAV iar accesul se face prin panoul securizat <span style="color:#00bebc;">https://client.ro</span></p>
+    </div>
+    <!-- btns -->
+    <div class="btns">
+        <a href="https://client.ro/pwreset.php" class="btn-reset" rel="nofollow">Resetare parolă</a>
+        <a href="https://client.ro/register.php" class="btn-register" rel="nofollow">Înregistrare</a>
+    </div>
+</div>
+<!-- go top icon -->
+<a class="go-top is-visible"></a>
+<!-- cookies bar -->
+<!--<div class="cookies-bar">
+    <div class="wrapper">Acest site utilizează cookie-uri. Regăsești mai multe informații pe pagina de <a href="/tos-cookies" target="_blank">Informare cookies</a>.<br />
+    Pentru a continua navigarea pe site-ul nostru, te rugăm să îți exprimi acordul asupra folosirii acestora. <a class="btn-ok">ACCEPT</a></div>
+</div>-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155082255-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155082255-1');
+</script>
+<!-- End Global Site Tag (gtag.js) - Google Analytics -->
+<!-- Facebook Pixel Code -->
+<!-- End Facebook Pixel Code -->
+<!-- Start chat -->
+<!-- End chat -->
+</body>
+</html>

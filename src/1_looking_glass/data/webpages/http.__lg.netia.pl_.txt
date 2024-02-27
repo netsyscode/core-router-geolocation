@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<meta charset="utf-8">
+<HTML>
+<HEAD>
+<TITLE>NETIA Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="http://firma.netia.pl/images/favicon.ico">
+</HEAD>
+<!--- <BODY BGCOLOR="#FFFFFF" TEXT="#000000"> -->
+ <body style="background-image:url(lg-center.png); background-repeat: no-repeat;  background-position: center top; "><TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.netia.pl/"></A></TD></TR></TABLE>
+<CENTER>
+</CENTER>
+<P><br><br><br><br><br><br><br> 
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regexp"></TD><TD>&nbsp;bgp&nbsp;regexp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTION VALUE="NETIA" SELECTED> NETIA
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+
+<TABLE WIDTH="450" BORDER="0" ALIGN="center" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD colspan="4">
+<DIV ALIGN="CENTER" CLASS="normal" >SprawdÅº prÄdkoÅÄ podczas pobierania pliku:
+</DIV>
+</TD>
+</TR>
+<TD><DIV ALIGN="CENTER" CLASS="normal"><a href="10m.netia">10M</a></DIV></TD>
+<TD><DIV ALIGN="CENTER" CLASS="normal"><a href="50m.netia">50M</a></DIV></TD>
+<TD><DIV ALIGN="CENTER" CLASS="normal"><a href="100m.netia">100M</a></DIV></TD>
+<TD><DIV ALIGN="CENTER" CLASS="normal"><a href="500m.netia">500M</a></DIV></TD>
+</TR>
+
+</TABLE>
+
+
+
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:biznes@netia.pl">biznes@netia.pl</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=KOI8-R" http-equiv="content-type">
+  <title>Zap-SibTranstelecom Looking Glass (AS21127)</title>
+  <meta content="Ivan M.Makarenko (IMM-RIPE)" name="author">
+  <meta content="Zap-SibTranstelecom Looking Glass Tool (AS21127)" name="description">
+  <link href="lg-zsttk.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table width="100%">
+ <tr>
+   <td></td>
+   <td width=850 height=50>
+    <center>
+    <a href="http://www.zsttk.ru/"><img src="ttk-banner-lg.png" border="0" alt="zsttk"></a>
+    </center>
+   </td>
+   <td></td>
+ </tr>
+ <tr>
+ <td></td>
+ <td width=850 align="center">
+ <form style="width:500px" action="index.php" method=POST>
+  <fieldset>
+  <legend class="fieldtitle"> Zap-SibTranstelecom (AS21127) Looking Glass </legend>
+  <div style="padding:20px">
+  <select name="act" style="fields">
+   <option value="show ip bgp" style="fields">show ip bgp
+   <option value="show ip bgp summary" style="fields">show ip bgp sum
+   <option value="show ipv6 bgp" style="fields">show ipv6 bgp
+   <option value="show ipv6 bgp summary" style="fields">show ipv6 bgp sum
+   <option value="traceroute" style="fields">traceroute
+   <option value="whois" style="fields">whois
+   <option value="ping" style="fields">ping
+   <option value="mtr" style="fields">mtr
+   <option value="mtr -n" style="fields">mtr -n
+ </select>
+ <input type="text" name="prefix" />
+ <input type="hidden" name="action" value="submitted" />
+ <input type="submit" value=" enter "><br>
+ </div>
+ </fieldset>
+</form>
+  </td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td width=850>
+   <center><font face="Arial" size="-4">Disclaimer: All commands will be logged for
+   analysis and statistics.<br> If you don't like this policy,
+   please disconnect now.<br>
+   <i>ZSTTK IP/MPLS engineering team, Novosibirsk 2005-<a href=ipv6/2011.html>2011</a>-2013</i><br>
+    <br><br>
+   </font></center>
+  </td>
+  <td></td>
+ </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,398 @@
+
+<!-------------inc.head.php---------------------->
+<html>
+<head>
+
+<style type="text/css"><!--
+body{margin:1px;padding:0px;}
+
+a {color:#3cb0f4; text-decoration:none;}
+a:active {color:#3cb0f4; text-decoration:underline;}
+a:visited {color:#3cb0f4; text-decoration:none;}
+a:hover {color:#3cb0f4; text-decoration:underline;}
+.description {color:#black;}
+-->
+</style> 
+
+<title>
+msm.ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<LINK href="http://msm.ru/images/msm_ico.ico" rel="SHORTCUT ICON">
+<link href="../styles/style_page3.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-------------конец inc.head.php------------->
+<table class="top_tab" border="0" cellpadding="0" cellspacing="0" width="100%" height="70px">
+<tr bgcolor="#5dbef6">
+<td valign="top" align="left" width="240">
+<a href="../index.php"><img src="../images/subpage/msm_logo2.gif" width="240" height="70" border="0"></a>
+</td>
+<td width="440" valign="bottom" align="left" style="background-image:url(../images/subpage/title_subpage.jpg); background-position:left; background-repeat:no-repeat;">
+<div style="width:440px; text-align:justify; font-family:Arial, Verdana, Helvetica, sans-serif; font-size:17px; font-weight:bold; font-style:inherit; text-transform:uppercase; color:#FFFFFF; padding:5 5 5 8;">
+
+network operations center
+
+</div>
+
+</td>
+<td align="right"><img src="../images/subpage/top_lineimage.jpg" width="320" height="70" border="0"></td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+    	<td align="left">
+			<table border="0" cellpadding="0" cellspacing="0" width="1000" height="100%">
+				<tr>
+<!--------левая колонка---------------------------->
+					<td width="240px" valign="top">
+					<ul class="left_menu">
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+
+  <li class="left_menu_element1"><a href="index.html">Looking Glass</a></li>
+  <li class="left_menu_element1"><a href="../chanel/index.html">Аренда каналов связи</a></li>
+  <li class="left_menu_element1"><a href="../company/index.html">О Нас</a></li>
+
+
+
+
+        
+
+
+  <li class="left_menu_element1"><a href="../company/payment/index.html">Способы оплаты</a></li>
+  <li class="left_menu_element1"><a href="../company/docs/index.html">Договор на обслуживание</a></li>
+  <li class="left_menu_element1"><a href="../company/licence/index.html">Наши лицензии</a></li>
+  <!--<li class="left_menu_element1"><a href="/faq/">FAQ</a></li>-->
+</ul>
+<!----------- форма логина ----------------------->
+<table width="240px" cellpadding="0" cellspacing="0" border="0" bgcolor="#dededd" bordercolor="#FF0000" style="background-image:url(../images/ru/sub/separator_y_login.gif); background-position:left; background-repeat:repeat-y;">
+<form action="https://stat.msm.ru/" name="f0" method="POST">
+	<tr>
+		<td colspan="2">
+			<div class="text_login_title" style="margin:5 20 5 5;" align="right"><strong>Личный кабинет абонента</strong><br><br></div>
+		</td>
+	</tr>
+<!--
+	<tr>
+		<td align="right"><div class="text_form_1">логин</div></td>
+		<td align="right"><input value="login" name="login" class="form_login" onfocus="if (this.value=='login') this.value='';" onblur="if (this.value=='') this.value='login';" type="text"></td>
+	</tr>
+	<tr>
+		<td align="right"><div class="text_form_1">пароль</div></td>
+		<td align="right"><input value="password" name="passwd" class="form_login" onfocus="if (this.value=='password') this.value='';" onblur="if (this.value=='') this.value='password';" type="password"></td>
+	</tr>
+
+	<tr>
+		<td align="left" colspan="2"> </td>
+	</tr>
+-->
+	<tr>
+		<td colspan="2"><img src="../images/ru/sub/separator_login_1.gif" border="0"></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="3">
+			<table width="240px" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td><img src="../images/ru/sub/separator_login_2.gif"></td>
+					<td><input src="../images/ru/sub/button_login.gif" style="vertical-align: middle;" type="image"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</form>
+</table>
+<!----------- форма логина ----------------------->
+<table width="240px" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td rowspan="2" valign="top" align="left" width="60px"><img src="../images/ru/sub/picture7.gif" width="60" height="157" border="0" style="margin:0 0 0 0;"></td>
+		<td valign="bottom" align="right">
+			<div class="text_title_1">
+			Тех. поддержка 24 часа
+			</div>
+		</td>
+	<tr>
+		<td valign="top" align="left">
+
+                        Проблемы сетевого характера (проседание скорости канала, маршрутизация, потери пакеты, ddos, обрывы связи)<br>
+			<strong>тел.: +7 (495) 660-8686</strong><br>
+			<strong><a href="mailto:noc@msm.ru" class="page">noc@msm.ru</a></strong><br><br>
+
+
+                        Проблемы физического характера (проверка протяжек, перезагрузка оборудования, подключение KVM, проверка индикации оборудования)<br>
+			<strong>тел.: +7 (495) 589-2681</strong><br>
+			<strong><a href="mailto:m9@msm.ru" class="page">m9@msm.ru</a></strong><br><br>
+			
+
+                        <div class="text_page">
+			<img src="http://www.di-net.ru/images/icq.gif" width="20" height="20" border=0 align=absMiddle> 286896757<br><br>
+                        <img src="http://www.di-net.ru/images/msn.gif" width="20" height="20" border=0 align=absMiddle> support@msm.ru<br><br>
+                        <img src="http://www.di-net.ru/images/skype.gif" width="20" height="20" border=0 align=absMiddle> <a href="skype:msm_help?chat">msm_help</a><br><br>
+                        <img src="http://www.di-net.ru/images/jabber.gif" width="20" height="20" border=0 align=absMiddle> msm_help@jabber.ru
+			</div>
+		</td>
+	</tr>
+</table><!--карта-->
+<script javascript>
+function get_map(x,y,name,win_name) {
+                                              
+var str="width="+x+",height="+y+"status=no,toolbar=no,menubar=no,location=no";
+window.open(name,win_name,str);
+                                     
+}
+</script>
+<center>
+<a!-- href='javascript:get_map(550,553,"http://msm.ru/map/")'></a-->
+   <img src="../images/subpage/small_map.gif" width="175" height="141" border="0" style="margin:10 0 20 0;">
+</center>
+<!--конец карты-->
+					</td>                            	
+<!--------конец левая колонка---------------------->
+<!--------средняя колонка-------------------------->
+					<td class="td_center" valign="top" >
+					<div class="text_page" id="text_body"><p>На этой странице нашего сайта Вы можете проверить прохождение трафика от нашего узла до любого сервера или сайта сети Интернет.</p>
+<p>Мы считаем, что информация о скорости работы наших Интернет каналов позволит Вам сделать правильный выбор места размещения своего оборудования.</p>
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td class="td_type_1"><strong>Peering information:</strong></td>
+<td class="td_type_1">|</td>
+<td class="td_type_1"><strong> </strong></td>
+</tr>
+<tr>
+<td align="left" class="td_type_3">AS Number:</td>
+<td class="td_type_3">|</td>
+<td class="td_type_3">AS12695</td>
+</tr>
+<tr>
+<td align="left" class="td_type_2">AS Macro:</td>
+<td class="td_type_2">|</td>
+<td class="td_type_2">AS-DINET</td>
+</tr>
+<tr>
+<td align="left" class="td_type_3">Primary IP Address at MSK-IX:</td>
+<td class="td_type_3">|</td>
+<td class="td_type_3">193.232.244.88</td>
+</tr>
+<tr>
+<td align="left" class="td_type_2">Secondary IP Address at MSK-IX:</td>
+<td class="td_type_2">|</td>
+<td class="td_type_2">193.232.246.88</td>
+</tr>
+</table><p>адреса электронной почты NOC:<br>
+<p>По вопросам межсетевого взаимодействия (BGP, peering), пожалуйста, пишите на <a href="mailto:noc@di-net.ru">noc@di-net.ru</a></p>
+<p>По вопросам борьбы со спамом и другими нарушениями в сети, пожалуйста, пишите на <a href="mailto:abuse@di-net.ru">abuse@di-net.ru</a></p>
+<SCRIPT language="JavaScript">
+<!--
+var xmlhttp;
+
+function loadXMLDoc(url)
+{
+	xmlhttp = null;
+	
+	// code for Mozilla, etc.
+	if (window.XMLHttpRequest)
+	{
+		xmlhttp = new XMLHttpRequest();
+	}
+	// code for IE
+	else if (window.ActiveXObject)
+	{
+		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	if (xmlhttp != null)
+	{
+		xmlhttp.onreadystatechange = state_Change;
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send(null);
+	}
+	else
+	{
+		alert("Your browser does not support XMLHTTP.")
+	}
+}
+
+function state_Change()
+{
+	// if xmlhttp shows "loaded"
+	if (xmlhttp.readyState == 4)
+	{
+		// if "OK"
+		if (xmlhttp.status == 200)
+	     {
+			// ...some code here...
+			document.getElementById('ping_resp').innerHTML = xmlhttp.responseText;
+    	     }
+		else
+    	     {
+	    	document.getElementById('ping_resp').innerHTML = "Ошибка выполнения запроса";
+	     }
+            document.getElementById('captchaImg').src = '/captcha/securimage_show.php?sid=' + Math.random();
+
+	}
+
+}	
+function PrepareData()
+{
+	
+	var req = "/noc/query/?";	
+        var lg = document.getElementById('lg');
+	if (lg.r1.checked) {
+            req += "query=bgp";
+	}
+        else if (lg.r2.checked) {
+            req += "query=trace";
+        }
+        else {
+            req += "query=ping";        
+        }	
+        req += "&addr=" + lg.addr.value;
+	req += "&router=" + lg.router.value;
+        req += "&code=" + lg.code.value;
+	req += "&test=" + Math.random();
+	document.getElementById('ping_resp').innerHTML = "Выполняется...";
+	loadXMLDoc(req);
+}
+//-->
+</SCRIPT>
+<br><br>
+<div class="text_title_2">Looking Glass.<br>Эта форма поможет Вам проверить прохождение трафика от некоторых узлов нашей сети до выбранного Вами адреса.</div>
+<img src="../images/subpage/shadow_.gif"/>
+
+<form name="lg" id="lg" onsubmit="javascript:PrepareData(); return false;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td><div class="text_form_noc">Выберите узел нашей сети</div></td>
+<td><div class="text_form_noc">Параметр</div></td>
+<td><div class="text_form_noc">Выберите тип запроса</div></td>
+</tr>
+<tr>
+<td>
+
+<select class="form_lg" name="router">
+<OPTION value="mbr1" selected="true">MMТС9 - mbr1</OPTION>
+<OPTION value="mbr2">MMТС9 - mbr2</OPTION>
+
+</td>
+<td><input class="form_lg" name="addr"></td>
+<td>
+<div style="font-family: Verdana, Arial, sans-serif; color: #8e8e8e; font-size: 12px"><INPUT type="radio" name="query" value="bgp" id="r1" checked="true"> Bgp</div>
+<div style="font-family: Verdana, Arial, sans-serif; color: #8e8e8e; font-size: 12px"><INPUT type="radio" name="query" value="trace" id="r2"> Trace</div>
+<div style="font-family: Verdana, Arial, sans-serif; color: #8e8e8e; font-size: 12px"><INPUT type="radio" name="query" value="ping" id="r3"> Ping</div>
+</td>
+</tr>
+<tr>
+<td><img id="captchaImg" src="../captcha/securimage_show.php?sid=b4f9031e3c924c45f74214946191d6ea"><br /><input class="form_lg" name="code"></td><td align="left" colspan="2" style="vertical-align: bottom;"><INPUT type="button" value="отправить запрос" onclick="javascript:PrepareData();"></td>
+</tr>
+</table>
+</form>
+
+<div id="ping_resp"></div>
+<!--
+<TABLE width="100%" cellspacing="0" cellpadding="0" border="0" STYLE='font-family: Verdana, Arial, sans-serif; color: #8e8e8e; font-size: 10px'
+
+<FORM name="lg" onsubmit="javascript:PrepareData(); return false;">
+<TBODY><TR><TD colspan="2" align="center" STYLE='background-color: #cccccc; padding-top: 4px; padding-right: 0; padding-bottom: 4px; padding-left: 0'><STRONG>Узел</STRONG></TD></TR><TR><TD colspan="2" align="center" STYLE='padding-top: 4px; padding-right: 0; padding-bottom: 4px; padding-left: 0'>
+	<SELECT class="form_colloc_calc_1" name="router" value="0"><OPTION value="Stockholm (SE), BR1" selected="true">Узел в Стокгольме (TeleCity)</OPTION><OPTION value="Moscow (RU), BR1">Узел в Москве (ММТС-9)</OPTION><OPTION value="">Датацентр ММТС-9</OPTION></SELECT>
+	</TD></TR><TR><TD colspan="2" align="center" STYLE='background-color: #cccccc; padding-top: 4px; padding-right: 0; padding-bottom: 4px; padding-left: 0'><STRONG>Хост</STRONG></TD></TR><TR><TD colspan="2" align="center" STYLE='padding-top: 4px; padding-right: 0; padding-bottom: 4px; padding-left: 0'>
+	<INPUT type="text" class="form_colloc_calc_1" name="addr">
+	<INPUT type="hidden" name="protocol" value="IPv4">
+</TD></TR><TR><TD colspan="2" align="center" STYLE='background-color: #cccccc; padding-top: 4px; padding-right: 0; padding-bottom: 4px; padding-left: 0'><STRONG>Тип запроса</STRONG></TD></TR><TR STYLE='padding-top: 2px; padding-right: 0; padding-bottom: 2px; padding-left: 0'><TD width="150" align="left"> Ping</TD><TD align="left"><INPUT type="radio" name="query" value="ping" id="r1" checked="true"></TD></TR><TR STYLE='padding-top: 2px; padding-right: 0; padding-bottom: 2px; padding-left: 0'><TD align="left"> Trace</TD><TD align="left"><INPUT type="radio" name="query" value="trace" id="r2"></TD></TR><TR STYLE='background-color: #ffffff' align="right"><TD align="left"> <SPAN id="ping_status"></SPAN></TD><TD align="right"><INPUT src="/images/ru/noc/button_run.gif" type="image" onclick="javascript:PrepareData();"></TD></TR></TABLE>
+--></div>
+					</td>
+<!--------конец средняя колонка-------------------->
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom">
+<!-------------inc.footer.php---------------------->
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td bgcolor="#ababab">
+					<table width="240px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td rowspan="2" valign="top"><div class="text_adres">Адрес:</div></td>
+</tr>
+<tr>
+	<td valign="top" align="right" style="padding:0 20 0 0;"><div class="text_adres">129366, Москва,<br>ул. Ярославская д.13 A.</div></td>
+</tr>
+</table>
+					</td>
+					<td colspan="2">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td width="43%" valign="top" style="background-image:url(../images/subpage/shadow_vert.gif); background-position:left; background-repeat:repeat-y;">
+		<div class="text_footer">После оформления заказа мы сможем предоставить Вам выделенный сервер с установленной на нем операционной системой в течение нескольких рабочих дней.</div>
+		</td>
+		<td bgcolor="#ABABAB" width="1"><img src="../images/subpage/separator_footer_pic1.gif" width="1" height="1" border="0"></td>
+		<td width="43%" valign="top">
+		<div class="text_footer">Если Вам нужен <strong>ВЫДЕЛЕННЫЙ СЕРВЕР НЕМЕДЛЕННО</strong>, то воспользуйтесь нашей программой "Dedicated server за час!".</div>
+		</td>
+		<td width="190px" bgcolor="#ABABAB"><img src="../images/subpage/picture_phone_bottom.gif" width="190" height="60" border="0"></td>
+	</tr>
+</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" class="tds_7">
+					<div class="copyright">Copyright 2006 - 2013  <a href="http://www.di-net.ru" class="page">msm.ru</a>
+<br>All rights reserved
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23662837 = new Ya.Metrika({id:23662837,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="http://mc.yandex.ru/watch/23662837" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+					</td>
+					<td colspan="2" valign="top" align="right">
+					<img src="../images/subpage/picture_bottom.gif" width="115" height="154" border="0">
+					</td>
+				</tr>
+			</table>
+<!------------------------------------------------>
+		</td>
+	</tr>
+</table>
+</BODY>
+</HTML>

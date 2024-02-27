@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Beeline Looking Glass</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Beeline Looking Glass" />
+<meta property="og:description" content="Looking Glass for AS3216 & AS8402" />
+<meta property="og:image" content="http://lg.gldn.net/img/logo_og.png" />
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
+<script type="text/javascript" src="js/jquery.session.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+   var nodes = {
+﻿'AS3216 Europe|ru;AS3216 Европа':{
+'3216;Amsterdam':'AS3216 Amsterdam, NL|ru;AS3216 Амстердам, Нидерланды',
+'3216;Stockholm':'AS3216 Stockholm, SE|ru;AS3216 Стокгольм, Швеция',
+'3216;Frankfurt':'AS3216 Frankfurt, DE|ru;AS3216 Франкфурт, Германия',
+},
+'AS3216 Asia|ru;AS3216 Азия':{
+'3216;HongKong':'AS3216 Hong Kong, HK|ru;AS3216 Гонконг',
+},
+'AS3216 Russia|ru;AS3216 Россия':{
+'3216;Moscow':'AS3216 Moscow|ru;AS3216 Москва',
+'3216;Piter':'AS3216 Saint Petersburg|ru;AS3216 Санкт-Петербург',
+'3216;NNovgorod':'AS3216 Nizhniy Novgorod|ru;AS3216 ННовгород',
+'3216;Yaroslavl':'AS3216 Yaroslavl|ru;AS3216 Ярославль',
+'3216;Rostov':'AS3216 Rostov-on-Don|ru;AS3216 Ростов-на-Дону',
+'3216;Ekaterinburg':'AS3216 Ekaterinburg|ru;AS3216 Екатеринбург',
+'3216;Saratov':'AS3216 Saratov|ru;AS3216 Саратов',
+'3216;Ufa':'AS3216 Ufa|ru;AS3216 Уфа',
+'3216;Nsk':'AS3216 Novosibirsk|ru;AS3216 Новосибирск',
+'3216;Khabarovsk':'AS3216 Khabarovsk|ru;AS3216 Хабаровск',
+'3216;Vladivostok':'AS3216 Vladivostok|ru;AS3216 Владивосток',
+},
+' ':{
+},
+'AS8563 Directnet|ru;AS8563 Directnet':{
+'8563;Directnet':'AS8563 Directnet|ru;AS8563 Directnet',
+},
+'AS8402 Europe|ru;AS8402 Европа':{
+'8402;Amsterdam':'AS8402 Amsterdam, NL|ru;AS8402 Амстердам, Нидерланды',
+'8402;Stockholm':'AS8402 Stockholm, SE|ru;AS8402 Стокгольм, Швеция',
+'8402;Frankfurt':'AS8402 Frankfurt, DE|ru;AS8402 Франкфурт, Германия',
+},
+'AS8402 Russia|ru;AS8402 Россия':{
+'8402;Piter':'AS8402 Saint Petersburg|ru;AS8402 Санкт-Петербург',
+},
+      
+   };
+</script>
+</head>
+
+<body>
+<div class="main">
+   <div class="lang"><span data-lang='en' data-link>ENG</span> / <span data-lang='ru' data-link>RUS</span></div>
+   <img src="img/bee_logo.jpg" alt="Beeline Looking Glass" />
+
+   <form id="qform" method="post" action="result/">
+   <div class="mtop">
+   <table>
+   <tr>
+      <td class=header data-label="qtype">Type of Query</td>
+      <td class=header data-label="param">Additional parameters</td>
+      <td class=header data-label="node">Node</td>
+   </tr>
+   <tr>
+      <td>
+         <ul>
+         <li><label><input type="radio" name="action" value="trace" checked /> Traceroute</label></li>
+         <li><label><input type="radio" name="action" value="ping" /> Ping</label></li>
+         <li><label><input type="radio" name="action" value="bgp" /> BGP</label></li>
+         <li><label><input type="radio" name="action" value="dbgp" /> BGP DirectNet</label></li>
+         <li>&nbsp;</li>
+         <li style="text-align:center;">
+            <select style="width:70px;" name="ipversion">
+            <option value="IPv4">IPv4</option>
+            <option value="IPv6">IPv6</option>
+            </select>
+         </li>
+         </ul>
+      </td>
+      <td>
+         <input type="text" name=param />
+         <div id="warning"></div>
+      </td>
+      <td>
+         <select name="node" id="node"></select>
+      </td>
+   </tr>
+   </table>
+   </div>
+   
+   <div class="mtop">
+      <input type="submit" class="submit" value="Submit" data-label="submit" />
+      <input type="button" class="reset" value="Reset" data-label="reset" onclick="Reset();" />
+   </div>
+   </form>
+   
+   <div class="notes mtop" data-label='disclaimer'><b>Disclaimer:</b><br />This is looking glass of PJSC VympelCom. All commands will be logged for possible later analysis and statistics.<br />If you don't like this policy, please disconnect now!</div>
+</div>
+
+</body>
+</html>

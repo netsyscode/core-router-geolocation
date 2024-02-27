@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Looking glass</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<div class="grid" style="max-width: 800px;">
+		<div class="callout"><h4>Intersvyaz Looking Glass</h4></div>
+		<fieldset>
+			<form class="vertical" action="." method="post">
+				<div class="col_4">
+					<label><strong>Type of Query</strong></label>
+					<input type="radio" name="query" id="radio2" value="route" /><label for="radio2" class="inline"> BGP Route</label><br />
+					<input type="radio" name="query" id="radio3" value="ping" /><label for="radio3" class="inline"> Ping</label><br />
+					<input type="radio" name="query" id="radio4" value="traceroute" /><label for="radio4" class="inline"> Traceroute</label><br />
+				</div>
+				<div class="col_4">
+					<label for="text1"><strong>Parameters</strong></label><br />
+					<input id="text1" name="addr" type="text" />
+				</div>
+				<div class="col_4">
+					<label for="select1"><strong>Router</strong></label><br />
+					<select id="select1" name="router">
+						<option value="1">CHEL1</option>
+						<option value="2">CHEL2</option>
+						<option value="6">CHEL6</option>
+					</select>
+				</div>
+				<div class="col_12 right">
+					<button type="submit" class="blue">Submit</button>
+				</div>
+			</form>
+		</fieldset>
+		<div class="col_12"><label><span style="font-size: 0.8em;"><em>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</em></span></label></div>
+		<div class="col_12 center"><label><span>Please email questions or comments to <a href="mailto:noc@is74.ru">noc@is74.ru</a></span></label></div>
+	</div>
+</body>
+</html>
+

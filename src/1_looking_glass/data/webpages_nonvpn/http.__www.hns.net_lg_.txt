@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+
+<head>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5TRSBTGG');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Cloud Hosting &amp; Managed IT Services Provider | SysGroup</title>
+	<meta name="description" content="Through innovative use of technology and clever, bespoke solutions, Sysgroup can help solve your biggest challenges using our state-of-the-art technology solutions." />
+	<link rel="canonical" href="https://www.sysgroup.com/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Cloud Hosting &amp; Managed IT Services Provider | SysGroup" />
+	<meta property="og:description" content="Through innovative use of technology and clever, bespoke solutions, Sysgroup can help solve your biggest challenges using our state-of-the-art technology solutions." />
+	<meta property="og:url" content="https://www.sysgroup.com/" />
+	<meta property="og:site_name" content="SysGroup" />
+	<meta property="article:publisher" content="https://www.facebook.com/sysgroupplc" />
+	<meta property="article:modified_time" content="2023-04-04T08:29:31+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@SysGroupPLC" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.sysgroup.com/","url":"https://www.sysgroup.com/","name":"Cloud Hosting & Managed IT Services Provider | SysGroup","isPartOf":{"@id":"https://www.sysgroup.com/#website"},"datePublished":"2023-02-23T11:45:07+00:00","dateModified":"2023-04-04T08:29:31+00:00","description":"Through innovative use of technology and clever, bespoke solutions, Sysgroup can help solve your biggest challenges using our state-of-the-art technology solutions.","breadcrumb":{"@id":"https://www.sysgroup.com/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.sysgroup.com/"]}]},{"@type":"BreadcrumbList","@id":"https://www.sysgroup.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.sysgroup.com/#website","url":"https://www.sysgroup.com/","name":"SysGroup","description":"Managed IT Services | Cloud Hosting Provider","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.sysgroup.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.sysgroup.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='main-css-css' href='https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/dist/main.css?ver=1680611645' media='all' />
+<script src="https://www.sysgroup.com/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js?ver=1.4.9" id="stop-user-enumeration-js"></script>
+<link rel="https://api.w.org/" href="https://www.sysgroup.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.sysgroup.com/wp-json/wp/v2/pages/255" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sysgroup.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.1" />
+<link rel='shortlink' href='https://www.sysgroup.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.sysgroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sysgroup.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.sysgroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sysgroup.com%2F&#038;format=xml" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116612085-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116612085-1');
+  </script>
+
+  <script>
+    (function() {
+        var zi = document.createElement('script');
+        zi.type = 'text/javascript';
+        zi.async = true;
+        zi.referrerPolicy = 'unsafe-url';
+        zi.src = 'https://ws.zoominfo.com/pixel/630f697964baeaf7c28a89c5';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(zi, s);
+    })();
+</script>
+<script type="text/javascript" src="//www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function() {
+        cookieconsent.run({
+            "notice_banner_type": "simple",
+            "consent_type": "express",
+            "palette": "light",
+            "language": "en",
+            "page_load_consent_levels": ["strictly-necessary"],
+            "notice_banner_reject_button_hide": false,
+            "preferences_center_close_button_hide": false,
+            "website_name": "SysGroup.com",
+            "website_privacy_policy_url": "https://www.sysgroup.com/privacy-policy"
+        });
+    });
+</script>
+<script type="text/plain" cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K8C9N35');</script>
+<script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=UA-116612085-1"></script>
+<script type="text/plain" cookie-consent="tracking">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','UA-116612085-1');</script>
+<script type="text/plain" cookie-consent="tracking">var w=window;var p=w.location.protocol;if(p.indexOf("http")<0){p="http"+":";}var d=document;var f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.async=false;if(s.readyState){s.onreadystatechange=function(){if(s.readyState=="loaded"||s.readyState=="complete"){s.onreadystatechange=null;try{loadwaprops('3z711ca6744b2d85298cfcd69ea01535f8','3z7573645abd65ef4d6a38d068b4c63fd9','3z967c4ae101303987cf3f3aab75630160d0ee7c4c3b09a257c8e6e017bf43cd11','3z8f88eee730004b24bc512786d501dae4',0.0);}catch(e){}}};}else{s.onload=function(){try{loadwaprops('3z711ca6744b2d85298cfcd69ea01535f8','3z7573645abd65ef4d6a38d068b4c63fd9','3z967c4ae101303987cf3f3aab75630160d0ee7c4c3b09a257c8e6e017bf43cd11','3z8f88eee730004b24bc512786d501dae4',0.0);}catch(e){}};};s.src=p+'//mh.zoho.eu/hub/js/WebsiteAutomation.js';f.parentNode.insertBefore(s,f);</script>
+<script type="text/plain" cookie-consent="functionality" id="zsiqchat">var $zoho=$zoho||{};$zoho.salesiq=$zoho.salesiq||{widgetcode:"ab16ee98202eb27d174edf14176e913ff520d1108d1bd03779fe802a86f67d2290a19afe23988cbcf0076cae525c3ca3",values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+<script type="text/plain" cookie-consent="tracking">_linkedin_partner_id="3820641";window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[];window._linkedin_data_partner_ids.push(_linkedin_partner_id);</script>
+<script type="text/plain" cookie-consent="tracking">(function(l){if(!l){window.lintrk=function(a,b){window.lintrk.q.push([a,b])};window.lintrk.q=[]}
+var s=document.getElementsByTagName("script")[0];var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";s.parentNode.insertBefore(b,s);})(window.lintrk);</script>
+<noscript type="text/plain" cookie-consent="tracking">
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=3820641&fmt=gif" />
+</noscript>
+<script type="text/plain" cookie-consent="tracking">function ZFLead(){}
+ZFLead.utmPValObj=ZFLead.utmPValObj||{};ZFLead.utmPNameArr=new Array('utm_source','utm_medium','utm_campaign','utm_term','utm_content');ZFLead.prototype.zfutm_getLeadVal=function(pName){var qStr='';try{qStr=window.top.location.search.substring(1);}catch(e){qStr='';}
+var pNameTemp=pName+'=';var pValue='';if(typeof qStr!=="undefined"&&qStr!==null&&qStr.length>0){var begin=qStr.indexOf(pNameTemp);if(begin!=-1){begin=begin+pNameTemp.length;end=qStr.indexOf('&',begin);if(end==-1){end=qStr.length;}
+pValue=qStr.substring(begin,end);}}
+if(pValue==undefined||pValue==''){pValue=this.zfutm_gC(pName);}
+if(typeof pValue!=="undefined"&&pValue!==null){pValue=pValue.replace(/\+/g,' ');}
+return pValue;};ZFLead.prototype.zfutm_sC=function(paramName,path,domain,secure){var value=ZFLead.utmPValObj[paramName];if(typeof value!=="undefined"&&value!==null){var cookieStr=paramName+"="+escape(value);var exdate=new Date();exdate.setDate(exdate.getDate()+7);cookieStr+="; expires="+exdate.toGMTString();cookieStr+="; path=/";if(domain){cookieStr+="; domain="+escape(domain);}
+if(secure){cookieStr+="; secure";}
+document.cookie=cookieStr;}};ZFLead.prototype.zfutm_ini=function(){for(var i=0;i<ZFLead.utmPNameArr.length;i++){var zf_pN=ZFLead.utmPNameArr[i];var zf_pV=this.zfutm_getLeadVal(zf_pN);if(typeof zf_pV!=="undefined"&&zf_pV!==null){ZFLead.utmPValObj[zf_pN]=zf_pV;}}
+for(var pkey in ZFLead.utmPValObj){this.zfutm_sC(pkey);}};ZFLead.prototype.zfutm_gC=function(cookieName){var cookieArr=document.cookie.split('; ');for(var i=0;i<cookieArr.length;i++){var cookieVals=cookieArr[i].split('=');if(cookieVals[0]===cookieName&&cookieVals[1]){return unescape(cookieVals[1]);}}};ZFLead.prototype.zfutm_iframeSprt=function(){var zf_frame=document.getElementsByTagName("iframe");for(var i=0;i<zf_frame.length;++i){if((zf_frame[i].src).indexOf('formperma')>0){var zf_src=zf_frame[i].src;for(var prmIdx=0;prmIdx<ZFLead.utmPNameArr.length;prmIdx++){var utmPm=ZFLead.utmPNameArr[prmIdx];var utmVal=this.zfutm_gC(ZFLead.utmPNameArr[prmIdx]);if(typeof utmVal!=="undefined"){if(zf_src.indexOf('?')>0){zf_src=zf_src+'&'+utmPm+'='+utmVal;}else{zf_src=zf_src+'?'+utmPm+'='+utmVal;}}}
+if(zf_frame[i].src.length<zf_src.length){zf_frame[i].src=zf_src;}}}};ZFLead.prototype.zfutm_DHtmlSprt=function(){var zf_formsArr=document.forms;for(var frmInd=0;frmInd<zf_formsArr.length;frmInd++){var zf_form_act=zf_formsArr[frmInd].action;if(zf_form_act&&zf_form_act.indexOf('formperma')>0){for(var prmIdx=0;prmIdx<ZFLead.utmPNameArr.length;prmIdx++){var utmPm=ZFLead.utmPNameArr[prmIdx];var utmVal=this.zfutm_gC(ZFLead.utmPNameArr[prmIdx]);if(typeof utmVal!=="undefined"){var fieldObj=zf_formsArr[frmInd][utmPm];if(fieldObj){fieldObj.value=utmVal;}}}}}};ZFLead.prototype.zfutm_jsEmbedSprt=function(id){document.getElementById('zforms_iframe_id').removeAttribute("onload");var jsEmbdFrm=document.getElementById("zforms_iframe_id");var embdSrc=jsEmbdFrm.src;for(var prmIdx=0;prmIdx<ZFLead.utmPNameArr.length;prmIdx++){var utmPm=ZFLead.utmPNameArr[prmIdx];var utmVal=this.zfutm_gC(ZFLead.utmPNameArr[prmIdx]);if(typeof utmVal!=="undefined"){if(embdSrc.indexOf('?')>0){embdSrc=embdSrc+'&'+utmPm+'='+utmVal;}else{embdSrc=embdSrc+'?'+utmPm+'='+utmVal;}}}
+jsEmbdFrm.src=embdSrc;};var zfutm_zfLead=new ZFLead();zfutm_zfLead.zfutm_ini();window.onload=function(){zfutm_zfLead.zfutm_iframeSprt();zfutm_zfLead.zfutm_DHtmlSprt();}</script>
+<noscript>Cookies management by <a href="https://www.termsfeed.com/cookie-consent/" rel="nofollow noopener">TermsFeed Cookie Consent</a></noscript>
+<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=424394&fmt=gif" /> </noscript>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "SysGroup",
+        "description": "We deliver solutions that ensure clients understand and benefit from industry-leading technologies and advanced hosting capabilities.",
+        "url": "https://www.sysgroup.com",
+        "image": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+        "sameAs": ["https://twitter.com/SysGroupPLC", "https://www.facebook.com/sysgroupplc", "https://www.linkedin.com/company/sysgroup-plc", "https://www.youtube.com/c/UCBnJ1cNmF91w2ksnc4qlIPg"],
+        "copyrightHolder": {
+            "@type": "Corporation",
+            "name": "Sysgroup",
+            "url": "https://www.sysgroup.com",
+            "sameAs": ["https://twitter.com/SysGroupPLC", "https://www.facebook.com/sysgroupplc", "https://www.linkedin.com/company/sysgroup-plc", "https://www.youtube.com/c/UCBnJ1cNmF91w2ksnc4qlIPg"],
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                "height": "63",
+                "width": "295"
+            },
+            "email": "&#109;&#97;&#114;&#107;&#101;&#116;&#105;&#110;&#103;&#64;&#115;&#121;&#115;&#103;&#114;&#111;&#117;&#112;&#46;&#99;&#111;&#109;",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Sysgroup PLC Walker House Exchange Flags",
+                "addressLocality": "Walker House Exchange Flags",
+                "addressRegion": "Liverpool ",
+                "postalCode": "L23YL",
+                "addressCountry": "UK"
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                "height": "63",
+                "width": "295"
+            },
+            "location": {
+                "@type": "Place",
+                "name": "Sysgroup",
+                "hasMap": "http://maps.google.com/maps?q=Sysgroup%2C+Sysgroup+PLC+Walker+House+Exchange+Flags%2C+Walker+House+Exchange+Flags%2C+Liverpool++L23YL%2C+UK",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                    "height": "63",
+                    "width": "295"
+                },
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                    "height": "63",
+                    "width": "295"
+                },
+                "url": "https://www.sysgroup.com",
+                "sameAs": ["https://twitter.com/SysGroupPLC", "https://www.facebook.com/sysgroupplc", "https://www.linkedin.com/company/sysgroup-plc", "https://www.youtube.com/c/UCBnJ1cNmF91w2ksnc4qlIPg"],
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "53.407590",
+                    "longitude": "-2.991690"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Sysgroup PLC Walker House Exchange Flags",
+                    "addressLocality": "Walker House Exchange Flags",
+                    "addressRegion": "Liverpool ",
+                    "postalCode": "L23YL",
+                    "addressCountry": "UK"
+                }
+            },
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+44 333 101 9000",
+                "contactType": "customer support"
+            }],
+            "tickerSymbol": "UK:SYS"
+        },
+        "author": {
+            "@type": "Corporation",
+            "name": "Sysgroup",
+            "url": "https://www.sysgroup.com",
+            "sameAs": ["https://twitter.com/SysGroupPLC", "https://www.facebook.com/sysgroupplc", "https://www.linkedin.com/company/sysgroup-plc", "https://www.youtube.com/c/UCBnJ1cNmF91w2ksnc4qlIPg"],
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                "height": "63",
+                "width": "295"
+            },
+            "email": "&#109;&#97;&#114;&#107;&#101;&#116;&#105;&#110;&#103;&#64;&#115;&#121;&#115;&#103;&#114;&#111;&#117;&#112;&#46;&#99;&#111;&#109;",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Sysgroup PLC Walker House Exchange Flags",
+                "addressLocality": "Walker House Exchange Flags",
+                "addressRegion": "Liverpool ",
+                "postalCode": "L23YL",
+                "addressCountry": "UK"
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                "height": "63",
+                "width": "295"
+            },
+            "location": {
+                "@type": "Place",
+                "name": "Sysgroup",
+                "hasMap": "http://maps.google.com/maps?q=Sysgroup%2C+Sysgroup+PLC+Walker+House+Exchange+Flags%2C+Walker+House+Exchange+Flags%2C+Liverpool++L23YL%2C+UK",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                    "height": "63",
+                    "width": "295"
+                },
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg",
+                    "height": "63",
+                    "width": "295"
+                },
+                "url": "https://www.sysgroup.com",
+                "sameAs": ["https://twitter.com/SysGroupPLC", "https://www.facebook.com/sysgroupplc", "https://www.linkedin.com/company/sysgroup-plc", "https://www.youtube.com/c/UCBnJ1cNmF91w2ksnc4qlIPg"],
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "53.407590",
+                    "longitude": "-2.991690"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Sysgroup PLC Walker House Exchange Flags",
+                    "addressLocality": "Walker House Exchange Flags",
+                    "addressRegion": "Liverpool ",
+                    "postalCode": "L23YL",
+                    "addressCountry": "UK"
+                }
+            },
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+44 333 101 9000",
+                "contactType": "customer support"
+            }],
+            "tickerSymbol": "UK:SYS"
+        },
+        "creator": {
+            "@type": "Organization"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+                "@id": "https://www.sysgroup.com",
+                "name": "SysGroup"
+            }
+        }]
+    }
+</script></head>
+
+<body class="home page-template-default page page-id-255 page-home">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TRSBTGG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="page-loader d-none"></div>
+  <header class="header position-fixed top-0 left-0 w-100 bg-white py-2">
+    <div class="custom-container">
+      <div class="text-end utility-nav">
+        <div class="search-box ms-4 d-inline-block">
+          <form action="/" method="get" class="search-glass">
+            <input type="text" name="s" id="search" placeholder="Search" value="" autocomplete="off" />
+            <div class="search-toggle"></div>
+          </form>
+        </div>
+        <nav class="utilitynav me-1 d-inline-block">
+          <div id="utility_nav" class="menu-utility-menu-container"><ul id="menu-utility-menu" class="utility-nav"><li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://www.sysgroup.com/support/">Support</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"><a href="mailto:hello@sysgroup.com">Email us</a></li>
+</ul></div>        </nav>
+      </div>
+      <div class="row">
+        <div class="col-5 col-lg-2 d-flex align-items-center justify-content-start">
+          <a href="https://www.sysgroup.com">
+            <img src="https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo.svg" class="img-fluid logo" alt="SysGroup">
+          </a>
+        </div>
+
+        <div class="col-7 col-lg-10 d-flex flex-row justify-content-end align-items-center">
+
+          <!-- Nav -->
+          <nav class="navbar navbar-expand-lg navbar-dark px-0 d-none d-lg-flex">
+            <div id="main_nav" class="collapse navbar-collapse"><ul id="menu-main-menu" class="navbar-nav ms-auto mt-9 mt-md-0"><li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-83"><a href="https://www.sysgroup.com/solutions/"><span>Solutions</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-91"><a href="https://www.sysgroup.com/solutions/drive-productivity/"><span>Drive productivity</span></a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-90"><a href="https://www.sysgroup.com/solutions/increase-resilience/"><span>Increase resilience</span></a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-89"><a href="https://www.sysgroup.com/solutions/mitigate-risk/"><span>Mitigate risk</span></a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-88"><a href="https://www.sysgroup.com/solutions/become-more-sustainable/"><span>Become more sustainable</span></a></li>
+</ul>
+</li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-82"><a href="https://www.sysgroup.com/services/"><span>Services</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-368"><a href="https://www.sysgroup.com/services/consult/"><span>Consult</span></a></li>
+	<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-369"><a href="https://www.sysgroup.com/services/cloud/"><span>Cloud</span></a></li>
+	<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-366"><a href="https://www.sysgroup.com/services/resilience/"><span>Resilience</span></a></li>
+	<li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-367"><a href="https://www.sysgroup.com/services/manage/"><span>Manage</span></a></li>
+</ul>
+</li>
+<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81"><a href="https://www.sysgroup.com/insights/"><span>Insights</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1377" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1377"><a href="https://www.sysgroup.com/insights/type/case-studies/"><span>Case studies</span></a></li>
+	<li id="menu-item-1379" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1379"><a href="https://www.sysgroup.com/insights/type/resources/"><span>Resources</span></a></li>
+	<li id="menu-item-1380" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1380"><a href="https://www.sysgroup.com/insights/type/thought-leadership/"><span>Thought leadership</span></a></li>
+	<li id="menu-item-1378" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1378"><a href="https://www.sysgroup.com/insights/type/news/"><span>News</span></a></li>
+</ul>
+</li>
+<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80"><a href="https://www.sysgroup.com/about-us/"><span>About us</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://www.sysgroup.com/about-us/our-mission/"><span>Our mission</span></a></li>
+	<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="https://www.sysgroup.com/about-us/investor-relations/"><span>Investor relations</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1366"><a href="https://www.sysgroup.com/careers/"><span>Careers</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://www.sysgroup.com/careers/our-careers/"><span>Our careers</span></a></li>
+	<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.sysgroup.com/careers/our-offering/"><span>Our offering</span></a></li>
+	<li id="menu-item-400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a target="_blank" rel="noopener" href="https://sysgroup.zohorecruit.eu/jobs/Careers"><span>Current opportunities</span></a></li>
+</ul>
+</li>
+</ul></div>          </nav>
+
+          <a href="https://www.sysgroup.com/get-in-touch" class="btn btn-primary my-2" style="margin-left: 40px" ;>Get in touch</a>
+
+          <nav class="slidenav bg-black d-lg-none">
+            <div class="slidenav-inner p-4 p-md-5 px-md-6 py-3 py-sm-4 py-md-5">
+              <a href="#" class="close-nav">Close</a>
+              <div class="py-4 py-md-6 pt-7">
+                <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-83"><a href="https://www.sysgroup.com/solutions/"><span>Solutions</span></a>
+<ul class='sub-menu p-4 p-md-5 px-md-6'><span class='back-arrow'></span><span class='inner py-4 py-md-6'>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-91"><a href="https://www.sysgroup.com/solutions/drive-productivity/"><span>Drive productivity</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-90"><a href="https://www.sysgroup.com/solutions/increase-resilience/"><span>Increase resilience</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-89"><a href="https://www.sysgroup.com/solutions/mitigate-risk/"><span>Mitigate risk</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-88"><a href="https://www.sysgroup.com/solutions/become-more-sustainable/"><span>Become more sustainable</span></a></li>
+</span></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-82"><a href="https://www.sysgroup.com/services/"><span>Services</span></a>
+<ul class='sub-menu p-4 p-md-5 px-md-6'><span class='back-arrow'></span><span class='inner py-4 py-md-6'>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-368"><a href="https://www.sysgroup.com/services/consult/"><span>Consult</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-369"><a href="https://www.sysgroup.com/services/cloud/"><span>Cloud</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-366"><a href="https://www.sysgroup.com/services/resilience/"><span>Resilience</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-367"><a href="https://www.sysgroup.com/services/manage/"><span>Manage</span></a></li>
+</span></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81"><a href="https://www.sysgroup.com/insights/"><span>Insights</span></a>
+<ul class='sub-menu p-4 p-md-5 px-md-6'><span class='back-arrow'></span><span class='inner py-4 py-md-6'>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1377"><a href="https://www.sysgroup.com/insights/type/case-studies/"><span>Case studies</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1379"><a href="https://www.sysgroup.com/insights/type/resources/"><span>Resources</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1380"><a href="https://www.sysgroup.com/insights/type/thought-leadership/"><span>Thought leadership</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1378"><a href="https://www.sysgroup.com/insights/type/news/"><span>News</span></a></li>
+</span></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80"><a href="https://www.sysgroup.com/about-us/"><span>About us</span></a>
+<ul class='sub-menu p-4 p-md-5 px-md-6'><span class='back-arrow'></span><span class='inner py-4 py-md-6'>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://www.sysgroup.com/about-us/our-mission/"><span>Our mission</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="https://www.sysgroup.com/about-us/investor-relations/"><span>Investor relations</span></a></li>
+</span></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1366"><a href="https://www.sysgroup.com/careers/"><span>Careers</span></a>
+<ul class='sub-menu p-4 p-md-5 px-md-6'><span class='back-arrow'></span><span class='inner py-4 py-md-6'>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://www.sysgroup.com/careers/our-careers/"><span>Our careers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.sysgroup.com/careers/our-offering/"><span>Our offering</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a target="_blank" rel="noopener" href="https://sysgroup.zohorecruit.eu/jobs/Careers"><span>Current opportunities</span></a></li>
+</span></ul>
+</li>
+</ul></div>              </div>
+            </div>
+          </nav>
+
+          <button class="hamburger hamburger--squeeze d-lg-none my-2" type="button" aria-expanded="false" aria-label="Menu">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-loader"></div>
+  <nojs>
+    <style>
+      .page-loader {
+        display: none;
+      }
+    </style>
+  </nojs>
+  <div class="overlay"></div>
+  <main class="main" id="startcontent">
+
+    <div class="nav-mobile-wrapper d-lg-none">
+      <div class="position-relative h-100">
+        <div class="menu-main-menu-container"><ul id="menu-main-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-83"><a href="https://www.sysgroup.com/solutions/"><span>Solutions</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-91"><a href="https://www.sysgroup.com/solutions/drive-productivity/"><span>Drive productivity</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-90"><a href="https://www.sysgroup.com/solutions/increase-resilience/"><span>Increase resilience</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-89"><a href="https://www.sysgroup.com/solutions/mitigate-risk/"><span>Mitigate risk</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-88"><a href="https://www.sysgroup.com/solutions/become-more-sustainable/"><span>Become more sustainable</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-82"><a href="https://www.sysgroup.com/services/"><span>Services</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-368"><a href="https://www.sysgroup.com/services/consult/"><span>Consult</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-369"><a href="https://www.sysgroup.com/services/cloud/"><span>Cloud</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-366"><a href="https://www.sysgroup.com/services/resilience/"><span>Resilience</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-367"><a href="https://www.sysgroup.com/services/manage/"><span>Manage</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81"><a href="https://www.sysgroup.com/insights/"><span>Insights</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1377"><a href="https://www.sysgroup.com/insights/type/case-studies/"><span>Case studies</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1379"><a href="https://www.sysgroup.com/insights/type/resources/"><span>Resources</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1380"><a href="https://www.sysgroup.com/insights/type/thought-leadership/"><span>Thought leadership</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1378"><a href="https://www.sysgroup.com/insights/type/news/"><span>News</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80"><a href="https://www.sysgroup.com/about-us/"><span>About us</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://www.sysgroup.com/about-us/our-mission/"><span>Our mission</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="https://www.sysgroup.com/about-us/investor-relations/"><span>Investor relations</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1366"><a href="https://www.sysgroup.com/careers/"><span>Careers</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://www.sysgroup.com/careers/our-careers/"><span>Our careers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.sysgroup.com/careers/our-offering/"><span>Our offering</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a target="_blank" rel="noopener" href="https://sysgroup.zohorecruit.eu/jobs/Careers"><span>Current opportunities</span></a></li>
+</ul>
+</li>
+</ul></div>
+        <div class="search-mobile">
+          <form action="/" method="get">
+            <input type="text" name="s" id="search" placeholder="Search" value="" autocomplete="off" />
+            <button type="submit" value="">
+
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>  
+          
+                  
+    <div class="header_video_embed " id="flexPanel-1">
+      <div class=" custom-container pb-lg-7 pt-md-0 py-5">
+              <div class="row gx-md-5 gy-4">
+        <div class="col-md-6 order-md-2 d-flex justify-content-end">
+                    <video playsinline muted autoplay class="html5-vid-fluid mx-auto">
+            <source src="https://www.sysgroup.com/wp-content/uploads/2023/02/SysGroup-Ball-Sequence-With-Extra-Fill-Balls-v02-White-BG-1.5mbps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 order-md-1 d-flex align-items-center">
+          <div>
+            <h1 class="mb-4">
+              Creating value through<br>
+              <span>technology transformation</span>
+            </h1>
+            <p class="mb-0">
+              Through innovative use of technology and clever, bespoke solutions, we help address your biggest challenges. Transform the way you operate using our state-of-the-art technology solutions and watch your business grow.            </p>
+
+                          <a href="https://www.sysgroup.com/get-in-touch/" target="_self" class="btn btn-dark mt-4">
+                <span>Speak to us today</span>
+              </a>
+                      </div>
+        </div>
+      </div>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="block_video_embed " id="flexPanel-2">
+      <div class=" custom-container">
+              <div class="mx-auto">
+        <div class="vid-fluid">
+          
+                      <iframe src="https://player.vimeo.com/video/807923743?h=a076bf92f8&enablejsapi=1e&title=0&byline=0&enablejsapi=1&title=0&byline=0" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+                  </div>
+      </div>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="grid_related_items " id="flexPanel-3">
+      <div class=" custom-container px-0 px-lg-4 py-5 py-lg-7">
+              <h2 class="fw-400 mb-4 mx-auto text-center">Solutions</h2>
+              <div class="owl-carousel carousel-solutions flex-carousel">
+          
+                                        <div class="item h-100 text-center">
+                <a href="https://www.sysgroup.com/solutions/drive-productivity/" class="d-flex flex-column justify-content-between align-items-center text-decoration-none h-100">
+                  <div class="w-100">
+                                        <div class="related-icon mb-4" style="background-image:url(https://www.sysgroup.com/wp-content/uploads/2023/02/Drive-Productivity.svg);"></div>
+                    <div class="position-relative">
+                      <div class="solution-line border border-primary mx-auto mb-4 d-block rounded-circle" style="width: 1rem; height:1rem;"></div>
+                    </div>
+
+                    <h3 class="fw-400 mb-3 fs-4 px-4 px-sm-6">
+                      Drive<br>productivity                    </h3>
+
+                    <div class="text-black px-4 px-sm-6 mb-4 px-md-4">
+                      Scalable technology and clever automation to help boost efficiency and collaboration across your business.                    </div>
+                  </div>
+
+                  <span href="https://www.sysgroup.com/solutions/drive-productivity/" class="cta-button">
+                    <span>More</span>
+                  </span>
+
+                </a>
+              </div>
+            
+          
+                                        <div class="item h-100 text-center">
+                <a href="https://www.sysgroup.com/solutions/increase-resilience/" class="d-flex flex-column justify-content-between align-items-center text-decoration-none h-100">
+                  <div class="w-100">
+                                        <div class="related-icon mb-4" style="background-image:url(https://www.sysgroup.com/wp-content/uploads/2023/02/Increase-Resilience.svg);"></div>
+                    <div class="position-relative">
+                      <div class="solution-line border border-primary mx-auto mb-4 d-block rounded-circle" style="width: 1rem; height:1rem;"></div>
+                    </div>
+
+                    <h3 class="fw-400 mb-3 fs-4 px-4 px-sm-6">
+                      Increase<br>resilience                    </h3>
+
+                    <div class="text-black px-4 px-sm-6 mb-4 px-md-4">
+                      Combat emerging threats, withstand change and ensure continuity of the most important assets across your organisation.                    </div>
+                  </div>
+
+                  <span href="https://www.sysgroup.com/solutions/increase-resilience/" class="cta-button">
+                    <span>More</span>
+                  </span>
+
+                </a>
+              </div>
+            
+          
+                                        <div class="item h-100 text-center">
+                <a href="https://www.sysgroup.com/solutions/mitigate-risk/" class="d-flex flex-column justify-content-between align-items-center text-decoration-none h-100">
+                  <div class="w-100">
+                                        <div class="related-icon mb-4" style="background-image:url(https://www.sysgroup.com/wp-content/uploads/2023/02/Mitigate-Risk.svg);"></div>
+                    <div class="position-relative">
+                      <div class="solution-line border border-primary mx-auto mb-4 d-block rounded-circle" style="width: 1rem; height:1rem;"></div>
+                    </div>
+
+                    <h3 class="fw-400 mb-3 fs-4 px-4 px-sm-6">
+                      Mitigate<br>risk                    </h3>
+
+                    <div class="text-black px-4 px-sm-6 mb-4 px-md-4">
+                      Proactively eliminate, manage, reduce or transfer business risks to avoid financial, operational and reputational damage.                     </div>
+                  </div>
+
+                  <span href="https://www.sysgroup.com/solutions/mitigate-risk/" class="cta-button">
+                    <span>More</span>
+                  </span>
+
+                </a>
+              </div>
+            
+          
+                                        <div class="item h-100 text-center">
+                <a href="https://www.sysgroup.com/solutions/become-more-sustainable/" class="d-flex flex-column justify-content-between align-items-center text-decoration-none h-100">
+                  <div class="w-100">
+                                        <div class="related-icon mb-4" style="background-image:url(https://www.sysgroup.com/wp-content/uploads/2023/02/Sustainable.svg);"></div>
+                    <div class="position-relative">
+                      <div class="solution-line border border-primary mx-auto mb-4 d-block rounded-circle" style="width: 1rem; height:1rem;"></div>
+                    </div>
+
+                    <h3 class="fw-400 mb-3 fs-4 px-4 px-sm-6">
+                      Become more <br>sustainable                     </h3>
+
+                    <div class="text-black px-4 px-sm-6 mb-4 px-md-4">
+                      Future-proof your operations and accelerate your journey to net zero by harnessing the power of technology.                    </div>
+                  </div>
+
+                  <span href="https://www.sysgroup.com/solutions/become-more-sustainable/" class="cta-button">
+                    <span>More</span>
+                  </span>
+
+                </a>
+              </div>
+            
+                  </div>
+            </div>
+    </div>
+
+    
+          
+                  
+    <div class="block_animation_gradient z-20 position-relative" id="flexPanel-5">
+      <div class=" custom-container px-0 px-lg-7 py-0">
+        <div class="bg-black-red rounded-lg-3 px-5 py-5" id="gradientPanel-1">
+  <div class="row gx-lg-5 gy-4">
+    <div class="col-lg-7">
+      <div id="gradientAnim-1"></div>
+    </div>
+    <div class="col-lg-5 d-flex flex-column justify-content-center">
+      <div class="text-light">
+        <h2 class="lh-base mb-4">
+          <span class="fw-400">Your journey</span>
+          <br>
+          <i class="display-3 fw-400">with us</i>
+        </h2>
+
+        <div class="mb-4">
+          We understand your strategic objectives and create a tailored cloud solution for your business. Then we supercharge your cyber security and offer expert management of your tech infrastructure, helping you thrive.        </div>
+
+                  <a href="https://www.sysgroup.com/get-in-touch/" target="_self" class="btn btn-secondary mt-4">
+            <span>Begin your journey</span>
+          </a>
+              </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    window.onload = (event) => {
+      let lottieArr = [
+        (lottie.loadAnimation({
+          path: "https://www.sysgroup.com/wp-content/uploads/2023/03/SysGroup_Your_Journey_With_Us_Animation-1.json",
+          container: document.getElementById("gradientAnim-1"),
+          renderer: "svg",
+          loop: false,
+          autoplay: false,
+        })),
+      ];
+
+      // Adds frame to object
+      lottieArr.forEach(l => l.frame = 0);
+
+      lottieArr.forEach(function(item, index) {
+        item.frame = 0;
+
+        ScrollTrigger.create({
+          trigger: '#gradientPanel-1',
+          start: 'top center',
+          end: 'bottom top',
+          onEnter: () => item.goToAndPlay(0, true),
+          onEnterBack: () => item.goToAndPlay(0, true),
+          markers: false,
+        });
+      });
+    }
+  });
+</script>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="block_full_image mt-md-n5 z-10 fade-bottom" id="flexPanel-6">
+      <div class=" px-0">
+          <img width="1400" height="786" src="https://www.sysgroup.com/wp-content/uploads/2023/03/sys-home-block.jpg" class="img-fluid obj-cover vh-35 vh-sm-55 vh-md-55 vh-lg-65" alt="" decoding="async" fetchpriority="high" />      </div>
+    </div>
+
+    
+          
+                  
+    <div class="block_homepage_work_with_us mt-n5 mt-lg-n10" id="flexPanel-7">
+      <div class=" custom-container py-5 py-lg-7  pt-0 pt-lg-0">
+              <div class="bg-white-fade rounded-3 py-5 shadow position-relative">
+        <div class="col-11 mx-auto text-center">
+                      <h2 class="text-center fw-400">Working with us</h2>
+                    <div class="col-md-8 mx-auto mb-5">
+                          Our expert team are passionate about delivering for every customer and work closely with our industry-leading partners to create the right bespoke solution for you.                      </div>
+
+                      <h2 class="text-center fw-400 mb-0">Our partners</h2>
+          
+          <div class="owl-carousel carousel-default">
+                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/partner-watchguardone@2x.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/partner-veeam@2x.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/partner-microsoft@2x.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/partner-dell@2x.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/mimecast-grey-removebg-preview.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-8.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-6.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-18.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-2-1.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-3-1.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-17-1.png" class="img-fluid rounded-1" />
+                                            <img src="https://www.sysgroup.com/wp-content/uploads/2023/03/Artboard-每-4.png" class="img-fluid rounded-1" />
+                                      </div>
+
+                  </div>
+      </div>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="grid_3_featured_posts " id="flexPanel-8">
+      <div class=" custom-container py-5 py-lg-7">
+        
+<div class="position-relative mb-4">
+      <h2 class="text-center mb-4 pe-0 fw-400 w-100">
+      Thought leadership    </h2>
+  
+  <a href="https://www.sysgroup.com/insights" class="d-block mx-auto text-center text-black mt-n3 mb-4 w-100">
+    <span>See all</span>
+  </a>
+</div>
+
+<div class="owl-carousel carousel-posts">
+
+      
+      <div class="h-100">
+                <div class="d-flex flex-column justify-content-between h-100 align-items-center">
+          <div class="text-center">
+
+            <div class="col-lg-9 mx-auto">
+              <a href="https://www.sysgroup.com/insights/5-ways-that-e-commerce-benefits-from-cloud-computing/">
+                <div class="ratio ratio-1x1 mb-4">
+                                      <img width="992" height="557" src="https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-992x557.jpg" class="img-fluid w-100 h-100 obj-cover col-6rounded rounded-circle" alt="" loading="lazy" decoding="async" srcset="https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-992x557.jpg 992w, https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-576x323.jpg 576w, https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-768x431.jpg 768w, https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-1200x673.jpg 1200w, https://www.sysgroup.com/wp-content/uploads/2023/03/our-mission-hero-1400x786.jpg 1400w" sizes="(max-width: 992px) 100vw, 992px" />                                  </div>
+              </a>
+            </div>
+
+            <h3 class="fw-400">
+              5 Ways That E-Commerce Benefits from Cloud Computing            </h3>
+
+            <p>
+              How has cloud helped e-commerce businesses navigate the shift in consumer shopping habits?            </p>
+          </div>
+
+          <div class="text-center">
+            <a href="https://www.sysgroup.com/insights/5-ways-that-e-commerce-benefits-from-cloud-computing/" class="cta-button">
+              <span>More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="h-100">
+                <div class="d-flex flex-column justify-content-between h-100 align-items-center">
+          <div class="text-center">
+
+            <div class="col-lg-9 mx-auto">
+              <a href="https://www.sysgroup.com/insights/10-business-continuity-stats-to-make-you-change-for-the-better/">
+                <div class="ratio ratio-1x1 mb-4">
+                                      <img width="933" height="693" src="https://www.sysgroup.com/wp-content/uploads/2023/03/cloud-banner.jpg" class="img-fluid w-100 h-100 obj-cover col-6rounded rounded-circle" alt="" loading="lazy" decoding="async" srcset="https://www.sysgroup.com/wp-content/uploads/2023/03/cloud-banner.jpg 933w, https://www.sysgroup.com/wp-content/uploads/2023/03/cloud-banner-576x428.jpg 576w, https://www.sysgroup.com/wp-content/uploads/2023/03/cloud-banner-768x570.jpg 768w" sizes="(max-width: 933px) 100vw, 933px" />                                  </div>
+              </a>
+            </div>
+
+            <h3 class="fw-400">
+              10 Business Continuity Stats To Make You Change For The Better            </h3>
+
+            <p>
+              Change your business for the better with these business continuity and disaster recovery stats.             </p>
+          </div>
+
+          <div class="text-center">
+            <a href="https://www.sysgroup.com/insights/10-business-continuity-stats-to-make-you-change-for-the-better/" class="cta-button">
+              <span>More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="h-100">
+                <div class="d-flex flex-column justify-content-between h-100 align-items-center">
+          <div class="text-center">
+
+            <div class="col-lg-9 mx-auto">
+              <a href="https://www.sysgroup.com/insights/5-benefits-of-baas-and-draas-for-your-organisation/">
+                <div class="ratio ratio-1x1 mb-4">
+                                      <img width="992" height="466" src="https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-992x466.jpg" class="img-fluid w-100 h-100 obj-cover col-6rounded rounded-circle" alt="" loading="lazy" decoding="async" srcset="https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-992x466.jpg 992w, https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-576x270.jpg 576w, https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-768x361.jpg 768w, https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-1200x563.jpg 1200w, https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_-1400x657.jpg 1400w, https://www.sysgroup.com/wp-content/uploads/2023/03/offering_hero_.jpg 1921w" sizes="(max-width: 992px) 100vw, 992px" />                                  </div>
+              </a>
+            </div>
+
+            <h3 class="fw-400">
+              5 benefits of BaaS and DRaaS for your organisation.            </h3>
+
+            <p>
+              Don't be caught without a plan to protect your data.             </p>
+          </div>
+
+          <div class="text-center">
+            <a href="https://www.sysgroup.com/insights/5-benefits-of-baas-and-draas-for-your-organisation/" class="cta-button">
+              <span>More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      </div>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="block_insights_featured overflow-hidden bg-light-grey" id="flexPanel-9">
+      <div class=" custom-container py-5 py-lg-7">
+        <div class="row gx-lg-5 gy-4">
+  <div class="col-md-5 d-flex justify-content-center flex-column">
+    <h2 class="fw-400 mb-4">
+      Case studies    </h2>
+    <p>
+      We work in partnership with our customers to create value through technology transformation, offering a competitive advantage and helping them grow.     </p>
+    <div>
+              <a class="cta-button mb-2" href="/insights/type/case-studies/" target="_self"><span>Explore our case studies</span></a>
+      
+    </div>
+  </div>
+  <div class="col-md-6 offset-md-1 offset-svg">
+    <div class="rounded-img-col rounded-circle w-75 mx-auto" style="background-image:url(https://www.sysgroup.com/wp-content/uploads/2023/02/3472-5174.jpg);">
+      <img class="img-fluid w-100" src="https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/square.png" />
+    </div>
+  </div>
+</div>      </div>
+    </div>
+
+    
+          
+                  
+    <div class="grid_accreditations " id="flexPanel-10">
+      <div class=" custom-container py-5 py-lg-7">
+          <h2 class="text-center fw-400 mb-0">
+    Accreditations  </h2>
+
+
+<div class="owl-carousel carousel-default">
+        <img src="https://www.sysgroup.com/wp-content/uploads/2023/02/cyber-essentials.png" class="img-fluid rounded-1" />
+              <img src="https://www.sysgroup.com/wp-content/uploads/2023/02/partner-cisco@2x.png" class="img-fluid rounded-1" />
+              <img src="https://www.sysgroup.com/wp-content/uploads/2023/09/ISO-27001-2013-badge-whitebw.png" class="img-fluid rounded-1" />
+              <img src="https://www.sysgroup.com/wp-content/uploads/2023/09/ISO-9001-2015-badge-white-bw.png" class="img-fluid rounded-1" />
+              <img src="https://www.sysgroup.com/wp-content/uploads/2023/02/pci.png" class="img-fluid rounded-1" />
+        </div>
+<div class="d-flex mt-4">
+  </div>      </div>
+    </div>
+
+  
+
+</main>
+<div class="footer bg-dark pt-4 pt-md-7 pb-4 pb-md-5">
+  <div class="custom-container">
+    <div class="row">
+      <div class="col-md-7 pt-3 order-2 order-md-1">
+        <div class="py-3">
+          <a href="https://www.sysgroup.com">
+            <img src="https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/img/logo-alt.svg" class="img-fluid mb-4 logo" alt="SysGroup">
+          </a>
+          <!-- Nav -->
+          <nav class="footernav">
+            <div id="footer_nav" class="menu-footer-menu-container"><ul id="menu-footer-menu" class="footer-nav"><li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="https://www.sysgroup.com/solutions/">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-155"><a href="https://www.sysgroup.com/solutions/drive-productivity/">Drive productivity</a></li>
+	<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-154"><a href="https://www.sysgroup.com/solutions/increase-resilience/">Increase resilience</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-153"><a href="https://www.sysgroup.com/solutions/mitigate-risk/">Mitigate risk</a></li>
+	<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-solutions menu-item-152"><a href="https://www.sysgroup.com/solutions/become-more-sustainable/">Become more sustainable</a></li>
+</ul>
+</li>
+<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><a href="https://www.sysgroup.com/services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-355"><a href="https://www.sysgroup.com/services/consult/">Consult</a></li>
+	<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-356"><a href="https://www.sysgroup.com/services/cloud/">Cloud</a></li>
+	<li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-353"><a href="https://www.sysgroup.com/services/resilience/">Resilience</a></li>
+	<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-354"><a href="https://www.sysgroup.com/services/manage/">Manage</a></li>
+</ul>
+</li>
+<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-163"><a href="https://www.sysgroup.com/insights/">Insights</a>
+<ul class="sub-menu">
+	<li id="menu-item-1381" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1381"><a href="https://www.sysgroup.com/insights/type/case-studies/">Case studies</a></li>
+	<li id="menu-item-1383" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1383"><a href="https://www.sysgroup.com/insights/type/resources/">Resources</a></li>
+	<li id="menu-item-1384" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1384"><a href="https://www.sysgroup.com/insights/type/thought-leadership/">Thought leadership</a></li>
+	<li id="menu-item-1382" class="menu-item menu-item-type-taxonomy menu-item-object-insights_type menu-item-1382"><a href="https://www.sysgroup.com/insights/type/news/">News</a></li>
+</ul>
+</li>
+<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-161"><a href="https://www.sysgroup.com/about-us/">About us</a>
+<ul class="sub-menu">
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="https://www.sysgroup.com/about-us/our-mission/">Our mission</a></li>
+	<li id="menu-item-807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="https://www.sysgroup.com/about-us/investor-relations/">Investor relations</a></li>
+</ul>
+</li>
+<li id="menu-item-1368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="https://www.sysgroup.com/careers/">Careers</a>
+<ul class="sub-menu">
+	<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="https://www.sysgroup.com/careers/our-careers/">Our careers</a></li>
+	<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://www.sysgroup.com/careers/our-offering/">Our offering</a></li>
+	<li id="menu-item-401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a target="_blank" rel="noopener" href="https://sysgroup.zohorecruit.eu/jobs/Careers">Current opportunities</a></li>
+</ul>
+</li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://www.sysgroup.com/support/">Support</a></li>
+</ul></div>          </nav>
+        </div>
+      </div>
+      <div class="col-md-5 pt-3 text-white order-1 order-md-2">
+        <h4 class="f-secondary display-6 mt-2 mb-4">Begin your journey</h4>
+        <p class="mb-4 intro-text">You can call us on <nobr><a href="tel:03331019000" class="link-light d-inline-block">+44 (0) 333 101 9000</a>,</nobr> or email us at <a href="mailto:hello@sysgroup.com" class="link-light d-inline-block">hello@sysgroup.com</a></p>
+        <a href="https://www.sysgroup.com/get-in-touch" class="btn btn-primary rounded-3 fw-bold text-white">Get in touch</a>
+
+        <div class="mt-4">
+                        <a href="https://www.linkedin.com/company/sysgroup-plc/" rel="" alt="LinkedIn" target="_blank" class="d-inline-block me-1"><img src="https://www.sysgroup.com/wp-content/uploads/2023/03/icon-linkedin-1.svg" class="d-block" height="46" width="46"></a>
+                        <a href="https://twitter.com/SysGroupPLC" rel="" alt="Twitter" target="_blank" class="d-inline-block me-1"><img src="https://www.sysgroup.com/wp-content/uploads/2023/03/icon-twitter.svg" class="d-block" height="46" width="46"></a>
+                        <a href="https://www.facebook.com/sysgroupplc/" rel="" alt="Facebook" target="_blank" class="d-inline-block me-1"><img src="https://www.sysgroup.com/wp-content/uploads/2023/03/icon-facebook.svg" class="d-block" height="46" width="46"></a>
+                  </div>
+      </div>
+    </div>
+
+    <nav class="subfooternav small mt-5">
+      <div id="subfooter_nav" class="menu-sub-footer-nav-container"><ul id="menu-sub-footer-nav" class="subfooter-nav"><li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="https://www.sysgroup.com/terms-and-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="https://www.sysgroup.com/privacy-policy/">Privacy policy</a></li>
+<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a href="https://www.sysgroup.com/cookies/">Cookies</a></li>
+<li id="menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a href="https://www.sysgroup.com/complaints/">Complaints</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://www.sysgroup.com/gdpr/">GDPR</a></li>
+<li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394"><a target="_blank" rel="noopener" href="https://www.sysgroup.com/wp-content/uploads/2023/10/SysGroup-Plc-ESG-Report-FY23.pdf">ESG report</a></li>
+<li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393"><a target="_blank" rel="noopener" href="https://www.sysgroup.com/wp-content/uploads/2023/10/SysGroup-Plc-TCFD-Report-FY23.pdf">TCFD reports</a></li>
+<li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390"><a href="https://www.sysgroup.com/sell-your-business/">Sell your business</a></li>
+</ul></div>    </nav>
+    <div class="text-light-grey small">
+      <span class="me-lg-4">&#169; 2023 SysGroup</span>
+      <span>Company registration number: 06172239</span>
+      <span>Registered address: Walker House, Exchange Flags, Liverpool, L2 3YL</span>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  function ZFLead() {}
+  ZFLead.utmPValObj = ZFLead.utmPValObj || {};
+
+  ZFLead.utmPNameArr = new Array('utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content');
+
+  ZFLead.prototype.zfutm_getLeadVal = function(pName) {
+    var qStr = '';
+    try {
+      qStr = window.top.location.search.substring(1);
+    } catch (e) {
+      qStr = '';
+    }
+    var pNameTemp = pName + '=';
+    var pValue = '';
+    if (typeof qStr !== "undefined" && qStr !== null && qStr.length > 0) {
+      var begin = qStr.indexOf(pNameTemp);
+      if (begin != -1) {
+        begin = begin + pNameTemp.length;
+        end = qStr.indexOf('&', begin);
+        if (end == -1) {
+          end = qStr.length;
+        }
+        pValue = decodeURIComponent(qStr.substring(begin, end));
+      }
+    }
+    if (pValue == undefined || pValue == '') {
+      pValue = this.zfutm_gC(pName);
+    }
+    return pValue;
+  };
+
+  ZFLead.prototype.zfutm_sC = function(paramName, path, domain, secure) {
+    var value = ZFLead.utmPValObj[paramName];
+    if (typeof value !== "undefined" && value !== null) {
+      var cookieStr = paramName + "=" + encodeURIComponent(value);
+      var exdate = new Date();
+      exdate.setDate(exdate.getDate() + 7);
+      cookieStr += "; expires=" + exdate.toGMTString();
+      cookieStr += "; path=/";
+      if (domain) {
+        cookieStr += "; domain=" + encodeURIComponent(domain);
+      }
+      if (secure) {
+        cookieStr += "; secure";
+      }
+      document.cookie = cookieStr;
+    }
+  };
+
+  ZFLead.prototype.zfutm_ini = function() {
+    for (var i = 0; i < ZFLead.utmPNameArr.length; i++) {
+      var zf_pN = ZFLead.utmPNameArr[i];
+      var zf_pV = this.zfutm_getLeadVal(zf_pN);
+      if (typeof zf_pV !== "undefined" && zf_pV !== null) {
+        ZFLead.utmPValObj[zf_pN] = zf_pV;
+      }
+    }
+    for (var pkey in ZFLead.utmPValObj) {
+      this.zfutm_sC(pkey);
+    }
+  };
+  ZFLead.prototype.zfutm_gC = function(cookieName) {
+    var cookieArr = document.cookie.split('; ');
+    for (var i = 0; i < cookieArr.length; i++) {
+      var cookieVals = cookieArr[i].split('=');
+      if (cookieVals[0] === cookieName && cookieVals[1]) {
+        return decodeURIComponent(cookieVals[1]);
+      }
+    }
+  };
+  ZFLead.prototype.zfutm_gC_enc = function(cookieName) {
+    var cookieArr = document.cookie.split('; ');
+    for (var i = 0; i < cookieArr.length; i++) {
+      var cookieVals = cookieArr[i].split('=');
+      if (cookieVals[0] === cookieName && cookieVals[1]) {
+        return cookieVals[1];
+      }
+    }
+  };
+  ZFLead.prototype.zfutm_iframeSprt = function() {
+    var zf_frame = document.getElementsByTagName("iframe");
+    for (var i = 0; i < zf_frame.length; ++i) {
+      if ((zf_frame[i].src).indexOf('formperma') > 0) {
+        var zf_src = zf_frame[i].src;
+        for (var prmIdx = 0; prmIdx < ZFLead.utmPNameArr.length; prmIdx++) {
+          var utmPm = ZFLead.utmPNameArr[prmIdx];
+          var utmVal = this.zfutm_gC_enc(ZFLead.utmPNameArr[prmIdx]);
+          if (typeof utmVal !== "undefined") {
+            if (zf_src.indexOf('?') > 0) {
+              zf_src = zf_src + '&' + utmPm + '=' + utmVal;
+            } else {
+              zf_src = zf_src + '?' + utmPm + '=' + utmVal;
+            }
+          }
+        }
+        if (zf_frame[i].src.length < zf_src.length) {
+          zf_frame[i].src = zf_src;
+        }
+      }
+    }
+  };
+  ZFLead.prototype.zfutm_DHtmlSprt = function() {
+    var zf_formsArr = document.forms;
+    for (var frmInd = 0; frmInd < zf_formsArr.length; frmInd++) {
+      var zf_form_act = zf_formsArr[frmInd].action;
+      if (zf_form_act && zf_form_act.indexOf('formperma') > 0) {
+        for (var prmIdx = 0; prmIdx < ZFLead.utmPNameArr.length; prmIdx++) {
+          var utmPm = ZFLead.utmPNameArr[prmIdx];
+          var utmVal = this.zfutm_gC(ZFLead.utmPNameArr[prmIdx]);
+          if (typeof utmVal !== "undefined") {
+            var fieldObj = zf_formsArr[frmInd][utmPm];
+            if (fieldObj) {
+              fieldObj.value = utmVal;
+            }
+          }
+        }
+      }
+    }
+  };
+  ZFLead.prototype.zfutm_jsEmbedSprt = function(id) {
+    document.getElementById('zforms_iframe_id').removeAttribute("onload");
+    var jsEmbdFrm = document.getElementById("zforms_iframe_id");
+    var embdSrc = jsEmbdFrm.src;
+    for (var prmIdx = 0; prmIdx < ZFLead.utmPNameArr.length; prmIdx++) {
+      var utmPm = ZFLead.utmPNameArr[prmIdx];
+      var utmVal = this.zfutm_gC_enc(ZFLead.utmPNameArr[prmIdx]);
+      if (typeof utmVal !== "undefined") {
+        if (embdSrc.indexOf('?') > 0) {
+          embdSrc = embdSrc + '&' + utmPm + '=' + utmVal;
+        } else {
+          embdSrc = embdSrc + '?' + utmPm + '=' + utmVal;
+        }
+      }
+    }
+    jsEmbdFrm.src = embdSrc;
+  };
+  var zfutm_zfLead = new ZFLead();
+  zfutm_zfLead.zfutm_ini();
+  if (document.readyState == "complete") {
+    zfutm_zfLead.zfutm_iframeSprt();
+    zfutm_zfLead.zfutm_DHtmlSprt();
+  } else {
+    window.addEventListener('load', function() {
+      zfutm_zfLead.zfutm_iframeSprt();
+      zfutm_zfLead.zfutm_DHtmlSprt();
+    }, false);
+  }
+</script>
+<script src="https://www.sysgroup.com/wp-content/themes/sysgroup-theme/assets/dist/scripts.js?ver=1680543244" id="scripts-js-js"></script>
+  <script>
+    (function($) {
+      // Check if facets is present
+      if ($('.facetwp-template').length > 0) {
+        FWP.hooks.addFilter('facetwp/set_options/fselect', function(opts, facet) {
+          if (facet.facet_name == 'insights_type') {
+            opts.showSearch = false;
+            return opts;
+          }
+          if (facet.facet_name == 'insights_services') {
+            opts.showSearch = false;
+            return opts;
+          }
+          if (facet.facet_name == 'insights_solutions') {
+            opts.showSearch = false;
+            return opts;
+          }
+        });
+      }
+    })(jQuery);
+  </script>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1674754881" async></script></body>
+
+</html>

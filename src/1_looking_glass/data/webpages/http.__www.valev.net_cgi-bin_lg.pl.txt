@@ -1,0 +1,70 @@
+<Html>
+<Head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="bg">
+<Title>Looking Glass - SpectrumNet Rousse -  Looking Glass</Title>
+</Head>
+<Body>
+<Center>
+<Img Src="http://office.rousse.spnet.net/logos/freebsd.gif" ALT="Looking Glass - SpectrumNet Rousse">
+<P>
+<B>
+<FORM ACTION="http://web.superhosting.bg/secureinfo" METHOD=POST>
+<INPUT TYPE="hidden" NAME="action" VALUE="lookup">
+Ðåãèñòðèðàéòå .COM çà $ 13.90 ñ áúëãàðñêà äåáèòíà êàðòà!<BR>
+Äîìàéí: <INPUT TYPE="text" NAME="domain">
+<INPUT TYPE="submit" VALUE="Òúðñè!"></FORM>
+<B>
+<P>
+</Center>
+<Center>
+<H2> Looking Glass</H2>
+<H3>Donate Bitcoin: 1JtVwBWjcDubFc7wLNx2TKmvQWX4rcqswK</H3>
+</Center>
+<P>
+<Hr size=2 width=85%>
+<P>
+
+<Form Method="POST" Action="lg.pl">
+
+<Dl>
+<Dt> <B>Query:</b>
+   <DD>
+   <Input type="radio" name="query" value="whois"> whois
+   <DD>
+   <Input type="radio" name="query" value="ping"> ping
+   <DD> 
+   <Input type="radio" name="query" value="ping30"> ping - 30 packets
+   <DD>
+   <Input type="radio" name="query" value="trace"> trace 
+   <DD>
+   <DD>
+<P>
+<DT>
+<B>Address:</B> <Input Name="addr" size=20>
+<B>Router:</B><Select Name = router>
+<Option Value = office Selected> office
+</Select>
+</DL>
+
+<P>
+
+<Input Type="submit" Value="Submit"> | 
+<Input Type="reset" Value="Reset"> 
+</Form>
+
+</Body>
+<P>
+<HR Size=2 Width=85%>
+<P>
+</Body>
+<Tail>
+<Center>
+<I>
+  Please email questions/comments or things you would like added to
+ <A Href="mailto:valev@office.rousse.spnet.net">valev@office.rousse.spnet.net</a>.
+</I>
+<P>
+</Center>
+</Tail>
+</Html>
