@@ -9,7 +9,7 @@ import pickle
 BIN_DIR = '../pickle_bin'
 SRC_DIR = '../src'
 
-NAME_MIN_LEN = 4
+NAME_MIN_LEN = 3
 
 def format_name(name):
     return name.replace('-','').replace(' ','').lower()
