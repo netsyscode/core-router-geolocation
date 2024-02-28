@@ -7,5 +7,3 @@ http://www.infotek.net.id/lg/                       # Need Process
 https://lg.telia.net/                               # Need Process
 http://lg.evolink.net                               # Need Process
 http://lg.warian.net                                # Need Process
-http://lg.lan.switch.ch/lg/lg.cgi                   # Need Process
-http://lg.cern.ch/                                  # Need Process

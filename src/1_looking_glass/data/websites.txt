@@ -577,7 +577,7 @@ http://de.lg.afterburst.com
 http://lg.fra.fognet.ch
 http://www.lg.srt.net.br
 http://lg.iveloz.net.br
-http://lg.as64476.net/
+https://lg.shadow.tech/
 http://lg01.colo01.bbtower.ad.jp/
 http://lg-id.plasawebhost.com/
 https://portal.sthix.net/lg/rs2-cph-ipv4/route-search
