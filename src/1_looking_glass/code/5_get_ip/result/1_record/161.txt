@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass for AHERNET - ping 182.92.165.113</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<H2>Looking Glass for AHERNET - ping 182.92.165.113</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<!-- Can't read AS list from : No such file or directory -->
+<B>Router:</B> Hefei Router 210.45.231.2 IPv6
+<BR>
+<B>Command:</B> ping 182.92.165.113
+<P><PRE><CODE>
+  PING 182.92.165.113: 56  data bytes, press CTRL_C to break
+    Reply from 182.92.165.113: bytes=56 Sequence=1 ttl=53 time=29 ms
+    Reply from 182.92.165.113: bytes=56 Sequence=2 ttl=53 time=30 ms
+    Reply from 182.92.165.113: bytes=56 Sequence=3 ttl=53 time=29 ms
+    Reply from 182.92.165.113: bytes=56 Sequence=4 ttl=53 time=30 ms
+    Reply from 182.92.165.113: bytes=56 Sequence=5 ttl=53 time=30 ms
+
+  --- 182.92.165.113 ping statistics ---
+    5 packet(s) transmitted
+    5 packet(s) received
+    0.00% packet loss
+    round-trip min/avg/max = 29/29/30 ms
+ 
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:james@ustc.edu.cn">james@ustc.edu.cn</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>AS328112 Looking Glass</title>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css"> 
+		<!--
+			body { font: 14px normal Arial, Helvetica, sans-serif; margin: 30px 10%; color: #000; background: #fff; }
+			h2 { font-size: 24px; font-weight: normal; }
+			form { margin: 0; padding: 0 0 15px 0; }
+			p, object { margin: 0; padding: 0 0 15px 0; }
+			hr { margin: 0 0 15px 0; border: none; color: #000; background-color: #000; height: 1px; }
+			a:link, a:visited { color: #3366cc; }
+			a:hover { color: #ccc; }
+			table { border: 0; }
+			table th { background: #3366cc; color: #fff; white-space: nowrap; font-size: 14px; text-align: center; }
+			.form { margin: auto; text-align: left; background: #efefef; border: 5px solid #efefef; }
+			.center { text-align: center; }
+			.error { color: red; font-weight: bold; }
+			.warning { color: blue; font-weight: bold; }
+			.legend { font-size: 12px; margin: auto; }
+		//-->
+		</style>
+		<script type="text/javascript">
+		<!--
+			function load()
+			{
+				var loading = document.getElementById('loading');
+
+				if (loading !== null)
+				{
+					loading.style.display = 'none';
+				}
+			}
+		//-->
+		</script>
+	</head>
+	<body onload="load();">
+		<div class="center"><a href="?"><img src="/logo.png" border="0" alt="lg"></a></div>
+		<div class="center"><h2>AS328112 Looking Glass</h2></div>
+		<hr />
+			<div class="center"><a href="/">Back</a></div>
+<p><b>Timestamp:</b> Sat, 09 Mar 2024 05:13:46 +0000<br/><b>Router:</b> CapeTown (ZA), CR-01-CPT<br/><b>Command:</b> ping ip 182.92.165.113</p>			<div id="loading" style="display:inline" class="center"><p><b>Please wait...</b></p></div>
+			<pre><code>
+ AWIT RouteView Proxy v0.1.0 - Copyright (c) 2017, AllWorldIT. All Rights Reserved.
+PING 182.92.165.113 (182.92.165.113) 56(84) bytes of data.
+64 bytes from 182.92.165.113: icmp_seq=1 ttl=51 time=290 ms
+64 bytes from 182.92.165.113: icmp_seq=3 ttl=51 time=289 ms
+64 bytes from 182.92.165.113: icmp_seq=4 ttl=51 time=289 ms
+64 bytes from 182.92.165.113: icmp_seq=5 ttl=51 time=287 ms
+
+--- 182.92.165.113 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4003ms
+rtt min/avg/max/mdev = 287.663/289.434/290.243/1.099 ms
+
+			</code></pre>
+			<br />
+			<br />
+		<hr />
+		<div class="center">
+			<p><small>Information: <a href="https://stat.ripe.net/AS328112" target="_blank">RIPEstat</a> <a href="http://bgp.he.net/AS328112" target="_blank">he.net</a> <a href="http://as.robtex.com/as328112.html#asinfo" target="_blank">robtex.com</a> <a href="http://as.robtex.com/as328112.png" target="_blank">Peering Map</a> <a href="http://www.peeringdb.com/view.php?asn=328112" target="_blank">PeeringDB</a></small></p>
+			<p>Copyright &copy; 2024 AllWorldIT</p>
+		</div>
+	</body>
+</html>

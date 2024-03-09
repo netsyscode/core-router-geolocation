@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - AS12578</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<FONT FACE=Verdana Color=#616D7E size=3><b>Looking Glass - AS12578</font></b>
+</CENTER>
+<P>
+<P>
+<B>Router:</B> Riga IC2
+<BR>
+<B>Command:</B> ping ipv4 39.105.58.249 source 87.110.223.15
+<P><PRE><CODE>
+Sat Mar  9 08:08:28.332 EETa
+Sending 5, 100-byte ICMP Echos to 39.105.58.249, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 256/256/257 ms
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+</BODY>
+</HTML>

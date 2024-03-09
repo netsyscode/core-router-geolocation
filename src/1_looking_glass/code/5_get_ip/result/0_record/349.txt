@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS2116 Looking Glass - ping count 5 39.105.58.249</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<meta name=description content="AS2116 Looking Glass - ping count 5 39.105.58.249">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as2116.net/"><IMG SRC="/bn_logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS2116 Looking Glass - ping count 5 39.105.58.249</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> Oslo - br1.fn3.as2116.net
+<BR>
+<B>Command:</B> ping count 5 39.105.58.249
+<P><PRE><CODE>
+PING 39.105.58.249 (39.105.58.249): 56 data bytes
+64 bytes from 39.105.58.249: icmp_seq=0 ttl=47 time=165.956 ms
+64 bytes from 39.105.58.249: icmp_seq=1 ttl=47 time=166.756 ms
+64 bytes from 39.105.58.249: icmp_seq=2 ttl=47 time=165.001 ms
+64 bytes from 39.105.58.249: icmp_seq=3 ttl=47 time=164.895 ms
+64 bytes from 39.105.58.249: icmp_seq=4 ttl=47 time=165.404 ms
+
+--- 39.105.58.249 ping statistics ---
+5 packets transmitted, 5 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 164.895/165.602/166.756/0.687 ms
+
+{master}
+</CODE></PRE>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics.</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:peering@as2116.net">peering@as2116.net</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

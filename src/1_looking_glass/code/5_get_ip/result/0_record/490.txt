@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS15967</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<meta name=description content="AS15967">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="https://www.nazwa.pl/"><IMG SRC="/logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS15967</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<div class="wynik">
+<B>Router:</B> Wrocław
+<BR>
+<B>Command:</B> ping 
+<!-- <B>Command:</B> ping -->
+<P><PRE><CODE>
+PING 39.105.58.249 (39.105.58.249): 56 data bytes
+64 bytes from 39.105.58.249: icmp_seq=0 ttl=41 time=321.836 ms
+64 bytes from 39.105.58.249: icmp_seq=1 ttl=41 time=323.915 ms
+64 bytes from 39.105.58.249: icmp_seq=2 ttl=41 time=322.178 ms
+64 bytes from 39.105.58.249: icmp_seq=3 ttl=41 time=321.894 ms
+64 bytes from 39.105.58.249: icmp_seq=5 ttl=41 time=321.926 ms
+64 bytes from 39.105.58.249: icmp_seq=6 ttl=41 time=323.629 ms
+64 bytes from 39.105.58.249: icmp_seq=7 ttl=41 time=323.789 ms
+64 bytes from 39.105.58.249: icmp_seq=8 ttl=41 time=322.298 ms
+64 bytes from 39.105.58.249: icmp_seq=9 ttl=41 time=323.815 ms
+
+--- 39.105.58.249 ping statistics ---
+10 packets transmitted, 9 packets received, 10% packet loss
+round-trip min/avg/max/stddev = 321.836/322.809/323.915/0.888 ms
+</CODE></PRE>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3><CENTER>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</CENTER></FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>Please email questions or comments to <A HREF="mailto:noc[at]nazwa.pl">noc[at]nazwa.pl</A>.</I>
+<P>
+</CENTER>
+<CENTER>
+      <I>
+            By using this Looking Glass tool, you agree to abide by the our <A HREF="https://www.nazwa.pl/rodo/" TARGET="_blank">Policy</A>.
+      </I>
+</CENTER>
+</BODY>
+</HTML>

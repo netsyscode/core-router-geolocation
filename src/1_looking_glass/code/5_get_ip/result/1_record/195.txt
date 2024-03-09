@@ -1,0 +1,1 @@
+{"result":"<p><kbd>Command: ping ip 182.92.165.113 source Loopback100<\/kdb><\/p><pre class=\"pre-scrollable\">\n\n\nType escape sequence to abort.\nSending 5, 100-byte ICMP Echos to 182.92.165.113, timeout is 2 seconds:\nPacket sent with a source address of 197.148.64.17 \n!.!!!\nSuccess rate is 80 percent (4\/5), round-trip min\/avg\/max = 377\/378\/380 ms<\/pre>"}

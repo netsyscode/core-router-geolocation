@@ -9,15 +9,18 @@ import ast
 import json
 from pytz import timezone
 import settings
+from settings import *
 
-DST_DIR = settings.DST_DIR
-LG_LIST = settings.LG_LIST
-RESULT_DIR = settings.RESULT_DIR
-MACHINE_IPS = settings.MACHINE_IPS
 LG_NUM = len(LG_LIST)
 
 result_each_time = []
 
+def get_valid_ip(src, dst):
+    if (src in MACHINE_IPS) or (src in PRIVATE_IPS):
+        return dst
+    else:
+        return src
+    
 for m_idx in range(0, len(MACHINE_IPS)):
 
     time_list = []
@@ -30,7 +33,7 @@ for m_idx in range(0, len(MACHINE_IPS)):
     ip_count_list = [{} for idx in range(LG_NUM)]
 
     now_idx = 0
-    with open(f'{RESULT_DIR}/{m_idx}_receive.pcap', 'rb') as fr:
+    with open(f'{RESULT_DIR}/{m_idx}_receive.warts', 'rb') as fr:
         pcap = dpkt.pcap.Reader(fr)
         for timestamp, buffer in pcap:
             if timestamp > time_list[-1]: break
@@ -53,7 +56,7 @@ for m_idx in range(0, len(MACHINE_IPS)):
             icmp = ip.data
             src_ip = socket.inet_ntoa(ip.src)
             dst_ip = socket.inet_ntoa(ip.dst)
-            this_ip = src_ip if src_ip != MACHINE_IPS[m_idx] else dst_ip
+            this_ip = get_valid_ip(src_ip, dst_ip)
             if this_ip not in ip_count_list[now_idx]:
                 ip_count_list[now_idx][this_ip] = 0
             ip_count_list[now_idx][this_ip] += 1

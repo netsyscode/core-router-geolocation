@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>TELUS (AS852) Looking Glass - ping count 5 39.105.58.249 interface lo0</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+<meta name=description content="TELUS (AS852) Looking Glass - ping count 5 39.105.58.249 interface lo0">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.telus.com/"><IMG SRC="/images/telus2.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>TELUS (AS852) Looking Glass - ping count 5 39.105.58.249 interface lo0</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> TELUS_WEST_LG11
+<BR>
+<B>Command:</B> ping count 5 39.105.58.249 interface lo0
+<P><PRE><CODE>

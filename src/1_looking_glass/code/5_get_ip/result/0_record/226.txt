@@ -1,0 +1,1 @@
+{"result":"<p><kbd>Command: ping count 10 rapid 39.105.58.249 interface lo0<\/kdb><\/p><pre class=\"pre-scrollable\">PING 39.105.58.249 (39.105.58.249): 56 data bytes\n!!!.!.!!!!\n--- 39.105.58.249 ping statistics ---\n10 packets transmitted, 8 packets received, 20% packet loss\nround-trip min\/avg\/max\/stddev = 224.801\/230.738\/236.900\/4.634 ms\n<\/pre>"}

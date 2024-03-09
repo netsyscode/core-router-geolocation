@@ -1,0 +1,46 @@
+<!--
+	$Id: lg.cgi,v 1.21 2003/10/01 10:36:51 cougar Exp (with some modifications by madams)$
+	http://freshmeat.net/projects/lg/
+-->
+<Html>
+<Head>
+<Title>AS8422 - Public Looking Glass - ping count 5 182.92.165.113</Title>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</Head>
+<Body bgcolor="#FFFFFF" text="#000000">
+<Table Border="0" Width="100%"><Tr><Td Align="center"><A HREF="https://www.netcologne.de/"><Img Src="/netcologne.png" Border="0"></A></Td></Tr></Table>
+<Center>
+<H2>AS8422 - Public Looking Glass - ping count 5 182.92.165.113</H2>
+</Center>
+<P>
+<Hr size=2 width=85% noshade>
+<P>
+<B>Router:</B> Cologne
+<BR>
+<B>Command:</B> ping count 5 182.92.165.113
+<P><Pre><code>
+PING 182.92.165.113 (182.92.165.113): 56 data bytes
+64 bytes from 182.92.165.113: icmp_seq=0 ttl=46 time=237.721 ms
+64 bytes from 182.92.165.113: icmp_seq=1 ttl=46 time=233.744 ms
+64 bytes from 182.92.165.113: icmp_seq=2 ttl=46 time=232.101 ms
+64 bytes from 182.92.165.113: icmp_seq=3 ttl=46 time=230.018 ms
+64 bytes from 182.92.165.113: icmp_seq=4 ttl=46 time=234.135 ms
+
+--- 182.92.165.113 ping statistics ---
+5 packets transmitted, 5 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 230.018/233.544/237.721/2.544 ms
+</code></Pre>
+<P>
+<HR Size=2 Width=85% noshade>
+<P>
+</Body>
+<Tail>
+<Center>
+<I>
+  Please email questions or comments to
+ <A Href="mailto:plg@netcologne.de">plg@netcologne.de</a>.
+</I>
+<P>
+</Center>
+</Tail>
+</Html>

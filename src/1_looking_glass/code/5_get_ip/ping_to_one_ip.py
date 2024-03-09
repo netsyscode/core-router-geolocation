@@ -1,22 +1,16 @@
 import os
 import time
 import pickle
+from typing import Tuple
 import requests
 from functools import partial
 import concurrent.futures
+from settings import * 
 
- 
-LG_DIR = '../../'
-FORMER_RESULT_DIR = '../4_filter_by_api/result'
-
-# MACHINE_IP = '173.199.123.79'
-MACHINE_IPS = ['45.32.149.108', '173.199.123.79']
-
-DST_DIR = f'./result/'
 os.system(f'mkdir -p {DST_DIR}')
 
-requests_get = partial(requests.get, timeout=15, verify=False)
-requests_post = partial(requests.post, timeout=15, verify=False)
+requests_get = partial(requests.get, timeout=30, verify=False)
+requests_post = partial(requests.post, timeout=30, verify=False)
 
 def make_ping_str(website):
     if '.php' in website.split('/')[-1]:
@@ -58,7 +52,6 @@ def test_api_2(website, client_ip='8.8.8.8', items=None):
     except:
         pass
     return ''
-
 
 def test_api_3(website, client_ip='8.8.8.8', items=None):
     try:
@@ -117,22 +110,32 @@ list_test_api = [
 input_list = pickle.load(open(f'{FORMER_RESULT_DIR}/list_good_routers.bin', 'rb'))
 print('src: ', len(input_list))
 
-def ping_to_one_machine(m_idx):
+# mark the start and end time for each probe
+def ping_to_one_machine(m_idx) -> Tuple[int, list]:
     os.system(f'mkdir -p {DST_DIR}/{m_idx}_record')
-    TIME_FILE = open(f'{DST_DIR}/{m_idx}_send.txt', 'w')
+    timestamp_list = []
     for idx, one_router in enumerate(input_list):
         begin_time = str(time.time())
-        TIME_FILE.writelines(begin_time + '\n')
+        timestamp_list.append(begin_time)
         test_api = list_test_api[one_router['api_type']]
         result = test_api(one_router['website'], client_ip=MACHINE_IPS[m_idx], items=one_router['geohint'])
         with open(f'{DST_DIR}/{m_idx}_record/{idx}.txt', 'w') as RECORD_FILE:
             RECORD_FILE.writelines(result)
+        # sleep for 5 seconds
+        time.sleep(5)
 
     end_time = str(time.time())
-    TIME_FILE.writelines(end_time + '\n')
+    timestamp_list.append(end_time)
+    return m_idx, timestamp_list
 
 TASK_NUM = 5
+futures = []
 with concurrent.futures.ProcessPoolExecutor(max_workers=TASK_NUM) as executor:
-    futures = [executor.submit(ping_to_one_machine, m_idx) for m_idx in range(len(MACHINE_IPS))]
+    futures.extend([executor.submit(ping_to_one_machine, m_idx) for m_idx in range(len(MACHINE_IPS))])
+    # get the result and write to file
     for future in concurrent.futures.as_completed(futures):
-        future.result()
+        m_idx, timestamp_list = future.result()
+        print(timestamp_list)
+        with open(f'{DST_DIR}/{m_idx}_send.txt', 'w') as TIME_FILE:
+            TIME_FILE.writelines('\n'.join(timestamp_list))
+            print(f'Finish {m_idx} machine, {len(timestamp_list)} lines in TIME_FILE')

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS2854 Looking Glass - ping interface lo0.0 count 5 182.92.165.113</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.orange-ftgroup.ru/"><IMG SRC="/logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS2854 Looking Glass - ping interface lo0.0 count 5 182.92.165.113</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> Moscow09
+<BR>
+<B>Command:</B> ping interface lo0.0 count 5 182.92.165.113
+<P><PRE><CODE>
+PING 182.92.165.113 (182.92.165.113): 56 data bytes
+64 bytes from 182.92.165.113: icmp_seq=0 ttl=47 time=192.474 ms
+64 bytes from 182.92.165.113: icmp_seq=2 ttl=47 time=192.457 ms
+64 bytes from 182.92.165.113: icmp_seq=3 ttl=47 time=192.356 ms
+64 bytes from 182.92.165.113: icmp_seq=4 ttl=47 time=199.530 ms
+
+--- 182.92.165.113 ping statistics ---
+5 packets transmitted, 4 packets received, 20% packet loss
+round-trip min/avg/max/stddev = 192.356/194.204/199.530/3.075 ms
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@rosprint.net">noc@rosprint.net</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

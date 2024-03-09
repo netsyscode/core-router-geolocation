@@ -1,7 +1,9 @@
 import os
 import pickle
 
-MACHINE_IPS = ['45.32.149.108', '173.199.123.79']
+MACHINE_IPS = ['39.105.58.249', '182.92.165.113']
+# maybe the machine uses its private ip
+PRIVATE_IPS = ['172.29.45.139', '172.29.45.143']
 
 FORMER_RESULT_DIR = '../4_filter_by_api/result'
 LG_LIST = pickle.load(open(f'{FORMER_RESULT_DIR}/list_good_routers.bin', 'rb'))

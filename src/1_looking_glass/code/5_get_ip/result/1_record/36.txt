@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass CorpNet - ping 182.92.165.113</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+<meta name=description content="Looking Glass CorpNet - ping 182.92.165.113">
+<meta name=keywords content="Looking glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv6, Cisco, Juniper, Zebra, Quagga, internet"/>
+<style>em { font-style: normal; background: #ffff00; color: #000000; }</style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://tools.corpnet.net.id"><IMG SRC="/img/logo.png" WIDTH="20%" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<B>Router:</B> StarNet BDO
+<BR>
+<B>Command:</B> ping 182.92.165.113
+<P><PRE><CODE>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 182.92.165.113, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 234/260/276 ms
+</CODE></PRE>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE=-3>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<A HREF="http://tools.corpnet.net.id/lg">Home</A>
+<BR><BR>
+<I>Please email questions or comments to <A HREF="mailto:noc@corpnet.net.id">noc@corpnet.net.id</A>.</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

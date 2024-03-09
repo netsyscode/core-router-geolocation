@@ -1,0 +1,1 @@
+{"result":"<p><kbd>Command:  ping 39.105.58.249 repeat 10 source Bundle-Ether1.6<\/kdb><\/p><pre class=\"pre-scrollable\">\r\nType escape sequence to abort.\r\nSending 10, 100-byte ICMP Echos to 39.105.58.249 timeout is 2 seconds:\r\n!!!!!!!!!!\r\nSuccess rate is 100 percent (10\/10), round-trip min\/avg\/max = 199\/199\/200 ms<\/pre>"}

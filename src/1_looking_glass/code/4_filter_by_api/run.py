@@ -4,7 +4,7 @@ import pickle
 import requests
 from functools import partial
 
-FORMER_RESULT_DIR = '../3_filter_by_geoinfo/result'
+FORMER_RESULT_DIR = '../3_validate/result'
 
 # 1. use api to geolocate successfully
 # 2. cannot use api
