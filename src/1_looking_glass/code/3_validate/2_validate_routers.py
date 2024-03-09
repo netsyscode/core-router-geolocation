@@ -1,1 +1,0 @@
-# TODO: let the routers ping each other and check the latency
