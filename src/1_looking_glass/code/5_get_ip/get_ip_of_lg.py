@@ -20,29 +20,28 @@ def get_valid_ip(src, dst):
         return dst
     else:
         return src
-    
-for m_idx in range(0, len(MACHINE_IPS)):
 
+# start_time & end_time timestamp list
+time_lists = []
+
+for m_idx in range(0, len(MACHINE_IPS)):
     time_list = []
     with open(f'{RESULT_DIR}/{m_idx}_send.txt', 'r') as srcfile:
-        for row in srcfile:
-            time_list.append(float(row.strip()))
-
-    assert(len(time_list) == LG_NUM+1)
+        # 2 rows in a pair, start and end
+        for idx in range(LG_NUM):
+            start_time = float(srcfile.readline().strip())
+            end_time = float(srcfile.readline().strip())
+            time_list.append((start_time, end_time))
+    time_lists.append(time_list)
 
     ip_count_list = [{} for idx in range(LG_NUM)]
 
-    now_idx = 0
+# log the timestamp of the icmp packet
+icmp_timestamp_list = [[], []]
+for m_idx in range(0, len(MACHINE_IPS)):
     with open(f'{RESULT_DIR}/{m_idx}_receive.warts', 'rb') as fr:
         pcap = dpkt.pcap.Reader(fr)
         for timestamp, buffer in pcap:
-            if timestamp > time_list[-1]: break
-
-            for idx in range(now_idx, LG_NUM):
-                if time_list[idx] < timestamp < time_list[idx+1]:
-                    now_idx = idx
-                    break
-
             # 解包, 物理层
             ethernet = dpkt.ethernet.Ethernet(buffer)
             # 判断网络层是否存在
@@ -57,24 +56,40 @@ for m_idx in range(0, len(MACHINE_IPS)):
             src_ip = socket.inet_ntoa(ip.src)
             dst_ip = socket.inet_ntoa(ip.dst)
             this_ip = get_valid_ip(src_ip, dst_ip)
-            if this_ip not in ip_count_list[now_idx]:
-                ip_count_list[now_idx][this_ip] = 0
-            ip_count_list[now_idx][this_ip] += 1
+            # mark the timestamp of the icmp packet
+            icmp_timestamp_list[m_idx].append((timestamp, this_ip))
+        # sort by timestamp, ascending
+        icmp_timestamp_list[m_idx].sort(key=operator.itemgetter(0))
 
-    result_each_time.append(ip_count_list)
-
+# intersection the icmp timestamp with time_list duration 
+intersect_list = [[set() for _ in range(LG_NUM)] for _ in range(len(MACHINE_IPS))]
+for m_idx in range(0, len(MACHINE_IPS)):
+    for lg_idx in range(LG_NUM):
+        start_time, end_time = time_lists[m_idx][lg_idx]
+        cur_idx = 0
+        while icmp_timestamp_list[m_idx][cur_idx][0] <= start_time:
+            cur_idx += 1
+        for timestamp, this_ip in icmp_timestamp_list[m_idx][cur_idx:]:
+            if timestamp < end_time:
+                intersect_list[m_idx][lg_idx].add(this_ip)
+            else:
+                break    
+        
 dict_lg_info = {}
+bad_lg_info = []
 for lg_idx in range(LG_NUM):
-    set_list = []
-    for m_idx in range(len(MACHINE_IPS)):
-        set_list.append(set(result_each_time[m_idx][lg_idx].keys()))
-        print(result_each_time[m_idx][lg_idx])
-    candiates = list(set.intersection(*set_list))
+    lg_intersections = [intersect_list[m_idx][lg_idx] for m_idx in range(len(MACHINE_IPS))]
+    candiates = list(set.intersection(*lg_intersections))
     print(candiates)
     print('----------------------')
     if len(candiates) == 1:
         dict_lg_info[candiates[0]] = LG_LIST[lg_idx]
+    else:
+        # log the infomation of the lg
+        bad_lg_info.append(LG_LIST[lg_idx])
 
 print('dst: ', len(dict_lg_info))
+print('bad: ', len(bad_lg_info))
 
 pickle.dump(dict_lg_info, open(f'{DST_DIR}/dict_lg_info.bin', 'wb'))
+json.dump(bad_lg_info, open(f'{DST_DIR}/bad_lg_info.json', 'w'), indent=4, ensure_ascii=False)

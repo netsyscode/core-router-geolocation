@@ -1,4 +1,5 @@
 import os
+import random
 import time
 import pickle
 from typing import Tuple
@@ -7,10 +8,12 @@ from functools import partial
 import concurrent.futures
 from settings import * 
 
+requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
+
 os.system(f'mkdir -p {DST_DIR}')
 
-requests_get = partial(requests.get, timeout=30, verify=False)
-requests_post = partial(requests.post, timeout=30, verify=False)
+requests_get = partial(requests.get, timeout=10, verify=False)
+requests_post = partial(requests.post, timeout=10, verify=False)
 
 def make_ping_str(website):
     if '.php' in website.split('/')[-1]:
@@ -108,34 +111,43 @@ list_test_api = [
 ]
 
 input_list = pickle.load(open(f'{FORMER_RESULT_DIR}/list_good_routers.bin', 'rb'))
-print('src: ', len(input_list))
+LG_NUM = len(input_list)
+print('src: ', LG_NUM)
 
-# mark the start and end time for each probe
-def ping_to_one_machine(m_idx) -> Tuple[int, list]:
-    os.system(f'mkdir -p {DST_DIR}/{m_idx}_record')
-    timestamp_list = []
-    for idx, one_router in enumerate(input_list):
-        begin_time = str(time.time())
-        timestamp_list.append(begin_time)
-        test_api = list_test_api[one_router['api_type']]
-        result = test_api(one_router['website'], client_ip=MACHINE_IPS[m_idx], items=one_router['geohint'])
-        with open(f'{DST_DIR}/{m_idx}_record/{idx}.txt', 'w') as RECORD_FILE:
-            RECORD_FILE.writelines(result)
-        # sleep for 5 seconds
-        time.sleep(5)
+# a function to ping to one lg
+def ping_to_one_lg(m_idx, lg_idx) -> Tuple[int, int, int, list]:
+    one_router = input_list[lg_idx]
+    test_api = list_test_api[one_router['api_type']]
+    start_time = time.time()
+    result = test_api(one_router['website'], client_ip=MACHINE_IPS[m_idx], items=one_router['geohint'])
+    return m_idx, lg_idx, start_time, result[0:10]
 
-    end_time = str(time.time())
-    timestamp_list.append(end_time)
-    return m_idx, timestamp_list
-
-TASK_NUM = 5
+# generate tasks at random order
+task_params = []
+timestamp_list = []
+for m_idx in range(len(MACHINE_IPS)):
+    timestamp_list.append([0 for _ in range(2 * LG_NUM)])
+    for lg_idx in range(len(input_list)):
+        task_params.append((m_idx, lg_idx))
+random.shuffle(task_params)
+    
+TASK_NUM = 4
 futures = []
 with concurrent.futures.ProcessPoolExecutor(max_workers=TASK_NUM) as executor:
-    futures.extend([executor.submit(ping_to_one_machine, m_idx) for m_idx in range(len(MACHINE_IPS))])
+    for m_idx, lg_idx in task_params:
+        futures.append(executor.submit(ping_to_one_lg, m_idx, lg_idx))
+    
     # get the result and write to file
     for future in concurrent.futures.as_completed(futures):
-        m_idx, timestamp_list = future.result()
-        print(timestamp_list)
-        with open(f'{DST_DIR}/{m_idx}_send.txt', 'w') as TIME_FILE:
-            TIME_FILE.writelines('\n'.join(timestamp_list))
-            print(f'Finish {m_idx} machine, {len(timestamp_list)} lines in TIME_FILE')
+        m_idx, lg_idx, start_time, result = future.result()
+        end_time = time.time()
+        timestamp_list[m_idx][2 * lg_idx] = str(start_time)
+        timestamp_list[m_idx][2 * lg_idx + 1] = str(end_time)
+        print(f'machine {m_idx} lg {lg_idx}, duration:{end_time- start_time}, res: {result[:10]}')
+        
+for m_idx in range(len(MACHINE_IPS)):
+    time_list = timestamp_list[m_idx]
+    with open(f'{DST_DIR}/{m_idx}_send.txt', 'w') as TIME_FILE:
+        TIME_FILE.writelines('\n'.join(time_list))
+
+print(f'Finish all probing')

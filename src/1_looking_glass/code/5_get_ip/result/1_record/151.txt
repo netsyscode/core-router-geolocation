@@ -1,1 +1,0 @@
-{"result":"<p><kbd>Command:  ping 182.92.165.113 repeat 10 source 46.20.255.35<\/kdb><\/p><pre class=\"pre-scrollable\">\n\nSat Mar  9 05:29:32.713 UTC\nType escape sequence to abort.\nSending 10, 100-byte ICMP Echos to 182.92.165.113, timeout is 2 seconds:\n!!!!!!!!!.\nSuccess rate is 90 percent (9\/10), round-trip min\/avg\/max = 235\/246\/252 ms\n<\/pre>"}

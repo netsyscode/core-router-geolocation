@@ -1,0 +1,746 @@
+[
+    {
+        "website": "https://lg.as204003.net/",
+        "geohint": [
+            "",
+            "Amsterdam, NL",
+            ""
+        ],
+        "ipv4hint": "94.142.242.20",
+        "ipv6hint": "2a06:e881:5803:42:4c0:deff:fe2e:5910",
+        "coordinate": [
+            52.37403,
+            4.88969
+        ],
+        "country_code": "nl",
+        "city": "amsterdam",
+        "api_type": 0
+    },
+    {
+        "website": "http://safnog.net/",
+        "geohint": [
+            "Amsterdam, Netherlands",
+            "lg-01-ams.nl",
+            "lg-01-ams.nl"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            52.37403,
+            4.88969
+        ],
+        "country_code": "nl",
+        "city": "amsterdam",
+        "api_type": 1
+    },
+    {
+        "website": "http://w82.gubo.org/LookingGlass/",
+        "geohint": [
+            "",
+            "Ashburn",
+            ""
+        ],
+        "ipv4hint": "199.119.65.132",
+        "ipv6hint": "None",
+        "coordinate": [
+            31.70601,
+            -83.65322
+        ],
+        "country_code": "us",
+        "city": "ashburn",
+        "api_type": 0
+    },
+    {
+        "website": "http://lg.gcomm.com.au",
+        "geohint": [
+            "AS17766 Nodes",
+            "Brisbane [NextDC B1]",
+            "Brisbane [NextDC B1]"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -27.46794,
+            153.02809
+        ],
+        "country_code": "au",
+        "city": "brisbane",
+        "api_type": 1
+    },
+    {
+        "website": "http://looking-glass.iinet.net.au/",
+        "geohint": [
+            "AS4739 Ping/Traceroute",
+            "AS4739 - Brisbane, AU",
+            "AS4739 - Brisbane, AU"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -27.46794,
+            153.02809
+        ],
+        "country_code": "au",
+        "city": "brisbane",
+        "api_type": 1
+    },
+    {
+        "website": "https://lg.as328112.net/",
+        "geohint": [
+            "AS328112",
+            "cr-01-cpt.za",
+            "CapeTown (ZA), CR-01-CPT"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -33.92584,
+            18.42322
+        ],
+        "country_code": "za",
+        "city": "capetown",
+        "api_type": 2
+    },
+    {
+        "website": "http://lg.active-servers.com",
+        "geohint": [
+            "",
+            "Frankfurt / Germany",
+            ""
+        ],
+        "ipv4hint": "91.217.251.2",
+        "ipv6hint": "None",
+        "coordinate": [
+            50.11552,
+            8.68417
+        ],
+        "country_code": "de",
+        "city": "frankfurt",
+        "api_type": 0
+    },
+    {
+        "website": "http://probe-networks.de/lg/",
+        "geohint": [
+            "Germany",
+            "Frankfurt Equinix FR5 Kleyerstr.90",
+            "Frankfurt Equinix FR5 Kleyerstr.90"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            50.11552,
+            8.68417
+        ],
+        "country_code": "de",
+        "city": "frankfurt",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "bbr02.anx25.fra.de",
+            "DE, Frankfurt"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            50.11552,
+            8.68417
+        ],
+        "country_code": "de",
+        "city": "frankfurt",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "bbr02.anx82.fra.de",
+            "DE, Frankfurt (NTT FRA1)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            50.11552,
+            8.68417
+        ],
+        "country_code": "de",
+        "city": "frankfurt",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx22.hkg.hk",
+            "HK, Hongkong"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            22.27832,
+            114.17469
+        ],
+        "country_code": "hk",
+        "city": "hongkong",
+        "api_type": 5
+    },
+    {
+        "website": "https://lg.tr.hostigger.com/",
+        "geohint": [
+            "",
+            "Istanbul",
+            ""
+        ],
+        "ipv4hint": "185.219.135.57",
+        "ipv6hint": "None",
+        "coordinate": [
+            41.01384,
+            28.94966
+        ],
+        "country_code": "tr",
+        "city": "istanbul",
+        "api_type": 0
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx98.jkt.id",
+            "ID, Jakarta"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -6.21462,
+            106.84513
+        ],
+        "country_code": "id",
+        "city": "jakarta",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx67.jnb.za",
+            "ZA, Johannesburg"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -26.20227,
+            28.04363
+        ],
+        "country_code": "za",
+        "city": "johannesburg",
+        "api_type": 5
+    },
+    {
+        "website": "http://safnog.net/",
+        "geohint": [
+            "Kampala, Uganda",
+            "lg-01-ebb.ug",
+            "lg-01-ebb.ug"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            0.31628,
+            32.58219
+        ],
+        "country_code": "ug",
+        "city": "kampala",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "bbr02.anx89.kfb.at",
+            "AT, Kapfenberg, Earth Data Safe"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            47.44458,
+            15.29331
+        ],
+        "country_code": "at",
+        "city": "kapfenberg",
+        "api_type": 5
+    },
+    {
+        "website": "https://lg.nazwa.pl/",
+        "geohint": [
+            "nazwa.pl",
+            "Katowice",
+            "Katowice"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            50.25841,
+            19.02754
+        ],
+        "country_code": "pl",
+        "city": "katowice",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx97.kul.my",
+            "MY, Kuala Lumpur"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            3.1412,
+            101.68653
+        ],
+        "country_code": "my",
+        "city": "kualalumpur",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg.seacomnet.com/",
+        "geohint": [
+            "London, United Kingdom",
+            "lg-01-lhr.uk",
+            "lg-01-lhr.uk"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            51.50853,
+            -0.12574
+        ],
+        "country_code": "gb",
+        "city": "london",
+        "api_type": 1
+    },
+    {
+        "website": "http://safnog.net/",
+        "geohint": [
+            "London, United Kingdom",
+            "lg-01-lhr.uk",
+            "lg-01-lhr.uk"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            51.50853,
+            -0.12574
+        ],
+        "country_code": "gb",
+        "city": "london",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx13.lon.gb",
+            "GB, London"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            51.50853,
+            -0.12574
+        ],
+        "country_code": "gb",
+        "city": "london",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg-la.winity.io/",
+        "geohint": [
+            "",
+            "Los Angeles, CA",
+            ""
+        ],
+        "ipv4hint": "23.249.224.2",
+        "ipv6hint": "None",
+        "coordinate": [
+            34.05223,
+            -118.24368
+        ],
+        "country_code": "us",
+        "city": "losangeles",
+        "api_type": 0
+    },
+    {
+        "website": "http://lg.la.psy.pnzhost.com",
+        "geohint": [
+            "",
+            "Los Angeles CA, USA",
+            ""
+        ],
+        "ipv4hint": "74.117.63.190",
+        "ipv6hint": "2604:6600:0:e::193a:7497",
+        "coordinate": [
+            34.05223,
+            -118.24368
+        ],
+        "country_code": "us",
+        "city": "losangeles",
+        "api_type": 0
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx33.lax.us",
+            "US, Los Angeles"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            34.05223,
+            -118.24368
+        ],
+        "country_code": "us",
+        "city": "losangeles",
+        "api_type": 5
+    },
+    {
+        "website": "https://lg.luxnetwork.eu/",
+        "geohint": [
+            "",
+            "win-ebrc-br01.as29467.net",
+            "Border Router, EBRC West, Windhof, Luxembourg (Juniper)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "country_code": "lu",
+        "city": "luxembourg",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx85.mnz.us",
+            "US, Manassas (COPT DC-6)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            38.75095,
+            -77.47527
+        ],
+        "country_code": "us",
+        "city": "manassas",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx15.mnc.gb",
+            "GB, Manchester"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            53.48095,
+            -2.23743
+        ],
+        "country_code": "gb",
+        "city": "manchester",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx76.mrs.fr",
+            "FR, Marseilles"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            43.29695,
+            5.38107
+        ],
+        "country_code": "fr",
+        "city": "marseilles",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg.gcomm.com.au",
+        "geohint": [
+            "AS17766 Nodes",
+            "Melbourne [Equinix ME1]",
+            "Melbourne [Equinix ME1]"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -37.814,
+            144.96332
+        ],
+        "country_code": "au",
+        "city": "melbourne",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx61.qro.mx",
+            "MX, Mexico City"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            19.42847,
+            -99.12766
+        ],
+        "country_code": "mx",
+        "city": "mexicocity",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx53.mia.us",
+            "US, Miami"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            36.87451,
+            -94.87746
+        ],
+        "country_code": "us",
+        "city": "miami",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg.as28929.net/",
+        "geohint": [
+            "AS28929 backbone",
+            "vsix2",
+            "VSIX2 (Padua)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            45.40797,
+            11.88586
+        ],
+        "country_code": "it",
+        "city": "padova",
+        "api_type": 1
+    },
+    {
+        "website": "https://lg.luxnetwork.eu/",
+        "geohint": [
+            "",
+            "par-th2-br01.as29467.net",
+            "Border Router, Telehouse 2, Paris, France (Juniper)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            48.85341,
+            2.3488
+        ],
+        "country_code": "fr",
+        "city": "paris",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg.gcomm.com.au",
+        "geohint": [
+            "AS17766 Nodes",
+            "Perth [Perth IX]",
+            "Perth [Perth IX]"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -31.95224,
+            115.8614
+        ],
+        "country_code": "au",
+        "city": "perth",
+        "api_type": 1
+    },
+    {
+        "website": "https://lg.quantumcore.com.au/",
+        "geohint": [
+            "",
+            "Sydney",
+            ""
+        ],
+        "ipv4hint": "103.246.250.3",
+        "ipv6hint": "2406:3a00:10::658d:d023",
+        "coordinate": [
+            -33.86785,
+            151.20732
+        ],
+        "country_code": "au",
+        "city": "sydney",
+        "api_type": 0
+    },
+    {
+        "website": "http://lg.gcomm.com.au",
+        "geohint": [
+            "AS17766 Nodes",
+            "Sydney [Equinix SY2]",
+            "Sydney [Equinix SY2]"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -33.86785,
+            151.20732
+        ],
+        "country_code": "au",
+        "city": "sydney",
+        "api_type": 1
+    },
+    {
+        "website": "http://lg.gcomm.com.au",
+        "geohint": [
+            "AS17766 Nodes",
+            "Sydney [Equinix SY3]",
+            "Sydney [Equinix SY3]"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -33.86785,
+            151.20732
+        ],
+        "country_code": "au",
+        "city": "sydney",
+        "api_type": 1
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx18.syd.au",
+            "AU, Sydney"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -33.86785,
+            151.20732
+        ],
+        "country_code": "au",
+        "city": "sydney",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx21.tpe.tw",
+            "TW, Taipei"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            25.04776,
+            121.53185
+        ],
+        "country_code": "tw",
+        "city": "taipei",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx72.tsn.cn",
+            "CN, Tianjin"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            39.14222,
+            117.17667
+        ],
+        "country_code": "cn",
+        "city": "tianjin",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx11.tyo.jp",
+            "JP, Tokyo"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            35.6895,
+            139.69171
+        ],
+        "country_code": "jp",
+        "city": "tokyo",
+        "api_type": 5
+    },
+    {
+        "website": "https://bgp.anexia-it.net/",
+        "geohint": [
+            "",
+            "dcr02.anx55.tor.ca",
+            "CA, Toronto"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            -33.01357,
+            151.59373
+        ],
+        "country_code": "au",
+        "city": "toronto",
+        "api_type": 5
+    },
+    {
+        "website": "http://lg.as28929.net/",
+        "geohint": [
+            "AS28929 backbone",
+            "bras-ve-07",
+            "bras-ve-07 (Venice POP)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            45.43713,
+            12.33265
+        ],
+        "country_code": "it",
+        "city": "venice",
+        "api_type": 1
+    },
+    {
+        "website": "https://lg.ip-max.net",
+        "geohint": [
+            "",
+            "router2",
+            "Zurich (Equinix ZH5)"
+        ],
+        "ipv4hint": "",
+        "ipv6hint": "",
+        "coordinate": [
+            47.36667,
+            8.55
+        ],
+        "country_code": "ch",
+        "city": "zurich",
+        "api_type": 5
+    }
+]
