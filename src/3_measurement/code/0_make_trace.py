@@ -28,6 +28,7 @@ requests_post = partial(requests.post, timeout=10, verify=False)
 
 HOSTNAME_REGEX = r'^((([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9]))$'
 IP_ADDR_REGEX = r'.*(\d+\.\d+\.\d+\.\d+).*'
+DELAY_REGEX = r'^(\d+\.)?\d+$'  # float number or integer
 
 STOP_WORDS = [
     (u'&nbsp;', ' ') ,
@@ -49,19 +50,58 @@ def make_trace_str(website):
         website = website + '/'
     return website
 
+# process the info of one hop
+# maybe several interfaces in one hop
+def process_one_hop(info: List[str]) -> Dict:
+    interface_dict = {}
+    # check if there re more than one interface
+    # everyinterface should have: 0-1 hostname / 1 ip / 1-3 time
+    # there're 3 conditions: hostname (ip) / ip (ip) / ip
+    ip = None
+    hostname = None
+    # mark a new interface
+    clear_tag = False
+    for i in range(0, len(info)):
+        item: str = info[i]
+        # an ip maybe matched with the hostname regex
+        # we should determine the hostname and ip here
+        # maybe '*' or 'ms' 'msec' or sth else 
+        if re.match(DELAY_REGEX, item):
+            if (not ip) and hostname:
+                hostname, ip = '', hostname
+            time = float(item)
+            # add it if not exist, or update if the time is smaller
+            if (ip, hostname) not in interface_dict or (time < interface_dict[(ip, hostname)]):
+                interface_dict[(ip, hostname)] = time
+            clear_tag = False
+        elif re.search(r'\.', item) and re.match(HOSTNAME_REGEX, item):
+            if not clear_tag:
+                clear_tag = True
+                ip = ''
+            hostname = item.strip('()[]\{\}')
+        elif re.search(IP_ADDR_REGEX, item):
+            if not clear_tag:
+                clear_tag = True
+                hostname = ''
+            ip = item.strip('()[]\{\}')
+        else:
+            continue
+    return interface_dict
+
 def extract_trace_res(text: str) -> List[List[List[str]]]:
     for raw, replace in STOP_WORDS:
-        text = re.sub(raw, replace, text, re.S)
+        text = re.sub(raw, replace, text, flags=re.S)
     # match the regex, until their is a match
     for regex in REGEX_LIST:
-        match = re.search(regex, text, re.S)
+        match = re.search(regex, text, flags=re.S)
         if match:
             break
     # split the match to lines
     lines = match.group(0).split('\\n')
     new_lines = []
     for line in lines:
-        new_lines.extend([line.strip() for line in line.split('\n')])
+        splited_lines = line.split('\n')
+        new_lines.extend([line.strip() for line in splited_lines])
 
     # extract everyhop of the trace
     idx = 0
@@ -74,35 +114,29 @@ def extract_trace_res(text: str) -> List[List[List[str]]]:
         useful_lines.append(new_lines[idx])
         idx += 1
     # extract all lines start with a number
-    hops = []
+    hops: list[dict] = []
     for line in useful_lines:
         # a stardard hop: number hostname (ip) time1 time2 time3
-        # duplicate hop: number? hostname (ip) time
+        # duplicate hop: number? (hostname (ip) time+)+
         info = line.split()
         if re.match(r'^\d+$', info[0]):
             hop = int(info[0])
             info = info[1:]
-            hops.append([])
-        # get the min time
-        min_time = 100000
-        hostname = ''
-        not_anoymous = False
-        idx = 0
-        for i in range(0, len(info)):
-            item: str = info[i]
-            if re.match(r'^(\d+\.)?\d+$', item):
-                time = float(item)
-                if time < min_time:
-                    min_time = time
-                not_anoymous = True
-            elif re.search(IP_ADDR_REGEX, item) and not not_anoymous:
-                ip = item.strip('()[]\{\}')
-            elif re.search(r'\.', item) and re.match(HOSTNAME_REGEX, item) and not not_anoymous:
-                hostname = item.strip('()[]\{\}')
-        # collect the hostname, ip and min time
-        if not_anoymous:
-            hops[hop-1].append([hostname, ip, min_time])
-    return hops if len(hops) else None
+            hops.append({})
+        hop_info = process_one_hop(info)
+        # merge the dict into one
+        # if there are two same ip, update the smaller time
+        if len(hop_info):
+            hops[-1].setdefault
+            for key, value in hop_info.items():
+                if key not in hops[-1] or value < hops[-1][key]:
+                    hops[-1][key] = value
+# change to the format of list
+    hops_list = []
+    for hop in hops:
+        hops_list.append([(key[0], key[1], value) for key, value in hop.items()])
+    return hops_list if len(hops_list) else None
+
 
 def test_api_0(website, client_ip='8.8.8.8', items=None):
     try:
